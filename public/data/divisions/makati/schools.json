@@ -1,0 +1,104 @@
+{
+  "division": {
+    "slug": "makati",
+    "name": "MAKATI"
+  },
+  "schools": [
+    {
+      "id": "bangkal-es-main",
+      "name": "BANGKAL ES MAIN"
+    },
+    {
+      "id": "bangkal-hs",
+      "name": "BANGKAL HS"
+    },
+    {
+      "id": "bangkal-senior-high-school",
+      "name": "BANGKAL SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "f-benitez-es-iii",
+      "name": "F. BENITEZ ES III"
+    },
+    {
+      "id": "f-benitez-es-main",
+      "name": "F. BENITEZ ES-MAIN"
+    },
+    {
+      "id": "gen-pio-del-pilar-nhs",
+      "name": "GEN. PIO DEL PILAR NHS"
+    },
+    {
+      "id": "guadalupe-viejo-es",
+      "name": "GUADALUPE VIEJO ES"
+    },
+    {
+      "id": "hen-pio-del-pilar-es-i",
+      "name": "HEN. PIO DEL PILAR ES I"
+    },
+    {
+      "id": "hen-pio-del-pilar-es-main",
+      "name": "HEN. PIO DEL PILAR ES MAIN"
+    },
+    {
+      "id": "jose-magsaysay-es",
+      "name": "JOSE MAGSAYSAY ES"
+    },
+    {
+      "id": "la-paz-es",
+      "name": "LA PAZ ES"
+    },
+    {
+      "id": "makati-high-school",
+      "name": "MAKATI HIGH SCHOOL"
+    },
+    {
+      "id": "makati-integrated-school",
+      "name": "MAKATI INTEGRATED SCHOOL"
+    },
+    {
+      "id": "maximo-estrella-es",
+      "name": "MAXIMO ESTRELLA ES"
+    },
+    {
+      "id": "maximo-estrella-senior-high-school",
+      "name": "MAXIMO ESTRELLA SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "nemesio-i-yabut-integrated-school",
+      "name": "NEMESIO I. YABUT INTEGRATED SCHOOL"
+    },
+    {
+      "id": "nemesio-i-yabut-senior-high-school",
+      "name": "NEMESIO I. YABUT SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "nicanor-c-garcia-sr-es",
+      "name": "NICANOR C. GARCIA, SR. ES"
+    },
+    {
+      "id": "palanan-es",
+      "name": "PALANAN ES"
+    },
+    {
+      "id": "san-antonio-nhs",
+      "name": "SAN ANTONIO NHS"
+    },
+    {
+      "id": "san-antonio-village-es",
+      "name": "SAN ANTONIO VILLAGE ES"
+    },
+    {
+      "id": "san-isidro-nhs",
+      "name": "SAN ISIDRO NHS"
+    },
+    {
+      "id": "san-jose-es",
+      "name": "SAN JOSE ES"
+    },
+    {
+      "id": "university-of-makati",
+      "name": "UNIVERSITY OF MAKATI"
+    }
+  ]
+}

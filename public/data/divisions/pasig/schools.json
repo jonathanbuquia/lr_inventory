@@ -1,0 +1,188 @@
+{
+  "division": {
+    "slug": "pasig",
+    "name": "PASIG"
+  },
+  "schools": [
+    {
+      "id": "bagong-ilog-elementary-school",
+      "name": "BAGONG ILOG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bambang-elementary-school",
+      "name": "BAMBANG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "buting-elementary-school",
+      "name": "BUTING ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "caniogan-elementary-school",
+      "name": "CANIOGAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "de-castro-elementary-school",
+      "name": "DE CASTRO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dela-paz-elementary-school",
+      "name": "DELA PAZ ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dela-paz-high-school",
+      "name": "DELA PAZ HIGH SCHOOL"
+    },
+    {
+      "id": "dr-sixto-antonio-elementary-school",
+      "name": "DR. SIXTO ANTONIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "eusebio-high-school",
+      "name": "EUSEBIO HIGH SCHOOL"
+    },
+    {
+      "id": "francisco-legaspi-memorial-school",
+      "name": "FRANCISCO LEGASPI MEMORIAL SCHOOL"
+    },
+    {
+      "id": "ilugin-elementary-school",
+      "name": "ILUGIN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "kalawaan-elementary-school",
+      "name": "KALAWAAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "kapitolyo-high-school",
+      "name": "KAPITOLYO HIGH SCHOOL"
+    },
+    {
+      "id": "liberato-damian-elementary-school",
+      "name": "LIBERATO DAMIAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "manggahan-elementary-school",
+      "name": "MANGGAHAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "manggahan-high-school",
+      "name": "MANGGAHAN HIGH SCHOOL"
+    },
+    {
+      "id": "maybunga-elementary-school-1",
+      "name": "MAYBUNGA ELEMENTARY SCHOOL (1)"
+    },
+    {
+      "id": "maybunga-elementary-school-annex",
+      "name": "MAYBUNGA ELEMENTARY SCHOOL ANNEX"
+    },
+    {
+      "id": "maybunga-elementary-school",
+      "name": "MAYBUNGA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "nagpayong-elementary-school",
+      "name": "NAGPAYONG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "nagpayong-high-school",
+      "name": "NAGPAYONG HIGH SCHOOL"
+    },
+    {
+      "id": "napico-elementary-school",
+      "name": "NAPICO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "oranbo-elementary-school",
+      "name": "ORANBO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "palatiw-elementary-school",
+      "name": "PALATIW ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pasig-city-science-hs",
+      "name": "PASIG CITY SCIENCE HS"
+    },
+    {
+      "id": "pasig-elementary-school",
+      "name": "PASIG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pinagbuhatan-elementary-school",
+      "name": "PINAGBUHATAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pinagbuhatan-high-school",
+      "name": "PINAGBUHATAN HIGH SCHOOL"
+    },
+    {
+      "id": "pineda-elementary-school",
+      "name": "PINEDA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "rizal-experimental-station-and-pilot-school-for-cottage-industries-respsci",
+      "name": "RIZAL EXPERIMENTAL STATION AND PILOT SCHOOL FOR COTTAGE INDUSTRIES (RESPSCI)"
+    },
+    {
+      "id": "rizal-high-school",
+      "name": "RIZAL HIGH SCHOOL"
+    },
+    {
+      "id": "rosario-elementary-school",
+      "name": "ROSARIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "sagad-elementary-school",
+      "name": "SAGAD ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "sagad-high-school",
+      "name": "SAGAD HIGH SCHOOL"
+    },
+    {
+      "id": "san-joaquin-elementary-school",
+      "name": "SAN JOAQUIN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-joaquin-kalawaan-hs",
+      "name": "SAN JOAQUIN-KALAWAAN HS"
+    },
+    {
+      "id": "san-lorenzo-ruiz-elementary-school",
+      "name": "SAN LORENZO RUIZ ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-lorenzo-ruiz-senior-high-school",
+      "name": "SAN LORENZO RUIZ SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "san-miguel-elementary-school",
+      "name": "SAN MIGUEL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "santolan-elementary-school",
+      "name": "SANTOLAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "santolan-high-school",
+      "name": "SANTOLAN HIGH SCHOOL"
+    },
+    {
+      "id": "shs-in-buting-pasig-city",
+      "name": "SHS IN BUTING, PASIG CITY"
+    },
+    {
+      "id": "sta-lucia-high-school",
+      "name": "STA. LUCIA HIGH SCHOOL"
+    },
+    {
+      "id": "sto-nino-elementary-school",
+      "name": "STO. NINO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "ugong-pasig-national-high-school",
+      "name": "UGONG PASIG NATIONAL HIGH SCHOOL"
+    }
+  ]
+}

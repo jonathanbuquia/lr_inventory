@@ -1,0 +1,108 @@
+{
+  "division": {
+    "slug": "navotas",
+    "name": "NAVOTAS"
+  },
+  "schools": [
+    {
+      "id": "angeles-national-high-school",
+      "name": "ANGELES NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "bagumbayan-elementary-school",
+      "name": "BAGUMBAYAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bangkulasi-elementary-school",
+      "name": "BANGKULASI ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bangkulasi-senior-high-school",
+      "name": "BANGKULASI SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "daanghari-elementary-school",
+      "name": "DAANGHARI ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dagat-dagatan-elementary-school",
+      "name": "DAGAT-DAGATAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "filemon-t-lizan-senior-high-school",
+      "name": "FILEMON T. LIZAN SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "kapitbahayan-elementary-school",
+      "name": "KAPITBAHAYAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "kaunlaran-high-school",
+      "name": "KAUNLARAN HIGH SCHOOL"
+    },
+    {
+      "id": "navotas-elementary-school",
+      "name": "NAVOTAS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "navotas-i-elementary-school",
+      "name": "NAVOTAS I ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "navotas-national-high-school",
+      "name": "NAVOTAS NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "navotas-national-science-high-school",
+      "name": "NAVOTAS NATIONAL SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "north-bay-boulevard-elementary-school",
+      "name": "NORTH BAY BOULEVARD ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "north-bay-boulevard-north-elementary-school",
+      "name": "NORTH BAY BOULEVARD NORTH ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-rafael-technological-and-vocational-high-school",
+      "name": "SAN RAFAEL TECHNOLOGICAL AND VOCATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "san-rafael-vill-elementary-school",
+      "name": "SAN RAFAEL VILL. ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-roque-elementary-school",
+      "name": "SAN ROQUE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-roque-national-high-school",
+      "name": "SAN ROQUE NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "tangos-elementary-school",
+      "name": "TANGOS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tangos-i-elementary-school",
+      "name": "TANGOS I ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tangos-national-high-school",
+      "name": "TANGOS NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "tanza-elementary-school",
+      "name": "TANZA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tanza-national-high-school",
+      "name": "TANZA NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "wawa-elementary-school",
+      "name": "WAWA ELEMENTARY SCHOOL"
+    }
+  ]
+}

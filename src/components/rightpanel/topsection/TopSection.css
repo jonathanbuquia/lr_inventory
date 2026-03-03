@@ -1,0 +1,115 @@
+.ts__wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.ts__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ts__label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b7280;
+}
+
+/* Fixed widths (won’t change based on long school names) */
+.ts__field--school {
+  flex: 0 0 340px;
+  min-width: 340px;
+}
+
+.ts__field--search {
+  flex: 0 0 300px;
+  min-width: 300px;
+}
+
+.ts__select,
+.ts__input {
+  height: 38px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 13px;
+  background: #ffffff;
+  color: #111827;
+  min-width: 340px;
+}
+
+/* Tabs aligned to the right */
+.ts__tabs {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  min-width: 240px;
+}
+
+.ts__tab {
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #111827;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.ts__tab:hover {
+  background: #f3f4f6;
+}
+
+.ts__tab.is-active {
+  background: #111827;
+  color: #ffffff;
+  border-color: #111827;
+}
+
+/* Search dropdown suggestions (minimal, does not mess layout) */
+.ts__searchWrap {
+  position: relative;
+}
+
+.ts__suggest {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 50;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.ts__suggestItem {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: #ffffff;
+  border: none;
+  font-size: 13px;
+  color: #111827;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ts__suggestItem:hover {
+  background: #f3f4f6;
+}

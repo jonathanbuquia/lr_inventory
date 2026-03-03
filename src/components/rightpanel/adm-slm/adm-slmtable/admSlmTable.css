@@ -1,0 +1,212 @@
+/* src/components/rightpanel/las/lastable/lastable.css */
+
+/* ===== WRAP ===== */
+.lasWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ===== TOP CONTROLS (match ftTop) ===== */
+.lasControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.lasGradeRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.lasLabel {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  opacity: 0.85;
+  white-space: nowrap;
+}
+
+/* dropdown (match ftSelect) */
+.lasSelect {
+  height: 36px;
+  border-radius: 10px;
+  padding: 0 12px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  min-width: 160px;
+  background: #fff;
+}
+
+/* enrollee chips area (match ftGradeSummary + ftGradeChip) */
+.lasEnrolSeries {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lasEnrolSeriesList {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* chips container */
+.lasEnrolSeriesList {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* chip look like screenshot */
+.lasEnrolChip {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 999px;
+  background: #fff;
+  white-space: nowrap;
+}
+
+/* single line text inside */
+.lasEnrolChipText {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 13px;
+}
+
+/* bold grade */
+.lasEnrolChipGrade {
+  font-weight: 800;
+}
+
+/* colon subtle spacing */
+.lasEnrolChipColon {
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+/* value normal */
+.lasEnrolChipValue {
+  font-weight: 600;
+}
+
+.lasEnrolChipGrade {
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.lasEnrolChipValue {
+  font-weight: 600;
+}
+
+.lasEnrolEmpty {
+  padding: 6px 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 999px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* quarters on right - keep simple like textbook vibe */
+.lasQuarterBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  /* align-items: flex-end; */
+}
+
+.lasQuarterBtns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.lasQBtn {
+  height: 36px;
+  border-radius: 10px;
+  padding: 0 12px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.lasQBtn.active {
+  border-color: #bdbdbd;
+}
+
+/* ===== TABLE (match ftTable styles) ===== */
+.lasTableScroll {
+  height: 420px;
+  overflow: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+}
+
+.lasTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+  /* LAS has more columns than textbooks */
+}
+
+.lasTable thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  text-align: left;
+
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 12px;
+}
+
+.lasTable td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: top;
+}
+
+/* numeric cells (match .ftTable .num) */
+.lasNum {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* subject text (match subjMain/subjSub) */
+.lasSubjectMain {
+  font-weight: 600;
+}
+
+.lasSubjectSub {
+  font-size: 12px;
+  opacity: 0.65;
+  margin-top: 2px;
+}
+
+.lasEmpty {
+  padding: 18px 12px;
+  opacity: 0.7;
+}
+
+.lasEnrolChip.muted {
+  opacity: 0.7;
+}

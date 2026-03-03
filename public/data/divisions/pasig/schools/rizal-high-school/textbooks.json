@@ -1,0 +1,525 @@
+{
+  "division": {
+    "slug": "pasig",
+    "name": "PASIG"
+  },
+  "school": {
+    "id": "rizal-high-school",
+    "name": "RIZAL HIGH SCHOOL"
+  },
+  "sheet": "TextBooks",
+  "key": "textbooks",
+  "rows": [
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": 2429,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 601
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1828,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "Math",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": 2429,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 601
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "VE",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1828,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "Araling Panlipunan",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": 2429,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 601
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": 2429,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 601
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "PE and Health",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": 2429,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 601
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "TLE",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1828,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "Music and Arts",
+      "Enrolment S.Y. 2025-2026": 1828,
+      "Quantity of Textbooks Received": 2429,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 601
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "Math",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "VE",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": 1894,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 105,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "AP",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "PE and Health",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "TLE",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "Music and Arts",
+      "Enrolment S.Y. 2025-2026": 1999,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1999,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Math",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "VE",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "AP",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "PE and Health",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "TLE",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Music and Arts",
+      "Enrolment S.Y. 2025-2026": 1637,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1637,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "Math",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "VE",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "AP",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "PE and Health",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "TLE",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "Music and Arts",
+      "Enrolment S.Y. 2025-2026": 1747,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1747,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "HOPE 1 and 2",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 2295,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "Physical Science",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 123
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "General Mathematics",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 123
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "Earth and Life Science",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 123
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "Statistics and Probability",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 123
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "Heritage (Understanding Culture, Society & Politics",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 123
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "Discipline and Ideas in the Applied Social Sciences",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 424,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 1871,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 11,
+      "SUBJECTS": "Philippine Politics and Governance",
+      "Enrolment S.Y. 2025-2026": 2295,
+      "Quantity of Textbooks Received": 424,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 1871,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "Media and Information Literacy",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 121
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "Business Finance",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 343,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 1954,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "Creative Writing",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 424,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 1873,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "Trends, Networks and Critical Thinking in the 21st Century",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 424,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 1873,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "HOPE 3 and 4",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 121
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "Personal Development",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 121
+    },
+    {
+      "Grade Level": 12,
+      "SUBJECTS": "Contemporary Philippine Arts",
+      "Enrolment S.Y. 2025-2026": 2297,
+      "Quantity of Textbooks Received": 2418,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 121
+    }
+  ],
+  "generatedAt": "2026-03-02T07:59:41.699Z"
+}

@@ -1,0 +1,652 @@
+{
+  "division": {
+    "slug": "quezon-city",
+    "name": "QUEZON CITY"
+  },
+  "schools": [
+    {
+      "id": "15th-avenue-elementary-school",
+      "name": "15TH AVENUE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "aguinaldo-es",
+      "name": "AGUINALDO ES"
+    },
+    {
+      "id": "apolonio-samson-es",
+      "name": "APOLONIO SAMSON ES"
+    },
+    {
+      "id": "apolonio-samson-national-high-school",
+      "name": "APOLONIO SAMSON NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "aurora-a-quezon-es",
+      "name": "AURORA A. QUEZON ES"
+    },
+    {
+      "id": "bagbag-elementary-school",
+      "name": "BAGBAG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bago-bantay-es",
+      "name": "BAGO BANTAY ES"
+    },
+    {
+      "id": "bagong-pag-asa-elementary-school",
+      "name": "BAGONG PAG-ASA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-silangan-elementary-school",
+      "name": "BAGONG SILANGAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-silangan-hs",
+      "name": "BAGONG SILANGAN HS"
+    },
+    {
+      "id": "bagumbayan-es",
+      "name": "BAGUMBAYAN ES"
+    },
+    {
+      "id": "balara-es",
+      "name": "BALARA ES"
+    },
+    {
+      "id": "balara-hs",
+      "name": "BALARA HS"
+    },
+    {
+      "id": "balingasa-elementary-school",
+      "name": "BALINGASA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "balingasa-hs",
+      "name": "BALINGASA HS"
+    },
+    {
+      "id": "balumbato-elementary-school",
+      "name": "BALUMBATO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "batasan-hills-national-hs",
+      "name": "BATASAN HILLS NATIONAL HS"
+    },
+    {
+      "id": "batino-elementary-school-sped-center",
+      "name": "BATINO ELEMENTARY SCHOOL (SPED CENTER)"
+    },
+    {
+      "id": "bayanihan-elementary-school",
+      "name": "BAYANIHAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "benigno-s-aquino-jr-elementary-school",
+      "name": "BENIGNO S. AQUINO, JR. ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "betty-go-belmonte-es",
+      "name": "BETTY GO BELMONTE ES"
+    },
+    {
+      "id": "bonifacio-memorial-es",
+      "name": "BONIFACIO MEMORIAL ES"
+    },
+    {
+      "id": "bungad-es",
+      "name": "BUNGAD ES"
+    },
+    {
+      "id": "camarilla-es",
+      "name": "CAMARILLA ES"
+    },
+    {
+      "id": "camp-crame-es",
+      "name": "CAMP CRAME ES"
+    },
+    {
+      "id": "camp-crame-hs",
+      "name": "CAMP CRAME HS"
+    },
+    {
+      "id": "camp-gen-e-aguinaldo-hs",
+      "name": "CAMP GEN. E. AGUINALDO HS"
+    },
+    {
+      "id": "carlos-l-albert-hs",
+      "name": "CARLOS L. ALBERT HS"
+    },
+    {
+      "id": "carlos-p-garcia-hs",
+      "name": "CARLOS P. GARCIA HS"
+    },
+    {
+      "id": "carlos-p-romulo-senior-high-school",
+      "name": "CARLOS P. ROMULO SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "commonwealth-es",
+      "name": "COMMONWEALTH ES"
+    },
+    {
+      "id": "commonwealth-hs",
+      "name": "COMMONWEALTH HS"
+    },
+    {
+      "id": "cong-reynaldo-a-calalay-mem-sch-damayan-es",
+      "name": "CONG. REYNALDO A. CALALAY MEM. SCH. (DAMAYAN ES)"
+    },
+    {
+      "id": "cruz-na-ligas-es",
+      "name": "CRUZ NA LIGAS ES"
+    },
+    {
+      "id": "cubao-es",
+      "name": "CUBAO ES"
+    },
+    {
+      "id": "culiat-elementary-school",
+      "name": "CULIAT ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "culiat-high-school",
+      "name": "CULIAT HIGH SCHOOL"
+    },
+    {
+      "id": "dalupan-es",
+      "name": "DALUPAN ES"
+    },
+    {
+      "id": "damong-maliit-es",
+      "name": "DAMONG MALIIT ES"
+    },
+    {
+      "id": "delfin-m-geraldez-memorial-es",
+      "name": "DELFIN M. GERALDEZ MEMORIAL ES"
+    },
+    {
+      "id": "demetrio-tuazon-es",
+      "name": "DEMETRIO TUAZON ES"
+    },
+    {
+      "id": "diosdado-p-macapagal-es-tatalon-es",
+      "name": "DIOSDADO P. MACAPAGAL ES (TATALON ES)"
+    },
+    {
+      "id": "don-alejandro-roces-sr-sci-and-tech-hs",
+      "name": "DON ALEJANDRO ROCES, SR. SCI. & TECH. HS"
+    },
+    {
+      "id": "don-quintin-paredes-hs",
+      "name": "DON QUINTIN PAREDES HS"
+    },
+    {
+      "id": "dona-josefa-e-marcos-es",
+      "name": "DONA JOSEFA E. MARCOS ES"
+    },
+    {
+      "id": "dona-juana-es",
+      "name": "DONA JUANA ES"
+    },
+    {
+      "id": "dona-rosario-elementary-school",
+      "name": "DONA ROSARIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dona-rosario-hs",
+      "name": "DONA ROSARIO HS"
+    },
+    {
+      "id": "dr-josefa-jara-martinez-hs",
+      "name": "DR. JOSEFA JARA MARTINEZ HS"
+    },
+    {
+      "id": "emilio-jacinto-national-high-school",
+      "name": "EMILIO JACINTO NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "ernesto-rondon-hs",
+      "name": "ERNESTO RONDON HS"
+    },
+    {
+      "id": "esteban-abada-es",
+      "name": "ESTEBAN ABADA ES"
+    },
+    {
+      "id": "eugenio-m-lopez-jr-center-for-media-arts-senior-high-school",
+      "name": "EUGENIO M. LOPEZ, JR. CENTER FOR MEDIA ARTS SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "eulogio-rodriguez-jr-hs",
+      "name": "EULOGIO RODRIGUEZ, JR. HS"
+    },
+    {
+      "id": "eulogio-rodriguez-sr-es",
+      "name": "EULOGIO RODRIGUEZ, SR. ES"
+    },
+    {
+      "id": "fairview-es",
+      "name": "FAIRVIEW ES"
+    },
+    {
+      "id": "fernando-c-amorsolo-shs",
+      "name": "FERNANDO C. AMORSOLO SHS"
+    },
+    {
+      "id": "flora-a-ylagan-hs",
+      "name": "FLORA A. YLAGAN HS"
+    },
+    {
+      "id": "fort-aguinaldo-es",
+      "name": "FORT AGUINALDO ES"
+    },
+    {
+      "id": "general-roxas-elementary-school",
+      "name": "GENERAL  ROXAS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "goodwill-es",
+      "name": "GOODWILL ES"
+    },
+    {
+      "id": "gsis-village-elementary",
+      "name": "GSIS VILLAGE ELEMENTARY"
+    },
+    {
+      "id": "holy-spirit-es",
+      "name": "HOLY SPIRIT ES"
+    },
+    {
+      "id": "holy-spirit-national-high-school",
+      "name": "HOLY SPIRIT NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "ismael-mathay-sr-high-school",
+      "name": "ISMAEL MATHAY SR. HIGH SCHOOL"
+    },
+    {
+      "id": "jose-maria-panganiban-senior-high-school",
+      "name": "JOSE MARIA PANGANIBAN SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "jose-p-laurel-sr-high-school",
+      "name": "JOSE P. LAUREL SR. HIGH SCHOOL"
+    },
+    {
+      "id": "jose-v-palma-senior-high-school",
+      "name": "JOSE V. PALMA SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "juan-sumulong-high-school",
+      "name": "JUAN SUMULONG HIGH SCHOOL"
+    },
+    {
+      "id": "judge-feliciano-belmonte-sr-hs",
+      "name": "JUDGE FELICIANO BELMONTE, SR. HS"
+    },
+    {
+      "id": "judge-juan-luna-hs",
+      "name": "JUDGE JUAN LUNA HS"
+    },
+    {
+      "id": "justice-cecilia-mu-oz-palma-high-school",
+      "name": "JUSTICE CECILIA MUÑOZ PALMA HIGH SCHOOL"
+    },
+    {
+      "id": "justice-cecilia-mu-oz-palma-senior-high-school",
+      "name": "JUSTICE CECILIA MUÑOZ PALMA SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "kalantiyaw-es",
+      "name": "KALANTIYAW ES"
+    },
+    {
+      "id": "kaligayahan-es",
+      "name": "KALIGAYAHAN ES"
+    },
+    {
+      "id": "kamuning-es",
+      "name": "KAMUNING ES"
+    },
+    {
+      "id": "krus-na-ligas-hs",
+      "name": "KRUS NA LIGAS HS"
+    },
+    {
+      "id": "lagro-es",
+      "name": "LAGRO ES"
+    },
+    {
+      "id": "lagro-hs",
+      "name": "LAGRO HS"
+    },
+    {
+      "id": "leandro-locsin-integrated-school",
+      "name": "LEANDRO LOCSIN INTEGRATED SCHOOL"
+    },
+    {
+      "id": "leopoldo-b-santos-es",
+      "name": "LEOPOLDO B. SANTOS ES"
+    },
+    {
+      "id": "libis-es",
+      "name": "LIBIS ES"
+    },
+    {
+      "id": "lucas-r-pascual-memorial-elementary-school",
+      "name": "LUCAS R. PASCUAL MEMORIAL  ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "lucrecia-r-kasilag-senior-high-school",
+      "name": "LUCRECIA R. KASILAG SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "lupang-pangako-es",
+      "name": "LUPANG PANGAKO ES"
+    },
+    {
+      "id": "malaya-es",
+      "name": "MALAYA ES"
+    },
+    {
+      "id": "maligaya-es",
+      "name": "MALIGAYA ES"
+    },
+    {
+      "id": "maligaya-hs",
+      "name": "MALIGAYA HS"
+    },
+    {
+      "id": "manuel-a-roxas-hs",
+      "name": "MANUEL A. ROXAS HS"
+    },
+    {
+      "id": "manuel-l-quezon-es",
+      "name": "MANUEL L. QUEZON ES"
+    },
+    {
+      "id": "marcelo-h-del-pilar-es",
+      "name": "MARCELO H. DEL PILAR ES"
+    },
+    {
+      "id": "masambong-elementary-school",
+      "name": "MASAMBONG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "masambong-hs",
+      "name": "MASAMBONG HS"
+    },
+    {
+      "id": "melchora-aquino-high-school",
+      "name": "MELCHORA AQUINO HIGH SCHOOL"
+    },
+    {
+      "id": "melencio-m-castelo-es",
+      "name": "MELENCIO M. CASTELO ES"
+    },
+    {
+      "id": "mines-elementary-school",
+      "name": "MINES ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "nagkaisang-nayon-es",
+      "name": "NAGKAISANG NAYON ES"
+    },
+    {
+      "id": "national-orthopedic-hospital-school-for-crippled-children",
+      "name": "NATIONAL ORTHOPEDIC HOSPITAL SCHOOL FOR CRIPPLED CHILDREN"
+    },
+    {
+      "id": "new-era-es",
+      "name": "NEW ERA ES"
+    },
+    {
+      "id": "new-era-high-school",
+      "name": "NEW ERA HIGH SCHOOL"
+    },
+    {
+      "id": "nick-m-joaquin-senior-high-school",
+      "name": "NICK M. JOAQUIN SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "noh-school-for-crippled-children",
+      "name": "NOH-SCHOOL FOR CRIPPLED CHILDREN"
+    },
+    {
+      "id": "north-fairview-es",
+      "name": "NORTH FAIRVIEW ES"
+    },
+    {
+      "id": "north-fairview-hs",
+      "name": "NORTH FAIRVIEW HS"
+    },
+    {
+      "id": "novaliches-hs",
+      "name": "NOVALICHES HS"
+    },
+    {
+      "id": "odelco-elementary-school",
+      "name": "ODELCO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "old-balara-elementary-school",
+      "name": "OLD BALARA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "paltok-es",
+      "name": "PALTOK ES"
+    },
+    {
+      "id": "pasong-tamo-es",
+      "name": "PASONG TAMO ES"
+    },
+    {
+      "id": "payatas-b-es",
+      "name": "PAYATAS B ES"
+    },
+    {
+      "id": "payatas-c-es",
+      "name": "PAYATAS C ES"
+    },
+    {
+      "id": "pedro-tuason-senior-high-school",
+      "name": "PEDRO TUASON SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "philippine-science-high-school-main-campus-metro-manila",
+      "name": "PHILIPPINE SCIENCE HIGH SCHOOL MAIN CAMPUS - METRO MANILA"
+    },
+    {
+      "id": "pinyahan-es",
+      "name": "PINYAHAN ES"
+    },
+    {
+      "id": "placido-del-mundo-es",
+      "name": "PLACIDO DEL MUNDO ES"
+    },
+    {
+      "id": "ponciano-a-bernardo-hs",
+      "name": "PONCIANO A. BERNARDO HS"
+    },
+    {
+      "id": "ponciano-bernardo-es",
+      "name": "PONCIANO BERNARDO ES"
+    },
+    {
+      "id": "pres-corazon-c-aquino-es",
+      "name": "PRES. CORAZON C. AQUINO ES"
+    },
+    {
+      "id": "project-3-es",
+      "name": "PROJECT 3 ES"
+    },
+    {
+      "id": "project-6-es",
+      "name": "PROJECT 6 ES"
+    },
+    {
+      "id": "pugad-lawin-hs",
+      "name": "PUGAD LAWIN HS"
+    },
+    {
+      "id": "pura-v-kalaw-es",
+      "name": "PURA V. KALAW ES"
+    },
+    {
+      "id": "quezon-city-high-school",
+      "name": "QUEZON CITY HIGH SCHOOL"
+    },
+    {
+      "id": "quezon-city-science-hs",
+      "name": "QUEZON CITY SCIENCE HS"
+    },
+    {
+      "id": "quirino-es",
+      "name": "QUIRINO ES"
+    },
+    {
+      "id": "quirino-hs",
+      "name": "QUIRINO HS"
+    },
+    {
+      "id": "ramon-magsaysay-cubao-hs",
+      "name": "RAMON MAGSAYSAY (CUBAO) HS"
+    },
+    {
+      "id": "ramon-magsaysay-es",
+      "name": "RAMON MAGSAYSAY ES"
+    },
+    {
+      "id": "raymundo-punongbayan-es",
+      "name": "RAYMUNDO PUNONGBAYAN ES"
+    },
+    {
+      "id": "rosa-l-susano-novaliches-es",
+      "name": "ROSA L. SUSANO - NOVALICHES ES"
+    },
+    {
+      "id": "san-agustin-es",
+      "name": "SAN AGUSTIN ES"
+    },
+    {
+      "id": "san-antonio-es",
+      "name": "SAN ANTONIO ES"
+    },
+    {
+      "id": "san-bartolome-es",
+      "name": "SAN BARTOLOME ES"
+    },
+    {
+      "id": "san-bartolome-hs",
+      "name": "SAN BARTOLOME HS"
+    },
+    {
+      "id": "san-diego-elementary-school",
+      "name": "SAN DIEGO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-francisco-es",
+      "name": "SAN FRANCISCO ES"
+    },
+    {
+      "id": "san-francisco-high-school",
+      "name": "SAN FRANCISCO HIGH SCHOOL"
+    },
+    {
+      "id": "san-gabriel-es",
+      "name": "SAN GABRIEL ES"
+    },
+    {
+      "id": "san-jose-elementary-school",
+      "name": "SAN JOSE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-jose-es-pag-ibig-sa-nayon-annex",
+      "name": "SAN JOSE ES-PAG-IBIG SA NAYON ANNEX"
+    },
+    {
+      "id": "san-jose-hs",
+      "name": "SAN JOSE HS"
+    },
+    {
+      "id": "san-vicente-es",
+      "name": "SAN VICENTE ES"
+    },
+    {
+      "id": "sauyo-es",
+      "name": "SAUYO ES"
+    },
+    {
+      "id": "sauyo-hs",
+      "name": "SAUYO HS"
+    },
+    {
+      "id": "sergio-osmena-sr-hs",
+      "name": "SERGIO OSMENA, SR. HS"
+    },
+    {
+      "id": "sinag-tala-es",
+      "name": "SINAG-TALA ES"
+    },
+    {
+      "id": "sta-lucia-hs",
+      "name": "STA. LUCIA HS"
+    },
+    {
+      "id": "sta-lucia-senior-high-school",
+      "name": "STA. LUCIA SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "sto-cristo-es",
+      "name": "STO. CRISTO ES"
+    },
+    {
+      "id": "talipapa-national-high-school",
+      "name": "TALIPAPA NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "tandang-sora-elementary-school",
+      "name": "TANDANG SORA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tandang-sora-nhs",
+      "name": "TANDANG SORA NHS"
+    },
+    {
+      "id": "teodora-alonzo-elementary-school",
+      "name": "TEODORA ALONZO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tomas-morato-es",
+      "name": "TOMAS MORATO ES"
+    },
+    {
+      "id": "toro-hills-es",
+      "name": "TORO HILLS ES"
+    },
+    {
+      "id": "u-p-child-development-center",
+      "name": "U.P.  CHILD DEVELOPMENT CENTER"
+    },
+    {
+      "id": "up-integrated-school",
+      "name": "UP INTEGRATED SCHOOL"
+    },
+    {
+      "id": "villa-verde-elementary-school",
+      "name": "VILLA VERDE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "vito-l-belarmino-senior-high-school",
+      "name": "VITO L. BELARMINO SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "west-fairview-elementary-school",
+      "name": "WEST FAIRVIEW ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "west-fairview-high-school",
+      "name": "WEST FAIRVIEW HIGH SCHOOL"
+    }
+  ]
+}

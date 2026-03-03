@@ -1,0 +1,120 @@
+{
+  "division": {
+    "slug": "muntinlupa",
+    "name": "MUNTINLUPA"
+  },
+  "schools": [
+    {
+      "id": "alabang-es",
+      "name": "ALABANG ES"
+    },
+    {
+      "id": "bagong-silang-es",
+      "name": "BAGONG SILANG ES"
+    },
+    {
+      "id": "bayanan-es-main",
+      "name": "BAYANAN ES - MAIN"
+    },
+    {
+      "id": "bayanan-es-unit-i",
+      "name": "BAYANAN ES - UNIT I"
+    },
+    {
+      "id": "buli-es",
+      "name": "BULI ES"
+    },
+    {
+      "id": "cupang-es-annex",
+      "name": "CUPANG ES - ANNEX"
+    },
+    {
+      "id": "cupang-es-main",
+      "name": "CUPANG ES - MAIN"
+    },
+    {
+      "id": "cupang-senior-hs",
+      "name": "CUPANG SENIOR HS"
+    },
+    {
+      "id": "f-de-mesa-es",
+      "name": "F. DE MESA ES"
+    },
+    {
+      "id": "filinvest-alabang-es",
+      "name": "FILINVEST ALABANG ES"
+    },
+    {
+      "id": "itaas-es",
+      "name": "ITAAS ES"
+    },
+    {
+      "id": "lakeview-integrated-school",
+      "name": "LAKEVIEW INTEGRATED SCHOOL"
+    },
+    {
+      "id": "muntinlupa-business-hs-main",
+      "name": "MUNTINLUPA BUSINESS HS - MAIN"
+    },
+    {
+      "id": "muntinlupa-business-hs-sucat-annex",
+      "name": "MUNTINLUPA BUSINESS HS - SUCAT ANNEX"
+    },
+    {
+      "id": "muntinlupa-es",
+      "name": "MUNTINLUPA ES"
+    },
+    {
+      "id": "muntinlupa-nhs",
+      "name": "MUNTINLUPA NHS"
+    },
+    {
+      "id": "muntinlupa-science-hs",
+      "name": "MUNTINLUPA SCIENCE HS"
+    },
+    {
+      "id": "pedro-e-diaz-hs",
+      "name": "PEDRO E. DIAZ HS"
+    },
+    {
+      "id": "poblacion-es",
+      "name": "POBLACION ES"
+    },
+    {
+      "id": "poblacion-national-hs",
+      "name": "POBLACION NATIONAL HS"
+    },
+    {
+      "id": "putatan-es",
+      "name": "PUTATAN ES"
+    },
+    {
+      "id": "soldiers-hills-es",
+      "name": "SOLDIERS' HILLS ES"
+    },
+    {
+      "id": "sucat-es-main",
+      "name": "SUCAT ES - MAIN"
+    },
+    {
+      "id": "sucat-es-sitio-pagkakaisa-annex",
+      "name": "SUCAT ES SITIO PAGKAKAISA - ANNEX"
+    },
+    {
+      "id": "sucat-senior-high-school",
+      "name": "SUCAT SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "tunasan-es",
+      "name": "TUNASAN ES"
+    },
+    {
+      "id": "tunasan-national-hs",
+      "name": "TUNASAN NATIONAL HS"
+    },
+    {
+      "id": "victoria-homes-es",
+      "name": "VICTORIA HOMES ES"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "division": {
+    "slug": "valenzuela",
+    "name": "VALENZUELA"
+  },
+  "schools": [
+    {
+      "id": "andres-fernando-elementary-school",
+      "name": "ANDRES FERNANDO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "andres-mariano-elementary-school",
+      "name": "ANDRES MARIANO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "antonio-m-serapio-elementary-school",
+      "name": "ANTONIO M. SERAPIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "apolonia-f-rafael-elementary-school",
+      "name": "APOLONIA F. RAFAEL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "apolonio-casimiro-elementary-school",
+      "name": "APOLONIO CASIMIRO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "arcadio-f-deato-elementary-school",
+      "name": "ARCADIO F. DEATO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "arkong-bato-national-high-school",
+      "name": "ARKONG BATO NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "bagbaguin-national-high-school",
+      "name": "BAGBAGUIN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "bignay-national-high-school",
+      "name": "BIGNAY NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "bitik-elementary-school",
+      "name": "BITIK ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "canumay-east-elementary-school",
+      "name": "CANUMAY EAST ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "canumay-east-national-high-school",
+      "name": "CANUMAY EAST NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "canumay-west-elementary-school",
+      "name": "CANUMAY WEST ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "canumay-west-national-high-school",
+      "name": "CANUMAY WEST NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "caruhatan-east-elementary-school",
+      "name": "CARUHATAN EAST ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "caruhatan-national-high-school",
+      "name": "CARUHATAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "caruhatan-west-elementary-school",
+      "name": "CARUHATAN WEST ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "coloong-elementary-school",
+      "name": "COLOONG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "constantino-elementary-school",
+      "name": "CONSTANTINO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dalandanan-elementary-school",
+      "name": "DALANDANAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dalandanan-national-high-school",
+      "name": "DALANDANAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "disiplina-village-elementary-school",
+      "name": "DISIPLINA VILLAGE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "disiplina-village-bignay-national-high-school",
+      "name": "DISIPLINA VILLAGE-BIGNAY NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "gen-t-de-leon-elementary-school",
+      "name": "GEN. T. DE LEON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gen-tiburcio-de-leon-national-high-school",
+      "name": "GEN. TIBURCIO DE LEON NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "isla-elementary-school",
+      "name": "ISLA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "justice-eliezer-r-de-los-santos-high-school",
+      "name": "JUSTICE ELIEZER R. DE LOS SANTOS HIGH SCHOOL"
+    },
+    {
+      "id": "lawang-bato-elementary-school",
+      "name": "LAWANG BATO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "lawang-bato-national-high-school",
+      "name": "LAWANG BATO NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "lingunan-elementary-school",
+      "name": "LINGUNAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "lingunan-national-high-school",
+      "name": "LINGUNAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "lingunan-senior-high-school",
+      "name": "LINGUNAN SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "luis-francisco-elementary-school",
+      "name": "LUIS FRANCISCO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "malanday-national-high-school",
+      "name": "MALANDAY NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "malinta-elementary-school",
+      "name": "MALINTA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "malinta-national-high-school",
+      "name": "MALINTA NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "mapulang-lupa-national-high-school",
+      "name": "MAPULANG LUPA NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "marulas-central-school",
+      "name": "MARULAS CENTRAL SCHOOL"
+    },
+    {
+      "id": "maysan-elementary-school",
+      "name": "MAYSAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "maysan-national-high-school",
+      "name": "MAYSAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "p-r-sandiego-es",
+      "name": "P. R. SANDIEGO ES"
+    },
+    {
+      "id": "paltok-elementary-school",
+      "name": "PALTOK ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "parada-elementary-school",
+      "name": "PARADA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "parada-national-high-school",
+      "name": "PARADA NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "paso-de-blas-elementary-school",
+      "name": "PASO DE BLAS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "paso-de-blas-national-high-school",
+      "name": "PASO DE BLAS NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "paso-de-blas-senior-high-school",
+      "name": "PASO DE BLAS SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "pasolo-elementary-school",
+      "name": "PASOLO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pinalagad-elementary-school",
+      "name": "PINALAGAD ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pio-valenzuela-elementary-school",
+      "name": "PIO VALENZUELA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "polo-national-high-school",
+      "name": "POLO NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "punturin-es",
+      "name": "PUNTURIN ES"
+    },
+    {
+      "id": "punturin-senior-high-school",
+      "name": "PUNTURIN SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "rincon-elementary-school",
+      "name": "RINCON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "roberta-de-jesus-elementary-school",
+      "name": "ROBERTA DE JESUS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-miguel-heights-elementary-school",
+      "name": "SAN MIGUEL HEIGHTS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "santiago-a-de-guzman-elementary-school",
+      "name": "SANTIAGO A. DE GUZMAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "santos-encarnacion-elementary-school",
+      "name": "SANTOS ENCARNACION ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "serrano-elementary-school",
+      "name": "SERRANO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "silvestre-lazaro-elementary-school",
+      "name": "SILVESTRE LAZARO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "sitero-francisco-memorial-national-high-school",
+      "name": "SITERO FRANCISCO MEMORIAL NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "sitio-sto-rosario-elementary-school",
+      "name": "SITIO STO. ROSARIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tagalag-elementary-school",
+      "name": "TAGALAG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "ugong-senior-high-school",
+      "name": "UGONG SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "valenzuela-city-school-of-mathematics-and-science",
+      "name": "VALENZUELA CITY SCHOOL OF MATHEMATICS AND SCIENCE"
+    },
+    {
+      "id": "valenzuela-national-high-school",
+      "name": "VALENZUELA NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "veinte-reales-national-high-school",
+      "name": "VEINTE REALES NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "vicente-trinidad-national-high-school-punturin-nhs",
+      "name": "VICENTE TRINIDAD NATIONAL HIGH SCHOOL (PUNTURIN NHS)"
+    },
+    {
+      "id": "wawang-pulo-elementary-school",
+      "name": "WAWANG PULO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "wawang-pulo-national-high-school",
+      "name": "WAWANG PULO NATIONAL HIGH SCHOOL"
+    }
+  ]
+}

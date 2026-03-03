@@ -1,0 +1,364 @@
+{
+  "division": {
+    "slug": "caloocan",
+    "name": "CALOOCAN"
+  },
+  "schools": [
+    {
+      "id": "amparo-elementary-school",
+      "name": "AMPARO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "amparo-high-school",
+      "name": "AMPARO HIGH SCHOOL"
+    },
+    {
+      "id": "andres-bonifacio-elementary-school",
+      "name": "ANDRES BONIFACIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "antonio-luna-elementary-school",
+      "name": "ANTONIO LUNA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "antonio-luna-high-school",
+      "name": "ANTONIO LUNA HIGH SCHOOL"
+    },
+    {
+      "id": "antonio-uy-tan-senior-high-school",
+      "name": "ANTONIO UY TAN SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "apolinario-mabini-elementary-school",
+      "name": "APOLINARIO MABINI ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "baesa-elementary-school",
+      "name": "BAESA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "baesa-high-school",
+      "name": "BAESA HIGH SCHOOL"
+    },
+    {
+      "id": "bagbaguin-elementary-school",
+      "name": "BAGBAGUIN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-barrio-elementary-school",
+      "name": "BAGONG BARRIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-barrio-national-high-school",
+      "name": "BAGONG BARRIO NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "bagong-barrio-senior-high-school",
+      "name": "BAGONG BARRIO SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "bagong-silang-elementary-school-4th-avenue",
+      "name": "BAGONG SILANG ELEMENTARY SCHOOL (4TH AVENUE)"
+    },
+    {
+      "id": "bagong-silang-elementary-school",
+      "name": "BAGONG SILANG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-silang-high-school",
+      "name": "BAGONG SILANG HIGH SCHOOL"
+    },
+    {
+      "id": "bagumbong-elementary-school",
+      "name": "BAGUMBONG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagumbong-high-school",
+      "name": "BAGUMBONG HIGH SCHOOL"
+    },
+    {
+      "id": "benigno-aquino-jr-high-school",
+      "name": "BENIGNO AQUINO JR. HIGH SCHOOL"
+    },
+    {
+      "id": "brixton-senior-high-school",
+      "name": "BRIXTON SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "caloocan-central-elementary-school",
+      "name": "CALOOCAN CENTRAL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "caloocan-city-business-high-school",
+      "name": "CALOOCAN CITY BUSINESS HIGH SCHOOL"
+    },
+    {
+      "id": "caloocan-city-science-high-school",
+      "name": "CALOOCAN CITY SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "caloocan-high-school",
+      "name": "CALOOCAN HIGH SCHOOL"
+    },
+    {
+      "id": "caloocan-national-science-and-technology-high-school",
+      "name": "CALOOCAN NATIONAL SCIENCE AND TECHNOLOGY HIGH SCHOOL"
+    },
+    {
+      "id": "caloocan-north-elementary-school",
+      "name": "CALOOCAN NORTH ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "camarin-d-elementary-school-unit-ii",
+      "name": "CAMARIN D ELEMENTARY SCHOOL - UNIT II"
+    },
+    {
+      "id": "camarin-d-elementary-school",
+      "name": "CAMARIN D ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "camarin-elementary-school",
+      "name": "CAMARIN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "camarin-high-school",
+      "name": "CAMARIN HIGH SCHOOL"
+    },
+    {
+      "id": "caybiga-elementary-school",
+      "name": "CAYBIGA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "caybiga-high-school",
+      "name": "CAYBIGA HIGH SCHOOL"
+    },
+    {
+      "id": "cayetano-arellano-elementary-school",
+      "name": "CAYETANO ARELLANO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "cecilio-apostol-elementary-school",
+      "name": "CECILIO APOSTOL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "cielito-zamora-junior-high-school",
+      "name": "CIELITO ZAMORA JUNIOR HIGH SCHOOL"
+    },
+    {
+      "id": "cielito-zamora-memorial-school",
+      "name": "CIELITO ZAMORA MEMORIAL SCHOOL"
+    },
+    {
+      "id": "cielito-zamora-senior-high-school",
+      "name": "CIELITO ZAMORA SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "congress-elementary-school",
+      "name": "CONGRESS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "deparo-elementary-school",
+      "name": "DEPARO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "deparo-high-school",
+      "name": "DEPARO HIGH SCHOOL"
+    },
+    {
+      "id": "east-bagong-barrio-elementary-school",
+      "name": "EAST BAGONG BARRIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "eulogio-rodriguez-elementary-school",
+      "name": "EULOGIO RODRIGUEZ ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gabriela-silang-elementary-school",
+      "name": "GABRIELA SILANG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gomburza-elementary-school",
+      "name": "GOMBURZA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "grace-park-elementary-school",
+      "name": "GRACE PARK ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gregoria-de-jesus-elementary-school",
+      "name": "GREGORIA DE JESUS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "horacio-dela-costa-elementary-school",
+      "name": "HORACIO DELA COSTA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "horacio-dela-costa-high-school",
+      "name": "HORACIO DELA COSTA HIGH SCHOOL"
+    },
+    {
+      "id": "kalayaan-elementary-school",
+      "name": "KALAYAAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "kalayaan-national-high-school",
+      "name": "KALAYAAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "kasarinlan-elementary-school",
+      "name": "KASARINLAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "kasarinlan-high-school",
+      "name": "KASARINLAN HIGH SCHOOL"
+    },
+    {
+      "id": "kaunlaran-elementary-school",
+      "name": "KAUNLARAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "lerma-elementary-school",
+      "name": "LERMA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "libis-baesa-elementary-school",
+      "name": "LIBIS BAESA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "libis-talisay-elementary-school",
+      "name": "LIBIS TALISAY ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "llano-elementary-school",
+      "name": "LLANO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "llano-high-school",
+      "name": "LLANO HIGH SCHOOL"
+    },
+    {
+      "id": "m-b-asistio-sr-high-school-unit-i",
+      "name": "M.B. ASISTIO SR. HIGH SCHOOL - UNIT I"
+    },
+    {
+      "id": "m-b-asistio-sr-high-school",
+      "name": "M.B. ASISTIO, SR. HIGH SCHOOL"
+    },
+    {
+      "id": "manuel-l-quezon-elementary-school",
+      "name": "MANUEL L. QUEZON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "manuel-l-quezon-high-school",
+      "name": "MANUEL L. QUEZON HIGH SCHOOL"
+    },
+    {
+      "id": "marcelo-h-del-pilar-elementary-school",
+      "name": "MARCELO H. DEL PILAR ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "maria-clara-high-school",
+      "name": "MARIA CLARA HIGH SCHOOL"
+    },
+    {
+      "id": "maypajo-elementary-school",
+      "name": "MAYPAJO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "maypajo-high-school",
+      "name": "MAYPAJO HIGH SCHOOL"
+    },
+    {
+      "id": "morning-breeze-elementary-school",
+      "name": "MORNING BREEZE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "mountain-heights-high-school",
+      "name": "MOUNTAIN HEIGHTS HIGH SCHOOL"
+    },
+    {
+      "id": "nhc-elementary-school",
+      "name": "NHC ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "nhc-high-school",
+      "name": "NHC HIGH SCHOOL"
+    },
+    {
+      "id": "pag-asa-elementary-school",
+      "name": "PAG-ASA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pangarap-elementary-school",
+      "name": "PANGARAP ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pangarap-high-school",
+      "name": "PANGARAP HIGH SCHOOL"
+    },
+    {
+      "id": "rene-cayetano-elementary-school",
+      "name": "RENE CAYETANO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "samaria-senior-high-school",
+      "name": "SAMARIA SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "sampaguita-elementary-school",
+      "name": "SAMPAGUITA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "sampaguita-high-school",
+      "name": "SAMPAGUITA HIGH SCHOOL"
+    },
+    {
+      "id": "sampalukan-elementary-school",
+      "name": "SAMPALUKAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "san-jose-elementary-school",
+      "name": "SAN JOSE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "silanganan-elementary-school",
+      "name": "SILANGANAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "sta-quiteria-elementary-school",
+      "name": "STA. QUITERIA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "sto-ni-o-elementary-school",
+      "name": "STO. NIÑO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tala-elementary-school",
+      "name": "TALA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tala-high-school",
+      "name": "TALA HIGH SCHOOL"
+    },
+    {
+      "id": "talipapa-elementary-school",
+      "name": "TALIPAPA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "talipapa-high-school",
+      "name": "TALIPAPA HIGH SCHOOL"
+    },
+    {
+      "id": "tandang-sora-is",
+      "name": "TANDANG SORA IS"
+    },
+    {
+      "id": "urduja-elementary-school",
+      "name": "URDUJA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "vicente-malapitan-senior-high-school",
+      "name": "VICENTE MALAPITAN SENIOR HIGH SCHOOL"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "division": {
+    "slug": "san-juan",
+    "name": "SAN JUAN"
+  },
+  "schools": [
+    {
+      "id": "kabayanan-integrated-school",
+      "name": "KABAYANAN INTEGRATED SCHOOL"
+    },
+    {
+      "id": "nicanor-c-ibuna-es",
+      "name": "NICANOR C. IBUNA ES"
+    },
+    {
+      "id": "pedro-cruz-es",
+      "name": "PEDRO CRUZ ES"
+    },
+    {
+      "id": "pinaglabanan-es",
+      "name": "PINAGLABANAN ES"
+    },
+    {
+      "id": "salapan-integrated-school",
+      "name": "SALAPAN INTEGRATED SCHOOL"
+    },
+    {
+      "id": "san-juan-city-academic-senior-high-school",
+      "name": "SAN JUAN CITY ACADEMIC SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "san-juan-city-integrated-school",
+      "name": "SAN JUAN CITY INTEGRATED SCHOOL"
+    },
+    {
+      "id": "san-juan-city-science-high-school",
+      "name": "SAN JUAN CITY SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "san-juan-city-technical-vocational-and-livelihood-senior-high-school",
+      "name": "SAN JUAN CITY TECHNICAL-VOCATIONAL AND LIVELIHOOD -SENIOR HIGH SCHOOL"
+    },
+    {
+      "id": "san-juan-national-high-school",
+      "name": "SAN JUAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "san-perfecto-es",
+      "name": "SAN PERFECTO ES"
+    },
+    {
+      "id": "sta-lucia-es",
+      "name": "STA. LUCIA ES"
+    },
+    {
+      "id": "west-crame-es",
+      "name": "WEST CRAME ES"
+    }
+  ]
+}

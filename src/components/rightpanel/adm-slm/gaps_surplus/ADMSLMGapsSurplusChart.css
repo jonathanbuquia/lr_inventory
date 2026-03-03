@@ -1,0 +1,239 @@
+.gsWrap {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+}
+
+.gsTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Left: buttons */
+.gsModeBtns {
+  display: flex;
+  gap: 10px;
+}
+
+.gsModeBtn {
+  height: 42px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.gsModeBtn.active {
+  background: #0b1f4d;
+  color: #fff;
+  border-color: #0b1f4d;
+}
+
+.gsModeBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Center: total card */
+.gsTotalCard {
+  border: 1px solid #d9dee9;
+  border-radius: 14px;
+  padding: 10px 14px;
+  text-align: center;
+  background: #f7f9ff;
+}
+
+.gsTotalLabel {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+  opacity: 0.85;
+}
+
+.gsTotalValue {
+  margin-top: 4px;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+/* Right: grade dropdown */
+.gsGrade {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gsGradeLabel {
+  font-size: 12px;
+  font-weight: 800;
+  opacity: 0.75;
+}
+
+.gsSelect {
+  height: 32px;
+  /* smaller */
+  border-radius: 9px;
+  /* smaller */
+  padding: 0 10px;
+  /* smaller */
+  border: 1px solid #e6e6e6;
+  outline: none;
+  min-width: 140px;
+  /* smaller */
+  font-size: 12px;
+  /* smaller */
+}
+
+/* States */
+.gsState {
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.gsError {
+  padding: 12px;
+  border: 1px solid #ffd1d1;
+  background: #fff5f5;
+  color: #a30000;
+  border-radius: 10px;
+}
+
+/* Axis */
+.gsAxis {
+  position: relative;
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+.gsAxisLine {
+  position: absolute;
+  left: 240px;
+  right: 0;
+  top: 8px;
+  height: 1px;
+  background: #e6e6e6;
+}
+
+.gsTicks {
+  position: absolute;
+  left: 240px;
+  right: 0;
+  top: 0;
+  height: 34px;
+}
+
+.gsTick {
+  position: absolute;
+  top: 0;
+  transform: translateX(-1px);
+}
+
+.gsTickLine {
+  width: 1px;
+  height: 10px;
+  background: #e6e6e6;
+  margin-top: 4px;
+}
+
+.gsTickLabel {
+  font-size: 11px;
+  opacity: 0.65;
+  margin-top: 4px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+/* Bars */
+.gsChartScroll {
+  height: 420px;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.gsRow {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.gsSubject {
+  font-size: 12px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gsBarArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gsBarBg {
+  flex: 1;
+  height: 26px;
+  background: #f4f6fb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gsBar {
+  height: 26px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+}
+
+.gsBar.gap {
+  background: #0b1f4d;
+}
+
+.gsBar.surplus {
+  background: #1b5e20;
+}
+
+.gsBarValue {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.gsValueOutside {
+  font-size: 12px;
+  font-weight: 900;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.gsEmpty {
+  padding: 12px;
+  opacity: 0.75;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .gsTop {
+    grid-template-columns: 1fr;
+  }
+
+  .gsGrade {
+    justify-content: flex-start;
+  }
+}

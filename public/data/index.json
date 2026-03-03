@@ -1,0 +1,84 @@
+{
+  "divisions": [
+    {
+      "slug": "caloocan",
+      "name": "CALOOCAN",
+      "schoolCount": 89
+    },
+    {
+      "slug": "las-pinas",
+      "name": "LAS PINAS",
+      "schoolCount": 39
+    },
+    {
+      "slug": "makati",
+      "name": "MAKATI",
+      "schoolCount": 24
+    },
+    {
+      "slug": "malabon",
+      "name": "MALABON",
+      "schoolCount": 42
+    },
+    {
+      "slug": "mandaluyong",
+      "name": "MANDALUYONG",
+      "schoolCount": 24
+    },
+    {
+      "slug": "manila",
+      "name": "MANILA",
+      "schoolCount": 109
+    },
+    {
+      "slug": "marikina",
+      "name": "MARIKINA",
+      "schoolCount": 34
+    },
+    {
+      "slug": "muntinlupa",
+      "name": "MUNTINLUPA",
+      "schoolCount": 28
+    },
+    {
+      "slug": "navotas",
+      "name": "NAVOTAS",
+      "schoolCount": 25
+    },
+    {
+      "slug": "paranaque",
+      "name": "PARANAQUE",
+      "schoolCount": 43
+    },
+    {
+      "slug": "pasay",
+      "name": "PASAY",
+      "schoolCount": 29
+    },
+    {
+      "slug": "pasig",
+      "name": "PASIG",
+      "schoolCount": 45
+    },
+    {
+      "slug": "quezon-city",
+      "name": "QUEZON CITY",
+      "schoolCount": 161
+    },
+    {
+      "slug": "san-juan",
+      "name": "SAN JUAN",
+      "schoolCount": 13
+    },
+    {
+      "slug": "taguig-pateros",
+      "name": "TAGUIG_PATEROS",
+      "schoolCount": 64
+    },
+    {
+      "slug": "valenzuela",
+      "name": "VALENZUELA",
+      "schoolCount": 70
+    }
+  ]
+}

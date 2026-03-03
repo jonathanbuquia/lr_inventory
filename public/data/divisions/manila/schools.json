@@ -1,0 +1,444 @@
+{
+  "division": {
+    "slug": "manila",
+    "name": "MANILA"
+  },
+  "schools": [
+    {
+      "id": "a-c-herrera-elementary-school",
+      "name": "A. C. HERRERA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "a-v-hernandez-elementary-school",
+      "name": "A. V. HERNANDEZ ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "andres-bonifacio-elementary-school",
+      "name": "ANDRES BONIFACIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "antonio-a-maceda-integrated-school-hs",
+      "name": "ANTONIO A. MACEDA INTEGRATED SCHOOL (HS)"
+    },
+    {
+      "id": "antonio-j-villegas-vocational-high-school",
+      "name": "ANTONIO J. VILLEGAS VOCATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "antonio-luna-elementary-school",
+      "name": "ANTONIO LUNA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "antonio-regidor-elementary-school",
+      "name": "ANTONIO REGIDOR ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "apolinario-mabini-elementary-school",
+      "name": "APOLINARIO MABINI ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "arsenio-h-lacson-elementary-school",
+      "name": "ARSENIO H. LACSON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "aurora-a-quezon-elementary-school",
+      "name": "AURORA A. QUEZON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bacood-elementary-school",
+      "name": "BACOOD ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-barangay-elementary-school",
+      "name": "BAGONG BARANGAY ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-diwa-elementary-school",
+      "name": "BAGONG DIWA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "barrio-obrero-elementary-school",
+      "name": "BARRIO OBRERO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "beata-elementary-school",
+      "name": "BEATA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "carlos-p-garcia-high-school",
+      "name": "CARLOS P. GARCIA HIGH SCHOOL"
+    },
+    {
+      "id": "cayetano-arellano-high-school",
+      "name": "CAYETANO ARELLANO HIGH SCHOOL"
+    },
+    {
+      "id": "cecilio-apostol-elementary-school",
+      "name": "CECILIO APOSTOL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "center-for-excellence",
+      "name": "CENTER FOR EXCELLENCE"
+    },
+    {
+      "id": "claro-m-recto-high-school",
+      "name": "CLARO M. RECTO HIGH SCHOOL"
+    },
+    {
+      "id": "dona-teodora-alonzo-hs",
+      "name": "DONA TEODORA ALONZO HS"
+    },
+    {
+      "id": "dr-a-albert-elementary-school",
+      "name": "DR. A. ALBERT ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dr-benigno-v-aldana-elementary-school",
+      "name": "DR. BENIGNO V. ALDANA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dr-celedonio-a-salvador-elementary-school",
+      "name": "DR. CELEDONIO A. SALVADOR ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dr-juan-g-nolasco-high-school",
+      "name": "DR. JUAN G. NOLASCO HIGH SCHOOL"
+    },
+    {
+      "id": "e-a-remigio-es",
+      "name": "E. A. REMIGIO ES"
+    },
+    {
+      "id": "e-delos-santos-elementary-school",
+      "name": "E. DELOS SANTOS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "e-quirino-senior-high-school-within-bacood",
+      "name": "E. QUIRINO SENIOR HIGH SCHOOL WITHIN BACOOD"
+    },
+    {
+      "id": "elpidio-quirino-high-school",
+      "name": "ELPIDIO QUIRINO HIGH SCHOOL"
+    },
+    {
+      "id": "emilio-jacinto-elementary-school",
+      "name": "EMILIO JACINTO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "esteban-abada-high-school",
+      "name": "ESTEBAN ABADA HIGH SCHOOL"
+    },
+    {
+      "id": "eulogio-rodriguez-vocational-high-school",
+      "name": "EULOGIO RODRIGUEZ VOCATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "f-amorsolo-elementary-school",
+      "name": "F. AMORSOLO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "felipe-g-calderon-integrated-school-hs",
+      "name": "FELIPE G. CALDERON INTEGRATED SCHOOL (HS)"
+    },
+    {
+      "id": "fernando-ma-guerrero-e-s",
+      "name": "FERNANDO MA. GUERRERO E.S."
+    },
+    {
+      "id": "florentino-torres-high-school",
+      "name": "FLORENTINO TORRES HIGH SCHOOL"
+    },
+    {
+      "id": "francisco-balagtas-es",
+      "name": "FRANCISCO BALAGTAS ES"
+    },
+    {
+      "id": "francisco-benitez-elementary-school",
+      "name": "FRANCISCO BENITEZ ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "g-lopez-jaena-elementary-school",
+      "name": "G. LOPEZ JAENA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gen-emilio-aguinaldo-integrated-school",
+      "name": "GEN. EMILIO AGUINALDO INTEGRATED SCHOOL"
+    },
+    {
+      "id": "gen-gregorio-del-pilar-es",
+      "name": "GEN. GREGORIO DEL PILAR ES"
+    },
+    {
+      "id": "gen-l-geronimo-elementary-school",
+      "name": "GEN. L. GERONIMO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gen-maximino-hizon-elementary-school",
+      "name": "GEN. MAXIMINO HIZON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gen-miguel-malvar-elementary-school",
+      "name": "GEN. MIGUEL MALVAR ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gen-vicente-lim-elementary-school",
+      "name": "GEN. VICENTE LIM ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "geronimo-santiago-elementary-school",
+      "name": "GERONIMO SANTIAGO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "gregoria-de-jesus-es",
+      "name": "GREGORIA DE JESUS ES"
+    },
+    {
+      "id": "gregorio-perfecto-high-school",
+      "name": "GREGORIO PERFECTO HIGH SCHOOL"
+    },
+    {
+      "id": "h-j-atienza-elementary-school",
+      "name": "H.J. ATIENZA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "i-villamor-high-school",
+      "name": "I. VILLAMOR HIGH SCHOOL"
+    },
+    {
+      "id": "isabelo-delos-reyes-elementary-school",
+      "name": "ISABELO DELOS REYES ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "j-c-de-jesus-elementary-school",
+      "name": "J. C. DE JESUS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "j-p-rizal-elementary-school",
+      "name": "J. P. RIZAL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "j-zamora-elementary-school",
+      "name": "J. ZAMORA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "jose-abad-santos-high-school",
+      "name": "JOSE ABAD SANTOS HIGH SCHOOL"
+    },
+    {
+      "id": "jose-p-laurel-high-school",
+      "name": "JOSE P. LAUREL HIGH SCHOOL"
+    },
+    {
+      "id": "juan-luna-elementary-school",
+      "name": "JUAN LUNA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "juan-sumulong-elementary-school",
+      "name": "JUAN SUMULONG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "justo-lukban-elementary-school",
+      "name": "JUSTO LUKBAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "lakan-dula-elementary-school",
+      "name": "LAKAN DULA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "lakan-dula-high-school",
+      "name": "LAKAN DULA HIGH SCHOOL"
+    },
+    {
+      "id": "laong-laan-es",
+      "name": "LAONG LAAN ES"
+    },
+    {
+      "id": "lapu-lapu-elementary-school",
+      "name": "LAPU-LAPU ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "legarda-elementary-school",
+      "name": "LEGARDA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "librada-avelino-es",
+      "name": "LIBRADA AVELINO ES"
+    },
+    {
+      "id": "m-agoncillo-es",
+      "name": "M. AGONCILLO ES"
+    },
+    {
+      "id": "m-roxas-de-ayala-elementary-school",
+      "name": "M. ROXAS DE AYALA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "m-araullo-high-school",
+      "name": "M.ARAULLO HIGH SCHOOL"
+    },
+    {
+      "id": "magat-salamat-elementary-school",
+      "name": "MAGAT SALAMAT ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "manila-high-school",
+      "name": "MANILA HIGH SCHOOL"
+    },
+    {
+      "id": "manila-science-high-school",
+      "name": "MANILA SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "manuel-l-quezon-elementary-school",
+      "name": "MANUEL  L. QUEZON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "manuel-a-roxas-high-school",
+      "name": "MANUEL A. ROXAS HIGH SCHOOL"
+    },
+    {
+      "id": "manuel-l-quezon-high-school",
+      "name": "MANUEL L. QUEZON HIGH SCHOOL"
+    },
+    {
+      "id": "mariano-marcos-memorial-high-school",
+      "name": "MARIANO MARCOS MEMORIAL HIGH SCHOOL"
+    },
+    {
+      "id": "mariano-ponce-elementary-school",
+      "name": "MARIANO PONCE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "melchora-aquino-elementary-school",
+      "name": "MELCHORA AQUINO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "moises-salvador-elementary-school",
+      "name": "MOISES SALVADOR ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "p-burgos-es",
+      "name": "P. BURGOS ES"
+    },
+    {
+      "id": "p-gomez-es",
+      "name": "P. GOMEZ ES"
+    },
+    {
+      "id": "p-guevara-elementary-school",
+      "name": "P. GUEVARA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pedro-pelaez-elementary-school",
+      "name": "PEDRO PELAEZ ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "phil-normal-university-institute-of-teaching-and-learning",
+      "name": "PHIL NORMAL UNIVERSITY-INSTITUTE OF TEACHING AND LEARNING"
+    },
+    {
+      "id": "pio-del-pilar-elementary-school",
+      "name": "PIO DEL PILAR ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "plaridel-elementary-school",
+      "name": "PLARIDEL ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "polytechnic-university-of-the-philippines-laboratory-high-school",
+      "name": "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES LABORATORY HIGH SCHOOL"
+    },
+    {
+      "id": "pres-corazon-c-aquino-high-school",
+      "name": "PRES. CORAZON C. AQUINO HIGH SCHOOL"
+    },
+    {
+      "id": "pres-sergio-osmena-sr-high-school",
+      "name": "PRES. SERGIO OSMENA, SR. HIGH SCHOOL"
+    },
+    {
+      "id": "r-almario-elementary-school-parola-annex",
+      "name": "R. ALMARIO ELEMENTARY SCHOOL - PAROLA ANNEX"
+    },
+    {
+      "id": "r-almario-elementary-school",
+      "name": "R. ALMARIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "r-almario-es-isla-puting-bato-es",
+      "name": "R. ALMARIO ES - ISLA PUTING BATO ES"
+    },
+    {
+      "id": "rafael-palma-elementary-school",
+      "name": "RAFAEL PALMA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "raja-soliman-science-and-technology-high-school",
+      "name": "RAJA SOLIMAN SCIENCE AND TECHNOLOGY HIGH SCHOOL"
+    },
+    {
+      "id": "ramon-avance-a-high-school",
+      "name": "RAMON AVANCEÑA HIGH SCHOOL"
+    },
+    {
+      "id": "ramon-magsaysay-high-school",
+      "name": "RAMON MAGSAYSAY HIGH SCHOOL"
+    },
+    {
+      "id": "sen-benigno-s-aquino-jr-es",
+      "name": "SEN. BENIGNO S. AQUINO JR. ES"
+    },
+    {
+      "id": "shs-within-a-maceda-intg-sch-elem",
+      "name": "SHS WITHIN A.MACEDA INTG. SCH.-ELEM."
+    },
+    {
+      "id": "shs-within-gen-e-aguinaldo-intg-elem",
+      "name": "SHS WITHIN GEN E. AGUINALDO INTG. (ELEM)"
+    },
+    {
+      "id": "silahis-ng-katarungan-special-school",
+      "name": "SILAHIS NG KATARUNGAN SPECIAL SCHOOL"
+    },
+    {
+      "id": "sta-ana-es",
+      "name": "STA. ANA ES"
+    },
+    {
+      "id": "t-paez-integrated-school",
+      "name": "T. PAEZ INTEGRATED SCHOOL"
+    },
+    {
+      "id": "teodoro-r-yangco-elementary-school",
+      "name": "TEODORO R. YANGCO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tomas-earnshaw-elementary-school",
+      "name": "TOMAS EARNSHAW ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tondo-high-school",
+      "name": "TONDO HIGH SCHOOL"
+    },
+    {
+      "id": "trinidad-tecson-elementary-school",
+      "name": "TRINIDAD TECSON ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "universidad-de-manila",
+      "name": "UNIVERSIDAD DE MANILA"
+    },
+    {
+      "id": "v-e-fugoso-memorial-school",
+      "name": "V. E. FUGOSO MEMORIAL SCHOOL"
+    },
+    {
+      "id": "valeriano-e-fugoso-memorial-high-school",
+      "name": "VALERIANO E. FUGOSO MEMORIAL HIGH SCHOOL"
+    },
+    {
+      "id": "victorino-mapa-high-school",
+      "name": "VICTORINO MAPA HIGH SCHOOL"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "division": {
+    "slug": "pasay",
+    "name": "PASAY"
+  },
+  "schools": [
+    {
+      "id": "andres-bonifacio-elementary-school",
+      "name": "ANDRES BONIFACIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "apelo-cruz-es",
+      "name": "APELO CRUZ ES"
+    },
+    {
+      "id": "bernabe-es",
+      "name": "BERNABE ES"
+    },
+    {
+      "id": "cuneta-es",
+      "name": "CUNETA ES"
+    },
+    {
+      "id": "don-carlos-village-es",
+      "name": "DON CARLOS VILLAGE ES"
+    },
+    {
+      "id": "epifanio-delos-santos-es",
+      "name": "EPIFANIO DELOS SANTOS ES"
+    },
+    {
+      "id": "gotamco-es",
+      "name": "GOTAMCO ES"
+    },
+    {
+      "id": "jose-rizal-es",
+      "name": "JOSE RIZAL ES"
+    },
+    {
+      "id": "juan-sumulong-elementary-school",
+      "name": "JUAN SUMULONG ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "kalayaan-es",
+      "name": "KALAYAAN ES"
+    },
+    {
+      "id": "kalayaan-nhs",
+      "name": "KALAYAAN NHS"
+    },
+    {
+      "id": "marcela-marcelo-es",
+      "name": "MARCELA MARCELO ES"
+    },
+    {
+      "id": "maricaban-elementary-school",
+      "name": "MARICABAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "p-villanueva-elementary-school",
+      "name": "P. VILLANUEVA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "padre-burgos-elementary-school",
+      "name": "PADRE BURGOS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "padre-zamora-elementary-school",
+      "name": "PADRE ZAMORA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pasay-city-east-hs",
+      "name": "PASAY CITY EAST HS"
+    },
+    {
+      "id": "pasay-city-national-high-school",
+      "name": "PASAY CITY NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "pasay-city-north-high-school-main-m-dela-cruz-campus",
+      "name": "PASAY CITY NORTH HIGH SCHOOL - MAIN, M. DELA CRUZ CAMPUS"
+    },
+    {
+      "id": "pasay-city-science-high-school",
+      "name": "PASAY CITY SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "pasay-city-south-high-school",
+      "name": "PASAY CITY SOUTH HIGH SCHOOL"
+    },
+    {
+      "id": "pasay-city-west-hs",
+      "name": "PASAY CITY WEST HS"
+    },
+    {
+      "id": "philippine-national-school-for-the-blind",
+      "name": "PHILIPPINE NATIONAL SCHOOL FOR THE BLIND"
+    },
+    {
+      "id": "philippine-school-for-the-deaf",
+      "name": "PHILIPPINE SCHOOL FOR THE DEAF"
+    },
+    {
+      "id": "president-corazon-cory-c-aquino-national-high-school",
+      "name": "PRESIDENT CORAZON CORY C. AQUINO NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "rafael-palma-es",
+      "name": "RAFAEL PALMA ES"
+    },
+    {
+      "id": "rivera-village-elementary-school",
+      "name": "RIVERA VILLAGE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "timoteo-paez-es",
+      "name": "TIMOTEO PAEZ ES"
+    },
+    {
+      "id": "villamor-airbase-es",
+      "name": "VILLAMOR AIRBASE ES"
+    }
+  ]
+}

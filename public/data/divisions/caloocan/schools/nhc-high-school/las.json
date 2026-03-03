@@ -1,0 +1,603 @@
+{
+  "division": {
+    "slug": "caloocan",
+    "name": "CALOOCAN"
+  },
+  "school": {
+    "id": "nhc-high-school",
+    "name": "NHC HIGH SCHOOL"
+  },
+  "sheet": "LAS",
+  "key": "las",
+  "rows": [
+    {
+      "QUARTER 1": "Quantity based on Target LAS - Q1 ",
+      "QUARTER 2": "Quantity based on Target LAS - Q2",
+      "QUARTER 3": "Quantity based on Target LAS - Q3",
+      "QUARTER 4": "Quantity based on Target LAS - Q4"
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 0,
+      "QUARTER 2": 0,
+      "QUARTER 3": 0,
+      "QUARTER 4": 0
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2736,
+      "QUARTER 2": 2736,
+      "QUARTER 3": 2736,
+      "QUARTER 4": 2736
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2336,
+      "QUARTER 2": 2336,
+      "QUARTER 3": 2336,
+      "QUARTER 4": 2336
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2104,
+      "QUARTER 2": 2104,
+      "QUARTER 3": 2104,
+      "QUARTER 4": 2104
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2480,
+      "QUARTER 2": 2480,
+      "QUARTER 3": 2480,
+      "QUARTER 4": 2480
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    },
+    {
+      "QUARTER 1": 2280,
+      "QUARTER 2": 2280,
+      "QUARTER 3": 2280,
+      "QUARTER 4": 2280
+    }
+  ],
+  "generatedAt": "2026-03-02T07:59:01.981Z"
+}

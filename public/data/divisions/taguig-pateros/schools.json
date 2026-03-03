@@ -1,0 +1,264 @@
+{
+  "division": {
+    "slug": "taguig-pateros",
+    "name": "TAGUIG_PATEROS"
+  },
+  "schools": [
+    {
+      "id": "aguho-elementary-school",
+      "name": "AGUHO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "bagong-tanyag-elementary-school-annex-a",
+      "name": "BAGONG TANYAG ELEMENTARY SCHOOL - ANNEX A"
+    },
+    {
+      "id": "bagong-tanyag-integrated-school",
+      "name": "BAGONG TANYAG INTEGRATED SCHOOL"
+    },
+    {
+      "id": "bagumbayan-national-high-school-1",
+      "name": "BAGUMBAYAN NATIONAL HIGH SCHOOL- 1"
+    },
+    {
+      "id": "bagumbayan-national-high-school",
+      "name": "BAGUMBAYAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "benigno-ninoy-s-aquino-hs",
+      "name": "BENIGNO NINOY S. AQUINO HS"
+    },
+    {
+      "id": "capt-hipolito-francisco-elementary-school-main",
+      "name": "CAPT. HIPOLITO FRANCISCO ELEMENTARY SCHOOL - MAIN"
+    },
+    {
+      "id": "capt-hipolito-francisco-elementary-school-annex",
+      "name": "CAPT. HIPOLITO FRANCISCO ELEMENTARY SCHOOL ANNEX"
+    },
+    {
+      "id": "cembo-es",
+      "name": "CEMBO ES"
+    },
+    {
+      "id": "cipriano-p-sta-teresa-elementary-school",
+      "name": "CIPRIANO P. STA. TERESA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "ciriaco-p-ti-ga-elementary-school",
+      "name": "CIRIACO P. TIÑGA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "comembo-es",
+      "name": "COMEMBO ES"
+    },
+    {
+      "id": "daanghari-elementary-school",
+      "name": "DAANGHARI ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "dr-artemio-e-natividad-es",
+      "name": "DR. ARTEMIO. E. NATIVIDAD ES"
+    },
+    {
+      "id": "east-rembo-es",
+      "name": "EAST REMBO ES"
+    },
+    {
+      "id": "em-s-signal-village-elementary-school",
+      "name": "EM'S SIGNAL VILLAGE ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "eusebio-c-santos-elementary-school",
+      "name": "EUSEBIO C. SANTOS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "fort-bonifacio-es",
+      "name": "FORT BONIFACIO ES"
+    },
+    {
+      "id": "fort-bonifacio-hs",
+      "name": "FORT BONIFACIO HS"
+    },
+    {
+      "id": "gat-andres-bonifacio-elmentary-school",
+      "name": "GAT ANDRES BONIFACIO ELMENTARY SCHOOL"
+    },
+    {
+      "id": "gat-andres-bonifacio-high-school",
+      "name": "GAT ANDRES BONIFACIO HIGH SCHOOL"
+    },
+    {
+      "id": "gen-ricardo-g-papa-sr-memorial-hs-main",
+      "name": "GEN. RICARDO G. PAPA, SR. MEMORIAL HS - MAIN"
+    },
+    {
+      "id": "gen-ricardo-g-papa-sr-memorial-hs-annex",
+      "name": "GEN. RICARDO G. PAPA, SR. MEMORIAL HS ANNEX"
+    },
+    {
+      "id": "kapitan-eddie-t-reyes-memorial-integrated-school",
+      "name": "KAPITAN EDDIE T. REYES MEMORIAL INTEGRATED SCHOOL"
+    },
+    {
+      "id": "kapitan-jose-cardones-integrated-school",
+      "name": "KAPITAN JOSE CARDONES INTEGRATED SCHOOL"
+    },
+    {
+      "id": "maharlika-integrated-school",
+      "name": "MAHARLIKA INTEGRATED SCHOOL"
+    },
+    {
+      "id": "makati-science-high-school",
+      "name": "MAKATI SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "maria-asuncion-rodriguez-ti-ga-high-school",
+      "name": "MARIA ASUNCION RODRIGUEZ TIÑGA HIGH SCHOOL"
+    },
+    {
+      "id": "maria-concepcion-cruz-hs",
+      "name": "MARIA CONCEPCION CRUZ HS"
+    },
+    {
+      "id": "mayor-simplicio-manalo-national-hs",
+      "name": "MAYOR SIMPLICIO MANALO NATIONAL HS"
+    },
+    {
+      "id": "napindan-integrated-school",
+      "name": "NAPINDAN INTEGRATED SCHOOL"
+    },
+    {
+      "id": "palar-integrated-school",
+      "name": "PALAR INTEGRATED SCHOOL"
+    },
+    {
+      "id": "pateros-elementary-school",
+      "name": "PATEROS ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "pateros-national-high-school",
+      "name": "PATEROS NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "paulina-manalo-es",
+      "name": "PAULINA MANALO ES"
+    },
+    {
+      "id": "pembo-es",
+      "name": "PEMBO ES"
+    },
+    {
+      "id": "pitogo-es",
+      "name": "PITOGO ES"
+    },
+    {
+      "id": "pitogo-hs",
+      "name": "PITOGO HS"
+    },
+    {
+      "id": "president-diosdado-macapagal-hs-signal-vnhs-annex",
+      "name": "PRESIDENT DIOSDADO MACAPAGAL HS - SIGNAL VNHS ANNEX"
+    },
+    {
+      "id": "ricardo-p-cruz-sr-elementary-school",
+      "name": "RICARDO P. CRUZ, SR. ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "rizal-es",
+      "name": "RIZAL ES"
+    },
+    {
+      "id": "sen-renato-compa-ero-cayetano-memorial-science-and-technology-high-school",
+      "name": "SEN. RENATO COMPAÑERO CAYETANO MEMORIAL SCIENCE & TECHNOLOGY HIGH SCHOOL"
+    },
+    {
+      "id": "shs-in-barangay-fort-bonifacio",
+      "name": "SHS IN BARANGAY FORT BONIFACIO"
+    },
+    {
+      "id": "signal-village-national-high-school",
+      "name": "SIGNAL VILLAGE NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "silangan-elementary-school",
+      "name": "SILANGAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "south-cembo-es",
+      "name": "SOUTH CEMBO ES"
+    },
+    {
+      "id": "south-daanghari-elementary-school-main",
+      "name": "SOUTH DAANGHARI ELEMENTARY SCHOOL MAIN"
+    },
+    {
+      "id": "sta-ana-elementary-school",
+      "name": "STA. ANA ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "stand-alone-shs-within-taguig-integrated-school",
+      "name": "STAND ALONE SHS WITHIN TAGUIG INTEGRATED SCHOOL"
+    },
+    {
+      "id": "sto-rosario-elementary-school",
+      "name": "STO. ROSARIO ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "taguig-integrated-school",
+      "name": "TAGUIG INTEGRATED SCHOOL"
+    },
+    {
+      "id": "taguig-national-high-school",
+      "name": "TAGUIG NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "taguig-science-high-school",
+      "name": "TAGUIG SCIENCE HIGH SCHOOL"
+    },
+    {
+      "id": "tenement-elementary-school",
+      "name": "TENEMENT ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "tibagan-high-school",
+      "name": "TIBAGAN HIGH SCHOOL "
+    },
+    {
+      "id": "tibagan-high-school",
+      "name": "TIBAGAN HIGH SCHOOL"
+    },
+    {
+      "id": "tipas-elementary-school-annex",
+      "name": "TIPAS ELEMENTARY SCHOOL - ANNEX"
+    },
+    {
+      "id": "tipas-elementary-school-main",
+      "name": "TIPAS ELEMENTARY SCHOOL -MAIN"
+    },
+    {
+      "id": "tipas-national-high-school",
+      "name": "TIPAS NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "upper-bicutan-es",
+      "name": "UPPER BICUTAN ES"
+    },
+    {
+      "id": "upper-bicutan-national-high-school",
+      "name": "UPPER BICUTAN NATIONAL HIGH SCHOOL"
+    },
+    {
+      "id": "ususan-elementary-school",
+      "name": "USUSAN ELEMENTARY SCHOOL"
+    },
+    {
+      "id": "west-rembo-es",
+      "name": "WEST REMBO ES"
+    },
+    {
+      "id": "western-bicutan-national-high-school",
+      "name": "WESTERN BICUTAN NATIONAL HIGH SCHOOL"
+    }
+  ]
+}
