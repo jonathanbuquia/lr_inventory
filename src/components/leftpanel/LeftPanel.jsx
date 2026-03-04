@@ -57,6 +57,7 @@ const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
             <div className="lp__logoText">
               <div className="lp__logoTitle">LR Inventory</div>
               <div className="lp__logoSub">Dashboard</div>
+              <div>Last Updated: March 3,2026</div>
             </div>
           </div>
 
