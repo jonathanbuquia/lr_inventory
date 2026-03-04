@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import "./LeftPanel.css";
 import logo from "../../assets/logo.png";
 
+import { LAST_UPDATED } from "../../lastUpdated";
+
 const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
   const [divisions, setDivisions] = useState([]);
   const [isOpenMobile, setIsOpenMobile] = useState(false);
@@ -57,7 +59,7 @@ const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
             <div className="lp__logoText">
               <div className="lp__logoTitle">LR Inventory</div>
               <div className="lp__logoSub">Dashboard</div>
-              <div className="lp__updates">Last Updated: March 3,2026</div>
+              <div className="lp__updates">Last Updated: {LAST_UPDATED}</div>
             </div>
           </div>
 
