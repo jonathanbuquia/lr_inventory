@@ -595,10 +595,10 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 415,
       "Quantity based on Target LAS - Q1": 3320,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 250,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 350,
       "Year of Delivery-LAS - Q1": 2025,
       "SOURCE - LAS (CO,RO, SDO) - Q1": "RO",
-      "GAP - LAS - Q1": 3070,
+      "GAP - LAS - Q1": 2970,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 3320,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -1088,10 +1088,10 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 410,
       "Quantity based on Target LAS - Q1": 3280,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 100,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 185,
       "Year of Delivery-LAS - Q1": 2025,
       "SOURCE - LAS (CO,RO, SDO) - Q1": "SDO",
-      "GAP - LAS - Q1": 3180,
+      "GAP - LAS - Q1": 3095,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 3280,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": 407,
@@ -1262,10 +1262,10 @@
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 410,
       "Quantity based on Target LAS - Q1": 3280,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 85,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 185,
       "Year of Delivery-LAS - Q1": 2025,
       "SOURCE - LAS (CO,RO, SDO) - Q1": "SDO",
-      "GAP - LAS - Q1": 3195,
+      "GAP - LAS - Q1": 3095,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 3280,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -3288,5 +3288,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-03-02T07:59:36.898Z"
+  "generatedAt": "2026-03-30T01:04:15.144Z"
 }

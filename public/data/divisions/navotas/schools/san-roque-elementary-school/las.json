@@ -340,10 +340,10 @@
       "GAP - LAS - Q1": 2152,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 2152,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": 2128,
-      "Year of Delivery-LAS Q2": 2025,
-      "SOURCE-LAS (CO,RO, SDO) Q2": "RO",
-      "GAP - LAS -Q2": 24,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
+      "Year of Delivery-LAS Q2": "",
+      "SOURCE-LAS (CO,RO, SDO) Q2": "",
+      "GAP - LAS -Q2": 2152,
       "SURPLUS - LAS -Q2": 0,
       "Quantity based on Target LAS - Q3": 2152,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q3": "",
@@ -369,10 +369,10 @@
       "GAP - LAS - Q1": 2152,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 2152,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
-      "Year of Delivery-LAS Q2": "",
-      "SOURCE-LAS (CO,RO, SDO) Q2": "",
-      "GAP - LAS -Q2": 2152,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": 2128,
+      "Year of Delivery-LAS Q2": 2025,
+      "SOURCE-LAS (CO,RO, SDO) Q2": "RO",
+      "GAP - LAS -Q2": 24,
       "SURPLUS - LAS -Q2": 0,
       "Quantity based on Target LAS - Q3": 2152,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q3": "",
@@ -3288,5 +3288,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-03-02T07:59:33.381Z"
+  "generatedAt": "2026-03-30T01:04:12.052Z"
 }

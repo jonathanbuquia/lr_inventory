@@ -1,0 +1,248 @@
+.dctWrap {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #d7dce5;
+  border-radius: 18px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.dctHeader {
+  padding: 18px 20px 12px;
+  border-bottom: 1px solid #e8edf5;
+}
+
+.dctHeaderLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dctTitle {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.dctSubTitle {
+  font-size: 13px;
+  color: #5c667a;
+}
+
+.dctControls {
+  padding: 18px 20px;
+  border-bottom: 1px solid #e8edf5;
+}
+
+.dctFilters {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.dctFilterItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 220px;
+}
+
+.dctLabel {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #3d4a63;
+}
+
+.dctSelect {
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid #cfd7e6;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.dctSelect:focus {
+  border-color: #7c94d6;
+}
+
+.dctGradeSummary {
+  padding: 16px 20px 18px;
+  border-bottom: 1px solid #e8edf5;
+  background: #fafbfd;
+}
+
+.dctGradeSummaryTitle {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+  color: #3d4a63;
+  margin-bottom: 12px;
+}
+
+.dctGradeSummaryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.dctGradeCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 56px;
+  padding: 12px 14px;
+  border: 1px solid #e3e8f2;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.dctGradeCardLabel {
+  font-size: 13px;
+  font-weight: 700;
+  color: #33415c;
+}
+
+.dctGradeCardValue {
+  font-size: 14px;
+  font-weight: 800;
+  color: #172033;
+}
+
+.dctTableWrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.dctTable {
+  width: 100%;
+  min-width: 950px;
+  border-collapse: collapse;
+}
+
+.dctTable thead th {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  font-weight: 800;
+  color: #44516a;
+  background: #f7f9fc;
+  border-bottom: 1px solid #e8edf5;
+  white-space: nowrap;
+}
+
+.dctTable tbody td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #edf1f7;
+  vertical-align: middle;
+}
+
+.dctSubjectMain {
+  font-size: 14px;
+  font-weight: 700;
+  color: #172033;
+}
+
+.dctSubjectSub {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.dctNumberCell {
+  font-size: 14px;
+  font-weight: 700;
+  color: #172033;
+  white-space: nowrap;
+}
+
+.dctBarRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 280px;
+}
+
+.dctBarTrack {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  height: 18px;
+  border-radius: 999px;
+  background: #ebeff5;
+  overflow: hidden;
+}
+
+.dctBarFill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.dctBarFill--red {
+  background: #e74c3c;
+}
+
+.dctBarFill--blue {
+  background: #2563eb;
+}
+
+.dctBarFill--green {
+  background: #16a34a;
+}
+
+.dctBarValue {
+  min-width: 58px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #172033;
+  white-space: nowrap;
+}
+
+.dctEmpty {
+  padding: 28px 20px;
+  font-size: 14px;
+  color: #667085;
+}
+
+@media (max-width: 768px) {
+  .dctControls {
+    padding: 14px 12px;
+  }
+
+  .dctFilters {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .dctFilterItem {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .dctGradeSummary {
+    padding: 14px 12px 16px;
+  }
+
+  .dctGradeSummaryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .dctTable thead th,
+  .dctTable tbody td {
+    padding: 14px 12px;
+  }
+
+  .dctBarRow {
+    min-width: 240px;
+  }
+
+  .dctBarTrack {
+    max-width: 180px;
+  }
+}
