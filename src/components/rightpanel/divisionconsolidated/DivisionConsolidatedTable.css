@@ -89,6 +89,7 @@
   gap: 10px;
   flex-wrap: wrap;
   justify-content: flex-end;
+  flex-shrink: 0;
 }
 
 .dctAccordionStat {
@@ -197,6 +198,7 @@
   gap: 8px;
   flex-wrap: wrap;
   justify-content: flex-end;
+  flex-shrink: 0;
 }
 
 .dctGradeAccordionBody {
@@ -293,6 +295,26 @@
   font-weight: 700;
 }
 
+@media (max-width: 1180px) {
+  .dctAccordionHeaderRight,
+  .dctGradeAccordionHeaderRight {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(96px, 1fr));
+    justify-content: end;
+    align-items: stretch;
+  }
+
+  .dctAccordionStat,
+  .dctAccordionStat--small {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .dctNoDataBadge {
+    justify-self: end;
+  }
+}
+
 @media (max-width: 768px) {
   .dctAccordionWrap {
     padding: 14px 12px 16px;
@@ -307,7 +329,10 @@
 
   .dctAccordionHeaderRight,
   .dctGradeAccordionHeaderRight {
-    justify-content: flex-start;
+    grid-template-columns: repeat(2, minmax(104px, 1fr));
+    justify-content: center;
+    width: min(100%, 248px);
+    margin: 0 auto;
   }
 
   .dctAccordionBody {
@@ -321,5 +346,9 @@
   .dctSchoolTable thead th,
   .dctSchoolTable tbody td {
     padding: 12px 10px;
+  }
+
+  .dctNoDataBadge {
+    justify-self: center;
   }
 }
