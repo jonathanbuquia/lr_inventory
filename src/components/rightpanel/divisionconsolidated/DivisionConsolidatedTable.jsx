@@ -4,8 +4,6 @@ import "./DivisionConsolidatedTable.css";
 const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [gradeFilter, setGradeFilter] = useState("ALL");
-  const [subjectFilter, setSubjectFilter] = useState("ALL");
   const [errorText, setErrorText] = useState("");
   const [openSchools, setOpenSchools] = useState({});
   const [openGrades, setOpenGrades] = useState({});
@@ -161,8 +159,6 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       setLoading(true);
       setRows([]);
       setErrorText("");
-      setGradeFilter("ALL");
-      setSubjectFilter("ALL");
       setOpenSchools({});
       setOpenGrades({});
 
@@ -258,17 +254,6 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     loadDivisionData();
   }, [selectedDivision]);
 
-  const gradeOptions = useMemo(() => {
-    const gradeSet = new Set();
-
-    rows.forEach((row) => {
-      const grade = normalizeGrade(row?.["Grade Level"]);
-      if (grade) gradeSet.add(grade);
-    });
-
-    return [...gradeSet].sort((a, b) => gradeSortValue(a) - gradeSortValue(b));
-  }, [rows]);
-
   const allAggregatedRows = useMemo(() => {
     const grouped = {};
 
@@ -317,33 +302,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     });
   }, [rows]);
 
-  const subjectOptions = useMemo(() => {
-    const baseRows =
-      gradeFilter === "ALL"
-        ? allAggregatedRows
-        : allAggregatedRows.filter((item) => item.grade === gradeFilter);
-
-    const uniqueSubjects = [...new Set(baseRows.map((item) => item.subject))];
-
-    return uniqueSubjects
-      .filter((subject) => subject && subject !== "(No Subject)")
-      .sort((a, b) => a.localeCompare(b));
-  }, [allAggregatedRows, gradeFilter]);
-
-  const filteredRows = useMemo(() => {
-    return allAggregatedRows.filter((item) => {
-      const matchGrade = gradeFilter === "ALL" || item.grade === gradeFilter;
-      const matchSubject =
-        subjectFilter === "ALL" || item.subject === subjectFilter;
-
-      return matchGrade && matchSubject;
-    });
-  }, [allAggregatedRows, gradeFilter, subjectFilter]);
-
   const accordionSchools = useMemo(() => {
     const schoolMap = {};
 
-    filteredRows.forEach((item) => {
+    allAggregatedRows.forEach((item) => {
       if (!schoolMap[item.schoolId]) {
         schoolMap[item.schoolId] = {
           schoolId: item.schoolId,
@@ -441,13 +403,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       })
       .filter((school) => school.grades.length > 0)
       .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
-  }, [filteredRows]);
-
-  useEffect(() => {
-    if (subjectFilter !== "ALL" && !subjectOptions.includes(subjectFilter)) {
-      setSubjectFilter("ALL");
-    }
-  }, [subjectOptions, subjectFilter]);
+  }, [allAggregatedRows]);
 
   return (
     <section className="dctWrap">
@@ -462,52 +418,13 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         </div>
       </div>
 
-      <div className="dctControls">
-        <div className="dctFilters">
-          <div className="dctFilterItem">
-            <label className="dctLabel">GRADE LEVEL</label>
-            <select
-              className="dctSelect"
-              value={gradeFilter}
-              onChange={(e) => {
-                setGradeFilter(e.target.value);
-                setSubjectFilter("ALL");
-              }}
-            >
-              <option value="ALL">ALL</option>
-              {gradeOptions.map((grade) => (
-                <option key={grade} value={grade}>
-                  {grade === "KINDER" ? "KINDER" : `GRADE ${grade}`}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          <div className="dctFilterItem">
-            <label className="dctLabel">SUBJECT</label>
-            <select
-              className="dctSelect"
-              value={subjectFilter}
-              onChange={(e) => setSubjectFilter(e.target.value)}
-            >
-              <option value="ALL">ALL</option>
-              {subjectOptions.map((subject) => (
-                <option key={subject} value={subject}>
-                  {subject}
-                </option>
-              ))}
-            </select>
-          </div>
-        </div>
-      </div>
-
       <div className="dctAccordionWrap">
         {loading ? (
           <div className="dctEmpty">Loading consolidated division data...</div>
         ) : errorText ? (
           <div className="dctEmpty">{errorText}</div>
         ) : accordionSchools.length === 0 ? (
-          <div className="dctEmpty">No data found for the selected filters.</div>
+          <div className="dctEmpty">No data found for this division.</div>
         ) : (
           accordionSchools.map((school) => {
             const isSchoolOpen = !!openSchools[school.schoolId];
