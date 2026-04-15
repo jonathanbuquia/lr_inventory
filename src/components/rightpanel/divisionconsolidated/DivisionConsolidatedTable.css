@@ -339,6 +339,31 @@
     padding: 12px 10px;
   }
 
+  .dctSchoolStatus {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    min-height: 24px;
+    padding: 0 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    margin-top: 2px;
+  }
+
+  .dctSchoolStatus--noData {
+    background: #fef2f2;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+  }
+
+  .dctSchoolStatus--incomplete {
+    background: #fff7ed;
+    color: #c2410c;
+    border: 1px solid #fed7aa;
+  }
+
   .dctNoDataBadge {
     display: inline-flex;
     align-items: center;
@@ -352,4 +377,6 @@
     font-size: 12px;
     font-weight: 700;
   }
+
+
 }

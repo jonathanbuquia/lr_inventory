@@ -124,17 +124,12 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     );
   };
 
-  const hasAnyUsefulData = (row) => {
-    const grade = normalizeGrade(row?.["Grade Level"]);
-    const subject = getSubjectValue(row);
-    const enrolled = getEnrollmentValue(row);
-    const received = getReceivedValue(row);
-    const gaps = getGapValue(row);
-    const surplus = getSurplusValue(row);
-
-    return Boolean(
-      grade &&
-      (subject || enrolled > 0 || received > 0 || gaps > 0 || surplus > 0)
+  const rowHasData = (rowLike) => {
+    return (
+      normalizeNumber(rowLike?.enrolled) > 0 ||
+      normalizeNumber(rowLike?.received) > 0 ||
+      normalizeNumber(rowLike?.gaps) > 0 ||
+      normalizeNumber(rowLike?.surplus) > 0
     );
   };
 
@@ -378,6 +373,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
             surplus: 0,
           },
           rows: [],
+          status: "",
         };
       }
 
@@ -389,12 +385,60 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     });
 
     return Object.values(schoolMap)
-      .map((school) => ({
-        ...school,
-        grades: Object.values(school.gradeMap).sort(
-          (a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade)
-        ),
-      }))
+      .map((school) => {
+        const grades = Object.values(school.gradeMap)
+          .map((gradeBlock) => {
+            const hasGradeData =
+              gradeBlock.totals.enrolled > 0 ||
+              gradeBlock.totals.received > 0 ||
+              gradeBlock.totals.gaps > 0 ||
+              gradeBlock.totals.surplus > 0;
+
+            const rowsWithData = gradeBlock.rows.filter(rowHasData).length;
+            const rowsWithoutData = gradeBlock.rows.length - rowsWithData;
+
+            let gradeStatus = "";
+            if (!hasGradeData) {
+              gradeStatus = "NO DATA";
+            } else if (rowsWithData > 0 && rowsWithoutData > 0) {
+              gradeStatus = "INCOMPLETE";
+            }
+
+            return {
+              ...gradeBlock,
+              status: gradeStatus,
+            };
+          })
+          .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
+
+        const gradesWithData = grades.filter((gradeBlock) => {
+          return (
+            gradeBlock.totals.enrolled > 0 ||
+            gradeBlock.totals.received > 0 ||
+            gradeBlock.totals.gaps > 0 ||
+            gradeBlock.totals.surplus > 0
+          );
+        });
+
+        const hasSchoolData =
+          school.totals.enrolled > 0 ||
+          school.totals.received > 0 ||
+          school.totals.gaps > 0 ||
+          school.totals.surplus > 0;
+
+        let schoolStatus = "";
+        if (!hasSchoolData) {
+          schoolStatus = "NO DATA";
+        } else if (gradesWithData.length < grades.length) {
+          schoolStatus = "INCOMPLETE";
+        }
+
+        return {
+          ...school,
+          grades,
+          status: schoolStatus,
+        };
+      })
       .filter((school) => school.grades.length > 0)
       .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
   }, [filteredRows]);
@@ -484,10 +528,22 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                       <span className="dctAccordionSchoolName">
                         {school.schoolName}
                       </span>
+
                       <span className="dctAccordionCount">
                         {school.grades.length} grade
                         {school.grades.length > 1 ? "s" : ""}
                       </span>
+
+                      {school.status && (
+                        <span
+                          className={`dctSchoolStatus ${school.status === "NO DATA"
+                            ? "dctSchoolStatus--noData"
+                            : "dctSchoolStatus--incomplete"
+                            }`}
+                        >
+                          {school.status}
+                        </span>
+                      )}
                     </div>
                   </div>
 
@@ -553,11 +609,23 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                   <span className="dctGradeAccordionTitle">
                                     {formatGradeLabel(gradeBlock.grade)}
                                   </span>
+
                                   <span className="dctGradeAccordionCount">
                                     {hasGradeData
                                       ? `${gradeBlock.rows.length} subject${gradeBlock.rows.length > 1 ? "s" : ""}`
                                       : "No data"}
                                   </span>
+
+                                  {gradeBlock.status && (
+                                    <span
+                                      className={`dctSchoolStatus ${gradeBlock.status === "NO DATA"
+                                        ? "dctSchoolStatus--noData"
+                                        : "dctSchoolStatus--incomplete"
+                                        }`}
+                                    >
+                                      {gradeBlock.status}
+                                    </span>
+                                  )}
                                 </div>
                               </div>
 
