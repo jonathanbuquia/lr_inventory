@@ -7,6 +7,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const [gradeFilter, setGradeFilter] = useState("ALL");
   const [subjectFilter, setSubjectFilter] = useState("ALL");
   const [errorText, setErrorText] = useState("");
+  const [openSchools, setOpenSchools] = useState({});
+  const [openGrades, setOpenGrades] = useState({});
 
   const normalizeNumber = (value) => {
     if (value === null || value === undefined || value === "") return 0;
@@ -47,14 +49,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return 999;
   };
 
-  const formatNumber = (value) => {
-    return Number(value || 0).toLocaleString();
-  };
+  const formatNumber = (value) => Number(value || 0).toLocaleString();
 
-  const getBarColorClass = (percentage) => {
-    if (percentage <= 50) return "dctBarFill--red";
-    if (percentage <= 80) return "dctBarFill--blue";
-    return "dctBarFill--green";
+  const formatGradeLabel = (grade) => {
+    return grade === "KINDER" ? "Kinder" : `Grade ${grade}`;
   };
 
   const getSchoolsArray = (data) => {
@@ -73,6 +71,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       school?.name ||
       ""
     );
+  };
+
+  const getSchoolDisplayName = (school) => {
+    return school?.name || school?.label || school?.id || "Unknown School";
   };
 
   const getSubjectValue = (row) => {
@@ -122,11 +124,42 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     );
   };
 
+  const hasAnyUsefulData = (row) => {
+    const grade = normalizeGrade(row?.["Grade Level"]);
+    const subject = getSubjectValue(row);
+    const enrolled = getEnrollmentValue(row);
+    const received = getReceivedValue(row);
+    const gaps = getGapValue(row);
+    const surplus = getSurplusValue(row);
+
+    return Boolean(
+      grade &&
+      (subject || enrolled > 0 || received > 0 || gaps > 0 || surplus > 0)
+    );
+  };
+
+  const toggleSchool = (schoolId) => {
+    setOpenSchools((prev) => ({
+      ...prev,
+      [schoolId]: !prev[schoolId],
+    }));
+  };
+
+  const toggleGrade = (schoolId, grade) => {
+    const key = `${schoolId}__${grade}`;
+    setOpenGrades((prev) => ({
+      ...prev,
+      [key]: !prev[key],
+    }));
+  };
+
   useEffect(() => {
     const loadDivisionData = async () => {
       if (!selectedDivision) {
         setRows([]);
         setErrorText("");
+        setOpenSchools({});
+        setOpenGrades({});
         return;
       }
 
@@ -135,11 +168,13 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       setErrorText("");
       setGradeFilter("ALL");
       setSubjectFilter("ALL");
+      setOpenSchools({});
+      setOpenGrades({});
 
       try {
-        console.log("DivisionConsolidatedTable selectedDivision:", selectedDivision);
-
-        const schoolsRes = await fetch(`/data/divisions/${selectedDivision}/schools.json`);
+        const schoolsRes = await fetch(
+          `/data/divisions/${selectedDivision}/schools.json`
+        );
 
         if (!schoolsRes.ok) {
           throw new Error(
@@ -148,10 +183,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         }
 
         const schoolsData = await schoolsRes.json();
-        console.log("schoolsData:", schoolsData);
-
         const schoolList = getSchoolsArray(schoolsData);
-        console.log("schoolList:", schoolList);
 
         if (!schoolList.length) {
           setErrorText("No schools found inside schools.json.");
@@ -163,27 +195,23 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         const schoolFiles = await Promise.all(
           schoolList.map(async (school) => {
             const folderName = getSchoolFolderName(school);
+            const schoolName = getSchoolDisplayName(school);
 
-            if (!folderName) {
-              console.warn("No folder name found for school item:", school);
-              return null;
-            }
+            if (!folderName) return null;
 
             const filePath = `/data/divisions/${selectedDivision}/schools/${folderName}/textbooks.json`;
-            console.log("Trying file:", filePath);
 
             try {
               const res = await fetch(filePath);
-
-              if (!res.ok) {
-                console.warn("File not found:", filePath);
-                return null;
-              }
+              if (!res.ok) return null;
 
               const data = await res.json();
-              console.log("Loaded file:", filePath, data);
 
-              return data;
+              return {
+                schoolId: folderName,
+                schoolName,
+                fileData: data,
+              };
             } catch (error) {
               console.error("Error loading file:", filePath, error);
               return null;
@@ -195,7 +223,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
         if (!validFiles.length) {
           setErrorText(
-            "schools.json was found, but no textbooks.json files could be loaded. Check school folder names inside schools.json."
+            "schools.json was found, but no textbooks.json files could be loaded."
           );
           setRows([]);
           setLoading(false);
@@ -204,26 +232,28 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
         const merged = [];
 
-        validFiles.forEach((file) => {
-          const fileRows = Array.isArray(file?.rows)
-            ? file.rows
-            : Array.isArray(file)
-              ? file
+        validFiles.forEach((entry) => {
+          const fileRows = Array.isArray(entry?.fileData?.rows)
+            ? entry.fileData.rows
+            : Array.isArray(entry?.fileData)
+              ? entry.fileData
               : [];
 
-          merged.push(...fileRows);
+          fileRows.forEach((row) => {
+            merged.push({
+              ...row,
+              __schoolId: entry.schoolId,
+              __schoolName: entry.schoolName,
+            });
+          });
         });
-
-        console.log("Merged rows:", merged);
-
-        if (!merged.length) {
-          setErrorText("Files were loaded, but no row data was found.");
-        }
 
         setRows(merged);
       } catch (error) {
         console.error("Error loading consolidated division data:", error);
-        setErrorText(error.message || "Failed to load division consolidated data.");
+        setErrorText(
+          error.message || "Failed to load division consolidated data."
+        );
         setRows([]);
       } finally {
         setLoading(false);
@@ -233,10 +263,23 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     loadDivisionData();
   }, [selectedDivision]);
 
-  const aggregatedRows = useMemo(() => {
+  const gradeOptions = useMemo(() => {
+    const gradeSet = new Set();
+
+    rows.forEach((row) => {
+      const grade = normalizeGrade(row?.["Grade Level"]);
+      if (grade) gradeSet.add(grade);
+    });
+
+    return [...gradeSet].sort((a, b) => gradeSortValue(a) - gradeSortValue(b));
+  }, [rows]);
+
+  const allAggregatedRows = useMemo(() => {
     const grouped = {};
 
     rows.forEach((row) => {
+      const schoolId = row.__schoolId || "";
+      const schoolName = row.__schoolName || "Unknown School";
       const grade = normalizeGrade(row?.["Grade Level"]);
       const subject = getSubjectValue(row);
       const enrolled = getEnrollmentValue(row);
@@ -244,14 +287,17 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       const gaps = getGapValue(row);
       const surplus = getSurplusValue(row);
 
-      if (!grade || !subject) return;
+      if (!schoolId || !grade) return;
 
-      const key = `${grade}__${subject}`;
+      const safeSubject = subject || "(No Subject)";
+      const key = `${schoolId}__${grade}__${safeSubject}`;
 
       if (!grouped[key]) {
         grouped[key] = {
+          schoolId,
+          schoolName,
           grade,
-          subject,
+          subject: safeSubject,
           enrolled: 0,
           received: 0,
           gaps: 0,
@@ -265,59 +311,93 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       grouped[key].surplus += surplus;
     });
 
-    return Object.values(grouped)
-      .map((item) => {
-        const rawPercentage =
-          item.enrolled > 0 ? (item.received / item.enrolled) * 100 : 0;
+    return Object.values(grouped).sort((a, b) => {
+      const schoolDiff = a.schoolName.localeCompare(b.schoolName);
+      if (schoolDiff !== 0) return schoolDiff;
 
-        return {
-          ...item,
-          percentage: rawPercentage,
-          displayPercentage: rawPercentage > 100 ? 100 : rawPercentage,
-        };
-      })
-      .sort((a, b) => {
-        const gradeDiff = gradeSortValue(a.grade) - gradeSortValue(b.grade);
-        if (gradeDiff !== 0) return gradeDiff;
-        return a.subject.localeCompare(b.subject);
-      });
+      const gradeDiff = gradeSortValue(a.grade) - gradeSortValue(b.grade);
+      if (gradeDiff !== 0) return gradeDiff;
+
+      return a.subject.localeCompare(b.subject);
+    });
   }, [rows]);
-
-  const gradeOptions = useMemo(() => {
-    const uniqueGrades = [...new Set(aggregatedRows.map((item) => item.grade))];
-    return uniqueGrades.sort((a, b) => gradeSortValue(a) - gradeSortValue(b));
-  }, [aggregatedRows]);
 
   const subjectOptions = useMemo(() => {
     const baseRows =
       gradeFilter === "ALL"
-        ? aggregatedRows
-        : aggregatedRows.filter((item) => item.grade === gradeFilter);
+        ? allAggregatedRows
+        : allAggregatedRows.filter((item) => item.grade === gradeFilter);
 
     const uniqueSubjects = [...new Set(baseRows.map((item) => item.subject))];
-    return uniqueSubjects.sort((a, b) => a.localeCompare(b));
-  }, [aggregatedRows, gradeFilter]);
+
+    return uniqueSubjects
+      .filter((subject) => subject && subject !== "(No Subject)")
+      .sort((a, b) => a.localeCompare(b));
+  }, [allAggregatedRows, gradeFilter]);
 
   const filteredRows = useMemo(() => {
-    return aggregatedRows.filter((item) => {
+    return allAggregatedRows.filter((item) => {
       const matchGrade = gradeFilter === "ALL" || item.grade === gradeFilter;
-      const matchSubject = subjectFilter === "ALL" || item.subject === subjectFilter;
+      const matchSubject =
+        subjectFilter === "ALL" || item.subject === subjectFilter;
+
       return matchGrade && matchSubject;
     });
-  }, [aggregatedRows, gradeFilter, subjectFilter]);
+  }, [allAggregatedRows, gradeFilter, subjectFilter]);
 
-  const enrolleesPerGrade = useMemo(() => {
-    const grouped = {};
+  const accordionSchools = useMemo(() => {
+    const schoolMap = {};
 
-    aggregatedRows.forEach((item) => {
-      if (!grouped[item.grade]) grouped[item.grade] = 0;
-      grouped[item.grade] += item.enrolled;
+    filteredRows.forEach((item) => {
+      if (!schoolMap[item.schoolId]) {
+        schoolMap[item.schoolId] = {
+          schoolId: item.schoolId,
+          schoolName: item.schoolName,
+          totals: {
+            enrolled: 0,
+            received: 0,
+            gaps: 0,
+            surplus: 0,
+          },
+          gradeMap: {},
+        };
+      }
+
+      schoolMap[item.schoolId].totals.enrolled += item.enrolled;
+      schoolMap[item.schoolId].totals.received += item.received;
+      schoolMap[item.schoolId].totals.gaps += item.gaps;
+      schoolMap[item.schoolId].totals.surplus += item.surplus;
+
+      if (!schoolMap[item.schoolId].gradeMap[item.grade]) {
+        schoolMap[item.schoolId].gradeMap[item.grade] = {
+          grade: item.grade,
+          totals: {
+            enrolled: 0,
+            received: 0,
+            gaps: 0,
+            surplus: 0,
+          },
+          rows: [],
+        };
+      }
+
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled += item.enrolled;
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.received += item.received;
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.gaps += item.gaps;
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.surplus += item.surplus;
+      schoolMap[item.schoolId].gradeMap[item.grade].rows.push(item);
     });
 
-    return Object.entries(grouped)
-      .map(([grade, enrolled]) => ({ grade, enrolled }))
-      .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
-  }, [aggregatedRows]);
+    return Object.values(schoolMap)
+      .map((school) => ({
+        ...school,
+        grades: Object.values(school.gradeMap).sort(
+          (a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade)
+        ),
+      }))
+      .filter((school) => school.grades.length > 0)
+      .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+  }, [filteredRows]);
 
   useEffect(() => {
     if (subjectFilter !== "ALL" && !subjectOptions.includes(subjectFilter)) {
@@ -353,7 +433,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
               <option value="ALL">ALL</option>
               {gradeOptions.map((grade) => (
                 <option key={grade} value={grade}>
-                  {grade}
+                  {grade === "KINDER" ? "KINDER" : `GRADE ${grade}`}
                 </option>
               ))}
             </select>
@@ -377,69 +457,200 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         </div>
       </div>
 
-      {/* 👇 MOVED BELOW */}
-      <div className="dctGradeSummary">
-        <div className="dctGradeSummaryTitle">ENROLLEES PER GRADE</div>
-
-        <div className="dctGradeSummaryGrid">
-          {enrolleesPerGrade.map((item) => (
-            <div key={item.grade} className="dctGradeCard">
-              <span className="dctGradeCardLabel">
-                {item.grade === "KINDER" ? "Kinder" : `Grade ${item.grade}`}
-              </span>
-              <span className="dctGradeCardValue">
-                {formatNumber(item.enrolled)}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="dctTableWrap">
+      <div className="dctAccordionWrap">
         {loading ? (
           <div className="dctEmpty">Loading consolidated division data...</div>
         ) : errorText ? (
           <div className="dctEmpty">{errorText}</div>
-        ) : filteredRows.length === 0 ? (
+        ) : accordionSchools.length === 0 ? (
           <div className="dctEmpty">No data found for the selected filters.</div>
         ) : (
-          <table className="dctTable">
-            <thead>
-              <tr>
-                <th>SUBJECT</th>
-                <th>GRAPH</th>
-                <th>TOTAL RECEIVED MATERIALS</th>
-                <th>GAPS</th>
-                <th>SURPLUS</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredRows.map((item, index) => (
-                <tr key={`${item.grade}-${item.subject}-${index}`}>
-                  <td>
-                    <div className="dctSubjectMain">{item.subject}</div>
-                    <div className="dctSubjectSub">Grade {item.grade}</div>
-                  </td>
+          accordionSchools.map((school) => {
+            const isSchoolOpen = !!openSchools[school.schoolId];
 
-                  <td>
-                    <div className="dctBarRow">
-                      <div className="dctBarTrack">
-                        <div
-                          className={`dctBarFill ${getBarColorClass(item.displayPercentage)}`}
-                          style={{ width: `${item.displayPercentage}%` }}
-                        />
-                      </div>
-                      <div className="dctBarValue">{Math.round(item.percentage)}%</div>
+            return (
+              <div key={school.schoolId} className="dctAccordionItem">
+                <button
+                  type="button"
+                  className="dctAccordionHeader"
+                  onClick={() => toggleSchool(school.schoolId)}
+                >
+                  <div className="dctAccordionHeaderLeft">
+                    <span className="dctAccordionIcon">
+                      {isSchoolOpen ? "−" : "+"}
+                    </span>
+
+                    <div className="dctAccordionSchoolInfo">
+                      <span className="dctAccordionSchoolName">
+                        {school.schoolName}
+                      </span>
+                      <span className="dctAccordionCount">
+                        {school.grades.length} grade
+                        {school.grades.length > 1 ? "s" : ""}
+                      </span>
                     </div>
-                  </td>
+                  </div>
 
-                  <td className="dctNumberCell">{formatNumber(item.received)}</td>
-                  <td className="dctNumberCell">{formatNumber(item.gaps)}</td>
-                  <td className="dctNumberCell">{formatNumber(item.surplus)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                  <div className="dctAccordionHeaderRight">
+                    <span className="dctAccordionStat">
+                      <span className="dctAccordionStatLabel">Enrolees</span>
+                      <span className="dctAccordionStatValue">
+                        {formatNumber(school.totals.enrolled)}
+                      </span>
+                    </span>
+
+                    <span className="dctAccordionStat">
+                      <span className="dctAccordionStatLabel">Received</span>
+                      <span className="dctAccordionStatValue">
+                        {formatNumber(school.totals.received)}
+                      </span>
+                    </span>
+
+                    <span className="dctAccordionStat">
+                      <span className="dctAccordionStatLabel">Gaps</span>
+                      <span className="dctAccordionStatValue">
+                        {formatNumber(school.totals.gaps)}
+                      </span>
+                    </span>
+
+                    <span className="dctAccordionStat">
+                      <span className="dctAccordionStatLabel">Surplus</span>
+                      <span className="dctAccordionStatValue">
+                        {formatNumber(school.totals.surplus)}
+                      </span>
+                    </span>
+                  </div>
+                </button>
+
+                {isSchoolOpen && (
+                  <div className="dctAccordionBody">
+                    <div className="dctGradeAccordionWrap">
+                      {school.grades.map((gradeBlock) => {
+                        const gradeKey = `${school.schoolId}__${gradeBlock.grade}`;
+                        const isGradeOpen = !!openGrades[gradeKey];
+
+                        const hasGradeData =
+                          gradeBlock.totals.enrolled > 0 ||
+                          gradeBlock.totals.received > 0 ||
+                          gradeBlock.totals.gaps > 0 ||
+                          gradeBlock.totals.surplus > 0;
+
+                        return (
+                          <div key={gradeKey} className="dctGradeAccordionItem">
+                            <button
+                              type="button"
+                              className="dctGradeAccordionHeader"
+                              onClick={() =>
+                                toggleGrade(school.schoolId, gradeBlock.grade)
+                              }
+                            >
+                              <div className="dctGradeAccordionHeaderLeft">
+                                <span className="dctGradeAccordionIcon">
+                                  {isGradeOpen ? "−" : "+"}
+                                </span>
+
+                                <div className="dctGradeAccordionInfo">
+                                  <span className="dctGradeAccordionTitle">
+                                    {formatGradeLabel(gradeBlock.grade)}
+                                  </span>
+                                  <span className="dctGradeAccordionCount">
+                                    {hasGradeData
+                                      ? `${gradeBlock.rows.length} subject${gradeBlock.rows.length > 1 ? "s" : ""}`
+                                      : "No data"}
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="dctGradeAccordionHeaderRight">
+                                {hasGradeData ? (
+                                  <>
+                                    <span className="dctAccordionStat dctAccordionStat--small">
+                                      <span className="dctAccordionStatLabel">Enrolees</span>
+                                      <span className="dctAccordionStatValue">
+                                        {formatNumber(gradeBlock.totals.enrolled)}
+                                      </span>
+                                    </span>
+
+                                    <span className="dctAccordionStat dctAccordionStat--small">
+                                      <span className="dctAccordionStatLabel">Received</span>
+                                      <span className="dctAccordionStatValue">
+                                        {formatNumber(gradeBlock.totals.received)}
+                                      </span>
+                                    </span>
+
+                                    <span className="dctAccordionStat dctAccordionStat--small">
+                                      <span className="dctAccordionStatLabel">Gaps</span>
+                                      <span className="dctAccordionStatValue">
+                                        {formatNumber(gradeBlock.totals.gaps)}
+                                      </span>
+                                    </span>
+
+                                    <span className="dctAccordionStat dctAccordionStat--small">
+                                      <span className="dctAccordionStatLabel">Surplus</span>
+                                      <span className="dctAccordionStatValue">
+                                        {formatNumber(gradeBlock.totals.surplus)}
+                                      </span>
+                                    </span>
+                                  </>
+                                ) : (
+                                  <span className="dctNoDataBadge">No data</span>
+                                )}
+                              </div>
+                            </button>
+
+                            {isGradeOpen && hasGradeData && (
+                              <div className="dctGradeAccordionBody">
+                                <div className="dctSchoolTableWrap">
+                                  <table className="dctSchoolTable">
+                                    <thead>
+                                      <tr>
+                                        <th>GRADE LEVEL</th>
+                                        <th>SUBJECT</th>
+                                        <th>TOTAL ENROLEES</th>
+                                        <th>TOTAL RECEIVED</th>
+                                        <th>GAPS</th>
+                                        <th>SURPLUS</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      {gradeBlock.rows.map((item, index) => (
+                                        <tr
+                                          key={`${school.schoolId}-${gradeBlock.grade}-${item.subject}-${index}`}
+                                        >
+                                          <td>{formatGradeLabel(item.grade)}</td>
+                                          <td>
+                                            {item.subject === "(No Subject)"
+                                              ? "—"
+                                              : item.subject}
+                                          </td>
+                                          <td className="dctNumberCell">
+                                            {formatNumber(item.enrolled)}
+                                          </td>
+                                          <td className="dctNumberCell">
+                                            {formatNumber(item.received)}
+                                          </td>
+                                          <td className="dctNumberCell">
+                                            {formatNumber(item.gaps)}
+                                          </td>
+                                          <td className="dctNumberCell">
+                                            {formatNumber(item.surplus)}
+                                          </td>
+                                        </tr>
+                                      ))}
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })
         )}
       </div>
     </section>

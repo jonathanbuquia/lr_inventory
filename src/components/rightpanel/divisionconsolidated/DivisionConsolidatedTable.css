@@ -22,6 +22,7 @@
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.6px;
+  color: #172033;
 }
 
 .dctSubTitle {
@@ -63,69 +64,201 @@
   background: #fff;
   font-size: 14px;
   outline: none;
+  color: #172033;
 }
 
 .dctSelect:focus {
   border-color: #7c94d6;
 }
 
-.dctGradeSummary {
-  padding: 16px 20px 18px;
-  border-bottom: 1px solid #e8edf5;
-  background: #fafbfd;
+.dctAccordionWrap {
+  padding: 18px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
-.dctGradeSummaryTitle {
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.7px;
-  color: #3d4a63;
-  margin-bottom: 12px;
+.dctAccordionItem {
+  border: 1px solid #dde5f2;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04);
 }
 
-.dctGradeSummaryGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-}
-
-.dctGradeCard {
+.dctAccordionHeader {
+  width: 100%;
+  border: none;
+  background: #f8fafc;
+  padding: 16px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 56px;
-  padding: 12px 14px;
-  border: 1px solid #e3e8f2;
-  border-radius: 12px;
+  gap: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dctAccordionHeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.dctAccordionSchoolInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.dctAccordionSchoolName {
+  font-size: 15px;
+  font-weight: 800;
+  color: #172033;
+}
+
+.dctAccordionCount {
+  font-size: 12px;
+  color: #667085;
+}
+
+.dctAccordionHeaderRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.dctAccordionStat {
+  min-width: 95px;
+  padding: 8px 10px;
+  border-radius: 10px;
   background: #ffffff;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.dctGradeCardLabel {
-  font-size: 13px;
+.dctAccordionStat--small {
+  min-width: 88px;
+}
+
+.dctAccordionStatLabel {
+  font-size: 11px;
   font-weight: 700;
-  color: #33415c;
+  color: #667085;
+  line-height: 1.2;
 }
 
-.dctGradeCardValue {
+.dctAccordionStatValue {
+  font-size: 13px;
+  font-weight: 800;
+  color: #172033;
+  line-height: 1.2;
+}
+
+.dctAccordionIcon,
+.dctGradeAccordionIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: #eaf0fb;
+  color: #2447b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.dctAccordionBody {
+  padding: 14px 18px 16px;
+  background: #ffffff;
+}
+
+.dctGradeAccordionWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dctGradeAccordionItem {
+  border: 1px solid #e4eaf3;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fcfdff;
+}
+
+.dctGradeAccordionHeader {
+  width: 100%;
+  border: none;
+  background: #f8fafc;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dctGradeAccordionHeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.dctGradeAccordionInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dctGradeAccordionTitle {
   font-size: 14px;
   font-weight: 800;
   color: #172033;
 }
 
-.dctTableWrap {
-  width: 100%;
-  overflow-x: auto;
+.dctGradeAccordionCount {
+  font-size: 12px;
+  color: #667085;
 }
 
-.dctTable {
+.dctGradeAccordionHeaderRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.dctGradeAccordionBody {
+  padding: 0 16px 16px;
+  background: #ffffff;
+}
+
+.dctSchoolTableWrap {
+  overflow-x: auto;
+  border: 1px solid #e8edf5;
+  border-radius: 12px;
+}
+
+.dctSchoolTable {
   width: 100%;
-  min-width: 950px;
+  min-width: 900px;
   border-collapse: collapse;
 }
 
-.dctTable thead th {
-  padding: 14px 20px;
+.dctSchoolTable thead th {
+  padding: 14px 16px;
   text-align: left;
   font-size: 12px;
   letter-spacing: 0.7px;
@@ -136,22 +269,16 @@
   white-space: nowrap;
 }
 
-.dctTable tbody td {
-  padding: 16px 20px;
+.dctSchoolTable tbody td {
+  padding: 14px 16px;
   border-bottom: 1px solid #edf1f7;
+  font-size: 14px;
+  color: #172033;
   vertical-align: middle;
 }
 
-.dctSubjectMain {
-  font-size: 14px;
-  font-weight: 700;
-  color: #172033;
-}
-
-.dctSubjectSub {
-  margin-top: 4px;
-  font-size: 12px;
-  color: #6b7280;
+.dctSchoolTable tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .dctNumberCell {
@@ -161,50 +288,8 @@
   white-space: nowrap;
 }
 
-.dctBarRow {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 280px;
-}
-
-.dctBarTrack {
-  position: relative;
-  width: 100%;
-  max-width: 280px;
-  height: 18px;
-  border-radius: 999px;
-  background: #ebeff5;
-  overflow: hidden;
-}
-
-.dctBarFill {
-  height: 100%;
-  border-radius: 999px;
-}
-
-.dctBarFill--red {
-  background: #e74c3c;
-}
-
-.dctBarFill--blue {
-  background: #2563eb;
-}
-
-.dctBarFill--green {
-  background: #16a34a;
-}
-
-.dctBarValue {
-  min-width: 58px;
-  font-size: 13px;
-  font-weight: 700;
-  color: #172033;
-  white-space: nowrap;
-}
-
 .dctEmpty {
-  padding: 28px 20px;
+  padding: 12px 0;
   font-size: 14px;
   color: #667085;
 }
@@ -225,24 +310,46 @@
     min-width: 100%;
   }
 
-  .dctGradeSummary {
+  .dctAccordionWrap {
     padding: 14px 12px 16px;
   }
 
-  .dctGradeSummaryGrid {
-    grid-template-columns: 1fr;
+  .dctAccordionHeader,
+  .dctGradeAccordionHeader {
+    padding: 14px;
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  .dctTable thead th,
-  .dctTable tbody td {
-    padding: 14px 12px;
+  .dctAccordionHeaderRight,
+  .dctGradeAccordionHeaderRight {
+    justify-content: flex-start;
   }
 
-  .dctBarRow {
-    min-width: 240px;
+  .dctAccordionBody {
+    padding: 12px;
   }
 
-  .dctBarTrack {
-    max-width: 180px;
+  .dctGradeAccordionBody {
+    padding: 0 12px 12px;
+  }
+
+  .dctSchoolTable thead th,
+  .dctSchoolTable tbody td {
+    padding: 12px 10px;
+  }
+
+  .dctNoDataBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 0 12px;
+    border-radius: 999px;
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 700;
   }
 }
