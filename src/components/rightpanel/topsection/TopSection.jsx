@@ -17,6 +17,7 @@ const TopSection = ({
   const [schools, setSchools] = useState([]);
   const [searchValue, setSearchValue] = useState("");
   const [openSuggest, setOpenSuggest] = useState(false);
+  const [isMobileTabsOpen, setIsMobileTabsOpen] = useState(false);
 
   const divisionSlug = selectedDivision?.slug || "";
 
@@ -27,6 +28,7 @@ const TopSection = ({
         setSelectedSchoolId("ALL");
         setSearchValue("");
         setOpenSuggest(false);
+        setIsMobileTabsOpen(false);
         return;
       }
 
@@ -41,12 +43,14 @@ const TopSection = ({
         setSelectedSchoolId("ALL");
         setSearchValue("");
         setOpenSuggest(false);
+        setIsMobileTabsOpen(false);
       } catch (err) {
         console.error(err);
         setSchools([]);
         setSelectedSchoolId("ALL");
         setSearchValue("");
         setOpenSuggest(false);
+        setIsMobileTabsOpen(false);
       }
     };
 
@@ -64,13 +68,12 @@ const TopSection = ({
   const pickSchool = (school) => {
     if (!school?.id) return;
     setSelectedSchoolId(school.id);
-    setSearchValue(""); // becomes blank after selecting (your requirement)
+    setSearchValue("");
     setOpenSuggest(false);
   };
 
   return (
     <div className="ts__wrap">
-      {/* School Dropdown */}
       <div className="ts__field ts__field--school">
         <label className="ts__label">School</label>
         <select
@@ -88,9 +91,8 @@ const TopSection = ({
         </select>
       </div>
 
-      {/* Search (with filtered dropdown suggestions) */}
       <div className="ts__field ts__field--search">
-        <label className="ts__label">Search </label>
+        <label className="ts__label">Search</label>
 
         <div className="ts__searchWrap">
           <input
@@ -102,7 +104,6 @@ const TopSection = ({
             }}
             onFocus={() => setOpenSuggest(true)}
             onBlur={() => {
-              // delay so click works
               setTimeout(() => setOpenSuggest(false), 120);
             }}
             placeholder={!divisionSlug ? "Select a division first" : "Type school name..."}
@@ -118,7 +119,7 @@ const TopSection = ({
                   type="button"
                   className="ts__suggestItem"
                   title={s.name}
-                  onMouseDown={(e) => e.preventDefault()} // prevents blur before click
+                  onMouseDown={(e) => e.preventDefault()}
                   onClick={() => pickSchool(s)}
                 >
                   {s.name}
@@ -129,20 +130,40 @@ const TopSection = ({
         </div>
       </div>
 
-      {/* Tabs (3 sheet buttons) */}
-      <div className="ts__tabs" role="tablist" aria-label="Sheets">
-        {TABS.map((t) => (
-          <button
-            key={t.key}
-            type="button"
-            className={`ts__tab ${activeTab === t.key ? "is-active" : ""}`}
-            onClick={() => setActiveTab(t.key)}
-            role="tab"
-            aria-selected={activeTab === t.key}
-          >
-            {t.label}
-          </button>
-        ))}
+      <div className={`ts__tabsDock ${isMobileTabsOpen ? "is-open" : ""}`}>
+        <button
+          type="button"
+          className={`ts__tabsToggle ${isMobileTabsOpen ? "is-open" : ""}`}
+          onClick={() => setIsMobileTabsOpen((value) => !value)}
+          aria-label={isMobileTabsOpen ? "Hide sheet buttons" : "Show sheet buttons"}
+          aria-expanded={isMobileTabsOpen}
+          aria-controls="mobile-sheet-tabs"
+        >
+          <span aria-hidden="true">{isMobileTabsOpen ? ">" : "<"}</span>
+        </button>
+
+        <div
+          id="mobile-sheet-tabs"
+          className={`ts__tabs ${isMobileTabsOpen ? "is-open" : ""}`}
+          role="tablist"
+          aria-label="Sheets"
+        >
+          {TABS.map((t) => (
+            <button
+              key={t.key}
+              type="button"
+              className={`ts__tab ${activeTab === t.key ? "is-active" : ""}`}
+              onClick={() => {
+                setActiveTab(t.key);
+                setIsMobileTabsOpen(false);
+              }}
+              role="tab"
+              aria-selected={activeTab === t.key}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

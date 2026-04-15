@@ -69,6 +69,10 @@
   background: #ffffff;
 }
 
+.lp__mobileToggle {
+  display: none;
+}
+
 .lp__hamburger span {
   display: block;
   width: 18px;
@@ -76,6 +80,30 @@
   background: #111827;
   margin: 2px 0;
   border-radius: 2px;
+}
+
+.lp__mobileToggle span {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #111827;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: transform 160ms ease, opacity 160ms ease, top 160ms ease;
+}
+
+.lp__mobileToggle span:nth-child(1) {
+  top: 14px;
+}
+
+.lp__mobileToggle span:nth-child(2) {
+  top: 21px;
+}
+
+.lp__mobileToggle span:nth-child(3) {
+  top: 28px;
 }
 
 /* Nav section */
@@ -160,8 +188,52 @@
 }
 
 @media (max-width: 900px) {
-  .lp__hamburger {
+  .lp__mobileToggle {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    width: 44px;
+    height: 44px;
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    background: rgba(255, 255, 255, 0.74);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
+    z-index: 50;
+    transition:
+      left 160ms ease,
+      transform 160ms ease,
+      width 160ms ease,
+      height 160ms ease,
+      border-radius 160ms ease,
+      box-shadow 160ms ease,
+      background-color 160ms ease;
+  }
+
+  .lp__mobileToggle.is-open {
+    left: 292px;
+  }
+
+  .lp__mobileToggle.is-open span:nth-child(1) {
+    top: 21px;
+    transform: translateX(-50%) rotate(45deg);
+  }
+
+  .lp__mobileToggle.is-open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .lp__mobileToggle.is-open span:nth-child(3) {
+    top: 21px;
+    transform: translateX(-50%) rotate(-45deg);
+  }
+
+  .lp__hamburger {
+    display: none;
   }
 
   .lp__sidebar {
@@ -171,6 +243,7 @@
     height: 100vh;
     transition: left 160ms ease;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+    z-index: 40;
   }
 
   .lp__sidebar.is-open {
@@ -182,6 +255,6 @@
     position: fixed;
     inset: 0;
     background: rgba(17, 24, 39, 0.35);
-    z-index: 10;
+    z-index: 35;
   }
 }

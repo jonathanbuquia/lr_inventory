@@ -17,3 +17,15 @@
   border-radius: 14px;
   min-height: 200px;
 }
+
+@media (max-width: 900px) {
+  .rp__wrap {
+    padding: 76px 12px 12px;
+  }
+
+  .rp__content {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+}

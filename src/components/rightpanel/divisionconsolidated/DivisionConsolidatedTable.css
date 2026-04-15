@@ -200,8 +200,9 @@
 }
 
 .dctGradeAccordionBody {
-  padding: 0 16px 16px;
+  padding: 12px 16px 16px;
   background: #ffffff;
+  border-top: 1px solid #e8edf5;
 }
 
 .dctSchoolTableWrap {
@@ -275,7 +276,7 @@
   }
 
   .dctGradeAccordionBody {
-    padding: 0 12px 12px;
+    padding: 12px 12px 12px;
   }
 
   .dctSchoolTable thead th,

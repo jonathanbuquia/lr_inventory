@@ -4,7 +4,10 @@ import logo from "../../assets/logo.png";
 
 import { LAST_UPDATED } from "../../lastUpdated";
 
-const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
+const LeftPanel = ({
+  selectedDivision,
+  onSelectDivision,
+}) => {
   const [divisions, setDivisions] = useState([]);
   const [isOpenMobile, setIsOpenMobile] = useState(false);
 
@@ -18,11 +21,6 @@ const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
 
         const list = Array.isArray(data?.divisions) ? data.divisions : [];
         setDivisions(list);
-
-        // Auto-select first division if none selected yet
-        if (!selectedDivision && list.length > 0 && typeof onSelectDivision === "function") {
-          onSelectDivision(list[0]);
-        }
       } catch (err) {
         console.error(err);
         setDivisions([]);
@@ -30,9 +28,7 @@ const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
     };
 
     loadDivisions();
-    // intentionally not depending on selectedDivision to avoid refetch loops
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [onSelectDivision]);
+  }, []);
 
   const safeDivisions = useMemo(() => (Array.isArray(divisions) ? divisions : []), [divisions]);
 
@@ -43,6 +39,19 @@ const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
 
   return (
     <>
+      <button
+        type="button"
+        className={`lp__mobileToggle ${isOpenMobile ? "is-open" : ""}`}
+        onClick={() => setIsOpenMobile((v) => !v)}
+        aria-label={isOpenMobile ? "Close sidebar" : "Open sidebar"}
+        aria-expanded={isOpenMobile}
+        aria-controls="division-sidebar"
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+
       {isOpenMobile && (
         <button
           className="lp__overlay"
@@ -51,19 +60,23 @@ const LeftPanel = ({ selectedDivision, onSelectDivision }) => {
         />
       )}
 
-      <aside className={`lp__sidebar ${isOpenMobile ? "is-open" : ""}`}>
+      <aside
+        id="division-sidebar"
+        className={`lp__sidebar ${isOpenMobile ? "is-open" : ""}`}
+      >
         <div className="lp__top">
           <div className="lp__logo">
-            <img src={logo} alt="LR Inventory Logo" className="lp__logoImg" />
+            <img src={logo} alt="LR Regional Inventory Logo" className="lp__logoImg" />
 
             <div className="lp__logoText">
-              <div className="lp__logoTitle">LR Inventory</div>
+              <div className="lp__logoTitle">LR Regional Inventory</div>
               <div className="lp__logoSub">Dashboard</div>
               <div className="lp__updates">Last Updated: {LAST_UPDATED}</div>
             </div>
           </div>
 
           <button
+            type="button"
             className="lp__hamburger"
             onClick={() => setIsOpenMobile((v) => !v)}
             aria-label="Toggle sidebar"
