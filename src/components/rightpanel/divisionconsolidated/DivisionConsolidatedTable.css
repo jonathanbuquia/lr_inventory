@@ -254,6 +254,45 @@
   color: #667085;
 }
 
+.dctSchoolStatus {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 24px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  margin-top: 2px;
+}
+
+.dctSchoolStatus--noData {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.dctSchoolStatus--incomplete {
+  background: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.dctNoDataBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 @media (max-width: 768px) {
   .dctAccordionWrap {
     padding: 14px 12px 16px;
@@ -283,45 +322,4 @@
   .dctSchoolTable tbody td {
     padding: 12px 10px;
   }
-
-  .dctSchoolStatus {
-    display: inline-flex;
-    align-items: center;
-    width: fit-content;
-    min-height: 24px;
-    padding: 0 10px;
-    border-radius: 999px;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 0.4px;
-    margin-top: 2px;
-  }
-
-  .dctSchoolStatus--noData {
-    background: #fef2f2;
-    color: #b91c1c;
-    border: 1px solid #fecaca;
-  }
-
-  .dctSchoolStatus--incomplete {
-    background: #fff7ed;
-    color: #c2410c;
-    border: 1px solid #fed7aa;
-  }
-
-  .dctNoDataBadge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 34px;
-    padding: 0 12px;
-    border-radius: 999px;
-    background: #f3f4f6;
-    border: 1px solid #e5e7eb;
-    color: #6b7280;
-    font-size: 12px;
-    font-weight: 700;
-  }
-
-
 }
