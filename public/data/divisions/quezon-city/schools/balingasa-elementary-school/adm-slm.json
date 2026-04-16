@@ -144,8 +144,8 @@
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 1232,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": "",
-      "Year of Delivery - ADM-SLM - Q3": 2025,
-      "SOURCE - ADM-SLM(CO,RO, SDO) - Q3": "SDO",
+      "Year of Delivery - ADM-SLM - Q3": "",
+      "SOURCE - ADM-SLM(CO,RO, SDO) - Q3": "",
       "GAP - ADM-SLM - Q3": 1232,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1232,
@@ -381,10 +381,10 @@
       "GAP - ADM-SLM - Q3": 1512,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1512,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 500,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 50,
       "Year of Delivery - ADM-SLM- Q4": 2025,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
-      "GAP - ADM-SLM - Q4": 1012,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
+      "GAP - ADM-SLM - Q4": 1462,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -410,10 +410,10 @@
       "GAP - ADM-SLM - Q3": 1512,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1512,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 500,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 50,
       "Year of Delivery - ADM-SLM- Q4": 2025,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
-      "GAP - ADM-SLM - Q4": 1012,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
+      "GAP - ADM-SLM - Q4": 1462,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -439,10 +439,10 @@
       "GAP - ADM-SLM - Q3": 1512,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1512,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 240,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 50,
       "Year of Delivery - ADM-SLM- Q4": 2025,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
-      "GAP - ADM-SLM - Q4": 1272,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
+      "GAP - ADM-SLM - Q4": 1462,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -642,10 +642,10 @@
       "GAP - ADM-SLM - Q3": 1248,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1248,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 700,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 50,
       "Year of Delivery - ADM-SLM- Q4": 2025,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
-      "GAP - ADM-SLM - Q4": 548,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
+      "GAP - ADM-SLM - Q4": 1198,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -671,10 +671,10 @@
       "GAP - ADM-SLM - Q3": 1248,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1248,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 550,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 50,
       "Year of Delivery - ADM-SLM- Q4": 2025,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
-      "GAP - ADM-SLM - Q4": 698,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
+      "GAP - ADM-SLM - Q4": 1198,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -700,10 +700,10 @@
       "GAP - ADM-SLM - Q3": 1248,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1248,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 400,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 50,
       "Year of Delivery - ADM-SLM- Q4": 2025,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
-      "GAP - ADM-SLM - Q4": 848,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
+      "GAP - ADM-SLM - Q4": 1198,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -1693,5 +1693,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:24.569Z"
+  "generatedAt": "2026-04-16T06:17:12.602Z"
 }
