@@ -1,11 +1,16 @@
 import { useEffect, useMemo, useState } from "react";
 import "./ADMSLMSourceYearPieCharts.css";
-
-const safeEncode = (v) => encodeURIComponent(String(v ?? "").trim());
-const buildUrl = (divisionSlug, schoolFolder) =>
-  `/data/divisions/${safeEncode(divisionSlug)}/schools/${safeEncode(
-    schoolFolder
-  )}/adm-slm.json`;
+import {
+  QUARTERS,
+  buildSchoolSheetUrl,
+  findQuarterKey,
+  formatGradeLabel,
+  getGradeValue,
+  getSheetRows,
+  getSubjectValue,
+  gradeSortValue,
+  toNumber,
+} from "../../../../utils/dashboardData";
 
 const COLORS = [
   "#0b1f4d",
@@ -22,128 +27,65 @@ const COLORS = [
 const nf = new Intl.NumberFormat("en-US");
 const formatNumber = (n) => nf.format(Number(n || 0));
 
-const norm = (s) =>
-  String(s ?? "")
-    .trim()
-    .toUpperCase()
-    .replace(/\s+/g, " ");
+const getReceived = (row, quarter) => {
+  const key = findQuarterKey({
+    row,
+    baseMatchers: [/received/i],
+    hintMatchers: [/(adm|slm)/i],
+    quarter,
+  });
 
-const toNumber = (v) => {
-  if (v === null || v === undefined) return 0;
-  if (typeof v === "number") return Number.isFinite(v) ? v : 0;
-  const s = String(v).replace(/,/g, "").trim();
-  if (!s) return 0;
-  const n = Number(s);
-  return Number.isFinite(n) ? n : 0;
+  return toNumber(key ? row[key] : 0);
 };
 
-const getGrade = (row) =>
-  row?.["Grade Level"] ?? row?.["GradeLevel"] ?? row?.["GRADE LEVEL"] ?? "";
+const getSource = (row, quarter) => {
+  const key = findQuarterKey({
+    row,
+    baseMatchers: [/source/i],
+    hintMatchers: [/(adm|slm)/i],
+    quarter,
+  });
 
-const getSubject = (row) =>
-  row?.["SUBJECTS"] ?? row?.["Subjects"] ?? row?.["Subject"] ?? "";
-
-// Grade order
-const gradeSortValue = (raw) => {
-  const s = norm(raw);
-  if (!s) return 9999;
-  if (s === "KINDER" || s === "K" || s.includes("KINDER")) return 0;
-
-  const cleaned = s
-    .replace(/^GRADE\s*/i, "")
-    .replace(/\s+/g, "")
-    .replace(/^G/i, "");
-
-  const n = Number(cleaned);
-  return Number.isFinite(n) ? n : 9999;
+  return String(key ? row[key] : "").trim();
 };
 
-const formatGradeLabel = (raw) => {
-  const s = norm(raw);
-  if (!s) return "";
-  if (s === "KINDER" || s === "K" || s.includes("KINDER")) return "KINDER";
+const getYear = (row, quarter) => {
+  const key = findQuarterKey({
+    row,
+    baseMatchers: [/year of delivery/i],
+    hintMatchers: [/(adm|slm)/i],
+    quarter,
+  });
 
-  const cleaned = s
-    .replace(/^GRADE\s*/i, "")
-    .replace(/\s+/g, "")
-    .replace(/^G/i, "");
-
-  const n = Number(cleaned);
-  if (Number.isFinite(n)) return `G${n}`;
-  return s;
-};
-
-// Quarter key matching (robust)
-const quarterRegex = (q) => {
-  const n = String(q).replace(/[^0-9]/g, "");
-  return new RegExp(`\\bQ\\s*${n}\\b`, "i");
-};
-
-// tries with ADM/SLM hint first, then fallback
-const findKey = (row, baseMatchers = [], q = "Q1") => {
-  const keys = Object.keys(row || {});
-  const qre = quarterRegex(q);
-
-  const passAll = (k, matchers) => {
-    const kl = k.toLowerCase();
-    return matchers.every((m) =>
-      typeof m === "string" ? kl.includes(m.toLowerCase()) : m.test(k)
-    );
-  };
-
-  const withHint = [...baseMatchers, /(adm|slm)/i];
-
-  for (const k of keys) if (passAll(k, withHint) && qre.test(k)) return k;
-  for (const k of keys) if (passAll(k, baseMatchers) && qre.test(k)) return k;
-  for (const k of keys) if (passAll(k, withHint)) return k;
-  for (const k of keys) if (passAll(k, baseMatchers)) return k;
-
-  return null;
-};
-
-const getReceived = (row, q) => {
-  // weight by received (any received column with quarter)
-  const k = findKey(row, [/received/i], q);
-  return toNumber(k ? row[k] : 0);
-};
-
-const getSource = (row, q) => {
-  const k = findKey(row, [/source/i], q);
-  return String(k ? row[k] : "").trim();
-};
-
-const getYear = (row, q) => {
-  const k = findKey(row, [/year of delivery/i], q);
-  return String(k ? row[k] : "").trim();
+  return String(key ? row[key] : "").trim();
 };
 
 const makeAggQuarterAware = (rows, quarter, labelFn) => {
-  const map = new Map();
-  const quarters = quarter === "ALL" ? ["Q1", "Q2", "Q3", "Q4"] : [quarter];
+  const totals = new Map();
+  const activeQuarters = quarter === "ALL" ? QUARTERS.slice(1) : [quarter];
 
-  rows.forEach((r) => {
-    quarters.forEach((q) => {
-      const w = getReceived(r, q);
-      if (!w || w <= 0) return;
+  rows.forEach((row) => {
+    activeQuarters.forEach((value) => {
+      const weight = getReceived(row, value);
+      if (!weight || weight <= 0) return;
 
-      const labelRaw = labelFn(r, q);
-      const label = labelRaw ? labelRaw : "UNKNOWN";
-
-      map.set(label, (map.get(label) || 0) + w);
+      const label = labelFn(row, value) || "UNKNOWN";
+      totals.set(label, (totals.get(label) || 0) + weight);
     });
   });
 
-  const items = Array.from(map.entries())
+  const items = Array.from(totals.entries())
     .map(([label, value]) => ({ label, value }))
     .sort((a, b) => b.value - a.value);
 
-  const total = items.reduce((s, x) => s + x.value, 0);
-  return { items, total };
+  return {
+    items,
+    total: items.reduce((sum, item) => sum + item.value, 0),
+  };
 };
 
-// SVG helpers
 const polarToCartesian = (cx, cy, r, angleDeg) => {
-  const angleRad = ((angleDeg - 90) * Math.PI) / 180.0;
+  const angleRad = ((angleDeg - 90) * Math.PI) / 180;
   return { x: cx + r * Math.cos(angleRad), y: cy + r * Math.sin(angleRad) };
 };
 
@@ -195,8 +137,12 @@ const Pie = ({ title, data }) => {
               {slices.length === 1 ? (
                 <circle cx={cx} cy={cy} r={r} fill={slices[0].color} />
               ) : (
-                slices.map((s) => (
-                  <path key={s.label} d={arcPath(cx, cy, r, s.startAngle, s.endAngle)} fill={s.color} />
+                slices.map((slice) => (
+                  <path
+                    key={slice.label}
+                    d={arcPath(cx, cy, r, slice.startAngle, slice.endAngle)}
+                    fill={slice.color}
+                  />
                 ))
               )}
 
@@ -212,34 +158,40 @@ const Pie = ({ title, data }) => {
         </div>
 
         <div className="pyLegend">
-          {data.total <= 0 ? null : (
-            <>
-              {slices.slice(0, 10).map((s) => (
-                <div key={s.label} className="pyLegendRow">
-                  <span className="pyDot" style={{ background: s.color }} />
-                  <span className="pyLegendLabel" title={s.label}>
-                    {s.label}
-                  </span>
-                  <span className="pyLegendValue">
-                    {formatNumber(s.value)} <span className="pyLegendPct">({s.pct}%)</span>
-                  </span>
-                </div>
-              ))}
-              {slices.length > 10 && <div className="pyLegendMore">+ {slices.length - 10} more…</div>}
-            </>
-          )}
+          {data.total <= 0
+            ? null
+            : (
+                <>
+                  {slices.slice(0, 10).map((slice) => (
+                    <div key={slice.label} className="pyLegendRow">
+                      <span className="pyDot" style={{ background: slice.color }} />
+                      <span className="pyLegendLabel" title={slice.label}>
+                        {slice.label}
+                      </span>
+                      <span className="pyLegendValue">
+                        {formatNumber(slice.value)}{" "}
+                        <span className="pyLegendPct">({slice.pct}%)</span>
+                      </span>
+                    </div>
+                  ))}
+                  {slices.length > 10 && (
+                    <div className="pyLegendMore">+ {slices.length - 10} more...</div>
+                  )}
+                </>
+              )}
         </div>
       </div>
     </div>
   );
 };
 
-const ADMSLMSourceYearPieCharts = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
+const ADMSLMSourceYearPieCharts = ({
+  selectedDivisionSlug,
+  selectedSchoolFolderName,
+}) => {
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");
-
-  // Filters (ONLY grade + quarter)
   const [gradeLevel, setGradeLevel] = useState("ALL");
   const [quarter, setQuarter] = useState("ALL");
 
@@ -252,24 +204,30 @@ const ADMSLMSourceYearPieCharts = ({ selectedDivisionSlug, selectedSchoolFolderN
       setGradeLevel("ALL");
       setQuarter("ALL");
 
-      if (!selectedDivisionSlug || !selectedSchoolFolderName || selectedSchoolFolderName === "ALL") return;
+      if (!selectedDivisionSlug || !selectedSchoolFolderName || selectedSchoolFolderName === "ALL") {
+        return;
+      }
 
       try {
         setLoading(true);
-        const url = buildUrl(selectedDivisionSlug, selectedSchoolFolderName);
+        const url = buildSchoolSheetUrl(
+          selectedDivisionSlug,
+          selectedSchoolFolderName,
+          "adm-slm.json"
+        );
         const res = await fetch(url, { cache: "no-store" });
         if (!res.ok) throw new Error(`Failed to load ${url} (HTTP ${res.status})`);
 
         const json = await res.json();
-        const nextRows = Array.isArray(json?.rows) ? json.rows : Array.isArray(json) ? json : [];
-
-        const cleaned = nextRows.filter((r) => String(getSubject(r)).trim() !== "");
+        const cleaned = getSheetRows(json).filter(
+          (row) => String(getSubjectValue(row)).trim() !== ""
+        );
 
         if (!alive) return;
         setRows(cleaned);
-      } catch (e) {
+      } catch (error) {
         if (!alive) return;
-        setErr(e?.message || "Failed to load pie chart data.");
+        setErr(error?.message || "Failed to load pie chart data.");
       } finally {
         if (alive) setLoading(false);
       }
@@ -282,39 +240,45 @@ const ADMSLMSourceYearPieCharts = ({ selectedDivisionSlug, selectedSchoolFolderN
   }, [selectedDivisionSlug, selectedSchoolFolderName]);
 
   const gradeOptions = useMemo(() => {
-    const set = new Set();
-    rows.forEach((r) => {
-      const g = formatGradeLabel(getGrade(r));
-      if (g) set.add(g);
+    const grades = new Set();
+
+    rows.forEach((row) => {
+      const grade = formatGradeLabel(getGradeValue(row));
+      if (grade) grades.add(grade);
     });
 
-    const arr = Array.from(set);
-    if (!arr.includes("KINDER")) arr.push("KINDER");
+    const values = Array.from(grades);
+    if (!values.includes("KINDER")) values.push("KINDER");
+    values.sort(
+      (a, b) => gradeSortValue(a) - gradeSortValue(b) || a.localeCompare(b)
+    );
 
-    arr.sort((a, b) => gradeSortValue(a) - gradeSortValue(b) || a.localeCompare(b));
-    return ["ALL", ...arr];
+    return ["ALL", ...values];
   }, [rows]);
 
-  const filteredRows = useMemo(() => {
-    return rows.filter((r) => {
-      const g = formatGradeLabel(getGrade(r));
-      return gradeLevel === "ALL" ? true : g === gradeLevel;
-    });
-  }, [rows, gradeLevel]);
+  const filteredRows = useMemo(
+    () =>
+      rows.filter((row) => {
+        const grade = formatGradeLabel(getGradeValue(row));
+        return gradeLevel === "ALL" ? true : grade === gradeLevel;
+      }),
+    [rows, gradeLevel]
+  );
 
   const sourceAgg = useMemo(
-    () => makeAggQuarterAware(filteredRows, quarter, (r, q) => getSource(r, q)),
+    () => makeAggQuarterAware(filteredRows, quarter, getSource),
     [filteredRows, quarter]
   );
 
   const yearAgg = useMemo(
-    () => makeAggQuarterAware(filteredRows, quarter, (r, q) => getYear(r, q)),
+    () => makeAggQuarterAware(filteredRows, quarter, getYear),
     [filteredRows, quarter]
   );
 
   if (!selectedDivisionSlug) return <div className="pyState">Select a division.</div>;
-  if (!selectedSchoolFolderName || selectedSchoolFolderName === "ALL")
+  if (!selectedSchoolFolderName || selectedSchoolFolderName === "ALL") {
     return <div className="pyState">Select a school to view pie charts.</div>;
+  }
 
   return (
     <div className="pyWrap">
@@ -333,9 +297,13 @@ const ADMSLMSourceYearPieCharts = ({ selectedDivisionSlug, selectedSchoolFolderN
               onChange={(e) => setGradeLevel(e.target.value)}
               disabled={loading || gradeOptions.length <= 1}
             >
-              {gradeOptions.map((g) => (
-                <option key={g} value={g}>
-                  {g === "ALL" ? "ALL" : g === "KINDER" ? "KINDER" : `GRADE ${g.replace(/^G/i, "")}`}
+              {gradeOptions.map((grade) => (
+                <option key={grade} value={grade}>
+                  {grade === "ALL"
+                    ? "ALL"
+                    : grade === "KINDER"
+                      ? "KINDER"
+                      : `GRADE ${grade.replace(/^G/i, "")}`}
                 </option>
               ))}
             </select>
@@ -349,9 +317,9 @@ const ADMSLMSourceYearPieCharts = ({ selectedDivisionSlug, selectedSchoolFolderN
               onChange={(e) => setQuarter(e.target.value)}
               disabled={loading}
             >
-              {["ALL", "Q1", "Q2", "Q3", "Q4"].map((q) => (
-                <option key={q} value={q}>
-                  {q}
+              {QUARTERS.map((value) => (
+                <option key={value} value={value}>
+                  {value}
                 </option>
               ))}
             </select>
@@ -359,7 +327,7 @@ const ADMSLMSourceYearPieCharts = ({ selectedDivisionSlug, selectedSchoolFolderN
         </div>
       </div>
 
-      {loading && <div className="pyState">Loading pie charts…</div>}
+      {loading && <div className="pyState">Loading pie charts...</div>}
       {err && <div className="pyError">{err}</div>}
 
       {!loading && !err && (

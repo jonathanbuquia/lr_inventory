@@ -3,81 +3,30 @@ import ADMSLMTable from "./adm-slmtable/ADMSLMTable";
 import ADMSLMGapsSurplusChart from "./gaps_surplus/ADMSLMGapsSurplusChart";
 import ADMSLMSourceYearPieCharts from "./piecharts/ADMSLMSourceYearPieCharts";
 import "./adm-slmtable/admSlmTable.css";
+import {
+  QUARTERS,
+  formatGradeLabel,
+  getEnrolmentValue,
+  getGradeValue,
+  getSheetRows,
+  getSubjectValue,
+  gradeSortValue,
+  isKinderGrade,
+  normalizeText,
+  safeEncode,
+  toNumber,
+} from "../../../utils/dashboardData";
 
-const QUARTERS = ["ALL", "Q1", "Q2", "Q3", "Q4"];
-
-const safeEncode = (v) => encodeURIComponent(String(v ?? "").trim());
 const buildUrl = (divisionSlug, schoolFolder) =>
   `/data/divisions/${safeEncode(divisionSlug)}/schools/${safeEncode(
     schoolFolder
   )}/adm-slm.json`;
-
-const norm = (s) =>
-  String(s ?? "")
-    .trim()
-    .toUpperCase()
-    .replace(/\s+/g, " ");
-
-const getGrade = (row) =>
-  row?.["Grade Level"] ?? row?.["GradeLevel"] ?? row?.["GRADE LEVEL"] ?? "";
-
-const getSubject = (row) =>
-  row?.["SUBJECTS"] ?? row?.["Subjects"] ?? row?.["Subject"] ?? "";
-
-const gradeSortValue = (raw) => {
-  const s = norm(raw);
-  if (!s) return 9999;
-  if (s === "KINDER" || s === "K" || s.includes("KINDER")) return 0;
-
-  const cleaned = s
-    .replace(/^GRADE\s*/i, "")
-    .replace(/\s+/g, "")
-    .replace(/^G/i, "");
-
-  const n = Number(cleaned);
-  if (Number.isFinite(n)) return n;
-  return 9999;
-};
-
-const formatGradeLabel = (raw) => {
-  const s = norm(raw);
-  if (!s) return "";
-  if (s === "KINDER" || s === "K" || s.includes("KINDER")) return "KINDER";
-
-  const cleaned = s
-    .replace(/^GRADE\s*/i, "")
-    .replace(/\s+/g, "")
-    .replace(/^G/i, "");
-
-  const n = Number(cleaned);
-  if (Number.isFinite(n)) return `G${n}`;
-  return s;
-};
-
-const toNumber = (v) => {
-  if (v === null || v === undefined) return 0;
-  const s = String(v).replace(/,/g, "").trim();
-  if (!s) return 0;
-  const n = Number(s);
-  return Number.isFinite(n) ? n : 0;
-};
-
-const getEnrolment = (row) =>
-  row?.["Enrolment S.Y. 2025-2026"] ??
-  row?.["Enrolment S.Y. 2025–2026"] ??
-  row?.["Enrolment SY 2025-2026"] ??
-  row?.["Enrolment"] ??
-  row?.["Enrollment"] ??
-  row?.["ENROLMENT"] ??
-  "";
 
 const nf = new Intl.NumberFormat("en-US");
 
 const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
   const [rows, setRows] = useState([]);
   const [status, setStatus] = useState({ loading: true, error: "" });
-
-  // Filters for the TABLE
   const [selectedGrade, setSelectedGrade] = useState("ALL");
   const [quarter, setQuarter] = useState("ALL");
 
@@ -99,14 +48,9 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
         if (!res.ok) throw new Error(`Cannot load adm-slm.json (${res.status})`);
 
         const json = await res.json();
-        const arr = Array.isArray(json) ? json : Array.isArray(json?.rows) ? json.rows : [];
-
-        // keep subject rows OR KINDER (even if blank subject)
-        const cleaned = arr.filter((r) => {
-          const grade = norm(getGrade(r));
-          const hasSubject = String(getSubject(r)).trim() !== "";
-          const isKinder = grade === "KINDER" || grade === "K" || grade.includes("KINDER");
-          return hasSubject || isKinder;
+        const cleaned = getSheetRows(json).filter((row) => {
+          const hasSubject = String(getSubjectValue(row)).trim() !== "";
+          return hasSubject || isKinderGrade(normalizeText(getGradeValue(row)));
         });
 
         if (!alive) return;
@@ -115,11 +59,15 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
         setSelectedGrade("ALL");
         setQuarter("ALL");
         setStatus({ loading: false, error: "" });
-      } catch (e) {
-        console.error("ADM-SLM LOAD ERROR:", e);
+      } catch (error) {
+        console.error("ADM-SLM LOAD ERROR:", error);
         if (!alive) return;
+
         setRows([]);
-        setStatus({ loading: false, error: e?.message || "Failed to load ADM-SLM." });
+        setStatus({
+          loading: false,
+          error: error?.message || "Failed to load ADM-SLM.",
+        });
       }
     };
 
@@ -130,43 +78,52 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
   }, [selectedDivisionSlug, selectedSchoolFolderName]);
 
   const gradeOptions = useMemo(() => {
-    const set = new Set();
-    rows.forEach((r) => {
-      const g = String(getGrade(r)).trim();
-      if (g) set.add(formatGradeLabel(g));
+    const grades = new Set();
+
+    rows.forEach((row) => {
+      const grade = String(getGradeValue(row)).trim();
+      if (grade) grades.add(formatGradeLabel(grade));
     });
 
-    const arr = Array.from(set);
-    if (!arr.includes("KINDER")) arr.push("KINDER");
+    const values = Array.from(grades);
+    if (!values.includes("KINDER")) values.push("KINDER");
+    values.sort(
+      (a, b) => gradeSortValue(a) - gradeSortValue(b) || a.localeCompare(b)
+    );
 
-    arr.sort((a, b) => gradeSortValue(a) - gradeSortValue(b) || a.localeCompare(b));
-    return ["ALL", ...arr];
+    return ["ALL", ...values];
   }, [rows]);
 
   const filteredRows = useMemo(() => {
     if (selectedGrade === "ALL") return rows;
-    return rows.filter((r) => formatGradeLabel(getGrade(r)) === selectedGrade);
+    return rows.filter(
+      (row) => formatGradeLabel(getGradeValue(row)) === selectedGrade
+    );
   }, [rows, selectedGrade]);
 
-  // Top enrolment chips (only show grades with available enrolment)
   const enrolmentSeries = useMemo(() => {
-    const map = new Map();
+    const firstByGrade = new Map();
 
-    for (const r of rows) {
-      const gradeLabel = formatGradeLabel(getGrade(r));
-      if (!gradeLabel) continue;
-      if (map.has(gradeLabel)) continue;
+    for (const row of rows) {
+      const gradeLabel = formatGradeLabel(getGradeValue(row));
+      if (!gradeLabel || firstByGrade.has(gradeLabel)) continue;
 
-      const e = toNumber(getEnrolment(r));
-      if (e > 0) map.set(gradeLabel, e);
+      const enrolment = toNumber(getEnrolmentValue(row));
+      if (enrolment > 0) {
+        firstByGrade.set(gradeLabel, enrolment);
+      }
     }
 
-    const list = Array.from(map.entries()).map(([grade, value]) => ({ grade, value }));
-    list.sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade) || a.grade.localeCompare(b.grade));
-    return list;
+    return Array.from(firstByGrade.entries())
+      .map(([grade, value]) => ({ grade, value }))
+      .sort(
+        (a, b) =>
+          gradeSortValue(a.grade) - gradeSortValue(b.grade) ||
+          a.grade.localeCompare(b.grade)
+      );
   }, [rows]);
 
-  if (status.loading) return <div className="rp__empty">Loading ADM-SLM…</div>;
+  if (status.loading) return <div className="rp__empty">Loading ADM-SLM...</div>;
 
   if (status.error) {
     return (
@@ -175,7 +132,8 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
         <div style={{ opacity: 0.7, marginTop: 6, fontSize: 13 }}>
           Check:{" "}
           <b>
-            public/data/divisions/{selectedDivisionSlug}/schools/{selectedSchoolFolderName}/adm-slm.json
+            public/data/divisions/{selectedDivisionSlug}/schools/
+            {selectedSchoolFolderName}/adm-slm.json
           </b>
         </div>
       </div>
@@ -184,7 +142,6 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
 
   return (
     <div className="lasWrap">
-      {/* Controls (reuse same class names from LAS CSS) */}
       <div className="lasControls">
         <div className="lasGradeRow">
           <div className="lasGradeBlock">
@@ -194,9 +151,9 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
               value={selectedGrade}
               onChange={(e) => setSelectedGrade(e.target.value)}
             >
-              {gradeOptions.map((g) => (
-                <option key={g} value={g}>
-                  {g}
+              {gradeOptions.map((grade) => (
+                <option key={grade} value={grade}>
+                  {grade}
                 </option>
               ))}
             </select>
@@ -225,29 +182,25 @@ const ADMSLMView = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
         <div className="lasQuarterBlock">
           <div className="lasLabel">Quarter</div>
           <div className="lasQuarterBtns">
-            {QUARTERS.map((q) => (
+            {QUARTERS.map((value) => (
               <button
-                key={q}
+                key={value}
                 type="button"
-                className={`lasQBtn ${quarter === q ? "active" : ""}`}
-                onClick={() => setQuarter(q)}
+                className={`lasQBtn ${quarter === value ? "active" : ""}`}
+                onClick={() => setQuarter(value)}
               >
-                {q}
+                {value}
               </button>
             ))}
           </div>
         </div>
       </div>
 
-      {/* TABLE */}
       <ADMSLMTable rows={filteredRows} quarter={quarter} />
-
-      {/* CHARTS (separate cards) */}
       <ADMSLMGapsSurplusChart
         selectedDivisionSlug={selectedDivisionSlug}
         selectedSchoolFolderName={selectedSchoolFolderName}
       />
-
       <ADMSLMSourceYearPieCharts
         selectedDivisionSlug={selectedDivisionSlug}
         selectedSchoolFolderName={selectedSchoolFolderName}

@@ -1,103 +1,34 @@
 import React, { useEffect, useMemo, useState } from "react";
 import "./ADMSLMGapsSurplusChart.css";
+import {
+  QUARTERS,
+  buildSchoolSheetUrl,
+  findQuarterKey,
+  formatGradeLabel,
+  getGradeValue,
+  getSheetRows,
+  getSubjectValue,
+  gradeSortValue,
+  toNumber,
+} from "../../../../utils/dashboardData";
 
 const nf = new Intl.NumberFormat("en-US");
-const QUARTERS = ["ALL", "Q1", "Q2", "Q3", "Q4"];
 
-const safeEncode = (v) => encodeURIComponent(String(v ?? "").trim());
-const buildUrl = (divisionSlug, schoolFolder) =>
-  `/data/divisions/${safeEncode(divisionSlug)}/schools/${safeEncode(
-    schoolFolder
-  )}/adm-slm.json`;
+const pickQuarterGapSurplus = (row, quarter) => {
+  const gapKey = findQuarterKey({
+    row,
+    baseMatchers: [/gap/i],
+    hintMatchers: [/(adm|slm)/i],
+    quarter,
+  });
 
-const toNumber = (v) => {
-  if (v === null || v === undefined) return 0;
-  if (typeof v === "number") return Number.isFinite(v) ? v : 0;
-  const s = String(v).replace(/,/g, "").trim();
-  if (!s) return 0;
-  const n = Number(s);
-  return Number.isFinite(n) ? n : 0;
-};
+  const surplusKey = findQuarterKey({
+    row,
+    baseMatchers: [/surplus/i],
+    hintMatchers: [/(adm|slm)/i],
+    quarter,
+  });
 
-const norm = (s) =>
-  String(s ?? "")
-    .trim()
-    .toUpperCase()
-    .replace(/\s+/g, " ");
-
-const getGrade = (row) =>
-  row?.["Grade Level"] ?? row?.["GradeLevel"] ?? row?.["GRADE LEVEL"] ?? "";
-
-const getSubject = (row) =>
-  row?.["SUBJECTS"] ?? row?.["Subjects"] ?? row?.["Subject"] ?? "";
-
-// ---- Grade ordering (KINDER, G1..G12) ----
-const gradeSortValue = (raw) => {
-  const s = norm(raw);
-  if (!s) return 9999;
-  if (s === "KINDER" || s === "K" || s.includes("KINDER")) return 0;
-
-  const cleaned = s
-    .replace(/^GRADE\s*/i, "")
-    .replace(/\s+/g, "")
-    .replace(/^G/i, "");
-
-  const n = Number(cleaned);
-  return Number.isFinite(n) ? n : 9999;
-};
-
-const formatGradeLabel = (raw) => {
-  const s = norm(raw);
-  if (!s) return "";
-  if (s === "KINDER" || s === "K" || s.includes("KINDER")) return "KINDER";
-
-  const cleaned = s
-    .replace(/^GRADE\s*/i, "")
-    .replace(/\s+/g, "")
-    .replace(/^G/i, "");
-
-  const n = Number(cleaned);
-  if (Number.isFinite(n)) return `G${n}`;
-  return s;
-};
-
-// ---- Quarter key matching (robust) ----
-const quarterRegex = (q) => {
-  const n = String(q).replace(/[^0-9]/g, "");
-  return new RegExp(`\\bQ\\s*${n}\\b`, "i");
-};
-
-// tries with ADM/SLM hint first, then fallback without
-const findKey = (row, baseMatchers = [], q = "Q1") => {
-  const keys = Object.keys(row || {});
-  const qre = quarterRegex(q);
-
-  const passAll = (k, matchers) => {
-    const kl = k.toLowerCase();
-    return matchers.every((m) =>
-      typeof m === "string" ? kl.includes(m.toLowerCase()) : m.test(k)
-    );
-  };
-
-  // 1) base + ADM/SLM + quarter
-  const withHint = [...baseMatchers, /(adm|slm)/i];
-  for (const k of keys) if (passAll(k, withHint) && qre.test(k)) return k;
-
-  // 2) base + quarter
-  for (const k of keys) if (passAll(k, baseMatchers) && qre.test(k)) return k;
-
-  // 3) base only (with hint)
-  for (const k of keys) if (passAll(k, withHint)) return k;
-
-  // 4) base only
-  for (const k of keys) if (passAll(k, baseMatchers)) return k;
-
-  return null;
-};
-
-const pickQuarterGapSurplus = (row, q) => {
-  const gapKey = findKey(row, [/gap/i], q);
-  const surplusKey = findKey(row, [/surplus/i], q);
   return {
     gap: toNumber(gapKey ? row[gapKey] : 0),
     surplus: toNumber(surplusKey ? row[surplusKey] : 0),
@@ -109,22 +40,25 @@ const pickAllGapSurplus = (row) => {
   const q2 = pickQuarterGapSurplus(row, "Q2");
   const q3 = pickQuarterGapSurplus(row, "Q3");
   const q4 = pickQuarterGapSurplus(row, "Q4");
+
   return {
     gap: q1.gap + q2.gap + q3.gap + q4.gap,
     surplus: q1.surplus + q2.surplus + q3.surplus + q4.surplus,
   };
 };
 
-// axis rounding like textbooks
 const niceCeil = (max) => {
   if (max <= 0) return 1;
+
   const pow = Math.pow(10, Math.floor(Math.log10(max)));
   const frac = max / pow;
+
   let niceFrac = 1;
   if (frac <= 1) niceFrac = 1;
   else if (frac <= 2) niceFrac = 2;
   else if (frac <= 5) niceFrac = 5;
   else niceFrac = 10;
+
   return niceFrac * pow;
 };
 
@@ -135,9 +69,12 @@ const makeTicks = (niceMax, count = 5) => {
   return ticks;
 };
 
-const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
+const ADMSLMGapsSurplusChart = ({
+  selectedDivisionSlug,
+  selectedSchoolFolderName,
+}) => {
   const [rows, setRows] = useState([]);
-  const [mode, setMode] = useState("GAPS"); // GAPS | SURPLUS
+  const [mode, setMode] = useState("GAPS");
   const [selectedGrade, setSelectedGrade] = useState("ALL");
   const [selectedQuarter, setSelectedQuarter] = useState("ALL");
   const [status, setStatus] = useState({ loading: true, error: "" });
@@ -157,27 +94,31 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
           return;
         }
 
-        const url = buildUrl(division, school);
+        const url = buildSchoolSheetUrl(division, school, "adm-slm.json");
         const res = await fetch(url, { cache: "no-store" });
         if (!res.ok) throw new Error(`Cannot load adm-slm.json (${res.status})`);
 
         const json = await res.json();
-        const arr = Array.isArray(json) ? json : Array.isArray(json?.rows) ? json.rows : [];
-
-        // chart needs subjects
-        const cleaned = arr.filter((r) => String(getSubject(r)).trim() !== "");
+        const cleaned = getSheetRows(json).filter(
+          (row) => String(getSubjectValue(row)).trim() !== ""
+        );
 
         if (!alive) return;
+
         setRows(cleaned);
         setMode("GAPS");
         setSelectedGrade("ALL");
         setSelectedQuarter("ALL");
         setStatus({ loading: false, error: "" });
-      } catch (e) {
-        console.error("ADM-SLM GAPS/SURPLUS ERROR:", e);
+      } catch (error) {
+        console.error("ADM-SLM GAPS/SURPLUS ERROR:", error);
         if (!alive) return;
+
         setRows([]);
-        setStatus({ loading: false, error: e?.message || "Failed to load ADM-SLM." });
+        setStatus({
+          loading: false,
+          error: error?.message || "Failed to load ADM-SLM.",
+        });
       }
     };
 
@@ -188,62 +129,73 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
   }, [selectedDivisionSlug, selectedSchoolFolderName]);
 
   const gradeOptions = useMemo(() => {
-    const set = new Set();
-    rows.forEach((r) => {
-      const g = String(getGrade(r)).trim();
-      if (g) set.add(formatGradeLabel(g));
+    const grades = new Set();
+
+    rows.forEach((row) => {
+      const grade = String(getGradeValue(row)).trim();
+      if (grade) grades.add(formatGradeLabel(grade));
     });
-    const arr = Array.from(set);
-    if (!arr.includes("KINDER")) arr.push("KINDER");
-    arr.sort((a, b) => gradeSortValue(a) - gradeSortValue(b) || a.localeCompare(b));
-    return ["ALL", ...arr];
+
+    const values = Array.from(grades);
+    if (!values.includes("KINDER")) values.push("KINDER");
+    values.sort(
+      (a, b) => gradeSortValue(a) - gradeSortValue(b) || a.localeCompare(b)
+    );
+
+    return ["ALL", ...values];
   }, [rows]);
 
   const filteredRows = useMemo(() => {
     if (selectedGrade === "ALL") return rows;
-    return rows.filter((r) => formatGradeLabel(getGrade(r)) === selectedGrade);
+    return rows.filter(
+      (row) => formatGradeLabel(getGradeValue(row)) === selectedGrade
+    );
   }, [rows, selectedGrade]);
 
   const bySubject = useMemo(() => {
-    const map = new Map();
+    const totalsBySubject = new Map();
 
-    for (const r of filteredRows) {
-      const subj = String(getSubject(r)).trim();
-      if (!subj) continue;
+    for (const row of filteredRows) {
+      const subject = String(getSubjectValue(row)).trim();
+      if (!subject) continue;
 
-      const vals =
+      const values =
         selectedQuarter === "ALL"
-          ? pickAllGapSurplus(r)
-          : pickQuarterGapSurplus(r, selectedQuarter);
+          ? pickAllGapSurplus(row)
+          : pickQuarterGapSurplus(row, selectedQuarter);
 
-      const prev = map.get(subj) || { subject: subj, gap: 0, surplus: 0 };
-      prev.gap += vals.gap;
-      prev.surplus += vals.surplus;
-      map.set(subj, prev);
+      const current = totalsBySubject.get(subject) || {
+        subject,
+        gap: 0,
+        surplus: 0,
+      };
+
+      current.gap += values.gap;
+      current.surplus += values.surplus;
+      totalsBySubject.set(subject, current);
     }
 
-    const arr = Array.from(map.values());
-    arr.sort((a, b) => {
-      const av = mode === "GAPS" ? a.gap : a.surplus;
-      const bv = mode === "GAPS" ? b.gap : b.surplus;
-      return bv - av;
+    return Array.from(totalsBySubject.values()).sort((a, b) => {
+      const left = mode === "GAPS" ? a.gap : a.surplus;
+      const right = mode === "GAPS" ? b.gap : b.surplus;
+      return right - left;
     });
-
-    return arr;
   }, [filteredRows, selectedQuarter, mode]);
 
-  const totalValue = useMemo(() => {
-    return bySubject.reduce((sum, s) => {
-      const v = mode === "GAPS" ? s.gap : s.surplus;
-      return sum + (Number.isFinite(v) ? v : 0);
-    }, 0);
-  }, [bySubject, mode]);
+  const totalValue = useMemo(
+    () =>
+      bySubject.reduce((sum, item) => {
+        const value = mode === "GAPS" ? item.gap : item.surplus;
+        return sum + (Number.isFinite(value) ? value : 0);
+      }, 0),
+    [bySubject, mode]
+  );
 
   const rawMax = useMemo(() => {
     let max = 0;
-    for (const s of bySubject) {
-      const v = mode === "GAPS" ? s.gap : s.surplus;
-      if (v > max) max = v;
+    for (const item of bySubject) {
+      const value = mode === "GAPS" ? item.gap : item.surplus;
+      if (value > max) max = value;
     }
     return max;
   }, [bySubject, mode]);
@@ -251,8 +203,13 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
   const niceMax = useMemo(() => niceCeil(rawMax), [rawMax]);
   const ticks = useMemo(() => makeTicks(niceMax, 5), [niceMax]);
 
-  if (status.loading) return <div className="gsState">Loading ADM-SLM gaps/surplus…</div>;
-  if (status.error) return <div className="gsError">{status.error}</div>;
+  if (status.loading) {
+    return <div className="gsState">Loading ADM-SLM gaps/surplus...</div>;
+  }
+
+  if (status.error) {
+    return <div className="gsError">{status.error}</div>;
+  }
 
   return (
     <div className="gsWrap">
@@ -286,9 +243,9 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
             value={selectedGrade}
             onChange={(e) => setSelectedGrade(e.target.value)}
           >
-            {gradeOptions.map((g) => (
-              <option key={g} value={g}>
-                {g}
+            {gradeOptions.map((grade) => (
+              <option key={grade} value={grade}>
+                {grade}
               </option>
             ))}
           </select>
@@ -299,9 +256,9 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
             value={selectedQuarter}
             onChange={(e) => setSelectedQuarter(e.target.value)}
           >
-            {QUARTERS.map((q) => (
-              <option key={q} value={q}>
-                {q}
+            {QUARTERS.map((quarter) => (
+              <option key={quarter} value={quarter}>
+                {quarter}
               </option>
             ))}
           </select>
@@ -311,12 +268,12 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
       <div className="gsAxis">
         <div className="gsAxisLine" />
         <div className="gsTicks">
-          {ticks.map((t) => {
-            const pct = (t / niceMax) * 100;
+          {ticks.map((tick) => {
+            const pct = (tick / niceMax) * 100;
             return (
-              <div key={t} className="gsTick" style={{ left: `${pct}%` }}>
+              <div key={tick} className="gsTick" style={{ left: `${pct}%` }}>
                 <div className="gsTickLine" />
-                <div className="gsTickLabel">{nf.format(t)}</div>
+                <div className="gsTickLabel">{nf.format(tick)}</div>
               </div>
             );
           })}
@@ -327,15 +284,15 @@ const ADMSLMGapsSurplusChart = ({ selectedDivisionSlug, selectedSchoolFolderName
         {bySubject.length === 0 ? (
           <div className="gsEmpty">No data found for this filter.</div>
         ) : (
-          bySubject.map((s) => {
-            const value = mode === "GAPS" ? s.gap : s.surplus;
+          bySubject.map((item) => {
+            const value = mode === "GAPS" ? item.gap : item.surplus;
             const pct = Math.max(0, Math.min(100, (value / niceMax) * 100));
             const showInside = pct >= 18;
 
             return (
-              <div key={s.subject} className="gsRow">
-                <div className="gsSubject" title={s.subject}>
-                  {s.subject}
+              <div key={item.subject} className="gsRow">
+                <div className="gsSubject" title={item.subject}>
+                  {item.subject}
                 </div>
 
                 <div className="gsBarArea">

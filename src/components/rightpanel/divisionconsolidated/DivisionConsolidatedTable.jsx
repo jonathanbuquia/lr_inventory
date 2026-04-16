@@ -68,6 +68,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return normalized.includes("HIGH SCHOOL");
   };
 
+  const isElementarySchool = (schoolName) => {
+    const normalized = String(schoolName ?? "").trim().toUpperCase();
+    return normalized.includes("ELEMENTARY SCHOOL");
+  };
+
   const isRegularHighSchool = (schoolName) => {
     const normalized = String(schoolName ?? "").trim().toUpperCase();
     return normalized.includes("HIGH SCHOOL") && !normalized.includes("SENIOR HIGH SCHOOL");
@@ -290,6 +295,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       if (!schoolId || !grade) return;
 
       if (isHighSchool(schoolName) && isElementaryGrade(grade)) {
+        return;
+      }
+
+      if (isElementarySchool(schoolName) && !isElementaryGrade(grade)) {
         return;
       }
 
