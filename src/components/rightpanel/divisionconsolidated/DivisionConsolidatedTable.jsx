@@ -58,6 +58,16 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return normalized === "11" || normalized === "12" || normalized.includes("SHS");
   };
 
+  const isElementaryGrade = (grade) => {
+    const normalized = String(grade ?? "").trim().toUpperCase();
+    return ["1", "2", "3", "4", "5", "6"].includes(normalized);
+  };
+
+  const isHighSchool = (schoolName) => {
+    const normalized = String(schoolName ?? "").trim().toUpperCase();
+    return normalized.includes("HIGH SCHOOL");
+  };
+
   const isRegularHighSchool = (schoolName) => {
     const normalized = String(schoolName ?? "").trim().toUpperCase();
     return normalized.includes("HIGH SCHOOL") && !normalized.includes("SENIOR HIGH SCHOOL");
@@ -279,6 +289,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
       if (!schoolId || !grade) return;
 
+      if (isHighSchool(schoolName) && isElementaryGrade(grade)) {
+        return;
+      }
+
       const safeSubject = subject || "(No Subject)";
       const key = `${schoolId}__${grade}__${safeSubject}`;
 
@@ -407,6 +421,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           );
         });
 
+        const hasIncompleteGrade = relevantGrades.some(
+          (gradeBlock) => gradeBlock.status === "INCOMPLETE"
+        );
+
         const hasSchoolData =
           school.totals.enrolled > 0 ||
           school.totals.received > 0 ||
@@ -416,7 +434,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         let schoolStatus = "";
         if (!hasSchoolData) {
           schoolStatus = "NO DATA";
-        } else if (gradesWithData.length < relevantGrades.length) {
+        } else if (
+          hasIncompleteGrade ||
+          gradesWithData.length < relevantGrades.length
+        ) {
           schoolStatus = "INCOMPLETE";
         }
 
