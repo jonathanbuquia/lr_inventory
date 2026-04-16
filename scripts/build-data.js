@@ -9,8 +9,15 @@ const __dirname = path.dirname(__filename);
 
 // ===== CONFIG =====
 const ROOT = path.resolve(__dirname, "..");
-const INPUT_DIR = path.join(ROOT, "excel-files");
 const OUTPUT_DIR = path.join(ROOT, "public", "data");
+const DEFAULT_LOCAL_INPUT_DIR = path.join(ROOT, "excel-files");
+const DEFAULT_ONEDRIVE_INPUT_DIR =
+  "C:\\Users\\Jonathan Buquia\\OneDrive - Department of Education\\SAMPLE CONSOLIDATED FOLDER";
+const INPUT_DIR =
+  process.env.LR_INPUT_DIR ||
+  (fs.existsSync(DEFAULT_ONEDRIVE_INPUT_DIR)
+    ? DEFAULT_ONEDRIVE_INPUT_DIR
+    : DEFAULT_LOCAL_INPUT_DIR);
 
 const SHEETS = [
   { key: "textbooks", name: "TextBooks", headerRowIndex: 0 }, // row 1
@@ -26,6 +33,11 @@ const info = (msg) => console.log(`ℹ️  ${msg}`);
 
 const isExcel = (name) => /\.(xlsx|xlsm|xls)$/i.test(name);
 
+const normalizeWhitespace = (s) =>
+  String(s ?? "")
+    .replace(/\s+/g, " ")
+    .trim();
+
 const slugify = (s) =>
   String(s)
     .trim()
@@ -33,6 +45,69 @@ const slugify = (s) =>
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)+/g, "");
+
+const normalizeHeader = (value) =>
+  String(value ?? "")
+    .trim()
+    .toUpperCase()
+    .replace(/\s+/g, "");
+
+const expandSchoolShortcut = (name, shortcut, fullText) =>
+  String(name ?? "").replace(
+    new RegExp(`(^|[^A-Z0-9])${shortcut}(?=[^A-Z0-9]|$)`, "gi"),
+    (_, prefix) => `${prefix}${fullText}`
+  );
+
+const normalizeSchoolName = (name) =>
+  normalizeWhitespace(
+    ["SHS", "ES", "HS"].reduce((result, shortcut) => {
+      const expansions = {
+        SHS: "SENIOR HIGH SCHOOL",
+        ES: "ELEMENTARY SCHOOL",
+        HS: "HIGH SCHOOL",
+      };
+      return expandSchoolShortcut(result, shortcut, expansions[shortcut]);
+    }, String(name ?? ""))
+  );
+
+const isSeniorHighSchoolName = (name) =>
+  /\bSENIOR HIGH SCHOOL\b/i.test(normalizeSchoolName(name));
+
+const findGradeKey = (rows = []) => {
+  const sample = rows.find((row) => row && typeof row === "object");
+  if (!sample) return null;
+
+  return (
+    Object.keys(sample).find((key) => {
+      const normalized = normalizeHeader(key);
+      return normalized === "GRADELEVEL" || normalized === "GRADE";
+    }) || null
+  );
+};
+
+const isSeniorHighGradeValue = (value) => {
+  const tokens = String(value ?? "")
+    .toUpperCase()
+    .replace(/[^A-Z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+
+  return (
+    tokens.includes("SHS") ||
+    tokens.includes("11") ||
+    tokens.includes("12") ||
+    tokens.includes("G11") ||
+    tokens.includes("G12")
+  );
+};
+
+const filterSeniorHighRows = (rows = []) => {
+  const gradeKey = findGradeKey(rows);
+  if (!gradeKey) return rows;
+
+  return rows.filter((row) => isSeniorHighGradeValue(row?.[gradeKey]));
+};
 
 function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
   const ws = workbook.Sheets[sheetName];
@@ -241,8 +316,11 @@ function build() {
     info(`Processing division: ${divisionName}`);
 
     for (const file of files) {
-      const schoolName = file.replace(/\.(xlsx|xlsm|xls)$/i, "");
+      const rawSchoolName = file.replace(/\.(xlsx|xlsm|xls)$/i, "");
+      const rawSchoolId = slugify(rawSchoolName);
+      const schoolName = normalizeSchoolName(rawSchoolName);
       const schoolId = slugify(schoolName);
+      const isSeniorHighSchool = isSeniorHighSchoolName(schoolName);
 
       schoolsList.schools.push({ id: schoolId, name: schoolName });
 
@@ -257,11 +335,19 @@ function build() {
         continue;
       }
 
+      const legacyOutSchoolDir = path.join(outSchoolsDir, rawSchoolId);
+      if (rawSchoolId !== schoolId && fs.existsSync(legacyOutSchoolDir)) {
+        fs.rmSync(legacyOutSchoolDir, { recursive: true, force: true });
+      }
+
       const outSchoolDir = path.join(outSchoolsDir, schoolId);
       ensureDir(outSchoolDir);
 
       for (const rule of SHEETS) {
-        const rows = parseSheet(workbook, rule.name, rule.headerRowIndex, ctx);
+        let rows = parseSheet(workbook, rule.name, rule.headerRowIndex, ctx);
+        if (isSeniorHighSchool) {
+          rows = filterSeniorHighRows(rows);
+        }
 
         const outFilePath = path.join(outSchoolDir, `${rule.key}.json`);
 
@@ -277,7 +363,9 @@ function build() {
         const oldPayload = readJSONIfExists(outFilePath);
         const comparison = comparePayload(oldPayload, newPayload);
 
-        writeJSON(outFilePath, newPayload);
+        if (comparison.status !== "UNCHANGED") {
+          writeJSON(outFilePath, newPayload);
+        }
 
         if (comparison.status === "NEW") {
           report.newFiles++;
@@ -296,12 +384,20 @@ function build() {
       }
     }
 
-    writeJSON(path.join(outDivDir, "schools.json"), schoolsList);
+    const schoolsListPath = path.join(outDivDir, "schools.json");
+    const existingSchoolsList = readJSONIfExists(schoolsListPath);
+    if (JSON.stringify(existingSchoolsList) !== JSON.stringify(schoolsList)) {
+      writeJSON(schoolsListPath, schoolsList);
+    }
 
     ok(`Built division: ${divisionName}`);
   }
 
-  writeJSON(path.join(OUTPUT_DIR, "index.json"), index);
+  const indexPath = path.join(OUTPUT_DIR, "index.json");
+  const existingIndex = readJSONIfExists(indexPath);
+  if (JSON.stringify(existingIndex) !== JSON.stringify(index)) {
+    writeJSON(indexPath, index);
+  }
 
   console.log("\n================ BUILD SUMMARY ================");
   console.log(`🆕 New files     : ${report.newFiles}`);

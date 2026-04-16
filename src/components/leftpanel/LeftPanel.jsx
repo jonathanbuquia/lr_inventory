@@ -37,6 +37,12 @@ const LeftPanel = ({
     setIsOpenMobile(false);
   };
 
+  const [updatedDate, updatedTime] = (() => {
+    const match = LAST_UPDATED.match(/^(\d{4}-\d{2}-\d{2})\s+(.+)$/);
+    if (!match) return [LAST_UPDATED, ""];
+    return [match[1], match[2]];
+  })();
+
   return (
     <>
       <button
@@ -71,7 +77,10 @@ const LeftPanel = ({
             <div className="lp__logoText">
               <div className="lp__logoTitle">LR Regional Inventory</div>
               <div className="lp__logoSub">Dashboard</div>
-              <div className="lp__updates">Last Updated: {LAST_UPDATED}</div>
+              <div className="lp__updates">
+                <div>Last Updated: {updatedDate}</div>
+                {updatedTime ? <div>{updatedTime}</div> : null}
+              </div>
             </div>
           </div>
 

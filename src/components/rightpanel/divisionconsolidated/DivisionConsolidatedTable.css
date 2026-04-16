@@ -239,6 +239,14 @@
   vertical-align: middle;
 }
 
+.dctSchoolRow--incompleteReason td {
+  background: #fff7ed;
+}
+
+.dctSchoolRow--incompleteReason td:first-child {
+  box-shadow: inset 4px 0 0 #f97316;
+}
+
 .dctSchoolTable tbody tr:last-child td {
   border-bottom: none;
 }

@@ -1,0 +1,95 @@
+{
+  "division": {
+    "slug": "pasig",
+    "name": "PASIG"
+  },
+  "school": {
+    "id": "senior-high-school-in-buting-pasig-city",
+    "name": "SENIOR HIGH SCHOOL IN BUTING, PASIG CITY"
+  },
+  "sheet": "TextBooks",
+  "key": "textbooks",
+  "rows": [
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Personal Development",
+      "Enrolment S.Y. 2025-2026": 1296,
+      "Quantity of Textbooks Received": 2113,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 817
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "HOPE 1 and 2",
+      "Enrolment S.Y. 2025-2026": 1503,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1503,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "HOPE 3 and 4",
+      "Enrolment S.Y. 2025-2026": 1296,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1296,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Physical Science",
+      "Enrolment S.Y. 2025-2026": 1503,
+      "Quantity of Textbooks Received": 2113,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 610
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Contemporary Philippine Arts",
+      "Enrolment S.Y. 2025-2026": 1296,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 1296,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "General Mathematics",
+      "Enrolment S.Y. 2025-2026": 1503,
+      "Quantity of Textbooks Received": 2113,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 610
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Media and Information Literacy",
+      "Enrolment S.Y. 2025-2026": 1296,
+      "Quantity of Textbooks Received": 2113,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 817
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Statistics and Probability",
+      "Enrolment S.Y. 2025-2026": 1503,
+      "Quantity of Textbooks Received": 2113,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 610
+    }
+  ],
+  "generatedAt": "2026-04-16T01:03:55.556Z"
+}

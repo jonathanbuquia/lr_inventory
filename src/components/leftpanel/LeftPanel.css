@@ -176,10 +176,10 @@
 
 .lp__updates {
   font-size: 12px;
+  line-height: 1.2;
   color: #6b7280;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 /* Mobile behavior */

@@ -53,6 +53,16 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return grade === "KINDER" ? "Kinder" : `Grade ${grade}`;
   };
 
+  const isSeniorHighGrade = (grade) => {
+    const normalized = String(grade ?? "").trim().toUpperCase();
+    return normalized === "11" || normalized === "12" || normalized.includes("SHS");
+  };
+
+  const isRegularHighSchool = (schoolName) => {
+    const normalized = String(schoolName ?? "").trim().toUpperCase();
+    return normalized.includes("HIGH SCHOOL") && !normalized.includes("SENIOR HIGH SCHOOL");
+  };
+
   const getSchoolsArray = (data) => {
     if (Array.isArray(data)) return data;
     if (Array.isArray(data?.schools)) return data.schools;
@@ -348,6 +358,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
     return Object.values(schoolMap)
       .map((school) => {
+        const schoolIsRegularHighSchool = isRegularHighSchool(school.schoolName);
         const grades = Object.values(school.gradeMap)
           .map((gradeBlock) => {
             const hasGradeData =
@@ -373,7 +384,21 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           })
           .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
 
-        const gradesWithData = grades.filter((gradeBlock) => {
+        const relevantGrades = grades.filter((gradeBlock) => {
+          const hasGradeData =
+            gradeBlock.totals.enrolled > 0 ||
+            gradeBlock.totals.received > 0 ||
+            gradeBlock.totals.gaps > 0 ||
+            gradeBlock.totals.surplus > 0;
+
+          return !(
+            schoolIsRegularHighSchool &&
+            isSeniorHighGrade(gradeBlock.grade) &&
+            !hasGradeData
+          );
+        });
+
+        const gradesWithData = relevantGrades.filter((gradeBlock) => {
           return (
             gradeBlock.totals.enrolled > 0 ||
             gradeBlock.totals.received > 0 ||
@@ -391,7 +416,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         let schoolStatus = "";
         if (!hasSchoolData) {
           schoolStatus = "NO DATA";
-        } else if (gradesWithData.length < grades.length) {
+        } else if (gradesWithData.length < relevantGrades.length) {
           schoolStatus = "INCOMPLETE";
         }
 
@@ -598,9 +623,15 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                       </tr>
                                     </thead>
                                     <tbody>
-                                      {gradeBlock.rows.map((item, index) => (
+                                      {gradeBlock.rows.map((item, index) => {
+                                        const isIncompleteReason =
+                                          gradeBlock.status === "INCOMPLETE" &&
+                                          !rowHasData(item);
+
+                                        return (
                                         <tr
                                           key={`${school.schoolId}-${gradeBlock.grade}-${item.subject}-${index}`}
+                                          className={isIncompleteReason ? "dctSchoolRow dctSchoolRow--incompleteReason" : "dctSchoolRow"}
                                         >
                                           <td>{formatGradeLabel(item.grade)}</td>
                                           <td>
@@ -621,7 +652,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                             {formatNumber(item.surplus)}
                                           </td>
                                         </tr>
-                                      ))}
+                                        );
+                                      })}
                                     </tbody>
                                   </table>
                                 </div>

@@ -24,11 +24,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 606,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 606,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 1008,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 402
     },
     {
       "Grade Level": 7,
@@ -44,11 +44,11 @@
       "Grade Level": 7,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 606,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 606,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 1008,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 402
     },
     {
       "Grade Level": 7,
@@ -154,11 +154,11 @@
       "Grade Level": 8,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 640,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 640,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 755,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 115
     },
     {
       "Grade Level": 8,
@@ -174,11 +174,11 @@
       "Grade Level": 8,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 640,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 640,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 755,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 115
     },
     {
       "Grade Level": 8,
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:10.735Z"
+  "generatedAt": "2026-04-16T01:50:41.232Z"
 }

@@ -1,0 +1,115 @@
+{
+  "division": {
+    "slug": "taguig-pateros",
+    "name": "TAGUIG_PATEROS"
+  },
+  "school": {
+    "id": "senior-high-school-in-barangay-fort-bonifacio",
+    "name": "SENIOR HIGH SCHOOL IN BARANGAY FORT BONIFACIO"
+  },
+  "sheet": "TextBooks",
+  "key": "textbooks",
+  "rows": [
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Personal Development",
+      "Enrolment S.Y. 2025-2026": 214,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 214,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "HOPE 1 and 2",
+      "Enrolment S.Y. 2025-2026": 214,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 214,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "HOPE 3 and 4",
+      "Enrolment S.Y. 2025-2026": 102,
+      "Quantity of Textbooks Received": 162,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 60
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Physical Science",
+      "Enrolment S.Y. 2025-2026": 214,
+      "Quantity of Textbooks Received": 162,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 52,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Contemporary Philippine Arts",
+      "Enrolment S.Y. 2025-2026": 116,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 116,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "General Mathematics",
+      "Enrolment S.Y. 2025-2026": 214,
+      "Quantity of Textbooks Received": 162,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 52,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Media and Information Literacy",
+      "Enrolment S.Y. 2025-2026": 102,
+      "Quantity of Textbooks Received": 162,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 60
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Statistics and Probability",
+      "Enrolment S.Y. 2025-2026": 136,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 136,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Understanding Culture, Society and Politics",
+      "Enrolment S.Y. 2025-2026": 214,
+      "Quantity of Textbooks Received": 162,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Earth and Life Science",
+      "Enrolment S.Y. 2025-2026": 214,
+      "Quantity of Textbooks Received": 162,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    }
+  ],
+  "generatedAt": "2026-04-16T01:04:15.503Z"
+}
