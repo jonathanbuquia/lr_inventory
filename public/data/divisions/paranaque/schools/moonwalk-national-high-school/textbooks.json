@@ -174,10 +174,10 @@
       "Grade Level": 8,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 782,
-      "Quantity of Textbooks Received": " ",
-      "Year of Delivery-TX": " ",
-      "SOURCE-TX (CO,RO, SDO)": " ",
-      "GAP-TX": 782,
+      "Quantity of Textbooks Received": 689,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 93,
       "Surplus-TX": 0
     },
     {
@@ -422,7 +422,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Math Channel",
+      "SUBJECTS": "General Mathematics (Math Channel)",
       "Enrolment S.Y. 2025-2026": 515,
       "Quantity of Textbooks Received": 887,
       "Year of Delivery-TX": 2025,
@@ -453,7 +453,37 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "SHSHeritage (Understanding Culture, Society and Politics)",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 515,
+      "Quantity of Textbooks Received": 887,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 372
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Earth and Life Science",
+      "Enrolment S.Y. 2025-2026": 515,
+      "Quantity of Textbooks Received": 887,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 372
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHSHeritage (Understanding Culture, Society and Politics)",
+      "Enrolment S.Y. 2025-2026": 515,
+      "Quantity of Textbooks Received": 887,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 372
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHSHeritage (Understanding Culture, Society and Politics)",
+      "Enrolment S.Y. 2025-2026": 515,
       "Quantity of Textbooks Received": 887,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
@@ -461,5 +491,5 @@
       "Surplus-TX": 372
     }
   ],
-  "generatedAt": "2026-04-16T03:17:09.616Z"
+  "generatedAt": "2026-04-16T04:17:23.352Z"
 }
