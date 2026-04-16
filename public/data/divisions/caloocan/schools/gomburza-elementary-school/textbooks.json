@@ -94,11 +94,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 235,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 316,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 235,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 81
     },
     {
       "Grade Level": 2,
@@ -254,11 +254,11 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 287,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 309,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 287,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 22
     },
     {
       "Grade Level": 5,
@@ -334,11 +334,11 @@
       "Grade Level": 5,
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 232,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 233,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 232,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 1
     },
     {
       "Grade Level": 5,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:10:51.880Z"
+  "generatedAt": "2026-04-16T03:16:53.205Z"
 }

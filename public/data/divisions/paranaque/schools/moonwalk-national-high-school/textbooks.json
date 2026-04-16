@@ -395,7 +395,7 @@
       "SUBJECTS": "HOPE 3 and 4",
       "Enrolment S.Y. 2025-2026": 571,
       "Quantity of Textbooks Received": 887,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 316
@@ -412,7 +412,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Contemporary Philippine Arts",
+      "SUBJECTS": "Contemporary Arts from the Region",
       "Enrolment S.Y. 2025-2026": 571,
       "Quantity of Textbooks Received": 887,
       "Year of Delivery-TX": 2025,
@@ -422,7 +422,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "General Mathematics",
+      "SUBJECTS": "Math Channel",
       "Enrolment S.Y. 2025-2026": 515,
       "Quantity of Textbooks Received": 887,
       "Year of Delivery-TX": 2025,
@@ -449,7 +449,17 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 372
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHSHeritage (Understanding Culture, Society and Politics)",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 887,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 372
     }
   ],
-  "generatedAt": "2026-04-16T01:51:19.747Z"
+  "generatedAt": "2026-04-16T03:17:09.616Z"
 }
