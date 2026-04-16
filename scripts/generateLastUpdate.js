@@ -38,8 +38,8 @@ function formatNow() {
 
 const timestamp =
   process.env.LR_LAST_UPDATED?.trim() ||
-  readGitDate() ||
   readExistingDate() ||
+  readGitDate() ||
   formatNow();
 
 const content = `export const LAST_UPDATED = "${timestamp}";`;
