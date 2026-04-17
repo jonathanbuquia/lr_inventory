@@ -5,6 +5,8 @@ import ReceivedBarChart from "./textbook/chart/ReceivedBarChart";
 import GapsSurplusChart from "./textbook/gapssurplus/GapsSurplusChart";
 import SourceYearPieCharts from "./textbook/piecharts/SourceYearPieCharts";
 import DivisionConsolidatedTable from "./divisionconsolidated/DivisionConsolidatedTable";
+import DivisionConsolidatedLAS from "./divisionconsolidated/DivisionConsolidatedLAS";
+import DivisionConsolidatedADMSLM from "./divisionconsolidated/DivisionConsolidatedADMSLM";
 
 import LASView from "./las/LASView";
 import ADMSLMView from "./adm-slm/ADMSLMView";
@@ -72,7 +74,7 @@ const RightPanel = ({ selectedDivision }) => {
             {activeTab === "las" && (
               <>
                 {!hasSelectedSchool ? (
-                  <div className="rp__empty">Select a school to view LAS data.</div>
+                  <DivisionConsolidatedLAS selectedDivision={divisionSlug} />
                 ) : (
                   <LASView
                     selectedDivisionSlug={divisionSlug}
@@ -85,7 +87,7 @@ const RightPanel = ({ selectedDivision }) => {
             {activeTab === "adm-slm" && (
               <>
                 {!hasSelectedSchool ? (
-                  <div className="rp__empty">Select a school to view ADM-SLM data.</div>
+                  <DivisionConsolidatedADMSLM selectedDivision={divisionSlug} />
                 ) : (
                   <ADMSLMView
                     selectedDivisionSlug={divisionSlug}

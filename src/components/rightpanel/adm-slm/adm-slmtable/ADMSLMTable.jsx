@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  findQuarterKey,
+  getAdmSlmValuesForQuarter,
   getEnrolmentValue,
   getGradeValue,
   getSubjectValue,
@@ -8,53 +8,6 @@ import {
 } from "../../../../utils/dashboardData";
 
 const nf = new Intl.NumberFormat("en-US");
-
-const pickQuarter = (row, quarter) => {
-  const targetKey = findQuarterKey({
-    row,
-    baseMatchers: ["quantity based on target"],
-    quarter,
-  });
-
-  const receivedKey = findQuarterKey({
-    row,
-    baseMatchers: [/quantity.*received/i],
-    quarter,
-  });
-
-  const gapKey = findQuarterKey({
-    row,
-    baseMatchers: [/gap/i],
-    quarter,
-  });
-
-  const surplusKey = findQuarterKey({
-    row,
-    baseMatchers: [/surplus/i],
-    quarter,
-  });
-
-  return {
-    target: toNumber(targetKey ? row[targetKey] : 0),
-    received: toNumber(receivedKey ? row[receivedKey] : 0),
-    gap: toNumber(gapKey ? row[gapKey] : 0),
-    surplus: toNumber(surplusKey ? row[surplusKey] : 0),
-  };
-};
-
-const pickAll = (row) => {
-  const q1 = pickQuarter(row, "Q1");
-  const q2 = pickQuarter(row, "Q2");
-  const q3 = pickQuarter(row, "Q3");
-  const q4 = pickQuarter(row, "Q4");
-
-  return {
-    target: q1.target + q2.target + q3.target + q4.target,
-    received: q1.received + q2.received + q3.received + q4.received,
-    gap: q1.gap + q2.gap + q3.gap + q4.gap,
-    surplus: q1.surplus + q2.surplus + q3.surplus + q4.surplus,
-  };
-};
 
 const ADMSLMTable = ({ rows = [], quarter = "ALL" }) => {
   return (
@@ -83,7 +36,7 @@ const ADMSLMTable = ({ rows = [], quarter = "ALL" }) => {
               const subject = String(getSubjectValue(row) ?? "").trim();
               const grade = String(getGradeValue(row) ?? "").trim();
               const enrolment = toNumber(getEnrolmentValue(row));
-              const values = quarter === "ALL" ? pickAll(row) : pickQuarter(row, quarter);
+              const values = getAdmSlmValuesForQuarter(row, quarter);
 
               return (
                 <tr key={index}>

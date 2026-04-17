@@ -1,15 +1,16 @@
 .dctWrap {
   width: 100%;
   margin-top: 20px;
-  border: 1px solid #d7dce5;
+  border: 1px solid #cfd8e8;
   border-radius: 18px;
-  background: #ffffff;
+  background: #f7f9fc;
   overflow: hidden;
 }
 
 .dctHeader {
   padding: 18px 20px 12px;
-  border-bottom: 1px solid #e8edf5;
+  border-bottom: 1px solid #dde6f2;
+  background: linear-gradient(180deg, #f9fbfe 0%, #f2f6fb 100%);
 }
 
 .dctHeaderLeft {
@@ -38,11 +39,20 @@
 }
 
 .dctAccordionItem {
-  border: 1px solid #dde5f2;
+  border: 1px solid #d5e0ef;
   border-radius: 14px;
   overflow: hidden;
-  background: #ffffff;
-  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04);
+  background: #eef4fb;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+}
+
+.dctAccordionHeaderShell {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  background: linear-gradient(180deg, #edf4fc 0%, #e4eef9 100%);
 }
 
 .dctAccordionHeader {
@@ -56,6 +66,14 @@
   gap: 16px;
   cursor: pointer;
   text-align: left;
+}
+
+.dctAccordionHeader--split {
+  flex: 1 1 auto;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  justify-content: flex-start;
 }
 
 .dctAccordionHeaderLeft {
@@ -73,6 +91,9 @@
 }
 
 .dctAccordionSchoolName {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 15px;
   font-weight: 800;
   color: #172033;
@@ -81,6 +102,15 @@
 .dctAccordionCount {
   font-size: 12px;
   color: #667085;
+}
+
+.dctAccordionMeta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
 }
 
 .dctAccordionHeaderRight {
@@ -96,8 +126,8 @@
   min-width: 95px;
   padding: 8px 10px;
   border-radius: 10px;
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: #fdfefe;
+  border: 1px solid #d8e2ee;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -126,8 +156,8 @@
   width: 32px;
   height: 32px;
   border-radius: 999px;
-  background: #eaf0fb;
-  color: #2447b8;
+  background: #d9e7f8;
+  color: #1d4f91;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,9 +167,53 @@
   flex-shrink: 0;
 }
 
+.dctSchoolQuarterBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.dctQuarterLabel {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #667085;
+  text-transform: uppercase;
+}
+
+.dctQuarterBtns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.dctQuarterBtn {
+  height: 34px;
+  border-radius: 10px;
+  padding: 0 12px;
+  border: 1px solid #d7dce5;
+  background: #ffffff;
+  color: #172033;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.dctQuarterBtn.active {
+  border-color: #1d4ed8;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
 .dctAccordionBody {
   padding: 14px 18px 16px;
-  background: #ffffff;
+  background: #f4f8fd;
 }
 
 .dctGradeAccordionWrap {
@@ -149,16 +223,16 @@
 }
 
 .dctGradeAccordionItem {
-  border: 1px solid #e4eaf3;
+  border: 1px solid #dce6f2;
   border-radius: 12px;
   overflow: hidden;
-  background: #fcfdff;
+  background: #f6f9fd;
 }
 
 .dctGradeAccordionHeader {
   width: 100%;
   border: none;
-  background: #f8fafc;
+  background: linear-gradient(180deg, #e9f0f8 0%, #dfe9f5 100%);
   padding: 14px 16px;
   display: flex;
   align-items: center;
@@ -182,6 +256,9 @@
 }
 
 .dctGradeAccordionTitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 14px;
   font-weight: 800;
   color: #172033;
@@ -203,14 +280,15 @@
 
 .dctGradeAccordionBody {
   padding: 12px 16px 16px;
-  background: #ffffff;
-  border-top: 1px solid #e8edf5;
+  background: #fbfcfe;
+  border-top: 1px solid #dde6f2;
 }
 
 .dctSchoolTableWrap {
   overflow-x: auto;
-  border: 1px solid #e8edf5;
+  border: 1px solid #dde6f2;
   border-radius: 12px;
+  background: #ffffff;
 }
 
 .dctSchoolTable {
@@ -226,14 +304,14 @@
   letter-spacing: 0.7px;
   font-weight: 800;
   color: #44516a;
-  background: #f7f9fc;
-  border-bottom: 1px solid #e8edf5;
+  background: #eef3f9;
+  border-bottom: 1px solid #dde6f2;
   white-space: nowrap;
 }
 
 .dctSchoolTable tbody td {
   padding: 14px 16px;
-  border-bottom: 1px solid #edf1f7;
+  border-bottom: 1px solid #e8eef6;
   font-size: 14px;
   color: #172033;
   vertical-align: middle;
@@ -264,46 +342,43 @@
   color: #667085;
 }
 
-.dctSchoolStatus {
+.dctStatusDot {
   display: inline-flex;
-  align-items: center;
-  width: fit-content;
-  min-height: 24px;
-  padding: 0 10px;
+  width: 10px;
+  height: 10px;
   border-radius: 999px;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.4px;
-  margin-top: 2px;
+  flex-shrink: 0;
 }
 
-.dctSchoolStatus--noData {
-  background: #fef2f2;
-  color: #b91c1c;
-  border: 1px solid #fecaca;
+.dctStatusDot--noData {
+  background: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.14);
 }
 
-.dctSchoolStatus--incomplete {
-  background: #fff7ed;
-  color: #c2410c;
-  border: 1px solid #fed7aa;
-}
-
-.dctNoDataBadge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 34px;
-  padding: 0 12px;
-  border-radius: 999px;
-  background: #fef2f2;
-  border: 1px solid #fecaca;
-  color: #b91c1c;
-  font-size: 12px;
-  font-weight: 700;
+.dctStatusDot--incomplete {
+  background: #eab308;
+  box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.18);
 }
 
 @media (max-width: 1180px) {
+  .dctAccordionHeaderShell {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .dctAccordionHeader--split {
+    width: 100%;
+  }
+
+  .dctAccordionMeta {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .dctSchoolQuarterBlock {
+    justify-content: flex-start;
+  }
+
   .dctAccordionHeaderRight,
   .dctGradeAccordionHeaderRight {
     display: grid;
@@ -328,11 +403,29 @@
     padding: 14px 12px 16px;
   }
 
+  .dctAccordionHeaderShell {
+    padding: 14px;
+  }
+
   .dctAccordionHeader,
   .dctGradeAccordionHeader {
     padding: 14px;
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .dctAccordionHeader--split {
+    padding: 0;
+  }
+
+  .dctAccordionMeta,
+  .dctSchoolQuarterBlock {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dctQuarterBtns {
+    justify-content: center;
   }
 
   .dctAccordionHeaderRight,
@@ -356,7 +449,4 @@
     padding: 12px 10px;
   }
 
-  .dctNoDataBadge {
-    justify-self: center;
-  }
 }

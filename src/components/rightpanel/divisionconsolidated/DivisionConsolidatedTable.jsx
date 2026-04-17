@@ -53,6 +53,14 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return grade === "KINDER" ? "Kinder" : `Grade ${grade}`;
   };
 
+  const getStatusDotClassName = (status) => {
+    if (status === "NO DATA") return "dctStatusDot dctStatusDot--noData";
+    if (status === "INCOMPLETE") {
+      return "dctStatusDot dctStatusDot--incomplete";
+    }
+    return "";
+  };
+
   const isSeniorHighGrade = (grade) => {
     const normalized = String(grade ?? "").trim().toUpperCase();
     return normalized === "11" || normalized === "12" || normalized.includes("SHS");
@@ -71,6 +79,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const isElementarySchool = (schoolName) => {
     const normalized = String(schoolName ?? "").trim().toUpperCase();
     return normalized.includes("ELEMENTARY SCHOOL");
+  };
+
+  const isSeniorHighSchool = (schoolName) => {
+    const normalized = String(schoolName ?? "").trim().toUpperCase();
+    return normalized.includes("SENIOR HIGH SCHOOL");
   };
 
   const isRegularHighSchool = (schoolName) => {
@@ -302,6 +315,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         return;
       }
 
+      if (isSeniorHighSchool(schoolName) && !isSeniorHighGrade(grade)) {
+        return;
+      }
+
       const safeSubject = subject || "(No Subject)";
       const key = `${schoolId}__${grade}__${safeSubject}`;
 
@@ -382,6 +399,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return Object.values(schoolMap)
       .map((school) => {
         const schoolIsRegularHighSchool = isRegularHighSchool(school.schoolName);
+        const schoolIsSeniorHighSchool = isSeniorHighSchool(school.schoolName);
         const grades = Object.values(school.gradeMap)
           .map((gradeBlock) => {
             const hasGradeData =
@@ -408,16 +426,9 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
 
         const relevantGrades = grades.filter((gradeBlock) => {
-          const hasGradeData =
-            gradeBlock.totals.enrolled > 0 ||
-            gradeBlock.totals.received > 0 ||
-            gradeBlock.totals.gaps > 0 ||
-            gradeBlock.totals.surplus > 0;
-
           return !(
             schoolIsRegularHighSchool &&
-            isSeniorHighGrade(gradeBlock.grade) &&
-            !hasGradeData
+            isSeniorHighGrade(gradeBlock.grade)
           );
         });
 
@@ -443,6 +454,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         let schoolStatus = "";
         if (!hasSchoolData) {
           schoolStatus = "NO DATA";
+        } else if (schoolIsSeniorHighSchool) {
+          schoolStatus = "";
         } else if (
           hasIncompleteGrade ||
           gradesWithData.length < relevantGrades.length
@@ -464,7 +477,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     <section className="dctWrap">
       <div className="dctHeader">
         <div className="dctHeaderLeft">
-          <div className="dctTitle">DIVISION CONSOLIDATED DATA</div>
+          <div className="dctTitle">DIVISION CONSOLIDATED TEXTBOOKS DATA</div>
           <div className="dctSubTitle">
             {selectedDivision
               ? `Selected Division: ${selectedDivision}`
@@ -493,12 +506,19 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                 >
                   <div className="dctAccordionHeaderLeft">
                     <span className="dctAccordionIcon">
-                      {isSchoolOpen ? "−" : "+"}
+                      {isSchoolOpen ? "-" : "+"}
                     </span>
 
                     <div className="dctAccordionSchoolInfo">
                       <span className="dctAccordionSchoolName">
                         {school.schoolName}
+                        {school.status && (
+                          <span
+                            className={getStatusDotClassName(school.status)}
+                            aria-label={school.status}
+                            title={school.status}
+                          />
+                        )}
                       </span>
 
                       <span className="dctAccordionCount">
@@ -506,22 +526,12 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                         {school.grades.length > 1 ? "s" : ""}
                       </span>
 
-                      {school.status && (
-                        <span
-                          className={`dctSchoolStatus ${school.status === "NO DATA"
-                            ? "dctSchoolStatus--noData"
-                            : "dctSchoolStatus--incomplete"
-                            }`}
-                        >
-                          {school.status}
-                        </span>
-                      )}
                     </div>
                   </div>
 
                   <div className="dctAccordionHeaderRight">
                     <span className="dctAccordionStat">
-                      <span className="dctAccordionStatLabel">Enrolees</span>
+                      <span className="dctAccordionStatLabel">Enrollees</span>
                       <span className="dctAccordionStatValue">
                         {formatNumber(school.totals.enrolled)}
                       </span>
@@ -574,12 +584,19 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                             >
                               <div className="dctGradeAccordionHeaderLeft">
                                 <span className="dctGradeAccordionIcon">
-                                  {isGradeOpen ? "−" : "+"}
+                                  {isGradeOpen ? "-" : "+"}
                                 </span>
 
                                 <div className="dctGradeAccordionInfo">
                                   <span className="dctGradeAccordionTitle">
                                     {formatGradeLabel(gradeBlock.grade)}
+                                    {gradeBlock.status && (
+                                      <span
+                                        className={getStatusDotClassName(gradeBlock.status)}
+                                        aria-label={gradeBlock.status}
+                                        title={gradeBlock.status}
+                                      />
+                                    )}
                                   </span>
 
                                   <span className="dctGradeAccordionCount">
@@ -588,16 +605,6 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                       : "No data"}
                                   </span>
 
-                                  {gradeBlock.status && (
-                                    <span
-                                      className={`dctSchoolStatus ${gradeBlock.status === "NO DATA"
-                                        ? "dctSchoolStatus--noData"
-                                        : "dctSchoolStatus--incomplete"
-                                        }`}
-                                    >
-                                      {gradeBlock.status}
-                                    </span>
-                                  )}
                                 </div>
                               </div>
 
@@ -605,7 +612,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                 {hasGradeData ? (
                                   <>
                                     <span className="dctAccordionStat dctAccordionStat--small">
-                                      <span className="dctAccordionStatLabel">Enrolees</span>
+                                      <span className="dctAccordionStatLabel">Enrollees</span>
                                       <span className="dctAccordionStatValue">
                                         {formatNumber(gradeBlock.totals.enrolled)}
                                       </span>
@@ -632,9 +639,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                       </span>
                                     </span>
                                   </>
-                                ) : (
-                                  <span className="dctNoDataBadge">No data</span>
-                                )}
+                                ) : null}
                               </div>
                             </button>
 
@@ -646,7 +651,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                       <tr>
                                         <th>GRADE LEVEL</th>
                                         <th>SUBJECT</th>
-                                        <th>TOTAL ENROLEES</th>
+                                        <th>TOTAL ENROLLEES</th>
                                         <th>TOTAL RECEIVED</th>
                                         <th>GAPS</th>
                                         <th>SURPLUS</th>
