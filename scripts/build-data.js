@@ -57,6 +57,11 @@ const normalizeHeader = (value) =>
     .toUpperCase()
     .replace(/\s+/g, "");
 
+const isGradeHeader = (value) => {
+  const normalized = normalizeHeader(value);
+  return normalized === "GRADELEVEL" || normalized === "GRADE";
+};
+
 const expandSchoolShortcut = (name, shortcut, fullText) =>
   String(name ?? "").replace(
     new RegExp(`(^|[^A-Z0-9])${shortcut}(?=[^A-Z0-9]|$)`, "gi"),
@@ -141,9 +146,18 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
       });
       return obj;
     })
-    .filter((obj) =>
-      Object.values(obj).some((v) => String(v).trim() !== "")
-    );
+    .filter((obj) => {
+      const entries = Object.entries(obj);
+
+      if (!entries.some(([, value]) => String(value).trim() !== "")) {
+        return false;
+      }
+
+      // Some workbooks contain stray rows where only the grade cell is filled
+      // and every other column is blank. Those should not become real data rows.
+      const nonGradeEntries = entries.filter(([key]) => !isGradeHeader(key));
+      return nonGradeEntries.some(([, value]) => String(value).trim() !== "");
+    });
 }
 
 function writeJSON(filePath, data) {

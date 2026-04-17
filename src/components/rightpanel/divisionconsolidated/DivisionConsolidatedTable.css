@@ -393,6 +393,11 @@
   box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.18);
 }
 
+.dctStatusDot--complete {
+  background: #16a34a;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+}
+
 @media (max-width: 1180px) {
   .dctAccordionHeaderShell {
     align-items: flex-start;

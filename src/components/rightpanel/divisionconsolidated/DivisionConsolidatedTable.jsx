@@ -57,6 +57,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   };
 
   const getStatusDotClassName = (status) => {
+    if (status === "COMPLETE") return "dctStatusDot dctStatusDot--complete";
     if (status === "NO DATA") return "dctStatusDot dctStatusDot--noData";
     if (status === "INCOMPLETE") {
       return "dctStatusDot dctStatusDot--incomplete";
@@ -92,6 +93,14 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const isRegularHighSchool = (schoolName) => {
     const normalized = String(schoolName ?? "").trim().toUpperCase();
     return normalized.includes("HIGH SCHOOL") && !normalized.includes("SENIOR HIGH SCHOOL");
+  };
+
+  const isUnclassifiedSchool = (schoolName) => {
+    return !(
+      isElementarySchool(schoolName) ||
+      isRegularHighSchool(schoolName) ||
+      isSeniorHighSchool(schoolName)
+    );
   };
 
   const getSchoolsArray = (data) => {
@@ -408,6 +417,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       .map((school) => {
         const schoolIsRegularHighSchool = isRegularHighSchool(school.schoolName);
         const schoolIsSeniorHighSchool = isSeniorHighSchool(school.schoolName);
+        const schoolIsUnclassified = isUnclassifiedSchool(school.schoolName);
         const grades = Object.values(school.gradeMap)
           .map((gradeBlock) => {
             const hasGradeData =
@@ -462,6 +472,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         let schoolStatus = "";
         if (!hasSchoolData) {
           schoolStatus = "NO DATA";
+        } else if (schoolIsUnclassified) {
+          schoolStatus = "COMPLETE";
         } else if (schoolIsSeniorHighSchool) {
           schoolStatus = "";
         } else if (

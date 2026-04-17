@@ -50,6 +50,13 @@ const isSeniorHighSchool = (schoolName) =>
 const isRegularHighSchool = (schoolName) =>
   isHighSchool(schoolName) && !isSeniorHighSchool(schoolName);
 
+const isUnclassifiedSchool = (schoolName) =>
+  !(
+    isElementarySchool(schoolName) ||
+    isRegularHighSchool(schoolName) ||
+    isSeniorHighSchool(schoolName)
+  );
+
 const shouldIncludeGradeForSchool = (schoolName, grade) => {
   if (isSeniorHighSchool(schoolName)) return isSeniorHighGrade(grade);
   if (isRegularHighSchool(schoolName)) return isJuniorHighGrade(grade);
@@ -71,6 +78,7 @@ const hasQuarterData = (rowLike) =>
   toNumber(rowLike?.surplus) > 0;
 
 const getStatusDotClassName = (status) => {
+  if (status === "COMPLETE") return "dctStatusDot dctStatusDot--complete";
   if (status === "NO DATA") return "dctStatusDot dctStatusDot--noData";
   if (status === "INCOMPLETE") {
     return "dctStatusDot dctStatusDot--incomplete";
@@ -320,6 +328,7 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
       .map((school) => {
         const schoolIsSeniorHighSchool = isSeniorHighSchool(school.schoolName);
         const schoolIsElementary = isElementarySchool(school.schoolName);
+        const schoolIsUnclassified = isUnclassifiedSchool(school.schoolName);
         const grades = Object.values(school.gradeMap)
           .map((gradeBlock) => {
             const hasGradeData = hasQuarterData(gradeBlock.totals);
@@ -360,6 +369,8 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
         let schoolStatus = "";
         if (!hasSchoolData) {
           schoolStatus = "NO DATA";
+        } else if (schoolIsUnclassified) {
+          schoolStatus = "COMPLETE";
         } else if (schoolIsSeniorHighSchool) {
           schoolStatus = "";
         } else if (
