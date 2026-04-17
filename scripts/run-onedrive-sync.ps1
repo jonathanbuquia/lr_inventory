@@ -7,6 +7,7 @@ $stateFile = Join-Path $stateDir "onedrive-sync-state.json"
 $logDir = Join-Path $workspace "logs"
 $logFile = Join-Path $logDir "onedrive-sync.log"
 $gitTrackedPaths = @("public/data", "src/lastUpdated.js")
+$philippineTimeZoneId = "Singapore Standard Time"
 
 function Ensure-Directory {
   param([string]$Path)
@@ -21,6 +22,13 @@ function Write-Log {
   $line = "[{0}] {1}" -f ([DateTime]::UtcNow.ToString("o")), $Message
   Add-Content -LiteralPath $logFile -Value $line
   Write-Output $line
+}
+
+function Get-PhilippineTimestamp {
+  $utcNow = [DateTime]::UtcNow
+  $philippineTimeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById($philippineTimeZoneId)
+  $philippineNow = [System.TimeZoneInfo]::ConvertTimeFromUtc($utcNow, $philippineTimeZone)
+  return $philippineNow.ToString("yyyy-MM-dd hh:mm tt")
 }
 
 function Get-SourceSignature {
@@ -173,7 +181,7 @@ try {
   )
 
   $current = Get-SourceSignature -RootPath $inputDir
-  $env:LR_LAST_UPDATED = (Get-Date).ToString("yyyy-MM-dd hh:mm tt")
+  $env:LR_LAST_UPDATED = Get-PhilippineTimestamp
   $currentBranch = (Get-CommandOutput -FilePath $gitPath -Arguments @("branch", "--show-current") | Select-Object -First 1)
   $previous = $null
 

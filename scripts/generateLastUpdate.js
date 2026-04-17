@@ -1,6 +1,30 @@
 import { execFileSync } from "child_process";
 import fs from "fs";
 
+const PH_TIMEZONE = "Asia/Manila";
+
+function formatPhilippineDate(dateInput) {
+  const date = dateInput instanceof Date ? dateInput : new Date(dateInput);
+  if (Number.isNaN(date.getTime())) return null;
+
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: PH_TIMEZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  });
+
+  const parts = formatter.formatToParts(date);
+  const get = (type) => parts.find((part) => part.type === type)?.value || "";
+
+  return `${get("year")}-${get("month")}-${get("day")} ${get("hour")}:${get(
+    "minute"
+  )} ${get("dayPeriod").toUpperCase()}`;
+}
+
 function readExistingDate() {
   try {
     const existing = fs.readFileSync("src/lastUpdated.js", "utf8");
@@ -13,31 +37,24 @@ function readExistingDate() {
 
 function readGitDate() {
   try {
-    return execFileSync(
+    const isoTimestamp = execFileSync(
       "git",
-      ["log", "-1", "--date=format-local:%Y-%m-%d %I:%M %p", "--format=%cd"],
+      ["log", "-1", "--format=%cI"],
       {
         stdio: ["ignore", "pipe", "ignore"],
       }
     )
       .toString()
       .trim();
+
+    return formatPhilippineDate(isoTimestamp);
   } catch {
     return null;
   }
 }
 
 function formatNow() {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, "0");
-  const day = String(now.getDate()).padStart(2, "0");
-  const hours24 = now.getHours();
-  const hours12 = String(hours24 % 12 || 12).padStart(2, "0");
-  const minutes = String(now.getMinutes()).padStart(2, "0");
-  const meridiem = hours24 >= 12 ? "PM" : "AM";
-
-  return `${year}-${month}-${day} ${hours12}:${minutes} ${meridiem}`;
+  return formatPhilippineDate(new Date());
 }
 
 const timestamp =
