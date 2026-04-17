@@ -186,14 +186,16 @@ try {
     }
   }
 
-  if ($previous -and $previous.signature -eq $current.Signature) {
-    Write-Log "No changes detected in OneDrive source ($($current.FileCount) Excel files)."
-    exit 0
+  $sourceChanged = -not ($previous -and $previous.signature -eq $current.Signature)
+
+  if ($sourceChanged) {
+    Write-Log "Change detected in OneDrive source. Previous signature: $($previous.signature), new signature: $($current.Signature)."
+    Invoke-Step -FilePath $nodePath -Arguments @("scripts/build-data.js")
+  }
+  else {
+    Write-Log "No changes detected in OneDrive source ($($current.FileCount) Excel files). Refreshing last updated timestamp only."
   }
 
-  Write-Log "Change detected in OneDrive source. Previous signature: $($previous.signature), new signature: $($current.Signature)."
-
-  Invoke-Step -FilePath $nodePath -Arguments @("scripts/build-data.js")
   Invoke-Step -FilePath $npmPath -Arguments @("run", "build")
   if (-not $currentBranch) {
     throw "Cannot auto-push because the current Git branch could not be determined."

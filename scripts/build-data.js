@@ -46,6 +46,11 @@ const slugify = (s) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)+/g, "");
 
+const DIVISION_FILTERS = String(process.env.LR_DIVISION_FILTER || "")
+  .split(",")
+  .map((value) => slugify(value))
+  .filter(Boolean);
+
 const normalizeHeader = (value) =>
   String(value ?? "")
     .trim()
@@ -315,6 +320,11 @@ function build() {
 
     info(`Processing division: ${divisionName}`);
 
+    if (DIVISION_FILTERS.length > 0 && !DIVISION_FILTERS.includes(divisionSlug)) {
+      info(`Skipping division due to filter: ${divisionName}`);
+      continue;
+    }
+
     for (const file of files) {
       const rawSchoolName = file.replace(/\.(xlsx|xlsm|xls)$/i, "");
       const rawSchoolId = slugify(rawSchoolName);
@@ -394,9 +404,11 @@ function build() {
   }
 
   const indexPath = path.join(OUTPUT_DIR, "index.json");
-  const existingIndex = readJSONIfExists(indexPath);
-  if (JSON.stringify(existingIndex) !== JSON.stringify(index)) {
-    writeJSON(indexPath, index);
+  if (DIVISION_FILTERS.length === 0) {
+    const existingIndex = readJSONIfExists(indexPath);
+    if (JSON.stringify(existingIndex) !== JSON.stringify(index)) {
+      writeJSON(indexPath, index);
+    }
   }
 
   console.log("\n================ BUILD SUMMARY ================");

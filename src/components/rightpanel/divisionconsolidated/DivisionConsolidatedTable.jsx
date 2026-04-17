@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./DivisionConsolidatedTable.css";
+import { downloadTextbookSummaryReport } from "../../../utils/exportTextbookSummaryReport";
 
 const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const [rows, setRows] = useState([]);
@@ -7,6 +8,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const [errorText, setErrorText] = useState("");
   const [openSchools, setOpenSchools] = useState({});
   const [openGrades, setOpenGrades] = useState({});
+  const [divisionName, setDivisionName] = useState("");
+  const [isExporting, setIsExporting] = useState(false);
 
   const normalizeNumber = (value) => {
     if (value === null || value === undefined || value === "") return 0;
@@ -191,6 +194,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         setErrorText("");
         setOpenSchools({});
         setOpenGrades({});
+        setDivisionName("");
         return;
       }
 
@@ -199,6 +203,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       setErrorText("");
       setOpenSchools({});
       setOpenGrades({});
+      setDivisionName("");
 
       try {
         const schoolsRes = await fetch(
@@ -213,6 +218,9 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
         const schoolsData = await schoolsRes.json();
         const schoolList = getSchoolsArray(schoolsData);
+        setDivisionName(
+          String(schoolsData?.division?.name || selectedDivision).trim()
+        );
 
         if (!schoolList.length) {
           setErrorText("No schools found inside schools.json.");
@@ -473,6 +481,55 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
   }, [allAggregatedRows]);
 
+  const exportSchools = useMemo(() => {
+    return accordionSchools.map((school) => ({
+      schoolName: school.schoolName,
+      schoolStatus: school.status,
+      rows: school.grades.flatMap((gradeBlock) => {
+        if (gradeBlock.status === "NO DATA") {
+          return [
+            {
+              gradeLabel: formatGradeLabel(gradeBlock.grade),
+              subject: "NO DATA",
+              enrolled: 0,
+              received: 0,
+              gaps: 0,
+              surplus: 0,
+              status: "NO DATA",
+            },
+          ];
+        }
+
+        return gradeBlock.rows.map((item) => ({
+          gradeLabel: formatGradeLabel(item.grade),
+          subject: item.subject === "(No Subject)" ? "-" : item.subject,
+          enrolled: item.enrolled,
+          received: item.received,
+          gaps: item.gaps,
+          surplus: item.surplus,
+          status:
+            gradeBlock.status === "INCOMPLETE" && !rowHasData(item)
+              ? "INCOMPLETE"
+              : "",
+        }));
+      }),
+    }));
+  }, [accordionSchools]);
+
+  const handleDownloadSummaryReport = () => {
+    if (loading || accordionSchools.length === 0) return;
+
+    setIsExporting(true);
+    try {
+      downloadTextbookSummaryReport({
+        divisionName: divisionName || selectedDivision || "DIVISION",
+        schools: exportSchools,
+      });
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
   return (
     <section className="dctWrap">
       <div className="dctHeader">
@@ -483,6 +540,17 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
               ? `Selected Division: ${selectedDivision}`
               : "No division selected"}
           </div>
+        </div>
+
+        <div className="dctHeaderActions">
+          <button
+            type="button"
+            className="dctExportBtn"
+            onClick={handleDownloadSummaryReport}
+            disabled={loading || accordionSchools.length === 0 || isExporting}
+          >
+            {isExporting ? "Preparing..." : "Download Summary Report"}
+          </button>
         </div>
       </div>
 
@@ -671,7 +739,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                           <td>{formatGradeLabel(item.grade)}</td>
                                           <td>
                                             {item.subject === "(No Subject)"
-                                              ? "—"
+                                              ? "-"
                                               : item.subject}
                                           </td>
                                           <td className="dctNumberCell">

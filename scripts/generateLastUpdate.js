@@ -1,4 +1,4 @@
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 import fs from "fs";
 
 function readExistingDate() {
@@ -13,9 +13,13 @@ function readExistingDate() {
 
 function readGitDate() {
   try {
-    return execSync('git log -1 --date=format-local:"%Y-%m-%d %I:%M %p" --format=%cd', {
-      stdio: ["ignore", "pipe", "ignore"],
-    })
+    return execFileSync(
+      "git",
+      ["log", "-1", "--date=format-local:%Y-%m-%d %I:%M %p", "--format=%cd"],
+      {
+        stdio: ["ignore", "pipe", "ignore"],
+      }
+    )
       .toString()
       .trim();
   } catch {
@@ -38,8 +42,8 @@ function formatNow() {
 
 const timestamp =
   process.env.LR_LAST_UPDATED?.trim() ||
-  readExistingDate() ||
   readGitDate() ||
+  readExistingDate() ||
   formatNow();
 
 const content = `export const LAST_UPDATED = "${timestamp}";`;

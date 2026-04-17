@@ -11,12 +11,45 @@
   padding: 18px 20px 12px;
   border-bottom: 1px solid #dde6f2;
   background: linear-gradient(180deg, #f9fbfe 0%, #f2f6fb 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
 }
 
 .dctHeaderLeft {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.dctHeaderActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0 0 auto;
+}
+
+.dctExportBtn {
+  min-height: 40px;
+  border: 1px solid #c3d2e6;
+  border-radius: 12px;
+  padding: 0 16px;
+  background: linear-gradient(180deg, #1f4f90 0%, #173a67 100%);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 10px 18px rgba(23, 58, 103, 0.14);
+}
+
+.dctExportBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
 }
 
 .dctTitle {
@@ -399,6 +432,19 @@
 }
 
 @media (max-width: 768px) {
+  .dctHeader {
+    align-items: stretch;
+  }
+
+  .dctHeaderActions {
+    width: 100%;
+  }
+
+  .dctExportBtn {
+    width: 100%;
+    justify-content: center;
+  }
+
   .dctAccordionWrap {
     padding: 14px 12px 16px;
   }
