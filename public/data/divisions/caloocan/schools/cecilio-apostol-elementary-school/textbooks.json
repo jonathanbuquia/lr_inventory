@@ -104,11 +104,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 185,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 228,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 185,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 43
     },
     {
       "Grade Level": 3,
@@ -254,11 +254,11 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 241,
-      "Quantity of Textbooks Received": 0,
+      "Quantity of Textbooks Received": 274,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 241,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 33
     },
     {
       "Grade Level": 5,
@@ -274,21 +274,21 @@
       "Grade Level": 5,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 206,
-      "Quantity of Textbooks Received": 0,
+      "Quantity of Textbooks Received": 211,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 206,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 5,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 206,
-      "Quantity of Textbooks Received": 0,
+      "Quantity of Textbooks Received": 211,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 206,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 5,
@@ -334,11 +334,11 @@
       "Grade Level": 5,
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 206,
-      "Quantity of Textbooks Received": 0,
+      "Quantity of Textbooks Received": 211,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 206,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 5,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:10:51.097Z"
+  "generatedAt": "2026-04-17T07:43:35.676Z"
 }

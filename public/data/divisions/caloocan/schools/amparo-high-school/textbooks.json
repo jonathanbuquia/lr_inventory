@@ -44,11 +44,11 @@
       "Grade Level": 7,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 915,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 967,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 915,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 52
     },
     {
       "Grade Level": 7,
@@ -154,11 +154,11 @@
       "Grade Level": 8,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 805,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 853,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 805,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 48
     },
     {
       "Grade Level": 8,
@@ -174,11 +174,11 @@
       "Grade Level": 8,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 805,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 853,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 805,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 48
     },
     {
       "Grade Level": 8,
@@ -449,7 +449,37 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 82
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Health Optimizing PE 3 & 4 TX",
+      "Enrolment S.Y. 2025-2026": 677,
+      "Quantity of Textbooks Received": 759,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 82
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Earth and Life Science TX",
+      "Enrolment S.Y. 2025-2026": 677,
+      "Quantity of Textbooks Received": 759,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 82
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Understanding Culture, Society & Politics TX",
+      "Enrolment S.Y. 2025-2026": 677,
+      "Quantity of Textbooks Received": 759,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 82
     }
   ],
-  "generatedAt": "2026-04-15T03:10:48.486Z"
+  "generatedAt": "2026-04-17T07:43:34.081Z"
 }
