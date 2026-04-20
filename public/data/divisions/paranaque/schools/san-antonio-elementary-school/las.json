@@ -383,8 +383,8 @@
       "Quantity based on Target LAS - Q4": 0,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS)- Q4": "",
       "Year of Delivery - LAS - Q4": "",
-      "SOURCE - LAS (CO,RO, SDO) - Q4": "",
-      "GAP - LAS - Q4": 0,
+      "SOURCE - LAS (CO,RO, SDO) - Q4": "RO",
+      "GAP - LAS - Q4": 450,
       "SURPLUS - LAS - Q4": 0
     },
     {
@@ -1021,8 +1021,8 @@
       "Quantity based on Target LAS - Q4": 0,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS)- Q4": "",
       "Year of Delivery - LAS - Q4": "",
-      "SOURCE - LAS (CO,RO, SDO) - Q4": "",
-      "GAP - LAS - Q4": 0,
+      "SOURCE - LAS (CO,RO, SDO) - Q4": "RO",
+      "GAP - LAS - Q4": 600,
       "SURPLUS - LAS - Q4": 0
     },
     {
@@ -1253,8 +1253,8 @@
       "Quantity based on Target LAS - Q4": 0,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS)- Q4": "",
       "Year of Delivery - LAS - Q4": "",
-      "SOURCE - LAS (CO,RO, SDO) - Q4": "",
-      "GAP - LAS - Q4": 0,
+      "SOURCE - LAS (CO,RO, SDO) - Q4": "RO",
+      "GAP - LAS - Q4": 500,
       "SURPLUS - LAS - Q4": 0
     },
     {
@@ -1548,5 +1548,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:18.152Z"
+  "generatedAt": "2026-04-20T01:41:18.476Z"
 }
