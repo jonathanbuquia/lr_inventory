@@ -16,7 +16,7 @@
       "Enrolment S.Y. 2025-2026": 583,
       "Quantity of Textbooks Received": 813,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 230
     },
@@ -25,8 +25,8 @@
       "SUBJECTS": "Language",
       "Enrolment S.Y. 2025-2026": 583,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 583,
       "Surplus-TX": 0
     },
@@ -36,7 +36,7 @@
       "Enrolment S.Y. 2025-2026": 583,
       "Quantity of Textbooks Received": 813,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 230
     },
@@ -46,7 +46,7 @@
       "Enrolment S.Y. 2025-2026": 583,
       "Quantity of Textbooks Received": 813,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 230
     },
@@ -95,8 +95,8 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 628,
       "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 628,
       "Surplus-TX": 0
     },
@@ -195,7 +195,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 710,
       "Quantity of Textbooks Received": 710,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 0
@@ -254,10 +254,10 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 710,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 710,
+      "Quantity of Textbooks Received": 710,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:00.905Z"
+  "generatedAt": "2026-04-20T06:22:59.691Z"
 }

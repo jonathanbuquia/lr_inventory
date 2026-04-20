@@ -246,8 +246,8 @@
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 460,
       "Quantity of Textbooks Received": 675,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 215,
       "Column1": 2023
@@ -257,8 +257,8 @@
       "SUBJECTS": "AP",
       "Enrolment S.Y. 2025-2026": 460,
       "Quantity of Textbooks Received": 675,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 215,
       "Column1": 2023
@@ -420,12 +420,12 @@
     {
       "Grade Level": 10,
       "SUBJECTS": "El Filibusterismo",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 541,
       "Quantity of Textbooks Received": 753,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 753,
+      "Surplus-TX": 212,
       "Column1": ""
     },
     {
@@ -605,5 +605,5 @@
       "Column1": ""
     }
   ],
-  "generatedAt": "2026-04-20T02:41:06.705Z"
+  "generatedAt": "2026-04-20T06:23:22.521Z"
 }
