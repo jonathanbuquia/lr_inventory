@@ -15,7 +15,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 423,
       "Quantity of Textbooks Received": 494,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 71
@@ -35,7 +35,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 423,
       "Quantity of Textbooks Received": 494,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 71
@@ -55,7 +55,7 @@
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 423,
       "Quantity of Textbooks Received": 494,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 71
@@ -65,7 +65,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 423,
       "Quantity of Textbooks Received": 494,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 71
@@ -75,7 +75,7 @@
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": 423,
       "Quantity of Textbooks Received": 494,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 71
@@ -135,7 +135,7 @@
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 352,
       "Quantity of Textbooks Received": 372,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 20
@@ -375,7 +375,7 @@
       "SUBJECTS": "Personal Development",
       "Enrolment S.Y. 2025-2026": 318,
       "Quantity of Textbooks Received": 327,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9
@@ -395,7 +395,7 @@
       "SUBJECTS": "HOPE 3 and 4",
       "Enrolment S.Y. 2025-2026": 318,
       "Quantity of Textbooks Received": 327,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9
@@ -445,11 +445,11 @@
       "SUBJECTS": "Statistics and Probability",
       "Enrolment S.Y. 2025-2026": 318,
       "Quantity of Textbooks Received": 327,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9
     }
   ],
-  "generatedAt": "2026-04-15T03:11:20.465Z"
+  "generatedAt": "2026-04-20T02:41:06.974Z"
 }
