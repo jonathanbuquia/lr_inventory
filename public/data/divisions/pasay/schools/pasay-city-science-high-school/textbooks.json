@@ -457,11 +457,11 @@
     {
       "Grade Level": "SHS - 11",
       "SUBJECTS": "HOPE 1 and 2",
-      "Enrolment S.Y. 2025-2026": 136,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 136,
+      "GAP-TX": 0,
       "Surplus-TX": 0,
       "Column1": "",
       "Column2": ""
@@ -563,5 +563,5 @@
       "Column2": ""
     }
   ],
-  "generatedAt": "2026-04-20T06:23:22.442Z"
+  "generatedAt": "2026-04-20T07:41:17.156Z"
 }
