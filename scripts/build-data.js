@@ -142,7 +142,22 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
       const obj = {};
       headers.forEach((h, i) => {
         if (!h) return;
-        obj[h] = r?.[i] ?? "";
+        const nextValue = r?.[i] ?? "";
+        const currentValue = obj[h];
+
+        if (currentValue === undefined) {
+          obj[h] = nextValue;
+          return;
+        }
+
+        // Some TextBooks sheets repeat the same headers in later blank columns.
+        // Keep the first populated value instead of overwriting it with blanks.
+        if (
+          String(currentValue).trim() === "" &&
+          String(nextValue).trim() !== ""
+        ) {
+          obj[h] = nextValue;
+        }
       });
       return obj;
     })
