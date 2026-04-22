@@ -134,7 +134,7 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
     return [];
   }
 
-  const headers = headerRow.map((h) => String(h || "").trim());
+  const headers = headerRow.map((h) => normalizeWhitespace(h));
   const dataRows = matrix.slice(headerRowIndex + 1);
 
   return dataRows
