@@ -19,6 +19,8 @@ import {
 } from "../../../utils/dashboardData";
 
 const formatNumber = (value) => Number(value || 0).toLocaleString();
+const pickGradeEnrollment = (currentValue, nextValue) =>
+  toNumber(currentValue) > 0 ? toNumber(currentValue) : toNumber(nextValue);
 
 const getSchoolsArray = (data) => {
   if (Array.isArray(data)) return data;
@@ -256,7 +258,10 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
         };
       }
 
-      grouped[key].enrolled += toNumber(getEnrolmentValue(row));
+      grouped[key].enrolled = pickGradeEnrollment(
+        grouped[key].enrolled,
+        getEnrolmentValue(row)
+      );
       grouped[key].target += values.target;
       grouped[key].received += values.received;
       grouped[key].gap += values.gap;
@@ -292,7 +297,6 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
           };
         }
 
-        schoolMap[item.schoolId].totals.enrolled += item.enrolled;
         schoolMap[item.schoolId].totals.target += item.target;
         schoolMap[item.schoolId].totals.received += item.received;
         schoolMap[item.schoolId].totals.gap += item.gap;
@@ -313,8 +317,11 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
           };
         }
 
-        schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled +=
-          item.enrolled;
+        schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled =
+          pickGradeEnrollment(
+            schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled,
+            item.enrolled
+          );
         schoolMap[item.schoolId].gradeMap[item.grade].totals.target += item.target;
         schoolMap[item.schoolId].gradeMap[item.grade].totals.received +=
           item.received;
@@ -348,6 +355,11 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
             };
           })
           .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
+
+        school.totals.enrolled = grades.reduce(
+          (sum, gradeBlock) => sum + toNumber(gradeBlock.totals.enrolled),
+          0
+        );
 
         const relevantGrades = grades.filter((gradeBlock) => {
           if (schoolIsElementary && normalizeGradeKey(gradeBlock.grade) === "KINDER") {

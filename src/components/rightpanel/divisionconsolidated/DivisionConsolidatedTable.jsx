@@ -51,6 +51,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   };
 
   const formatNumber = (value) => Number(value || 0).toLocaleString();
+  const pickGradeEnrollment = (currentValue, nextValue) =>
+    normalizeNumber(currentValue) > 0
+      ? normalizeNumber(currentValue)
+      : normalizeNumber(nextValue);
 
   const formatGradeLabel = (grade) => {
     return grade === "KINDER" ? "Kinder" : `Grade ${grade}`;
@@ -352,7 +356,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         };
       }
 
-      grouped[key].enrolled += enrolled;
+      grouped[key].enrolled = pickGradeEnrollment(grouped[key].enrolled, enrolled);
       grouped[key].received += received;
       grouped[key].gaps += gaps;
       grouped[key].surplus += surplus;
@@ -387,7 +391,6 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         };
       }
 
-      schoolMap[item.schoolId].totals.enrolled += item.enrolled;
       schoolMap[item.schoolId].totals.received += item.received;
       schoolMap[item.schoolId].totals.gaps += item.gaps;
       schoolMap[item.schoolId].totals.surplus += item.surplus;
@@ -406,7 +409,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         };
       }
 
-      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled += item.enrolled;
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled =
+        pickGradeEnrollment(
+          schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled,
+          item.enrolled
+        );
       schoolMap[item.schoolId].gradeMap[item.grade].totals.received += item.received;
       schoolMap[item.schoolId].gradeMap[item.grade].totals.gaps += item.gaps;
       schoolMap[item.schoolId].gradeMap[item.grade].totals.surplus += item.surplus;
@@ -442,6 +449,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
             };
           })
           .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
+
+        school.totals.enrolled = grades.reduce(
+          (sum, gradeBlock) => sum + normalizeNumber(gradeBlock.totals.enrolled),
+          0
+        );
 
         const relevantGrades = grades.filter((gradeBlock) => {
           return !(
