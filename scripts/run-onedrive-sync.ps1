@@ -181,7 +181,6 @@ try {
   )
 
   $current = Get-SourceSignature -RootPath $inputDir
-  $env:LR_LAST_UPDATED = Get-PhilippineTimestamp
   $currentBranch = (Get-CommandOutput -FilePath $gitPath -Arguments @("branch", "--show-current") | Select-Object -First 1)
   $previous = $null
 
@@ -195,26 +194,33 @@ try {
   }
 
   $sourceChanged = -not ($previous -and $previous.signature -eq $current.Signature)
-
-  if ($sourceChanged) {
-    Write-Log "Change detected in OneDrive source. Previous signature: $($previous.signature), new signature: $($current.Signature)."
-    Invoke-Step -FilePath $nodePath -Arguments @("scripts/build-data.js")
+  $effectiveLastUpdated = if ($previous -and $previous.lastUpdated) {
+    "$($previous.lastUpdated)"
   }
   else {
-    Write-Log "No changes detected in OneDrive source ($($current.FileCount) Excel files). Refreshing last updated timestamp only."
+    Get-PhilippineTimestamp
   }
 
-  Invoke-Step -FilePath $npmPath -Arguments @("run", "build")
-  if (-not $currentBranch) {
-    throw "Cannot auto-push because the current Git branch could not be determined."
+  if ($sourceChanged) {
+    $env:LR_LAST_UPDATED = Get-PhilippineTimestamp
+    $effectiveLastUpdated = $env:LR_LAST_UPDATED
+    Write-Log "Change detected in OneDrive source. Previous signature: $($previous.signature), new signature: $($current.Signature)."
+    Invoke-Step -FilePath $nodePath -Arguments @("scripts/build-data.js")
+    Invoke-Step -FilePath $npmPath -Arguments @("run", "build")
+    if (-not $currentBranch) {
+      throw "Cannot auto-push because the current Git branch could not be determined."
+    }
+    Sync-GitDataChanges -GitPath $gitPath -CurrentBranch $currentBranch -Timestamp $env:LR_LAST_UPDATED
   }
-  Sync-GitDataChanges -GitPath $gitPath -CurrentBranch $currentBranch -Timestamp $env:LR_LAST_UPDATED
+  else {
+    Write-Log "No changes detected in OneDrive source ($($current.FileCount) Excel files). Skipping rebuild and deploy."
+  }
 
   $state = [ordered]@{
     inputDir = $inputDir
     signature = $current.Signature
     fileCount = $current.FileCount
-    lastUpdated = $env:LR_LAST_UPDATED
+    lastUpdated = $effectiveLastUpdated
     lastRunAt = [DateTime]::UtcNow.ToString("o")
   }
 

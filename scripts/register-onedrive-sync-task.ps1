@@ -5,6 +5,7 @@ $workspace = "C:\Users\Jonathan Buquia\Downloads\OFFICE\WEB\LR"
 $runnerScript = Join-Path $workspace "scripts\run-onedrive-sync-hidden.vbs"
 $wscriptPath = "C:\Windows\System32\wscript.exe"
 $currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
+$repetitionIntervalMinutes = 5
 
 if (-not (Test-Path -LiteralPath $runnerScript)) {
   throw "Runner script not found: $runnerScript"
@@ -17,7 +18,7 @@ $action = New-ScheduledTaskAction `
 $intervalTrigger = New-ScheduledTaskTrigger `
   -Once `
   -At (Get-Date).AddMinutes(1) `
-  -RepetitionInterval (New-TimeSpan -Hours 1) `
+  -RepetitionInterval (New-TimeSpan -Minutes $repetitionIntervalMinutes) `
   -RepetitionDuration (New-TimeSpan -Days 3650)
 
 $logonTrigger = New-ScheduledTaskTrigger -AtLogOn -User $currentUser
