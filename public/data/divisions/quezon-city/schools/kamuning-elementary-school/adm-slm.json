@@ -189,10 +189,10 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 218,
       "Quantity based on Target ADM-SLM - Q1": 1744,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": "",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 60,
       "Year of Delivery - ADM-SLM - Q1": "",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
-      "GAP - ADM-SLM - Q1": 1744,
+      "GAP - ADM-SLM - Q1": 1684,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 1744,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": "",
@@ -1693,5 +1693,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-21T01:41:30.469Z"
+  "generatedAt": "2026-04-24T06:41:45.208Z"
 }
