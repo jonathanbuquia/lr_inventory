@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-24T07:32:11.192Z",
+  "generatedAt": "2026-04-24T07:47:07.040Z",
   "grades": [
     {
       "grade": "1",
@@ -23542,7 +23542,7 @@
           "mathematics": 81
         },
         "4": {
-          "english": 7337,
+          "english": 8607,
           "filipino": 43493,
           "mathematics": 43493,
           "gmrc": 43325,
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 546891,
-      "deliveryPercentage": 522.87,
+      "deliveredTotal": 548161,
+      "deliveryPercentage": 524.08,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -28616,7 +28616,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 1270,
               "filipino": 1270,
               "mathematics": 1270,
               "gmrc": 1270,
@@ -28644,8 +28644,8 @@
             "7": 0
           },
           "enrollmentTotal": 2387,
-          "deliveredTotal": 13830,
-          "deliveryPercentage": 579.39
+          "deliveredTotal": 15100,
+          "deliveryPercentage": 632.59
         },
         {
           "id": "project-3-elementary-school",
