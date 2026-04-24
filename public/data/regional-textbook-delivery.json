@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-24T07:47:07.040Z",
+  "generatedAt": "2026-04-24T11:22:04.010Z",
   "grades": [
     {
       "grade": "1",
@@ -23555,11 +23555,11 @@
         "7": {
           "english": 10556,
           "filipino": 10556,
-          "mathematics": 8980,
+          "mathematics": 9708,
           "ve": 2501,
           "araling-panlipunan": 9804,
           "science": 7105,
-          "pe-and-health": 10556,
+          "pe-and-health": 11284,
           "tle": 5408,
           "music-and-arts": 10120
         }
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 548161,
-      "deliveryPercentage": 524.08,
+      "deliveredTotal": 549617,
+      "deliveryPercentage": 525.48,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24114,11 +24114,11 @@
             "7": {
               "english": 0,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 728,
               "ve": 0,
               "araling-panlipunan": 0,
               "science": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 728,
               "tle": 0,
               "music-and-arts": 0
             }
@@ -24129,8 +24129,8 @@
             "7": 674
           },
           "enrollmentTotal": 674,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 1456,
+          "deliveryPercentage": 216.02
         },
         {
           "id": "balingasa-elementary-school",
