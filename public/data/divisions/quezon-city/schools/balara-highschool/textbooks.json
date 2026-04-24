@@ -54,11 +54,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 674,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 674,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 728,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 54
     },
     {
       "Grade Level": 7,
@@ -451,5 +451,5 @@
       "Surplus-TX": 36
     }
   ],
-  "generatedAt": "2026-04-24T12:02:47.524Z"
+  "generatedAt": "2026-04-24T12:16:49.439Z"
 }
