@@ -404,11 +404,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Physical Science",
       "Enrolment S.Y. 2025-2026": 246,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 282,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 246,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 36
     },
     {
       "Grade Level": "SHS",
@@ -424,32 +424,32 @@
       "Grade Level": "SHS",
       "SUBJECTS": "General Mathematics",
       "Enrolment S.Y. 2025-2026": 246,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 246,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 282,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 36
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Media and Information Literacy",
       "Enrolment S.Y. 2025-2026": 246,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 246,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 282,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO ",
+      "GAP-TX": 0,
+      "Surplus-TX": 36
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Statistics and Probability",
       "Enrolment S.Y. 2025-2026": 246,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 246,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 282,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 36
     }
   ],
-  "generatedAt": "2026-04-24T10:56:53.810Z"
+  "generatedAt": "2026-04-24T11:06:50.269Z"
 }
