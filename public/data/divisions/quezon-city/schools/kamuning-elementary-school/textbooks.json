@@ -174,31 +174,31 @@
       "Grade Level": 4,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 244,
-      "Quantity of Textbooks Received": 103,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 360,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 141,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 244,
-      "Quantity of Textbooks Received": 193,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 360,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 51,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 244,
-      "Quantity of Textbooks Received": 169,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 360,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 75,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 4,
@@ -214,21 +214,21 @@
       "Grade Level": 4,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 244,
-      "Quantity of Textbooks Received": 191,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 360,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 53,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 244,
-      "Quantity of Textbooks Received": 191,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 360,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 53,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 4,
@@ -254,11 +254,11 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 244,
-      "Quantity of Textbooks Received": 186,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 360,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 58,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 5,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:28.449Z"
+  "generatedAt": "2026-04-24T07:31:56.941Z"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-24T07:16:13.979Z",
+  "generatedAt": "2026-04-24T07:32:11.192Z",
   "grades": [
     {
       "grade": "1",
@@ -23542,15 +23542,15 @@
           "mathematics": 81
         },
         "4": {
-          "english": 7080,
-          "filipino": 43326,
-          "mathematics": 43302,
+          "english": 7337,
+          "filipino": 43493,
+          "mathematics": 43493,
           "gmrc": 43325,
-          "araling-panlipunan": 43324,
-          "science": 43324,
+          "araling-panlipunan": 43493,
+          "science": 43493,
           "pe-and-health": 43401,
           "epp": 568,
-          "music-and-arts": 43319
+          "music-and-arts": 43493
         },
         "7": {
           "english": 10556,
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 545764,
-      "deliveryPercentage": 521.79,
+      "deliveredTotal": 546891,
+      "deliveryPercentage": 522.87,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -26810,15 +26810,15 @@
               "mathematics": 0
             },
             "4": {
-              "english": 103,
-              "filipino": 193,
-              "mathematics": 169,
+              "english": 360,
+              "filipino": 360,
+              "mathematics": 360,
               "gmrc": 192,
-              "araling-panlipunan": 191,
-              "science": 191,
+              "araling-panlipunan": 360,
+              "science": 360,
               "pe-and-health": 268,
               "epp": 204,
-              "music-and-arts": 186
+              "music-and-arts": 360
             },
             "7": {
               "english": 0,
@@ -26838,8 +26838,8 @@
             "7": 0
           },
           "enrollmentTotal": 462,
-          "deliveredTotal": 2853,
-          "deliveryPercentage": 617.53
+          "deliveredTotal": 3980,
+          "deliveryPercentage": 861.47
         },
         {
           "id": "krus-na-ligas-high-school",
