@@ -35,8 +35,8 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 674,
       "Quantity of Textbooks Received": 728,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 54
     },
@@ -451,5 +451,5 @@
       "Surplus-TX": 36
     }
   ],
-  "generatedAt": "2026-04-24T11:21:48.304Z"
+  "generatedAt": "2026-04-24T11:36:50.441Z"
 }
