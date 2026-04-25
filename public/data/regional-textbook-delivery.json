@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-24T12:17:01.872Z",
+  "generatedAt": "2026-04-25T07:12:13.479Z",
   "grades": [
     {
       "grade": "1",
@@ -23561,7 +23561,7 @@
           "science": 7105,
           "pe-and-health": 11284,
           "tle": 6136,
-          "music-and-arts": 10848
+          "music-and-arts": 11284
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 553257,
-      "deliveryPercentage": 528.96,
+      "deliveredTotal": 553693,
+      "deliveryPercentage": 529.37,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -28893,7 +28893,7 @@
               "science": 438,
               "pe-and-health": 436,
               "tle": 0,
-              "music-and-arts": 0
+              "music-and-arts": 436
             }
           },
           "enrollmentByGrade": {
@@ -28902,8 +28902,8 @@
             "7": 330
           },
           "enrollmentTotal": 330,
-          "deliveredTotal": 2182,
-          "deliveryPercentage": 661.21
+          "deliveredTotal": 2618,
+          "deliveryPercentage": 793.33
         },
         {
           "id": "quirino-elementary-school",
