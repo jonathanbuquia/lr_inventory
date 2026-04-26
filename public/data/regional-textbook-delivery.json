@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-25T07:12:13.479Z",
+  "generatedAt": "2026-04-26T06:02:26.493Z",
   "grades": [
     {
       "grade": "1",
@@ -8659,7 +8659,7 @@
           "music-and-arts": 1667
         },
         "7": {
-          "english": 1751,
+          "english": 1944,
           "filipino": 1046,
           "mathematics": 2907,
           "ve": 1046,
@@ -8676,8 +8676,8 @@
         "7": 2310
       },
       "enrollmentTotal": 7078,
-      "deliveredTotal": 62877,
-      "deliveryPercentage": 888.34,
+      "deliveredTotal": 63070,
+      "deliveryPercentage": 891.07,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -8874,7 +8874,7 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 193,
               "filipino": 0,
               "mathematics": 185,
               "ve": 0,
@@ -8891,8 +8891,8 @@
             "7": 185
           },
           "enrollmentTotal": 185,
-          "deliveredTotal": 1150,
-          "deliveryPercentage": 621.62
+          "deliveredTotal": 1343,
+          "deliveryPercentage": 725.95
         },
         {
           "id": "dona-basilisa-yangco-elementary-school",
