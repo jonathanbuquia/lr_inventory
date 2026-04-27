@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T08:11:55.261Z",
+  "generatedAt": "2026-04-27T08:16:59.640Z",
   "grades": [
     {
       "grade": "1",
@@ -14450,7 +14450,7 @@
       "name": "MARIKINA",
       "totals": {
         "1": {
-          "reading-and-literacy": 5818,
+          "reading-and-literacy": 6298,
           "language": 7067,
           "gmrc": 6589,
           "makabansa": 7081,
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 141282,
-      "deliveryPercentage": 728.63,
+      "deliveredTotal": 141762,
+      "deliveryPercentage": 731.11,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15826,7 +15826,7 @@
           "name": "STO. NINO ELEMRNTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 480,
               "language": 480,
               "gmrc": 480,
               "makabansa": 480,
@@ -15861,8 +15861,8 @@
             "7": 0
           },
           "enrollmentTotal": 715,
-          "deliveredTotal": 4848,
-          "deliveryPercentage": 678.04
+          "deliveredTotal": 5328,
+          "deliveryPercentage": 745.17
         },
         {
           "id": "sto-nino-national-high-school",
