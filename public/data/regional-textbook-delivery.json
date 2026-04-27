@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T05:47:17.307Z",
+  "generatedAt": "2026-04-27T05:52:31.615Z",
   "grades": [
     {
       "grade": "1",
@@ -20293,13 +20293,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 4183,
-        "4": 5646,
+        "1": 4158,
+        "4": 5677,
         "7": 5145
       },
-      "enrollmentTotal": 14974,
+      "enrollmentTotal": 14980,
       "deliveredTotal": 107915,
-      "deliveryPercentage": 720.68,
+      "deliveryPercentage": 720.39,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -21282,13 +21282,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 25,
-            "4": 0,
+            "1": 5,
+            "4": 6,
             "7": 21
           },
-          "enrollmentTotal": 46,
+          "enrollmentTotal": 32,
           "deliveredTotal": 126,
-          "deliveryPercentage": 273.91
+          "deliveryPercentage": 393.75
         },
         {
           "id": "philippine-school-for-the-deaf",
@@ -21325,13 +21325,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 30,
-            "4": 0,
+            "1": 25,
+            "4": 25,
             "7": 52
           },
-          "enrollmentTotal": 82,
+          "enrollmentTotal": 102,
           "deliveredTotal": 680,
-          "deliveryPercentage": 829.27
+          "deliveryPercentage": 666.67
         },
         {
           "id": "president-corazon-cory-c-aquino-national-high-school",
