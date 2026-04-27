@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T02:01:56.035Z",
+  "generatedAt": "2026-04-27T02:12:22.017Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 12480,
-          "filipino": 13208,
-          "mathematics": 11632,
-          "ve": 6098,
-          "araling-panlipunan": 12456,
-          "science": 9029,
-          "pe-and-health": 13208,
-          "tle": 8496,
-          "music-and-arts": 13208
+          "english": 12732,
+          "filipino": 13460,
+          "mathematics": 11884,
+          "ve": 6350,
+          "araling-panlipunan": 12708,
+          "science": 9281,
+          "pe-and-health": 13460,
+          "tle": 8748,
+          "music-and-arts": 13460
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 573043,
-      "deliveryPercentage": 547.87,
+      "deliveredTotal": 575311,
+      "deliveryPercentage": 550.04,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -29659,15 +29659,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 252,
+              "filipino": 252,
+              "mathematics": 252,
+              "ve": 252,
+              "araling-panlipunan": 252,
+              "science": 252,
+              "pe-and-health": 252,
+              "tle": 252,
+              "music-and-arts": 252
             }
           },
           "enrollmentByGrade": {
@@ -29676,8 +29676,8 @@
             "7": 163
           },
           "enrollmentTotal": 163,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 2268,
+          "deliveryPercentage": 1391.41
         },
         {
           "id": "san-vicente-elementary-school",
