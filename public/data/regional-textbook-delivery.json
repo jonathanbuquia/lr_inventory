@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T07:42:12.301Z",
+  "generatedAt": "2026-04-27T07:47:17.429Z",
   "grades": [
     {
       "grade": "1",
@@ -31159,11 +31159,11 @@
         "4": {
           "english": 3453,
           "filipino": 9834,
-          "mathematics": 9662,
+          "mathematics": 9939,
           "gmrc": 11383,
-          "araling-panlipunan": 9269,
-          "science": 9391,
-          "pe-and-health": 7631,
+          "araling-panlipunan": 9562,
+          "science": 9685,
+          "pe-and-health": 7911,
           "epp": 872,
           "music-and-arts": 685
         },
@@ -31185,8 +31185,8 @@
         "7": 7752
       },
       "enrollmentTotal": 31974,
-      "deliveredTotal": 154817,
-      "deliveryPercentage": 484.2,
+      "deliveredTotal": 155961,
+      "deliveryPercentage": 487.77,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31804,11 +31804,11 @@
             "4": {
               "english": 312,
               "filipino": 210,
-              "mathematics": 0,
+              "mathematics": 277,
               "gmrc": 300,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "araling-panlipunan": 293,
+              "science": 294,
+              "pe-and-health": 280,
               "epp": 0,
               "music-and-arts": 0
             },
@@ -31830,8 +31830,8 @@
             "7": 0
           },
           "enrollmentTotal": 568,
-          "deliveredTotal": 1890,
-          "deliveryPercentage": 332.75
+          "deliveredTotal": 3034,
+          "deliveryPercentage": 534.15
         },
         {
           "id": "em-s-signal-village-elementary-school",
