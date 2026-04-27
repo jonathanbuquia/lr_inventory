@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T12:02:01.248Z",
+  "generatedAt": "2026-04-27T12:27:00.461Z",
   "grades": [
     {
       "grade": "1",
@@ -6790,7 +6790,7 @@
       "name": "MALABON",
       "totals": {
         "1": {
-          "reading-and-literacy": 7992,
+          "reading-and-literacy": 8066,
           "language": 6544,
           "gmrc": 7992,
           "makabansa": 8251,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 136538,
-      "deliveryPercentage": 750.7,
+      "deliveredTotal": 136612,
+      "deliveryPercentage": 751.11,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -7220,7 +7220,7 @@
           "name": "DAMPALIT IS",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 74,
               "language": 74,
               "gmrc": 0,
               "makabansa": 74,
@@ -7255,8 +7255,8 @@
             "7": 142
           },
           "enrollmentTotal": 254,
-          "deliveredTotal": 1505,
-          "deliveryPercentage": 592.52
+          "deliveredTotal": 1579,
+          "deliveryPercentage": 621.65
         },
         {
           "id": "dela-paz-elementary-school",
