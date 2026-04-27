@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T01:12:03.551Z",
+  "generatedAt": "2026-04-27T01:36:54.608Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 10556,
-          "filipino": 11284,
-          "mathematics": 9708,
+          "english": 11817,
+          "filipino": 12545,
+          "mathematics": 10969,
           "ve": 4174,
-          "araling-panlipunan": 10532,
-          "science": 7105,
-          "pe-and-health": 11284,
-          "tle": 6572,
-          "music-and-arts": 11284
+          "araling-panlipunan": 11793,
+          "science": 8366,
+          "pe-and-health": 12545,
+          "tle": 7833,
+          "music-and-arts": 12545
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 555007,
-      "deliveryPercentage": 530.63,
+      "deliveredTotal": 565095,
+      "deliveryPercentage": 540.27,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -26305,15 +26305,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
+              "english": 1261,
+              "filipino": 1261,
+              "mathematics": 1261,
               "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "araling-panlipunan": 1261,
+              "science": 1261,
+              "pe-and-health": 1261,
+              "tle": 1261,
+              "music-and-arts": 1261
             }
           },
           "enrollmentByGrade": {
@@ -26322,8 +26322,8 @@
             "7": 1271
           },
           "enrollmentTotal": 1271,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 10088,
+          "deliveryPercentage": 793.71
         },
         {
           "id": "ismael-mathay-sr-high-school",
