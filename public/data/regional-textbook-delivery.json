@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T12:27:00.461Z",
+  "generatedAt": "2026-04-27T12:32:00.935Z",
   "grades": [
     {
       "grade": "1",
@@ -6803,15 +6803,15 @@
           "gmrc": 8217,
           "araling-panlipunan": 7658,
           "science": 8084,
-          "pe-and-health": 8100,
+          "pe-and-health": 8105,
           "epp": 308,
-          "music-and-arts": 6080
+          "music-and-arts": 6156
         },
         "7": {
           "english": 5614,
           "filipino": 0,
           "mathematics": 5928,
-          "ve": 4998,
+          "ve": 5105,
           "araling-panlipunan": 5928,
           "science": 5891,
           "pe-and-health": 5628,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 136612,
-      "deliveryPercentage": 751.11,
+      "deliveredTotal": 136800,
+      "deliveryPercentage": 752.14,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -7233,15 +7233,15 @@
               "gmrc": 100,
               "araling-panlipunan": 76,
               "science": 76,
-              "pe-and-health": 71,
+              "pe-and-health": 76,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 76
             },
             "7": {
               "english": 107,
               "filipino": 0,
               "mathematics": 107,
-              "ve": 0,
+              "ve": 107,
               "araling-panlipunan": 107,
               "science": 107,
               "pe-and-health": 107,
@@ -7255,8 +7255,8 @@
             "7": 142
           },
           "enrollmentTotal": 254,
-          "deliveredTotal": 1579,
-          "deliveryPercentage": 621.65
+          "deliveredTotal": 1767,
+          "deliveryPercentage": 695.67
         },
         {
           "id": "dela-paz-elementary-school",
