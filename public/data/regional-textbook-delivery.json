@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T05:22:00.817Z",
+  "generatedAt": "2026-04-27T05:37:19.294Z",
   "grades": [
     {
       "grade": "1",
@@ -20293,13 +20293,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 3848,
+        "1": 4158,
         "4": 5646,
         "7": 5145
       },
-      "enrollmentTotal": 14639,
+      "enrollmentTotal": 14949,
       "deliveredTotal": 107915,
-      "deliveryPercentage": 737.17,
+      "deliveryPercentage": 721.89,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -20852,13 +20852,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 310,
             "4": 376,
             "7": 0
           },
-          "enrollmentTotal": 376,
+          "enrollmentTotal": 686,
           "deliveredTotal": 3433,
-          "deliveryPercentage": 913.03
+          "deliveryPercentage": 500.44
         },
         {
           "id": "p-villanueva-elementary-school",
