@@ -15,10 +15,10 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 834,
       "Quantity based on Target LAS - Q1": 6672,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 400,
       "Year of Delivery-LAS - Q1": "",
       "SOURCE - LAS (CO,RO, SDO) - Q1": "",
-      "GAP - LAS - Q1": 6672,
+      "GAP - LAS - Q1": 6272,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 6672,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -44,10 +44,10 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 834,
       "Quantity based on Target LAS - Q1": 6672,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 600,
       "Year of Delivery-LAS - Q1": "",
       "SOURCE - LAS (CO,RO, SDO) - Q1": "",
-      "GAP - LAS - Q1": 6672,
+      "GAP - LAS - Q1": 6072,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 6672,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -218,10 +218,10 @@
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 834,
       "Quantity based on Target LAS - Q1": 6672,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 600,
       "Year of Delivery-LAS - Q1": "",
       "SOURCE - LAS (CO,RO, SDO) - Q1": "",
-      "GAP - LAS - Q1": 6672,
+      "GAP - LAS - Q1": 6072,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 6672,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -1287,5 +1287,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:12.340Z"
+  "generatedAt": "2026-04-27T06:11:47.124Z"
 }
