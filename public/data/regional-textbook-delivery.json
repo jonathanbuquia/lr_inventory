@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T11:32:04.715Z",
+  "generatedAt": "2026-04-27T12:02:01.248Z",
   "grades": [
     {
       "grade": "1",
@@ -6790,22 +6790,22 @@
       "name": "MALABON",
       "totals": {
         "1": {
-          "reading-and-literacy": 7632,
-          "language": 6184,
-          "gmrc": 7632,
-          "makabansa": 7891,
+          "reading-and-literacy": 7992,
+          "language": 6544,
+          "gmrc": 7992,
+          "makabansa": 8251,
           "mathematics": 92
         },
         "4": {
-          "english": 5324,
-          "filipino": 7331,
-          "mathematics": 7572,
-          "gmrc": 7673,
-          "araling-panlipunan": 7114,
-          "science": 7540,
-          "pe-and-health": 7556,
+          "english": 5868,
+          "filipino": 7875,
+          "mathematics": 8116,
+          "gmrc": 8217,
+          "araling-panlipunan": 7658,
+          "science": 8084,
+          "pe-and-health": 8100,
           "epp": 308,
-          "music-and-arts": 5660
+          "music-and-arts": 6080
         },
         "7": {
           "english": 5614,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 130870,
-      "deliveryPercentage": 719.54,
+      "deliveredTotal": 136538,
+      "deliveryPercentage": 750.7,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -8510,22 +8510,22 @@
           "name": "TONSUYA INTEGRATED SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 360,
+              "language": 360,
+              "gmrc": 360,
+              "makabansa": 360,
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 544,
+              "filipino": 544,
+              "mathematics": 544,
+              "gmrc": 544,
+              "araling-panlipunan": 544,
+              "science": 544,
+              "pe-and-health": 544,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 420
             },
             "7": {
               "english": 0,
@@ -8545,8 +8545,8 @@
             "7": 246
           },
           "enrollmentTotal": 928,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 5668,
+          "deliveryPercentage": 610.78
         },
         {
           "id": "tugatog-national-high-school",
