@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T03:17:30.036Z",
+  "generatedAt": "2026-04-27T03:22:23.227Z",
   "grades": [
     {
       "grade": "1",
@@ -14458,7 +14458,7 @@
         },
         "4": {
           "english": 0,
-          "filipino": 6496,
+          "filipino": 7300,
           "mathematics": 6502,
           "gmrc": 7830,
           "araling-panlipunan": 7857,
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 139590,
-      "deliveryPercentage": 719.91,
+      "deliveredTotal": 140394,
+      "deliveryPercentage": 724.05,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15490,7 +15490,7 @@
             },
             "4": {
               "english": 0,
-              "filipino": 0,
+              "filipino": 804,
               "mathematics": 0,
               "gmrc": 804,
               "araling-panlipunan": 804,
@@ -15517,8 +15517,8 @@
             "7": 0
           },
           "enrollmentTotal": 1114,
-          "deliveredTotal": 7340,
-          "deliveryPercentage": 658.89
+          "deliveredTotal": 8144,
+          "deliveryPercentage": 731.06
         },
         {
           "id": "parang-high-school",
@@ -23553,11 +23553,11 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 12732,
-          "filipino": 13460,
-          "mathematics": 11884,
-          "ve": 6350,
-          "araling-panlipunan": 12708,
+          "english": 13236,
+          "filipino": 13964,
+          "mathematics": 12388,
+          "ve": 6854,
+          "araling-panlipunan": 13212,
           "science": 9281,
           "pe-and-health": 13460,
           "tle": 9252,
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 577212,
-      "deliveryPercentage": 551.86,
+      "deliveredTotal": 579732,
+      "deliveryPercentage": 554.27,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25660,11 +25660,11 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
+              "english": 504,
+              "filipino": 504,
+              "mathematics": 504,
+              "ve": 504,
+              "araling-panlipunan": 504,
               "science": 0,
               "pe-and-health": 0,
               "tle": 504,
@@ -25677,8 +25677,8 @@
             "7": 350
           },
           "enrollmentTotal": 350,
-          "deliveredTotal": 504,
-          "deliveryPercentage": 144
+          "deliveredTotal": 3024,
+          "deliveryPercentage": 864
         },
         {
           "id": "emilio-jacinto-national-high-school",
