@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T05:57:31.760Z",
+  "generatedAt": "2026-04-27T07:39:17.677Z",
   "grades": [
     {
       "grade": "1",
@@ -14453,7 +14453,7 @@
           "reading-and-literacy": 5818,
           "language": 6587,
           "gmrc": 6109,
-          "makabansa": 7067,
+          "makabansa": 7081,
           "mathematics": 0
         },
         "4": {
@@ -14462,7 +14462,7 @@
           "mathematics": 6502,
           "gmrc": 7830,
           "araling-panlipunan": 7857,
-          "science": 7859,
+          "science": 7773,
           "pe-and-health": 7926,
           "epp": 1336,
           "music-and-arts": 6448
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 140394,
-      "deliveryPercentage": 724.05,
+      "deliveredTotal": 140322,
+      "deliveryPercentage": 723.68,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14668,7 +14668,7 @@
               "reading-and-literacy": 525,
               "language": 525,
               "gmrc": 525,
-              "makabansa": 525,
+              "makabansa": 539,
               "mathematics": 0
             },
             "4": {
@@ -14677,7 +14677,7 @@
               "mathematics": 633,
               "gmrc": 633,
               "araling-panlipunan": 633,
-              "science": 633,
+              "science": 547,
               "pe-and-health": 633,
               "epp": 0,
               "music-and-arts": 614
@@ -14700,8 +14700,8 @@
             "7": 0
           },
           "enrollmentTotal": 989,
-          "deliveredTotal": 6512,
-          "deliveryPercentage": 658.44
+          "deliveredTotal": 6440,
+          "deliveryPercentage": 651.16
         },
         {
           "id": "fortune-high-school",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 13236,
-          "filipino": 13964,
-          "mathematics": 12388,
-          "ve": 6854,
-          "araling-panlipunan": 13212,
-          "science": 9785,
-          "pe-and-health": 13964,
-          "tle": 9252,
-          "music-and-arts": 13964
+          "english": 13669,
+          "filipino": 14397,
+          "mathematics": 12821,
+          "ve": 7772,
+          "araling-panlipunan": 13645,
+          "science": 10218,
+          "pe-and-health": 14397,
+          "tle": 9685,
+          "music-and-arts": 14397
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104591,
-      "deliveredTotal": 581839,
-      "deliveryPercentage": 556.3,
+      "deliveredTotal": 586221,
+      "deliveryPercentage": 560.49,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -26437,7 +26437,7 @@
               "english": 485,
               "filipino": 485,
               "mathematics": 485,
-              "ve": 0,
+              "ve": 485,
               "araling-panlipunan": 485,
               "science": 485,
               "pe-and-health": 485,
@@ -26451,8 +26451,8 @@
             "7": 346
           },
           "enrollmentTotal": 346,
-          "deliveredTotal": 3880,
-          "deliveryPercentage": 1121.39
+          "deliveredTotal": 4365,
+          "deliveryPercentage": 1261.56
         },
         {
           "id": "jose-v-palma-senior-high-school",
@@ -26993,15 +26993,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 433,
+              "filipino": 433,
+              "mathematics": 433,
+              "ve": 433,
+              "araling-panlipunan": 433,
+              "science": 433,
+              "pe-and-health": 433,
+              "tle": 433,
+              "music-and-arts": 433
             }
           },
           "enrollmentByGrade": {
@@ -27010,7 +27010,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 3897,
           "deliveryPercentage": 0
         },
         {
@@ -31151,7 +31151,7 @@
       "totals": {
         "1": {
           "reading-and-literacy": 12899,
-          "language": 10359,
+          "language": 9975,
           "gmrc": 12963,
           "makabansa": 13567,
           "mathematics": 1236
@@ -31165,7 +31165,7 @@
           "science": 9391,
           "pe-and-health": 7631,
           "epp": 872,
-          "music-and-arts": 285
+          "music-and-arts": 685
         },
         "7": {
           "english": 6845,
@@ -31185,8 +31185,8 @@
         "7": 7752
       },
       "enrollmentTotal": 31974,
-      "deliveredTotal": 154885,
-      "deliveryPercentage": 484.41,
+      "deliveredTotal": 154901,
+      "deliveryPercentage": 484.46,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31796,7 +31796,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 384,
-              "language": 384,
+              "language": 0,
               "gmrc": 384,
               "makabansa": 384,
               "mathematics": 0
@@ -31830,8 +31830,8 @@
             "7": 0
           },
           "enrollmentTotal": 568,
-          "deliveredTotal": 2358,
-          "deliveryPercentage": 415.14
+          "deliveredTotal": 1974,
+          "deliveryPercentage": 347.54
         },
         {
           "id": "em-s-signal-village-elementary-school",
@@ -32541,7 +32541,7 @@
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 400
             },
             "7": {
               "english": 463,
@@ -32561,8 +32561,8 @@
             "7": 483
           },
           "enrollmentTotal": 1350,
-          "deliveredTotal": 3508,
-          "deliveryPercentage": 259.85
+          "deliveredTotal": 3908,
+          "deliveryPercentage": 289.48
         },
         {
           "id": "pateros-elementary-school",
