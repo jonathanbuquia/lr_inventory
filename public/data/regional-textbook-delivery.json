@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T02:27:10.855Z",
+  "generatedAt": "2026-04-27T02:42:14.206Z",
   "grades": [
     {
       "grade": "1",
@@ -23542,7 +23542,7 @@
           "mathematics": 81
         },
         "4": {
-          "english": 9327,
+          "english": 10129,
           "filipino": 43493,
           "mathematics": 43493,
           "gmrc": 43325,
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 576410,
-      "deliveryPercentage": 551.09,
+      "deliveredTotal": 577212,
+      "deliveryPercentage": 551.86,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24402,7 +24402,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 802,
               "filipino": 802,
               "mathematics": 802,
               "gmrc": 802,
@@ -24430,8 +24430,8 @@
             "7": 0
           },
           "enrollmentTotal": 1235,
-          "deliveredTotal": 7399,
-          "deliveryPercentage": 599.11
+          "deliveredTotal": 8201,
+          "deliveryPercentage": 664.05
         },
         {
           "id": "betty-go-belmonte-elementary-school",
