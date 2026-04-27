@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T08:37:04.301Z",
+  "generatedAt": "2026-04-27T08:42:00.666Z",
   "grades": [
     {
       "grade": "1",
@@ -23565,13 +23565,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 30335,
+        "1": 30339,
         "4": 38583,
         "7": 35673
       },
-      "enrollmentTotal": 104591,
+      "enrollmentTotal": 104595,
       "deliveredTotal": 586221,
-      "deliveryPercentage": 560.49,
+      "deliveryPercentage": 560.47,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -30488,13 +30488,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 428,
+            "1": 432,
             "4": 620,
             "7": 0
           },
-          "enrollmentTotal": 1048,
+          "enrollmentTotal": 1052,
           "deliveredTotal": 8096,
-          "deliveryPercentage": 772.52
+          "deliveryPercentage": 769.58
         },
         {
           "id": "west-fairview-high-school",
