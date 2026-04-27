@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T07:39:17.677Z",
+  "generatedAt": "2026-04-27T07:42:12.301Z",
   "grades": [
     {
       "grade": "1",
@@ -31150,10 +31150,10 @@
       "name": "TAGUIG_PATEROS",
       "totals": {
         "1": {
-          "reading-and-literacy": 12899,
+          "reading-and-literacy": 12876,
           "language": 9975,
-          "gmrc": 12963,
-          "makabansa": 13567,
+          "gmrc": 12910,
+          "makabansa": 13559,
           "mathematics": 1236
         },
         "4": {
@@ -31180,13 +31180,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 10788,
-        "4": 13434,
+        "1": 10789,
+        "4": 13433,
         "7": 7752
       },
       "enrollmentTotal": 31974,
-      "deliveredTotal": 154901,
-      "deliveryPercentage": 484.46,
+      "deliveredTotal": 154817,
+      "deliveryPercentage": 484.2,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31795,10 +31795,10 @@
           "name": "EAST REMBO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 384,
+              "reading-and-literacy": 361,
               "language": 0,
-              "gmrc": 384,
-              "makabansa": 384,
+              "gmrc": 331,
+              "makabansa": 376,
               "mathematics": 0
             },
             "4": {
@@ -31825,13 +31825,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 265,
-            "4": 303,
+            "1": 266,
+            "4": 302,
             "7": 0
           },
           "enrollmentTotal": 568,
-          "deliveredTotal": 1974,
-          "deliveryPercentage": 347.54
+          "deliveredTotal": 1890,
+          "deliveryPercentage": 332.75
         },
         {
           "id": "em-s-signal-village-elementary-school",
