@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T11:15:33.760Z",
+  "generatedAt": "2026-04-27T11:32:04.715Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 14177,
-          "filipino": 14397,
-          "mathematics": 12821,
-          "ve": 7772,
-          "araling-panlipunan": 13645,
-          "science": 10218,
-          "pe-and-health": 14397,
-          "tle": 9685,
-          "music-and-arts": 14397
+          "english": 14202,
+          "filipino": 14930,
+          "mathematics": 13354,
+          "ve": 9540,
+          "araling-panlipunan": 14178,
+          "science": 11986,
+          "pe-and-health": 14930,
+          "tle": 10218,
+          "music-and-arts": 14930
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 586729,
-      "deliveryPercentage": 560.95,
+      "deliveredTotal": 593488,
+      "deliveryPercentage": 567.42,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24714,15 +24714,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 508,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 533,
+              "filipino": 533,
+              "mathematics": 533,
+              "ve": 533,
+              "araling-panlipunan": 533,
+              "science": 533,
+              "pe-and-health": 533,
+              "tle": 533,
+              "music-and-arts": 533
             }
           },
           "enrollmentByGrade": {
@@ -24731,8 +24731,8 @@
             "7": 375
           },
           "enrollmentTotal": 375,
-          "deliveredTotal": 508,
-          "deliveryPercentage": 135.47
+          "deliveredTotal": 4797,
+          "deliveryPercentage": 1279.2
         },
         {
           "id": "carlos-l-albert-high-school",
@@ -26566,9 +26566,9 @@
               "english": 1235,
               "filipino": 1235,
               "mathematics": 1235,
-              "ve": 0,
+              "ve": 1235,
               "araling-panlipunan": 1235,
-              "science": 0,
+              "science": 1235,
               "pe-and-health": 1235,
               "tle": 1235,
               "music-and-arts": 1235
@@ -26580,8 +26580,8 @@
             "7": 1388
           },
           "enrollmentTotal": 1388,
-          "deliveredTotal": 8645,
-          "deliveryPercentage": 622.84
+          "deliveredTotal": 11115,
+          "deliveryPercentage": 800.79
         },
         {
           "id": "judge-juan-luna-high-school",
