@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T02:42:14.206Z",
+  "generatedAt": "2026-04-27T03:17:30.036Z",
   "grades": [
     {
       "grade": "1",
@@ -14464,8 +14464,8 @@
           "araling-panlipunan": 7857,
           "science": 7859,
           "pe-and-health": 7926,
-          "epp": 632,
-          "music-and-arts": 6460
+          "epp": 1336,
+          "music-and-arts": 6448
         },
         "7": {
           "english": 8317,
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 138898,
-      "deliveryPercentage": 716.34,
+      "deliveredTotal": 139590,
+      "deliveryPercentage": 719.91,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15496,8 +15496,8 @@
               "araling-panlipunan": 804,
               "science": 804,
               "pe-and-health": 804,
-              "epp": 0,
-              "music-and-arts": 792
+              "epp": 704,
+              "music-and-arts": 780
             },
             "7": {
               "english": 0,
@@ -15517,8 +15517,8 @@
             "7": 0
           },
           "enrollmentTotal": 1114,
-          "deliveredTotal": 6648,
-          "deliveryPercentage": 596.77
+          "deliveredTotal": 7340,
+          "deliveryPercentage": 658.89
         },
         {
           "id": "parang-high-school",
