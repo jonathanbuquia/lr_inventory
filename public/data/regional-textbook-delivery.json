@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T01:07:13.447Z",
+  "generatedAt": "2026-04-27T01:12:03.551Z",
   "grades": [
     {
       "grade": "1",
@@ -23548,7 +23548,7 @@
           "gmrc": 43325,
           "araling-panlipunan": 43493,
           "science": 43493,
-          "pe-and-health": 43401,
+          "pe-and-health": 43334,
           "epp": 568,
           "music-and-arts": 43493
         },
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 555074,
-      "deliveryPercentage": 530.69,
+      "deliveredTotal": 555007,
+      "deliveryPercentage": 530.63,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -27504,7 +27504,7 @@
               "gmrc": 355,
               "araling-panlipunan": 355,
               "science": 355,
-              "pe-and-health": 355,
+              "pe-and-health": 288,
               "epp": 0,
               "music-and-arts": 355
             },
@@ -27526,8 +27526,8 @@
             "7": 0
           },
           "enrollmentTotal": 471,
-          "deliveredTotal": 4268,
-          "deliveryPercentage": 906.16
+          "deliveredTotal": 4201,
+          "deliveryPercentage": 891.93
         },
         {
           "id": "masambong-high-school",

@@ -374,20 +374,20 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
       "Enrolment S.Y. 2025-2026": 677,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 677,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 677,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 1 and 2",
       "Enrolment S.Y. 2025-2026": 677,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 677,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 677,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
@@ -404,30 +404,30 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Physical Science",
       "Enrolment S.Y. 2025-2026": 677,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 677,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 677,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Contemporary Philippine Arts",
       "Enrolment S.Y. 2025-2026": 677,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 677,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 677,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "General Mathematics",
       "Enrolment S.Y. 2025-2026": 677,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 677,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 677,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-27T01:01:46.042Z"
+  "generatedAt": "2026-04-27T01:11:52.183Z"
 }
