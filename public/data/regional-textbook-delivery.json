@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T01:51:58.664Z",
+  "generatedAt": "2026-04-27T02:01:56.035Z",
   "grades": [
     {
       "grade": "1",
@@ -23542,7 +23542,7 @@
           "mathematics": 81
         },
         "4": {
-          "english": 8607,
+          "english": 9327,
           "filipino": 43493,
           "mathematics": 43493,
           "gmrc": 43325,
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 11817,
-          "filipino": 12545,
+          "english": 12480,
+          "filipino": 13208,
           "mathematics": 11632,
-          "ve": 5435,
-          "araling-panlipunan": 11793,
+          "ve": 6098,
+          "araling-panlipunan": 12456,
           "science": 9029,
-          "pe-and-health": 12545,
-          "tle": 7833,
-          "music-and-arts": 12545
+          "pe-and-health": 13208,
+          "tle": 8496,
+          "music-and-arts": 13208
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 567682,
-      "deliveryPercentage": 542.75,
+      "deliveredTotal": 573043,
+      "deliveryPercentage": 547.87,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25348,7 +25348,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 720,
               "filipino": 720,
               "mathematics": 720,
               "gmrc": 720,
@@ -25376,8 +25376,8 @@
             "7": 0
           },
           "enrollmentTotal": 1167,
-          "deliveredTotal": 7788,
-          "deliveryPercentage": 667.35
+          "deliveredTotal": 8508,
+          "deliveryPercentage": 729.05
         },
         {
           "id": "don-alejandro-roces-sr-sci-and-tech-highschool",
@@ -26864,15 +26864,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
+              "english": 663,
+              "filipino": 663,
               "mathematics": 663,
-              "ve": 0,
-              "araling-panlipunan": 0,
+              "ve": 663,
+              "araling-panlipunan": 663,
               "science": 663,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "pe-and-health": 663,
+              "tle": 663,
+              "music-and-arts": 663
             }
           },
           "enrollmentByGrade": {
@@ -26881,8 +26881,8 @@
             "7": 418
           },
           "enrollmentTotal": 418,
-          "deliveredTotal": 1326,
-          "deliveryPercentage": 317.22
+          "deliveredTotal": 5967,
+          "deliveryPercentage": 1427.51
         },
         {
           "id": "lagro-elementary-school",
