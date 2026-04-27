@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T05:37:19.294Z",
+  "generatedAt": "2026-04-27T05:47:17.307Z",
   "grades": [
     {
       "grade": "1",
@@ -20293,13 +20293,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 4158,
+        "1": 4183,
         "4": 5646,
         "7": 5145
       },
-      "enrollmentTotal": 14949,
+      "enrollmentTotal": 14974,
       "deliveredTotal": 107915,
-      "deliveryPercentage": 721.89,
+      "deliveryPercentage": 720.68,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -21282,13 +21282,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 25,
             "4": 0,
             "7": 21
           },
-          "enrollmentTotal": 21,
+          "enrollmentTotal": 46,
           "deliveredTotal": 126,
-          "deliveryPercentage": 600
+          "deliveryPercentage": 273.91
         },
         {
           "id": "philippine-school-for-the-deaf",
