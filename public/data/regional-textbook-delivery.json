@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T03:22:23.227Z",
+  "generatedAt": "2026-04-27T03:32:20.219Z",
   "grades": [
     {
       "grade": "1",
@@ -23558,10 +23558,10 @@
           "mathematics": 12388,
           "ve": 6854,
           "araling-panlipunan": 13212,
-          "science": 9281,
-          "pe-and-health": 13460,
+          "science": 9785,
+          "pe-and-health": 13964,
           "tle": 9252,
-          "music-and-arts": 13460
+          "music-and-arts": 13964
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 579732,
-      "deliveryPercentage": 554.27,
+      "deliveredTotal": 581244,
+      "deliveryPercentage": 555.71,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25665,10 +25665,10 @@
               "mathematics": 504,
               "ve": 504,
               "araling-panlipunan": 504,
-              "science": 0,
-              "pe-and-health": 0,
+              "science": 504,
+              "pe-and-health": 504,
               "tle": 504,
-              "music-and-arts": 0
+              "music-and-arts": 504
             }
           },
           "enrollmentByGrade": {
@@ -25677,8 +25677,8 @@
             "7": 350
           },
           "enrollmentTotal": 350,
-          "deliveredTotal": 3024,
-          "deliveryPercentage": 864
+          "deliveredTotal": 4536,
+          "deliveryPercentage": 1296
         },
         {
           "id": "emilio-jacinto-national-high-school",
