@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T07:52:05.752Z",
+  "generatedAt": "2026-04-27T08:11:55.261Z",
   "grades": [
     {
       "grade": "1",
@@ -14451,8 +14451,8 @@
       "totals": {
         "1": {
           "reading-and-literacy": 5818,
-          "language": 6587,
-          "gmrc": 6109,
+          "language": 7067,
+          "gmrc": 6589,
           "makabansa": 7081,
           "mathematics": 0
         },
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 140322,
-      "deliveryPercentage": 723.68,
+      "deliveredTotal": 141282,
+      "deliveryPercentage": 728.63,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15827,8 +15827,8 @@
           "totals": {
             "1": {
               "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
+              "language": 480,
+              "gmrc": 480,
               "makabansa": 480,
               "mathematics": 0
             },
@@ -15861,8 +15861,8 @@
             "7": 0
           },
           "enrollmentTotal": 715,
-          "deliveredTotal": 3888,
-          "deliveryPercentage": 543.78
+          "deliveredTotal": 4848,
+          "deliveryPercentage": 678.04
         },
         {
           "id": "sto-nino-national-high-school",
@@ -17206,10 +17206,10 @@
       "name": "NAVOTAS",
       "totals": {
         "1": {
-          "reading-and-literacy": 3976,
-          "language": 3195,
-          "gmrc": 3865,
-          "makabansa": 3217,
+          "reading-and-literacy": 4653,
+          "language": 3900,
+          "gmrc": 4547,
+          "makabansa": 3922,
           "mathematics": 0
         },
         "4": {
@@ -17241,8 +17241,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 80562,
-      "deliveryPercentage": 724.22,
+      "deliveredTotal": 83331,
+      "deliveryPercentage": 749.11,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17292,10 +17292,10 @@
           "name": "BAGUMBAYAN ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 400,
+              "language": 400,
+              "gmrc": 400,
+              "makabansa": 400,
               "mathematics": 0
             },
             "4": {
@@ -17327,8 +17327,8 @@
             "7": 0
           },
           "enrollmentTotal": 499,
-          "deliveredTotal": 2880,
-          "deliveryPercentage": 577.15
+          "deliveredTotal": 4480,
+          "deliveryPercentage": 897.8
         },
         {
           "id": "bangkulasi-elementary-school",
@@ -18109,10 +18109,10 @@
           "name": "TANGOS I ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 277,
+              "language": 305,
+              "gmrc": 282,
+              "makabansa": 305,
               "mathematics": 0
             },
             "4": {
@@ -18144,8 +18144,8 @@
             "7": 0
           },
           "enrollmentTotal": 360,
-          "deliveredTotal": 2464,
-          "deliveryPercentage": 684.44
+          "deliveredTotal": 3633,
+          "deliveryPercentage": 1009.17
         },
         {
           "id": "tangos-national-high-school",
