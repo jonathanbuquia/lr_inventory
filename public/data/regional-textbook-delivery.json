@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T08:26:57.648Z",
+  "generatedAt": "2026-04-27T08:32:03.809Z",
   "grades": [
     {
       "grade": "1",
@@ -6797,7 +6797,7 @@
           "mathematics": 422
         },
         "4": {
-          "english": 6819,
+          "english": 6411,
           "filipino": 7331,
           "mathematics": 7572,
           "gmrc": 7673,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 131241,
-      "deliveryPercentage": 721.58,
+      "deliveredTotal": 130833,
+      "deliveryPercentage": 719.34,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -6840,7 +6840,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 408,
+              "english": 0,
               "filipino": 403,
               "mathematics": 403,
               "gmrc": 403,
@@ -6868,8 +6868,8 @@
             "7": 0
           },
           "enrollmentTotal": 628,
-          "deliveredTotal": 4925,
-          "deliveryPercentage": 784.24
+          "deliveredTotal": 4517,
+          "deliveryPercentage": 719.27
         },
         {
           "id": "acacia-national-high-school",
@@ -14476,7 +14476,7 @@
           "science": 8834,
           "pe-and-health": 8834,
           "tle": 8834,
-          "music-and-arts": 4400
+          "music-and-arts": 5119
         }
       },
       "enrollmentByGrade": {
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 144871,
-      "deliveryPercentage": 729.9,
+      "deliveredTotal": 145590,
+      "deliveryPercentage": 733.52,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14734,7 +14734,7 @@
               "science": 719,
               "pe-and-health": 719,
               "tle": 719,
-              "music-and-arts": 0
+              "music-and-arts": 719
             }
           },
           "enrollmentByGrade": {
@@ -14743,8 +14743,8 @@
             "7": 640
           },
           "enrollmentTotal": 640,
-          "deliveredTotal": 5033,
-          "deliveryPercentage": 786.41
+          "deliveredTotal": 5752,
+          "deliveryPercentage": 898.75
         },
         {
           "id": "h-bautista-elementary-school",
