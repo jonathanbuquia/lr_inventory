@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T03:32:20.219Z",
+  "generatedAt": "2026-04-27T05:22:00.817Z",
   "grades": [
     {
       "grade": "1",
@@ -23536,7 +23536,7 @@
       "totals": {
         "1": {
           "reading-and-literacy": 39989,
-          "language": 39756,
+          "language": 40351,
           "gmrc": 39989,
           "makabansa": 39989,
           "mathematics": 81
@@ -23565,13 +23565,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 30336,
-        "4": 38585,
+        "1": 30335,
+        "4": 38583,
         "7": 35673
       },
-      "enrollmentTotal": 104594,
-      "deliveredTotal": 581244,
-      "deliveryPercentage": 555.71,
+      "enrollmentTotal": 104591,
+      "deliveredTotal": 581839,
+      "deliveryPercentage": 556.3,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24396,7 +24396,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 595,
-              "language": 0,
+              "language": 595,
               "gmrc": 595,
               "makabansa": 595,
               "mathematics": 0
@@ -24430,8 +24430,8 @@
             "7": 0
           },
           "enrollmentTotal": 1235,
-          "deliveredTotal": 8201,
-          "deliveryPercentage": 664.05
+          "deliveredTotal": 8796,
+          "deliveryPercentage": 712.23
         },
         {
           "id": "betty-go-belmonte-elementary-school",
@@ -30402,13 +30402,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 239,
-            "4": 232,
+            "1": 238,
+            "4": 230,
             "7": 0
           },
-          "enrollmentTotal": 471,
+          "enrollmentTotal": 468,
           "deliveredTotal": 3504,
-          "deliveryPercentage": 743.95
+          "deliveryPercentage": 748.72
         },
         {
           "id": "vito-l-belarmino-senior-high-school",

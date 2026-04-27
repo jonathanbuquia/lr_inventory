@@ -15,7 +15,7 @@
       "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 924,
       "Quantity of Textbooks Received": 1278,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 354,
@@ -37,7 +37,7 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 924,
       "Quantity of Textbooks Received": 1278,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 354,
@@ -48,7 +48,7 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 924,
       "Quantity of Textbooks Received": 1278,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 354,
@@ -224,7 +224,7 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 1184,
       "Quantity of Textbooks Received": 1300,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 116,
@@ -292,7 +292,7 @@
       "Quantity of Textbooks Received": 1180,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
+      "GAP-TX": 1180,
       "Surplus-TX": 214,
       "Column1": 2026
     },
@@ -336,7 +336,7 @@
       "Quantity of Textbooks Received": 1180,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
+      "GAP-TX": 1180,
       "Surplus-TX": 214,
       "Column1": ""
     },
@@ -347,7 +347,7 @@
       "Quantity of Textbooks Received": 1180,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
+      "GAP-TX": 1180,
       "Surplus-TX": 214,
       "Column1": 2026
     },
@@ -358,7 +358,7 @@
       "Quantity of Textbooks Received": 1180,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
+      "GAP-TX": 1180,
       "Surplus-TX": 214,
       "Column1": ""
     },
@@ -369,7 +369,7 @@
       "Quantity of Textbooks Received": 1180,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
+      "GAP-TX": 1180,
       "Surplus-TX": 214,
       "Column1": ""
     },
@@ -484,5 +484,5 @@
       "Column1": ""
     }
   ],
-  "generatedAt": "2026-04-16T01:14:44.062Z"
+  "generatedAt": "2026-04-27T05:21:46.099Z"
 }
