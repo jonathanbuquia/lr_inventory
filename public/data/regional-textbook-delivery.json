@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T12:47:03.392Z",
+  "generatedAt": "2026-04-27T12:52:05.876Z",
   "grades": [
     {
       "grade": "1",
@@ -6792,12 +6792,12 @@
         "1": {
           "reading-and-literacy": 8066,
           "language": 6544,
-          "gmrc": 7992,
+          "gmrc": 8066,
           "makabansa": 8251,
           "mathematics": 92
         },
         "4": {
-          "english": 5729,
+          "english": 5634,
           "filipino": 7875,
           "mathematics": 8116,
           "gmrc": 8217,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 136800,
-      "deliveryPercentage": 752.14,
+      "deliveredTotal": 136779,
+      "deliveryPercentage": 752.03,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -7222,12 +7222,12 @@
             "1": {
               "reading-and-literacy": 74,
               "language": 74,
-              "gmrc": 0,
+              "gmrc": 74,
               "makabansa": 74,
               "mathematics": 0
             },
             "4": {
-              "english": 95,
+              "english": 0,
               "filipino": 95,
               "mathematics": 95,
               "gmrc": 100,
@@ -7255,8 +7255,8 @@
             "7": 142
           },
           "enrollmentTotal": 254,
-          "deliveredTotal": 1767,
-          "deliveryPercentage": 695.67
+          "deliveredTotal": 1746,
+          "deliveryPercentage": 687.4
         },
         {
           "id": "dela-paz-elementary-school",
