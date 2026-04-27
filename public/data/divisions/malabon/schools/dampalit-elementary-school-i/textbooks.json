@@ -174,11 +174,11 @@
       "Grade Level": 4,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 100,
-      "Quantity of Textbooks Received": 140,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 40
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 100,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 4,
@@ -244,9 +244,9 @@
       "Grade Level": 4,
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 100,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 100,
       "Surplus-TX": 0
     },
@@ -264,11 +264,11 @@
       "Grade Level": 5,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 104,
-      "Quantity of Textbooks Received": 123,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 19
+      "GAP-TX": 104,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
@@ -315,7 +315,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 104,
       "Quantity of Textbooks Received": 130,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 26
@@ -324,11 +324,11 @@
       "Grade Level": 5,
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": 104,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": " ",
-      "SOURCE-TX (CO,RO, SDO)": " ",
-      "GAP-TX": 104,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 130,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 26
     },
     {
       "Grade Level": 5,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-20T06:22:58.529Z"
+  "generatedAt": "2026-04-27T11:14:51.382Z"
 }

@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T08:42:00.666Z",
+  "generatedAt": "2026-04-27T11:15:33.760Z",
   "grades": [
     {
       "grade": "1",
@@ -6794,25 +6794,25 @@
           "language": 6184,
           "gmrc": 7632,
           "makabansa": 7891,
-          "mathematics": 422
+          "mathematics": 92
         },
         "4": {
-          "english": 5721,
+          "english": 5324,
           "filipino": 7331,
           "mathematics": 7572,
           "gmrc": 7673,
           "araling-panlipunan": 7114,
           "science": 7540,
           "pe-and-health": 7556,
-          "epp": 490,
-          "music-and-arts": 5583
+          "epp": 308,
+          "music-and-arts": 5660
         },
         "7": {
-          "english": 5928,
+          "english": 5614,
           "filipino": 0,
-          "mathematics": 5614,
-          "ve": 4684,
-          "araling-panlipunan": 5444,
+          "mathematics": 5928,
+          "ve": 4998,
+          "araling-panlipunan": 5928,
           "science": 5891,
           "pe-and-health": 5628,
           "tle": 5928,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 130904,
-      "deliveryPercentage": 719.73,
+      "deliveredTotal": 130870,
+      "deliveryPercentage": 719.54,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -6894,10 +6894,10 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 314,
+              "english": 0,
               "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
+              "mathematics": 314,
+              "ve": 314,
               "araling-panlipunan": 314,
               "science": 314,
               "pe-and-health": 314,
@@ -6911,8 +6911,8 @@
             "7": 373
           },
           "enrollmentTotal": 373,
-          "deliveredTotal": 1884,
-          "deliveryPercentage": 505.09
+          "deliveredTotal": 2198,
+          "deliveryPercentage": 589.28
         },
         {
           "id": "amang-rodriguez-elementary-school",
@@ -7027,7 +7027,7 @@
               "filipino": 0,
               "mathematics": 484,
               "ve": 484,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 484,
               "science": 484,
               "pe-and-health": 484,
               "tle": 484,
@@ -7040,8 +7040,8 @@
             "7": 500
           },
           "enrollmentTotal": 1467,
-          "deliveredTotal": 9708,
-          "deliveryPercentage": 661.76
+          "deliveredTotal": 10192,
+          "deliveryPercentage": 694.75
         },
         {
           "id": "col-ramon-camus-integrated-school",
@@ -7055,15 +7055,15 @@
               "mathematics": 0
             },
             "4": {
-              "english": 87,
+              "english": 0,
               "filipino": 84,
               "mathematics": 87,
               "gmrc": 87,
               "araling-panlipunan": 87,
               "science": 69,
               "pe-and-health": 85,
-              "epp": 12,
-              "music-and-arts": 8
+              "epp": 0,
+              "music-and-arts": 85
             },
             "7": {
               "english": 151,
@@ -7083,8 +7083,8 @@
             "7": 87
           },
           "enrollmentTotal": 130,
-          "deliveredTotal": 2058,
-          "deliveryPercentage": 1583.08
+          "deliveredTotal": 2036,
+          "deliveryPercentage": 1566.15
         },
         {
           "id": "concepcion-elementary-school",
@@ -7098,14 +7098,14 @@
               "mathematics": 0
             },
             "4": {
-              "english": 170,
+              "english": 0,
               "filipino": 170,
               "mathematics": 170,
               "gmrc": 170,
               "araling-panlipunan": 170,
               "science": 170,
               "pe-and-health": 170,
-              "epp": 170,
+              "epp": 0,
               "music-and-arts": 170
             },
             "7": {
@@ -7126,8 +7126,8 @@
             "7": 0
           },
           "enrollmentTotal": 259,
-          "deliveredTotal": 2250,
-          "deliveryPercentage": 868.73
+          "deliveredTotal": 1910,
+          "deliveryPercentage": 737.45
         },
         {
           "id": "concepcion-technical-vocational-school",
@@ -7184,7 +7184,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 140,
+              "english": 0,
               "filipino": 140,
               "mathematics": 140,
               "gmrc": 140,
@@ -7212,8 +7212,8 @@
             "7": 0
           },
           "enrollmentTotal": 185,
-          "deliveredTotal": 1542,
-          "deliveryPercentage": 833.51
+          "deliveredTotal": 1402,
+          "deliveryPercentage": 757.84
         },
         {
           "id": "dampalit-is",
@@ -8299,7 +8299,7 @@
               "language": 330,
               "gmrc": 330,
               "makabansa": 330,
-              "mathematics": 330
+              "mathematics": 0
             },
             "4": {
               "english": 0,
@@ -8330,8 +8330,8 @@
             "7": 0
           },
           "enrollmentTotal": 271,
-          "deliveredTotal": 3960,
-          "deliveryPercentage": 1461.25
+          "deliveredTotal": 3630,
+          "deliveryPercentage": 1339.48
         },
         {
           "id": "tanong-is",
@@ -23553,7 +23553,7 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 13669,
+          "english": 14177,
           "filipino": 14397,
           "mathematics": 12821,
           "ve": 7772,
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 586221,
-      "deliveryPercentage": 560.47,
+      "deliveredTotal": 586729,
+      "deliveryPercentage": 560.95,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24714,7 +24714,7 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 508,
               "filipino": 0,
               "mathematics": 0,
               "ve": 0,
@@ -24731,8 +24731,8 @@
             "7": 375
           },
           "enrollmentTotal": 375,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 508,
+          "deliveryPercentage": 135.47
         },
         {
           "id": "carlos-l-albert-high-school",
