@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T07:47:17.429Z",
+  "generatedAt": "2026-04-27T07:52:05.752Z",
   "grades": [
     {
       "grade": "1",
@@ -31165,7 +31165,7 @@
           "science": 9685,
           "pe-and-health": 7911,
           "epp": 872,
-          "music-and-arts": 685
+          "music-and-arts": 978
         },
         "7": {
           "english": 6845,
@@ -31185,8 +31185,8 @@
         "7": 7752
       },
       "enrollmentTotal": 31974,
-      "deliveredTotal": 155961,
-      "deliveryPercentage": 487.77,
+      "deliveredTotal": 156254,
+      "deliveryPercentage": 488.69,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31810,7 +31810,7 @@
               "science": 294,
               "pe-and-health": 280,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 293
             },
             "7": {
               "english": 0,
@@ -31830,8 +31830,8 @@
             "7": 0
           },
           "enrollmentTotal": 568,
-          "deliveredTotal": 3034,
-          "deliveryPercentage": 534.15
+          "deliveredTotal": 3327,
+          "deliveryPercentage": 585.74
         },
         {
           "id": "em-s-signal-village-elementary-school",
