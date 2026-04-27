@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T05:52:31.615Z",
+  "generatedAt": "2026-04-27T05:57:31.760Z",
   "grades": [
     {
       "grade": "1",
@@ -20293,13 +20293,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 4158,
+        "1": 4427,
         "4": 5677,
-        "7": 5145
+        "7": 5153
       },
-      "enrollmentTotal": 14980,
+      "enrollmentTotal": 15257,
       "deliveredTotal": 107915,
-      "deliveryPercentage": 720.39,
+      "deliveryPercentage": 707.31,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -21327,11 +21327,11 @@
           "enrollmentByGrade": {
             "1": 25,
             "4": 25,
-            "7": 52
+            "7": 60
           },
-          "enrollmentTotal": 102,
+          "enrollmentTotal": 110,
           "deliveredTotal": 680,
-          "deliveryPercentage": 666.67
+          "deliveryPercentage": 618.18
         },
         {
           "id": "president-corazon-cory-c-aquino-national-high-school",
@@ -21454,13 +21454,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 269,
             "4": 406,
             "7": 0
           },
-          "enrollmentTotal": 406,
+          "enrollmentTotal": 675,
           "deliveredTotal": 2860,
-          "deliveryPercentage": 704.43
+          "deliveryPercentage": 423.7
         },
         {
           "id": "timoteo-paez-elementary-school",
