@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T00:05:30.616Z",
+  "generatedAt": "2026-04-27T01:07:13.447Z",
   "grades": [
     {
       "grade": "1",
@@ -23556,7 +23556,7 @@
           "english": 10556,
           "filipino": 11284,
           "mathematics": 9708,
-          "ve": 3229,
+          "ve": 4174,
           "araling-panlipunan": 10532,
           "science": 7105,
           "pe-and-health": 11284,
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 554129,
-      "deliveryPercentage": 529.79,
+      "deliveredTotal": 555074,
+      "deliveryPercentage": 530.69,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -27340,7 +27340,7 @@
               "english": 945,
               "filipino": 945,
               "mathematics": 945,
-              "ve": 0,
+              "ve": 945,
               "araling-panlipunan": 945,
               "science": 945,
               "pe-and-health": 945,
@@ -27354,8 +27354,8 @@
             "7": 886
           },
           "enrollmentTotal": 886,
-          "deliveredTotal": 7560,
-          "deliveryPercentage": 853.27
+          "deliveredTotal": 8505,
+          "deliveryPercentage": 959.93
         },
         {
           "id": "manuel-a-roxas-high-school",
