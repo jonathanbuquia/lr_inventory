@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T08:32:03.809Z",
+  "generatedAt": "2026-04-27T08:37:04.301Z",
   "grades": [
     {
       "grade": "1",
@@ -6791,13 +6791,13 @@
       "totals": {
         "1": {
           "reading-and-literacy": 7632,
-          "language": 5563,
+          "language": 6184,
           "gmrc": 7632,
           "makabansa": 7891,
           "mathematics": 422
         },
         "4": {
-          "english": 6411,
+          "english": 5721,
           "filipino": 7331,
           "mathematics": 7572,
           "gmrc": 7673,
@@ -6805,7 +6805,7 @@
           "science": 7540,
           "pe-and-health": 7556,
           "epp": 490,
-          "music-and-arts": 5443
+          "music-and-arts": 5583
         },
         "7": {
           "english": 5928,
@@ -6825,8 +6825,8 @@
         "7": 5886
       },
       "enrollmentTotal": 18188,
-      "deliveredTotal": 130833,
-      "deliveryPercentage": 719.34,
+      "deliveredTotal": 130904,
+      "deliveryPercentage": 719.73,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -6969,7 +6969,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 140,
+              "english": 0,
               "filipino": 140,
               "mathematics": 140,
               "gmrc": 140,
@@ -6977,7 +6977,7 @@
               "science": 140,
               "pe-and-health": 140,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 140
             },
             "7": {
               "english": 0,
@@ -7006,13 +7006,13 @@
           "totals": {
             "1": {
               "reading-and-literacy": 621,
-              "language": 0,
+              "language": 621,
               "gmrc": 621,
               "makabansa": 621,
               "mathematics": 0
             },
             "4": {
-              "english": 550,
+              "english": 0,
               "filipino": 548,
               "mathematics": 548,
               "gmrc": 548,
@@ -7040,8 +7040,8 @@
             "7": 500
           },
           "enrollmentTotal": 1467,
-          "deliveredTotal": 9637,
-          "deliveryPercentage": 656.92
+          "deliveredTotal": 9708,
+          "deliveryPercentage": 661.76
         },
         {
           "id": "col-ramon-camus-integrated-school",

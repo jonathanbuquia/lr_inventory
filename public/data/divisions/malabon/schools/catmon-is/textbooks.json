@@ -24,11 +24,11 @@
       "Grade Level": 1,
       "SUBJECTS": "Language",
       "Enrolment S.Y. 2025-2026": 478,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 478,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 621,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 143
     },
     {
       "Grade Level": 1,
@@ -174,11 +174,11 @@
       "Grade Level": 4,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 489,
-      "Quantity of Textbooks Received": 550,
-      "Year of Delivery-TX": 2024,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 0,
-      "Surplus-TX": 61
+      "GAP-TX": 489,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 4,
@@ -264,11 +264,11 @@
       "Grade Level": 5,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 449,
-      "Quantity of Textbooks Received": 595,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 0,
-      "Surplus-TX": 146
+      "GAP-TX": 449,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
@@ -881,5 +881,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:10:59.579Z"
+  "generatedAt": "2026-04-27T08:36:29.280Z"
 }

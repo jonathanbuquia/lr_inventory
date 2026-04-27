@@ -688,10 +688,10 @@
       "GAP - ADM-SLM - Q1": 3816,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 3816,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 655,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 665,
       "Year of Delivery - ADM-SLM Q2": 2025,
       "SOURCE - ADM-SLM (CO,RO, SDO) Q2": "RO",
-      "GAP - ADM-SLM - Q2": 3161,
+      "GAP - ADM-SLM - Q2": 3151,
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 3816,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": 475,
@@ -717,10 +717,10 @@
       "GAP - ADM-SLM - Q1": 3816,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 3816,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 856,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 895,
       "Year of Delivery - ADM-SLM Q2": 2025,
       "SOURCE - ADM-SLM (CO,RO, SDO) Q2": "RO",
-      "GAP - ADM-SLM - Q2": 2960,
+      "GAP - ADM-SLM - Q2": 2921,
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 3816,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": 1520,
@@ -1036,10 +1036,10 @@
       "GAP - ADM-SLM - Q1": 4712,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 4712,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 1069,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 907,
       "Year of Delivery - ADM-SLM Q2": 2025,
       "SOURCE - ADM-SLM (CO,RO, SDO) Q2": "RO",
-      "GAP - ADM-SLM - Q2": 3643,
+      "GAP - ADM-SLM - Q2": 3805,
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 4712,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": "",
@@ -1519,5 +1519,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:11.137Z"
+  "generatedAt": "2026-04-27T08:36:38.561Z"
 }

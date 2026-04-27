@@ -174,10 +174,10 @@
       "Grade Level": 4,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 165,
-      "Quantity of Textbooks Received": 140,
+      "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 25,
+      "GAP-TX": 165,
       "Surplus-TX": 0
     },
     {
@@ -254,10 +254,10 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 165,
-      "Quantity of Textbooks Received": 0,
+      "Quantity of Textbooks Received": 140,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 165,
+      "GAP-TX": 25,
       "Surplus-TX": 0
     },
     {
@@ -304,11 +304,11 @@
       "Grade Level": 5,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 133,
-      "Quantity of Textbooks Received": 200,
+      "Quantity of Textbooks Received": 205,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 67
+      "Surplus-TX": 72
     },
     {
       "Grade Level": 5,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-20T03:40:45.643Z"
+  "generatedAt": "2026-04-27T08:36:29.204Z"
 }
