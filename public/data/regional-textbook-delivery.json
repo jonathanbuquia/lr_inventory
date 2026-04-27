@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-26T06:17:13.563Z",
+  "generatedAt": "2026-04-27T00:05:30.616Z",
   "grades": [
     {
       "grade": "1",
@@ -23560,7 +23560,7 @@
           "araling-panlipunan": 10532,
           "science": 7105,
           "pe-and-health": 11284,
-          "tle": 6136,
+          "tle": 6572,
           "music-and-arts": 11284
         }
       },
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104594,
-      "deliveredTotal": 553693,
-      "deliveryPercentage": 529.37,
+      "deliveredTotal": 554129,
+      "deliveryPercentage": 529.79,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -28892,7 +28892,7 @@
               "araling-panlipunan": 436,
               "science": 438,
               "pe-and-health": 436,
-              "tle": 0,
+              "tle": 436,
               "music-and-arts": 436
             }
           },
@@ -28902,8 +28902,8 @@
             "7": 330
           },
           "enrollmentTotal": 330,
-          "deliveredTotal": 2618,
-          "deliveryPercentage": 793.33
+          "deliveredTotal": 3054,
+          "deliveryPercentage": 925.45
         },
         {
           "id": "quirino-elementary-school",
