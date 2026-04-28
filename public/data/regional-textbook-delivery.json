@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T01:02:23.584Z",
+  "generatedAt": "2026-04-28T01:07:20.312Z",
   "grades": [
     {
       "grade": "1",
@@ -23555,10 +23555,10 @@
         "7": {
           "english": 14957,
           "filipino": 15685,
-          "mathematics": 13790,
+          "mathematics": 14545,
           "ve": 11244,
           "araling-panlipunan": 14933,
-          "science": 11984,
+          "science": 12739,
           "pe-and-health": 15685,
           "tle": 11486,
           "music-and-arts": 15685
@@ -23567,11 +23567,11 @@
       "enrollmentByGrade": {
         "1": 30339,
         "4": 38583,
-        "7": 35673
+        "7": 36252
       },
-      "enrollmentTotal": 104595,
-      "deliveredTotal": 600669,
-      "deliveryPercentage": 574.28,
+      "enrollmentTotal": 105174,
+      "deliveredTotal": 602179,
+      "deliveryPercentage": 572.56,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -27007,11 +27007,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 579
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 579,
           "deliveredTotal": 3897,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 673.06
         },
         {
           "id": "leopoldo-b-santos-elementary-school",
@@ -29059,10 +29059,10 @@
             "7": {
               "english": 755,
               "filipino": 755,
-              "mathematics": 0,
+              "mathematics": 755,
               "ve": 755,
               "araling-panlipunan": 755,
-              "science": 0,
+              "science": 755,
               "pe-and-health": 755,
               "tle": 755,
               "music-and-arts": 755
@@ -29074,8 +29074,8 @@
             "7": 457
           },
           "enrollmentTotal": 457,
-          "deliveredTotal": 5285,
-          "deliveryPercentage": 1156.46
+          "deliveredTotal": 6795,
+          "deliveryPercentage": 1486.87
         },
         {
           "id": "ramon-magsaysay-elementary-school",
@@ -31172,11 +31172,11 @@
           "filipino": 0,
           "mathematics": 7379,
           "ve": 3539,
-          "araling-panlipunan": 8397,
-          "science": 6127,
-          "pe-and-health": 7577,
+          "araling-panlipunan": 8988,
+          "science": 6718,
+          "pe-and-health": 8168,
           "tle": 7022,
-          "music-and-arts": 9226
+          "music-and-arts": 9817
         }
       },
       "enrollmentByGrade": {
@@ -31185,8 +31185,8 @@
         "7": 8367
       },
       "enrollmentTotal": 32589,
-      "deliveredTotal": 172796,
-      "deliveryPercentage": 530.23,
+      "deliveredTotal": 175160,
+      "deliveryPercentage": 537.48,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33666,11 +33666,11 @@
               "filipino": 0,
               "mathematics": 591,
               "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "araling-panlipunan": 591,
+              "science": 591,
+              "pe-and-health": 591,
               "tle": 0,
-              "music-and-arts": 0
+              "music-and-arts": 591
             }
           },
           "enrollmentByGrade": {
@@ -33679,8 +33679,8 @@
             "7": 615
           },
           "enrollmentTotal": 615,
-          "deliveredTotal": 1182,
-          "deliveryPercentage": 192.2
+          "deliveredTotal": 3546,
+          "deliveryPercentage": 576.59
         },
         {
           "id": "upper-bicutan-elementary-school",

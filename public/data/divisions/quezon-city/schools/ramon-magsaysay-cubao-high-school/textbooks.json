@@ -34,11 +34,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 457,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 457,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 755,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 298
     },
     {
       "Grade Level": 7,
@@ -64,11 +64,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 457,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 457,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 755,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 298
     },
     {
       "Grade Level": 7,
@@ -369,6 +369,16 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 454,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "",
+      "SUBJECTS": "EL FILIBUSTERISMO",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
     },
     {
       "Grade Level": "SHS",
@@ -394,11 +404,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 3 and 4",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 724,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 724
     },
     {
       "Grade Level": "SHS",
@@ -471,5 +481,5 @@
       "Surplus-TX": ""
     }
   ],
-  "generatedAt": "2026-04-28T00:57:29.678Z"
+  "generatedAt": "2026-04-28T01:07:08.343Z"
 }
