@@ -373,8 +373,8 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
-      "Enrolment S.Y. 2025-2026": 246,
-      "Quantity of Textbooks Received": 246,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
@@ -383,8 +383,8 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 1 and 2",
-      "Enrolment S.Y. 2025-2026": 246,
-      "Quantity of Textbooks Received": 246,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
@@ -403,12 +403,12 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Physical Science",
-      "Enrolment S.Y. 2025-2026": 246,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 246,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 246
     },
     {
       "Grade Level": "SHS",
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-28T02:46:50.697Z"
+  "generatedAt": "2026-04-28T02:56:55.329Z"
 }
