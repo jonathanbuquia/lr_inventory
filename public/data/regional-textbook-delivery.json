@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:22:20.389Z",
+  "generatedAt": "2026-04-28T00:32:20.390Z",
   "grades": [
     {
       "grade": "1",
@@ -31168,15 +31168,15 @@
           "music-and-arts": 978
         },
         "7": {
-          "english": 6845,
+          "english": 8765,
           "filipino": 0,
-          "mathematics": 4868,
+          "mathematics": 6788,
           "ve": 3539,
-          "araling-panlipunan": 6477,
-          "science": 4207,
-          "pe-and-health": 5657,
-          "tle": 5102,
-          "music-and-arts": 7306
+          "araling-panlipunan": 8397,
+          "science": 6127,
+          "pe-and-health": 7577,
+          "tle": 7022,
+          "music-and-arts": 9226
         }
       },
       "enrollmentByGrade": {
@@ -31185,8 +31185,8 @@
         "7": 7752
       },
       "enrollmentTotal": 31974,
-      "deliveredTotal": 158174,
-      "deliveryPercentage": 494.7,
+      "deliveredTotal": 171614,
+      "deliveryPercentage": 536.73,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33060,15 +33060,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 1920,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 1920,
               "ve": 1920,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "araling-panlipunan": 1920,
+              "science": 1920,
+              "pe-and-health": 1920,
+              "tle": 1920,
+              "music-and-arts": 1920
             }
           },
           "enrollmentByGrade": {
@@ -33077,7 +33077,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 1920,
+          "deliveredTotal": 15360,
           "deliveryPercentage": 0
         },
         {
