@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T01:07:20.312Z",
+  "generatedAt": "2026-04-28T01:17:19.207Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 14957,
-          "filipino": 15685,
+          "english": 15470,
+          "filipino": 16198,
           "mathematics": 14545,
           "ve": 11244,
-          "araling-panlipunan": 14933,
-          "science": 12739,
-          "pe-and-health": 15685,
+          "araling-panlipunan": 15446,
+          "science": 13252,
+          "pe-and-health": 16198,
           "tle": 11486,
-          "music-and-arts": 15685
+          "music-and-arts": 16198
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 36252
       },
       "enrollmentTotal": 105174,
-      "deliveredTotal": 602179,
-      "deliveryPercentage": 572.56,
+      "deliveredTotal": 605257,
+      "deliveryPercentage": 575.48,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25144,15 +25144,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
+              "english": 513,
+              "filipino": 513,
               "mathematics": 0,
               "ve": 513,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "araling-panlipunan": 513,
+              "science": 513,
+              "pe-and-health": 513,
               "tle": 513,
-              "music-and-arts": 0
+              "music-and-arts": 513
             }
           },
           "enrollmentByGrade": {
@@ -25161,8 +25161,8 @@
             "7": 404
           },
           "enrollmentTotal": 404,
-          "deliveredTotal": 1026,
-          "deliveryPercentage": 253.96
+          "deliveredTotal": 4104,
+          "deliveryPercentage": 1015.84
         },
         {
           "id": "dalupan-elementary-school",

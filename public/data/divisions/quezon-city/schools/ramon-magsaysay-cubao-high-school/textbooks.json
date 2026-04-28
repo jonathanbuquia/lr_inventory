@@ -281,6 +281,16 @@
       "Surplus-TX": 0
     },
     {
+      "Grade Level": "",
+      "SUBJECTS": "NOLI ME TANGERE",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 878,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
       "Grade Level": 10,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 454,
@@ -481,5 +491,5 @@
       "Surplus-TX": ""
     }
   ],
-  "generatedAt": "2026-04-28T01:12:05.764Z"
+  "generatedAt": "2026-04-28T01:17:06.160Z"
 }
