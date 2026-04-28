@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:47:21.213Z",
+  "generatedAt": "2026-04-28T00:52:20.161Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,14 +23553,14 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 14202,
+          "english": 14957,
           "filipino": 15685,
           "mathematics": 13790,
           "ve": 11244,
           "araling-panlipunan": 14178,
           "science": 11984,
           "pe-and-health": 14930,
-          "tle": 10973,
+          "tle": 11486,
           "music-and-arts": 15685
         }
       },
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 597891,
-      "deliveryPercentage": 571.62,
+      "deliveredTotal": 599159,
+      "deliveryPercentage": 572.84,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25151,7 +25151,7 @@
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
-              "tle": 0,
+              "tle": 513,
               "music-and-arts": 0
             }
           },
@@ -25161,8 +25161,8 @@
             "7": 404
           },
           "enrollmentTotal": 404,
-          "deliveredTotal": 513,
-          "deliveryPercentage": 126.98
+          "deliveredTotal": 1026,
+          "deliveryPercentage": 253.96
         },
         {
           "id": "dalupan-elementary-school",
@@ -29057,7 +29057,7 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 755,
               "filipino": 755,
               "mathematics": 0,
               "ve": 755,
@@ -29074,8 +29074,8 @@
             "7": 457
           },
           "enrollmentTotal": 457,
-          "deliveredTotal": 3020,
-          "deliveryPercentage": 660.83
+          "deliveredTotal": 3775,
+          "deliveryPercentage": 826.04
         },
         {
           "id": "ramon-magsaysay-elementary-school",

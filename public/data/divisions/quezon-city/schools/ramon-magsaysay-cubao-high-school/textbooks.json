@@ -14,19 +14,19 @@
       "Grade Level": 7,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 457,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 457,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 755,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 298
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 457,
       "Quantity of Textbooks Received": 755,
-      "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 298
     },
@@ -95,7 +95,7 @@
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 457,
       "Quantity of Textbooks Received": 755,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 298
@@ -125,7 +125,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 473,
       "Quantity of Textbooks Received": 569,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 96
@@ -134,11 +134,11 @@
       "Grade Level": 8,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 473,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 473,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 569,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 96
     },
     {
       "Grade Level": 8,
@@ -415,7 +415,7 @@
       "SUBJECTS": "Contemporary Philippine Arts",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 724,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 724
@@ -424,21 +424,21 @@
       "Grade Level": "SHS",
       "SUBJECTS": "General Mathematics",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 724,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 724
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Media and Information Literacy",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 724,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 724
     },
     {
       "Grade Level": "SHS",
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-28T00:47:09.158Z"
+  "generatedAt": "2026-04-28T00:52:07.633Z"
 }
