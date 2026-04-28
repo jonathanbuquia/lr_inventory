@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T03:07:01.269Z",
+  "generatedAt": "2026-04-28T06:47:26.487Z",
   "grades": [
     {
       "grade": "1",
@@ -23542,7 +23542,7 @@
           "mathematics": 81
         },
         "4": {
-          "english": 10129,
+          "english": 10464,
           "filipino": 43493,
           "mathematics": 43493,
           "gmrc": 43325,
@@ -23570,8 +23570,8 @@
         "7": 36252
       },
       "enrollmentTotal": 105174,
-      "deliveredTotal": 607219,
-      "deliveryPercentage": 577.35,
+      "deliveredTotal": 607554,
+      "deliveryPercentage": 577.67,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -28444,7 +28444,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 335,
               "filipino": 365,
               "mathematics": 365,
               "gmrc": 365,
@@ -28472,8 +28472,8 @@
             "7": 0
           },
           "enrollmentTotal": 637,
-          "deliveredTotal": 4035,
-          "deliveryPercentage": 633.44
+          "deliveredTotal": 4370,
+          "deliveryPercentage": 686.03
         },
         {
           "id": "placido-del-mundo-elementary-school",
