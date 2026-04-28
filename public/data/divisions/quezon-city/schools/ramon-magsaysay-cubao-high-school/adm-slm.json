@@ -972,10 +972,10 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 454,
       "Quantity based on Target ADM-SLM - Q1": 3632,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": "",
-      "Year of Delivery - ADM-SLM - Q1": "",
-      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
-      "GAP - ADM-SLM - Q1": 3632,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 180,
+      "Year of Delivery - ADM-SLM - Q1": 2025,
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "SDO",
+      "GAP - ADM-SLM - Q1": 3452,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 3632,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": 800,
@@ -1519,5 +1519,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-28T01:12:05.782Z"
+  "generatedAt": "2026-04-28T02:29:42.440Z"
 }

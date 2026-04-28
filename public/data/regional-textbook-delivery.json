@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T01:42:17.968Z",
+  "generatedAt": "2026-04-28T02:29:53.485Z",
   "grades": [
     {
       "grade": "1",
@@ -31168,25 +31168,25 @@
           "music-and-arts": 978
         },
         "7": {
-          "english": 9356,
-          "filipino": 0,
-          "mathematics": 7379,
-          "ve": 3539,
-          "araling-panlipunan": 8988,
-          "science": 6718,
-          "pe-and-health": 8168,
+          "english": 9656,
+          "filipino": 162,
+          "mathematics": 7709,
+          "ve": 3907,
+          "araling-panlipunan": 9320,
+          "science": 7048,
+          "pe-and-health": 8280,
           "tle": 7022,
-          "music-and-arts": 9817
+          "music-and-arts": 10185
         }
       },
       "enrollmentByGrade": {
         "1": 10789,
         "4": 13433,
-        "7": 9819
+        "7": 10187
       },
-      "enrollmentTotal": 34041,
-      "deliveredTotal": 175160,
-      "deliveryPercentage": 514.56,
+      "enrollmentTotal": 34409,
+      "deliveredTotal": 177462,
+      "deliveryPercentage": 515.74,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32157,25 +32157,25 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 300,
+              "filipino": 162,
+              "mathematics": 330,
+              "ve": 368,
+              "araling-panlipunan": 332,
+              "science": 330,
+              "pe-and-health": 112,
               "tle": 0,
-              "music-and-arts": 0
+              "music-and-arts": 368
             }
           },
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 368
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 368,
+          "deliveredTotal": 2302,
+          "deliveryPercentage": 625.54
         },
         {
           "id": "kapitan-eddie-t-reyes-memorial-integrated-school",
