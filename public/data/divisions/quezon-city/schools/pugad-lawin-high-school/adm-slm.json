@@ -334,10 +334,10 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 427,
       "Quantity based on Target ADM-SLM - Q1": 3416,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": "",
-      "Year of Delivery - ADM-SLM - Q1": "",
-      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
-      "GAP - ADM-SLM - Q1": 3416,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 1560,
+      "Year of Delivery - ADM-SLM - Q1": 2025,
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "CO",
+      "GAP - ADM-SLM - Q1": 1856,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 3416,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": "",
@@ -363,10 +363,10 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 427,
       "Quantity based on Target ADM-SLM - Q1": 3416,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": "",
-      "Year of Delivery - ADM-SLM - Q1": "",
-      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
-      "GAP - ADM-SLM - Q1": 3416,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 1740,
+      "Year of Delivery - ADM-SLM - Q1": 2025,
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "CO",
+      "GAP - ADM-SLM - Q1": 1676,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 3416,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": "",
@@ -1519,5 +1519,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-27T11:56:53.245Z"
+  "generatedAt": "2026-04-28T07:02:00.581Z"
 }
