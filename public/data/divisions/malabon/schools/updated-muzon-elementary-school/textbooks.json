@@ -94,11 +94,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 67,
-      "Quantity of Textbooks Received": 0,
+      "Quantity of Textbooks Received": 72,
       "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
-      "GAP-TX": 67,
-      "Surplus-TX": 0
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 2,
@@ -174,11 +174,11 @@
       "Grade Level": 4,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 83,
-      "Quantity of Textbooks Received": 92,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 9
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 83,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 4,
@@ -214,11 +214,11 @@
       "Grade Level": 4,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 83,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 92,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 83,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 9
     },
     {
       "Grade Level": 4,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-21T00:40:54.783Z"
+  "generatedAt": "2026-04-28T00:00:16.596Z"
 }

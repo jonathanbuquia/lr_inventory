@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-27T12:52:05.876Z",
+  "generatedAt": "2026-04-28T00:01:03.116Z",
   "grades": [
     {
       "grade": "1",
@@ -6790,28 +6790,28 @@
       "name": "MALABON",
       "totals": {
         "1": {
-          "reading-and-literacy": 8066,
-          "language": 6544,
-          "gmrc": 8066,
+          "reading-and-literacy": 8194,
+          "language": 7339,
+          "gmrc": 8194,
           "makabansa": 8251,
           "mathematics": 92
         },
         "4": {
-          "english": 5634,
+          "english": 0,
           "filipino": 7875,
           "mathematics": 8116,
-          "gmrc": 8217,
-          "araling-panlipunan": 7658,
+          "gmrc": 7710,
+          "araling-panlipunan": 7750,
           "science": 8084,
           "pe-and-health": 8105,
-          "epp": 308,
-          "music-and-arts": 6295
+          "epp": 173,
+          "music-and-arts": 7739
         },
         "7": {
           "english": 5614,
-          "filipino": 0,
+          "filipino": 50,
           "mathematics": 5928,
-          "ve": 5105,
+          "ve": 5928,
           "araling-panlipunan": 5928,
           "science": 5891,
           "pe-and-health": 5628,
@@ -6822,11 +6822,11 @@
       "enrollmentByGrade": {
         "1": 5660,
         "4": 6642,
-        "7": 5886
+        "7": 6021
       },
-      "enrollmentTotal": 18188,
-      "deliveredTotal": 136779,
-      "deliveryPercentage": 752.03,
+      "enrollmentTotal": 18323,
+      "deliveredTotal": 133963,
+      "deliveryPercentage": 731.12,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -7313,15 +7313,15 @@
               "mathematics": 0
             },
             "4": {
-              "english": 504,
+              "english": 0,
               "filipino": 507,
               "mathematics": 507,
-              "gmrc": 507,
+              "gmrc": 0,
               "araling-panlipunan": 507,
               "science": 507,
               "pe-and-health": 507,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 507
             },
             "7": {
               "english": 0,
@@ -7341,8 +7341,8 @@
             "7": 0
           },
           "enrollmentTotal": 799,
-          "deliveredTotal": 5626,
-          "deliveryPercentage": 704.13
+          "deliveredTotal": 5122,
+          "deliveryPercentage": 641.05
         },
         {
           "id": "guillermo-s-sanchez-memorial-elementary-school",
@@ -7356,7 +7356,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 128,
+              "english": 0,
               "filipino": 128,
               "mathematics": 142,
               "gmrc": 128,
@@ -7384,8 +7384,8 @@
             "7": 0
           },
           "enrollmentTotal": 37,
-          "deliveredTotal": 1168,
-          "deliveryPercentage": 3156.76
+          "deliveredTotal": 1040,
+          "deliveryPercentage": 2810.81
         },
         {
           "id": "imelda-elementary-school",
@@ -7393,13 +7393,13 @@
           "totals": {
             "1": {
               "reading-and-literacy": 667,
-              "language": 0,
+              "language": 667,
               "gmrc": 667,
               "makabansa": 667,
               "mathematics": 0
             },
             "4": {
-              "english": 589,
+              "english": 0,
               "filipino": 589,
               "mathematics": 589,
               "gmrc": 589,
@@ -7407,7 +7407,7 @@
               "science": 589,
               "pe-and-health": 589,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 589
             },
             "7": {
               "english": 0,
@@ -7427,8 +7427,8 @@
             "7": 0
           },
           "enrollmentTotal": 1066,
-          "deliveredTotal": 6124,
-          "deliveryPercentage": 574.48
+          "deliveredTotal": 6791,
+          "deliveryPercentage": 637.05
         },
         {
           "id": "imelda-integrated-secondary-school",
@@ -7485,7 +7485,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 180,
+              "english": 0,
               "filipino": 180,
               "mathematics": 180,
               "gmrc": 180,
@@ -7513,8 +7513,8 @@
             "7": 0
           },
           "enrollmentTotal": 330,
-          "deliveredTotal": 2160,
-          "deliveryPercentage": 654.55
+          "deliveredTotal": 1980,
+          "deliveryPercentage": 600
         },
         {
           "id": "longos-national-high-school",
@@ -7542,7 +7542,7 @@
               "english": 760,
               "filipino": 0,
               "mathematics": 760,
-              "ve": 0,
+              "ve": 760,
               "araling-panlipunan": 760,
               "science": 760,
               "pe-and-health": 760,
@@ -7556,8 +7556,8 @@
             "7": 644
           },
           "enrollmentTotal": 644,
-          "deliveredTotal": 5320,
-          "deliveryPercentage": 826.09
+          "deliveredTotal": 6080,
+          "deliveryPercentage": 944.1
         },
         {
           "id": "malabon-city-national-science-and-mathematics-high-school",
@@ -7585,7 +7585,7 @@
               "english": 63,
               "filipino": 0,
               "mathematics": 63,
-              "ve": 0,
+              "ve": 63,
               "araling-panlipunan": 63,
               "science": 63,
               "pe-and-health": 63,
@@ -7599,8 +7599,8 @@
             "7": 120
           },
           "enrollmentTotal": 120,
-          "deliveredTotal": 441,
-          "deliveryPercentage": 367.5
+          "deliveredTotal": 504,
+          "deliveryPercentage": 420
         },
         {
           "id": "malabon-city-techvoc-and-entrepreneurship-senior-high-school",
@@ -7657,7 +7657,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 547,
+              "english": 0,
               "filipino": 547,
               "mathematics": 547,
               "gmrc": 502,
@@ -7685,8 +7685,8 @@
             "7": 0
           },
           "enrollmentTotal": 925,
-          "deliveredTotal": 7153,
-          "deliveryPercentage": 773.3
+          "deliveredTotal": 6606,
+          "deliveryPercentage": 714.16
         },
         {
           "id": "malabon-national-high-school",
@@ -7743,7 +7743,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 148,
+              "english": 0,
               "filipino": 148,
               "mathematics": 148,
               "gmrc": 148,
@@ -7751,7 +7751,7 @@
               "science": 148,
               "pe-and-health": 148,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 148
             },
             "7": {
               "english": 0,
@@ -7786,7 +7786,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 710,
+              "english": 0,
               "filipino": 710,
               "mathematics": 710,
               "gmrc": 710,
@@ -7814,8 +7814,8 @@
             "7": 0
           },
           "enrollmentTotal": 1293,
-          "deliveredTotal": 8119,
-          "deliveryPercentage": 627.92
+          "deliveredTotal": 7409,
+          "deliveryPercentage": 573.01
         },
         {
           "id": "ninoy-aquino-senior-high-school",
@@ -7872,14 +7872,14 @@
               "mathematics": 0
             },
             "4": {
-              "english": 135,
+              "english": 0,
               "filipino": 135,
               "mathematics": 135,
               "gmrc": 132,
               "araling-panlipunan": 135,
               "science": 135,
               "pe-and-health": 135,
-              "epp": 135,
+              "epp": 0,
               "music-and-arts": 124
             },
             "7": {
@@ -7900,22 +7900,22 @@
             "7": 0
           },
           "enrollmentTotal": 192,
-          "deliveredTotal": 1750,
-          "deliveryPercentage": 911.46
+          "deliveredTotal": 1480,
+          "deliveryPercentage": 770.83
         },
         {
           "id": "panghulo-elementary-school",
           "name": "PANGHULO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
+              "reading-and-literacy": 128,
+              "language": 128,
+              "gmrc": 128,
               "makabansa": 128,
               "mathematics": 0
             },
             "4": {
-              "english": 200,
+              "english": 0,
               "filipino": 200,
               "mathematics": 200,
               "gmrc": 200,
@@ -7943,8 +7943,8 @@
             "7": 0
           },
           "enrollmentTotal": 286,
-          "deliveredTotal": 1373,
-          "deliveryPercentage": 480.07
+          "deliveredTotal": 1557,
+          "deliveryPercentage": 544.41
         },
         {
           "id": "panghulo-elementary-school-i",
@@ -8044,7 +8044,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 384,
+              "english": 0,
               "filipino": 384,
               "mathematics": 384,
               "gmrc": 512,
@@ -8072,8 +8072,8 @@
             "7": 0
           },
           "enrollmentTotal": 577,
-          "deliveredTotal": 4880,
-          "deliveryPercentage": 845.75
+          "deliveredTotal": 4496,
+          "deliveryPercentage": 779.2
         },
         {
           "id": "potrero-elementary-school-i",
@@ -8087,7 +8087,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 224,
+              "english": 0,
               "filipino": 0,
               "mathematics": 224,
               "gmrc": 224,
@@ -8115,8 +8115,8 @@
             "7": 0
           },
           "enrollmentTotal": 187,
-          "deliveredTotal": 1994,
-          "deliveryPercentage": 1066.31
+          "deliveredTotal": 1770,
+          "deliveryPercentage": 946.52
         },
         {
           "id": "potrero-national-high-school",
@@ -8216,7 +8216,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 157,
+              "english": 0,
               "filipino": 157,
               "mathematics": 157,
               "gmrc": 157,
@@ -8244,8 +8244,8 @@
             "7": 0
           },
           "enrollmentTotal": 223,
-          "deliveredTotal": 2000,
-          "deliveryPercentage": 896.86
+          "deliveredTotal": 1843,
+          "deliveryPercentage": 826.46
         },
         {
           "id": "santulan-elementary-school",
@@ -8259,7 +8259,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 220,
+              "english": 0,
               "filipino": 220,
               "mathematics": 220,
               "gmrc": 230,
@@ -8267,7 +8267,7 @@
               "science": 205,
               "pe-and-health": 200,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 200
             },
             "7": {
               "english": 0,
@@ -8287,8 +8287,8 @@
             "7": 0
           },
           "enrollmentTotal": 346,
-          "deliveredTotal": 2020,
-          "deliveryPercentage": 583.82
+          "deliveredTotal": 2000,
+          "deliveryPercentage": 578.03
         },
         {
           "id": "ta-ong-elementary-school-i",
@@ -8345,7 +8345,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 360,
+              "english": 0,
               "filipino": 360,
               "mathematics": 360,
               "gmrc": 360,
@@ -8373,8 +8373,8 @@
             "7": 342
           },
           "enrollmentTotal": 721,
-          "deliveredTotal": 7503,
-          "deliveryPercentage": 1040.64
+          "deliveredTotal": 7143,
+          "deliveryPercentage": 990.71
         },
         {
           "id": "ta-ong-national-high-school",
@@ -8400,7 +8400,7 @@
             },
             "7": {
               "english": 177,
-              "filipino": 0,
+              "filipino": 50,
               "mathematics": 177,
               "ve": 177,
               "araling-panlipunan": 177,
@@ -8413,11 +8413,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 135
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 1416,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 135,
+          "deliveredTotal": 1466,
+          "deliveryPercentage": 1085.93
         },
         {
           "id": "tinajeros-elementary-school",
@@ -8431,7 +8431,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 512,
+              "english": 0,
               "filipino": 512,
               "mathematics": 512,
               "gmrc": 512,
@@ -8459,8 +8459,8 @@
             "7": 0
           },
           "enrollmentTotal": 1012,
-          "deliveredTotal": 6810,
-          "deliveryPercentage": 672.92
+          "deliveredTotal": 6298,
+          "deliveryPercentage": 622.33
         },
         {
           "id": "tinajeros-national-high-school",
@@ -8517,7 +8517,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 544,
+              "english": 0,
               "filipino": 544,
               "mathematics": 544,
               "gmrc": 544,
@@ -8545,8 +8545,8 @@
             "7": 246
           },
           "enrollmentTotal": 928,
-          "deliveredTotal": 5668,
-          "deliveryPercentage": 610.78
+          "deliveredTotal": 5124,
+          "deliveryPercentage": 552.16
         },
         {
           "id": "tugatog-national-high-school",
@@ -8603,11 +8603,11 @@
               "mathematics": 92
             },
             "4": {
-              "english": 92,
+              "english": 0,
               "filipino": 92,
               "mathematics": 92,
               "gmrc": 92,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 92,
               "science": 92,
               "pe-and-health": 92,
               "epp": 0,
@@ -23555,10 +23555,10 @@
         "7": {
           "english": 14202,
           "filipino": 14930,
-          "mathematics": 13354,
-          "ve": 9540,
+          "mathematics": 13790,
+          "ve": 9976,
           "araling-panlipunan": 14178,
-          "science": 11986,
+          "science": 11984,
           "pe-and-health": 14930,
           "tle": 10218,
           "music-and-arts": 14930
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 593488,
-      "deliveryPercentage": 567.42,
+      "deliveredTotal": 594358,
+      "deliveryPercentage": 568.25,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -28887,10 +28887,10 @@
             "7": {
               "english": 436,
               "filipino": 436,
-              "mathematics": 0,
-              "ve": 0,
+              "mathematics": 436,
+              "ve": 436,
               "araling-panlipunan": 436,
-              "science": 438,
+              "science": 436,
               "pe-and-health": 436,
               "tle": 436,
               "music-and-arts": 436
@@ -28902,8 +28902,8 @@
             "7": 330
           },
           "enrollmentTotal": 330,
-          "deliveredTotal": 3054,
-          "deliveryPercentage": 925.45
+          "deliveredTotal": 3924,
+          "deliveryPercentage": 1189.09
         },
         {
           "id": "quirino-elementary-school",

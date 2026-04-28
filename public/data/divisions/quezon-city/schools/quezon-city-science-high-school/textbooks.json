@@ -34,21 +34,21 @@
       "Grade Level": 7,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 330,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 330,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 436,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 106
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 330,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 330,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 436,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 106
     },
     {
       "Grade Level": 7,
@@ -64,11 +64,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 330,
-      "Quantity of Textbooks Received": 438,
+      "Quantity of Textbooks Received": 436,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
-      "Surplus-TX": 108
+      "Surplus-TX": 106
     },
     {
       "Grade Level": 7,
@@ -154,11 +154,11 @@
       "Grade Level": 8,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 302,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 302,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 366,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 64
     },
     {
       "Grade Level": 8,
@@ -384,11 +384,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 1 and 2",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 415,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 415
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
@@ -451,5 +451,5 @@
       "Surplus-TX": 415
     }
   ],
-  "generatedAt": "2026-04-27T00:05:16.372Z"
+  "generatedAt": "2026-04-28T00:00:49.750Z"
 }
