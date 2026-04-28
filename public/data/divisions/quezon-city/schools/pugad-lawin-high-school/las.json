@@ -481,7 +481,7 @@
       "Quantity based on Target LAS - Q1": 3416,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 45,
       "Year of Delivery-LAS - Q1": 2025,
-      "SOURCE - LAS (CO,RO, SDO) - Q1": "",
+      "SOURCE - LAS (CO,RO, SDO) - Q1": "CO",
       "GAP - LAS - Q1": 3371,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 3416,
@@ -508,10 +508,10 @@
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 427,
       "Quantity based on Target LAS - Q1": 3416,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
-      "Year of Delivery-LAS - Q1": "",
-      "SOURCE - LAS (CO,RO, SDO) - Q1": "",
-      "GAP - LAS - Q1": 3416,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 45,
+      "Year of Delivery-LAS - Q1": 2025,
+      "SOURCE - LAS (CO,RO, SDO) - Q1": "CO",
+      "GAP - LAS - Q1": 3371,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 3416,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -1751,5 +1751,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-28T06:52:04.827Z"
+  "generatedAt": "2026-04-28T06:56:59.982Z"
 }
