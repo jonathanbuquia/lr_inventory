@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T02:37:35.253Z",
+  "generatedAt": "2026-04-28T02:46:55.419Z",
   "grades": [
     {
       "grade": "1",
@@ -6797,7 +6797,7 @@
           "mathematics": 92
         },
         "4": {
-          "english": 504,
+          "english": 1054,
           "filipino": 7875,
           "mathematics": 8116,
           "gmrc": 8217,
@@ -6825,8 +6825,8 @@
         "7": 6021
       },
       "enrollmentTotal": 18323,
-      "deliveredTotal": 134974,
-      "deliveryPercentage": 736.64,
+      "deliveredTotal": 135524,
+      "deliveryPercentage": 739.64,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -7012,7 +7012,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 550,
               "filipino": 548,
               "mathematics": 548,
               "gmrc": 548,
@@ -7040,8 +7040,8 @@
             "7": 500
           },
           "enrollmentTotal": 1467,
-          "deliveredTotal": 10192,
-          "deliveryPercentage": 694.75
+          "deliveredTotal": 10742,
+          "deliveryPercentage": 732.24
         },
         {
           "id": "col-ramon-camus-integrated-school",
