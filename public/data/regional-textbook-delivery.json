@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T06:47:26.487Z",
+  "generatedAt": "2026-04-28T07:51:50.378Z",
   "grades": [
     {
       "grade": "1",
@@ -14465,7 +14465,7 @@
           "science": 7773,
           "pe-and-health": 7926,
           "epp": 1336,
-          "music-and-arts": 6455
+          "music-and-arts": 6447
         },
         "7": {
           "english": 8834,
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 146426,
-      "deliveryPercentage": 737.74,
+      "deliveredTotal": 146418,
+      "deliveryPercentage": 737.7,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14766,7 +14766,7 @@
               "science": 607,
               "pe-and-health": 607,
               "epp": 0,
-              "music-and-arts": 598
+              "music-and-arts": 590
             },
             "7": {
               "english": 0,
@@ -14786,8 +14786,8 @@
             "7": 0
           },
           "enrollmentTotal": 951,
-          "deliveredTotal": 6480,
-          "deliveryPercentage": 681.39
+          "deliveredTotal": 6472,
+          "deliveryPercentage": 680.55
         },
         {
           "id": "industrial-valley-complex-national-high-school",
