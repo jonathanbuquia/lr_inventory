@@ -13,12 +13,12 @@
     {
       "Grade Level": 7,
       "SUBJECTS": "English",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
@@ -33,72 +33,72 @@
     {
       "Grade Level": 7,
       "SUBJECTS": "Math",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "VE",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Araling Panlipunan",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "PE and Health",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "TLE",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Music and Arts",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1452,
       "Quantity of Textbooks Received": 1920,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1920
+      "Surplus-TX": 468
     },
     {
       "Grade Level": 8,
@@ -123,22 +123,22 @@
     {
       "Grade Level": 8,
       "SUBJECTS": "Math",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1433,
       "Quantity of Textbooks Received": 1800,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1800
+      "Surplus-TX": 367
     },
     {
       "Grade Level": 8,
       "SUBJECTS": "VE",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1433,
       "Quantity of Textbooks Received": 1700,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1700
+      "Surplus-TX": 267
     },
     {
       "Grade Level": 8,
@@ -153,12 +153,12 @@
     {
       "Grade Level": 8,
       "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1433,
       "Quantity of Textbooks Received": 1700,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1700
+      "Surplus-TX": 267
     },
     {
       "Grade Level": 8,
@@ -451,5 +451,5 @@
       "Surplus-TX": 447
     }
   ],
-  "generatedAt": "2026-04-28T00:37:06.649Z"
+  "generatedAt": "2026-04-28T01:42:11.911Z"
 }
