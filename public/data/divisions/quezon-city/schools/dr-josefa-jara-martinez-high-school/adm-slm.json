@@ -671,10 +671,10 @@
       "GAP - ADM-SLM - Q3": 2568,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 2568,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": "",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 1400,
       "Year of Delivery - ADM-SLM- Q4": 2026,
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "CO",
-      "GAP - ADM-SLM - Q4": 2568,
+      "GAP - ADM-SLM - Q4": 1168,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -701,7 +701,7 @@
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 2568,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 700,
-      "Year of Delivery - ADM-SLM- Q4": 2024,
+      "Year of Delivery - ADM-SLM- Q4": 2026,
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "CO",
       "GAP - ADM-SLM - Q4": 1868,
       "SURPLUS - ADM-SLM- Q4": 0
@@ -904,8 +904,8 @@
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 2568,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": "",
-      "Year of Delivery - ADM-SLM- Q4": 2026,
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "CO",
+      "Year of Delivery - ADM-SLM- Q4": "",
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 2568,
       "SURPLUS - ADM-SLM- Q4": 0
     },
@@ -984,10 +984,10 @@
       "GAP - ADM-SLM - Q2": 2856,
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 2856,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": "",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": 500,
       "Year of Delivery - ADM-SLM - Q3": "",
       "SOURCE - ADM-SLM(CO,RO, SDO) - Q3": "",
-      "GAP - ADM-SLM - Q3": 2856,
+      "GAP - ADM-SLM - Q3": 2356,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 2856,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 300,
@@ -1519,5 +1519,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-28T00:17:01.306Z"
+  "generatedAt": "2026-04-28T00:22:03.697Z"
 }

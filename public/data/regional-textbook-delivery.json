@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:01:03.116Z",
+  "generatedAt": "2026-04-28T00:22:20.389Z",
   "grades": [
     {
       "grade": "1",
@@ -31171,7 +31171,7 @@
           "english": 6845,
           "filipino": 0,
           "mathematics": 4868,
-          "ve": 1619,
+          "ve": 3539,
           "araling-panlipunan": 6477,
           "science": 4207,
           "pe-and-health": 5657,
@@ -31185,8 +31185,8 @@
         "7": 7752
       },
       "enrollmentTotal": 31974,
-      "deliveredTotal": 156254,
-      "deliveryPercentage": 488.69,
+      "deliveredTotal": 158174,
+      "deliveryPercentage": 494.7,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33063,7 +33063,7 @@
               "english": 0,
               "filipino": 0,
               "mathematics": 0,
-              "ve": 0,
+              "ve": 1920,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
@@ -33077,7 +33077,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 1920,
           "deliveryPercentage": 0
         },
         {
