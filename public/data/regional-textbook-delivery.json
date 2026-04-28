@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:32:20.390Z",
+  "generatedAt": "2026-04-28T00:37:12.126Z",
   "grades": [
     {
       "grade": "1",
@@ -14476,7 +14476,7 @@
           "science": 8834,
           "pe-and-health": 8834,
           "tle": 8834,
-          "music-and-arts": 5119
+          "music-and-arts": 5955
         }
       },
       "enrollmentByGrade": {
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 145590,
-      "deliveryPercentage": 733.52,
+      "deliveredTotal": 146426,
+      "deliveryPercentage": 737.74,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14648,7 +14648,7 @@
               "science": 836,
               "pe-and-health": 836,
               "tle": 836,
-              "music-and-arts": 0
+              "music-and-arts": 836
             }
           },
           "enrollmentByGrade": {
@@ -14657,8 +14657,8 @@
             "7": 658
           },
           "enrollmentTotal": 1672,
-          "deliveredTotal": 11438,
-          "deliveryPercentage": 684.09
+          "deliveredTotal": 12274,
+          "deliveryPercentage": 734.09
         },
         {
           "id": "fortune-elementary-school",
