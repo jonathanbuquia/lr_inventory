@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:52:20.161Z",
+  "generatedAt": "2026-04-28T00:57:42.569Z",
   "grades": [
     {
       "grade": "1",
@@ -23557,9 +23557,9 @@
           "filipino": 15685,
           "mathematics": 13790,
           "ve": 11244,
-          "araling-panlipunan": 14178,
+          "araling-panlipunan": 14933,
           "science": 11984,
-          "pe-and-health": 14930,
+          "pe-and-health": 15685,
           "tle": 11486,
           "music-and-arts": 15685
         }
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 599159,
-      "deliveryPercentage": 572.84,
+      "deliveredTotal": 600669,
+      "deliveryPercentage": 574.28,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -29061,9 +29061,9 @@
               "filipino": 755,
               "mathematics": 0,
               "ve": 755,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 755,
               "science": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 755,
               "tle": 755,
               "music-and-arts": 755
             }
@@ -29074,8 +29074,8 @@
             "7": 457
           },
           "enrollmentTotal": 457,
-          "deliveredTotal": 3775,
-          "deliveryPercentage": 826.04
+          "deliveredTotal": 5285,
+          "deliveryPercentage": 1156.46
         },
         {
           "id": "ramon-magsaysay-elementary-school",
@@ -31182,11 +31182,11 @@
       "enrollmentByGrade": {
         "1": 10789,
         "4": 13433,
-        "7": 7752
+        "7": 8367
       },
-      "enrollmentTotal": 31974,
+      "enrollmentTotal": 32589,
       "deliveredTotal": 171614,
-      "deliveryPercentage": 536.73,
+      "deliveryPercentage": 526.6,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33676,9 +33676,9 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 615
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 615,
           "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
