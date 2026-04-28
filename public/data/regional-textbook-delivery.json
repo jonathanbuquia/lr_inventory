@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T01:17:19.207Z",
+  "generatedAt": "2026-04-28T01:37:19.122Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 15470,
-          "filipino": 16198,
-          "mathematics": 14545,
-          "ve": 11244,
-          "araling-panlipunan": 15446,
-          "science": 13252,
-          "pe-and-health": 16198,
-          "tle": 11486,
-          "music-and-arts": 16198
+          "english": 15688,
+          "filipino": 16416,
+          "mathematics": 14763,
+          "ve": 11462,
+          "araling-panlipunan": 15664,
+          "science": 13470,
+          "pe-and-health": 16416,
+          "tle": 11704,
+          "music-and-arts": 16416
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 36252
       },
       "enrollmentTotal": 105174,
-      "deliveredTotal": 605257,
-      "deliveryPercentage": 575.48,
+      "deliveredTotal": 607219,
+      "deliveryPercentage": 577.35,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -28541,15 +28541,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 218,
+              "filipino": 218,
+              "mathematics": 218,
+              "ve": 218,
+              "araling-panlipunan": 218,
+              "science": 218,
+              "pe-and-health": 218,
+              "tle": 218,
+              "music-and-arts": 218
             }
           },
           "enrollmentByGrade": {
@@ -28558,8 +28558,8 @@
             "7": 206
           },
           "enrollmentTotal": 206,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 1962,
+          "deliveryPercentage": 952.43
         },
         {
           "id": "ponciano-bernardo-elementary-school",
