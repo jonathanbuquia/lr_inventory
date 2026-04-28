@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T02:29:53.485Z",
+  "generatedAt": "2026-04-28T02:37:35.253Z",
   "grades": [
     {
       "grade": "1",
@@ -31172,7 +31172,7 @@
           "filipino": 162,
           "mathematics": 7709,
           "ve": 3907,
-          "araling-panlipunan": 9320,
+          "araling-panlipunan": 9356,
           "science": 7048,
           "pe-and-health": 8280,
           "tle": 7022,
@@ -31185,8 +31185,8 @@
         "7": 10187
       },
       "enrollmentTotal": 34409,
-      "deliveredTotal": 177462,
-      "deliveryPercentage": 515.74,
+      "deliveredTotal": 177498,
+      "deliveryPercentage": 515.85,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32161,7 +32161,7 @@
               "filipino": 162,
               "mathematics": 330,
               "ve": 368,
-              "araling-panlipunan": 332,
+              "araling-panlipunan": 368,
               "science": 330,
               "pe-and-health": 112,
               "tle": 0,
@@ -32174,8 +32174,8 @@
             "7": 368
           },
           "enrollmentTotal": 368,
-          "deliveredTotal": 2302,
-          "deliveryPercentage": 625.54
+          "deliveredTotal": 2338,
+          "deliveryPercentage": 635.33
         },
         {
           "id": "kapitan-eddie-t-reyes-memorial-integrated-school",
