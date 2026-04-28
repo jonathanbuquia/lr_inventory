@@ -17,7 +17,7 @@
       "Quantity based on Target LAS - Q1": 3960,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 750,
       "Year of Delivery-LAS - Q1": 2025,
-      "SOURCE - LAS (CO,RO, SDO) - Q1": "",
+      "SOURCE - LAS (CO,RO, SDO) - Q1": "CO",
       "GAP - LAS - Q1": 3210,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 3960,
@@ -1548,5 +1548,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-28T07:36:44.481Z"
+  "generatedAt": "2026-04-28T07:41:48.841Z"
 }
