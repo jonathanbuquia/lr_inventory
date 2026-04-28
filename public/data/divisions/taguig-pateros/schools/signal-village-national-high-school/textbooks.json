@@ -173,12 +173,12 @@
     {
       "Grade Level": 8,
       "SUBJECTS": "TLE",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1433,
       "Quantity of Textbooks Received": 1700,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 1700
+      "Surplus-TX": 267
     },
     {
       "Grade Level": 8,
@@ -373,12 +373,12 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
@@ -393,63 +393,63 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 3 and 4",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Physical Science",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Contemporary Philippine Arts",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "General Mathematics",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Media and Information Literacy",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Statistics and Probability",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 1000,
       "Quantity of Textbooks Received": 447,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 447
+      "GAP-TX": 553,
+      "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-28T01:42:11.911Z"
+  "generatedAt": "2026-04-28T01:47:12.822Z"
 }
