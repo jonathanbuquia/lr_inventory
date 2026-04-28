@@ -984,10 +984,10 @@
       "GAP - ADM-SLM - Q2": 296,
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 1096,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": "",
-      "Year of Delivery - ADM-SLM - Q3": "",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": 500,
+      "Year of Delivery - ADM-SLM - Q3": 2026,
       "SOURCE - ADM-SLM(CO,RO, SDO) - Q3": "",
-      "GAP - ADM-SLM - Q3": 1096,
+      "GAP - ADM-SLM - Q3": 596,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1096,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 300,
@@ -1129,10 +1129,10 @@
       "GAP - ADM-SLM - Q2": 1096,
       "SURPLUS - ADM-SLM -Q2": 0,
       "Quantity based on Target ADM-SLM - Q3": 1096,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": "",
-      "Year of Delivery - ADM-SLM - Q3": "",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": 700,
+      "Year of Delivery - ADM-SLM - Q3": 2026,
       "SOURCE - ADM-SLM(CO,RO, SDO) - Q3": "",
-      "GAP - ADM-SLM - Q3": 1096,
+      "GAP - ADM-SLM - Q3": 396,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 1096,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 600,
@@ -1519,5 +1519,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-28T01:52:04.151Z"
+  "generatedAt": "2026-04-28T01:57:06.194Z"
 }
