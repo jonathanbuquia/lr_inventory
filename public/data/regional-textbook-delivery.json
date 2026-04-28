@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:57:42.569Z",
+  "generatedAt": "2026-04-28T01:02:23.584Z",
   "grades": [
     {
       "grade": "1",
@@ -31168,9 +31168,9 @@
           "music-and-arts": 978
         },
         "7": {
-          "english": 8765,
+          "english": 9356,
           "filipino": 0,
-          "mathematics": 6788,
+          "mathematics": 7379,
           "ve": 3539,
           "araling-panlipunan": 8397,
           "science": 6127,
@@ -31185,8 +31185,8 @@
         "7": 8367
       },
       "enrollmentTotal": 32589,
-      "deliveredTotal": 171614,
-      "deliveryPercentage": 526.6,
+      "deliveredTotal": 172796,
+      "deliveryPercentage": 530.23,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33662,9 +33662,9 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 591,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 591,
               "ve": 0,
               "araling-panlipunan": 0,
               "science": 0,
@@ -33679,8 +33679,8 @@
             "7": 615
           },
           "enrollmentTotal": 615,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 1182,
+          "deliveryPercentage": 192.2
         },
         {
           "id": "upper-bicutan-elementary-school",
