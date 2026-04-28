@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:42:27.647Z",
+  "generatedAt": "2026-04-28T00:47:21.213Z",
   "grades": [
     {
       "grade": "1",
@@ -23554,14 +23554,14 @@
         },
         "7": {
           "english": 14202,
-          "filipino": 14930,
+          "filipino": 15685,
           "mathematics": 13790,
-          "ve": 9976,
+          "ve": 11244,
           "araling-panlipunan": 14178,
           "science": 11984,
           "pe-and-health": 14930,
           "tle": 10973,
-          "music-and-arts": 14930
+          "music-and-arts": 15685
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 595113,
-      "deliveryPercentage": 568.97,
+      "deliveredTotal": 597891,
+      "deliveryPercentage": 571.62,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25147,7 +25147,7 @@
               "english": 0,
               "filipino": 0,
               "mathematics": 0,
-              "ve": 0,
+              "ve": 513,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
@@ -25161,8 +25161,8 @@
             "7": 404
           },
           "enrollmentTotal": 404,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 513,
+          "deliveryPercentage": 126.98
         },
         {
           "id": "dalupan-elementary-school",
@@ -29058,14 +29058,14 @@
             },
             "7": {
               "english": 0,
-              "filipino": 0,
+              "filipino": 755,
               "mathematics": 0,
-              "ve": 0,
+              "ve": 755,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
               "tle": 755,
-              "music-and-arts": 0
+              "music-and-arts": 755
             }
           },
           "enrollmentByGrade": {
@@ -29074,8 +29074,8 @@
             "7": 457
           },
           "enrollmentTotal": 457,
-          "deliveredTotal": 755,
-          "deliveryPercentage": 165.21
+          "deliveredTotal": 3020,
+          "deliveryPercentage": 660.83
         },
         {
           "id": "ramon-magsaysay-elementary-school",
