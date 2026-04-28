@@ -392,10 +392,10 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 505,
       "Quantity based on Target LAS - Q1": 4040,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
-      "Year of Delivery-LAS - Q1": "",
-      "SOURCE - LAS (CO,RO, SDO) - Q1": "",
-      "GAP - LAS - Q1": 4040,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 406,
+      "Year of Delivery-LAS - Q1": 2025,
+      "SOURCE - LAS (CO,RO, SDO) - Q1": "RO",
+      "GAP - LAS - Q1": 3634,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 4040,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -1548,5 +1548,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:11.186Z"
+  "generatedAt": "2026-04-28T07:46:35.718Z"
 }
