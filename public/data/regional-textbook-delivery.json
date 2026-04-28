@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T00:37:12.126Z",
+  "generatedAt": "2026-04-28T00:42:27.647Z",
   "grades": [
     {
       "grade": "1",
@@ -6797,10 +6797,10 @@
           "mathematics": 92
         },
         "4": {
-          "english": 0,
+          "english": 504,
           "filipino": 7875,
           "mathematics": 8116,
-          "gmrc": 7710,
+          "gmrc": 8217,
           "araling-panlipunan": 7750,
           "science": 8084,
           "pe-and-health": 8105,
@@ -6825,8 +6825,8 @@
         "7": 6021
       },
       "enrollmentTotal": 18323,
-      "deliveredTotal": 133963,
-      "deliveryPercentage": 731.12,
+      "deliveredTotal": 134974,
+      "deliveryPercentage": 736.64,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -7313,10 +7313,10 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 504,
               "filipino": 507,
               "mathematics": 507,
-              "gmrc": 0,
+              "gmrc": 507,
               "araling-panlipunan": 507,
               "science": 507,
               "pe-and-health": 507,
@@ -7341,8 +7341,8 @@
             "7": 0
           },
           "enrollmentTotal": 799,
-          "deliveredTotal": 5122,
-          "deliveryPercentage": 641.05
+          "deliveredTotal": 6133,
+          "deliveryPercentage": 767.58
         },
         {
           "id": "guillermo-s-sanchez-memorial-elementary-school",
@@ -23560,7 +23560,7 @@
           "araling-panlipunan": 14178,
           "science": 11984,
           "pe-and-health": 14930,
-          "tle": 10218,
+          "tle": 10973,
           "music-and-arts": 14930
         }
       },
@@ -23570,8 +23570,8 @@
         "7": 35673
       },
       "enrollmentTotal": 104595,
-      "deliveredTotal": 594358,
-      "deliveryPercentage": 568.25,
+      "deliveredTotal": 595113,
+      "deliveryPercentage": 568.97,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -29064,7 +29064,7 @@
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
-              "tle": 0,
+              "tle": 755,
               "music-and-arts": 0
             }
           },
@@ -29074,8 +29074,8 @@
             "7": 457
           },
           "enrollmentTotal": 457,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 755,
+          "deliveryPercentage": 165.21
         },
         {
           "id": "ramon-magsaysay-elementary-school",
