@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T05:27:19.474Z",
+  "generatedAt": "2026-04-29T05:37:31.019Z",
   "grades": [
     {
       "grade": "1",
@@ -31171,7 +31171,7 @@
           "english": 9656,
           "filipino": 162,
           "mathematics": 7709,
-          "ve": 3907,
+          "ve": 4429,
           "araling-panlipunan": 9356,
           "science": 7048,
           "pe-and-health": 8280,
@@ -31185,8 +31185,8 @@
         "7": 10187
       },
       "enrollmentTotal": 34409,
-      "deliveredTotal": 178248,
-      "deliveryPercentage": 518.03,
+      "deliveredTotal": 178770,
+      "deliveryPercentage": 519.54,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31300,7 +31300,7 @@
               "english": 522,
               "filipino": 0,
               "mathematics": 456,
-              "ve": 0,
+              "ve": 522,
               "araling-panlipunan": 522,
               "science": 0,
               "pe-and-health": 0,
@@ -31314,8 +31314,8 @@
             "7": 599
           },
           "enrollmentTotal": 1624,
-          "deliveredTotal": 5530,
-          "deliveryPercentage": 340.52
+          "deliveredTotal": 6052,
+          "deliveryPercentage": 372.66
         },
         {
           "id": "bagumbayan-national-high-school",
