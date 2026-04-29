@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T06:27:48.936Z",
+  "generatedAt": "2026-04-29T06:32:06.745Z",
   "grades": [
     {
       "grade": "1",
@@ -9739,7 +9739,7 @@
           "english": 21850,
           "filipino": 8165,
           "mathematics": 18134,
-          "ve": 1585,
+          "ve": 2374,
           "araling-panlipunan": 18870,
           "science": 17871,
           "pe-and-health": 17917,
@@ -9753,8 +9753,8 @@
         "7": 19098
       },
       "enrollmentTotal": 62520,
-      "deliveredTotal": 405969,
-      "deliveryPercentage": 649.34,
+      "deliveredTotal": 406758,
+      "deliveryPercentage": 650.6,
       "schools": [
         {
           "id": "a-c-herrera-elementary-school",
@@ -12964,7 +12964,7 @@
               "english": 789,
               "filipino": 789,
               "mathematics": 789,
-              "ve": 0,
+              "ve": 789,
               "araling-panlipunan": 789,
               "science": 789,
               "pe-and-health": 789,
@@ -12978,8 +12978,8 @@
             "7": 721
           },
           "enrollmentTotal": 721,
-          "deliveredTotal": 6312,
-          "deliveryPercentage": 875.45
+          "deliveredTotal": 7101,
+          "deliveryPercentage": 984.88
         },
         {
           "id": "mariano-ponce-elementary-school",
