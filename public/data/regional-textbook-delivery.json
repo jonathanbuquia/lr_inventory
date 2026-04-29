@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T06:32:06.745Z",
+  "generatedAt": "2026-04-29T06:42:05.931Z",
   "grades": [
     {
       "grade": "1",
@@ -18328,7 +18328,7 @@
         "1": {
           "reading-and-literacy": 10305,
           "language": 7170,
-          "gmrc": 9613,
+          "gmrc": 9937,
           "makabansa": 9844,
           "mathematics": 616
         },
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 185406,
-      "deliveryPercentage": 776.11,
+      "deliveredTotal": 185730,
+      "deliveryPercentage": 777.47,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -18887,7 +18887,7 @@
             "1": {
               "reading-and-literacy": 324,
               "language": 330,
-              "gmrc": 0,
+              "gmrc": 324,
               "makabansa": 360,
               "mathematics": 0
             },
@@ -18920,8 +18920,8 @@
             "7": 0
           },
           "enrollmentTotal": 682,
-          "deliveredTotal": 3620,
-          "deliveryPercentage": 530.79
+          "deliveredTotal": 3944,
+          "deliveryPercentage": 578.3
         },
         {
           "id": "fourth-estate-elementary-school",
