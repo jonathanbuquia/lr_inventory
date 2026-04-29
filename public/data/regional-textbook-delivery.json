@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T06:42:05.931Z",
+  "generatedAt": "2026-04-29T06:56:59.507Z",
   "grades": [
     {
       "grade": "1",
@@ -18330,18 +18330,18 @@
           "language": 7170,
           "gmrc": 9937,
           "makabansa": 9844,
-          "mathematics": 616
+          "mathematics": 414
         },
         "4": {
           "english": 0,
-          "filipino": 7634,
+          "filipino": 7809,
           "mathematics": 8746,
           "gmrc": 9104,
           "araling-panlipunan": 8788,
           "science": 8354,
           "pe-and-health": 8149,
-          "epp": 929,
-          "music-and-arts": 7875
+          "epp": 779,
+          "music-and-arts": 7854
         },
         "7": {
           "english": 10675,
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 185730,
-      "deliveryPercentage": 777.47,
+      "deliveredTotal": 185532,
+      "deliveryPercentage": 776.64,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -18545,18 +18545,18 @@
               "language": 126,
               "gmrc": 126,
               "makabansa": 126,
-              "mathematics": 202
+              "mathematics": 0
             },
             "4": {
               "english": 0,
-              "filipino": 0,
+              "filipino": 175,
               "mathematics": 175,
               "gmrc": 175,
               "araling-panlipunan": 175,
               "science": 175,
               "pe-and-health": 175,
-              "epp": 150,
-              "music-and-arts": 196
+              "epp": 0,
+              "music-and-arts": 175
             },
             "7": {
               "english": 0,
@@ -18576,8 +18576,8 @@
             "7": 0
           },
           "enrollmentTotal": 106,
-          "deliveredTotal": 1927,
-          "deliveryPercentage": 1817.92
+          "deliveredTotal": 1729,
+          "deliveryPercentage": 1631.13
         },
         {
           "id": "col-e-de-leon-elementary-school",
