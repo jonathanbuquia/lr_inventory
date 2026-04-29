@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T06:07:23.018Z",
+  "generatedAt": "2026-04-29T06:27:48.936Z",
   "grades": [
     {
       "grade": "1",
@@ -18337,11 +18337,11 @@
           "filipino": 7634,
           "mathematics": 8746,
           "gmrc": 9104,
-          "araling-panlipunan": 8164,
-          "science": 7730,
+          "araling-panlipunan": 8788,
+          "science": 8354,
           "pe-and-health": 8149,
           "epp": 929,
-          "music-and-arts": 7251
+          "music-and-arts": 7875
         },
         "7": {
           "english": 10675,
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 183534,
-      "deliveryPercentage": 768.28,
+      "deliveredTotal": 185406,
+      "deliveryPercentage": 776.11,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -19670,11 +19670,11 @@
               "filipino": 624,
               "mathematics": 624,
               "gmrc": 624,
-              "araling-panlipunan": 0,
-              "science": 0,
+              "araling-panlipunan": 624,
+              "science": 624,
               "pe-and-health": 624,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 624
             },
             "7": {
               "english": 0,
@@ -19694,8 +19694,8 @@
             "7": 0
           },
           "enrollmentTotal": 1351,
-          "deliveredTotal": 2496,
-          "deliveryPercentage": 184.75
+          "deliveredTotal": 4368,
+          "deliveryPercentage": 323.32
         },
         {
           "id": "san-antonio-elementary-school",
