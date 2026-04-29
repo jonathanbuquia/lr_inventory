@@ -281,6 +281,16 @@
       "Surplus-TX": 0
     },
     {
+      "Grade Level": 9,
+      "SUBJECTS": "Noli Me Tangere",
+      "Enrolment S.Y. 2025-2026": 149,
+      "Quantity of Textbooks Received": 184,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 35
+    },
+    {
       "Grade Level": 10,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 136,
@@ -371,6 +381,16 @@
       "Surplus-TX": 50
     },
     {
+      "Grade Level": 10,
+      "SUBJECTS": "El Filibusterismo",
+      "Enrolment S.Y. 2025-2026": 136,
+      "Quantity of Textbooks Received": 246,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 110
+    },
+    {
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
       "Enrolment S.Y. 2025-2026": 212,
@@ -394,20 +414,20 @@
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 3 and 4",
       "Enrolment S.Y. 2025-2026": 212,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 212,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 80,
       "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Physical Science",
       "Enrolment S.Y. 2025-2026": 212,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 212,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 80,
       "Surplus-TX": 0
     },
     {
@@ -424,32 +444,52 @@
       "Grade Level": "SHS",
       "SUBJECTS": "General Mathematics",
       "Enrolment S.Y. 2025-2026": 212,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 212,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 80,
       "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Media and Information Literacy",
       "Enrolment S.Y. 2025-2026": 212,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 212,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 80,
       "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Statistics and Probability",
       "Enrolment S.Y. 2025-2026": 212,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 212,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 80,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Heritage (Understanding Culture, Society & Politics",
+      "Enrolment S.Y. 2025-2026": 213,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Earth & Life Science",
+      "Enrolment S.Y. 2025-2026": 213,
+      "Quantity of Textbooks Received": 132,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-29T01:31:39.755Z"
+  "generatedAt": "2026-04-29T01:46:34.852Z"
 }
