@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T06:56:59.507Z",
+  "generatedAt": "2026-04-29T07:22:08.069Z",
   "grades": [
     {
       "grade": "1",
@@ -18330,7 +18330,7 @@
           "language": 7170,
           "gmrc": 9937,
           "makabansa": 9844,
-          "mathematics": 414
+          "mathematics": 902
         },
         "4": {
           "english": 0,
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 185532,
-      "deliveryPercentage": 776.64,
+      "deliveredTotal": 186020,
+      "deliveryPercentage": 778.68,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -19921,7 +19921,7 @@
               "language": 488,
               "gmrc": 488,
               "makabansa": 488,
-              "mathematics": 0
+              "mathematics": 488
             },
             "4": {
               "english": 0,
@@ -19952,8 +19952,8 @@
             "7": 0
           },
           "enrollmentTotal": 454,
-          "deliveredTotal": 4269,
-          "deliveryPercentage": 940.31
+          "deliveredTotal": 4757,
+          "deliveryPercentage": 1047.8
         },
         {
           "id": "sto-ni-o-national-high-school",
