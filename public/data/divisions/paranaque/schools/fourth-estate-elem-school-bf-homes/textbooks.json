@@ -18,7 +18,8 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 15,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 1,
@@ -28,7 +29,8 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 9,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 1,
@@ -38,7 +40,8 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 15,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 1,
@@ -48,7 +51,8 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 21
+      "Surplus-TX": 21,
+      "Column1": ""
     },
     {
       "Grade Level": 1,
@@ -58,7 +62,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 339,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 2,
@@ -68,7 +73,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 360,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 2,
@@ -78,7 +84,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 360,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 2,
@@ -88,7 +95,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 360,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 2,
@@ -98,7 +106,8 @@
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 89
+      "Surplus-TX": 89,
+      "Column1": ""
     },
     {
       "Grade Level": 2,
@@ -108,7 +117,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 360,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 3,
@@ -118,7 +128,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 363,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 3,
@@ -128,7 +139,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 363,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 3,
@@ -138,7 +150,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 363,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 3,
@@ -148,7 +161,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 363,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 3,
@@ -158,7 +172,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 363,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 3,
@@ -168,7 +183,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 363,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
@@ -178,27 +194,30 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 343,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 343,
       "Quantity of Textbooks Received": 520,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 177
+      "Surplus-TX": 177,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 343,
       "Quantity of Textbooks Received": 64,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 279,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": "from TES-I"
     },
     {
       "Grade Level": 4,
@@ -208,7 +227,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 279,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": "from TES-I"
     },
     {
       "Grade Level": 4,
@@ -218,7 +238,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 147
+      "Surplus-TX": 147,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
@@ -228,7 +249,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 117
+      "Surplus-TX": 117,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
@@ -238,7 +260,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 165
+      "Surplus-TX": 165,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
@@ -248,7 +271,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 343,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 4,
@@ -258,7 +282,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 157
+      "Surplus-TX": 157,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -268,7 +293,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 11
+      "Surplus-TX": 11,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -278,7 +304,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 333,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -288,7 +315,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 333,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -298,7 +326,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 333,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -308,7 +337,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 131
+      "Surplus-TX": 131,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -318,7 +348,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 13
+      "Surplus-TX": 13,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -328,7 +359,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 9
+      "Surplus-TX": 9,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -338,7 +370,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 23
+      "Surplus-TX": 23,
+      "Column1": ""
     },
     {
       "Grade Level": 5,
@@ -348,7 +381,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 333,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -358,7 +392,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -368,7 +403,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -378,7 +414,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -388,7 +425,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -398,7 +436,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -408,7 +447,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -418,7 +458,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -428,7 +469,8 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     },
     {
       "Grade Level": 6,
@@ -438,8 +480,9 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 331,
-      "Surplus-TX": 0
+      "Surplus-TX": 0,
+      "Column1": ""
     }
   ],
-  "generatedAt": "2026-04-29T06:41:42.926Z"
+  "generatedAt": "2026-04-29T06:46:37.173Z"
 }

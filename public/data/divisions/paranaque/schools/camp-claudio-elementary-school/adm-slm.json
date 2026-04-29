@@ -642,11 +642,11 @@
       "GAP - ADM-SLM - Q3": 344,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 344,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 1190,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 610,
       "Year of Delivery - ADM-SLM- Q4": 2025,
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "RO",
       "GAP - ADM-SLM - Q4": 0,
-      "SURPLUS - ADM-SLM- Q4": 846
+      "SURPLUS - ADM-SLM- Q4": 266
     },
     {
       "Grade Level": 3,
@@ -1693,5 +1693,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-16T04:17:22.529Z"
+  "generatedAt": "2026-04-29T06:46:36.893Z"
 }
