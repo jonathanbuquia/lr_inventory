@@ -13,30 +13,30 @@
     {
       "Grade Level": "KINDER",
       "SUBJECTS": "",
-      "Enrolment S.Y. 2025-2026": "",
-      "Quantity based on Target LAS - Q1": 0,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
-      "Year of Delivery-LAS - Q1": "",
-      "SOURCE - LAS (CO,RO, SDO) - Q1": "",
-      "GAP - LAS - Q1": 0,
+      "Enrolment S.Y. 2025-2026": 200,
+      "Quantity based on Target LAS - Q1": 1600,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 727,
+      "Year of Delivery-LAS - Q1": 2025,
+      "SOURCE - LAS (CO,RO, SDO) - Q1": "RO",
+      "GAP - LAS - Q1": 873,
       "SURPLUS - LAS - Q1": 0,
-      "Quantity based on Target LAS - Q2": 0,
+      "Quantity based on Target LAS - Q2": 1600,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
       "Year of Delivery-LAS Q2": "",
       "SOURCE-LAS (CO,RO, SDO) Q2": "",
-      "GAP - LAS -Q2": 0,
+      "GAP - LAS -Q2": 1600,
       "SURPLUS - LAS -Q2": 0,
-      "Quantity based on Target LAS - Q3": 0,
+      "Quantity based on Target LAS - Q3": 1600,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q3": "",
       "Year of Delivery-LAS - Q3": "",
       "SOURCE-LAS (CO,RO, SDO) - Q3": "",
-      "GAP - LAS - Q3": 0,
+      "GAP - LAS - Q3": 1600,
       "SURPLUS - LAS - Q3": 0,
-      "Quantity based on Target LAS - Q4": 0,
+      "Quantity based on Target LAS - Q4": 1600,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS)- Q4": "",
       "Year of Delivery - LAS - Q4": "",
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
-      "GAP - LAS - Q4": 0,
+      "GAP - LAS - Q4": 1600,
       "SURPLUS - LAS - Q4": 0
     },
     {
@@ -1548,5 +1548,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:17.444Z"
+  "generatedAt": "2026-04-29T08:06:52.413Z"
 }

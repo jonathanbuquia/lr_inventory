@@ -11,6 +11,16 @@
   "key": "textbooks",
   "rows": [
     {
+      "Grade Level": "K",
+      "SUBJECTS": "",
+      "Enrolment S.Y. 2025-2026": 200,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
       "Grade Level": 1,
       "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 197,
@@ -441,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-17T07:43:52.860Z"
+  "generatedAt": "2026-04-29T08:06:52.466Z"
 }
