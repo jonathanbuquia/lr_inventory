@@ -14,12 +14,12 @@
       "Grade Level": "KINDER",
       "SUBJECTS": "",
       "Enrolment S.Y. 2025-2026": 142,
-      "Quantity based on Target LAS - Q1": "",
+      "Quantity based on Target LAS - Q1": 1136,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 600,
       "Year of Delivery-LAS - Q1": 2025,
       "SOURCE - LAS (CO,RO, SDO) - Q1": "RO",
-      "GAP - LAS - Q1": 0,
-      "SURPLUS - LAS - Q1": 600,
+      "GAP - LAS - Q1": 536,
+      "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 1136,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": 600,
       "Year of Delivery-LAS Q2": 2025,
@@ -1548,5 +1548,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-29T07:11:40.732Z"
+  "generatedAt": "2026-04-29T12:40:33.895Z"
 }
