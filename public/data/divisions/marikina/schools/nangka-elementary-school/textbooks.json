@@ -254,11 +254,11 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 602,
-      "Quantity of Textbooks Received": 675,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": 665,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
-      "Surplus-TX": 73
+      "Surplus-TX": 63
     },
     {
       "Grade Level": 5,
@@ -334,11 +334,11 @@
       "Grade Level": 5,
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 557,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 557,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 624,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 67
     },
     {
       "Grade Level": 5,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:12.077Z"
+  "generatedAt": "2026-04-29T05:46:45.525Z"
 }
