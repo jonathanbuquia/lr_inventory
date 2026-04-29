@@ -11,6 +11,35 @@
   "key": "adm-slm",
   "rows": [
     {
+      "Grade Level": "KINDER",
+      "SUBJECTS": "",
+      "Enrolment S.Y. 2025-2026": 50,
+      "Quantity based on Target ADM-SLM - Q1": 400,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 280,
+      "Year of Delivery - ADM-SLM - Q1": 2025,
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "RO",
+      "GAP - ADM-SLM - Q1": 120,
+      "SURPLUS - ADM-SLM - Q1": 0,
+      "Quantity based on Target ADM-SLM - Q2": 400,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": "",
+      "Year of Delivery - ADM-SLM Q2": "",
+      "SOURCE - ADM-SLM (CO,RO, SDO) Q2": "",
+      "GAP - ADM-SLM - Q2": "",
+      "SURPLUS - ADM-SLM -Q2": "",
+      "Quantity based on Target ADM-SLM - Q3": "",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q3": "",
+      "Year of Delivery - ADM-SLM - Q3": "",
+      "SOURCE - ADM-SLM(CO,RO, SDO) - Q3": "",
+      "GAP - ADM-SLM - Q3": "",
+      "SURPLUS - ADM-SLM - Q3": "",
+      "Quantity based on Target ADM-SLM - Q4": 400,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": "",
+      "Year of Delivery - ADM-SLM- Q4": "",
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
+      "GAP - ADM-SLM - Q4": 400,
+      "SURPLUS - ADM-SLM- Q4": 0
+    },
+    {
       "Grade Level": 1,
       "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 51,
@@ -1693,5 +1722,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-04-29T07:16:41.194Z"
+  "generatedAt": "2026-04-29T08:01:42.041Z"
 }
