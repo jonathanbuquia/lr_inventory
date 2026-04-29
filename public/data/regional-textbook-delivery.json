@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T02:17:00.243Z",
+  "generatedAt": "2026-04-29T03:42:08.079Z",
   "grades": [
     {
       "grade": "1",
@@ -14476,7 +14476,7 @@
           "science": 8834,
           "pe-and-health": 8834,
           "tle": 8834,
-          "music-and-arts": 6159
+          "music-and-arts": 6822
         }
       },
       "enrollmentByGrade": {
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 147469,
-      "deliveryPercentage": 742.99,
+      "deliveredTotal": 148132,
+      "deliveryPercentage": 746.33,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15422,7 +15422,7 @@
               "science": 663,
               "pe-and-health": 663,
               "tle": 663,
-              "music-and-arts": 0
+              "music-and-arts": 663
             }
           },
           "enrollmentByGrade": {
@@ -15431,8 +15431,8 @@
             "7": 653
           },
           "enrollmentTotal": 653,
-          "deliveredTotal": 4641,
-          "deliveryPercentage": 710.72
+          "deliveredTotal": 5304,
+          "deliveryPercentage": 812.25
         },
         {
           "id": "pamantasan-ng-lungsod-ng-marikina",
