@@ -125,7 +125,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 312,
       "Quantity of Textbooks Received": 368,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 56
@@ -155,7 +155,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 312,
       "Quantity of Textbooks Received": 368,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 312,
       "Surplus-TX": 0
@@ -174,9 +174,9 @@
       "Grade Level": 8,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 312,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 368,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 312,
       "Surplus-TX": 0
     },
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-29T06:06:53.794Z"
+  "generatedAt": "2026-04-29T06:11:58.109Z"
 }
