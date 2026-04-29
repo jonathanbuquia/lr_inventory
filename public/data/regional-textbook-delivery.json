@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-29T06:02:25.653Z",
+  "generatedAt": "2026-04-29T06:07:23.018Z",
   "grades": [
     {
       "grade": "1",
@@ -14458,7 +14458,7 @@
         },
         "4": {
           "english": 0,
-          "filipino": 7300,
+          "filipino": 7986,
           "mathematics": 7188,
           "gmrc": 7830,
           "araling-panlipunan": 7857,
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 148808,
-      "deliveryPercentage": 749.74,
+      "deliveredTotal": 149494,
+      "deliveryPercentage": 753.19,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15361,7 +15361,7 @@
             },
             "4": {
               "english": 0,
-              "filipino": 0,
+              "filipino": 686,
               "mathematics": 686,
               "gmrc": 686,
               "araling-panlipunan": 686,
@@ -15388,8 +15388,8 @@
             "7": 0
           },
           "enrollmentTotal": 1123,
-          "deliveredTotal": 6415,
-          "deliveryPercentage": 571.24
+          "deliveredTotal": 7101,
+          "deliveryPercentage": 632.32
         },
         {
           "id": "nangka-high-school",
@@ -18345,10 +18345,10 @@
         },
         "7": {
           "english": 10675,
-          "filipino": 10163,
-          "mathematics": 9819,
-          "ve": 9646,
-          "araling-panlipunan": 10625,
+          "filipino": 9353,
+          "mathematics": 9009,
+          "ve": 9253,
+          "araling-panlipunan": 10225,
           "science": 8943,
           "pe-and-health": 10191,
           "tle": 10005,
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 185947,
-      "deliveryPercentage": 778.38,
+      "deliveredTotal": 183534,
+      "deliveryPercentage": 768.28,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -19979,10 +19979,10 @@
             },
             "7": {
               "english": 0,
-              "filipino": 405,
-              "mathematics": 405,
-              "ve": 180,
-              "araling-panlipunan": 200,
+              "filipino": 0,
+              "mathematics": 0,
+              "ve": 0,
+              "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
               "tle": 0,
@@ -19995,8 +19995,8 @@
             "7": 458
           },
           "enrollmentTotal": 458,
-          "deliveredTotal": 1190,
-          "deliveryPercentage": 259.83
+          "deliveredTotal": 0,
+          "deliveryPercentage": 0
         },
         {
           "id": "sto-ni-o-senior-high-school",
@@ -20237,10 +20237,10 @@
             },
             "7": {
               "english": 0,
-              "filipino": 405,
-              "mathematics": 405,
-              "ve": 213,
-              "araling-panlipunan": 200,
+              "filipino": 0,
+              "mathematics": 0,
+              "ve": 0,
+              "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
               "tle": 0,
@@ -20253,8 +20253,8 @@
             "7": 337
           },
           "enrollmentTotal": 337,
-          "deliveredTotal": 1223,
-          "deliveryPercentage": 362.91
+          "deliveredTotal": 0,
+          "deliveryPercentage": 0
         }
       ]
     },

@@ -373,32 +373,32 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
-      "Enrolment S.Y. 2025-2026": "G11: 558, G12: 479",
+      "Enrolment S.Y. 2025-2026": 558,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": ""
+      "GAP-TX": 558,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 1 and 2",
-      "Enrolment S.Y. 2025-2026": "G11: 558, G12: 479",
+      "Enrolment S.Y. 2025-2026": 558,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": ""
+      "GAP-TX": 558,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 3 and 4",
-      "Enrolment S.Y. 2025-2026": "G11: 558, G12: 479",
+      "Enrolment S.Y. 2025-2026": 479,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": ""
+      "GAP-TX": 479,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": "SHS",
@@ -451,5 +451,5 @@
       "Surplus-TX": ""
     }
   ],
-  "generatedAt": "2026-04-15T03:11:18.752Z"
+  "generatedAt": "2026-04-29T06:06:53.618Z"
 }
