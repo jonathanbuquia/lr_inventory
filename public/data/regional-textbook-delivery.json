@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-28T07:51:50.378Z",
+  "generatedAt": "2026-04-29T00:42:01.288Z",
   "grades": [
     {
       "grade": "1",
@@ -14476,7 +14476,7 @@
           "science": 8834,
           "pe-and-health": 8834,
           "tle": 8834,
-          "music-and-arts": 5955
+          "music-and-arts": 6159
         }
       },
       "enrollmentByGrade": {
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 146418,
-      "deliveryPercentage": 737.7,
+      "deliveredTotal": 146622,
+      "deliveryPercentage": 738.72,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14906,7 +14906,7 @@
               "science": 204,
               "pe-and-health": 204,
               "tle": 204,
-              "music-and-arts": 0
+              "music-and-arts": 204
             }
           },
           "enrollmentByGrade": {
@@ -14915,8 +14915,8 @@
             "7": 150
           },
           "enrollmentTotal": 150,
-          "deliveredTotal": 1224,
-          "deliveryPercentage": 816
+          "deliveredTotal": 1428,
+          "deliveryPercentage": 952
         },
         {
           "id": "kalumpang-elementary-school",
