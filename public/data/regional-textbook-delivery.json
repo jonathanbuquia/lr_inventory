@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-30T01:07:10.095Z",
+  "generatedAt": "2026-04-30T05:42:34.430Z",
   "grades": [
     {
       "grade": "1",
@@ -139,11 +139,11 @@
         "7": {
           "english": 15290,
           "filipino": 531,
-          "mathematics": 17060,
+          "mathematics": 17330,
           "ve": 9894,
-          "araling-panlipunan": 17336,
-          "science": 16614,
-          "pe-and-health": 17781,
+          "araling-panlipunan": 17606,
+          "science": 16884,
+          "pe-and-health": 18051,
           "tle": 17035,
           "music-and-arts": 16840
         }
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 14466,
         "4": 18607,
-        "7": 13655
+        "7": 13997
       },
-      "enrollmentTotal": 46728,
-      "deliveredTotal": 333984,
-      "deliveryPercentage": 714.74,
+      "enrollmentTotal": 47070,
+      "deliveredTotal": 335064,
+      "deliveryPercentage": 711.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -3149,11 +3149,11 @@
             "7": {
               "english": 0,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 270,
               "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "araling-panlipunan": 270,
+              "science": 270,
+              "pe-and-health": 270,
               "tle": 0,
               "music-and-arts": 0
             }
@@ -3161,11 +3161,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 342
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 342,
+          "deliveredTotal": 1080,
+          "deliveryPercentage": 315.79
         },
         {
           "id": "pag-asa-elementary-school",
