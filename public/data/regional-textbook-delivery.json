@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-30T05:42:34.430Z",
+  "generatedAt": "2026-04-30T06:56:58.337Z",
   "grades": [
     {
       "grade": "1",
@@ -126,15 +126,15 @@
           "mathematics": 0
         },
         "4": {
-          "english": 17071,
-          "filipino": 17603,
-          "mathematics": 17029,
-          "gmrc": 18343,
-          "araling-panlipunan": 18186,
-          "science": 18164,
-          "pe-and-health": 18212,
-          "epp": 1964,
-          "music-and-arts": 8589
+          "english": 17419,
+          "filipino": 17941,
+          "mathematics": 17531,
+          "gmrc": 18887,
+          "araling-panlipunan": 18495,
+          "science": 18698,
+          "pe-and-health": 18705,
+          "epp": 2329,
+          "music-and-arts": 9133
         },
         "7": {
           "english": 15290,
@@ -154,8 +154,8 @@
         "7": 13997
       },
       "enrollmentTotal": 47070,
-      "deliveredTotal": 335064,
-      "deliveryPercentage": 711.84,
+      "deliveredTotal": 339041,
+      "deliveryPercentage": 720.29,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -3394,15 +3394,15 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "epp": 0,
-              "music-and-arts": 0
+              "english": 348,
+              "filipino": 338,
+              "mathematics": 502,
+              "gmrc": 544,
+              "araling-panlipunan": 309,
+              "science": 534,
+              "pe-and-health": 493,
+              "epp": 365,
+              "music-and-arts": 544
             },
             "7": {
               "english": 0,
@@ -3422,8 +3422,8 @@
             "7": 0
           },
           "enrollmentTotal": 879,
-          "deliveredTotal": 1900,
-          "deliveryPercentage": 216.15
+          "deliveredTotal": 5877,
+          "deliveryPercentage": 668.6
         },
         {
           "id": "sampaguita-high-school",
