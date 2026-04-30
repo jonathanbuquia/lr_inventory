@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-30T00:52:21.649Z",
+  "generatedAt": "2026-04-30T01:07:10.095Z",
   "grades": [
     {
       "grade": "1",
@@ -14458,14 +14458,14 @@
         },
         "4": {
           "english": 0,
-          "filipino": 7986,
-          "mathematics": 7188,
+          "filipino": 8093,
+          "mathematics": 7295,
           "gmrc": 7830,
           "araling-panlipunan": 7857,
           "science": 7773,
           "pe-and-health": 7926,
           "epp": 1336,
-          "music-and-arts": 7080
+          "music-and-arts": 7124
         },
         "7": {
           "english": 8834,
@@ -14485,8 +14485,8 @@
         "7": 7746
       },
       "enrollmentTotal": 19848,
-      "deliveredTotal": 149610,
-      "deliveryPercentage": 753.78,
+      "deliveredTotal": 149868,
+      "deliveryPercentage": 755.08,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15748,14 +15748,14 @@
             },
             "4": {
               "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
+              "filipino": 107,
+              "mathematics": 107,
               "gmrc": 107,
               "araling-panlipunan": 107,
               "science": 107,
               "pe-and-health": 205,
               "epp": 205,
-              "music-and-arts": 155
+              "music-and-arts": 199
             },
             "7": {
               "english": 0,
@@ -15775,8 +15775,8 @@
             "7": 0
           },
           "enrollmentTotal": 265,
-          "deliveredTotal": 1350,
-          "deliveryPercentage": 509.43
+          "deliveredTotal": 1608,
+          "deliveryPercentage": 606.79
         },
         {
           "id": "sta-elena-high-school",
