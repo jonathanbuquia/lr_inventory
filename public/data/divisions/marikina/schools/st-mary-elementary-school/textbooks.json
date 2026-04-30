@@ -34,10 +34,10 @@
       "Grade Level": 1,
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 131,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 116,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 131,
+      "GAP-TX": 15,
       "Surplus-TX": 0
     },
     {
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:12.635Z"
+  "generatedAt": "2026-04-30T00:51:48.651Z"
 }
