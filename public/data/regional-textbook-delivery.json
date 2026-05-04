@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-04-30T06:56:58.337Z",
+  "generatedAt": "2026-05-04T01:47:00.202Z",
   "grades": [
     {
       "grade": "1",
@@ -33904,10 +33904,10 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 9699,
-          "language": 6083,
-          "gmrc": 9883,
-          "makabansa": 9382,
+          "reading-and-literacy": 9691,
+          "language": 6173,
+          "gmrc": 9875,
+          "makabansa": 9374,
           "mathematics": 1166
         },
         "4": {
@@ -33939,8 +33939,8 @@
         "7": 8953
       },
       "enrollmentTotal": 29693,
-      "deliveredTotal": 168712,
-      "deliveryPercentage": 568.19,
+      "deliveredTotal": 168778,
+      "deliveryPercentage": 568.41,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34764,10 +34764,10 @@
           "name": "DALANDANAN ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 98,
-              "language": 0,
-              "gmrc": 98,
-              "makabansa": 98,
+              "reading-and-literacy": 90,
+              "language": 90,
+              "gmrc": 90,
+              "makabansa": 90,
               "mathematics": 0
             },
             "4": {
@@ -34799,8 +34799,8 @@
             "7": 0
           },
           "enrollmentTotal": 186,
-          "deliveredTotal": 294,
-          "deliveryPercentage": 158.06
+          "deliveredTotal": 360,
+          "deliveryPercentage": 193.55
         },
         {
           "id": "dalandanan-national-high-school",

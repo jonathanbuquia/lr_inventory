@@ -14,41 +14,41 @@
       "Grade Level": 1,
       "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 97,
-      "Quantity of Textbooks Received": 98,
+      "Quantity of Textbooks Received": 90,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "SDO",
-      "GAP-TX": 0,
-      "Surplus-TX": 1
+      "GAP-TX": 7,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 1,
       "SUBJECTS": "Language",
       "Enrolment S.Y. 2025-2026": 97,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 90,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 97,
+      "GAP-TX": 7,
       "Surplus-TX": 0
     },
     {
       "Grade Level": 1,
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 97,
-      "Quantity of Textbooks Received": 98,
+      "Quantity of Textbooks Received": 90,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "SDO",
-      "GAP-TX": 0,
-      "Surplus-TX": 1
+      "GAP-TX": 7,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 1,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 97,
-      "Quantity of Textbooks Received": 98,
+      "Quantity of Textbooks Received": 90,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "SDO",
-      "GAP-TX": 0,
-      "Surplus-TX": 1
+      "GAP-TX": 7,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 1,
@@ -94,11 +94,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 96,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 98,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 96,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 2
     },
     {
       "Grade Level": 2,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:40.948Z"
+  "generatedAt": "2026-05-04T01:46:57.577Z"
 }
