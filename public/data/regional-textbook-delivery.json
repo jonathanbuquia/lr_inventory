@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-04T01:47:00.202Z",
+  "generatedAt": "2026-05-04T02:02:10.679Z",
   "grades": [
     {
       "grade": "1",
@@ -33904,10 +33904,10 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 9691,
-          "language": 6173,
-          "gmrc": 9875,
-          "makabansa": 9374,
+          "reading-and-literacy": 9601,
+          "language": 6083,
+          "gmrc": 9785,
+          "makabansa": 9284,
           "mathematics": 1166
         },
         "4": {
@@ -33919,7 +33919,7 @@
           "science": 9429,
           "pe-and-health": 8811,
           "epp": 245,
-          "music-and-arts": 1434
+          "music-and-arts": 1543
         },
         "7": {
           "english": 10885,
@@ -33939,8 +33939,8 @@
         "7": 8953
       },
       "enrollmentTotal": 29693,
-      "deliveredTotal": 168778,
-      "deliveryPercentage": 568.41,
+      "deliveredTotal": 168527,
+      "deliveryPercentage": 567.56,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34764,10 +34764,10 @@
           "name": "DALANDANAN ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 90,
-              "language": 90,
-              "gmrc": 90,
-              "makabansa": 90,
+              "reading-and-literacy": 0,
+              "language": 0,
+              "gmrc": 0,
+              "makabansa": 0,
               "mathematics": 0
             },
             "4": {
@@ -34779,7 +34779,7 @@
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 109
             },
             "7": {
               "english": 0,
@@ -34799,8 +34799,8 @@
             "7": 0
           },
           "enrollmentTotal": 186,
-          "deliveredTotal": 360,
-          "deliveryPercentage": 193.55
+          "deliveredTotal": 109,
+          "deliveryPercentage": 58.6
         },
         {
           "id": "dalandanan-national-high-school",
