@@ -536,7 +536,7 @@
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 160,
       "Surplus-TX": 0
     },
@@ -546,7 +546,7 @@
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 160,
       "Surplus-TX": 0
     },
@@ -576,7 +576,7 @@
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 160,
       "Surplus-TX": 0
     },
@@ -585,8 +585,8 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": 245,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 85
     },
@@ -596,7 +596,7 @@
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 160,
       "Surplus-TX": 0
     },
@@ -604,11 +604,11 @@
       "Grade Level": 8,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 160,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 160,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 245,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 85
     },
     {
       "Grade Level": 8,
@@ -616,7 +616,7 @@
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 160,
       "Surplus-TX": 0
     },
@@ -634,11 +634,11 @@
       "Grade Level": 9,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 124,
-      "Quantity of Textbooks Received": 185,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 61
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 124,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 9,
@@ -654,21 +654,21 @@
       "Grade Level": 9,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 124,
-      "Quantity of Textbooks Received": 187,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 63
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 124,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 9,
       "SUBJECTS": "AP",
       "Enrolment S.Y. 2025-2026": 124,
-      "Quantity of Textbooks Received": 178,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 54
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 124,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 9,
@@ -754,11 +754,11 @@
       "Grade Level": 10,
       "SUBJECTS": "AP",
       "Enrolment S.Y. 2025-2026": 138,
-      "Quantity of Textbooks Received": 185,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 47
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 138,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 10,
@@ -881,5 +881,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-05T14:11:30.769Z"
+  "generatedAt": "2026-05-05T14:16:30.874Z"
 }
