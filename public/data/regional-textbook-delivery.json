@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T03:52:09.402Z",
+  "generatedAt": "2026-05-05T04:07:07.722Z",
   "grades": [
     {
       "grade": "1",
@@ -33924,9 +33924,9 @@
         "7": {
           "english": 11668,
           "filipino": 0,
-          "mathematics": 8292,
+          "mathematics": 8675,
           "ve": 2524,
-          "araling-panlipunan": 9062,
+          "araling-panlipunan": 9445,
           "science": 9955,
           "pe-and-health": 9339,
           "tle": 9248,
@@ -33939,8 +33939,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30087,
-      "deliveredTotal": 174763,
-      "deliveryPercentage": 580.86,
+      "deliveredTotal": 175529,
+      "deliveryPercentage": 583.4,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34913,9 +34913,9 @@
             "7": {
               "english": 360,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 383,
               "ve": 0,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 383,
               "science": 383,
               "pe-and-health": 383,
               "tle": 383,
@@ -34928,8 +34928,8 @@
             "7": 394
           },
           "enrollmentTotal": 394,
-          "deliveredTotal": 1892,
-          "deliveryPercentage": 480.2
+          "deliveredTotal": 2658,
+          "deliveryPercentage": 674.62
         },
         {
           "id": "gen-t-de-leon-elementary-school",
