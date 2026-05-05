@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T07:07:23.620Z",
+  "generatedAt": "2026-05-05T07:32:15.221Z",
   "grades": [
     {
       "grade": "1",
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 2696,
+        "1": 2699,
         "4": 2665,
         "7": 2310
       },
-      "enrollmentTotal": 7671,
+      "enrollmentTotal": 7674,
       "deliveredTotal": 65687,
-      "deliveryPercentage": 856.3,
+      "deliveryPercentage": 855.97,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -8929,13 +8929,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 49,
+            "1": 52,
             "4": 58,
             "7": 0
           },
-          "enrollmentTotal": 107,
+          "enrollmentTotal": 110,
           "deliveredTotal": 651,
-          "deliveryPercentage": 608.41
+          "deliveryPercentage": 591.82
         },
         {
           "id": "dona-pilar-c-gonzaga-elementary-school",
