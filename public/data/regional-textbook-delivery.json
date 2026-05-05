@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T13:05:19.619Z",
+  "generatedAt": "2026-05-05T13:07:23.243Z",
   "grades": [
     {
       "grade": "1",
@@ -8656,7 +8656,7 @@
           "science": 3583,
           "pe-and-health": 2745,
           "epp": 245,
-          "music-and-arts": 1667
+          "music-and-arts": 1866
         },
         "7": {
           "english": 5565,
@@ -8676,8 +8676,8 @@
         "7": 4268
       },
       "enrollmentTotal": 9632,
-      "deliveredTotal": 93753,
-      "deliveryPercentage": 973.35,
+      "deliveredTotal": 93952,
+      "deliveryPercentage": 975.42,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9215,7 +9215,7 @@
               "science": 199,
               "pe-and-health": 199,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 199
             },
             "7": {
               "english": 429,
@@ -9235,8 +9235,8 @@
             "7": 293
           },
           "enrollmentTotal": 668,
-          "deliveredTotal": 6240,
-          "deliveryPercentage": 934.13
+          "deliveredTotal": 6439,
+          "deliveryPercentage": 963.92
         },
         {
           "id": "jose-fabella-memorial-school",
