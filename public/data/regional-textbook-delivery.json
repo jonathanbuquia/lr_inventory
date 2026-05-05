@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T14:02:01.218Z",
+  "generatedAt": "2026-05-05T14:07:09.132Z",
   "grades": [
     {
       "grade": "1",
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 2699,
+        "1": 2976,
         "4": 3065,
         "7": 4268
       },
-      "enrollmentTotal": 10032,
+      "enrollmentTotal": 10309,
       "deliveredTotal": 94380,
-      "deliveryPercentage": 940.79,
+      "deliveryPercentage": 915.51,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9101,13 +9101,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 277,
             "4": 400,
             "7": 314
           },
-          "enrollmentTotal": 714,
+          "enrollmentTotal": 991,
           "deliveredTotal": 9485,
-          "deliveryPercentage": 1328.43
+          "deliveryPercentage": 957.11
         },
         {
           "id": "hulo-integrated-school",
