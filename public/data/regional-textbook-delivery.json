@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T14:07:09.132Z",
+  "generatedAt": "2026-05-05T14:12:02.478Z",
   "grades": [
     {
       "grade": "1",
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 2976,
-        "4": 3065,
+        "1": 3197,
+        "4": 3358,
         "7": 4268
       },
-      "enrollmentTotal": 10309,
+      "enrollmentTotal": 10823,
       "deliveredTotal": 94380,
-      "deliveryPercentage": 915.51,
+      "deliveryPercentage": 872.03,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9015,13 +9015,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
+            "1": 221,
+            "4": 293,
             "7": 336
           },
-          "enrollmentTotal": 336,
+          "enrollmentTotal": 850,
           "deliveredTotal": 6235,
-          "deliveryPercentage": 1855.65
+          "deliveryPercentage": 733.53
         },
         {
           "id": "filemon-p-javier-elementary-school",

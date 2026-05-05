@@ -574,21 +574,21 @@
       "Grade Level": 8,
       "SUBJECTS": "AP",
       "Enrolment S.Y. 2025-2026": 160,
-      "Quantity of Textbooks Received": 178,
-      "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 18
-    },
-    {
-      "Grade Level": 8,
-      "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 160,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 160,
+      "Quantity of Textbooks Received": 245,
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 85
     },
     {
       "Grade Level": 8,
@@ -881,5 +881,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-05T13:04:22.814Z"
+  "generatedAt": "2026-05-05T14:11:30.769Z"
 }
