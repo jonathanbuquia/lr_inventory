@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T03:22:00.830Z",
+  "generatedAt": "2026-05-05T03:52:09.402Z",
   "grades": [
     {
       "grade": "1",
@@ -33936,11 +33936,11 @@
       "enrollmentByGrade": {
         "1": 9735,
         "4": 11005,
-        "7": 8953
+        "7": 9347
       },
-      "enrollmentTotal": 29693,
+      "enrollmentTotal": 30087,
       "deliveredTotal": 174763,
-      "deliveryPercentage": 588.57,
+      "deliveryPercentage": 580.86,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34925,11 +34925,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 394
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 394,
           "deliveredTotal": 1892,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 480.2
         },
         {
           "id": "gen-t-de-leon-elementary-school",
