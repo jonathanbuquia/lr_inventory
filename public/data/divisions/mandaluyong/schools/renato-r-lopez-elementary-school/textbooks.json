@@ -176,7 +176,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 42,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 17,
       "Surplus-TX": 0
     },
@@ -186,7 +186,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 43,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 16,
       "Surplus-TX": 0
     },
@@ -196,7 +196,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 43,
       "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 16,
       "Surplus-TX": 0
     },
@@ -205,8 +205,8 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 43,
-      "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 16,
       "Surplus-TX": 0
     },
@@ -216,7 +216,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 43,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 16,
       "Surplus-TX": 0
     },
@@ -226,7 +226,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 42,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 17,
       "Surplus-TX": 0
     },
@@ -236,7 +236,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 38,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 21,
       "Surplus-TX": 0
     },
@@ -256,7 +256,7 @@
       "Enrolment S.Y. 2025-2026": 59,
       "Quantity of Textbooks Received": 67,
       "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 8
     },
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-16T01:50:00.085Z"
+  "generatedAt": "2026-05-05T13:26:31.283Z"
 }

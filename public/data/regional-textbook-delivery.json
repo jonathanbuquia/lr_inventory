@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T13:21:57.036Z",
+  "generatedAt": "2026-05-05T13:26:59.849Z",
   "grades": [
     {
       "grade": "1",
@@ -8648,7 +8648,7 @@
           "mathematics": 285
         },
         "4": {
-          "english": 3492,
+          "english": 3565,
           "filipino": 3056,
           "mathematics": 3951,
           "gmrc": 3756,
@@ -8676,8 +8676,8 @@
         "7": 4268
       },
       "enrollmentTotal": 9632,
-      "deliveredTotal": 94094,
-      "deliveryPercentage": 976.89,
+      "deliveredTotal": 94167,
+      "deliveryPercentage": 977.65,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9035,7 +9035,7 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 73,
               "filipino": 73,
               "mathematics": 73,
               "gmrc": 73,
@@ -9063,8 +9063,8 @@
             "7": 0
           },
           "enrollmentTotal": 153,
-          "deliveredTotal": 935,
-          "deliveryPercentage": 611.11
+          "deliveredTotal": 1008,
+          "deliveryPercentage": 658.82
         },
         {
           "id": "highway-hills-integrated-school",
