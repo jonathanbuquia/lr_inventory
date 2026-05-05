@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T07:02:15.789Z",
+  "generatedAt": "2026-05-05T07:07:23.620Z",
   "grades": [
     {
       "grade": "1",
@@ -8641,10 +8641,10 @@
       "name": "MANDALUYONG",
       "totals": {
         "1": {
-          "reading-and-literacy": 4494,
-          "language": 4357,
-          "gmrc": 4458,
-          "makabansa": 4494,
+          "reading-and-literacy": 4538,
+          "language": 4401,
+          "gmrc": 4502,
+          "makabansa": 4538,
           "mathematics": 285
         },
         "4": {
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 2587,
+        "1": 2696,
         "4": 2665,
         "7": 2310
       },
-      "enrollmentTotal": 7562,
-      "deliveredTotal": 65511,
-      "deliveryPercentage": 866.32,
+      "enrollmentTotal": 7671,
+      "deliveredTotal": 65687,
+      "deliveryPercentage": 856.3,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9673,10 +9673,10 @@
           "name": "SENATE PRESIDENT NEPTALI A. GONZALES INTEGRATED SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 44,
+              "language": 44,
+              "gmrc": 44,
+              "makabansa": 44,
               "mathematics": 0
             },
             "4": {
@@ -9703,13 +9703,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 109,
             "4": 0,
             "7": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 318,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 109,
+          "deliveredTotal": 494,
+          "deliveryPercentage": 453.21
         }
       ]
     },
