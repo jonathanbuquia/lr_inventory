@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T08:31:54.655Z",
+  "generatedAt": "2026-05-05T13:05:19.619Z",
   "grades": [
     {
       "grade": "1",
@@ -8659,25 +8659,25 @@
           "music-and-arts": 1667
         },
         "7": {
-          "english": 1944,
-          "filipino": 1239,
-          "mathematics": 2907,
-          "ve": 1239,
-          "araling-panlipunan": 2936,
-          "science": 2933,
-          "pe-and-health": 2937,
-          "tle": 2937,
-          "music-and-arts": 2939
+          "english": 5565,
+          "filipino": 5565,
+          "mathematics": 5557,
+          "ve": 5565,
+          "araling-panlipunan": 5565,
+          "science": 5565,
+          "pe-and-health": 5565,
+          "tle": 5565,
+          "music-and-arts": 5565
         }
       },
       "enrollmentByGrade": {
         "1": 2699,
         "4": 2665,
-        "7": 2310
+        "7": 4268
       },
-      "enrollmentTotal": 7674,
-      "deliveredTotal": 65687,
-      "deliveryPercentage": 855.97,
+      "enrollmentTotal": 9632,
+      "deliveredTotal": 93753,
+      "deliveryPercentage": 973.35,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -8703,9 +8703,9 @@
             },
             "7": {
               "english": 482,
-              "filipino": 0,
+              "filipino": 482,
               "mathematics": 482,
-              "ve": 0,
+              "ve": 482,
               "araling-panlipunan": 482,
               "science": 482,
               "pe-and-health": 482,
@@ -8719,8 +8719,8 @@
             "7": 350
           },
           "enrollmentTotal": 1017,
-          "deliveredTotal": 7927,
-          "deliveryPercentage": 779.45
+          "deliveredTotal": 8891,
+          "deliveryPercentage": 874.24
         },
         {
           "id": "amado-t-reyes-elementary-schools",
@@ -8788,25 +8788,25 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 557,
+              "filipino": 557,
+              "mathematics": 557,
+              "ve": 557,
+              "araling-panlipunan": 557,
+              "science": 557,
+              "pe-and-health": 557,
+              "tle": 557,
+              "music-and-arts": 557
             }
           },
           "enrollmentByGrade": {
             "1": 236,
             "4": 291,
-            "7": 0
+            "7": 491
           },
-          "enrollmentTotal": 527,
-          "deliveredTotal": 2155,
-          "deliveryPercentage": 408.92
+          "enrollmentTotal": 1018,
+          "deliveredTotal": 7168,
+          "deliveryPercentage": 704.13
         },
         {
           "id": "bonifacio-javier-senior-high-school",
@@ -9003,25 +9003,25 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 520,
+              "filipino": 520,
+              "mathematics": 520,
+              "ve": 520,
+              "araling-panlipunan": 520,
+              "science": 520,
+              "pe-and-health": 520,
+              "tle": 520,
+              "music-and-arts": 520
             }
           },
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 336
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 1555,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 336,
+          "deliveredTotal": 6235,
+          "deliveryPercentage": 1855.65
         },
         {
           "id": "filemon-p-javier-elementary-school",
@@ -9132,14 +9132,14 @@
               "music-and-arts": 440
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
+              "english": 360,
+              "filipino": 360,
+              "mathematics": 360,
+              "ve": 360,
+              "araling-panlipunan": 360,
+              "science": 360,
+              "pe-and-health": 360,
+              "tle": 360,
               "music-and-arts": 360
             }
           },
@@ -9149,8 +9149,8 @@
             "7": 280
           },
           "enrollmentTotal": 765,
-          "deliveredTotal": 3818,
-          "deliveryPercentage": 499.08
+          "deliveredTotal": 6698,
+          "deliveryPercentage": 875.56
         },
         {
           "id": "ilaya-barangka-integrated-school",
@@ -9175,10 +9175,10 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
+              "english": 317,
+              "filipino": 317,
               "mathematics": 317,
-              "ve": 0,
+              "ve": 317,
               "araling-panlipunan": 317,
               "science": 317,
               "pe-and-health": 317,
@@ -9192,8 +9192,8 @@
             "7": 209
           },
           "enrollmentTotal": 597,
-          "deliveredTotal": 4280,
-          "deliveryPercentage": 716.92
+          "deliveredTotal": 5231,
+          "deliveryPercentage": 876.21
         },
         {
           "id": "isaac-lopez-integrated-school",
@@ -9262,11 +9262,11 @@
             },
             "7": {
               "english": 223,
-              "filipino": 0,
-              "mathematics": 201,
-              "ve": 0,
-              "araling-panlipunan": 222,
-              "science": 219,
+              "filipino": 223,
+              "mathematics": 223,
+              "ve": 223,
+              "araling-panlipunan": 223,
+              "science": 223,
               "pe-and-health": 223,
               "tle": 223,
               "music-and-arts": 223
@@ -9278,8 +9278,8 @@
             "7": 183
           },
           "enrollmentTotal": 459,
-          "deliveredTotal": 3245,
-          "deliveryPercentage": 706.97
+          "deliveredTotal": 3718,
+          "deliveryPercentage": 810.02
         },
         {
           "id": "mandaluyong-addition-hills-elementary-school",
@@ -9390,15 +9390,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
+              "english": 676,
+              "filipino": 676,
               "mathematics": 676,
-              "ve": 0,
+              "ve": 676,
               "araling-panlipunan": 676,
               "science": 676,
               "pe-and-health": 676,
               "tle": 676,
-              "music-and-arts": 0
+              "music-and-arts": 676
             }
           },
           "enrollmentByGrade": {
@@ -9407,8 +9407,8 @@
             "7": 496
           },
           "enrollmentTotal": 496,
-          "deliveredTotal": 3380,
-          "deliveryPercentage": 681.45
+          "deliveredTotal": 6084,
+          "deliveryPercentage": 1226.61
         },
         {
           "id": "mataas-na-paaralang-neptali-a-gonzales",
@@ -9433,25 +9433,25 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 873,
+              "filipino": 873,
+              "mathematics": 873,
+              "ve": 873,
+              "araling-panlipunan": 873,
+              "science": 873,
+              "pe-and-health": 873,
+              "tle": 873,
+              "music-and-arts": 873
             }
           },
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 802
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 802,
+          "deliveredTotal": 7857,
+          "deliveryPercentage": 979.68
         },
         {
           "id": "nueve-de-febrero-elementary-school",
@@ -9691,25 +9691,25 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
+              "english": 318,
+              "filipino": 318,
+              "mathematics": 318,
+              "ve": 318,
+              "araling-panlipunan": 318,
+              "science": 318,
+              "pe-and-health": 318,
+              "tle": 318,
               "music-and-arts": 318
             }
           },
           "enrollmentByGrade": {
             "1": 109,
             "4": 0,
-            "7": 0
+            "7": 329
           },
-          "enrollmentTotal": 109,
-          "deliveredTotal": 494,
-          "deliveryPercentage": 453.21
+          "enrollmentTotal": 438,
+          "deliveredTotal": 3038,
+          "deliveryPercentage": 693.61
         }
       ]
     },
