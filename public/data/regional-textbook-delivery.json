@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T13:07:23.243Z",
+  "generatedAt": "2026-05-05T13:21:57.036Z",
   "grades": [
     {
       "grade": "1",
@@ -8656,7 +8656,7 @@
           "science": 3583,
           "pe-and-health": 2745,
           "epp": 245,
-          "music-and-arts": 1866
+          "music-and-arts": 2008
         },
         "7": {
           "english": 5565,
@@ -8676,8 +8676,8 @@
         "7": 4268
       },
       "enrollmentTotal": 9632,
-      "deliveredTotal": 93952,
-      "deliveryPercentage": 975.42,
+      "deliveredTotal": 94094,
+      "deliveryPercentage": 976.89,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9559,7 +9559,7 @@
               "science": 142,
               "pe-and-health": 142,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 142
             },
             "7": {
               "english": 0,
@@ -9579,8 +9579,8 @@
             "7": 0
           },
           "enrollmentTotal": 272,
-          "deliveredTotal": 1699,
-          "deliveryPercentage": 624.63
+          "deliveredTotal": 1841,
+          "deliveryPercentage": 676.84
         },
         {
           "id": "pleasant-hills-elementary-school",
