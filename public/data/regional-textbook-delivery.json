@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T06:52:19.279Z",
+  "generatedAt": "2026-05-05T06:57:15.951Z",
   "grades": [
     {
       "grade": "1",
@@ -8641,10 +8641,10 @@
       "name": "MANDALUYONG",
       "totals": {
         "1": {
-          "reading-and-literacy": 3924,
-          "language": 2726,
-          "gmrc": 3888,
-          "makabansa": 3924,
+          "reading-and-literacy": 4179,
+          "language": 3252,
+          "gmrc": 4143,
+          "makabansa": 4179,
           "mathematics": 285
         },
         "4": {
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 2103,
+        "1": 2334,
         "4": 2665,
         "7": 2310
       },
-      "enrollmentTotal": 7078,
-      "deliveredTotal": 62170,
-      "deliveryPercentage": 878.36,
+      "enrollmentTotal": 7309,
+      "deliveredTotal": 63461,
+      "deliveryPercentage": 868.26,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -8771,7 +8771,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 271,
-              "language": 0,
+              "language": 271,
               "gmrc": 271,
               "makabansa": 271,
               "mathematics": 0
@@ -8805,8 +8805,8 @@
             "7": 0
           },
           "enrollmentTotal": 527,
-          "deliveredTotal": 1884,
-          "deliveryPercentage": 357.5
+          "deliveredTotal": 2155,
+          "deliveryPercentage": 408.92
         },
         {
           "id": "bonifacio-javier-senior-high-school",
@@ -8942,10 +8942,10 @@
           "name": "DONA PILAR C. GONZAGA ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 255,
+              "language": 255,
+              "gmrc": 255,
+              "makabansa": 255,
               "mathematics": 0
             },
             "4": {
@@ -8972,13 +8972,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 231,
             "4": 0,
             "7": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 231,
+          "deliveredTotal": 1020,
+          "deliveryPercentage": 441.56
         },
         {
           "id": "eulogio-rodriguez-integrated-school",
