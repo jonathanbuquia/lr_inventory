@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T07:32:15.221Z",
+  "generatedAt": "2026-05-05T08:31:54.655Z",
   "grades": [
     {
       "grade": "1",
@@ -33904,10 +33904,10 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 9751,
+          "reading-and-literacy": 9937,
           "language": 6833,
-          "gmrc": 9935,
-          "makabansa": 9449,
+          "gmrc": 10130,
+          "makabansa": 9635,
           "mathematics": 1166
         },
         "4": {
@@ -33919,7 +33919,7 @@
           "science": 9539,
           "pe-and-health": 8911,
           "epp": 245,
-          "music-and-arts": 1543
+          "music-and-arts": 1692
         },
         "7": {
           "english": 11668,
@@ -33934,13 +33934,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9735,
-        "4": 11005,
+        "1": 9826,
+        "4": 11135,
         "7": 9347
       },
-      "enrollmentTotal": 30087,
-      "deliveredTotal": 177504,
-      "deliveryPercentage": 589.97,
+      "enrollmentTotal": 30308,
+      "deliveredTotal": 178220,
+      "deliveryPercentage": 588.03,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -36613,10 +36613,10 @@
           "name": "SERRANO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 186,
               "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "gmrc": 195,
+              "makabansa": 186,
               "mathematics": 0
             },
             "4": {
@@ -36628,7 +36628,7 @@
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 149
             },
             "7": {
               "english": 0,
@@ -36643,13 +36643,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
+            "1": 91,
+            "4": 130,
             "7": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 221,
+          "deliveredTotal": 716,
+          "deliveryPercentage": 323.98
         },
         {
           "id": "silvestre-lazaro-elementary-school",
