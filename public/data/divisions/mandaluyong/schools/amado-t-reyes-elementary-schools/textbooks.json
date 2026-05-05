@@ -53,11 +53,11 @@
     {
       "Grade Level": 1,
       "SUBJECTS": "Math",
-      "Enrolment S.Y. 2025-2026": 23,
-      "Quantity of Textbooks Received": 0,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 23,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-24T04:16:32.994Z"
+  "generatedAt": "2026-05-05T14:41:34.703Z"
 }
