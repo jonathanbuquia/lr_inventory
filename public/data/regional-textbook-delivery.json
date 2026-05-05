@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T05:12:22.473Z",
+  "generatedAt": "2026-05-05T05:22:18.947Z",
   "grades": [
     {
       "grade": "1",
@@ -33911,13 +33911,13 @@
           "mathematics": 1166
         },
         "4": {
-          "english": 9426,
-          "filipino": 9533,
-          "mathematics": 9719,
-          "gmrc": 10053,
-          "araling-panlipunan": 9302,
-          "science": 9429,
-          "pe-and-health": 8811,
+          "english": 9546,
+          "filipino": 9653,
+          "mathematics": 9819,
+          "gmrc": 10153,
+          "araling-panlipunan": 9412,
+          "science": 9539,
+          "pe-and-health": 8911,
           "epp": 245,
           "music-and-arts": 1543
         },
@@ -33939,8 +33939,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30087,
-      "deliveredTotal": 176744,
-      "deliveryPercentage": 587.44,
+      "deliveredTotal": 177504,
+      "deliveryPercentage": 589.97,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -36190,13 +36190,13 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 120,
+              "filipino": 120,
+              "mathematics": 100,
+              "gmrc": 100,
+              "araling-panlipunan": 110,
+              "science": 110,
+              "pe-and-health": 100,
               "epp": 0,
               "music-and-arts": 0
             },
@@ -36218,7 +36218,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 615,
+          "deliveredTotal": 1375,
           "deliveryPercentage": 0
         },
         {
