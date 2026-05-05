@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T04:22:09.063Z",
+  "generatedAt": "2026-05-05T04:57:24.884Z",
   "grades": [
     {
       "grade": "1",
@@ -23554,7 +23554,7 @@
         },
         "7": {
           "english": 15688,
-          "filipino": 16416,
+          "filipino": 16584,
           "mathematics": 14763,
           "ve": 11462,
           "araling-panlipunan": 15664,
@@ -23570,8 +23570,8 @@
         "7": 36252
       },
       "enrollmentTotal": 105174,
-      "deliveredTotal": 607554,
-      "deliveryPercentage": 577.67,
+      "deliveredTotal": 607722,
+      "deliveryPercentage": 577.83,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24672,7 +24672,7 @@
             },
             "7": {
               "english": 0,
-              "filipino": 0,
+              "filipino": 168,
               "mathematics": 0,
               "ve": 0,
               "araling-panlipunan": 0,
@@ -24688,8 +24688,8 @@
             "7": 164
           },
           "enrollmentTotal": 164,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 168,
+          "deliveryPercentage": 102.44
         },
         {
           "id": "camp-gen-e-aguinaldo-high-school",
