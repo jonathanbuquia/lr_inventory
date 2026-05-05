@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T04:57:24.884Z",
+  "generatedAt": "2026-05-05T05:12:22.473Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 15688,
+          "english": 15856,
           "filipino": 16584,
-          "mathematics": 14763,
-          "ve": 11462,
-          "araling-panlipunan": 15664,
-          "science": 13470,
-          "pe-and-health": 16416,
-          "tle": 11704,
-          "music-and-arts": 16416
+          "mathematics": 14931,
+          "ve": 11630,
+          "araling-panlipunan": 15832,
+          "science": 13638,
+          "pe-and-health": 16584,
+          "tle": 11872,
+          "music-and-arts": 16584
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 36252
       },
       "enrollmentTotal": 105174,
-      "deliveredTotal": 607722,
-      "deliveryPercentage": 577.83,
+      "deliveredTotal": 609066,
+      "deliveryPercentage": 579.1,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -24671,15 +24671,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 168,
               "filipino": 168,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "mathematics": 168,
+              "ve": 168,
+              "araling-panlipunan": 168,
+              "science": 168,
+              "pe-and-health": 168,
+              "tle": 168,
+              "music-and-arts": 168
             }
           },
           "enrollmentByGrade": {
@@ -24688,8 +24688,8 @@
             "7": 164
           },
           "enrollmentTotal": 164,
-          "deliveredTotal": 168,
-          "deliveryPercentage": 102.44
+          "deliveredTotal": 1512,
+          "deliveryPercentage": 921.95
         },
         {
           "id": "camp-gen-e-aguinaldo-high-school",
@@ -33904,10 +33904,10 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 9601,
-          "language": 6683,
-          "gmrc": 9785,
-          "makabansa": 9284,
+          "reading-and-literacy": 9751,
+          "language": 6833,
+          "gmrc": 9935,
+          "makabansa": 9449,
           "mathematics": 1166
         },
         "4": {
@@ -33939,8 +33939,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30087,
-      "deliveredTotal": 176129,
-      "deliveryPercentage": 585.4,
+      "deliveredTotal": 176744,
+      "deliveryPercentage": 587.44,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -36183,10 +36183,10 @@
           "name": "PIO CARREON ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 150,
+              "language": 150,
+              "gmrc": 150,
+              "makabansa": 165,
               "mathematics": 0
             },
             "4": {
@@ -36218,7 +36218,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 615,
           "deliveryPercentage": 0
         },
         {
