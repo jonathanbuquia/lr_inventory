@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T05:27:15.589Z",
+  "generatedAt": "2026-05-05T06:52:19.279Z",
   "grades": [
     {
       "grade": "1",
@@ -8641,11 +8641,11 @@
       "name": "MANDALUYONG",
       "totals": {
         "1": {
-          "reading-and-literacy": 4139,
-          "language": 3226,
-          "gmrc": 4103,
-          "makabansa": 4354,
-          "mathematics": 215
+          "reading-and-literacy": 3924,
+          "language": 2726,
+          "gmrc": 3888,
+          "makabansa": 3924,
+          "mathematics": 285
         },
         "4": {
           "english": 3492,
@@ -8676,8 +8676,8 @@
         "7": 2310
       },
       "enrollmentTotal": 7078,
-      "deliveredTotal": 63460,
-      "deliveryPercentage": 896.58,
+      "deliveredTotal": 62170,
+      "deliveryPercentage": 878.36,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9587,11 +9587,11 @@
           "name": "PLEASANT HILLS ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 500,
-              "language": 785,
-              "gmrc": 500,
-              "makabansa": 715,
-              "mathematics": 215
+              "reading-and-literacy": 285,
+              "language": 285,
+              "gmrc": 285,
+              "makabansa": 285,
+              "mathematics": 285
             },
             "4": {
               "english": 847,
@@ -9622,8 +9622,8 @@
             "7": 0
           },
           "enrollmentTotal": 482,
-          "deliveredTotal": 7206,
-          "deliveryPercentage": 1495.02
+          "deliveredTotal": 5916,
+          "deliveryPercentage": 1227.39
         },
         {
           "id": "renato-r-lopez-elementary-school",
