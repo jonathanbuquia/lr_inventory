@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T14:27:01.690Z",
+  "generatedAt": "2026-05-05T14:52:35.477Z",
   "grades": [
     {
       "grade": "1",
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 3197,
+        "1": 3537,
         "4": 3492,
         "7": 4268
       },
-      "enrollmentTotal": 10957,
+      "enrollmentTotal": 11297,
       "deliveredTotal": 94380,
-      "deliveryPercentage": 861.37,
+      "deliveryPercentage": 835.44,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9316,13 +9316,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 340,
             "4": 0,
             "7": 0
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 340,
           "deliveredTotal": 3254,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 957.06
         },
         {
           "id": "mandaluyong-elementary-school",
