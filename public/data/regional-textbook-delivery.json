@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T05:22:18.947Z",
+  "generatedAt": "2026-05-05T05:27:15.589Z",
   "grades": [
     {
       "grade": "1",
@@ -8641,9 +8641,9 @@
       "name": "MANDALUYONG",
       "totals": {
         "1": {
-          "reading-and-literacy": 4062,
+          "reading-and-literacy": 4139,
           "language": 3226,
-          "gmrc": 4176,
+          "gmrc": 4103,
           "makabansa": 4354,
           "mathematics": 215
         },
@@ -8676,8 +8676,8 @@
         "7": 2310
       },
       "enrollmentTotal": 7078,
-      "deliveredTotal": 63456,
-      "deliveryPercentage": 896.52,
+      "deliveredTotal": 63460,
+      "deliveryPercentage": 896.58,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9544,9 +9544,9 @@
           "name": "PLAINVIEW ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 100,
+              "reading-and-literacy": 177,
               "language": 177,
-              "gmrc": 250,
+              "gmrc": 177,
               "makabansa": 177,
               "mathematics": 0
             },
@@ -9579,8 +9579,8 @@
             "7": 0
           },
           "enrollmentTotal": 272,
-          "deliveredTotal": 1695,
-          "deliveryPercentage": 623.16
+          "deliveredTotal": 1699,
+          "deliveryPercentage": 624.63
         },
         {
           "id": "pleasant-hills-elementary-school",
