@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T06:57:15.951Z",
+  "generatedAt": "2026-05-05T07:02:15.789Z",
   "grades": [
     {
       "grade": "1",
@@ -8641,10 +8641,10 @@
       "name": "MANDALUYONG",
       "totals": {
         "1": {
-          "reading-and-literacy": 4179,
-          "language": 3252,
-          "gmrc": 4143,
-          "makabansa": 4179,
+          "reading-and-literacy": 4494,
+          "language": 4357,
+          "gmrc": 4458,
+          "makabansa": 4494,
           "mathematics": 285
         },
         "4": {
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 2334,
+        "1": 2587,
         "4": 2665,
         "7": 2310
       },
-      "enrollmentTotal": 7309,
-      "deliveredTotal": 63461,
-      "deliveryPercentage": 868.26,
+      "enrollmentTotal": 7562,
+      "deliveredTotal": 65511,
+      "deliveryPercentage": 866.32,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9287,7 +9287,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 410,
-              "language": 0,
+              "language": 410,
               "gmrc": 410,
               "makabansa": 410,
               "mathematics": 0
@@ -9321,7 +9321,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 2844,
+          "deliveredTotal": 3254,
           "deliveryPercentage": 0
         },
         {
@@ -9459,7 +9459,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 380,
-              "language": 0,
+              "language": 380,
               "gmrc": 380,
               "makabansa": 380,
               "mathematics": 0
@@ -9493,18 +9493,18 @@
             "7": 0
           },
           "enrollmentTotal": 482,
-          "deliveredTotal": 3440,
-          "deliveryPercentage": 713.69
+          "deliveredTotal": 3820,
+          "deliveryPercentage": 792.53
         },
         {
           "id": "pedro-p-cruz-mauway-elementary-school",
           "name": "PEDRO P. CRUZ (MAUWAY) ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 315,
+              "language": 315,
+              "gmrc": 315,
+              "makabansa": 315,
               "mathematics": 0
             },
             "4": {
@@ -9531,13 +9531,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
+            "1": 253,
             "4": 0,
             "7": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 253,
+          "deliveredTotal": 1260,
+          "deliveryPercentage": 498.02
         },
         {
           "id": "plainview-elementary-school",
