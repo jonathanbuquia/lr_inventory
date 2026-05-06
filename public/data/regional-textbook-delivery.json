@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-06T03:47:10.989Z",
+  "generatedAt": "2026-05-06T04:02:40.721Z",
   "grades": [
     {
       "grade": "1",
@@ -18326,7 +18326,7 @@
       "name": "PARANAQUE",
       "totals": {
         "1": {
-          "reading-and-literacy": 10305,
+          "reading-and-literacy": 10815,
           "language": 7170,
           "gmrc": 10347,
           "makabansa": 10354,
@@ -18338,9 +18338,9 @@
           "mathematics": 8746,
           "gmrc": 9104,
           "araling-panlipunan": 8788,
-          "science": 8354,
+          "science": 8549,
           "pe-and-health": 8149,
-          "epp": 779,
+          "epp": 933,
           "music-and-arts": 7854
         },
         "7": {
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 186940,
-      "deliveryPercentage": 782.54,
+      "deliveredTotal": 187799,
+      "deliveryPercentage": 786.13,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -18584,7 +18584,7 @@
           "name": "COL. E. DE LEON ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 510,
               "language": 0,
               "gmrc": 410,
               "makabansa": 510,
@@ -18596,9 +18596,9 @@
               "mathematics": 240,
               "gmrc": 240,
               "araling-panlipunan": 200,
-              "science": 0,
+              "science": 195,
               "pe-and-health": 0,
-              "epp": 0,
+              "epp": 154,
               "music-and-arts": 240
             },
             "7": {
@@ -18619,8 +18619,8 @@
             "7": 0
           },
           "enrollmentTotal": 526,
-          "deliveredTotal": 1840,
-          "deliveryPercentage": 349.81
+          "deliveredTotal": 2699,
+          "deliveryPercentage": 513.12
         },
         {
           "id": "don-bosco-elementary-school",
