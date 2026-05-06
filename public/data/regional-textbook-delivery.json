@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-05T14:57:05.107Z",
+  "generatedAt": "2026-05-06T03:47:10.989Z",
   "grades": [
     {
       "grade": "1",
@@ -18328,8 +18328,8 @@
         "1": {
           "reading-and-literacy": 10305,
           "language": 7170,
-          "gmrc": 9937,
-          "makabansa": 9844,
+          "gmrc": 10347,
+          "makabansa": 10354,
           "mathematics": 902
         },
         "4": {
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 186020,
-      "deliveryPercentage": 778.68,
+      "deliveredTotal": 186940,
+      "deliveryPercentage": 782.54,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -18586,8 +18586,8 @@
             "1": {
               "reading-and-literacy": 0,
               "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "gmrc": 410,
+              "makabansa": 510,
               "mathematics": 0
             },
             "4": {
@@ -18619,8 +18619,8 @@
             "7": 0
           },
           "enrollmentTotal": 526,
-          "deliveredTotal": 920,
-          "deliveryPercentage": 174.9
+          "deliveredTotal": 1840,
+          "deliveryPercentage": 349.81
         },
         {
           "id": "don-bosco-elementary-school",
