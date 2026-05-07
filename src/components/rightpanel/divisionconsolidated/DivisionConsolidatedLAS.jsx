@@ -17,6 +17,7 @@ import {
   normalizeText,
   toNumber,
 } from "../../../utils/dashboardData";
+import { downloadLearningResourceSummaryReport } from "../../../utils/exportLearningResourceSummaryReport";
 
 const formatNumber = (value) => Number(value || 0).toLocaleString();
 const pickGradeEnrollment = (currentValue, nextValue) =>
@@ -71,7 +72,9 @@ const shouldIncludeGradeForSchool = (schoolName, grade) => {
 const formatExpandedGradeLabel = (grade) =>
   normalizeGradeKey(grade) === "KINDER"
     ? "Kinder"
-    : `Grade ${normalizeGradeKey(grade)}`;
+    : normalizeGradeKey(grade) === "SHS"
+      ? "SHS"
+      : `Grade ${normalizeGradeKey(grade)}`;
 
 const hasQuarterData = (rowLike) =>
   toNumber(rowLike?.target) > 0 ||
@@ -95,6 +98,8 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
   const [openSchools, setOpenSchools] = useState({});
   const [openGrades, setOpenGrades] = useState({});
   const [schoolQuarters, setSchoolQuarters] = useState({});
+  const [divisionName, setDivisionName] = useState("");
+  const [isExporting, setIsExporting] = useState(false);
 
   const toggleSchool = (schoolId) => {
     setOpenSchools((prev) => ({
@@ -126,6 +131,7 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
         setOpenSchools({});
         setOpenGrades({});
         setSchoolQuarters({});
+        setDivisionName("");
         return;
       }
 
@@ -135,6 +141,7 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
       setOpenSchools({});
       setOpenGrades({});
       setSchoolQuarters({});
+      setDivisionName("");
 
       try {
         const schoolsRes = await fetch(
@@ -149,6 +156,9 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
 
         const schoolsData = await schoolsRes.json();
         const schoolList = getSchoolsArray(schoolsData);
+        setDivisionName(
+          String(schoolsData?.division?.name || selectedDivision).trim()
+        );
 
         if (!schoolList.length) {
           setErrorText("No schools found inside schools.json.");
@@ -402,6 +412,109 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
       .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
   }, [rows, schoolQuarters]);
 
+  const schoolQuarterSheets = useMemo(() => {
+    const grouped = {};
+
+    rows.forEach((row) => {
+      const schoolId = row.__schoolId || "";
+      const schoolName = row.__schoolName || "Unknown School";
+      const grade = normalizeGradeKey(getGradeValue(row));
+
+      if (!schoolId || !grade) return;
+
+      const subject = String(getSubjectValue(row) ?? "").trim();
+      const safeSubject =
+        subject || (normalizeGradeKey(grade) === "KINDER" ? "Kinder" : "");
+      if (!safeSubject) return;
+
+      QUARTERS.slice(1).forEach((quarter) => {
+        const values = getLasValuesForQuarter(row, quarter);
+        const key = `${schoolId}__${grade}__${quarter}__${safeSubject.toUpperCase()}`;
+
+        if (!grouped[key]) {
+          grouped[key] = {
+            schoolId,
+            schoolName,
+            grade,
+            gradeLabel: formatExpandedGradeLabel(grade),
+            quarter,
+            subject: safeSubject,
+            enrolled: 0,
+            received: 0,
+            gap: 0,
+            surplus: 0,
+          };
+        }
+
+        grouped[key].enrolled = pickGradeEnrollment(
+          grouped[key].enrolled,
+          getEnrolmentValue(row)
+        );
+        grouped[key].received += values.received;
+        grouped[key].gap += values.gap;
+        grouped[key].surplus += values.surplus;
+      });
+    });
+
+    const sheets = {};
+
+    Object.values(grouped).forEach((item) => {
+      if (!sheets[item.schoolId]) {
+        sheets[item.schoolId] = {
+          schoolId: item.schoolId,
+          schoolName: item.schoolName,
+          sheetName: item.schoolName,
+          quarterSections: QUARTERS.slice(1).map((quarter) => ({
+            quarter,
+            rows: [],
+          })),
+        };
+      }
+
+      const section = sheets[item.schoolId].quarterSections.find(
+        (quarterBlock) => quarterBlock.quarter === item.quarter
+      );
+      section.rows.push({
+        grade: item.grade,
+        gradeLabel: item.gradeLabel,
+        subject: item.subject,
+        enrolled: item.enrolled,
+        received: item.received,
+        gap: item.gap,
+        surplus: item.surplus,
+      });
+    });
+
+    return Object.values(sheets)
+      .map((sheet) => ({
+        ...sheet,
+        quarterSections: sheet.quarterSections.map((section) => ({
+          ...section,
+          rows: section.rows.sort((a, b) => {
+            const gradeDiff = gradeSortValue(a.grade) - gradeSortValue(b.grade);
+            if (gradeDiff !== 0) return gradeDiff;
+            return a.subject.localeCompare(b.subject);
+          }),
+        })),
+      }))
+      .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+  }, [rows]);
+
+  const handleDownloadSummaryReport = () => {
+    if (loading || schoolQuarterSheets.length === 0) return;
+
+    setIsExporting(true);
+    try {
+      downloadLearningResourceSummaryReport({
+        divisionName: divisionName || selectedDivision || "DIVISION",
+        reportName: "LAS",
+        schoolSheets: schoolQuarterSheets,
+      });
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
   return (
     <section className="dctWrap">
       <div className="dctHeader">
@@ -412,6 +525,17 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
               ? `Selected Division: ${selectedDivision}`
               : "No division selected"}
           </div>
+        </div>
+
+        <div className="dctHeaderActions">
+          <button
+            type="button"
+            className="dctExportBtn"
+            onClick={handleDownloadSummaryReport}
+            disabled={loading || schoolQuarterSheets.length === 0 || isExporting}
+          >
+            {isExporting ? "Preparing..." : "Download LAS Summary Report"}
+          </button>
         </div>
       </div>
 
