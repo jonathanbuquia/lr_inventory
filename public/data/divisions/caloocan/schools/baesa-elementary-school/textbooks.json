@@ -254,19 +254,19 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 250,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 250
     },
     {
       "Grade Level": 5,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 250,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 250
     },
@@ -305,8 +305,8 @@
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 250,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 250
     },
@@ -315,8 +315,8 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 250,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 250
     },
@@ -325,8 +325,8 @@
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 250,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 250
     },
@@ -335,8 +335,8 @@
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 250,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 250
     },
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-14T03:26:22.056Z"
+  "generatedAt": "2026-05-14T03:31:22.375Z"
 }

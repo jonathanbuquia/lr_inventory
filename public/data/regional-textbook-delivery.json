@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T03:27:08.908Z",
+  "generatedAt": "2026-05-14T03:32:02.938Z",
   "grades": [
     {
       "grade": "1",
@@ -134,7 +134,7 @@
           "science": 18948,
           "pe-and-health": 18955,
           "epp": 2579,
-          "music-and-arts": 9133
+          "music-and-arts": 9383
         },
         "7": {
           "english": 17606,
@@ -154,8 +154,8 @@
         "7": 16293
       },
       "enrollmentTotal": 49366,
-      "deliveredTotal": 361271,
-      "deliveryPercentage": 731.82,
+      "deliveredTotal": 361521,
+      "deliveryPercentage": 732.33,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -478,7 +478,7 @@
               "science": 250,
               "pe-and-health": 250,
               "epp": 250,
-              "music-and-arts": 0
+              "music-and-arts": 250
             },
             "7": {
               "english": 0,
@@ -498,7 +498,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 3116,
+          "deliveredTotal": 3366,
           "deliveryPercentage": 0
         },
         {
@@ -14468,25 +14468,25 @@
           "music-and-arts": 7124
         },
         "7": {
-          "english": 8834,
+          "english": 8317,
           "filipino": 310,
-          "mathematics": 8834,
+          "mathematics": 8317,
           "ve": 7347,
-          "araling-panlipunan": 8834,
-          "science": 8834,
-          "pe-and-health": 8834,
-          "tle": 8834,
+          "araling-panlipunan": 8317,
+          "science": 8317,
+          "pe-and-health": 8317,
+          "tle": 8317,
           "music-and-arts": 6822
         }
       },
       "enrollmentByGrade": {
         "1": 5394,
         "4": 6708,
-        "7": 7746
+        "7": 7288
       },
-      "enrollmentTotal": 19848,
-      "deliveredTotal": 149868,
-      "deliveryPercentage": 755.08,
+      "enrollmentTotal": 19390,
+      "deliveredTotal": 146766,
+      "deliveryPercentage": 756.92,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15844,25 +15844,25 @@
               "music-and-arts": 497
             },
             "7": {
-              "english": 517,
+              "english": 0,
               "filipino": 0,
-              "mathematics": 517,
+              "mathematics": 0,
               "ve": 0,
-              "araling-panlipunan": 517,
-              "science": 517,
-              "pe-and-health": 517,
-              "tle": 517,
+              "araling-panlipunan": 0,
+              "science": 0,
+              "pe-and-health": 0,
+              "tle": 0,
               "music-and-arts": 0
             }
           },
           "enrollmentByGrade": {
             "1": 305,
             "4": 410,
-            "7": 458
+            "7": 0
           },
-          "enrollmentTotal": 1173,
-          "deliveredTotal": 8437,
-          "deliveryPercentage": 719.27
+          "enrollmentTotal": 715,
+          "deliveredTotal": 5335,
+          "deliveryPercentage": 746.15
         },
         {
           "id": "sto-nino-national-high-school",
