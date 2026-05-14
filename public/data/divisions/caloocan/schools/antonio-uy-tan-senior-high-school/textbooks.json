@@ -14,11 +14,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 190,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 190
     },
     {
       "Grade Level": "SHS",
@@ -34,11 +34,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 3 and 4",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 190,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 190
     },
     {
       "Grade Level": "SHS",
@@ -91,5 +91,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-16T01:03:25.101Z"
+  "generatedAt": "2026-05-14T09:02:02.403Z"
 }
