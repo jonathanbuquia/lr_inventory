@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T03:47:05.731Z",
+  "generatedAt": "2026-05-14T04:02:08.759Z",
   "grades": [
     {
       "grade": "1",
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 14466,
         "4": 18607,
-        "7": 16466
+        "7": 16566
       },
-      "enrollmentTotal": 49539,
+      "enrollmentTotal": 49639,
       "deliveredTotal": 361521,
-      "deliveryPercentage": 729.77,
+      "deliveryPercentage": 728.3,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2215,9 +2215,9 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 173
+            "7": 273
           },
-          "enrollmentTotal": 173,
+          "enrollmentTotal": 273,
           "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
