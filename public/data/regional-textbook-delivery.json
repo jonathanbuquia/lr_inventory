@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T08:58:14.440Z",
+  "generatedAt": "2026-05-14T12:26:52.008Z",
   "grades": [
     {
       "grade": "1",
@@ -140,9 +140,9 @@
           "english": 17879,
           "filipino": 2209,
           "mathematics": 19919,
-          "ve": 11664,
+          "ve": 12105,
           "araling-panlipunan": 20195,
-          "science": 19473,
+          "science": 19914,
           "pe-and-health": 20640,
           "tle": 19624,
           "music-and-arts": 19429
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 49781,
-      "deliveredTotal": 363978,
-      "deliveryPercentage": 731.16,
+      "deliveredTotal": 364860,
+      "deliveryPercentage": 732.93,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -3838,9 +3838,9 @@
               "english": 441,
               "filipino": 0,
               "mathematics": 441,
-              "ve": 0,
+              "ve": 441,
               "araling-panlipunan": 441,
-              "science": 0,
+              "science": 441,
               "pe-and-health": 441,
               "tle": 441,
               "music-and-arts": 441
@@ -3852,8 +3852,8 @@
             "7": 370
           },
           "enrollmentTotal": 370,
-          "deliveredTotal": 2646,
-          "deliveryPercentage": 715.14
+          "deliveredTotal": 3528,
+          "deliveryPercentage": 953.51
         },
         {
           "id": "tandang-sora-is",
