@@ -94,11 +94,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 806,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 919,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 806,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 113
     },
     {
       "Grade Level": 8,
@@ -449,7 +449,17 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "UCSP",
+      "Enrolment S.Y. 2025-2026": 1327,
+      "Quantity of Textbooks Received": 1075,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "C0",
+      "GAP-TX": 252,
+      "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-14T08:11:34.898Z"
+  "generatedAt": "2026-05-14T08:57:30.687Z"
 }

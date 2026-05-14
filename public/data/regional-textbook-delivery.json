@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T07:21:53.919Z",
+  "generatedAt": "2026-05-14T08:58:14.440Z",
   "grades": [
     {
       "grade": "1",
@@ -14476,7 +14476,7 @@
           "science": 8317,
           "pe-and-health": 8317,
           "tle": 8317,
-          "music-and-arts": 6822
+          "music-and-arts": 7741
         }
       },
       "enrollmentByGrade": {
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 147161,
-      "deliveryPercentage": 758.95,
+      "deliveredTotal": 148080,
+      "deliveryPercentage": 763.69,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15293,7 +15293,7 @@
               "science": 919,
               "pe-and-health": 919,
               "tle": 919,
-              "music-and-arts": 0
+              "music-and-arts": 919
             }
           },
           "enrollmentByGrade": {
@@ -15302,8 +15302,8 @@
             "7": 806
           },
           "enrollmentTotal": 806,
-          "deliveredTotal": 6433,
-          "deliveryPercentage": 798.14
+          "deliveredTotal": 7352,
+          "deliveryPercentage": 912.16
         },
         {
           "id": "marikina-science-high-school",
