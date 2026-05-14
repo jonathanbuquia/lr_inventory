@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T01:52:20.217Z",
+  "generatedAt": "2026-05-14T02:07:16.023Z",
   "grades": [
     {
       "grade": "1",
@@ -140,7 +140,7 @@
           "english": 16773,
           "filipino": 1103,
           "mathematics": 18813,
-          "ve": 11258,
+          "ve": 10558,
           "araling-panlipunan": 19089,
           "science": 18367,
           "pe-and-health": 19534,
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 14466,
         "4": 18607,
-        "7": 13997
+        "7": 14816
       },
-      "enrollmentTotal": 47070,
-      "deliveredTotal": 351358,
-      "deliveryPercentage": 746.46,
+      "enrollmentTotal": 47889,
+      "deliveredTotal": 350658,
+      "deliveryPercentage": 732.23,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1860,7 +1860,7 @@
               "english": 819,
               "filipino": 572,
               "mathematics": 819,
-              "ve": 700,
+              "ve": 0,
               "araling-panlipunan": 819,
               "science": 819,
               "pe-and-health": 819,
@@ -1871,11 +1871,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 819
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 7005,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 819,
+          "deliveredTotal": 6305,
+          "deliveryPercentage": 769.84
         },
         {
           "id": "east-bagong-barrio-elementary-school",
