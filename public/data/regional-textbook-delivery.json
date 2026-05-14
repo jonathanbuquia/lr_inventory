@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T02:17:13.292Z",
+  "generatedAt": "2026-05-14T02:27:18.864Z",
   "grades": [
     {
       "grade": "1",
@@ -120,9 +120,9 @@
       "totals": {
         "1": {
           "reading-and-literacy": 18449,
-          "language": 15921,
-          "gmrc": 18170,
-          "makabansa": 18181,
+          "language": 16200,
+          "gmrc": 18449,
+          "makabansa": 18460,
           "mathematics": 0
         },
         "4": {
@@ -154,8 +154,8 @@
         "7": 15524
       },
       "enrollmentTotal": 48597,
-      "deliveredTotal": 350937,
-      "deliveryPercentage": 722.14,
+      "deliveredTotal": 351774,
+      "deliveryPercentage": 723.86,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -464,9 +464,9 @@
           "totals": {
             "1": {
               "reading-and-literacy": 279,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "language": 279,
+              "gmrc": 279,
+              "makabansa": 279,
               "mathematics": 0
             },
             "4": {
@@ -498,7 +498,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 279,
+          "deliveredTotal": 1116,
           "deliveryPercentage": 0
         },
         {
