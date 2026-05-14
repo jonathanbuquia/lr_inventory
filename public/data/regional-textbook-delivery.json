@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T13:17:12.963Z",
+  "generatedAt": "2026-05-14T13:27:24.353Z",
   "grades": [
     {
       "grade": "1",
@@ -119,8 +119,8 @@
       "name": "CALOOCAN",
       "totals": {
         "1": {
-          "reading-and-literacy": 19531,
-          "language": 17282,
+          "reading-and-literacy": 19715,
+          "language": 17466,
           "gmrc": 19531,
           "makabansa": 19542,
           "mathematics": 0
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 51769,
-      "deliveredTotal": 377940,
-      "deliveryPercentage": 730.05,
+      "deliveredTotal": 378308,
+      "deliveryPercentage": 730.76,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1882,8 +1882,8 @@
           "name": "EAST BAGONG BARRIO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
+              "reading-and-literacy": 184,
+              "language": 184,
               "gmrc": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -1917,7 +1917,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 368,
           "deliveryPercentage": 0
         },
         {
