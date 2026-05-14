@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T03:12:08.051Z",
+  "generatedAt": "2026-05-14T03:27:08.908Z",
   "grades": [
     {
       "grade": "1",
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 14466,
         "4": 18607,
-        "7": 15524
+        "7": 16293
       },
-      "enrollmentTotal": 48597,
+      "enrollmentTotal": 49366,
       "deliveredTotal": 361271,
-      "deliveryPercentage": 743.4,
+      "deliveryPercentage": 731.82,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -968,11 +968,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 769
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 769,
           "deliveredTotal": 7497,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 974.9
         },
         {
           "id": "brixton-senior-high-school",

@@ -95,7 +95,7 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 346,
       "Quantity of Textbooks Received": 440,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
       "Surplus-TX": 94
@@ -335,7 +335,7 @@
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 395,
       "Quantity of Textbooks Received": 446,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 51
@@ -881,5 +881,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-27T08:26:37.578Z"
+  "generatedAt": "2026-05-14T03:26:41.856Z"
 }
