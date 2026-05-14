@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T13:27:24.353Z",
+  "generatedAt": "2026-05-14T13:32:15.651Z",
   "grades": [
     {
       "grade": "1",
@@ -121,18 +121,18 @@
         "1": {
           "reading-and-literacy": 19715,
           "language": 17466,
-          "gmrc": 19531,
-          "makabansa": 19542,
-          "mathematics": 0
+          "gmrc": 19706,
+          "makabansa": 19737,
+          "mathematics": 199
         },
         "4": {
-          "english": 18754,
+          "english": 18882,
           "filipino": 19276,
-          "mathematics": 18866,
-          "gmrc": 20222,
+          "mathematics": 19103,
+          "gmrc": 20459,
           "araling-panlipunan": 19830,
           "science": 20033,
-          "pe-and-health": 20040,
+          "pe-and-health": 20277,
           "epp": 2579,
           "music-and-arts": 10540
         },
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 51769,
-      "deliveredTotal": 378308,
-      "deliveryPercentage": 730.76,
+      "deliveredTotal": 379716,
+      "deliveryPercentage": 733.48,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1884,18 +1884,18 @@
             "1": {
               "reading-and-literacy": 184,
               "language": 184,
-              "gmrc": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "gmrc": 175,
+              "makabansa": 195,
+              "mathematics": 199
             },
             "4": {
-              "english": 0,
+              "english": 128,
               "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
+              "mathematics": 237,
+              "gmrc": 237,
               "araling-panlipunan": 0,
               "science": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 237,
               "epp": 0,
               "music-and-arts": 0
             },
@@ -1917,7 +1917,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 368,
+          "deliveredTotal": 1776,
           "deliveryPercentage": 0
         },
         {
