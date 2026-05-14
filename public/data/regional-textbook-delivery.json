@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T05:51:56.773Z",
+  "generatedAt": "2026-05-14T07:06:58.378Z",
   "grades": [
     {
       "grade": "1",
@@ -14450,7 +14450,7 @@
       "name": "MARIKINA",
       "totals": {
         "1": {
-          "reading-and-literacy": 6298,
+          "reading-and-literacy": 6658,
           "language": 7067,
           "gmrc": 6705,
           "makabansa": 7081,
@@ -14485,8 +14485,8 @@
         "7": 7288
       },
       "enrollmentTotal": 19390,
-      "deliveredTotal": 146766,
-      "deliveryPercentage": 756.92,
+      "deliveredTotal": 147126,
+      "deliveryPercentage": 758.77,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14579,7 +14579,7 @@
           "name": "CONCEPCION ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 360,
               "language": 395,
               "gmrc": 395,
               "makabansa": 395,
@@ -14614,8 +14614,8 @@
             "7": 0
           },
           "enrollmentTotal": 683,
-          "deliveredTotal": 3846,
-          "deliveryPercentage": 563.1
+          "deliveredTotal": 4206,
+          "deliveryPercentage": 615.81
         },
         {
           "id": "concepcion-integrated-school",
