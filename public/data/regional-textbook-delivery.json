@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T12:42:15.984Z",
+  "generatedAt": "2026-05-14T12:47:13.220Z",
   "grades": [
     {
       "grade": "1",
@@ -119,10 +119,10 @@
       "name": "CALOOCAN",
       "totals": {
         "1": {
-          "reading-and-literacy": 18449,
-          "language": 16200,
-          "gmrc": 19527,
-          "makabansa": 18460,
+          "reading-and-literacy": 19531,
+          "language": 17282,
+          "gmrc": 19531,
+          "makabansa": 19542,
           "mathematics": 0
         },
         "4": {
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 51769,
-      "deliveredTotal": 365938,
-      "deliveryPercentage": 706.87,
+      "deliveredTotal": 369188,
+      "deliveryPercentage": 713.14,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1237,10 +1237,10 @@
           "name": "CALOOCAN NORTH ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 1078,
-              "makabansa": 0,
+              "reading-and-literacy": 1082,
+              "language": 1082,
+              "gmrc": 1082,
+              "makabansa": 1082,
               "mathematics": 0
             },
             "4": {
@@ -1272,8 +1272,8 @@
             "7": 0
           },
           "enrollmentTotal": 1988,
-          "deliveredTotal": 1078,
-          "deliveryPercentage": 54.23
+          "deliveredTotal": 4328,
+          "deliveryPercentage": 217.71
         },
         {
           "id": "camarin-d-elementary-school",
