@@ -94,11 +94,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 325,
-      "Quantity of Textbooks Received": 390,
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 410,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 65
+      "Surplus-TX": 85
     },
     {
       "Grade Level": 2,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:10.919Z"
+  "generatedAt": "2026-05-14T07:01:34.683Z"
 }
