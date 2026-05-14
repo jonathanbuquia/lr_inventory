@@ -94,11 +94,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 216,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 216
     },
     {
       "Grade Level": 2,
@@ -274,7 +274,7 @@
       "Grade Level": 5,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
@@ -284,7 +284,7 @@
       "Grade Level": 5,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
@@ -294,7 +294,7 @@
       "Grade Level": 5,
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-14T03:41:22.990Z"
+  "generatedAt": "2026-05-14T05:51:22.070Z"
 }

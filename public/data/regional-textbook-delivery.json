@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T05:42:07.884Z",
+  "generatedAt": "2026-05-14T05:51:56.773Z",
   "grades": [
     {
       "grade": "1",
@@ -8656,7 +8656,7 @@
           "science": 3967,
           "pe-and-health": 3129,
           "epp": 245,
-          "music-and-arts": 2221
+          "music-and-arts": 2564
         },
         "7": {
           "english": 5565,
@@ -8676,8 +8676,8 @@
         "7": 4268
       },
       "enrollmentTotal": 12027,
-      "deliveredTotal": 97068,
-      "deliveryPercentage": 807.08,
+      "deliveredTotal": 97411,
+      "deliveryPercentage": 809.94,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9516,7 +9516,7 @@
               "science": 384,
               "pe-and-health": 384,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 343
             },
             "7": {
               "english": 0,
@@ -9536,8 +9536,8 @@
             "7": 0
           },
           "enrollmentTotal": 556,
-          "deliveredTotal": 3948,
-          "deliveryPercentage": 710.07
+          "deliveredTotal": 4291,
+          "deliveryPercentage": 771.76
         },
         {
           "id": "plainview-elementary-school",
