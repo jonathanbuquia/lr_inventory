@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T04:02:08.759Z",
+  "generatedAt": "2026-05-14T04:37:35.274Z",
   "grades": [
     {
       "grade": "1",
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 14466,
         "4": 18607,
-        "7": 16566
+        "7": 16708
       },
-      "enrollmentTotal": 49639,
+      "enrollmentTotal": 49781,
       "deliveredTotal": 361521,
-      "deliveryPercentage": 728.3,
+      "deliveryPercentage": 726.22,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -3075,11 +3075,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 142
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 142,
           "deliveredTotal": 1096,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 771.83
         },
         {
           "id": "nhc-elementary-school",
