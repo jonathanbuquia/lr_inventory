@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T00:23:38.489Z",
+  "generatedAt": "2026-05-14T01:42:17.834Z",
   "grades": [
     {
       "grade": "1",
@@ -137,15 +137,15 @@
           "music-and-arts": 9133
         },
         "7": {
-          "english": 15290,
-          "filipino": 531,
-          "mathematics": 17330,
-          "ve": 9894,
-          "araling-panlipunan": 17606,
-          "science": 16884,
-          "pe-and-health": 18051,
-          "tle": 17035,
-          "music-and-arts": 16840
+          "english": 16109,
+          "filipino": 1103,
+          "mathematics": 18149,
+          "ve": 10594,
+          "araling-panlipunan": 18425,
+          "science": 17703,
+          "pe-and-health": 18870,
+          "tle": 17854,
+          "music-and-arts": 17659
         }
       },
       "enrollmentByGrade": {
@@ -154,8 +154,8 @@
         "7": 13997
       },
       "enrollmentTotal": 47070,
-      "deliveredTotal": 339041,
-      "deliveryPercentage": 720.29,
+      "deliveredTotal": 346046,
+      "deliveryPercentage": 735.17,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1857,15 +1857,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 819,
+              "filipino": 572,
+              "mathematics": 819,
+              "ve": 700,
+              "araling-panlipunan": 819,
+              "science": 819,
+              "pe-and-health": 819,
+              "tle": 819,
+              "music-and-arts": 819
             }
           },
           "enrollmentByGrade": {
@@ -1874,7 +1874,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 7005,
           "deliveryPercentage": 0
         },
         {
