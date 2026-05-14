@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T02:27:18.864Z",
+  "generatedAt": "2026-05-14T02:42:28.370Z",
   "grades": [
     {
       "grade": "1",
@@ -126,14 +126,14 @@
           "mathematics": 0
         },
         "4": {
-          "english": 17419,
-          "filipino": 17941,
-          "mathematics": 17531,
-          "gmrc": 18887,
-          "araling-panlipunan": 18495,
-          "science": 18698,
-          "pe-and-health": 18705,
-          "epp": 2329,
+          "english": 17669,
+          "filipino": 18191,
+          "mathematics": 17781,
+          "gmrc": 19137,
+          "araling-panlipunan": 18745,
+          "science": 18948,
+          "pe-and-health": 18955,
+          "epp": 2579,
           "music-and-arts": 9133
         },
         "7": {
@@ -154,8 +154,8 @@
         "7": 15524
       },
       "enrollmentTotal": 48597,
-      "deliveredTotal": 351774,
-      "deliveryPercentage": 723.86,
+      "deliveredTotal": 353774,
+      "deliveryPercentage": 727.97,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -470,14 +470,14 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "epp": 0,
+              "english": 250,
+              "filipino": 250,
+              "mathematics": 250,
+              "gmrc": 250,
+              "araling-panlipunan": 250,
+              "science": 250,
+              "pe-and-health": 250,
+              "epp": 250,
               "music-and-arts": 0
             },
             "7": {
@@ -498,7 +498,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 1116,
+          "deliveredTotal": 3116,
           "deliveryPercentage": 0
         },
         {
