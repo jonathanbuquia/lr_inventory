@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T04:37:35.274Z",
+  "generatedAt": "2026-05-14T05:01:57.837Z",
   "grades": [
     {
       "grade": "1",
@@ -137,15 +137,15 @@
           "music-and-arts": 9383
         },
         "7": {
-          "english": 17606,
-          "filipino": 1936,
-          "mathematics": 19646,
-          "ve": 11391,
-          "araling-panlipunan": 19922,
-          "science": 19200,
-          "pe-and-health": 20367,
-          "tle": 19351,
-          "music-and-arts": 19156
+          "english": 17879,
+          "filipino": 2209,
+          "mathematics": 19919,
+          "ve": 11664,
+          "araling-panlipunan": 20195,
+          "science": 19473,
+          "pe-and-health": 20640,
+          "tle": 19624,
+          "music-and-arts": 19429
         }
       },
       "enrollmentByGrade": {
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 49781,
-      "deliveredTotal": 361521,
-      "deliveryPercentage": 726.22,
+      "deliveredTotal": 363978,
+      "deliveryPercentage": 731.16,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2201,15 +2201,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 273,
+              "filipino": 273,
+              "mathematics": 273,
+              "ve": 273,
+              "araling-panlipunan": 273,
+              "science": 273,
+              "pe-and-health": 273,
+              "tle": 273,
+              "music-and-arts": 273
             }
           },
           "enrollmentByGrade": {
@@ -2218,8 +2218,8 @@
             "7": 273
           },
           "enrollmentTotal": 273,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 2457,
+          "deliveryPercentage": 900
         },
         {
           "id": "kalayaan-elementary-school",
