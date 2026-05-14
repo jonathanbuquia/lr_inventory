@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T05:01:57.837Z",
+  "generatedAt": "2026-05-14T05:42:07.884Z",
   "grades": [
     {
       "grade": "1",
@@ -8648,13 +8648,13 @@
           "mathematics": 285
         },
         "4": {
-          "english": 3565,
-          "filipino": 3056,
-          "mathematics": 3951,
-          "gmrc": 3756,
-          "araling-panlipunan": 2917,
-          "science": 3583,
-          "pe-and-health": 2745,
+          "english": 3949,
+          "filipino": 3440,
+          "mathematics": 4335,
+          "gmrc": 4140,
+          "araling-panlipunan": 3301,
+          "science": 3967,
+          "pe-and-health": 3129,
           "epp": 245,
           "music-and-arts": 2221
         },
@@ -8672,12 +8672,12 @@
       },
       "enrollmentByGrade": {
         "1": 3537,
-        "4": 3919,
+        "4": 4222,
         "7": 4268
       },
-      "enrollmentTotal": 11724,
-      "deliveredTotal": 94380,
-      "deliveryPercentage": 805.02,
+      "enrollmentTotal": 12027,
+      "deliveredTotal": 97068,
+      "deliveryPercentage": 807.08,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -9508,13 +9508,13 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 384,
+              "filipino": 384,
+              "mathematics": 384,
+              "gmrc": 384,
+              "araling-panlipunan": 384,
+              "science": 384,
+              "pe-and-health": 384,
               "epp": 0,
               "music-and-arts": 0
             },
@@ -9532,12 +9532,12 @@
           },
           "enrollmentByGrade": {
             "1": 253,
-            "4": 0,
+            "4": 303,
             "7": 0
           },
-          "enrollmentTotal": 253,
-          "deliveredTotal": 1260,
-          "deliveryPercentage": 498.02
+          "enrollmentTotal": 556,
+          "deliveredTotal": 3948,
+          "deliveryPercentage": 710.07
         },
         {
           "id": "plainview-elementary-school",
