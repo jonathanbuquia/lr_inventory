@@ -1106,10 +1106,10 @@
       "GAP - ADM-SLM - Q3": 4537,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 4752,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": "",
-      "Year of Delivery - ADM-SLM- Q4": "",
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
-      "GAP - ADM-SLM - Q4": 4752,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 215,
+      "Year of Delivery - ADM-SLM- Q4": 2024,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
+      "GAP - ADM-SLM - Q4": 4537,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -1193,10 +1193,10 @@
       "GAP - ADM-SLM - Q3": 4537,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 4752,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": "",
-      "Year of Delivery - ADM-SLM- Q4": "",
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
-      "GAP - ADM-SLM - Q4": 4752,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 215,
+      "Year of Delivery - ADM-SLM- Q4": 2024,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
+      "GAP - ADM-SLM - Q4": 4537,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -1280,10 +1280,10 @@
       "GAP - ADM-SLM - Q3": 4752,
       "SURPLUS - ADM-SLM - Q3": 0,
       "Quantity based on Target ADM-SLM - Q4": 4752,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": "",
-      "Year of Delivery - ADM-SLM- Q4": "",
-      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
-      "GAP - ADM-SLM - Q4": 4752,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM)- Q4": 215,
+      "Year of Delivery - ADM-SLM- Q4": 2024,
+      "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "SDO",
+      "GAP - ADM-SLM - Q4": 4537,
       "SURPLUS - ADM-SLM- Q4": 0
     },
     {
@@ -1519,5 +1519,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-05-14T03:51:26.405Z"
+  "generatedAt": "2026-05-14T03:56:25.347Z"
 }
