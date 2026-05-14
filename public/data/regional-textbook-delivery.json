@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T12:47:13.220Z",
+  "generatedAt": "2026-05-14T13:17:12.963Z",
   "grades": [
     {
       "grade": "1",
@@ -126,15 +126,15 @@
           "mathematics": 0
         },
         "4": {
-          "english": 17669,
-          "filipino": 18191,
-          "mathematics": 17781,
-          "gmrc": 19137,
-          "araling-panlipunan": 18745,
-          "science": 18948,
-          "pe-and-health": 18955,
+          "english": 18754,
+          "filipino": 19276,
+          "mathematics": 18866,
+          "gmrc": 20222,
+          "araling-panlipunan": 19830,
+          "science": 20033,
+          "pe-and-health": 20040,
           "epp": 2579,
-          "music-and-arts": 9383
+          "music-and-arts": 10540
         },
         "7": {
           "english": 17879,
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 51769,
-      "deliveredTotal": 369188,
-      "deliveryPercentage": 713.14,
+      "deliveredTotal": 377940,
+      "deliveryPercentage": 730.05,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1244,15 +1244,15 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 1085,
+              "filipino": 1085,
+              "mathematics": 1085,
+              "gmrc": 1085,
+              "araling-panlipunan": 1085,
+              "science": 1085,
+              "pe-and-health": 1085,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 1157
             },
             "7": {
               "english": 0,
@@ -1272,8 +1272,8 @@
             "7": 0
           },
           "enrollmentTotal": 1988,
-          "deliveredTotal": 4328,
-          "deliveryPercentage": 217.71
+          "deliveredTotal": 13080,
+          "deliveryPercentage": 657.95
         },
         {
           "id": "camarin-d-elementary-school",
