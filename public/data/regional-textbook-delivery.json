@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-06T04:02:40.721Z",
+  "generatedAt": "2026-05-14T00:23:38.489Z",
   "grades": [
     {
       "grade": "1",
@@ -23553,15 +23553,15 @@
           "music-and-arts": 43493
         },
         "7": {
-          "english": 15856,
-          "filipino": 16584,
-          "mathematics": 14931,
+          "english": 16670,
+          "filipino": 17398,
+          "mathematics": 15745,
           "ve": 11630,
-          "araling-panlipunan": 15832,
-          "science": 13638,
-          "pe-and-health": 16584,
+          "araling-panlipunan": 16646,
+          "science": 14452,
+          "pe-and-health": 17398,
           "tle": 11872,
-          "music-and-arts": 16584
+          "music-and-arts": 17398
         }
       },
       "enrollmentByGrade": {
@@ -23570,8 +23570,8 @@
         "7": 36252
       },
       "enrollmentTotal": 105174,
-      "deliveredTotal": 609066,
-      "deliveryPercentage": 579.1,
+      "deliveredTotal": 614764,
+      "deliveryPercentage": 584.52,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -25875,15 +25875,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
+              "english": 814,
+              "filipino": 814,
+              "mathematics": 814,
               "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "araling-panlipunan": 814,
+              "science": 814,
+              "pe-and-health": 814,
               "tle": 0,
-              "music-and-arts": 0
+              "music-and-arts": 814
             }
           },
           "enrollmentByGrade": {
@@ -25892,8 +25892,8 @@
             "7": 463
           },
           "enrollmentTotal": 463,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 5698,
+          "deliveryPercentage": 1230.67
         },
         {
           "id": "eulogio-rodriguez-sr-elementary-school",
