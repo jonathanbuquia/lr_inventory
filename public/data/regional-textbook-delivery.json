@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-14T13:32:15.651Z",
+  "generatedAt": "2026-05-16T02:02:33.783Z",
   "grades": [
     {
       "grade": "1",
@@ -130,11 +130,11 @@
           "filipino": 19276,
           "mathematics": 19103,
           "gmrc": 20459,
-          "araling-panlipunan": 19830,
-          "science": 20033,
+          "araling-panlipunan": 19967,
+          "science": 20141,
           "pe-and-health": 20277,
-          "epp": 2579,
-          "music-and-arts": 10540
+          "epp": 2706,
+          "music-and-arts": 10875
         },
         "7": {
           "english": 17879,
@@ -149,13 +149,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 15371,
-        "4": 19690,
+        "1": 15473,
+        "4": 19942,
         "7": 16708
       },
-      "enrollmentTotal": 51769,
-      "deliveredTotal": 379716,
-      "deliveryPercentage": 733.48,
+      "enrollmentTotal": 52123,
+      "deliveredTotal": 380423,
+      "deliveryPercentage": 729.86,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1893,11 +1893,11 @@
               "filipino": 0,
               "mathematics": 237,
               "gmrc": 237,
-              "araling-panlipunan": 0,
-              "science": 0,
+              "araling-panlipunan": 137,
+              "science": 108,
               "pe-and-health": 237,
-              "epp": 0,
-              "music-and-arts": 0
+              "epp": 127,
+              "music-and-arts": 128
             },
             "7": {
               "english": 0,
@@ -1912,13 +1912,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
+            "1": 108,
+            "4": 180,
             "7": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 1776,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 288,
+          "deliveredTotal": 2276,
+          "deliveryPercentage": 790.28
         },
         {
           "id": "eulogio-rodriguez-elementary-school",
@@ -2069,7 +2069,7 @@
               "science": 207,
               "pe-and-health": 250,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 207
             },
             "7": {
               "english": 0,
@@ -2084,13 +2084,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 180,
-            "4": 148,
+            "1": 174,
+            "4": 220,
             "7": 0
           },
-          "enrollmentTotal": 328,
-          "deliveredTotal": 2544,
-          "deliveryPercentage": 775.61
+          "enrollmentTotal": 394,
+          "deliveredTotal": 2751,
+          "deliveryPercentage": 698.22
         },
         {
           "id": "gregoria-de-jesus-elementary-school",
