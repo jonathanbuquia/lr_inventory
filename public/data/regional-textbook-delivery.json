@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-16T02:02:33.783Z",
+  "generatedAt": "2026-05-18T11:17:50.678Z",
   "grades": [
     {
       "grade": "1",
@@ -137,15 +137,15 @@
           "music-and-arts": 10875
         },
         "7": {
-          "english": 17879,
+          "english": 17820,
           "filipino": 2209,
-          "mathematics": 19919,
+          "mathematics": 19860,
           "ve": 12105,
-          "araling-panlipunan": 20195,
-          "science": 19914,
-          "pe-and-health": 20640,
-          "tle": 19624,
-          "music-and-arts": 19429
+          "araling-panlipunan": 20136,
+          "science": 19855,
+          "pe-and-health": 20581,
+          "tle": 19565,
+          "music-and-arts": 19370
         }
       },
       "enrollmentByGrade": {
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 52123,
-      "deliveredTotal": 380423,
-      "deliveryPercentage": 729.86,
+      "deliveredTotal": 380010,
+      "deliveryPercentage": 729.06,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2201,15 +2201,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 273,
+              "english": 214,
               "filipino": 273,
-              "mathematics": 273,
+              "mathematics": 214,
               "ve": 273,
-              "araling-panlipunan": 273,
-              "science": 273,
-              "pe-and-health": 273,
-              "tle": 273,
-              "music-and-arts": 273
+              "araling-panlipunan": 214,
+              "science": 214,
+              "pe-and-health": 214,
+              "tle": 214,
+              "music-and-arts": 214
             }
           },
           "enrollmentByGrade": {
@@ -2218,8 +2218,8 @@
             "7": 273
           },
           "enrollmentTotal": 273,
-          "deliveredTotal": 2457,
-          "deliveryPercentage": 900
+          "deliveredTotal": 2044,
+          "deliveryPercentage": 748.72
         },
         {
           "id": "kalayaan-elementary-school",
