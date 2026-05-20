@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-18T11:17:50.678Z",
+  "generatedAt": "2026-05-20T03:10:22.829Z",
   "grades": [
     {
       "grade": "1",
@@ -18326,10 +18326,10 @@
       "name": "PARANAQUE",
       "totals": {
         "1": {
-          "reading-and-literacy": 10815,
-          "language": 7170,
-          "gmrc": 10347,
-          "makabansa": 10354,
+          "reading-and-literacy": 10475,
+          "language": 6862,
+          "gmrc": 10002,
+          "makabansa": 10017,
           "mathematics": 902
         },
         "4": {
@@ -18361,8 +18361,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 187799,
-      "deliveryPercentage": 786.13,
+      "deliveredTotal": 186469,
+      "deliveryPercentage": 780.56,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -19788,10 +19788,10 @@
           "name": "SAN DIONISIO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 813,
-              "language": 813,
-              "gmrc": 813,
-              "makabansa": 813,
+              "reading-and-literacy": 473,
+              "language": 505,
+              "gmrc": 468,
+              "makabansa": 476,
               "mathematics": 0
             },
             "4": {
@@ -19823,8 +19823,8 @@
             "7": 0
           },
           "enrollmentTotal": 482,
-          "deliveredTotal": 4877,
-          "deliveryPercentage": 1011.83
+          "deliveredTotal": 3547,
+          "deliveryPercentage": 735.89
         },
         {
           "id": "san-isidro-elementary-school",
