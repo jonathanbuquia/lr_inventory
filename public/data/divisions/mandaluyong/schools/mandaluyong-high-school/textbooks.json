@@ -175,7 +175,7 @@
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 430,
       "Quantity of Textbooks Received": 625,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 195
@@ -195,10 +195,20 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 425,
       "Quantity of Textbooks Received": 1131,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 706
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 9,
@@ -212,6 +222,16 @@
     },
     {
       "Grade Level": 9,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
+    },
+    {
+      "Grade Level": 9,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 425,
       "Quantity of Textbooks Received": 976,
@@ -219,6 +239,16 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 551
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Math",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 9,
@@ -232,6 +262,16 @@
     },
     {
       "Grade Level": 9,
+      "SUBJECTS": "VE",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
+    },
+    {
+      "Grade Level": 9,
       "SUBJECTS": "AP",
       "Enrolment S.Y. 2025-2026": 425,
       "Quantity of Textbooks Received": 740,
@@ -242,13 +282,33 @@
     },
     {
       "Grade Level": 9,
-      "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": 0,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SUBJECTS": "AP",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 5
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
+    },
+    {
+      "Grade Level": 9,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 9,
@@ -263,11 +323,11 @@
     {
       "Grade Level": 9,
       "SUBJECTS": "TLE",
-      "Enrolment S.Y. 2025-2026": 0,
+      "Enrolment S.Y. 2025-2026": 425,
       "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 0,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 425,
       "Surplus-TX": 0
     },
     {
@@ -281,6 +341,16 @@
       "Surplus-TX": 688
     },
     {
+      "Grade Level": 9,
+      "SUBJECTS": "MAPEH",
+      "Enrolment S.Y. 2025-2026": 425,
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
+    },
+    {
       "Grade Level": 10,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 506,
@@ -288,6 +358,16 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 431,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
       "Surplus-TX": 0
     },
     {
@@ -302,6 +382,16 @@
     },
     {
       "Grade Level": 10,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 506,
       "Quantity of Textbooks Received": 116,
@@ -309,6 +399,16 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 390,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "Math",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 5
     },
     {
       "Grade Level": 10,
@@ -322,12 +422,32 @@
     },
     {
       "Grade Level": 10,
+      "SUBJECTS": "VE",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
       "SUBJECTS": "AP",
-      "Enrolment S.Y. 2025-2026": 0,
+      "Enrolment S.Y. 2025-2026": 506,
       "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 0,
+      "GAP-TX": 506,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "AP",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "   ",
       "Surplus-TX": 0
     },
     {
@@ -338,6 +458,16 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 121,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
       "Surplus-TX": 0
     },
     {
@@ -353,11 +483,11 @@
     {
       "Grade Level": 10,
       "SUBJECTS": "TLE",
-      "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 0,
+      "GAP-TX": 506,
       "Surplus-TX": 0
     },
     {
@@ -368,6 +498,16 @@
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 14,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 10,
+      "SUBJECTS": "MAPEH",
+      "Enrolment S.Y. 2025-2026": 506,
+      "Quantity of Textbooks Received": 425,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 81,
       "Surplus-TX": 0
     },
     {
@@ -413,11 +553,11 @@
     {
       "Grade Level": "SHS",
       "SUBJECTS": "Contemporary Philippine Arts",
-      "Enrolment S.Y. 2025-2026": 0,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
+      "Enrolment S.Y. 2025-2026": 842,
+      "Quantity of Textbooks Received": 591,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 0,
+      "GAP-TX": 251,
       "Surplus-TX": 0
     },
     {
@@ -451,5 +591,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-05T13:51:31.414Z"
+  "generatedAt": "2026-05-21T00:20:14.334Z"
 }

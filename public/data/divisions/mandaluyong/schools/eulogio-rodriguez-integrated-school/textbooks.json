@@ -16,17 +16,7 @@
       "Enrolment S.Y. 2025-2026": 221,
       "Quantity of Textbooks Received": 304,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
-      "GAP-TX": 0,
-      "Surplus-TX": 83
-    },
-    {
-      "Grade Level": 1,
-      "SUBJECTS": "Language",
-      "Enrolment S.Y. 2025-2026": 221,
-      "Quantity of Textbooks Received": 304,
-      "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 83
     },
@@ -36,7 +26,17 @@
       "Enrolment S.Y. 2025-2026": 221,
       "Quantity of Textbooks Received": 304,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 83
+    },
+    {
+      "Grade Level": 1,
+      "SUBJECTS": "Language",
+      "Enrolment S.Y. 2025-2026": 221,
+      "Quantity of Textbooks Received": 304,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 83
     },
@@ -46,7 +46,7 @@
       "Enrolment S.Y. 2025-2026": 221,
       "Quantity of Textbooks Received": 304,
       "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 83
     },
@@ -95,8 +95,8 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 239,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 239,
       "Surplus-TX": 0
     },
@@ -334,11 +334,11 @@
       "Grade Level": 5,
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 282,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 282,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 314,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 32
     },
     {
       "Grade Level": 5,
@@ -881,5 +881,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-05-05T14:11:30.217Z"
+  "generatedAt": "2026-05-21T00:20:13.261Z"
 }

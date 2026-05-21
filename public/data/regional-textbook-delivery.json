@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-20T03:10:22.829Z",
+  "generatedAt": "2026-05-21T00:21:02.284Z",
   "grades": [
     {
       "grade": "1",
@@ -8642,7 +8642,7 @@
       "totals": {
         "1": {
           "reading-and-literacy": 4538,
-          "language": 4401,
+          "language": 4538,
           "gmrc": 4502,
           "makabansa": 4538,
           "mathematics": 285
@@ -8650,13 +8650,13 @@
         "4": {
           "english": 3949,
           "filipino": 3440,
-          "mathematics": 4335,
-          "gmrc": 4140,
+          "mathematics": 4653,
+          "gmrc": 4458,
           "araling-panlipunan": 3301,
           "science": 3967,
           "pe-and-health": 3129,
           "epp": 245,
-          "music-and-arts": 2564
+          "music-and-arts": 3727
         },
         "7": {
           "english": 5565,
@@ -8671,13 +8671,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 3537,
-        "4": 4222,
-        "7": 4268
+        "1": 3373,
+        "4": 4262,
+        "7": 4059
       },
-      "enrollmentTotal": 12027,
-      "deliveredTotal": 97411,
-      "deliveryPercentage": 809.94,
+      "enrollmentTotal": 11694,
+      "deliveredTotal": 99347,
+      "deliveryPercentage": 849.56,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -8785,7 +8785,7 @@
               "science": 357,
               "pe-and-health": 357,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 327
             },
             "7": {
               "english": 557,
@@ -8805,8 +8805,8 @@
             "7": 491
           },
           "enrollmentTotal": 1018,
-          "deliveredTotal": 7168,
-          "deliveryPercentage": 704.13
+          "deliveredTotal": 7495,
+          "deliveryPercentage": 736.25
         },
         {
           "id": "bonifacio-javier-senior-high-school",
@@ -8951,13 +8951,13 @@
             "4": {
               "english": 0,
               "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
+              "mathematics": 318,
+              "gmrc": 318,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 296
             },
             "7": {
               "english": 0,
@@ -8973,12 +8973,12 @@
           },
           "enrollmentByGrade": {
             "1": 231,
-            "4": 0,
+            "4": 264,
             "7": 0
           },
-          "enrollmentTotal": 231,
-          "deliveredTotal": 1020,
-          "deliveryPercentage": 441.56
+          "enrollmentTotal": 495,
+          "deliveredTotal": 1952,
+          "deliveryPercentage": 394.34
         },
         {
           "id": "eulogio-rodriguez-integrated-school",
@@ -9172,7 +9172,7 @@
               "science": 214,
               "pe-and-health": 214,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 240
             },
             "7": {
               "english": 317,
@@ -9187,13 +9187,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 164,
-            "4": 224,
-            "7": 209
+            "1": 0,
+            "4": 0,
+            "7": 0
           },
-          "enrollmentTotal": 597,
-          "deliveredTotal": 5231,
-          "deliveryPercentage": 876.21
+          "enrollmentTotal": 0,
+          "deliveredTotal": 5471,
+          "deliveryPercentage": 0
         },
         {
           "id": "isaac-lopez-integrated-school",
@@ -9330,7 +9330,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 137,
-              "language": 0,
+              "language": 137,
               "gmrc": 137,
               "makabansa": 137,
               "mathematics": 0
@@ -9364,8 +9364,8 @@
             "7": 0
           },
           "enrollmentTotal": 401,
-          "deliveredTotal": 2115,
-          "deliveryPercentage": 527.43
+          "deliveredTotal": 2252,
+          "deliveryPercentage": 561.6
         },
         {
           "id": "mandaluyong-high-school",
@@ -9473,7 +9473,7 @@
               "science": 460,
               "pe-and-health": 460,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 300
             },
             "7": {
               "english": 0,
@@ -9493,8 +9493,8 @@
             "7": 0
           },
           "enrollmentTotal": 482,
-          "deliveredTotal": 3820,
-          "deliveryPercentage": 792.53
+          "deliveredTotal": 4120,
+          "deliveryPercentage": 854.77
         },
         {
           "id": "pedro-p-cruz-mauway-elementary-school",
