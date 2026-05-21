@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-21T00:21:02.284Z",
+  "generatedAt": "2026-05-21T06:57:20.251Z",
   "grades": [
     {
       "grade": "1",
@@ -119,22 +119,22 @@
       "name": "CALOOCAN",
       "totals": {
         "1": {
-          "reading-and-literacy": 19715,
-          "language": 17466,
-          "gmrc": 19706,
-          "makabansa": 19737,
+          "reading-and-literacy": 20428,
+          "language": 18179,
+          "gmrc": 20419,
+          "makabansa": 20450,
           "mathematics": 199
         },
         "4": {
-          "english": 18882,
-          "filipino": 19276,
-          "mathematics": 19103,
-          "gmrc": 20459,
-          "araling-panlipunan": 19967,
-          "science": 20141,
-          "pe-and-health": 20277,
-          "epp": 2706,
-          "music-and-arts": 10875
+          "english": 19426,
+          "filipino": 19820,
+          "mathematics": 19647,
+          "gmrc": 21003,
+          "araling-panlipunan": 20511,
+          "science": 20685,
+          "pe-and-health": 20821,
+          "epp": 3250,
+          "music-and-arts": 11419
         },
         "7": {
           "english": 17820,
@@ -154,8 +154,8 @@
         "7": 16708
       },
       "enrollmentTotal": 52123,
-      "deliveredTotal": 380010,
-      "deliveryPercentage": 729.06,
+      "deliveredTotal": 387758,
+      "deliveryPercentage": 743.93,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1796,22 +1796,22 @@
           "name": "DEPARO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 713,
+              "language": 713,
+              "gmrc": 713,
+              "makabansa": 713,
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "epp": 0,
-              "music-and-arts": 0
+              "english": 544,
+              "filipino": 544,
+              "mathematics": 544,
+              "gmrc": 544,
+              "araling-panlipunan": 544,
+              "science": 544,
+              "pe-and-health": 544,
+              "epp": 544,
+              "music-and-arts": 544
             },
             "7": {
               "english": 0,
@@ -1831,8 +1831,8 @@
             "7": 0
           },
           "enrollmentTotal": 1025,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 7748,
+          "deliveryPercentage": 755.9
         },
         {
           "id": "deparo-high-school",
