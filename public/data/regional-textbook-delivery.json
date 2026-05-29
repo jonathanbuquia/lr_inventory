@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-21T06:57:20.251Z",
+  "generatedAt": "2026-05-29T00:30:17.165Z",
   "grades": [
     {
       "grade": "1",
@@ -33925,7 +33925,7 @@
           "english": 11668,
           "filipino": 0,
           "mathematics": 8675,
-          "ve": 2524,
+          "ve": 2913,
           "araling-panlipunan": 9445,
           "science": 9955,
           "pe-and-health": 9339,
@@ -33939,8 +33939,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30308,
-      "deliveredTotal": 178220,
-      "deliveryPercentage": 588.03,
+      "deliveredTotal": 178609,
+      "deliveryPercentage": 589.31,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -35903,7 +35903,7 @@
               "english": 389,
               "filipino": 0,
               "mathematics": 389,
-              "ve": 0,
+              "ve": 389,
               "araling-panlipunan": 389,
               "science": 389,
               "pe-and-health": 389,
@@ -35917,8 +35917,8 @@
             "7": 273
           },
           "enrollmentTotal": 273,
-          "deliveredTotal": 2723,
-          "deliveryPercentage": 997.44
+          "deliveredTotal": 3112,
+          "deliveryPercentage": 1139.93
         },
         {
           "id": "paso-de-blas-elementary-school",
