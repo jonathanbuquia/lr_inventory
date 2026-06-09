@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-05-29T00:30:17.165Z",
+  "generatedAt": "2026-06-09T07:22:17.506Z",
   "grades": [
     {
       "grade": "1",
@@ -20278,7 +20278,7 @@
           "science": 5212,
           "pe-and-health": 5558,
           "epp": 0,
-          "music-and-arts": 4057
+          "music-and-arts": 4423
         },
         "7": {
           "english": 5861,
@@ -20298,8 +20298,8 @@
         "7": 5153
       },
       "enrollmentTotal": 15257,
-      "deliveredTotal": 107915,
-      "deliveryPercentage": 707.31,
+      "deliveredTotal": 108281,
+      "deliveryPercentage": 709.71,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -20966,7 +20966,7 @@
               "science": 365,
               "pe-and-health": 486,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 366
             },
             "7": {
               "english": 0,
@@ -20986,8 +20986,8 @@
             "7": 0
           },
           "enrollmentTotal": 701,
-          "deliveredTotal": 4791,
-          "deliveryPercentage": 683.45
+          "deliveredTotal": 5157,
+          "deliveryPercentage": 735.66
         },
         {
           "id": "pasay-city-east-high-school",
