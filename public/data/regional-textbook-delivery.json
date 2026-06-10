@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-09T07:22:17.506Z",
+  "generatedAt": "2026-06-10T02:32:00.730Z",
   "grades": [
     {
       "grade": "1",
@@ -6794,7 +6794,7 @@
           "language": 7339,
           "gmrc": 8194,
           "makabansa": 8251,
-          "mathematics": 92
+          "mathematics": 412
         },
         "4": {
           "english": 1054,
@@ -6825,8 +6825,8 @@
         "7": 6021
       },
       "enrollmentTotal": 18323,
-      "deliveredTotal": 135040,
-      "deliveryPercentage": 737,
+      "deliveredTotal": 135360,
+      "deliveryPercentage": 738.74,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -8342,7 +8342,7 @@
               "language": 311,
               "gmrc": 311,
               "makabansa": 311,
-              "mathematics": 0
+              "mathematics": 320
             },
             "4": {
               "english": 0,
@@ -8373,8 +8373,8 @@
             "7": 342
           },
           "enrollmentTotal": 721,
-          "deliveredTotal": 7143,
-          "deliveryPercentage": 990.71
+          "deliveredTotal": 7463,
+          "deliveryPercentage": 1035.09
         },
         {
           "id": "ta-ong-national-high-school",
