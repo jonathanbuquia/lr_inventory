@@ -104,10 +104,10 @@
       "Grade Level": 8,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 1103,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 1103,
+      "Quantity of Textbooks Received": 1074,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 29,
       "Surplus-TX": 0
     },
     {
@@ -471,5 +471,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-06-01T04:32:03.088Z"
+  "generatedAt": "2026-06-11T03:01:49.004Z"
 }
