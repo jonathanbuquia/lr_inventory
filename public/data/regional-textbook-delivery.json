@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T03:12:12.754Z",
+  "generatedAt": "2026-06-16T03:17:11.688Z",
   "grades": [
     {
       "grade": "1",
@@ -14469,14 +14469,14 @@
         },
         "7": {
           "english": 8707,
-          "filipino": 310,
+          "filipino": 0,
           "mathematics": 8044,
           "ve": 8574,
           "araling-panlipunan": 8044,
           "science": 8044,
           "pe-and-health": 8044,
           "tle": 8044,
-          "music-and-arts": 7741
+          "music-and-arts": 8044
         }
       },
       "enrollmentByGrade": {
@@ -14485,8 +14485,8 @@
         "7": 7167
       },
       "enrollmentTotal": 19250,
-      "deliveredTotal": 148272,
-      "deliveryPercentage": 770.24,
+      "deliveredTotal": 148265,
+      "deliveryPercentage": 770.21,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14562,7 +14562,7 @@
               "science": 303,
               "pe-and-health": 303,
               "tle": 303,
-              "music-and-arts": 0
+              "music-and-arts": 303
             }
           },
           "enrollmentByGrade": {
@@ -14571,8 +14571,8 @@
             "7": 196
           },
           "enrollmentTotal": 196,
-          "deliveredTotal": 2121,
-          "deliveryPercentage": 1082.14
+          "deliveredTotal": 2424,
+          "deliveryPercentage": 1236.73
         },
         {
           "id": "concepcion-elementary-school",
@@ -15630,7 +15630,7 @@
             },
             "7": {
               "english": 310,
-              "filipino": 310,
+              "filipino": 0,
               "mathematics": 310,
               "ve": 310,
               "araling-panlipunan": 310,
@@ -15646,8 +15646,8 @@
             "7": 253
           },
           "enrollmentTotal": 253,
-          "deliveredTotal": 2790,
-          "deliveryPercentage": 1102.77
+          "deliveredTotal": 2480,
+          "deliveryPercentage": 980.24
         },
         {
           "id": "sss-national-high-school",

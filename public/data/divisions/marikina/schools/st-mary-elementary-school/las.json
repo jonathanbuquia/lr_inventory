@@ -401,7 +401,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1208,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -434,7 +434,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1208,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -467,7 +467,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1208,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -500,7 +500,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1208,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -533,7 +533,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1208,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -698,7 +698,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1216,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -731,7 +731,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1216,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -764,7 +764,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1216,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -797,7 +797,7 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 1216,
       "SURPLUS - LAS - Q4": 0,
-      "Usuable Q1": "",
+      "Usuable Q1": 0,
       "Usuable Q2": "",
       "Usuable Q3": "",
       "Usuable Q4": ""
@@ -1760,5 +1760,5 @@
       "Usuable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:01:39.999Z"
+  "generatedAt": "2026-06-16T03:16:42.566Z"
 }
