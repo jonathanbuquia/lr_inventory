@@ -221,6 +221,46 @@
       "Surplus-TX": 0
     },
     {
+      "Grade Level": 8,
+      "SUBJECTS": "Filipino (Salindiwa)",
+      "Enrolment S.Y. 2025-2026": 595,
+      "Quantity of Textbooks Received": 530,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 65,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "English (Sailing Through Culture)",
+      "Enrolment S.Y. 2025-2026": 595,
+      "Quantity of Textbooks Received": 530,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 65,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "Science",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 530,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": 8,
+      "SUBJECTS": "TLE ",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
       "Grade Level": 9,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 444,
@@ -481,5 +521,5 @@
       "Surplus-TX": 42
     }
   ],
-  "generatedAt": "2026-06-16T02:46:44.680Z"
+  "generatedAt": "2026-06-16T03:06:41.765Z"
 }
