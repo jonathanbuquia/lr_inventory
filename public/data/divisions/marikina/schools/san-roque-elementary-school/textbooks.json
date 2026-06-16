@@ -78,13 +78,13 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 219,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 271,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 219,
-      "Surplus-TX": 0,
+      "GAP-TX": 0,
+      "Surplus-TX": 52,
       "USABLE": ""
     },
     {
@@ -102,11 +102,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 219,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 271,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 219,
-      "Surplus-TX": 0,
+      "GAP-TX": 0,
+      "Surplus-TX": 52,
       "USABLE": ""
     },
     {
@@ -278,10 +278,10 @@
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 274,
-      "Quantity of Textbooks Received": 213,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": 274,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "RO",
-      "GAP-TX": 61,
+      "GAP-TX": 0,
       "Surplus-TX": 0,
       "USABLE": ""
     },
@@ -345,7 +345,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 215,
       "Quantity of Textbooks Received": 252,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 37,
@@ -367,7 +367,7 @@
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 215,
       "Quantity of Textbooks Received": 252,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 0,
       "Surplus-TX": 37,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:31:50.919Z"
+  "generatedAt": "2026-06-16T03:36:43.085Z"
 }
