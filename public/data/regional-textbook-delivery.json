@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T03:42:13.808Z",
+  "generatedAt": "2026-06-16T03:57:13.072Z",
   "grades": [
     {
       "grade": "1",
@@ -14451,7 +14451,7 @@
       "totals": {
         "1": {
           "reading-and-literacy": 6633,
-          "language": 7067,
+          "language": 6786,
           "gmrc": 6705,
           "makabansa": 7081,
           "mathematics": 480
@@ -14462,7 +14462,7 @@
           "mathematics": 7128,
           "gmrc": 7830,
           "araling-panlipunan": 7857,
-          "science": 7773,
+          "science": 7859,
           "pe-and-health": 7926,
           "epp": 1336,
           "music-and-arts": 7424
@@ -14485,8 +14485,8 @@
         "7": 7167
       },
       "enrollmentTotal": 19250,
-      "deliveredTotal": 148711,
-      "deliveryPercentage": 772.52,
+      "deliveredTotal": 148516,
+      "deliveryPercentage": 771.51,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14677,7 +14677,7 @@
               "mathematics": 633,
               "gmrc": 633,
               "araling-panlipunan": 633,
-              "science": 547,
+              "science": 633,
               "pe-and-health": 633,
               "epp": 0,
               "music-and-arts": 614
@@ -14700,8 +14700,8 @@
             "7": 0
           },
           "enrollmentTotal": 989,
-          "deliveredTotal": 6440,
-          "deliveryPercentage": 651.16
+          "deliveredTotal": 6526,
+          "deliveryPercentage": 659.86
         },
         {
           "id": "fortune-high-school",
@@ -15569,7 +15569,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 281,
-              "language": 281,
+              "language": 0,
               "gmrc": 281,
               "makabansa": 281,
               "mathematics": 0
@@ -15603,8 +15603,8 @@
             "7": 0
           },
           "enrollmentTotal": 434,
-          "deliveredTotal": 3010,
-          "deliveryPercentage": 693.55
+          "deliveredTotal": 2729,
+          "deliveryPercentage": 628.8
         },
         {
           "id": "san-roque-national-high-school",

@@ -449,7 +449,27 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 74,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Earth and Life Science",
+      "Enrolment S.Y. 2025-2026": 371,
+      "Quantity of Textbooks Received": 297,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 74,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Understanding Culture, Society and Politics",
+      "Enrolment S.Y. 2025-2026": 371,
+      "Quantity of Textbooks Received": 297,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 74,
+      "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-06-16T03:46:52.935Z"
+  "generatedAt": "2026-06-16T03:56:44.282Z"
 }
