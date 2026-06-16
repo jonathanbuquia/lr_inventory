@@ -1590,7 +1590,7 @@
       "GAP - ADM-SLM - Q4": 1080,
       "SURPLUS - ADM-SLM- Q4": 0,
       "usable Q1": "",
-      "usable Q2": "",
+      "usable Q2": 0,
       "usable Q3": "",
       "usable Q4": ""
     },
@@ -1623,7 +1623,7 @@
       "GAP - ADM-SLM - Q4": 1080,
       "SURPLUS - ADM-SLM- Q4": 0,
       "usable Q1": "",
-      "usable Q2": "",
+      "usable Q2": 0,
       "usable Q3": "",
       "usable Q4": ""
     },
@@ -1656,7 +1656,7 @@
       "GAP - ADM-SLM - Q4": 1080,
       "SURPLUS - ADM-SLM- Q4": 0,
       "usable Q1": "",
-      "usable Q2": "",
+      "usable Q2": 0,
       "usable Q3": "",
       "usable Q4": ""
     },
@@ -1925,5 +1925,5 @@
       "usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:46:52.733Z"
+  "generatedAt": "2026-06-16T04:21:38.991Z"
 }
