@@ -410,11 +410,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
       "Enrolment S.Y. 2025-2026": 106,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 328,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 106,
-      "Surplus-TX": 0,
+      "GAP-TX": 0,
+      "Surplus-TX": 222,
       "USABLE": ""
     },
     {
@@ -466,7 +466,7 @@
       "SUBJECTS": "General Mathematics",
       "Enrolment S.Y. 2025-2026": 106,
       "Quantity of Textbooks Received": 328,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
@@ -493,7 +493,18 @@
       "GAP-TX": 0,
       "Surplus-TX": 222,
       "USABLE": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Earth and Life Science",
+      "Enrolment S.Y. 2025-2026": 106,
+      "Quantity of Textbooks Received": 328,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 222,
+      "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T04:36:38.660Z"
+  "generatedAt": "2026-06-16T04:46:42.671Z"
 }
