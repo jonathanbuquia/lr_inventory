@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T02:47:15.153Z",
+  "generatedAt": "2026-06-16T02:52:09.842Z",
   "grades": [
     {
       "grade": "1",
@@ -14450,7 +14450,7 @@
       "name": "MARIKINA",
       "totals": {
         "1": {
-          "reading-and-literacy": 6693,
+          "reading-and-literacy": 6633,
           "language": 7067,
           "gmrc": 6705,
           "makabansa": 7081,
@@ -14485,15 +14485,15 @@
         "7": 7167
       },
       "enrollmentTotal": 19275,
-      "deliveredTotal": 147499,
-      "deliveryPercentage": 765.23,
+      "deliveredTotal": 147439,
+      "deliveryPercentage": 764.92,
       "schools": [
         {
           "id": "barangka-elementary-school",
           "name": "BARANGKA ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 260,
+              "reading-and-literacy": 200,
               "language": 260,
               "gmrc": 260,
               "makabansa": 260,
@@ -14528,8 +14528,8 @@
             "7": 0
           },
           "enrollmentTotal": 426,
-          "deliveredTotal": 2905,
-          "deliveryPercentage": 681.92
+          "deliveredTotal": 2845,
+          "deliveryPercentage": 667.84
         },
         {
           "id": "barangka-national-high-school",
