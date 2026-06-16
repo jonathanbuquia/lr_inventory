@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T06:37:11.255Z",
+  "generatedAt": "2026-06-16T06:57:08.007Z",
   "grades": [
     {
       "grade": "1",
@@ -14461,8 +14461,8 @@
           "filipino": 7926,
           "mathematics": 7128,
           "gmrc": 7830,
-          "araling-panlipunan": 7857,
-          "science": 7859,
+          "araling-panlipunan": 7849,
+          "science": 7851,
           "pe-and-health": 7926,
           "epp": 1336,
           "music-and-arts": 7424
@@ -14485,8 +14485,8 @@
         "7": 7267
       },
       "enrollmentTotal": 19350,
-      "deliveredTotal": 151553,
-      "deliveryPercentage": 783.22,
+      "deliveredTotal": 151537,
+      "deliveryPercentage": 783.14,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15063,8 +15063,8 @@
               "filipino": 239,
               "mathematics": 239,
               "gmrc": 231,
-              "araling-panlipunan": 239,
-              "science": 239,
+              "araling-panlipunan": 231,
+              "science": 231,
               "pe-and-health": 231,
               "epp": 0,
               "music-and-arts": 239
@@ -15087,8 +15087,8 @@
             "7": 0
           },
           "enrollmentTotal": 348,
-          "deliveredTotal": 2537,
-          "deliveryPercentage": 729.02
+          "deliveredTotal": 2521,
+          "deliveryPercentage": 724.43
         },
         {
           "id": "malanday-elementary-school",

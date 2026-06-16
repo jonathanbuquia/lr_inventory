@@ -118,7 +118,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 180,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 3,
@@ -129,7 +129,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 168,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 3,
@@ -140,7 +140,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 168,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 3,
@@ -151,7 +151,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 168,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 3,
@@ -162,7 +162,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 168,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 3,
@@ -173,7 +173,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 168,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 3,
@@ -184,7 +184,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 168,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 4,
@@ -234,22 +234,22 @@
       "Grade Level": 4,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 183,
-      "Quantity of Textbooks Received": 239,
+      "Quantity of Textbooks Received": 231,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 56,
+      "Surplus-TX": 48,
       "USABLE": 214
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 183,
-      "Quantity of Textbooks Received": 239,
+      "Quantity of Textbooks Received": 231,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 56,
+      "Surplus-TX": 48,
       "USABLE": 209
     },
     {
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T06:41:56.578Z"
+  "generatedAt": "2026-06-16T06:56:40.204Z"
 }

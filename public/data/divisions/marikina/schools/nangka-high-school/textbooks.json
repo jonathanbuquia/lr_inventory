@@ -509,12 +509,12 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Personal Development",
       "Enrolment S.Y. 2025-2026": 151,
-      "Quantity of Textbooks Received": 193,
+      "Quantity of Textbooks Received": 92,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 42,
-      "USABLE": ""
+      "GAP-TX": 59,
+      "Surplus-TX": 0,
+      "USABLE": 92
     },
     {
       "Grade Level": "SHS",
@@ -594,5 +594,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T06:51:40.265Z"
+  "generatedAt": "2026-06-16T06:56:40.647Z"
 }
