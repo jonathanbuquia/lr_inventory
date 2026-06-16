@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T02:02:07.289Z",
+  "generatedAt": "2026-06-16T02:22:12.816Z",
   "grades": [
     {
       "grade": "1",
@@ -14482,11 +14482,11 @@
       "enrollmentByGrade": {
         "1": 5394,
         "4": 6708,
-        "7": 7167
+        "7": 7189
       },
-      "enrollmentTotal": 19269,
+      "enrollmentTotal": 19291,
       "deliveredTotal": 146442,
-      "deliveryPercentage": 759.99,
+      "deliveryPercentage": 759.12,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15901,11 +15901,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 487
+            "7": 509
           },
-          "enrollmentTotal": 487,
+          "enrollmentTotal": 509,
           "deliveredTotal": 4136,
-          "deliveryPercentage": 849.28
+          "deliveryPercentage": 812.57
         },
         {
           "id": "ta-ong-high-school",
