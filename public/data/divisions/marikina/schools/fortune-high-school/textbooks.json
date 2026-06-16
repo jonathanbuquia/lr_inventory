@@ -412,7 +412,7 @@
       "Enrolment S.Y. 2025-2026": 106,
       "Quantity of Textbooks Received": 328,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
       "USABLE": ""
@@ -488,7 +488,7 @@
       "SUBJECTS": "Statistics and Probability",
       "Enrolment S.Y. 2025-2026": 106,
       "Quantity of Textbooks Received": 328,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
@@ -504,7 +504,18 @@
       "GAP-TX": 0,
       "Surplus-TX": 222,
       "USABLE": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Heritage (Understanding Culture, Society and Politics)",
+      "Enrolment S.Y. 2025-2026": 106,
+      "Quantity of Textbooks Received": 328,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 222,
+      "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T04:52:10.937Z"
+  "generatedAt": "2026-06-16T05:06:49.862Z"
 }
