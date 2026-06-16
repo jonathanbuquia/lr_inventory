@@ -1226,7 +1226,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1259,7 +1259,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1292,7 +1292,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1358,7 +1358,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1490,7 +1490,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1523,7 +1523,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1556,7 +1556,7 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 1120,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "usable Q1": "",
+      "usable Q1": 0,
       "usable Q2": "",
       "usable Q3": "",
       "usable Q4": ""
@@ -1925,5 +1925,5 @@
       "usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:36:43.393Z"
+  "generatedAt": "2026-06-16T03:46:52.733Z"
 }
