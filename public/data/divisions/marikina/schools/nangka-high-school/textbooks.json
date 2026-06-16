@@ -30,7 +30,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 653,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 358
     },
     {
       "Grade Level": 7,
@@ -41,7 +41,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 524
     },
     {
       "Grade Level": 7,
@@ -52,7 +52,18 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 371
+    },
+    {
+      "Grade Level": 7,
+      "SUBJECTS": "ESP Katatagan",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 663,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": "",
+      "Surplus-TX": "",
+      "USABLE": 630
     },
     {
       "Grade Level": 7,
@@ -63,7 +74,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 540
     },
     {
       "Grade Level": 7,
@@ -74,7 +85,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 518
     },
     {
       "Grade Level": 7,
@@ -85,7 +96,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": "257 - For Condemn"
+      "USABLE": "257 - for condemn"
     },
     {
       "Grade Level": 7,
@@ -96,7 +107,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 561
     },
     {
       "Grade Level": 7,
@@ -107,7 +118,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": 234
+      "USABLE": 568
     },
     {
       "Grade Level": 7,
@@ -118,7 +129,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 112,
-      "USABLE": ""
+      "USABLE": 553
     },
     {
       "Grade Level": 7,
@@ -583,5 +594,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T06:26:39.825Z"
+  "generatedAt": "2026-06-16T06:31:40.969Z"
 }

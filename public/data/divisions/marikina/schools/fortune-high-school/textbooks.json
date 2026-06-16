@@ -114,7 +114,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 653,
       "Quantity of Textbooks Received": 652,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 1,
       "Surplus-TX": 0,
@@ -129,7 +129,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 1,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 652
     },
     {
       "Grade Level": 8,
@@ -140,7 +140,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 1,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 652
     },
     {
       "Grade Level": 8,
@@ -151,7 +151,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 1,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 644
     },
     {
       "Grade Level": 8,
@@ -173,7 +173,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 1,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 652
     },
     {
       "Grade Level": 8,
@@ -195,7 +195,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 1,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 651
     },
     {
       "Grade Level": 8,
@@ -517,5 +517,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T06:26:38.949Z"
+  "generatedAt": "2026-06-16T06:31:40.097Z"
 }
