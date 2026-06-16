@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T02:52:09.842Z",
+  "generatedAt": "2026-06-16T03:12:12.754Z",
   "grades": [
     {
       "grade": "1",
@@ -14471,7 +14471,7 @@
           "english": 8707,
           "filipino": 310,
           "mathematics": 8044,
-          "ve": 7741,
+          "ve": 8574,
           "araling-panlipunan": 8044,
           "science": 8044,
           "pe-and-health": 8044,
@@ -14481,12 +14481,12 @@
       },
       "enrollmentByGrade": {
         "1": 5400,
-        "4": 6708,
+        "4": 6683,
         "7": 7167
       },
-      "enrollmentTotal": 19275,
-      "deliveredTotal": 147439,
-      "deliveryPercentage": 764.92,
+      "enrollmentTotal": 19250,
+      "deliveredTotal": 148272,
+      "deliveryPercentage": 770.24,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14524,12 +14524,12 @@
           },
           "enrollmentByGrade": {
             "1": 196,
-            "4": 230,
+            "4": 205,
             "7": 0
           },
-          "enrollmentTotal": 426,
+          "enrollmentTotal": 401,
           "deliveredTotal": 2845,
-          "deliveryPercentage": 667.84
+          "deliveryPercentage": 709.48
         },
         {
           "id": "barangka-national-high-school",
@@ -14557,7 +14557,7 @@
               "english": 303,
               "filipino": 0,
               "mathematics": 303,
-              "ve": 0,
+              "ve": 303,
               "araling-panlipunan": 303,
               "science": 303,
               "pe-and-health": 303,
@@ -14571,8 +14571,8 @@
             "7": 196
           },
           "enrollmentTotal": 196,
-          "deliveredTotal": 1818,
-          "deliveryPercentage": 927.55
+          "deliveredTotal": 2121,
+          "deliveryPercentage": 1082.14
         },
         {
           "id": "concepcion-elementary-school",
@@ -15417,7 +15417,7 @@
               "english": 1326,
               "filipino": 0,
               "mathematics": 663,
-              "ve": 663,
+              "ve": 1193,
               "araling-panlipunan": 663,
               "science": 663,
               "pe-and-health": 663,
@@ -15431,8 +15431,8 @@
             "7": 653
           },
           "enrollmentTotal": 653,
-          "deliveredTotal": 5967,
-          "deliveryPercentage": 913.78
+          "deliveredTotal": 6497,
+          "deliveryPercentage": 994.95
         },
         {
           "id": "pamantasan-ng-lungsod-ng-marikina",
