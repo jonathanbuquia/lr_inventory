@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T06:07:09.949Z",
+  "generatedAt": "2026-06-16T06:12:21.765Z",
   "grades": [
     {
       "grade": "1",
@@ -14454,7 +14454,7 @@
           "language": 6786,
           "gmrc": 7065,
           "makabansa": 7081,
-          "mathematics": 647
+          "mathematics": 480
         },
         "4": {
           "english": 0,
@@ -14485,8 +14485,8 @@
         "7": 7267
       },
       "enrollmentTotal": 19350,
-      "deliveredTotal": 151587,
-      "deliveryPercentage": 783.4,
+      "deliveredTotal": 151420,
+      "deliveryPercentage": 782.53,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14841,7 +14841,7 @@
               "language": 250,
               "gmrc": 250,
               "makabansa": 250,
-              "mathematics": 167
+              "mathematics": 0
             },
             "4": {
               "english": 0,
@@ -14872,8 +14872,8 @@
             "7": 0
           },
           "enrollmentTotal": 317,
-          "deliveredTotal": 2755,
-          "deliveryPercentage": 869.09
+          "deliveredTotal": 2588,
+          "deliveryPercentage": 816.4
         },
         {
           "id": "jesus-dela-pe-a-national-high-school",
