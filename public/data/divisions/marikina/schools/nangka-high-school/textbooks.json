@@ -56,17 +56,6 @@
     },
     {
       "Grade Level": 7,
-      "SUBJECTS": "ESP Katatagan",
-      "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 663,
-      "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": "",
-      "Surplus-TX": "",
-      "USABLE": 630
-    },
-    {
-      "Grade Level": 7,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 653,
       "Quantity of Textbooks Received": 663,
@@ -140,18 +129,18 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 21,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 524
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Values Education",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 530,
+      "Quantity of Textbooks Received": 663,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": "",
       "Surplus-TX": "",
-      "USABLE": ""
+      "USABLE": 630
     },
     {
       "Grade Level": 8,
@@ -162,7 +151,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 595,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 96
     },
     {
       "Grade Level": 8,
@@ -180,11 +169,11 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 595,
       "Quantity of Textbooks Received": 530,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 65,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 196
     },
     {
       "Grade Level": 8,
@@ -594,5 +583,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T06:31:40.969Z"
+  "generatedAt": "2026-06-16T06:36:41.767Z"
 }
