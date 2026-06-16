@@ -19,7 +19,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 249
     },
     {
       "Grade Level": 7,
@@ -85,7 +85,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": "257 - For Condemn"
     },
     {
       "Grade Level": 7,
@@ -107,7 +107,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 10,
-      "USABLE": ""
+      "USABLE": 234
     },
     {
       "Grade Level": 7,
@@ -583,5 +583,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:21:49.922Z"
+  "generatedAt": "2026-06-16T06:26:39.825Z"
 }

@@ -873,10 +873,10 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 274,
       "Quantity based on Target ADM-SLM - Q1": 2192,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": "",
-      "Year of Delivery - ADM-SLM - Q1": "",
-      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
-      "GAP - ADM-SLM - Q1": 2192,
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 274,
+      "Year of Delivery - ADM-SLM - Q1": 2025,
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "RO",
+      "GAP - ADM-SLM - Q1": 1918,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 2192,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q2": "",
@@ -1035,7 +1035,7 @@
     },
     {
       "Grade Level": 4,
-      "SUBJECTS": "PE",
+      "SUBJECTS": "PE and Heath",
       "Enrolment S.Y. 2025-2026": 274,
       "Quantity based on Target ADM-SLM - Q1": 2192,
       "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 266,
@@ -1925,5 +1925,5 @@
       "Usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:26:42.370Z"
+  "generatedAt": "2026-06-16T06:26:40.059Z"
 }

@@ -454,11 +454,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "Contemporary Philippine Arts",
       "Enrolment S.Y. 2025-2026": 69,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 69,
-      "Surplus-TX": 0,
+      "Quantity of Textbooks Received": 105,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 36,
       "Usable": ""
     },
     {
@@ -495,5 +495,5 @@
       "Usable": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:21:48.453Z"
+  "generatedAt": "2026-06-16T06:26:38.663Z"
 }
