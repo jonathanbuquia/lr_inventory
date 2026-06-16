@@ -191,6 +191,16 @@
       "Surplus-TX": 0
     },
     {
+      "Grade Level": 8,
+      "SUBJECTS": "Values Education",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
       "Grade Level": 9,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 444,
@@ -451,5 +461,5 @@
       "Surplus-TX": 42
     }
   ],
-  "generatedAt": "2026-04-29T03:41:39.096Z"
+  "generatedAt": "2026-06-16T02:36:41.966Z"
 }

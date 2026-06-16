@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T02:27:14.891Z",
+  "generatedAt": "2026-06-16T02:37:11.072Z",
   "grades": [
     {
       "grade": "1",
@@ -14471,7 +14471,7 @@
           "english": 8044,
           "filipino": 310,
           "mathematics": 8044,
-          "ve": 7347,
+          "ve": 7741,
           "araling-panlipunan": 8044,
           "science": 8044,
           "pe-and-health": 8044,
@@ -14480,13 +14480,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5394,
+        "1": 5400,
         "4": 6708,
         "7": 7167
       },
-      "enrollmentTotal": 19269,
-      "deliveredTotal": 146442,
-      "deliveryPercentage": 759.99,
+      "enrollmentTotal": 19275,
+      "deliveredTotal": 146836,
+      "deliveryPercentage": 761.8,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14523,13 +14523,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 190,
+            "1": 196,
             "4": 230,
             "7": 0
           },
-          "enrollmentTotal": 420,
+          "enrollmentTotal": 426,
           "deliveredTotal": 2905,
-          "deliveryPercentage": 691.67
+          "deliveryPercentage": 681.92
         },
         {
           "id": "barangka-national-high-school",
@@ -15245,7 +15245,7 @@
               "english": 394,
               "filipino": 0,
               "mathematics": 394,
-              "ve": 0,
+              "ve": 394,
               "araling-panlipunan": 394,
               "science": 394,
               "pe-and-health": 394,
@@ -15259,8 +15259,8 @@
             "7": 333
           },
           "enrollmentTotal": 333,
-          "deliveredTotal": 2758,
-          "deliveryPercentage": 828.23
+          "deliveredTotal": 3152,
+          "deliveryPercentage": 946.55
         },
         {
           "id": "marikina-high-school",
