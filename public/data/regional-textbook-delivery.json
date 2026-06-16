@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T06:02:06.119Z",
+  "generatedAt": "2026-06-16T06:07:09.949Z",
   "grades": [
     {
       "grade": "1",
@@ -14450,9 +14450,9 @@
       "name": "MARIKINA",
       "totals": {
         "1": {
-          "reading-and-literacy": 6633,
+          "reading-and-literacy": 6993,
           "language": 6786,
-          "gmrc": 6705,
+          "gmrc": 7065,
           "makabansa": 7081,
           "mathematics": 647
         },
@@ -14470,7 +14470,7 @@
         "7": {
           "english": 8980,
           "filipino": 0,
-          "mathematics": 8044,
+          "mathematics": 8317,
           "ve": 8847,
           "araling-panlipunan": 8317,
           "science": 8317,
@@ -14485,8 +14485,8 @@
         "7": 7267
       },
       "enrollmentTotal": 19350,
-      "deliveredTotal": 150594,
-      "deliveryPercentage": 778.26,
+      "deliveredTotal": 151587,
+      "deliveryPercentage": 783.4,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15181,9 +15181,9 @@
           "name": "MARIKINA ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 360,
               "language": 360,
-              "gmrc": 0,
+              "gmrc": 360,
               "makabansa": 360,
               "mathematics": 0
             },
@@ -15216,8 +15216,8 @@
             "7": 0
           },
           "enrollmentTotal": 420,
-          "deliveredTotal": 4166,
-          "deliveryPercentage": 991.9
+          "deliveredTotal": 4886,
+          "deliveryPercentage": 1163.33
         },
         {
           "id": "marikina-heights-national-high-school",
@@ -15932,7 +15932,7 @@
             "7": {
               "english": 273,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 273,
               "ve": 273,
               "araling-panlipunan": 273,
               "science": 273,
@@ -15947,8 +15947,8 @@
             "7": 126
           },
           "enrollmentTotal": 126,
-          "deliveredTotal": 1911,
-          "deliveryPercentage": 1516.67
+          "deliveredTotal": 2184,
+          "deliveryPercentage": 1733.33
         }
       ]
     },
