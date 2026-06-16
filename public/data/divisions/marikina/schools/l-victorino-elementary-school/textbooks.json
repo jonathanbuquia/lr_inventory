@@ -206,7 +206,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 56,
-      "USABLE": ""
+      "USABLE": 191
     },
     {
       "Grade Level": 4,
@@ -217,7 +217,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 56,
-      "USABLE": ""
+      "USABLE": 205
     },
     {
       "Grade Level": 4,
@@ -228,7 +228,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 48,
-      "USABLE": ""
+      "USABLE": 187
     },
     {
       "Grade Level": 4,
@@ -239,7 +239,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 56,
-      "USABLE": ""
+      "USABLE": 214
     },
     {
       "Grade Level": 4,
@@ -250,7 +250,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 56,
-      "USABLE": ""
+      "USABLE": 209
     },
     {
       "Grade Level": 4,
@@ -261,7 +261,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 48,
-      "USABLE": ""
+      "USABLE": 204
     },
     {
       "Grade Level": 4,
@@ -272,18 +272,18 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 183,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 217
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 183,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 183,
-      "Surplus-TX": 0,
-      "USABLE": ""
+      "Quantity of Textbooks Received": 239,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "co",
+      "GAP-TX": 0,
+      "Surplus-TX": 56,
+      "USABLE": 226
     },
     {
       "Grade Level": 5,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:11:43.124Z"
+  "generatedAt": "2026-06-16T03:21:49.378Z"
 }

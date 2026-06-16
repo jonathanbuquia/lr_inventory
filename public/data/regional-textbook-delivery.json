@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T03:17:11.688Z",
+  "generatedAt": "2026-06-16T03:22:25.071Z",
   "grades": [
     {
       "grade": "1",
@@ -14454,7 +14454,7 @@
           "language": 7067,
           "gmrc": 6705,
           "makabansa": 7081,
-          "mathematics": 0
+          "mathematics": 480
         },
         "4": {
           "english": 0,
@@ -14465,7 +14465,7 @@
           "science": 7773,
           "pe-and-health": 7926,
           "epp": 1336,
-          "music-and-arts": 7124
+          "music-and-arts": 7363
         },
         "7": {
           "english": 8707,
@@ -14485,8 +14485,8 @@
         "7": 7167
       },
       "enrollmentTotal": 19250,
-      "deliveredTotal": 148265,
-      "deliveryPercentage": 770.21,
+      "deliveredTotal": 148984,
+      "deliveryPercentage": 773.94,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15067,7 +15067,7 @@
               "science": 239,
               "pe-and-health": 231,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 239
             },
             "7": {
               "english": 0,
@@ -15087,8 +15087,8 @@
             "7": 0
           },
           "enrollmentTotal": 348,
-          "deliveredTotal": 2298,
-          "deliveryPercentage": 660.34
+          "deliveredTotal": 2537,
+          "deliveryPercentage": 729.02
         },
         {
           "id": "malanday-elementary-school",
@@ -15830,7 +15830,7 @@
               "language": 480,
               "gmrc": 480,
               "makabansa": 480,
-              "mathematics": 0
+              "mathematics": 480
             },
             "4": {
               "english": 0,
@@ -15861,8 +15861,8 @@
             "7": 0
           },
           "enrollmentTotal": 715,
-          "deliveredTotal": 5335,
-          "deliveryPercentage": 746.15
+          "deliveredTotal": 5815,
+          "deliveryPercentage": 813.29
         },
         {
           "id": "sto-nino-national-high-school",
