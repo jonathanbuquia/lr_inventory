@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-16T03:37:11.326Z",
+  "generatedAt": "2026-06-16T03:42:13.808Z",
   "grades": [
     {
       "grade": "1",
@@ -14458,7 +14458,7 @@
         },
         "4": {
           "english": 0,
-          "filipino": 8093,
+          "filipino": 7926,
           "mathematics": 7128,
           "gmrc": 7830,
           "araling-panlipunan": 7857,
@@ -14485,8 +14485,8 @@
         "7": 7167
       },
       "enrollmentTotal": 19250,
-      "deliveredTotal": 148878,
-      "deliveryPercentage": 773.39,
+      "deliveredTotal": 148711,
+      "deliveryPercentage": 772.52,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15576,7 +15576,7 @@
             },
             "4": {
               "english": 0,
-              "filipino": 441,
+              "filipino": 274,
               "mathematics": 274,
               "gmrc": 266,
               "araling-panlipunan": 266,
@@ -15603,8 +15603,8 @@
             "7": 0
           },
           "enrollmentTotal": 434,
-          "deliveredTotal": 3177,
-          "deliveryPercentage": 732.03
+          "deliveredTotal": 3010,
+          "deliveryPercentage": 693.55
         },
         {
           "id": "san-roque-national-high-school",
