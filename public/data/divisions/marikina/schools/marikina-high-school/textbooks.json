@@ -354,12 +354,12 @@
     {
       "Grade Level": 10,
       "SUBJECTS": "AP",
-      "Enrolment S.Y. 2025-2026": "769769\r\n769\r\n769\r\n769\r\n769",
+      "Enrolment S.Y. 2025-2026": 769,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": "",
+      "GAP-TX": 769,
+      "Surplus-TX": 0,
       "USABLE": ""
     },
     {
@@ -398,13 +398,13 @@
     {
       "Grade Level": 10,
       "SUBJECTS": "Music and Arts",
-      "Enrolment S.Y. 2025-2026": "769769\r\n769\r\n769\r\n769\r\n769",
+      "Enrolment S.Y. 2025-2026": 769,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": "",
-      "USABLE": ""
+      "GAP-TX": 769,
+      "Surplus-TX": 0,
+      "USABLE": 839
     },
     {
       "Grade Level": "SHS",
@@ -415,7 +415,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -437,7 +437,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -448,7 +448,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -459,7 +459,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -470,7 +470,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -481,7 +481,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -492,7 +492,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     },
     {
       "Grade Level": "SHS",
@@ -503,8 +503,8 @@
       "SOURCE-TX (CO,RO, SDO)": "C0",
       "GAP-TX": 252,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 1075
     }
   ],
-  "generatedAt": "2026-06-16T06:41:56.903Z"
+  "generatedAt": "2026-06-16T06:51:40.122Z"
 }
