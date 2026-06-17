@@ -1226,10 +1226,10 @@
       "SOURCE - ADM-SLM - (CO,RO, SDO) - Q4": "",
       "GAP - ADM-SLM - Q4": 5408,
       "SURPLUS - ADM-SLM- Q4": 0,
-      "Usable Q1": "",
-      "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q1": 0,
+      "Usable Q2": 0,
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 5,
@@ -1925,5 +1925,5 @@
       "Usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T04:52:12.596Z"
+  "generatedAt": "2026-06-17T06:41:43.580Z"
 }
