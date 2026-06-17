@@ -355,12 +355,12 @@
       "Grade Level": 5,
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": 548,
-      "Quantity of Textbooks Received": 538,
+      "Quantity of Textbooks Received": 510,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 10,
+      "GAP-TX": 38,
       "Surplus-TX": 0,
-      "USABLE": 538
+      "USABLE": 510
     },
     {
       "Grade Level": 5,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-17T06:26:47.353Z"
+  "generatedAt": "2026-06-17T08:21:43.770Z"
 }
