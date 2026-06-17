@@ -300,12 +300,12 @@
       "Grade Level": 5,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 676,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 676,
-      "Surplus-TX": 0,
-      "USABLE": 700
+      "Quantity of Textbooks Received": 722,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 46,
+      "USABLE": 722
     },
     {
       "Grade Level": 5,
@@ -393,7 +393,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -404,7 +404,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -415,7 +415,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -426,7 +426,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -437,7 +437,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -448,7 +448,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -459,7 +459,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -470,7 +470,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     },
     {
       "Grade Level": 6,
@@ -481,8 +481,8 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 711,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 0
     }
   ],
-  "generatedAt": "2026-06-17T06:11:43.558Z"
+  "generatedAt": "2026-06-17T06:26:46.182Z"
 }
