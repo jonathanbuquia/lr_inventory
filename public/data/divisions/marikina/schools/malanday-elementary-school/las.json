@@ -38,10 +38,10 @@
       "SOURCE - LAS (CO,RO, SDO) - Q4": "",
       "GAP - LAS - Q4": 0,
       "SURPLUS - LAS - Q4": 0,
-      "Usable Q1": "",
-      "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q1": 0,
+      "Usable Q2": 0,
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 1,
@@ -147,10 +147,10 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 636,
       "Quantity based on Target LAS - Q1": 5088,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 820,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": "",
       "Year of Delivery-LAS - Q1": 2025,
       "SOURCE - LAS (CO,RO, SDO) - Q1": "RO",
-      "GAP - LAS - Q1": 4268,
+      "GAP - LAS - Q1": 5088,
       "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 5088,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
@@ -1760,5 +1760,5 @@
       "Usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T04:56:39.693Z"
+  "generatedAt": "2026-06-17T07:16:45.090Z"
 }
