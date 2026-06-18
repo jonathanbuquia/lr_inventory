@@ -798,7 +798,7 @@
       "GAP - ADM-SLM - Q4": 5312,
       "SURPLUS - ADM-SLM- Q4": 0,
       "Q1 Usable": "",
-      "Q2 Usable": "",
+      "Q2 Usable": 0,
       "Q3 Usable": "",
       "Q4 Usable": ""
     },
@@ -831,7 +831,7 @@
       "GAP - ADM-SLM - Q4": 4976,
       "SURPLUS - ADM-SLM- Q4": 0,
       "Q1 Usable": "",
-      "Q2 Usable": "",
+      "Q2 Usable": 0,
       "Q3 Usable": "",
       "Q4 Usable": ""
     },
@@ -1063,7 +1063,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Q1 Usable": "",
       "Q2 Usable": "",
-      "Q3 Usable": "",
+      "Q3 Usable": 31,
       "Q4 Usable": ""
     },
     {
@@ -1096,7 +1096,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Q1 Usable": "",
       "Q2 Usable": "",
-      "Q3 Usable": "",
+      "Q3 Usable": 25,
       "Q4 Usable": ""
     },
     {
@@ -1727,5 +1727,5 @@
       "Q4 Usable": ""
     }
   ],
-  "generatedAt": "2026-06-16T02:31:42.110Z"
+  "generatedAt": "2026-06-18T07:11:55.335Z"
 }
