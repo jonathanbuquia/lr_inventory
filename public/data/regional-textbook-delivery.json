@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-18T00:15:26.224Z",
+  "generatedAt": "2026-06-18T02:29:32.018Z",
   "grades": [
     {
       "grade": "1",
@@ -14508,7 +14508,7 @@
           "science": 7851,
           "pe-and-health": 7926,
           "epp": 1336,
-          "music-and-arts": 7424
+          "music-and-arts": 7436
         },
         "7": {
           "english": 8317,
@@ -14528,8 +14528,8 @@
         "7": 7267
       },
       "enrollmentTotal": 19350,
-      "deliveredTotal": 150614,
-      "deliveryPercentage": 778.37,
+      "deliveredTotal": 150626,
+      "deliveryPercentage": 778.43,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15239,7 +15239,7 @@
               "science": 427,
               "pe-and-health": 427,
               "epp": 427,
-              "music-and-arts": 429
+              "music-and-arts": 441
             },
             "7": {
               "english": 0,
@@ -15259,8 +15259,8 @@
             "7": 0
           },
           "enrollmentTotal": 420,
-          "deliveredTotal": 4886,
-          "deliveryPercentage": 1163.33
+          "deliveredTotal": 4898,
+          "deliveryPercentage": 1166.19
         },
         {
           "id": "marikina-heights-national-high-school",
