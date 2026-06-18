@@ -931,7 +931,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Q1 Usable": "",
       "Q2 Usable": "",
-      "Q3 Usable": "",
+      "Q3 Usable": 14,
       "Q4 Usable": ""
     },
     {
@@ -1727,5 +1727,5 @@
       "Q4 Usable": ""
     }
   ],
-  "generatedAt": "2026-06-18T07:11:55.335Z"
+  "generatedAt": "2026-06-18T07:26:45.649Z"
 }
