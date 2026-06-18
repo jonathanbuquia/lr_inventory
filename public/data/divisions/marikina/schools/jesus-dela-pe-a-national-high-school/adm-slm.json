@@ -767,7 +767,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -798,9 +798,9 @@
       "GAP - ADM-SLM - Q4": 975,
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
-      "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q2": 0,
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -831,9 +831,9 @@
       "GAP - ADM-SLM - Q4": 913,
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
-      "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q2": 0,
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -865,8 +865,8 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -898,8 +898,8 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -931,8 +931,8 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -965,7 +965,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -998,7 +998,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -1064,7 +1064,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 9,
@@ -1096,8 +1096,8 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q3": 0,
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1130,7 +1130,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1163,7 +1163,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1196,7 +1196,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1229,7 +1229,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1262,7 +1262,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1295,7 +1295,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1328,7 +1328,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1361,7 +1361,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1427,7 +1427,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": 10,
@@ -1460,7 +1460,7 @@
       "Usable Q1": "",
       "Usable Q2": "",
       "Usable Q3": "",
-      "Usable Q4": ""
+      "Usable Q4": 0
     },
     {
       "Grade Level": "SHS",
@@ -1727,5 +1727,5 @@
       "Usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-16T03:06:40.951Z"
+  "generatedAt": "2026-06-18T00:41:43.619Z"
 }
