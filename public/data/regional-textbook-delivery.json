@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-17T05:42:15.418Z",
+  "generatedAt": "2026-06-18T00:15:26.224Z",
   "grades": [
     {
       "grade": "1",
@@ -9756,6 +9756,49 @@
       "deliveredTotal": 406758,
       "deliveryPercentage": 650.6,
       "schools": [
+        {
+          "id": "2026-school-teachers-audit-template-copy",
+          "name": "2026 School Teachers Audit Template - Copy",
+          "totals": {
+            "1": {
+              "reading-and-literacy": 0,
+              "language": 0,
+              "gmrc": 0,
+              "makabansa": 0,
+              "mathematics": 0
+            },
+            "4": {
+              "english": 0,
+              "filipino": 0,
+              "mathematics": 0,
+              "gmrc": 0,
+              "araling-panlipunan": 0,
+              "science": 0,
+              "pe-and-health": 0,
+              "epp": 0,
+              "music-and-arts": 0
+            },
+            "7": {
+              "english": 0,
+              "filipino": 0,
+              "mathematics": 0,
+              "ve": 0,
+              "araling-panlipunan": 0,
+              "science": 0,
+              "pe-and-health": 0,
+              "tle": 0,
+              "music-and-arts": 0
+            }
+          },
+          "enrollmentByGrade": {
+            "1": 0,
+            "4": 0,
+            "7": 0
+          },
+          "enrollmentTotal": 0,
+          "deliveredTotal": 0,
+          "deliveryPercentage": 0
+        },
         {
           "id": "a-c-herrera-elementary-school",
           "name": "A. C. HERRERA ELEMENTARY SCHOOL",
