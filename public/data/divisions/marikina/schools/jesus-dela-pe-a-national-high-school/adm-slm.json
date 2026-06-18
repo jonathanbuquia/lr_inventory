@@ -1128,8 +1128,8 @@
       "GAP - ADM-SLM - Q4": 1013,
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
-      "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q2": 0,
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1162,7 +1162,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1194,8 +1194,8 @@
       "GAP - ADM-SLM - Q4": 988,
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
-      "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q2": 0,
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1228,7 +1228,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1261,7 +1261,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1294,7 +1294,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1327,7 +1327,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1360,7 +1360,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1426,7 +1426,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1459,7 +1459,7 @@
       "SURPLUS - ADM-SLM- Q4": 0,
       "Usable Q1": "",
       "Usable Q2": "",
-      "Usable Q3": "",
+      "Usable Q3": 0,
       "Usable Q4": 0
     },
     {
@@ -1727,5 +1727,5 @@
       "Usable Q4": ""
     }
   ],
-  "generatedAt": "2026-06-18T00:41:43.619Z"
+  "generatedAt": "2026-06-18T00:56:42.581Z"
 }
