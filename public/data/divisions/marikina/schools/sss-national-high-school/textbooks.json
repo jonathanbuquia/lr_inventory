@@ -107,7 +107,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 48,
       "Surplus-TX": 0,
-      "Usable": 305
+      "Usable": 307
     },
     {
       "Grade Level": 8,
@@ -495,5 +495,5 @@
       "Usable": ""
     }
   ],
-  "generatedAt": "2026-06-17T04:16:54.853Z"
+  "generatedAt": "2026-06-18T04:10:44.273Z"
 }
