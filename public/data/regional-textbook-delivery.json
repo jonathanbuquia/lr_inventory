@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:52:07.289Z",
+  "generatedAt": "2026-06-30T03:57:16.679Z",
   "grades": [
     {
       "grade": "1",
@@ -14493,22 +14493,22 @@
       "name": "MARIKINA",
       "totals": {
         "1": {
-          "reading-and-literacy": 6993,
-          "language": 6786,
-          "gmrc": 7065,
-          "makabansa": 7067,
-          "mathematics": 0
+          "reading-and-literacy": 6794,
+          "language": 6666,
+          "gmrc": 6866,
+          "makabansa": 6868,
+          "mathematics": 902
         },
         "4": {
-          "english": 0,
-          "filipino": 7926,
-          "mathematics": 7932,
-          "gmrc": 7830,
-          "araling-panlipunan": 7849,
-          "science": 7851,
-          "pe-and-health": 7926,
-          "epp": 427,
-          "music-and-arts": 7828
+          "english": 942,
+          "filipino": 7645,
+          "mathematics": 7651,
+          "gmrc": 7587,
+          "araling-panlipunan": 7606,
+          "science": 7608,
+          "pe-and-health": 7683,
+          "epp": 1369,
+          "music-and-arts": 7644
         },
         "7": {
           "english": 8317,
@@ -14523,13 +14523,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5040,
-        "4": 5666,
+        "1": 5126,
+        "4": 5760,
         "7": 339
       },
-      "enrollmentTotal": 11045,
-      "deliveredTotal": 150016,
-      "deliveryPercentage": 1358.23,
+      "enrollmentTotal": 11225,
+      "deliveredTotal": 150367,
+      "deliveryPercentage": 1339.57,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15138,22 +15138,22 @@
           "name": "MALANDAY ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 820,
-              "language": 820,
-              "gmrc": 820,
-              "makabansa": 820,
-              "mathematics": 0
+              "reading-and-literacy": 700,
+              "language": 700,
+              "gmrc": 700,
+              "makabansa": 700,
+              "mathematics": 700
             },
             "4": {
-              "english": 0,
-              "filipino": 949,
-              "mathematics": 949,
-              "gmrc": 919,
-              "araling-panlipunan": 919,
-              "science": 919,
-              "pe-and-health": 919,
-              "epp": 0,
-              "music-and-arts": 852
+              "english": 725,
+              "filipino": 725,
+              "mathematics": 725,
+              "gmrc": 725,
+              "araling-panlipunan": 725,
+              "science": 725,
+              "pe-and-health": 725,
+              "epp": 725,
+              "music-and-arts": 725
             },
             "7": {
               "english": 0,
@@ -15173,8 +15173,8 @@
             "7": 0
           },
           "enrollmentTotal": 1396,
-          "deliveredTotal": 9706,
-          "deliveryPercentage": 695.27
+          "deliveredTotal": 10025,
+          "deliveryPercentage": 718.12
         },
         {
           "id": "malanday-national-high-school",
@@ -15254,13 +15254,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 190,
-            "4": 230,
+            "1": 276,
+            "4": 324,
             "7": 0
           },
-          "enrollmentTotal": 420,
+          "enrollmentTotal": 600,
           "deliveredTotal": 4898,
-          "deliveryPercentage": 1166.19
+          "deliveryPercentage": 816.33
         },
         {
           "id": "marikina-heights-national-high-school",
@@ -15611,22 +15611,22 @@
           "name": "SAN ROQUE ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 281,
+              "reading-and-literacy": 202,
               "language": 0,
-              "gmrc": 281,
-              "makabansa": 281,
-              "mathematics": 0
+              "gmrc": 202,
+              "makabansa": 202,
+              "mathematics": 202
             },
             "4": {
-              "english": 0,
-              "filipino": 274,
-              "mathematics": 274,
-              "gmrc": 266,
-              "araling-panlipunan": 266,
-              "science": 266,
-              "pe-and-health": 266,
-              "epp": 0,
-              "music-and-arts": 274
+              "english": 217,
+              "filipino": 217,
+              "mathematics": 217,
+              "gmrc": 217,
+              "araling-panlipunan": 217,
+              "science": 217,
+              "pe-and-health": 217,
+              "epp": 217,
+              "music-and-arts": 217
             },
             "7": {
               "english": 0,
@@ -15646,8 +15646,8 @@
             "7": 0
           },
           "enrollmentTotal": 434,
-          "deliveredTotal": 2729,
-          "deliveryPercentage": 628.8
+          "deliveredTotal": 2761,
+          "deliveryPercentage": 636.18
         },
         {
           "id": "san-roque-national-high-school",
