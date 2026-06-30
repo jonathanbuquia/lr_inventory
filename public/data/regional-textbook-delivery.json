@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:47:19.938Z",
+  "generatedAt": "2026-06-30T03:52:07.289Z",
   "grades": [
     {
       "grade": "1",
@@ -14523,13 +14523,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5288,
-        "4": 6025,
+        "1": 5040,
+        "4": 5666,
         "7": 339
       },
-      "enrollmentTotal": 11652,
+      "enrollmentTotal": 11045,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 1287.47,
+      "deliveryPercentage": 1358.23,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14652,13 +14652,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 291,
-            "4": 323,
+            "1": 0,
+            "4": 0,
             "7": 0
           },
-          "enrollmentTotal": 614,
+          "enrollmentTotal": 0,
           "deliveredTotal": 4241,
-          "deliveryPercentage": 690.72
+          "deliveryPercentage": 0
         },
         {
           "id": "concepcion-integrated-school",
@@ -15899,13 +15899,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 305,
-            "4": 410,
+            "1": 348,
+            "4": 374,
             "7": 0
           },
-          "enrollmentTotal": 715,
+          "enrollmentTotal": 722,
           "deliveredTotal": 5335,
-          "deliveryPercentage": 746.15
+          "deliveryPercentage": 738.92
         },
         {
           "id": "sto-nino-national-high-school",
