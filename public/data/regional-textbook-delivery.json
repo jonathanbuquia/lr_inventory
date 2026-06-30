@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T02:32:06.093Z",
+  "generatedAt": "2026-06-30T02:42:08.003Z",
   "grades": [
     {
       "grade": "1",
@@ -14508,7 +14508,7 @@
           "science": 7851,
           "pe-and-health": 7926,
           "epp": 427,
-          "music-and-arts": 7436
+          "music-and-arts": 7828
         },
         "7": {
           "english": 8317,
@@ -14523,13 +14523,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5400,
-        "4": 6683,
-        "7": 7267
+        "1": 4909,
+        "4": 6160,
+        "7": 6413
       },
-      "enrollmentTotal": 19350,
-      "deliveredTotal": 150104,
-      "deliveryPercentage": 775.73,
+      "enrollmentTotal": 17482,
+      "deliveredTotal": 150496,
+      "deliveryPercentage": 860.86,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14611,11 +14611,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 196
+            "7": 0
           },
-          "enrollmentTotal": 196,
+          "enrollmentTotal": 0,
           "deliveredTotal": 2424,
-          "deliveryPercentage": 1236.73
+          "deliveryPercentage": 0
         },
         {
           "id": "concepcion-elementary-school",
@@ -14695,13 +14695,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 491,
-            "4": 523,
-            "7": 658
+            "1": 0,
+            "4": 0,
+            "7": 0
           },
-          "enrollmentTotal": 1672,
+          "enrollmentTotal": 0,
           "deliveredTotal": 12917,
-          "deliveryPercentage": 772.55
+          "deliveryPercentage": 0
         },
         {
           "id": "fortune-elementary-school",
@@ -15067,7 +15067,7 @@
               "science": 404,
               "pe-and-health": 404,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 392
             },
             "7": {
               "english": 0,
@@ -15087,8 +15087,8 @@
             "7": 0
           },
           "enrollmentTotal": 591,
-          "deliveredTotal": 3784,
-          "deliveryPercentage": 640.27
+          "deliveredTotal": 4176,
+          "deliveryPercentage": 706.6
         },
         {
           "id": "l-victorino-elementary-school",
