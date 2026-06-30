@@ -206,7 +206,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 150,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 153
     },
     {
       "Grade Level": 4,
@@ -217,7 +217,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 150,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 157
     },
     {
       "Grade Level": 4,
@@ -228,7 +228,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 156,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 155
     },
     {
       "Grade Level": 4,
@@ -239,7 +239,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 156,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 155
     },
     {
       "Grade Level": 4,
@@ -250,7 +250,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 156,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 160
     },
     {
       "Grade Level": 4,
@@ -294,7 +294,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 138,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 173
     },
     {
       "Grade Level": 5,
@@ -305,7 +305,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 138,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 182
     },
     {
       "Grade Level": 5,
@@ -338,7 +338,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 144,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 160
     },
     {
       "Grade Level": 5,
@@ -349,7 +349,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 138,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 180
     },
     {
       "Grade Level": 5,
@@ -360,7 +360,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 138,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 150
     },
     {
       "Grade Level": 5,
@@ -371,7 +371,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 138,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 182
     },
     {
       "Grade Level": 5,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-30T08:11:42.803Z"
+  "generatedAt": "2026-06-30T08:21:45.914Z"
 }

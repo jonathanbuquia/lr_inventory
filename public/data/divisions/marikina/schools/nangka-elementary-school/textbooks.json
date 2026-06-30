@@ -36,11 +36,11 @@
       "Grade Level": 1,
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 565,
-      "Quantity of Textbooks Received": 580,
+      "Quantity of Textbooks Received": 503,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 15,
+      "GAP-TX": 62,
+      "Surplus-TX": 0,
       "USABLE": ""
     },
     {
@@ -157,11 +157,11 @@
       "Grade Level": 3,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 552,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 552,
-      "Surplus-TX": 0,
+      "Quantity of Textbooks Received": 564,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 12,
       "USABLE": ""
     },
     {
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-30T03:46:47.136Z"
+  "generatedAt": "2026-06-30T08:21:46.677Z"
 }
