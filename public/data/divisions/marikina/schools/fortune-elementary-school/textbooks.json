@@ -47,11 +47,11 @@
       "Grade Level": 1,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 442,
-      "Quantity of Textbooks Received": 539,
+      "Quantity of Textbooks Received": 525,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 97,
+      "Surplus-TX": 83,
       "USABLE": 390
     },
     {
@@ -103,7 +103,7 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 497,
       "Quantity of Textbooks Received": 539,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 42,
@@ -202,7 +202,7 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 547,
       "Quantity of Textbooks Received": 633,
-      "Year of Delivery-TX": 2024,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 86,
@@ -279,7 +279,7 @@
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 547,
       "Quantity of Textbooks Received": 614,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 67,
@@ -345,7 +345,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 509,
       "Quantity of Textbooks Received": 580,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 71,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-30T02:06:33.641Z"
+  "generatedAt": "2026-06-30T02:31:40.087Z"
 }
