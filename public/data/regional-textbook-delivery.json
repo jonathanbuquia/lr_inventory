@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T04:11:57.607Z",
+  "generatedAt": "2026-06-30T04:22:10.956Z",
   "grades": [
     {
       "grade": "1",
@@ -14504,11 +14504,11 @@
           "filipino": 7653,
           "mathematics": 7653,
           "gmrc": 7593,
-          "araling-panlipunan": 7609,
-          "science": 7609,
+          "araling-panlipunan": 7602,
+          "science": 7602,
           "pe-and-health": 7691,
           "epp": 1369,
-          "music-and-arts": 7644
+          "music-and-arts": 7659
         },
         "7": {
           "english": 8317,
@@ -14528,8 +14528,8 @@
         "7": 339
       },
       "enrollmentTotal": 11225,
-      "deliveredTotal": 150395,
-      "deliveryPercentage": 1339.82,
+      "deliveredTotal": 150396,
+      "deliveryPercentage": 1339.83,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14891,11 +14891,11 @@
               "filipino": 231,
               "mathematics": 231,
               "gmrc": 224,
-              "araling-panlipunan": 231,
-              "science": 231,
+              "araling-panlipunan": 224,
+              "science": 224,
               "pe-and-health": 224,
               "epp": 0,
-              "music-and-arts": 216
+              "music-and-arts": 231
             },
             "7": {
               "english": 0,
@@ -14915,8 +14915,8 @@
             "7": 0
           },
           "enrollmentTotal": 317,
-          "deliveredTotal": 2588,
-          "deliveryPercentage": 816.4
+          "deliveredTotal": 2589,
+          "deliveryPercentage": 816.72
         },
         {
           "id": "jesus-dela-pe-a-national-high-school",
