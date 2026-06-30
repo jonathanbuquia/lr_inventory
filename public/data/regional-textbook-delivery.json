@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T02:06:53.739Z",
+  "generatedAt": "2026-06-30T02:22:20.441Z",
   "grades": [
     {
       "grade": "1",
@@ -14507,7 +14507,7 @@
           "araling-panlipunan": 7849,
           "science": 7851,
           "pe-and-health": 7926,
-          "epp": 1336,
+          "epp": 1131,
           "music-and-arts": 7436
         },
         "7": {
@@ -14528,8 +14528,8 @@
         "7": 7267
       },
       "enrollmentTotal": 19350,
-      "deliveredTotal": 150223,
-      "deliveryPercentage": 776.35,
+      "deliveredTotal": 150018,
+      "deliveryPercentage": 775.29,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15797,7 +15797,7 @@
               "araling-panlipunan": 107,
               "science": 107,
               "pe-and-health": 205,
-              "epp": 205,
+              "epp": 0,
               "music-and-arts": 199
             },
             "7": {
@@ -15818,8 +15818,8 @@
             "7": 0
           },
           "enrollmentTotal": 265,
-          "deliveredTotal": 1608,
-          "deliveryPercentage": 606.79
+          "deliveredTotal": 1403,
+          "deliveryPercentage": 529.43
         },
         {
           "id": "sta-elena-high-school",
