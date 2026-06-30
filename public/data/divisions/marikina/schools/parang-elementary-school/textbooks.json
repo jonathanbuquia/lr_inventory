@@ -206,7 +206,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 217,
-      "USABLE": ""
+      "USABLE": 725
     },
     {
       "Grade Level": 4,
@@ -217,7 +217,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 217,
-      "USABLE": ""
+      "USABLE": 716
     },
     {
       "Grade Level": 4,
@@ -228,7 +228,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 217,
-      "USABLE": ""
+      "USABLE": 724
     },
     {
       "Grade Level": 4,
@@ -239,7 +239,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 217,
-      "USABLE": ""
+      "USABLE": 695
     },
     {
       "Grade Level": 4,
@@ -250,7 +250,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 217,
-      "USABLE": ""
+      "USABLE": 686
     },
     {
       "Grade Level": 4,
@@ -261,7 +261,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 217,
-      "USABLE": ""
+      "USABLE": 697
     },
     {
       "Grade Level": 4,
@@ -283,7 +283,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 193,
-      "USABLE": ""
+      "USABLE": 780
     },
     {
       "Grade Level": 5,
@@ -294,7 +294,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 99,
-      "USABLE": ""
+      "USABLE": 636
     },
     {
       "Grade Level": 5,
@@ -305,7 +305,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 99,
-      "USABLE": ""
+      "USABLE": 704
     },
     {
       "Grade Level": 5,
@@ -338,7 +338,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 52,
-      "USABLE": ""
+      "USABLE": 595
     },
     {
       "Grade Level": 5,
@@ -349,7 +349,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 99,
-      "USABLE": ""
+      "USABLE": 704
     },
     {
       "Grade Level": 5,
@@ -360,7 +360,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 99,
-      "USABLE": ""
+      "USABLE": 635
     },
     {
       "Grade Level": 5,
@@ -371,7 +371,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 99,
-      "USABLE": ""
+      "USABLE": 704
     },
     {
       "Grade Level": 5,
@@ -448,7 +448,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 31,
-      "USABLE": 550
+      "USABLE": ""
     },
     {
       "Grade Level": 6,
@@ -459,7 +459,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 31,
-      "USABLE": 550
+      "USABLE": ""
     },
     {
       "Grade Level": 6,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-30T08:56:43.419Z"
+  "generatedAt": "2026-06-30T09:16:49.507Z"
 }
