@@ -16,7 +16,7 @@
       "Enrolment S.Y. 2025-2026": 293,
       "Quantity of Textbooks Received": 395,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 102,
       "Usable": ""
@@ -37,7 +37,7 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 293,
       "Quantity of Textbooks Received": 395,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 102,
@@ -93,7 +93,7 @@
       "Enrolment S.Y. 2025-2026": 325,
       "Quantity of Textbooks Received": 390,
       "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
       "Surplus-TX": 65,
       "Usable": ""
@@ -103,7 +103,7 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 325,
       "Quantity of Textbooks Received": 410,
-      "Year of Delivery-TX": 2026,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 85,
@@ -484,5 +484,5 @@
       "Usable": ""
     }
   ],
-  "generatedAt": "2026-06-30T02:01:39.516Z"
+  "generatedAt": "2026-06-30T02:16:31.904Z"
 }
