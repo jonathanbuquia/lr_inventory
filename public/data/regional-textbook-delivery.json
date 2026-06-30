@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T08:27:20.294Z",
+  "generatedAt": "2026-06-30T08:32:18.512Z",
   "grades": [
     {
       "grade": "1",
@@ -14493,20 +14493,20 @@
       "name": "MARIKINA",
       "totals": {
         "1": {
-          "reading-and-literacy": 6713,
-          "language": 6492,
-          "gmrc": 6789,
-          "makabansa": 6815,
+          "reading-and-literacy": 6794,
+          "language": 6666,
+          "gmrc": 6866,
+          "makabansa": 6868,
           "mathematics": 902
         },
         "4": {
           "english": 942,
-          "filipino": 7587,
-          "mathematics": 7593,
-          "gmrc": 7557,
-          "araling-panlipunan": 7561,
-          "science": 7537,
-          "pe-and-health": 7609,
+          "filipino": 7653,
+          "mathematics": 7653,
+          "gmrc": 7593,
+          "araling-panlipunan": 7602,
+          "science": 7602,
+          "pe-and-health": 7691,
           "epp": 1369,
           "music-and-arts": 7659
         },
@@ -14528,8 +14528,8 @@
         "7": 339
       },
       "enrollmentTotal": 11225,
-      "deliveredTotal": 149661,
-      "deliveryPercentage": 1333.28,
+      "deliveredTotal": 150396,
+      "deliveryPercentage": 1339.83,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15396,20 +15396,20 @@
           "name": "NANGKA ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 499,
-              "language": 406,
-              "gmrc": 503,
-              "makabansa": 527,
+              "reading-and-literacy": 580,
+              "language": 580,
+              "gmrc": 580,
+              "makabansa": 580,
               "mathematics": 0
             },
             "4": {
               "english": 0,
-              "filipino": 620,
-              "mathematics": 626,
-              "gmrc": 650,
-              "araling-panlipunan": 645,
-              "science": 621,
-              "pe-and-health": 604,
+              "filipino": 686,
+              "mathematics": 686,
+              "gmrc": 686,
+              "araling-panlipunan": 686,
+              "science": 686,
+              "pe-and-health": 686,
               "epp": 0,
               "music-and-arts": 665
             },
@@ -15431,8 +15431,8 @@
             "7": 0
           },
           "enrollmentTotal": 1116,
-          "deliveredTotal": 6366,
-          "deliveryPercentage": 570.43
+          "deliveredTotal": 7101,
+          "deliveryPercentage": 636.29
         },
         {
           "id": "nangka-high-school",
