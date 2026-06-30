@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T02:52:07.005Z",
+  "generatedAt": "2026-06-30T02:57:05.738Z",
   "grades": [
     {
       "grade": "1",
@@ -14525,11 +14525,11 @@
       "enrollmentByGrade": {
         "1": 4909,
         "4": 6160,
-        "7": 4349
+        "7": 2428
       },
-      "enrollmentTotal": 15418,
+      "enrollmentTotal": 13497,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 972.99,
+      "deliveryPercentage": 1111.48,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15385,11 +15385,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 207
+            "7": 0
           },
-          "enrollmentTotal": 207,
+          "enrollmentTotal": 0,
           "deliveredTotal": 1872,
-          "deliveryPercentage": 904.35
+          "deliveryPercentage": 0
         },
         {
           "id": "nangka-elementary-school",
@@ -15471,11 +15471,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 653
+            "7": 0
           },
-          "enrollmentTotal": 653,
+          "enrollmentTotal": 0,
           "deliveredTotal": 5304,
-          "deliveryPercentage": 812.25
+          "deliveryPercentage": 0
         },
         {
           "id": "pamantasan-ng-lungsod-ng-marikina",
@@ -15600,11 +15600,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 834
+            "7": 0
           },
-          "enrollmentTotal": 834,
+          "enrollmentTotal": 0,
           "deliveredTotal": 7424,
-          "deliveryPercentage": 890.17
+          "deliveryPercentage": 0
         },
         {
           "id": "san-roque-elementary-school",
@@ -15686,11 +15686,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 227
+            "7": 0
           },
-          "enrollmentTotal": 227,
+          "enrollmentTotal": 0,
           "deliveredTotal": 2480,
-          "deliveryPercentage": 1092.51
+          "deliveryPercentage": 0
         },
         {
           "id": "sss-national-high-school",

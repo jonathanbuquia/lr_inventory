@@ -300,9 +300,9 @@
       "Grade Level": 5,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 395,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 446,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 395,
       "Surplus-TX": 0,
       "USABLE": ""
@@ -334,8 +334,8 @@
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 395,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 395,
       "Surplus-TX": 0,
       "USABLE": ""
@@ -968,5 +968,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-30T02:51:40.902Z"
+  "generatedAt": "2026-06-30T02:56:40.650Z"
 }
