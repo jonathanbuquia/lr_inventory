@@ -114,8 +114,8 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 312,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 312,
       "Surplus-TX": 0,
       "USABLE": 702
@@ -125,8 +125,8 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 312,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 312,
       "Surplus-TX": 0,
       "USABLE": 690
@@ -169,7 +169,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 312,
       "Quantity of Textbooks Received": 392,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 80,
@@ -495,5 +495,5 @@
       "USABLE": 291
     }
   ],
-  "generatedAt": "2026-06-17T00:16:58.476Z"
+  "generatedAt": "2026-06-30T01:56:37.652Z"
 }
