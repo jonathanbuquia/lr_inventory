@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:02:15.752Z",
+  "generatedAt": "2026-06-30T03:07:12.617Z",
   "grades": [
     {
       "grade": "1",
@@ -14525,11 +14525,11 @@
       "enrollmentByGrade": {
         "1": 4909,
         "4": 6160,
-        "7": 632
+        "7": 339
       },
-      "enrollmentTotal": 11701,
+      "enrollmentTotal": 11408,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 1282.08,
+      "deliveryPercentage": 1315.01,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14869,9 +14869,9 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 167
+            "7": 0
           },
-          "enrollmentTotal": 167,
+          "enrollmentTotal": 0,
           "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
@@ -15987,11 +15987,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 126
+            "7": 0
           },
-          "enrollmentTotal": 126,
+          "enrollmentTotal": 0,
           "deliveredTotal": 2184,
-          "deliveryPercentage": 1733.33
+          "deliveryPercentage": 0
         }
       ]
     },
