@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:42:23.077Z",
+  "generatedAt": "2026-06-30T03:47:19.938Z",
   "grades": [
     {
       "grade": "1",
@@ -14523,13 +14523,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5011,
-        "4": 6028,
+        "1": 5288,
+        "4": 6025,
         "7": 339
       },
-      "enrollmentTotal": 11378,
+      "enrollmentTotal": 11652,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 1318.47,
+      "deliveryPercentage": 1287.47,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14824,13 +14824,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 418,
-            "4": 533,
+            "1": 464,
+            "4": 516,
             "7": 0
           },
-          "enrollmentTotal": 951,
+          "enrollmentTotal": 980,
           "deliveredTotal": 6472,
-          "deliveryPercentage": 680.55
+          "deliveryPercentage": 660.41
         },
         {
           "id": "industrial-valley-complex-national-high-school",
@@ -14996,13 +14996,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 129,
-            "4": 173,
+            "1": 274,
+            "4": 322,
             "7": 0
           },
-          "enrollmentTotal": 302,
+          "enrollmentTotal": 596,
           "deliveredTotal": 1976,
-          "deliveryPercentage": 654.3
+          "deliveryPercentage": 331.54
         },
         {
           "id": "kalumpang-national-high-school",
@@ -15426,13 +15426,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 521,
-            "4": 602,
+            "1": 565,
+            "4": 551,
             "7": 0
           },
-          "enrollmentTotal": 1123,
+          "enrollmentTotal": 1116,
           "deliveredTotal": 7101,
-          "deliveryPercentage": 632.32
+          "deliveryPercentage": 636.29
         },
         {
           "id": "nangka-high-school",
@@ -15770,13 +15770,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 448,
-            "4": 572,
+            "1": 490,
+            "4": 488,
             "7": 0
           },
-          "enrollmentTotal": 1020,
+          "enrollmentTotal": 978,
           "deliveredTotal": 6504,
-          "deliveryPercentage": 637.65
+          "deliveryPercentage": 665.03
         },
         {
           "id": "st-mary-elementary-school",
