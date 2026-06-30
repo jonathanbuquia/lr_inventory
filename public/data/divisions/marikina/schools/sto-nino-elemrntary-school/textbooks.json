@@ -15,8 +15,8 @@
       "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 305,
       "Quantity of Textbooks Received": 480,
-      "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 175,
       "USABLE": ""
@@ -27,7 +27,7 @@
       "Enrolment S.Y. 2025-2026": 305,
       "Quantity of Textbooks Received": 480,
       "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 175,
       "USABLE": ""
@@ -38,7 +38,7 @@
       "Enrolment S.Y. 2025-2026": 305,
       "Quantity of Textbooks Received": 480,
       "Year of Delivery-TX": 2024,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 175,
       "USABLE": ""
@@ -49,7 +49,7 @@
       "Enrolment S.Y. 2025-2026": 305,
       "Quantity of Textbooks Received": 480,
       "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 175,
       "USABLE": ""
@@ -58,8 +58,8 @@
       "Grade Level": 1,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 305,
-      "Quantity of Textbooks Received": 480,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 305,
       "Surplus-TX": 0,
@@ -81,8 +81,8 @@
       "SUBJECTS": "Language",
       "Enrolment S.Y. 2025-2026": 346,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 346,
       "Surplus-TX": 0,
       "USABLE": ""
@@ -103,8 +103,8 @@
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 346,
       "Quantity of Textbooks Received": 440,
-      "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 94,
       "USABLE": ""
@@ -968,5 +968,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-16T04:52:14.247Z"
+  "generatedAt": "2026-06-30T02:51:40.902Z"
 }

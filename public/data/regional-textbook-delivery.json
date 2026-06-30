@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T02:47:14.572Z",
+  "generatedAt": "2026-06-30T02:52:07.005Z",
   "grades": [
     {
       "grade": "1",
@@ -14497,7 +14497,7 @@
           "language": 6786,
           "gmrc": 7065,
           "makabansa": 7067,
-          "mathematics": 480
+          "mathematics": 0
         },
         "4": {
           "english": 0,
@@ -14525,11 +14525,11 @@
       "enrollmentByGrade": {
         "1": 4909,
         "4": 6160,
-        "7": 5149
+        "7": 4349
       },
-      "enrollmentTotal": 16218,
-      "deliveredTotal": 150496,
-      "deliveryPercentage": 927.96,
+      "enrollmentTotal": 15418,
+      "deliveredTotal": 150016,
+      "deliveryPercentage": 972.99,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15299,11 +15299,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 333
+            "7": 339
           },
-          "enrollmentTotal": 333,
+          "enrollmentTotal": 339,
           "deliveredTotal": 3152,
-          "deliveryPercentage": 946.55
+          "deliveryPercentage": 929.79
         },
         {
           "id": "marikina-high-school",
@@ -15342,11 +15342,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 806
+            "7": 0
           },
-          "enrollmentTotal": 806,
+          "enrollmentTotal": 0,
           "deliveredTotal": 7352,
-          "deliveryPercentage": 912.16
+          "deliveryPercentage": 0
         },
         {
           "id": "marikina-science-high-school",
@@ -15873,7 +15873,7 @@
               "language": 480,
               "gmrc": 480,
               "makabansa": 480,
-              "mathematics": 480
+              "mathematics": 0
             },
             "4": {
               "english": 0,
@@ -15904,8 +15904,8 @@
             "7": 0
           },
           "enrollmentTotal": 715,
-          "deliveredTotal": 5815,
-          "deliveryPercentage": 813.29
+          "deliveredTotal": 5335,
+          "deliveryPercentage": 746.15
         },
         {
           "id": "sto-nino-national-high-school",
