@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T02:42:08.003Z",
+  "generatedAt": "2026-06-30T02:47:14.572Z",
   "grades": [
     {
       "grade": "1",
@@ -14525,11 +14525,11 @@
       "enrollmentByGrade": {
         "1": 4909,
         "4": 6160,
-        "7": 6413
+        "7": 5149
       },
-      "enrollmentTotal": 17482,
+      "enrollmentTotal": 16218,
       "deliveredTotal": 150496,
-      "deliveryPercentage": 860.86,
+      "deliveryPercentage": 927.96,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14783,11 +14783,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 640
+            "7": 0
           },
-          "enrollmentTotal": 640,
+          "enrollmentTotal": 0,
           "deliveredTotal": 5752,
-          "deliveryPercentage": 898.75
+          "deliveryPercentage": 0
         },
         {
           "id": "h-bautista-elementary-school",
@@ -14955,11 +14955,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 150
+            "7": 0
           },
-          "enrollmentTotal": 150,
+          "enrollmentTotal": 0,
           "deliveredTotal": 1632,
-          "deliveryPercentage": 1088
+          "deliveryPercentage": 0
         },
         {
           "id": "kalumpang-elementary-school",
@@ -15041,11 +15041,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 168
+            "7": 0
           },
-          "enrollmentTotal": 168,
+          "enrollmentTotal": 0,
           "deliveredTotal": 1544,
-          "deliveryPercentage": 919.05
+          "deliveryPercentage": 0
         },
         {
           "id": "kapitan-moy-elementary-school",
@@ -15213,11 +15213,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 306
+            "7": 0
           },
-          "enrollmentTotal": 306,
+          "enrollmentTotal": 0,
           "deliveredTotal": 4224,
-          "deliveryPercentage": 1380.39
+          "deliveryPercentage": 0
         },
         {
           "id": "marikina-elementary-school",
