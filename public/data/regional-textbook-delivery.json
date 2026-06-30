@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T02:57:05.738Z",
+  "generatedAt": "2026-06-30T03:02:15.752Z",
   "grades": [
     {
       "grade": "1",
@@ -14525,11 +14525,11 @@
       "enrollmentByGrade": {
         "1": 4909,
         "4": 6160,
-        "7": 2428
+        "7": 632
       },
-      "enrollmentTotal": 13497,
+      "enrollmentTotal": 11701,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 1111.48,
+      "deliveryPercentage": 1282.08,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -15729,11 +15729,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 385
+            "7": 0
           },
-          "enrollmentTotal": 385,
+          "enrollmentTotal": 0,
           "deliveredTotal": 2696,
-          "deliveryPercentage": 700.26
+          "deliveryPercentage": 0
         },
         {
           "id": "sss-village-elementary-school",
@@ -15858,11 +15858,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 924
+            "7": 0
           },
-          "enrollmentTotal": 924,
+          "enrollmentTotal": 0,
           "deliveredTotal": 7672,
-          "deliveryPercentage": 830.3
+          "deliveryPercentage": 0
         },
         {
           "id": "sto-nino-elemrntary-school",
@@ -15944,11 +15944,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 487
+            "7": 0
           },
-          "enrollmentTotal": 487,
+          "enrollmentTotal": 0,
           "deliveredTotal": 4136,
-          "deliveryPercentage": 849.28
+          "deliveryPercentage": 0
         },
         {
           "id": "ta-ong-high-school",
