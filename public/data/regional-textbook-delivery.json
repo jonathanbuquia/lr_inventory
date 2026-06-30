@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:57:16.679Z",
+  "generatedAt": "2026-06-30T04:11:57.607Z",
   "grades": [
     {
       "grade": "1",
@@ -14501,12 +14501,12 @@
         },
         "4": {
           "english": 942,
-          "filipino": 7645,
-          "mathematics": 7651,
-          "gmrc": 7587,
-          "araling-panlipunan": 7606,
-          "science": 7608,
-          "pe-and-health": 7683,
+          "filipino": 7653,
+          "mathematics": 7653,
+          "gmrc": 7593,
+          "araling-panlipunan": 7609,
+          "science": 7609,
+          "pe-and-health": 7691,
           "epp": 1369,
           "music-and-arts": 7644
         },
@@ -14528,8 +14528,8 @@
         "7": 339
       },
       "enrollmentTotal": 11225,
-      "deliveredTotal": 150367,
-      "deliveryPercentage": 1339.57,
+      "deliveredTotal": 150395,
+      "deliveryPercentage": 1339.82,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14974,12 +14974,12 @@
             },
             "4": {
               "english": 0,
-              "filipino": 164,
-              "mathematics": 170,
-              "gmrc": 160,
-              "araling-panlipunan": 163,
-              "science": 165,
-              "pe-and-health": 158,
+              "filipino": 172,
+              "mathematics": 172,
+              "gmrc": 166,
+              "araling-panlipunan": 166,
+              "science": 166,
+              "pe-and-health": 166,
               "epp": 0,
               "music-and-arts": 172
             },
@@ -15001,8 +15001,8 @@
             "7": 0
           },
           "enrollmentTotal": 596,
-          "deliveredTotal": 1976,
-          "deliveryPercentage": 331.54
+          "deliveredTotal": 2004,
+          "deliveryPercentage": 336.24
         },
         {
           "id": "kalumpang-national-high-school",
