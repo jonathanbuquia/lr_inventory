@@ -30,14 +30,14 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 227,
       "Surplus-TX": 0,
-      "USABLE": "No Delivery"
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 227,
       "Quantity of Textbooks Received": 310,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 83,
@@ -70,7 +70,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 227,
       "Quantity of Textbooks Received": 310,
-      "Year of Delivery-TX": 2025,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 83,
@@ -115,7 +115,7 @@
       "Enrolment S.Y. 2025-2026": 250,
       "Quantity of Textbooks Received": 228,
       "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 22,
       "Surplus-TX": 0,
       "USABLE": 178
@@ -126,7 +126,7 @@
       "Enrolment S.Y. 2025-2026": 250,
       "Quantity of Textbooks Received": 228,
       "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 22,
       "Surplus-TX": 0,
       "USABLE": 186
@@ -162,7 +162,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 250,
       "Surplus-TX": 0,
-      "USABLE": "No Delivery"
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -184,7 +184,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 250,
       "Surplus-TX": 0,
-      "USABLE": "No Delivery"
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -206,7 +206,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 250,
       "Surplus-TX": 0,
-      "USABLE": "No Delivery"
+      "USABLE": ""
     },
     {
       "Grade Level": 9,
@@ -495,5 +495,5 @@
       "USABLE": "No Delivery"
     }
   ],
-  "generatedAt": "2026-06-17T00:16:59.422Z"
+  "generatedAt": "2026-06-30T02:06:34.554Z"
 }
