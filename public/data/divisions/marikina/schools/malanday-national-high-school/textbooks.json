@@ -19,7 +19,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 781
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -30,7 +30,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 306,
       "Surplus-TX": 0,
-      "USABLE": 336
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -41,7 +41,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 409
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -52,7 +52,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 865
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -63,7 +63,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 330
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -74,7 +74,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 477
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -85,7 +85,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 492
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -96,7 +96,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 489
+      "USABLE": ""
     },
     {
       "Grade Level": 7,
@@ -107,29 +107,29 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 222,
-      "USABLE": 770
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 312,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 392,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 312,
-      "Surplus-TX": 0,
-      "USABLE": 702
+      "GAP-TX": 0,
+      "Surplus-TX": 80,
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 312,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 392,
       "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 312,
-      "Surplus-TX": 0,
-      "USABLE": 690
+      "GAP-TX": 0,
+      "Surplus-TX": 80,
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -140,7 +140,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 80,
-      "USABLE": 435
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -151,7 +151,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 80,
-      "USABLE": 687
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -173,7 +173,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 80,
-      "USABLE": 480
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -184,7 +184,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 312,
       "Surplus-TX": 0,
-      "USABLE": 197
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -195,7 +195,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 80,
-      "USABLE": 392
+      "USABLE": ""
     },
     {
       "Grade Level": 8,
@@ -206,7 +206,7 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 312,
       "Surplus-TX": 0,
-      "USABLE": 189
+      "USABLE": ""
     },
     {
       "Grade Level": 9,
@@ -495,5 +495,5 @@
       "USABLE": 291
     }
   ],
-  "generatedAt": "2026-06-30T01:56:37.652Z"
+  "generatedAt": "2026-06-30T02:01:40.299Z"
 }
