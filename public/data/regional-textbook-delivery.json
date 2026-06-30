@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:07:12.617Z",
+  "generatedAt": "2026-06-30T03:37:21.821Z",
   "grades": [
     {
       "grade": "1",
@@ -14523,13 +14523,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 4909,
+        "1": 4910,
         "4": 6160,
         "7": 339
       },
-      "enrollmentTotal": 11408,
+      "enrollmentTotal": 11409,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 1315.01,
+      "deliveryPercentage": 1314.89,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14566,13 +14566,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 196,
+            "1": 199,
             "4": 205,
             "7": 0
           },
-          "enrollmentTotal": 401,
+          "enrollmentTotal": 404,
           "deliveredTotal": 2845,
-          "deliveryPercentage": 709.48
+          "deliveryPercentage": 704.21
         },
         {
           "id": "barangka-national-high-school",
@@ -14652,13 +14652,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 293,
+            "1": 291,
             "4": 390,
             "7": 0
           },
-          "enrollmentTotal": 683,
+          "enrollmentTotal": 681,
           "deliveredTotal": 4241,
-          "deliveryPercentage": 620.94
+          "deliveryPercentage": 622.76
         },
         {
           "id": "concepcion-integrated-school",
