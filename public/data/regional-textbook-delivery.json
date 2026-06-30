@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-06-30T03:37:21.821Z",
+  "generatedAt": "2026-06-30T03:42:23.077Z",
   "grades": [
     {
       "grade": "1",
@@ -14523,13 +14523,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 4910,
-        "4": 6160,
+        "1": 5011,
+        "4": 6028,
         "7": 339
       },
-      "enrollmentTotal": 11409,
+      "enrollmentTotal": 11378,
       "deliveredTotal": 150016,
-      "deliveryPercentage": 1314.89,
+      "deliveryPercentage": 1318.47,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14653,12 +14653,12 @@
           },
           "enrollmentByGrade": {
             "1": 291,
-            "4": 390,
+            "4": 323,
             "7": 0
           },
-          "enrollmentTotal": 681,
+          "enrollmentTotal": 614,
           "deliveredTotal": 4241,
-          "deliveryPercentage": 622.76
+          "deliveryPercentage": 690.72
         },
         {
           "id": "concepcion-integrated-school",
@@ -14738,13 +14738,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 442,
-            "4": 547,
+            "1": 483,
+            "4": 513,
             "7": 0
           },
-          "enrollmentTotal": 989,
+          "enrollmentTotal": 996,
           "deliveredTotal": 6512,
-          "deliveryPercentage": 658.44
+          "deliveryPercentage": 653.82
         },
         {
           "id": "fortune-high-school",
@@ -15555,13 +15555,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 490,
-            "4": 624,
+            "1": 544,
+            "4": 587,
             "7": 0
           },
-          "enrollmentTotal": 1114,
+          "enrollmentTotal": 1131,
           "deliveredTotal": 8244,
-          "deliveryPercentage": 740.04
+          "deliveryPercentage": 728.91
         },
         {
           "id": "parang-high-school",
@@ -15813,13 +15813,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 131,
-            "4": 134,
+            "1": 137,
+            "4": 140,
             "7": 0
           },
-          "enrollmentTotal": 265,
+          "enrollmentTotal": 277,
           "deliveredTotal": 1403,
-          "deliveryPercentage": 529.43
+          "deliveryPercentage": 506.5
         },
         {
           "id": "sta-elena-high-school",
