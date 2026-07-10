@@ -13,12 +13,12 @@
     {
       "Grade Level": 1,
       "SUBJECTS": "Reading and Literacy",
-      "Enrolment S.Y. 2025-2026": "",
+      "Enrolment S.Y. 2025-2026": 404,
       "Quantity of Textbooks Received": 577,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 577
+      "Surplus-TX": 173
     },
     {
       "Grade Level": 1,
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-15T03:11:22.466Z"
+  "generatedAt": "2026-07-10T03:36:45.616Z"
 }
