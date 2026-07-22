@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T06:02:11.908Z",
+  "generatedAt": "2026-07-22T06:07:12.410Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 2236
+          "mathematics": 2422
         },
         "4": {
           "english": 19426,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 408054,
-      "deliveryPercentage": 748.49,
+      "deliveredTotal": 408240,
+      "deliveryPercentage": 748.83,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1929,7 +1929,7 @@
               "language": 222,
               "gmrc": 222,
               "makabansa": 222,
-              "mathematics": 0
+              "mathematics": 186
             },
             "4": {
               "english": 268,
@@ -1960,8 +1960,8 @@
             "7": 0
           },
           "enrollmentTotal": 312,
-          "deliveredTotal": 3032,
-          "deliveryPercentage": 971.79
+          "deliveredTotal": 3218,
+          "deliveryPercentage": 1031.41
         },
         {
           "id": "gabriela-silang-elementary-school",
@@ -17356,7 +17356,7 @@
           "english": 3908,
           "filipino": 0,
           "mathematics": 3221,
-          "ve": 131,
+          "ve": 1234,
           "araling-panlipunan": 3660,
           "science": 2937,
           "pe-and-health": 3660,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 92556,
-      "deliveryPercentage": 832.04,
+      "deliveredTotal": 93659,
+      "deliveryPercentage": 841.95,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17743,7 +17743,7 @@
               "english": 1103,
               "filipino": 0,
               "mathematics": 901,
-              "ve": 0,
+              "ve": 1103,
               "araling-panlipunan": 1103,
               "science": 925,
               "pe-and-health": 1103,
@@ -17757,8 +17757,8 @@
             "7": 987
           },
           "enrollmentTotal": 987,
-          "deliveredTotal": 7341,
-          "deliveryPercentage": 743.77
+          "deliveredTotal": 8444,
+          "deliveryPercentage": 855.52
         },
         {
           "id": "navotas-elementary-school",
