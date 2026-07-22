@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T02:27:10.079Z",
+  "generatedAt": "2026-07-22T02:32:19.542Z",
   "grades": [
     {
       "grade": "1",
@@ -17336,10 +17336,10 @@
       "totals": {
         "1": {
           "reading-and-literacy": 4653,
-          "language": 3900,
+          "language": 4141,
           "gmrc": 4547,
-          "makabansa": 3922,
-          "mathematics": 423
+          "makabansa": 4657,
+          "mathematics": 995
         },
         "4": {
           "english": 0,
@@ -17350,7 +17350,7 @@
           "science": 6034,
           "pe-and-health": 6021,
           "epp": 0,
-          "music-and-arts": 5879
+          "music-and-arts": 6101
         },
         "7": {
           "english": 3908,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 83754,
-      "deliveryPercentage": 752.91,
+      "deliveredTotal": 85524,
+      "deliveryPercentage": 768.82,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17465,7 +17465,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 241,
-              "language": 0,
+              "language": 241,
               "gmrc": 241,
               "makabansa": 241,
               "mathematics": 164
@@ -17479,7 +17479,7 @@
               "science": 222,
               "pe-and-health": 222,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 222
             },
             "7": {
               "english": 0,
@@ -17499,8 +17499,8 @@
             "7": 0
           },
           "enrollmentTotal": 275,
-          "deliveredTotal": 2219,
-          "deliveryPercentage": 806.91
+          "deliveredTotal": 2682,
+          "deliveryPercentage": 975.27
         },
         {
           "id": "bangkulasi-senior-high-school",
@@ -17596,8 +17596,8 @@
               "reading-and-literacy": 735,
               "language": 735,
               "gmrc": 735,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 735,
+              "mathematics": 572
             },
             "4": {
               "english": 0,
@@ -17628,8 +17628,8 @@
             "7": 0
           },
           "enrollmentTotal": 1055,
-          "deliveredTotal": 7917,
-          "deliveryPercentage": 750.43
+          "deliveredTotal": 9224,
+          "deliveryPercentage": 874.31
         },
         {
           "id": "filemon-t-lizan-senior-high-school",
