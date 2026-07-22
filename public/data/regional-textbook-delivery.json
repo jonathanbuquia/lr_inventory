@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:07:24.435Z",
+  "generatedAt": "2026-07-22T03:12:23.525Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 4900,
           "gmrc": 5306,
           "makabansa": 5416,
-          "mathematics": 2108
+          "mathematics": 2298
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 89673,
-      "deliveryPercentage": 806.12,
+      "deliveredTotal": 89863,
+      "deliveryPercentage": 807.83,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17941,7 +17941,7 @@
               "language": 354,
               "gmrc": 328,
               "makabansa": 354,
-              "mathematics": 0
+              "mathematics": 190
             },
             "4": {
               "english": 0,
@@ -17972,8 +17972,8 @@
             "7": 0
           },
           "enrollmentTotal": 287,
-          "deliveredTotal": 3020,
-          "deliveryPercentage": 1052.26
+          "deliveredTotal": 3210,
+          "deliveryPercentage": 1118.47
         },
         {
           "id": "north-bay-boulevard-north-elementary-school",
