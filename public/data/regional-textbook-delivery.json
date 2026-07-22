@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:12:23.525Z",
+  "generatedAt": "2026-07-22T03:17:19.567Z",
   "grades": [
     {
       "grade": "1",
@@ -17336,10 +17336,10 @@
       "totals": {
         "1": {
           "reading-and-literacy": 5412,
-          "language": 4900,
+          "language": 5156,
           "gmrc": 5306,
           "makabansa": 5416,
-          "mathematics": 2298
+          "mathematics": 2538
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 89863,
-      "deliveryPercentage": 807.83,
+      "deliveredTotal": 90359,
+      "deliveryPercentage": 812.29,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17981,10 +17981,10 @@
           "totals": {
             "1": {
               "reading-and-literacy": 256,
-              "language": 0,
+              "language": 256,
               "gmrc": 256,
               "makabansa": 256,
-              "mathematics": 0
+              "mathematics": 240
             },
             "4": {
               "english": 0,
@@ -18015,8 +18015,8 @@
             "7": 0
           },
           "enrollmentTotal": 441,
-          "deliveredTotal": 3274,
-          "deliveryPercentage": 742.4
+          "deliveredTotal": 3770,
+          "deliveryPercentage": 854.88
         },
         {
           "id": "san-rafael-technological-and-vocational-high-school",

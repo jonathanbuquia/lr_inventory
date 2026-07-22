@@ -82,6 +82,26 @@
     },
     {
       "Grade Level": 2,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": 2,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": 2,
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 102,
       "Quantity of Textbooks Received": "",
@@ -123,6 +143,26 @@
     {
       "Grade Level": 3,
       "SUBJECTS": "Language",
+      "Enrolment S.Y. 2025-2026": 120,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 120,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 3,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 120,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 120,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 3,
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 120,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -441,5 +481,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-16T02:05:11.350Z"
+  "generatedAt": "2026-07-22T03:16:50.630Z"
 }
