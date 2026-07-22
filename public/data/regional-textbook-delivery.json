@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T05:17:10.719Z",
+  "generatedAt": "2026-07-22T05:57:05.963Z",
   "grades": [
     {
       "grade": "1",
@@ -17356,7 +17356,7 @@
           "english": 3908,
           "filipino": 0,
           "mathematics": 3221,
-          "ve": 0,
+          "ve": 131,
           "araling-panlipunan": 3660,
           "science": 2937,
           "pe-and-health": 3660,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 92425,
-      "deliveryPercentage": 830.86,
+      "deliveredTotal": 92556,
+      "deliveryPercentage": 832.04,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17399,7 +17399,7 @@
               "english": 131,
               "filipino": 0,
               "mathematics": 131,
-              "ve": 0,
+              "ve": 131,
               "araling-panlipunan": 131,
               "science": 131,
               "pe-and-health": 131,
@@ -17413,8 +17413,8 @@
             "7": 211
           },
           "enrollmentTotal": 211,
-          "deliveredTotal": 917,
-          "deliveryPercentage": 434.6
+          "deliveredTotal": 1048,
+          "deliveryPercentage": 496.68
         },
         {
           "id": "bagumbayan-elementary-school",
