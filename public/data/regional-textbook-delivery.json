@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T01:47:08.001Z",
+  "generatedAt": "2026-07-22T02:02:04.589Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 790
+          "mathematics": 1194
         },
         "4": {
           "english": 19426,
@@ -139,12 +139,12 @@
         "7": {
           "english": 20785,
           "filipino": 2209,
-          "mathematics": 19860,
-          "ve": 12105,
-          "araling-panlipunan": 20136,
-          "science": 19855,
-          "pe-and-health": 20581,
-          "tle": 19565,
+          "mathematics": 22825,
+          "ve": 14308,
+          "araling-panlipunan": 23101,
+          "science": 22820,
+          "pe-and-health": 23546,
+          "tle": 22530,
           "music-and-arts": 19370
         }
       },
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 391783,
-      "deliveryPercentage": 718.64,
+      "deliveredTotal": 409215,
+      "deliveryPercentage": 750.62,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1429,12 +1429,12 @@
             "7": {
               "english": 2965,
               "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
+              "mathematics": 2965,
+              "ve": 2203,
+              "araling-panlipunan": 2965,
+              "science": 2965,
+              "pe-and-health": 2965,
+              "tle": 2965,
               "music-and-arts": 0
             }
           },
@@ -1444,8 +1444,8 @@
             "7": 2394
           },
           "enrollmentTotal": 2394,
-          "deliveredTotal": 2965,
-          "deliveryPercentage": 123.85
+          "deliveredTotal": 19993,
+          "deliveryPercentage": 835.13
         },
         {
           "id": "caybiga-elementary-school",
@@ -2101,7 +2101,7 @@
               "language": 404,
               "gmrc": 404,
               "makabansa": 404,
-              "mathematics": 0
+              "mathematics": 404
             },
             "4": {
               "english": 316,
@@ -2132,8 +2132,8 @@
             "7": 0
           },
           "enrollmentTotal": 629,
-          "deliveredTotal": 4075,
-          "deliveryPercentage": 647.85
+          "deliveredTotal": 4479,
+          "deliveryPercentage": 712.08
         },
         {
           "id": "horacio-dela-costa-elementary-school",

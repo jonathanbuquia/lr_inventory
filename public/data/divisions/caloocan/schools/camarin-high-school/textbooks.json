@@ -34,61 +34,61 @@
       "Grade Level": 7,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 2394,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 2965,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 2394,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 571
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": 2394,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 2203,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 2394,
+      "GAP-TX": 191,
       "Surplus-TX": 0
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 2394,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 2965,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 2394,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 571
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 2394,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 2965,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 2394,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 571
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": 2394,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 2965,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 2394,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 571
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 2394,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 2965,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 2394,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 571
     },
     {
       "Grade Level": 7,
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-07-22T01:46:22.513Z"
+  "generatedAt": "2026-07-22T02:01:22.526Z"
 }
