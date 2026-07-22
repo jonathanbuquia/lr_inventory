@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:17:19.567Z",
+  "generatedAt": "2026-07-22T03:22:15.893Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 5156,
           "gmrc": 5306,
           "makabansa": 5416,
-          "mathematics": 2538
+          "mathematics": 2993
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 90359,
-      "deliveryPercentage": 812.29,
+      "deliveredTotal": 90814,
+      "deliveryPercentage": 816.38,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18070,7 +18070,7 @@
               "language": 204,
               "gmrc": 197,
               "makabansa": 204,
-              "mathematics": 0
+              "mathematics": 155
             },
             "4": {
               "english": 0,
@@ -18101,8 +18101,8 @@
             "7": 0
           },
           "enrollmentTotal": 209,
-          "deliveredTotal": 1961,
-          "deliveryPercentage": 938.28
+          "deliveredTotal": 2116,
+          "deliveryPercentage": 1012.44
         },
         {
           "id": "san-roque-elementary-school",
@@ -18113,7 +18113,7 @@
               "language": 390,
               "gmrc": 390,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 300
             },
             "4": {
               "english": 0,
@@ -18144,8 +18144,8 @@
             "7": 0
           },
           "enrollmentTotal": 568,
-          "deliveredTotal": 4369,
-          "deliveryPercentage": 769.19
+          "deliveredTotal": 4669,
+          "deliveryPercentage": 822.01
         },
         {
           "id": "san-roque-national-high-school",
