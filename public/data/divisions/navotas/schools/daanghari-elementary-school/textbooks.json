@@ -62,23 +62,43 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "English",
-      "Enrolment S.Y. 2025-2026": 176,
-      "Quantity of Textbooks Received": 249,
-      "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 73
-    },
-    {
-      "Grade Level": 2,
-      "SUBJECTS": "Filipino",
+      "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 176,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 176,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 2,
+      "SUBJECTS": "Language",
+      "Enrolment S.Y. 2025-2026": 176,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 176,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 2,
+      "SUBJECTS": "English",
+      "Enrolment S.Y. 2025-2026": 176,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 176,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 2,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 176,
+      "Quantity of Textbooks Received": 249,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 73
     },
     {
       "Grade Level": 2,
@@ -108,6 +128,26 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 176,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 3,
+      "SUBJECTS": "Reading and Literacy",
+      "Enrolment S.Y. 2025-2026": 204,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 204,
+      "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 3,
+      "SUBJECTS": "Language",
+      "Enrolment S.Y. 2025-2026": 204,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 204,
       "Surplus-TX": 0
     },
     {
@@ -441,5 +481,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-07-22T02:36:43.911Z"
+  "generatedAt": "2026-07-22T04:16:43.892Z"
 }
