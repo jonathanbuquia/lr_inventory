@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T05:12:28.447Z",
+  "generatedAt": "2026-07-22T05:17:10.719Z",
   "grades": [
     {
       "grade": "1",
@@ -4030,49 +4030,6 @@
       "deliveryPercentage": 795.27,
       "schools": [
         {
-          "id": "2",
-          "name": "2",
-          "totals": {
-            "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
-              "mathematics": 0
-            },
-            "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "epp": 0,
-              "music-and-arts": 0
-            },
-            "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
-            }
-          },
-          "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
-            "7": 0
-          },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
-        },
-        {
           "id": "almanza-elementary-school",
           "name": "ALMANZA ELEMENTARY SCHOOL",
           "totals": {
@@ -4892,6 +4849,49 @@
         {
           "id": "las-pi-as-city-national-senior-high-school-talon-dos-campus",
           "name": "LAS PIÑAS CITY NATIONAL SENIOR HIGH SCHOOL- TALON DOS CAMPUS",
+          "totals": {
+            "1": {
+              "reading-and-literacy": 0,
+              "language": 0,
+              "gmrc": 0,
+              "makabansa": 0,
+              "mathematics": 0
+            },
+            "4": {
+              "english": 0,
+              "filipino": 0,
+              "mathematics": 0,
+              "gmrc": 0,
+              "araling-panlipunan": 0,
+              "science": 0,
+              "pe-and-health": 0,
+              "epp": 0,
+              "music-and-arts": 0
+            },
+            "7": {
+              "english": 0,
+              "filipino": 0,
+              "mathematics": 0,
+              "ve": 0,
+              "araling-panlipunan": 0,
+              "science": 0,
+              "pe-and-health": 0,
+              "tle": 0,
+              "music-and-arts": 0
+            }
+          },
+          "enrollmentByGrade": {
+            "1": 0,
+            "4": 0,
+            "7": 0
+          },
+          "enrollmentTotal": 0,
+          "deliveredTotal": 0,
+          "deliveryPercentage": 0
+        },
+        {
+          "id": "las-pi-as-city-national-senior-high-school-golden-acres-campus",
+          "name": "Las Piñas City National Senior High School-Golden Acres Campus",
           "totals": {
             "1": {
               "reading-and-literacy": 0,
