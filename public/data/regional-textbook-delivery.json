@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T02:12:17.636Z",
+  "generatedAt": "2026-07-22T02:22:09.671Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 3900,
           "gmrc": 4547,
           "makabansa": 3922,
-          "mathematics": 0
+          "mathematics": 259
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 83331,
-      "deliveryPercentage": 749.11,
+      "deliveredTotal": 83590,
+      "deliveryPercentage": 751.44,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17425,7 +17425,7 @@
               "language": 400,
               "gmrc": 400,
               "makabansa": 400,
-              "mathematics": 0
+              "mathematics": 259
             },
             "4": {
               "english": 0,
@@ -17456,8 +17456,8 @@
             "7": 0
           },
           "enrollmentTotal": 499,
-          "deliveredTotal": 4480,
-          "deliveryPercentage": 897.8
+          "deliveredTotal": 4739,
+          "deliveryPercentage": 949.7
         },
         {
           "id": "bangkulasi-elementary-school",
