@@ -5,10 +5,6 @@
   },
   "schools": [
     {
-      "id": "1",
-      "name": "1"
-    },
-    {
       "id": "2",
       "name": "2"
     },
@@ -83,6 +79,10 @@
     {
       "id": "las-pi-as-city-national-senior-high-school-manuyo-campus",
       "name": "LAS PIÑAS CITY NATIONAL SENIOR HIGH SCHOOL - MANUYO CAMPUS"
+    },
+    {
+      "id": "las-pi-as-city-national-senior-high-school-diego-cera-campus",
+      "name": "Las Piñas City National Senior High School- Diego Cera Campus"
     },
     {
       "id": "las-pi-as-city-national-senior-high-school-talon-dos-campus",
