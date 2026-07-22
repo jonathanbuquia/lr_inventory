@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:32:08.200Z",
+  "generatedAt": "2026-07-22T03:37:08.133Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 5156,
           "gmrc": 5306,
           "makabansa": 5806,
-          "mathematics": 2993
+          "mathematics": 3327
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 91204,
-      "deliveryPercentage": 819.88,
+      "deliveredTotal": 91538,
+      "deliveryPercentage": 822.89,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18199,7 +18199,7 @@
               "language": 0,
               "gmrc": 36,
               "makabansa": 480,
-              "mathematics": 0
+              "mathematics": 334
             },
             "4": {
               "english": 0,
@@ -18230,8 +18230,8 @@
             "7": 0
           },
           "enrollmentTotal": 673,
-          "deliveredTotal": 4252,
-          "deliveryPercentage": 631.8
+          "deliveredTotal": 4586,
+          "deliveryPercentage": 681.43
         },
         {
           "id": "tangos-i-elementary-school",
