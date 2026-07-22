@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T01:32:09.999Z",
+  "generatedAt": "2026-07-22T01:42:10.290Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 199
+          "mathematics": 790
         },
         "4": {
           "english": 19426,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 387758,
-      "deliveryPercentage": 711.26,
+      "deliveredTotal": 388349,
+      "deliveryPercentage": 712.34,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -252,7 +252,7 @@
               "language": 591,
               "gmrc": 591,
               "makabansa": 591,
-              "mathematics": 0
+              "mathematics": 591
             },
             "4": {
               "english": 469,
@@ -283,8 +283,8 @@
             "7": 0
           },
           "enrollmentTotal": 814,
-          "deliveredTotal": 5647,
-          "deliveryPercentage": 693.73
+          "deliveredTotal": 6238,
+          "deliveryPercentage": 766.34
         },
         {
           "id": "antonio-luna-elementary-school",
