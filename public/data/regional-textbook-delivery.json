@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T02:47:10.564Z",
+  "generatedAt": "2026-07-22T03:07:24.435Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 4900,
           "gmrc": 5306,
           "makabansa": 5416,
-          "mathematics": 1984
+          "mathematics": 2108
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 89549,
-      "deliveryPercentage": 805.01,
+      "deliveredTotal": 89673,
+      "deliveryPercentage": 806.12,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17812,7 +17812,7 @@
               "language": 187,
               "gmrc": 187,
               "makabansa": 187,
-              "mathematics": 0
+              "mathematics": 124
             },
             "4": {
               "english": 0,
@@ -17843,8 +17843,8 @@
             "7": 0
           },
           "enrollmentTotal": 200,
-          "deliveredTotal": 1771,
-          "deliveryPercentage": 885.5
+          "deliveredTotal": 1895,
+          "deliveryPercentage": 947.5
         },
         {
           "id": "navotas-national-high-school",
