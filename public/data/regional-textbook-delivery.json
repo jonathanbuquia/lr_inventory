@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:42:17.677Z",
+  "generatedAt": "2026-07-22T03:47:10.954Z",
   "grades": [
     {
       "grade": "1",
@@ -17336,10 +17336,10 @@
       "totals": {
         "1": {
           "reading-and-literacy": 5412,
-          "language": 5156,
+          "language": 5326,
           "gmrc": 5306,
           "makabansa": 5806,
-          "mathematics": 3539
+          "mathematics": 3992
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 91750,
-      "deliveryPercentage": 824.79,
+      "deliveredTotal": 92373,
+      "deliveryPercentage": 830.39,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18328,7 +18328,7 @@
               "language": 615,
               "gmrc": 615,
               "makabansa": 615,
-              "mathematics": 0
+              "mathematics": 453
             },
             "4": {
               "english": 0,
@@ -18359,8 +18359,8 @@
             "7": 0
           },
           "enrollmentTotal": 879,
-          "deliveredTotal": 7256,
-          "deliveryPercentage": 825.48
+          "deliveredTotal": 7709,
+          "deliveryPercentage": 877.02
         },
         {
           "id": "tanza-national-high-school",
@@ -18411,7 +18411,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 170,
-              "language": 0,
+              "language": 170,
               "gmrc": 170,
               "makabansa": 170,
               "mathematics": 0
@@ -18445,8 +18445,8 @@
             "7": 0
           },
           "enrollmentTotal": 85,
-          "deliveredTotal": 1185,
-          "deliveryPercentage": 1394.12
+          "deliveredTotal": 1355,
+          "deliveryPercentage": 1594.12
         }
       ]
     },
