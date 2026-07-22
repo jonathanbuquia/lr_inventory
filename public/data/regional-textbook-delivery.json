@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T01:42:10.290Z",
+  "generatedAt": "2026-07-22T01:47:08.001Z",
   "grades": [
     {
       "grade": "1",
@@ -134,10 +134,10 @@
           "science": 20685,
           "pe-and-health": 20821,
           "epp": 3250,
-          "music-and-arts": 11419
+          "music-and-arts": 11888
         },
         "7": {
-          "english": 17820,
+          "english": 20785,
           "filipino": 2209,
           "mathematics": 19860,
           "ve": 12105,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 388349,
-      "deliveryPercentage": 712.34,
+      "deliveredTotal": 391783,
+      "deliveryPercentage": 718.64,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -263,7 +263,7 @@
               "science": 469,
               "pe-and-health": 469,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 469
             },
             "7": {
               "english": 0,
@@ -283,8 +283,8 @@
             "7": 0
           },
           "enrollmentTotal": 814,
-          "deliveredTotal": 6238,
-          "deliveryPercentage": 766.34
+          "deliveredTotal": 6707,
+          "deliveryPercentage": 823.96
         },
         {
           "id": "antonio-luna-elementary-school",
@@ -1427,7 +1427,7 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 2965,
               "filipino": 0,
               "mathematics": 0,
               "ve": 0,
@@ -1444,8 +1444,8 @@
             "7": 2394
           },
           "enrollmentTotal": 2394,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 2965,
+          "deliveryPercentage": 123.85
         },
         {
           "id": "caybiga-elementary-school",
