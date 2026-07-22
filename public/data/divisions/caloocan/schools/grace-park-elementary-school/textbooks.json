@@ -56,7 +56,7 @@
       "Enrolment S.Y. 2025-2026": 174,
       "Quantity of Textbooks Received": 200,
       "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 26
     },
@@ -96,7 +96,7 @@
       "Enrolment S.Y. 2025-2026": 178,
       "Quantity of Textbooks Received": 240,
       "Year of Delivery-TX": 2026,
-      "SOURCE-TX (CO,RO, SDO)": "SDO",
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 62
     },
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-07-22T06:06:23.536Z"
+  "generatedAt": "2026-07-22T06:11:24.079Z"
 }

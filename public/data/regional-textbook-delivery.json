@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T06:07:12.410Z",
+  "generatedAt": "2026-07-22T06:12:10.853Z",
   "grades": [
     {
       "grade": "1",
@@ -17356,7 +17356,7 @@
           "english": 3908,
           "filipino": 0,
           "mathematics": 3221,
-          "ve": 1234,
+          "ve": 2320,
           "araling-panlipunan": 3660,
           "science": 2937,
           "pe-and-health": 3660,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 93659,
-      "deliveryPercentage": 841.95,
+      "deliveredTotal": 94745,
+      "deliveryPercentage": 851.72,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17872,7 +17872,7 @@
               "english": 1086,
               "filipino": 0,
               "mathematics": 960,
-              "ve": 0,
+              "ve": 1086,
               "araling-panlipunan": 1086,
               "science": 946,
               "pe-and-health": 1086,
@@ -17886,8 +17886,8 @@
             "7": 925
           },
           "enrollmentTotal": 925,
-          "deliveredTotal": 7336,
-          "deliveryPercentage": 793.08
+          "deliveredTotal": 8422,
+          "deliveryPercentage": 910.49
         },
         {
           "id": "navotas-national-science-high-school",
