@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:52:10.099Z",
+  "generatedAt": "2026-07-22T04:07:04.371Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 1194
+          "mathematics": 2036
         },
         "4": {
           "english": 19426,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 407012,
-      "deliveryPercentage": 746.58,
+      "deliveredTotal": 407854,
+      "deliveryPercentage": 748.12,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -424,7 +424,7 @@
               "language": 842,
               "gmrc": 842,
               "makabansa": 842,
-              "mathematics": 0
+              "mathematics": 842
             },
             "4": {
               "english": 780,
@@ -455,8 +455,8 @@
             "7": 0
           },
           "enrollmentTotal": 1410,
-          "deliveredTotal": 9608,
-          "deliveryPercentage": 681.42
+          "deliveredTotal": 10450,
+          "deliveryPercentage": 741.13
         },
         {
           "id": "baesa-elementary-school",
