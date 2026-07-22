@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T05:57:05.963Z",
+  "generatedAt": "2026-07-22T06:02:11.908Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 2036
+          "mathematics": 2236
         },
         "4": {
           "english": 19426,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 407854,
-      "deliveryPercentage": 748.12,
+      "deliveredTotal": 408054,
+      "deliveryPercentage": 748.49,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2058,7 +2058,7 @@
               "language": 263,
               "gmrc": 263,
               "makabansa": 263,
-              "mathematics": 0
+              "mathematics": 200
             },
             "4": {
               "english": 207,
@@ -2089,8 +2089,8 @@
             "7": 0
           },
           "enrollmentTotal": 394,
-          "deliveredTotal": 2751,
-          "deliveryPercentage": 698.22
+          "deliveredTotal": 2951,
+          "deliveryPercentage": 748.98
         },
         {
           "id": "gregoria-de-jesus-elementary-school",
