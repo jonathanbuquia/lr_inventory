@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T02:02:04.589Z",
+  "generatedAt": "2026-07-22T02:07:13.761Z",
   "grades": [
     {
       "grade": "1",
@@ -140,7 +140,7 @@
           "english": 20785,
           "filipino": 2209,
           "mathematics": 22825,
-          "ve": 14308,
+          "ve": 12105,
           "araling-panlipunan": 23101,
           "science": 22820,
           "pe-and-health": 23546,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 409215,
-      "deliveryPercentage": 750.62,
+      "deliveredTotal": 407012,
+      "deliveryPercentage": 746.58,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1430,7 +1430,7 @@
               "english": 2965,
               "filipino": 0,
               "mathematics": 2965,
-              "ve": 2203,
+              "ve": 0,
               "araling-panlipunan": 2965,
               "science": 2965,
               "pe-and-health": 2965,
@@ -1444,8 +1444,8 @@
             "7": 2394
           },
           "enrollmentTotal": 2394,
-          "deliveredTotal": 19993,
-          "deliveryPercentage": 835.13
+          "deliveredTotal": 17790,
+          "deliveryPercentage": 743.11
         },
         {
           "id": "caybiga-elementary-school",
