@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T03:47:10.954Z",
+  "generatedAt": "2026-07-22T03:52:10.099Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 5326,
           "gmrc": 5306,
           "makabansa": 5806,
-          "mathematics": 3992
+          "mathematics": 4044
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 92373,
-      "deliveryPercentage": 830.39,
+      "deliveredTotal": 92425,
+      "deliveryPercentage": 830.86,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18414,7 +18414,7 @@
               "language": 170,
               "gmrc": 170,
               "makabansa": 170,
-              "mathematics": 0
+              "mathematics": 52
             },
             "4": {
               "english": 0,
@@ -18445,8 +18445,8 @@
             "7": 0
           },
           "enrollmentTotal": 85,
-          "deliveredTotal": 1355,
-          "deliveryPercentage": 1594.12
+          "deliveredTotal": 1407,
+          "deliveryPercentage": 1655.29
         }
       ]
     },
