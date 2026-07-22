@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T02:32:19.542Z",
+  "generatedAt": "2026-07-22T02:37:13.345Z",
   "grades": [
     {
       "grade": "1",
@@ -17339,7 +17339,7 @@
           "language": 4141,
           "gmrc": 4547,
           "makabansa": 4657,
-          "mathematics": 995
+          "mathematics": 1751
         },
         "4": {
           "english": 0,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 85524,
-      "deliveryPercentage": 768.82,
+      "deliveredTotal": 86280,
+      "deliveryPercentage": 775.62,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17554,7 +17554,7 @@
               "language": 290,
               "gmrc": 290,
               "makabansa": 290,
-              "mathematics": 0
+              "mathematics": 196
             },
             "4": {
               "english": 0,
@@ -17585,8 +17585,8 @@
             "7": 0
           },
           "enrollmentTotal": 370,
-          "deliveredTotal": 3090,
-          "deliveryPercentage": 835.14
+          "deliveredTotal": 3286,
+          "deliveryPercentage": 888.11
         },
         {
           "id": "dagat-dagatan-elementary-school",
@@ -17683,7 +17683,7 @@
               "language": 0,
               "gmrc": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 560
             },
             "4": {
               "english": 0,
@@ -17714,8 +17714,8 @@
             "7": 0
           },
           "enrollmentTotal": 1075,
-          "deliveredTotal": 6153,
-          "deliveryPercentage": 572.37
+          "deliveredTotal": 6713,
+          "deliveryPercentage": 624.47
         },
         {
           "id": "kaunlaran-high-school",
