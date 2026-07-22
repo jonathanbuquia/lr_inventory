@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T02:37:13.345Z",
+  "generatedAt": "2026-07-22T02:42:04.438Z",
   "grades": [
     {
       "grade": "1",
@@ -17335,10 +17335,10 @@
       "name": "NAVOTAS",
       "totals": {
         "1": {
-          "reading-and-literacy": 4653,
-          "language": 4141,
-          "gmrc": 4547,
-          "makabansa": 4657,
+          "reading-and-literacy": 5412,
+          "language": 4900,
+          "gmrc": 5306,
+          "makabansa": 5416,
           "mathematics": 1751
         },
         "4": {
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 86280,
-      "deliveryPercentage": 775.62,
+      "deliveredTotal": 89316,
+      "deliveryPercentage": 802.91,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -17679,10 +17679,10 @@
           "name": "KAPITBAHAYAN ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 759,
+              "language": 759,
+              "gmrc": 759,
+              "makabansa": 759,
               "mathematics": 560
             },
             "4": {
@@ -17714,8 +17714,8 @@
             "7": 0
           },
           "enrollmentTotal": 1075,
-          "deliveredTotal": 6713,
-          "deliveryPercentage": 624.47
+          "deliveredTotal": 9749,
+          "deliveryPercentage": 906.88
         },
         {
           "id": "kaunlaran-high-school",
