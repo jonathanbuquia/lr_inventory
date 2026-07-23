@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T00:22:17.251Z",
+  "generatedAt": "2026-07-23T00:27:01.768Z",
   "grades": [
     {
       "grade": "1",
@@ -17353,10 +17353,10 @@
           "music-and-arts": 6101
         },
         "7": {
-          "english": 3908,
+          "english": 4090,
           "filipino": 0,
           "mathematics": 3221,
-          "ve": 2502,
+          "ve": 3198,
           "araling-panlipunan": 3660,
           "science": 2937,
           "pe-and-health": 3660,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 94927,
-      "deliveryPercentage": 853.35,
+      "deliveredTotal": 95805,
+      "deliveryPercentage": 861.25,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18041,7 +18041,7 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 182,
               "filipino": 0,
               "mathematics": 172,
               "ve": 182,
@@ -18058,8 +18058,8 @@
             "7": 139
           },
           "enrollmentTotal": 139,
-          "deliveredTotal": 1254,
-          "deliveryPercentage": 902.16
+          "deliveredTotal": 1436,
+          "deliveryPercentage": 1033.09
         },
         {
           "id": "san-rafael-vill-elementary-school",
@@ -18173,7 +18173,7 @@
               "english": 696,
               "filipino": 0,
               "mathematics": 617,
-              "ve": 0,
+              "ve": 696,
               "araling-panlipunan": 696,
               "science": 430,
               "pe-and-health": 696,
@@ -18187,8 +18187,8 @@
             "7": 568
           },
           "enrollmentTotal": 568,
-          "deliveredTotal": 4527,
-          "deliveryPercentage": 797.01
+          "deliveredTotal": 5223,
+          "deliveryPercentage": 919.54
         },
         {
           "id": "tangos-elementary-school",
