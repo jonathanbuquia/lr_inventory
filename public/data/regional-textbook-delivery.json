@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T03:41:58.897Z",
+  "generatedAt": "2026-07-23T06:22:24.917Z",
   "grades": [
     {
       "grade": "1",
@@ -31297,15 +31297,15 @@
           "music-and-arts": 5186
         },
         "7": {
-          "english": 10798,
+          "english": 11102,
           "filipino": 162,
-          "mathematics": 9038,
-          "ve": 5237,
-          "araling-panlipunan": 10685,
-          "science": 8377,
-          "pe-and-health": 9609,
-          "tle": 8351,
-          "music-and-arts": 11514
+          "mathematics": 9342,
+          "ve": 5541,
+          "araling-panlipunan": 10989,
+          "science": 8681,
+          "pe-and-health": 9913,
+          "tle": 8655,
+          "music-and-arts": 11818
         }
       },
       "enrollmentByGrade": {
@@ -31314,8 +31314,8 @@
         "7": 11414
       },
       "enrollmentTotal": 36535,
-      "deliveredTotal": 201791,
-      "deliveryPercentage": 552.32,
+      "deliveredTotal": 204223,
+      "deliveryPercentage": 558.98,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32974,15 +32974,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 304,
               "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "mathematics": 304,
+              "ve": 304,
+              "araling-panlipunan": 304,
+              "science": 304,
+              "pe-and-health": 304,
+              "tle": 304,
+              "music-and-arts": 304
             }
           },
           "enrollmentByGrade": {
@@ -32991,7 +32991,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 2432,
           "deliveryPercentage": 0
         },
         {
