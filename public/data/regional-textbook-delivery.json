@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:17:02.724Z",
+  "generatedAt": "2026-07-23T02:22:11.085Z",
   "grades": [
     {
       "grade": "1",
@@ -31283,7 +31283,7 @@
           "language": 11109,
           "gmrc": 13696,
           "makabansa": 14339,
-          "mathematics": 3252
+          "mathematics": 3612
         },
         "4": {
           "english": 4078,
@@ -31294,7 +31294,7 @@
           "science": 10310,
           "pe-and-health": 8511,
           "epp": 872,
-          "music-and-arts": 2804
+          "music-and-arts": 3836
         },
         "7": {
           "english": 10798,
@@ -31314,8 +31314,8 @@
         "7": 11275
       },
       "enrollmentTotal": 35497,
-      "deliveredTotal": 194241,
-      "deliveryPercentage": 547.2,
+      "deliveredTotal": 195633,
+      "deliveryPercentage": 551.13,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32143,7 +32143,7 @@
               "language": 572,
               "gmrc": 572,
               "makabansa": 572,
-              "mathematics": 0
+              "mathematics": 360
             },
             "4": {
               "english": 0,
@@ -32174,7 +32174,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 3287,
+          "deliveredTotal": 3647,
           "deliveryPercentage": 0
         },
         {
@@ -33014,7 +33014,7 @@
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 1032
             },
             "7": {
               "english": 0,
@@ -33034,7 +33034,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 1056,
+          "deliveredTotal": 2088,
           "deliveryPercentage": 0
         },
         {
