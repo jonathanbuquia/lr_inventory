@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T00:52:08.605Z",
+  "generatedAt": "2026-07-23T00:56:59.297Z",
   "grades": [
     {
       "grade": "1",
@@ -17355,13 +17355,13 @@
         "7": {
           "english": 4090,
           "filipino": 0,
-          "mathematics": 3221,
-          "ve": 3544,
-          "araling-panlipunan": 3660,
-          "science": 3218,
+          "mathematics": 3490,
+          "ve": 3974,
+          "araling-panlipunan": 3807,
+          "science": 3066,
           "pe-and-health": 4090,
-          "tle": 4090,
-          "music-and-arts": 3662
+          "tle": 3807,
+          "music-and-arts": 4092
         }
       },
       "enrollmentByGrade": {
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 97292,
-      "deliveryPercentage": 874.61,
+      "deliveredTotal": 98133,
+      "deliveryPercentage": 882.17,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18387,13 +18387,13 @@
             "7": {
               "english": 430,
               "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 281,
+              "mathematics": 269,
+              "ve": 430,
+              "araling-panlipunan": 147,
+              "science": 129,
               "pe-and-health": 430,
-              "tle": 430,
-              "music-and-arts": 0
+              "tle": 147,
+              "music-and-arts": 430
             }
           },
           "enrollmentByGrade": {
@@ -18402,8 +18402,8 @@
             "7": 379
           },
           "enrollmentTotal": 379,
-          "deliveredTotal": 1571,
-          "deliveryPercentage": 414.51
+          "deliveredTotal": 2412,
+          "deliveryPercentage": 636.41
         },
         {
           "id": "wawa-elementary-school",
