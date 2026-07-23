@@ -93,22 +93,22 @@
     {
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
-      "Enrolment S.Y. 2025-2026": 114,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 204,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 90
+      "Surplus-TX": 204
     },
     {
       "Grade Level": 2,
       "SUBJECTS": "Filipino",
-      "Enrolment S.Y. 2025-2026": 114,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 204,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 90
+      "Surplus-TX": 204
     },
     {
       "Grade Level": 2,
@@ -153,11 +153,11 @@
     {
       "Grade Level": 3,
       "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": 132,
-      "Quantity of Textbooks Received": 107,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "SDO",
-      "GAP-TX": 25,
+      "GAP-TX": 0,
       "Surplus-TX": 0
     },
     {
@@ -183,62 +183,62 @@
     {
       "Grade Level": 4,
       "SUBJECTS": "English",
-      "Enrolment S.Y. 2025-2026": 175,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 424,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 249
+      "Surplus-TX": 424
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Filipino",
-      "Enrolment S.Y. 2025-2026": 175,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 424,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 249
+      "Surplus-TX": 424
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Math",
-      "Enrolment S.Y. 2025-2026": 175,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 250,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 75
+      "Surplus-TX": 250
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "GMRC",
-      "Enrolment S.Y. 2025-2026": 175,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 420,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 245
+      "Surplus-TX": 420
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Araling Panlipunan",
-      "Enrolment S.Y. 2025-2026": 175,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 359,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 184
+      "Surplus-TX": 359
     },
     {
       "Grade Level": 4,
       "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": 175,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 359,
       "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 184
+      "Surplus-TX": 359
     },
     {
       "Grade Level": 4,
@@ -273,12 +273,12 @@
     {
       "Grade Level": 5,
       "SUBJECTS": "English",
-      "Enrolment S.Y. 2025-2026": 182,
+      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 240,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "SDO",
       "GAP-TX": 0,
-      "Surplus-TX": 58
+      "Surplus-TX": 240
     },
     {
       "Grade Level": 5,
@@ -293,18 +293,18 @@
     {
       "Grade Level": 5,
       "SUBJECTS": "Math",
-      "Enrolment S.Y. 2025-2026": 182,
-      "Quantity of Textbooks Received": 240,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 58
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
@@ -313,42 +313,42 @@
     {
       "Grade Level": 5,
       "SUBJECTS": "Araling Panlipunan",
-      "Enrolment S.Y. 2025-2026": 182,
-      "Quantity of Textbooks Received": 210,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 28
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
       "SUBJECTS": "Science",
-      "Enrolment S.Y. 2025-2026": 182,
-      "Quantity of Textbooks Received": 240,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 58
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
       "SUBJECTS": "PE and Health",
-      "Enrolment S.Y. 2025-2026": 182,
-      "Quantity of Textbooks Received": 210,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 28
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
       "SUBJECTS": "E.P.P.",
-      "Enrolment S.Y. 2025-2026": 182,
-      "Quantity of Textbooks Received": 210,
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 28
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-07-23T02:22:05.633Z"
+  "generatedAt": "2026-07-23T02:31:56.737Z"
 }

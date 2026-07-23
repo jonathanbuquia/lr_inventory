@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:27:05.185Z",
+  "generatedAt": "2026-07-23T02:32:01.491Z",
   "grades": [
     {
       "grade": "1",
@@ -31310,12 +31310,12 @@
       },
       "enrollmentByGrade": {
         "1": 10789,
-        "4": 13433,
+        "4": 13258,
         "7": 11275
       },
-      "enrollmentTotal": 35497,
+      "enrollmentTotal": 35322,
       "deliveredTotal": 195435,
-      "deliveryPercentage": 550.57,
+      "deliveryPercentage": 553.3,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32901,12 +32901,12 @@
           },
           "enrollmentByGrade": {
             "1": 110,
-            "4": 175,
+            "4": 0,
             "7": 0
           },
-          "enrollmentTotal": 285,
+          "enrollmentTotal": 110,
           "deliveredTotal": 3894,
-          "deliveryPercentage": 1366.32
+          "deliveryPercentage": 3540
         },
         {
           "id": "pitogo-high-school",

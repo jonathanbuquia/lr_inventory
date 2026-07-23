@@ -113,11 +113,11 @@
       "Grade Level": 2,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 1028,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 1054,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 1028,
-      "Surplus-TX": 0,
+      "GAP-TX": 0,
+      "Surplus-TX": 26,
       "Column1": ""
     },
     {
@@ -140,6 +140,17 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 828,
       "Surplus-TX": 0,
+      "Column1": ""
+    },
+    {
+      "Grade Level": 2,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 1028,
+      "Quantity of Textbooks Received": 1054,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 26,
       "Column1": ""
     },
     {
@@ -205,6 +216,17 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 1148,
+      "Surplus-TX": 0,
+      "Column1": ""
+    },
+    {
+      "Grade Level": 3,
+      "SUBJECTS": "Filipino",
+      "Enrolment S.Y. 2025-2026": 1148,
+      "Quantity of Textbooks Received": 1100,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 48,
       "Surplus-TX": 0,
       "Column1": ""
     },
@@ -322,10 +344,10 @@
       "Grade Level": 5,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 1083,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 1035,
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 1083,
+      "GAP-TX": 48,
       "Surplus-TX": 0,
       "Column1": ""
     },
@@ -509,7 +531,7 @@
       "Grade Level": "",
       "SUBJECTS": "",
       "Enrolment S.Y. 2025-2026": 6312,
-      "Quantity of Textbooks Received": 10524,
+      "Quantity of Textbooks Received": 14767,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": "",
@@ -1023,5 +1045,5 @@
       "Column1": "GRADE 11 - 383; GRADE 12 - 240"
     }
   ],
-  "generatedAt": "2026-04-15T03:11:37.253Z"
+  "generatedAt": "2026-07-23T02:31:56.005Z"
 }

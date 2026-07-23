@@ -264,11 +264,11 @@
       "Grade Level": 5,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 350,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 350
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
@@ -304,11 +304,11 @@
       "Grade Level": 5,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 350,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 350
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 5,
@@ -324,21 +324,21 @@
       "Grade Level": 5,
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 350,
-      "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "CO",
-      "GAP-TX": 0,
-      "Surplus-TX": 350
-    },
-    {
-      "Grade Level": 5,
-      "SUBJECTS": "E.P.P.",
-      "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
       "Surplus-TX": 0
+    },
+    {
+      "Grade Level": 5,
+      "SUBJECTS": "E.P.P.",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 350,
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 350
     },
     {
       "Grade Level": 5,
@@ -444,12 +444,12 @@
       "Grade Level": "",
       "SUBJECTS": "",
       "Enrolment S.Y. 2025-2026": 0,
-      "Quantity of Textbooks Received": 5825,
+      "Quantity of Textbooks Received": 5125,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": "",
       "Surplus-TX": ""
     }
   ],
-  "generatedAt": "2026-07-23T02:26:58.349Z"
+  "generatedAt": "2026-07-23T02:31:55.784Z"
 }
