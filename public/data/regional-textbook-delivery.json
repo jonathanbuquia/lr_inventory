@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-22T07:22:25.185Z",
+  "generatedAt": "2026-07-23T00:22:17.251Z",
   "grades": [
     {
       "grade": "1",
@@ -17356,7 +17356,7 @@
           "english": 3908,
           "filipino": 0,
           "mathematics": 3221,
-          "ve": 2320,
+          "ve": 2502,
           "araling-panlipunan": 3660,
           "science": 2937,
           "pe-and-health": 3660,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 94745,
-      "deliveryPercentage": 851.72,
+      "deliveredTotal": 94927,
+      "deliveryPercentage": 853.35,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18044,7 +18044,7 @@
               "english": 0,
               "filipino": 0,
               "mathematics": 172,
-              "ve": 0,
+              "ve": 182,
               "araling-panlipunan": 182,
               "science": 172,
               "pe-and-health": 182,
@@ -18058,8 +18058,8 @@
             "7": 139
           },
           "enrollmentTotal": 139,
-          "deliveredTotal": 1072,
-          "deliveryPercentage": 771.22
+          "deliveredTotal": 1254,
+          "deliveryPercentage": 902.16
         },
         {
           "id": "san-rafael-vill-elementary-school",
