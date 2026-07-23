@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T00:32:06.127Z",
+  "generatedAt": "2026-07-23T00:52:08.605Z",
   "grades": [
     {
       "grade": "1",
@@ -17358,9 +17358,9 @@
           "mathematics": 3221,
           "ve": 3544,
           "araling-panlipunan": 3660,
-          "science": 2937,
-          "pe-and-health": 3660,
-          "tle": 3660,
+          "science": 3218,
+          "pe-and-health": 4090,
+          "tle": 4090,
           "music-and-arts": 3662
         }
       },
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 96151,
-      "deliveryPercentage": 864.36,
+      "deliveredTotal": 97292,
+      "deliveryPercentage": 874.61,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18390,9 +18390,9 @@
               "mathematics": 0,
               "ve": 0,
               "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
+              "science": 281,
+              "pe-and-health": 430,
+              "tle": 430,
               "music-and-arts": 0
             }
           },
@@ -18402,8 +18402,8 @@
             "7": 379
           },
           "enrollmentTotal": 379,
-          "deliveredTotal": 430,
-          "deliveryPercentage": 113.46
+          "deliveredTotal": 1571,
+          "deliveryPercentage": 414.51
         },
         {
           "id": "wawa-elementary-school",

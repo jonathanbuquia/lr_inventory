@@ -64,31 +64,31 @@
       "Grade Level": 7,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 379,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 379,
+      "Quantity of Textbooks Received": 281,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 98,
       "Surplus-TX": 0
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": 379,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 379,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 51
     },
     {
       "Grade Level": 7,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": 379,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 430,
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 379,
-      "Surplus-TX": 0
+      "GAP-TX": 0,
+      "Surplus-TX": 51
     },
     {
       "Grade Level": 7,
@@ -451,5 +451,5 @@
       "Surplus-TX": 62
     }
   ],
-  "generatedAt": "2026-04-16T02:50:13.509Z"
+  "generatedAt": "2026-07-23T00:51:45.792Z"
 }
