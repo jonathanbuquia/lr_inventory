@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:12:13.213Z",
+  "generatedAt": "2026-07-23T02:17:02.724Z",
   "grades": [
     {
       "grade": "1",
@@ -31280,42 +31280,42 @@
       "totals": {
         "1": {
           "reading-and-literacy": 13662,
-          "language": 10761,
+          "language": 11109,
           "gmrc": 13696,
-          "makabansa": 14478,
-          "mathematics": 2917
+          "makabansa": 14339,
+          "mathematics": 3252
         },
         "4": {
-          "english": 3453,
-          "filipino": 9834,
-          "mathematics": 9939,
-          "gmrc": 11383,
-          "araling-panlipunan": 9562,
-          "science": 9685,
-          "pe-and-health": 7911,
+          "english": 4078,
+          "filipino": 10459,
+          "mathematics": 10564,
+          "gmrc": 11983,
+          "araling-panlipunan": 10187,
+          "science": 10310,
+          "pe-and-health": 8511,
           "epp": 872,
-          "music-and-arts": 2179
+          "music-and-arts": 2804
         },
         "7": {
-          "english": 9656,
+          "english": 10798,
           "filipino": 162,
           "mathematics": 7709,
           "ve": 4429,
-          "araling-panlipunan": 9356,
+          "araling-panlipunan": 10498,
           "science": 7048,
           "pe-and-health": 8280,
-          "tle": 7022,
-          "music-and-arts": 10185
+          "tle": 8164,
+          "music-and-arts": 11327
         }
       },
       "enrollmentByGrade": {
         "1": 10789,
         "4": 13433,
-        "7": 10187
+        "7": 11275
       },
-      "enrollmentTotal": 34409,
-      "deliveredTotal": 184179,
-      "deliveryPercentage": 535.26,
+      "enrollmentTotal": 35497,
+      "deliveredTotal": 194241,
+      "deliveryPercentage": 547.2,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31669,8 +31669,8 @@
               "reading-and-literacy": 0,
               "language": 0,
               "gmrc": 0,
-              "makabansa": 139,
-              "mathematics": 273
+              "makabansa": 0,
+              "mathematics": 0
             },
             "4": {
               "english": 0,
@@ -31701,7 +31701,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 412,
+          "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
         {
@@ -31756,7 +31756,7 @@
               "language": 601,
               "gmrc": 601,
               "makabansa": 601,
-              "mathematics": 0
+              "mathematics": 608
             },
             "4": {
               "english": 0,
@@ -31787,8 +31787,8 @@
             "7": 0
           },
           "enrollmentTotal": 641,
-          "deliveredTotal": 5589,
-          "deliveryPercentage": 871.92
+          "deliveredTotal": 6197,
+          "deliveryPercentage": 966.77
         },
         {
           "id": "comembo-elementary-school",
@@ -32054,7 +32054,7 @@
           "totals": {
             "1": {
               "reading-and-literacy": 348,
-              "language": 0,
+              "language": 348,
               "gmrc": 348,
               "makabansa": 348,
               "mathematics": 0
@@ -32088,8 +32088,8 @@
             "7": 0
           },
           "enrollmentTotal": 443,
-          "deliveredTotal": 3124,
-          "deliveryPercentage": 705.19
+          "deliveredTotal": 3472,
+          "deliveryPercentage": 783.75
         },
         {
           "id": "fort-bonifacio-high-school",
@@ -32834,15 +32834,15 @@
               "mathematics": 0
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 625,
+              "filipino": 625,
+              "mathematics": 625,
+              "gmrc": 600,
+              "araling-panlipunan": 625,
+              "science": 625,
+              "pe-and-health": 600,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 625
             },
             "7": {
               "english": 0,
@@ -32862,7 +32862,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 3138,
+          "deliveredTotal": 8088,
           "deliveryPercentage": 0
         },
         {
@@ -33490,15 +33490,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 1142,
               "filipino": 0,
               "mathematics": 0,
               "ve": 1142,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 1142,
               "science": 0,
               "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "tle": 1142,
+              "music-and-arts": 1142
             }
           },
           "enrollmentByGrade": {
@@ -33507,8 +33507,8 @@
             "7": 936
           },
           "enrollmentTotal": 2363,
-          "deliveredTotal": 1142,
-          "deliveryPercentage": 48.33
+          "deliveredTotal": 5710,
+          "deliveryPercentage": 241.64
         },
         {
           "id": "taguig-national-high-school",
@@ -33891,9 +33891,9 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 1088
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 1088,
           "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
