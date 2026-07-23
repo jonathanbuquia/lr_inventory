@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:22:11.085Z",
+  "generatedAt": "2026-07-23T02:27:05.185Z",
   "grades": [
     {
       "grade": "1",
@@ -31283,18 +31283,18 @@
           "language": 11109,
           "gmrc": 13696,
           "makabansa": 14339,
-          "mathematics": 3612
+          "mathematics": 4063
         },
         "4": {
           "english": 4078,
-          "filipino": 10459,
-          "mathematics": 10564,
-          "gmrc": 11983,
+          "filipino": 10126,
+          "mathematics": 10231,
+          "gmrc": 11650,
           "araling-panlipunan": 10187,
           "science": 10310,
           "pe-and-health": 8511,
           "epp": 872,
-          "music-and-arts": 3836
+          "music-and-arts": 4186
         },
         "7": {
           "english": 10798,
@@ -31314,8 +31314,8 @@
         "7": 11275
       },
       "enrollmentTotal": 35497,
-      "deliveredTotal": 195633,
-      "deliveryPercentage": 551.13,
+      "deliveredTotal": 195435,
+      "deliveryPercentage": 550.57,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32147,14 +32147,14 @@
             },
             "4": {
               "english": 0,
-              "filipino": 333,
-              "mathematics": 333,
-              "gmrc": 333,
+              "filipino": 0,
+              "mathematics": 0,
+              "gmrc": 0,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 350
             },
             "7": {
               "english": 0,
@@ -32174,7 +32174,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 3647,
+          "deliveredTotal": 2998,
           "deliveryPercentage": 0
         },
         {
@@ -33734,7 +33734,7 @@
               "language": 600,
               "gmrc": 600,
               "makabansa": 600,
-              "mathematics": 0
+              "mathematics": 451
             },
             "4": {
               "english": 0,
@@ -33765,8 +33765,8 @@
             "7": 0
           },
           "enrollmentTotal": 1229,
-          "deliveredTotal": 6012,
-          "deliveryPercentage": 489.18
+          "deliveredTotal": 6463,
+          "deliveryPercentage": 525.87
         },
         {
           "id": "tipas-national-high-school",
