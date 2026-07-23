@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T00:27:01.768Z",
+  "generatedAt": "2026-07-23T00:32:06.127Z",
   "grades": [
     {
       "grade": "1",
@@ -17356,7 +17356,7 @@
           "english": 4090,
           "filipino": 0,
           "mathematics": 3221,
-          "ve": 3198,
+          "ve": 3544,
           "araling-panlipunan": 3660,
           "science": 2937,
           "pe-and-health": 3660,
@@ -17370,8 +17370,8 @@
         "7": 3688
       },
       "enrollmentTotal": 11124,
-      "deliveredTotal": 95805,
-      "deliveryPercentage": 861.25,
+      "deliveredTotal": 96151,
+      "deliveryPercentage": 864.36,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -18302,7 +18302,7 @@
               "english": 346,
               "filipino": 0,
               "mathematics": 334,
-              "ve": 0,
+              "ve": 346,
               "araling-panlipunan": 346,
               "science": 333,
               "pe-and-health": 346,
@@ -18316,8 +18316,8 @@
             "7": 374
           },
           "enrollmentTotal": 374,
-          "deliveredTotal": 2397,
-          "deliveryPercentage": 640.91
+          "deliveredTotal": 2743,
+          "deliveryPercentage": 733.42
         },
         {
           "id": "tanza-elementary-school",
