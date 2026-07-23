@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T07:12:32.627Z",
+  "generatedAt": "2026-07-23T07:27:11.094Z",
   "grades": [
     {
       "grade": "1",
@@ -31297,25 +31297,25 @@
           "music-and-arts": 5186
         },
         "7": {
-          "english": 11102,
-          "filipino": 162,
-          "mathematics": 9342,
-          "ve": 6123,
-          "araling-panlipunan": 10989,
-          "science": 8681,
-          "pe-and-health": 9913,
-          "tle": 8655,
-          "music-and-arts": 11818
+          "english": 12637,
+          "filipino": 1697,
+          "mathematics": 10877,
+          "ve": 7658,
+          "araling-panlipunan": 12524,
+          "science": 10216,
+          "pe-and-health": 11448,
+          "tle": 10190,
+          "music-and-arts": 13353
         }
       },
       "enrollmentByGrade": {
         "1": 10772,
         "4": 13324,
-        "7": 10815
+        "7": 11525
       },
-      "enrollmentTotal": 34911,
-      "deliveredTotal": 205455,
-      "deliveryPercentage": 588.51,
+      "enrollmentTotal": 35621,
+      "deliveredTotal": 219270,
+      "deliveryPercentage": 615.56,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32114,25 +32114,25 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "english": 1535,
+              "filipino": 1535,
+              "mathematics": 1535,
+              "ve": 1535,
+              "araling-panlipunan": 1535,
+              "science": 1535,
+              "pe-and-health": 1535,
+              "tle": 1535,
+              "music-and-arts": 1535
             }
           },
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 710
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 710,
+          "deliveredTotal": 13815,
+          "deliveryPercentage": 1945.77
         },
         {
           "id": "gat-andres-bonifacio-elmentary-school",
