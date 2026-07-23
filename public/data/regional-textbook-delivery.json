@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:32:01.491Z",
+  "generatedAt": "2026-07-23T02:37:03.002Z",
   "grades": [
     {
       "grade": "1",
@@ -31294,28 +31294,28 @@
           "science": 10310,
           "pe-and-health": 8511,
           "epp": 872,
-          "music-and-arts": 4186
+          "music-and-arts": 5186
         },
         "7": {
           "english": 10798,
           "filipino": 162,
-          "mathematics": 7709,
-          "ve": 4429,
+          "mathematics": 8851,
+          "ve": 5237,
           "araling-panlipunan": 10498,
-          "science": 7048,
-          "pe-and-health": 8280,
+          "science": 8190,
+          "pe-and-health": 9422,
           "tle": 8164,
           "music-and-arts": 11327
         }
       },
       "enrollmentByGrade": {
-        "1": 10789,
-        "4": 13258,
+        "1": 11251,
+        "4": 13870,
         "7": 11275
       },
-      "enrollmentTotal": 35322,
-      "deliveredTotal": 195435,
-      "deliveryPercentage": 553.3,
+      "enrollmentTotal": 36396,
+      "deliveredTotal": 200669,
+      "deliveryPercentage": 551.35,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32326,13 +32326,13 @@
               "science": 1024,
               "pe-and-health": 1010,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 1000
             },
             "7": {
               "english": 808,
               "filipino": 0,
               "mathematics": 808,
-              "ve": 0,
+              "ve": 808,
               "araling-panlipunan": 808,
               "science": 808,
               "pe-and-health": 808,
@@ -32346,8 +32346,8 @@
             "7": 835
           },
           "enrollmentTotal": 2848,
-          "deliveredTotal": 14632,
-          "deliveryPercentage": 513.76
+          "deliveredTotal": 16440,
+          "deliveryPercentage": 577.25
         },
         {
           "id": "kapitan-jose-cardones-integrated-school",
@@ -32857,13 +32857,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
+            "1": 462,
+            "4": 612,
             "7": 0
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 1074,
           "deliveredTotal": 8088,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 753.07
         },
         {
           "id": "pitogo-elementary-school",
@@ -33492,11 +33492,11 @@
             "7": {
               "english": 1142,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 1142,
               "ve": 1142,
               "araling-panlipunan": 1142,
-              "science": 0,
-              "pe-and-health": 0,
+              "science": 1142,
+              "pe-and-health": 1142,
               "tle": 1142,
               "music-and-arts": 1142
             }
@@ -33507,8 +33507,8 @@
             "7": 936
           },
           "enrollmentTotal": 2363,
-          "deliveredTotal": 5710,
-          "deliveryPercentage": 241.64
+          "deliveredTotal": 9136,
+          "deliveryPercentage": 386.63
         },
         {
           "id": "taguig-national-high-school",
