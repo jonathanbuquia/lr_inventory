@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T07:27:11.094Z",
+  "generatedAt": "2026-07-23T07:32:08.803Z",
   "grades": [
     {
       "grade": "1",
@@ -31298,7 +31298,7 @@
         },
         "7": {
           "english": 12637,
-          "filipino": 1697,
+          "filipino": 162,
           "mathematics": 10877,
           "ve": 7658,
           "araling-panlipunan": 12524,
@@ -31314,8 +31314,8 @@
         "7": 11525
       },
       "enrollmentTotal": 35621,
-      "deliveredTotal": 219270,
-      "deliveryPercentage": 615.56,
+      "deliveredTotal": 217735,
+      "deliveryPercentage": 611.25,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32115,7 +32115,7 @@
             },
             "7": {
               "english": 1535,
-              "filipino": 1535,
+              "filipino": 0,
               "mathematics": 1535,
               "ve": 1535,
               "araling-panlipunan": 1535,
@@ -32131,8 +32131,8 @@
             "7": 710
           },
           "enrollmentTotal": 710,
-          "deliveredTotal": 13815,
-          "deliveryPercentage": 1945.77
+          "deliveredTotal": 12280,
+          "deliveryPercentage": 1729.58
         },
         {
           "id": "gat-andres-bonifacio-elmentary-school",
