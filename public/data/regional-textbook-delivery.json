@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:37:03.002Z",
+  "generatedAt": "2026-07-23T02:57:03.863Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 2222
+          "mathematics": 3097
         },
         "4": {
           "english": 19426,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 54517,
-      "deliveredTotal": 409549,
-      "deliveryPercentage": 751.23,
+      "deliveredTotal": 410424,
+      "deliveryPercentage": 752.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1284,7 +1284,7 @@
               "language": 984,
               "gmrc": 984,
               "makabansa": 984,
-              "mathematics": 0
+              "mathematics": 875
             },
             "4": {
               "english": 1031,
@@ -1315,8 +1315,8 @@
             "7": 0
           },
           "enrollmentTotal": 2004,
-          "deliveredTotal": 11153,
-          "deliveryPercentage": 556.54
+          "deliveredTotal": 12028,
+          "deliveryPercentage": 600.2
         },
         {
           "id": "camarin-d-elementary-school-unit-ii",
