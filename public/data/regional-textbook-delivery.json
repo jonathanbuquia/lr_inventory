@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T00:56:59.297Z",
+  "generatedAt": "2026-07-23T02:12:13.213Z",
   "grades": [
     {
       "grade": "1",
@@ -31279,11 +31279,11 @@
       "name": "TAGUIG_PATEROS",
       "totals": {
         "1": {
-          "reading-and-literacy": 12876,
-          "language": 9975,
-          "gmrc": 12910,
-          "makabansa": 13559,
-          "mathematics": 1236
+          "reading-and-literacy": 13662,
+          "language": 10761,
+          "gmrc": 13696,
+          "makabansa": 14478,
+          "mathematics": 2917
         },
         "4": {
           "english": 3453,
@@ -31294,7 +31294,7 @@
           "science": 9685,
           "pe-and-health": 7911,
           "epp": 872,
-          "music-and-arts": 1728
+          "music-and-arts": 2179
         },
         "7": {
           "english": 9656,
@@ -31314,8 +31314,8 @@
         "7": 10187
       },
       "enrollmentTotal": 34409,
-      "deliveredTotal": 178770,
-      "deliveryPercentage": 519.54,
+      "deliveredTotal": 184179,
+      "deliveryPercentage": 535.26,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31669,8 +31669,8 @@
               "reading-and-literacy": 0,
               "language": 0,
               "gmrc": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 139,
+              "mathematics": 273
             },
             "4": {
               "english": 0,
@@ -31701,7 +31701,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 412,
           "deliveryPercentage": 0
         },
         {
@@ -31767,7 +31767,7 @@
               "science": 451,
               "pe-and-health": 451,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 451
             },
             "7": {
               "english": 0,
@@ -31787,8 +31787,8 @@
             "7": 0
           },
           "enrollmentTotal": 641,
-          "deliveredTotal": 5138,
-          "deliveryPercentage": 801.56
+          "deliveredTotal": 5589,
+          "deliveryPercentage": 871.92
         },
         {
           "id": "comembo-elementary-school",
@@ -32659,7 +32659,7 @@
               "language": 0,
               "gmrc": 0,
               "makabansa": 290,
-              "mathematics": 0
+              "mathematics": 352
             },
             "4": {
               "english": 0,
@@ -32690,8 +32690,8 @@
             "7": 483
           },
           "enrollmentTotal": 1350,
-          "deliveredTotal": 3908,
-          "deliveryPercentage": 289.48
+          "deliveredTotal": 4260,
+          "deliveryPercentage": 315.56
         },
         {
           "id": "pateros-elementary-school",
@@ -32827,10 +32827,10 @@
           "name": "PEMBO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
+              "reading-and-literacy": 786,
+              "language": 786,
+              "gmrc": 786,
+              "makabansa": 780,
               "mathematics": 0
             },
             "4": {
@@ -32862,7 +32862,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 3138,
           "deliveryPercentage": 0
         },
         {
@@ -33003,7 +33003,7 @@
               "language": 0,
               "gmrc": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 1056
             },
             "4": {
               "english": 0,
@@ -33034,7 +33034,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 1056,
           "deliveryPercentage": 0
         },
         {
