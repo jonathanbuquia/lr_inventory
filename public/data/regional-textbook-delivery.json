@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T02:57:03.863Z",
+  "generatedAt": "2026-07-23T03:41:58.897Z",
   "grades": [
     {
       "grade": "1",
@@ -149,13 +149,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 15473,
-        "4": 19942,
+        "1": 15843,
+        "4": 20447,
         "7": 19102
       },
-      "enrollmentTotal": 54517,
+      "enrollmentTotal": 55392,
       "deliveredTotal": 410424,
-      "deliveryPercentage": 752.84,
+      "deliveryPercentage": 740.94,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1783,11 +1783,11 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
+            "1": 370,
+            "4": 505,
             "7": 0
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 875,
           "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
@@ -31299,23 +31299,23 @@
         "7": {
           "english": 10798,
           "filipino": 162,
-          "mathematics": 8851,
+          "mathematics": 9038,
           "ve": 5237,
-          "araling-panlipunan": 10498,
-          "science": 8190,
-          "pe-and-health": 9422,
-          "tle": 8164,
-          "music-and-arts": 11327
+          "araling-panlipunan": 10685,
+          "science": 8377,
+          "pe-and-health": 9609,
+          "tle": 8351,
+          "music-and-arts": 11514
         }
       },
       "enrollmentByGrade": {
         "1": 11251,
         "4": 13870,
-        "7": 11275
+        "7": 11414
       },
-      "enrollmentTotal": 36396,
-      "deliveredTotal": 200669,
-      "deliveryPercentage": 551.35,
+      "enrollmentTotal": 36535,
+      "deliveredTotal": 201791,
+      "deliveryPercentage": 552.32,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33105,23 +33105,23 @@
             "7": {
               "english": 0,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 187,
               "ve": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "araling-panlipunan": 187,
+              "science": 187,
+              "pe-and-health": 187,
+              "tle": 187,
+              "music-and-arts": 187
             }
           },
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 139
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 139,
+          "deliveredTotal": 1122,
+          "deliveryPercentage": 807.19
         },
         {
           "id": "senior-high-school-in-barangay-fort-bonifacio",
