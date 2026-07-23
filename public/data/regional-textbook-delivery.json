@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T07:02:27.363Z",
+  "generatedAt": "2026-07-23T07:12:32.627Z",
   "grades": [
     {
       "grade": "1",
@@ -31300,7 +31300,7 @@
           "english": 11102,
           "filipino": 162,
           "mathematics": 9342,
-          "ve": 5541,
+          "ve": 6123,
           "araling-panlipunan": 10989,
           "science": 8681,
           "pe-and-health": 9913,
@@ -31314,8 +31314,8 @@
         "7": 10815
       },
       "enrollmentTotal": 34911,
-      "deliveredTotal": 204873,
-      "deliveryPercentage": 586.84,
+      "deliveredTotal": 205455,
+      "deliveryPercentage": 588.51,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32762,7 +32762,7 @@
               "english": 582,
               "filipino": 0,
               "mathematics": 0,
-              "ve": 0,
+              "ve": 582,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
@@ -32776,8 +32776,8 @@
             "7": 510
           },
           "enrollmentTotal": 510,
-          "deliveredTotal": 1746,
-          "deliveryPercentage": 342.35
+          "deliveredTotal": 2328,
+          "deliveryPercentage": 456.47
         },
         {
           "id": "paulina-manalo-elementary-school",
