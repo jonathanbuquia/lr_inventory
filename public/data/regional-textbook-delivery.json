@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-23T07:42:09.094Z",
+  "generatedAt": "2026-07-24T00:27:16.061Z",
   "grades": [
     {
       "grade": "1",
@@ -31303,7 +31303,7 @@
           "ve": 7658,
           "araling-panlipunan": 12524,
           "science": 10216,
-          "pe-and-health": 11448,
+          "pe-and-health": 11671,
           "tle": 10190,
           "music-and-arts": 13353
         }
@@ -31314,8 +31314,8 @@
         "7": 11525
       },
       "enrollmentTotal": 35621,
-      "deliveredTotal": 217735,
-      "deliveryPercentage": 611.25,
+      "deliveredTotal": 217958,
+      "deliveryPercentage": 611.88,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32464,7 +32464,7 @@
               "ve": 0,
               "araling-panlipunan": 223,
               "science": 233,
-              "pe-and-health": 0,
+              "pe-and-health": 223,
               "tle": 223,
               "music-and-arts": 223
             }
@@ -32475,8 +32475,8 @@
             "7": 152
           },
           "enrollmentTotal": 152,
-          "deliveredTotal": 1358,
-          "deliveryPercentage": 893.42
+          "deliveredTotal": 1581,
+          "deliveryPercentage": 1040.13
         },
         {
           "id": "maria-asuncion-rodriguez-ti-ga-high-school",
