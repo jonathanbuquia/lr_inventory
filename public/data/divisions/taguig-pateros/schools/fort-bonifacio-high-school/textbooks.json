@@ -394,11 +394,11 @@
       "Grade Level": "SHS",
       "SUBJECTS": "HOPE 3 and 4",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Quantity of Textbooks Received": 672,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
-      "Surplus-TX": 0
+      "Surplus-TX": 672
     },
     {
       "Grade Level": "SHS",
@@ -449,7 +449,27 @@
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
       "Surplus-TX": 672
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Heritage(Understanding Culture,Society & Politics",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 672,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 672
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Earth & Life Science",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": 672,
+      "Year of Delivery-TX": 2024,
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 672
     }
   ],
-  "generatedAt": "2026-07-24T00:07:14.364Z"
+  "generatedAt": "2026-07-24T10:01:11.413Z"
 }

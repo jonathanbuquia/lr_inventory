@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-24T00:27:16.061Z",
+  "generatedAt": "2026-07-24T10:01:19.370Z",
   "grades": [
     {
       "grade": "1",
@@ -149,13 +149,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 15843,
-        "4": 20447,
+        "1": 15837,
+        "4": 20443,
         "7": 19102
       },
-      "enrollmentTotal": 55392,
+      "enrollmentTotal": 55382,
       "deliveredTotal": 411464,
-      "deliveryPercentage": 742.82,
+      "deliveryPercentage": 742.96,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2127,13 +2127,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 286,
-            "4": 343,
+            "1": 280,
+            "4": 339,
             "7": 0
           },
-          "enrollmentTotal": 629,
+          "enrollmentTotal": 619,
           "deliveredTotal": 4479,
-          "deliveryPercentage": 712.08
+          "deliveryPercentage": 723.59
         },
         {
           "id": "horacio-dela-costa-elementary-school",
@@ -31279,22 +31279,22 @@
       "name": "TAGUIG_PATEROS",
       "totals": {
         "1": {
-          "reading-and-literacy": 13662,
-          "language": 11109,
+          "reading-and-literacy": 13982,
+          "language": 11429,
           "gmrc": 13696,
-          "makabansa": 14339,
+          "makabansa": 14659,
           "mathematics": 4713
         },
         "4": {
-          "english": 4078,
+          "english": 4298,
           "filipino": 10126,
-          "mathematics": 10231,
-          "gmrc": 11650,
+          "mathematics": 10436,
+          "gmrc": 11855,
           "araling-panlipunan": 10187,
           "science": 10310,
-          "pe-and-health": 8511,
+          "pe-and-health": 8711,
           "epp": 872,
-          "music-and-arts": 5186
+          "music-and-arts": 6081
         },
         "7": {
           "english": 12637,
@@ -31314,8 +31314,8 @@
         "7": 11525
       },
       "enrollmentTotal": 35621,
-      "deliveredTotal": 217958,
-      "deliveryPercentage": 611.88,
+      "deliveredTotal": 220643,
+      "deliveryPercentage": 619.42,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31666,22 +31666,22 @@
           "name": "CEMBO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
+              "reading-and-literacy": 320,
+              "language": 320,
               "gmrc": 0,
-              "makabansa": 0,
+              "makabansa": 320,
               "mathematics": 0
             },
             "4": {
-              "english": 0,
+              "english": 220,
               "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
+              "mathematics": 205,
+              "gmrc": 205,
               "araling-panlipunan": 0,
               "science": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 200,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 195
             },
             "7": {
               "english": 0,
@@ -31701,7 +31701,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 1985,
           "deliveryPercentage": 0
         },
         {
@@ -33229,7 +33229,7 @@
               "science": 725,
               "pe-and-health": 725,
               "epp": 612,
-              "music-and-arts": 0
+              "music-and-arts": 700
             },
             "7": {
               "english": 0,
@@ -33249,8 +33249,8 @@
             "7": 0
           },
           "enrollmentTotal": 1387,
-          "deliveredTotal": 8392,
-          "deliveryPercentage": 605.05
+          "deliveredTotal": 9092,
+          "deliveryPercentage": 655.52
         },
         {
           "id": "south-cembo-elementary-school",
