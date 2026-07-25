@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-25T11:27:27.196Z",
+  "generatedAt": "2026-07-25T13:56:39.211Z",
   "grades": [
     {
       "grade": "1",
@@ -123,18 +123,18 @@
           "language": 18179,
           "gmrc": 20419,
           "makabansa": 20450,
-          "mathematics": 3360
+          "mathematics": 3580
         },
         "4": {
           "english": 19426,
           "filipino": 19820,
-          "mathematics": 19647,
+          "mathematics": 19657,
           "gmrc": 21003,
           "araling-panlipunan": 20511,
           "science": 20685,
           "pe-and-health": 20821,
           "epp": 3250,
-          "music-and-arts": 13040
+          "music-and-arts": 13310
         },
         "7": {
           "english": 20785,
@@ -154,8 +154,8 @@
         "7": 19102
       },
       "enrollmentTotal": 55382,
-      "deliveredTotal": 411839,
-      "deliveryPercentage": 743.63,
+      "deliveredTotal": 412339,
+      "deliveryPercentage": 744.54,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1977,7 +1977,7 @@
             "4": {
               "english": 450,
               "filipino": 450,
-              "mathematics": 450,
+              "mathematics": 460,
               "gmrc": 450,
               "araling-panlipunan": 450,
               "science": 450,
@@ -2003,8 +2003,8 @@
             "7": 0
           },
           "enrollmentTotal": 659,
-          "deliveredTotal": 4829,
-          "deliveryPercentage": 732.78
+          "deliveredTotal": 4839,
+          "deliveryPercentage": 734.29
         },
         {
           "id": "gomburza-elementary-school",
@@ -3090,7 +3090,7 @@
               "language": 172,
               "gmrc": 172,
               "makabansa": 172,
-              "mathematics": 0
+              "mathematics": 220
             },
             "4": {
               "english": 270,
@@ -3101,7 +3101,7 @@
               "science": 270,
               "pe-and-health": 270,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 270
             },
             "7": {
               "english": 0,
@@ -3121,8 +3121,8 @@
             "7": 0
           },
           "enrollmentTotal": 450,
-          "deliveredTotal": 2578,
-          "deliveryPercentage": 572.89
+          "deliveredTotal": 3068,
+          "deliveryPercentage": 681.78
         },
         {
           "id": "nhc-high-school",
