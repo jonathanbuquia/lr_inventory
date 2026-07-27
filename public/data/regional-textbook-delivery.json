@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T10:43:29.995Z",
+  "generatedAt": "2026-07-27T13:57:13.646Z",
   "grades": [
     {
       "grade": "1",
@@ -123,18 +123,18 @@
           "language": 18882,
           "gmrc": 21122,
           "makabansa": 21153,
-          "mathematics": 5964
+          "mathematics": 5711
         },
         "4": {
-          "english": 19426,
-          "filipino": 19820,
-          "mathematics": 20812,
-          "gmrc": 21003,
-          "araling-panlipunan": 20511,
-          "science": 20685,
-          "pe-and-health": 20821,
+          "english": 20130,
+          "filipino": 20524,
+          "mathematics": 21516,
+          "gmrc": 21707,
+          "araling-panlipunan": 21215,
+          "science": 21389,
+          "pe-and-health": 21525,
           "epp": 3250,
-          "music-and-arts": 14362
+          "music-and-arts": 15066
         },
         "7": {
           "english": 21085,
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55509,
-      "deliveredTotal": 420997,
-      "deliveryPercentage": 758.43,
+      "deliveredTotal": 426376,
+      "deliveryPercentage": 768.12,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2574,18 +2574,18 @@
               "language": 703,
               "gmrc": 703,
               "makabansa": 703,
-              "mathematics": 703
+              "mathematics": 450
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 704,
+              "filipino": 704,
+              "mathematics": 704,
+              "gmrc": 704,
+              "araling-panlipunan": 704,
+              "science": 704,
+              "pe-and-health": 704,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 704
             },
             "7": {
               "english": 0,
@@ -2605,7 +2605,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 3515,
+          "deliveredTotal": 8894,
           "deliveryPercentage": 0
         },
         {
