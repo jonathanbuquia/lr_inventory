@@ -22,7 +22,7 @@
     },
     {
       "Grade Level": 1,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Wika",
       "Enrolment S.Y. 2025-2026": 175,
       "Quantity of Textbooks Received": 348,
       "Year of Delivery-TX": 2025,
@@ -72,13 +72,13 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino(ASLAG)",
       "Enrolment S.Y. 2025-2026": 219,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 219,
-      "Surplus-TX": 0
+      "Quantity of Textbooks Received": 335,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 0,
+      "Surplus-TX": 116
     },
     {
       "Grade Level": 2,
@@ -122,12 +122,12 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino(SALINDIWA)",
       "Enrolment S.Y. 2025-2026": 228,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 228,
+      "Quantity of Textbooks Received": 212,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
+      "GAP-TX": 16,
       "Surplus-TX": 0
     },
     {
@@ -441,5 +441,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-07-23T02:36:56.999Z"
+  "generatedAt": "2026-07-27T03:03:19.566Z"
 }
