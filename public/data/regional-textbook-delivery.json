@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T01:12:27.692Z",
+  "generatedAt": "2026-07-27T01:17:35.547Z",
   "grades": [
     {
       "grade": "1",
@@ -31282,7 +31282,7 @@
           "reading-and-literacy": 13982,
           "language": 11429,
           "gmrc": 13696,
-          "makabansa": 14659,
+          "makabansa": 15395,
           "mathematics": 5263
         },
         "4": {
@@ -31314,8 +31314,8 @@
         "7": 11525
       },
       "enrollmentTotal": 35621,
-      "deliveredTotal": 221793,
-      "deliveryPercentage": 622.65,
+      "deliveredTotal": 222529,
+      "deliveryPercentage": 624.71,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31841,7 +31841,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "gmrc": 0,
-              "makabansa": 0,
+              "makabansa": 736,
               "mathematics": 550
             },
             "4": {
@@ -31873,8 +31873,8 @@
             "7": 0
           },
           "enrollmentTotal": 535,
-          "deliveredTotal": 1150,
-          "deliveryPercentage": 214.95
+          "deliveredTotal": 1886,
+          "deliveryPercentage": 352.52
         },
         {
           "id": "dr-artemio-e-natividad-elementary-school",
