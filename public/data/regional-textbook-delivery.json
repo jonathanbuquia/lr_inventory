@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T06:47:30.172Z",
+  "generatedAt": "2026-07-27T06:52:17.686Z",
   "grades": [
     {
       "grade": "1",
@@ -134,7 +134,7 @@
           "science": 20685,
           "pe-and-health": 20821,
           "epp": 3250,
-          "music-and-arts": 13310
+          "music-and-arts": 14362
         },
         "7": {
           "english": 21085,
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55509,
-      "deliveredTotal": 415275,
-      "deliveryPercentage": 748.12,
+      "deliveredTotal": 416327,
+      "deliveryPercentage": 750.02,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1381,7 +1381,7 @@
               "science": 1155,
               "pe-and-health": 1155,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 1052
             },
             "7": {
               "english": 0,
@@ -1401,8 +1401,8 @@
             "7": 0
           },
           "enrollmentTotal": 1863,
-          "deliveredTotal": 10830,
-          "deliveryPercentage": 581.32
+          "deliveredTotal": 11882,
+          "deliveryPercentage": 637.79
         },
         {
           "id": "camarin-high-school",
