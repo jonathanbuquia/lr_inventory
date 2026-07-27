@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T01:37:23.505Z",
+  "generatedAt": "2026-07-27T01:47:31.319Z",
   "grades": [
     {
       "grade": "1",
@@ -137,15 +137,15 @@
           "music-and-arts": 13310
         },
         "7": {
-          "english": 20785,
+          "english": 21085,
           "filipino": 3810,
-          "mathematics": 22825,
-          "ve": 12105,
-          "araling-panlipunan": 23101,
+          "mathematics": 22978,
+          "ve": 12203,
+          "araling-panlipunan": 23169,
           "science": 22945,
-          "pe-and-health": 23546,
-          "tle": 22530,
-          "music-and-arts": 19370
+          "pe-and-health": 23663,
+          "tle": 22681,
+          "music-and-arts": 19521
         }
       },
       "enrollmentByGrade": {
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55509,
-      "deliveredTotal": 413114,
-      "deliveryPercentage": 744.23,
+      "deliveredTotal": 414152,
+      "deliveryPercentage": 746.1,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1126,15 +1126,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 300,
               "filipino": 92,
-              "mathematics": 0,
-              "ve": 0,
-              "araling-panlipunan": 0,
+              "mathematics": 153,
+              "ve": 98,
+              "araling-panlipunan": 68,
               "science": 125,
-              "pe-and-health": 0,
-              "tle": 0,
-              "music-and-arts": 0
+              "pe-and-health": 117,
+              "tle": 151,
+              "music-and-arts": 151
             }
           },
           "enrollmentByGrade": {
@@ -1143,8 +1143,8 @@
             "7": 127
           },
           "enrollmentTotal": 127,
-          "deliveredTotal": 217,
-          "deliveryPercentage": 170.87
+          "deliveredTotal": 1255,
+          "deliveryPercentage": 988.19
         },
         {
           "id": "caloocan-high-school",
