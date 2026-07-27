@@ -15,7 +15,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 127,
       "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 127,
       "Surplus-TX": 0
@@ -24,10 +24,10 @@
       "Grade Level": 7,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 127,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 92,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 127,
+      "GAP-TX": 35,
       "Surplus-TX": 0
     },
     {
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-07-27T01:31:23.092Z"
+  "generatedAt": "2026-07-27T01:36:23.313Z"
 }
