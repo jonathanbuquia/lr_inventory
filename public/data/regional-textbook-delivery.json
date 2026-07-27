@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T01:07:28.425Z",
+  "generatedAt": "2026-07-27T01:12:27.692Z",
   "grades": [
     {
       "grade": "1",
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 15837,
         "4": 20443,
-        "7": 19102
+        "7": 19229
       },
-      "enrollmentTotal": 55382,
+      "enrollmentTotal": 55509,
       "deliveredTotal": 412897,
-      "deliveryPercentage": 745.54,
+      "deliveryPercentage": 743.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1140,9 +1140,9 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 0
+            "7": 127
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 127,
           "deliveredTotal": 0,
           "deliveryPercentage": 0
         },
@@ -31294,7 +31294,7 @@
           "science": 10310,
           "pe-and-health": 8711,
           "epp": 872,
-          "music-and-arts": 6081
+          "music-and-arts": 6681
         },
         "7": {
           "english": 12637,
@@ -31314,8 +31314,8 @@
         "7": 11525
       },
       "enrollmentTotal": 35621,
-      "deliveredTotal": 221193,
-      "deliveryPercentage": 620.96,
+      "deliveredTotal": 221793,
+      "deliveryPercentage": 622.65,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31853,7 +31853,7 @@
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 600
             },
             "7": {
               "english": 0,
@@ -31873,8 +31873,8 @@
             "7": 0
           },
           "enrollmentTotal": 535,
-          "deliveredTotal": 550,
-          "deliveryPercentage": 102.8
+          "deliveredTotal": 1150,
+          "deliveryPercentage": 214.95
         },
         {
           "id": "dr-artemio-e-natividad-elementary-school",
