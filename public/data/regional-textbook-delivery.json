@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T06:52:17.686Z",
+  "generatedAt": "2026-07-27T07:07:20.528Z",
   "grades": [
     {
       "grade": "1",
@@ -128,7 +128,7 @@
         "4": {
           "english": 19426,
           "filipino": 19820,
-          "mathematics": 19657,
+          "mathematics": 20812,
           "gmrc": 21003,
           "araling-panlipunan": 20511,
           "science": 20685,
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55509,
-      "deliveredTotal": 416327,
-      "deliveryPercentage": 750.02,
+      "deliveredTotal": 417482,
+      "deliveryPercentage": 752.1,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1375,7 +1375,7 @@
             "4": {
               "english": 0,
               "filipino": 1155,
-              "mathematics": 0,
+              "mathematics": 1155,
               "gmrc": 1155,
               "araling-panlipunan": 1155,
               "science": 1155,
@@ -1401,8 +1401,8 @@
             "7": 0
           },
           "enrollmentTotal": 1863,
-          "deliveredTotal": 11882,
-          "deliveryPercentage": 637.79
+          "deliveredTotal": 13037,
+          "deliveryPercentage": 699.79
         },
         {
           "id": "camarin-high-school",
