@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T01:22:25.406Z",
+  "generatedAt": "2026-07-27T01:32:26.027Z",
   "grades": [
     {
       "grade": "1",
@@ -142,7 +142,7 @@
           "mathematics": 22825,
           "ve": 12105,
           "araling-panlipunan": 23101,
-          "science": 22940,
+          "science": 22945,
           "pe-and-health": 23546,
           "tle": 22530,
           "music-and-arts": 19370
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55509,
-      "deliveredTotal": 413017,
-      "deliveryPercentage": 744.05,
+      "deliveredTotal": 413022,
+      "deliveryPercentage": 744.06,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -1131,7 +1131,7 @@
               "mathematics": 0,
               "ve": 0,
               "araling-panlipunan": 0,
-              "science": 120,
+              "science": 125,
               "pe-and-health": 0,
               "tle": 0,
               "music-and-arts": 0
@@ -1143,8 +1143,8 @@
             "7": 127
           },
           "enrollmentTotal": 127,
-          "deliveredTotal": 120,
-          "deliveryPercentage": 94.49
+          "deliveredTotal": 125,
+          "deliveryPercentage": 98.43
         },
         {
           "id": "caloocan-high-school",
