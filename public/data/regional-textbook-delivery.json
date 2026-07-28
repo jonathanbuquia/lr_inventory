@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-28T06:22:10.412Z",
+  "generatedAt": "2026-07-28T06:57:22.626Z",
   "grades": [
     {
       "grade": "1",
@@ -140,7 +140,7 @@
           "english": 21085,
           "filipino": 2301,
           "mathematics": 22978,
-          "ve": 12203,
+          "ve": 12831,
           "araling-panlipunan": 23169,
           "science": 22945,
           "pe-and-health": 23663,
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55739,
-      "deliveredTotal": 428896,
-      "deliveryPercentage": 769.47,
+      "deliveredTotal": 429524,
+      "deliveryPercentage": 770.6,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2892,7 +2892,7 @@
               "english": 628,
               "filipino": 0,
               "mathematics": 628,
-              "ve": 0,
+              "ve": 628,
               "araling-panlipunan": 628,
               "science": 628,
               "pe-and-health": 628,
@@ -2906,8 +2906,8 @@
             "7": 519
           },
           "enrollmentTotal": 519,
-          "deliveredTotal": 4396,
-          "deliveryPercentage": 847.01
+          "deliveredTotal": 5024,
+          "deliveryPercentage": 968.02
         },
         {
           "id": "maypajo-elementary-school",
@@ -9808,7 +9808,7 @@
           "language": 22240,
           "gmrc": 23106,
           "makabansa": 25249,
-          "mathematics": 422
+          "mathematics": 646
         },
         "4": {
           "english": 23965,
@@ -9839,8 +9839,8 @@
         "7": 19098
       },
       "enrollmentTotal": 62520,
-      "deliveredTotal": 406758,
-      "deliveryPercentage": 650.6,
+      "deliveredTotal": 406982,
+      "deliveryPercentage": 650.96,
       "schools": [
         {
           "id": "2026-school-teachers-audit-template-copy",
@@ -13506,7 +13506,7 @@
               "language": 177,
               "gmrc": 247,
               "makabansa": 174,
-              "mathematics": 0
+              "mathematics": 224
             },
             "4": {
               "english": 320,
@@ -13537,8 +13537,8 @@
             "7": 0
           },
           "enrollmentTotal": 422,
-          "deliveredTotal": 3085,
-          "deliveryPercentage": 731.04
+          "deliveredTotal": 3309,
+          "deliveryPercentage": 784.12
         },
         {
           "id": "polytechnic-university-of-the-philippines-laboratory-high-school",
