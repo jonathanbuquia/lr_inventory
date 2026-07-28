@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-28T00:12:41.955Z",
+  "generatedAt": "2026-07-28T00:32:01.053Z",
   "grades": [
     {
       "grade": "1",
@@ -130,7 +130,7 @@
           "filipino": 20524,
           "mathematics": 21516,
           "gmrc": 21707,
-          "araling-panlipunan": 21215,
+          "araling-panlipunan": 21472,
           "science": 21389,
           "pe-and-health": 21525,
           "epp": 3250,
@@ -154,8 +154,8 @@
         "7": 19229
       },
       "enrollmentTotal": 55509,
-      "deliveredTotal": 426376,
-      "deliveryPercentage": 768.12,
+      "deliveredTotal": 426633,
+      "deliveryPercentage": 768.58,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -3785,7 +3785,7 @@
               "filipino": 0,
               "mathematics": 0,
               "gmrc": 0,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 257,
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
@@ -3809,7 +3809,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 257,
           "deliveryPercentage": 0
         },
         {
