@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-28T05:07:03.156Z",
+  "generatedAt": "2026-07-28T05:12:03.465Z",
   "grades": [
     {
       "grade": "1",
@@ -21699,7 +21699,7 @@
           "science": 9583,
           "pe-and-health": 10098,
           "epp": 46,
-          "music-and-arts": 544
+          "music-and-arts": 1144
         },
         "7": {
           "english": 12181,
@@ -21719,8 +21719,8 @@
         "7": 10515
       },
       "enrollmentTotal": 28059,
-      "deliveredTotal": 184314,
-      "deliveryPercentage": 656.88,
+      "deliveredTotal": 184914,
+      "deliveryPercentage": 659.02,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -23376,7 +23376,7 @@
               "science": 652,
               "pe-and-health": 652,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 600
             },
             "7": {
               "english": 0,
@@ -23396,8 +23396,8 @@
             "7": 0
           },
           "enrollmentTotal": 924,
-          "deliveredTotal": 5538,
-          "deliveryPercentage": 599.35
+          "deliveredTotal": 6138,
+          "deliveryPercentage": 664.29
         },
         {
           "id": "santolan-elementary-school",
