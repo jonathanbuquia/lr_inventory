@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-27T23:57:24.993Z",
+  "generatedAt": "2026-07-28T00:12:41.955Z",
   "grades": [
     {
       "grade": "1",
@@ -31297,9 +31297,9 @@
           "music-and-arts": 6681
         },
         "7": {
-          "english": 12637,
+          "english": 14106,
           "filipino": 162,
-          "mathematics": 10877,
+          "mathematics": 12346,
           "ve": 9127,
           "araling-panlipunan": 13993,
           "science": 11428,
@@ -31314,8 +31314,8 @@
         "7": 11525
       },
       "enrollmentTotal": 35621,
-      "deliveredTotal": 231086,
-      "deliveryPercentage": 648.74,
+      "deliveredTotal": 234024,
+      "deliveryPercentage": 656.98,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33877,9 +33877,9 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 0,
+              "english": 1469,
               "filipino": 0,
-              "mathematics": 0,
+              "mathematics": 1469,
               "ve": 1469,
               "araling-panlipunan": 1469,
               "science": 1212,
@@ -33894,8 +33894,8 @@
             "7": 1088
           },
           "enrollmentTotal": 1088,
-          "deliveredTotal": 8557,
-          "deliveryPercentage": 786.49
+          "deliveredTotal": 11495,
+          "deliveryPercentage": 1056.53
         },
         {
           "id": "ususan-elementary-school",
