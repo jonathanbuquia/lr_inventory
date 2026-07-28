@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-28T06:57:22.626Z",
+  "generatedAt": "2026-07-28T07:32:39.173Z",
   "grades": [
     {
       "grade": "1",
@@ -151,11 +151,11 @@
       "enrollmentByGrade": {
         "1": 15957,
         "4": 20553,
-        "7": 19229
+        "7": 19246
       },
-      "enrollmentTotal": 55739,
+      "enrollmentTotal": 55756,
       "deliveredTotal": 429524,
-      "deliveryPercentage": 770.6,
+      "deliveryPercentage": 770.36,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2903,11 +2903,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 519
+            "7": 536
           },
-          "enrollmentTotal": 519,
+          "enrollmentTotal": 536,
           "deliveredTotal": 5024,
-          "deliveryPercentage": 968.02
+          "deliveryPercentage": 937.31
         },
         {
           "id": "maypajo-elementary-school",
