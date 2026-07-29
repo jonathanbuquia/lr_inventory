@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-29T05:12:31.939Z",
+  "generatedAt": "2026-07-29T23:32:40.226Z",
   "grades": [
     {
       "grade": "1",
@@ -122,19 +122,19 @@
           "reading-and-literacy": 21263,
           "language": 19014,
           "gmrc": 21515,
-          "makabansa": 21550,
-          "mathematics": 5711
+          "makabansa": 22929,
+          "mathematics": 6909
         },
         "4": {
           "english": 20555,
           "filipino": 20781,
           "mathematics": 21941,
-          "gmrc": 22132,
+          "gmrc": 23311,
           "araling-panlipunan": 21640,
           "science": 21814,
           "pe-and-health": 21950,
           "epp": 3250,
-          "music-and-arts": 15234
+          "music-and-arts": 16413
         },
         "7": {
           "english": 21085,
@@ -149,13 +149,13 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 15957,
-        "4": 20553,
+        "1": 16939,
+        "4": 21933,
         "7": 19246
       },
-      "enrollmentTotal": 55756,
-      "deliveredTotal": 429524,
-      "deliveryPercentage": 770.36,
+      "enrollmentTotal": 58118,
+      "deliveredTotal": 434459,
+      "deliveryPercentage": 747.55,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -2229,19 +2229,19 @@
               "reading-and-literacy": 0,
               "language": 0,
               "gmrc": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 1379,
+              "mathematics": 1198
             },
             "4": {
               "english": 0,
               "filipino": 0,
               "mathematics": 0,
-              "gmrc": 0,
+              "gmrc": 1179,
               "araling-panlipunan": 0,
               "science": 0,
               "pe-and-health": 0,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 1179
             },
             "7": {
               "english": 0,
@@ -2256,13 +2256,13 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "4": 0,
+            "1": 982,
+            "4": 1380,
             "7": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 2362,
+          "deliveredTotal": 4935,
+          "deliveryPercentage": 208.93
         },
         {
           "id": "kalayaan-national-high-school",
