@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-28T08:47:06.795Z",
+  "generatedAt": "2026-07-29T05:12:31.939Z",
   "grades": [
     {
       "grade": "1",
@@ -31311,11 +31311,11 @@
       "enrollmentByGrade": {
         "1": 10772,
         "4": 13324,
-        "7": 11501
+        "7": 11638
       },
-      "enrollmentTotal": 35597,
+      "enrollmentTotal": 35734,
       "deliveredTotal": 236009,
-      "deliveryPercentage": 663,
+      "deliveryPercentage": 660.46,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32128,11 +32128,11 @@
           "enrollmentByGrade": {
             "1": 0,
             "4": 0,
-            "7": 710
+            "7": 847
           },
-          "enrollmentTotal": 710,
+          "enrollmentTotal": 847,
           "deliveredTotal": 12280,
-          "deliveryPercentage": 1729.58
+          "deliveryPercentage": 1449.82
         },
         {
           "id": "gat-andres-bonifacio-elmentary-school",
