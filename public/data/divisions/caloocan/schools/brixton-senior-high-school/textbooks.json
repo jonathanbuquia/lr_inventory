@@ -12,7 +12,7 @@
   "rows": [
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Personal Development",
+      "SUBJECTS": "SHS Health Optimizing PE 3 & 4 TX",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2024,
@@ -22,7 +22,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "HOPE 1 and 2",
+      "SUBJECTS": "SHS Health Optimizing PE 3 & 4 TM",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -32,7 +32,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "HOPE 3 and 4",
+      "SUBJECTS": "SHS Personal Development TX",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2024,
@@ -42,7 +42,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Physical Science",
+      "SUBJECTS": "SHS Personal Development TM",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2025,
@@ -52,7 +52,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Contemporary Philippine Arts",
+      "SUBJECTS": "SHS Earth & Life Science TX",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2025,
@@ -62,7 +62,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "General Mathematics",
+      "SUBJECTS": "SHS Earth & Life Science TM",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2025,
@@ -72,7 +72,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Media and Information Literacy",
+      "SUBJECTS": "SHS Understanding Culture, Society & Politics TX",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2025,
@@ -82,7 +82,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Statistics and Probability",
+      "SUBJECTS": "SHS Understanding Culture, Society & Politics TM",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 210,
       "Year of Delivery-TX": 2025,
@@ -92,7 +92,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Pagbabasa at Pagsusuri ng Iba't Ibang Teksto Tungo sa Pananaliksik LMs",
+      "SUBJECTS": "SHS General Mathematics TX",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 20,
       "Year of Delivery-TX": "",
@@ -102,14 +102,414 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Pagbabasa at Pagsusuri ng Iba't Ibang Teksto Tungo sa Pananaliksik TGs",
+      "SUBJECTS": "SHS General Mathematics TM",
       "Enrolment S.Y. 2025-2026": "",
       "Quantity of Textbooks Received": 1,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": "",
       "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Statistics and Probability TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Statistics and Probability TM",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Physical Science TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Physical Science TM",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Media & Information Literacy TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Media & Information Literacy TM",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Contemporary Arts from the Regions TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Contemporary Arts from the Regions TM",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Expanded Readers LMs",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "Booklet for Readers: An Instructional Resource for Learners",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Trends, Networks, and Critical Thinking TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Earth Science TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS English for Academic and Professional Purposes TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Philippine Politics and Governance TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Disciplines and Ideas in the Applied Social Sciences TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Reading and Writing TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Physical Science TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Hope 1 TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Hope 2 TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS World Religions and Belief System TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Earth and Life Science TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Understanding Culture, Society, Politics TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Creative Writing TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Malikhaing Pagsulat",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Trends, Networks, and Critical Thinking in the 21st Century TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Contemporary Philippine Arts from the Regions TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Statistics and Probabilty",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Disciplines and Ideas in the Social Sciences TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Disaster Readiness and Risk Reduction TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Media and Infortmation Literacy TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Philippine Politics and Governance TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Oral Communication",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Practical Research 1 TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Practical Research 2 TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Business Math TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS General Mathematics TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Introduction to the Philosophy of the Human Person TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Empowerment Technology TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Business Finance TX",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
+    },
+    {
+      "Grade Level": "SHS",
+      "SUBJECTS": "SHS Pagbasa at Pananaliksik",
+      "Enrolment S.Y. 2025-2026": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": "",
+      "Surplus-TX": ""
     }
   ],
-  "generatedAt": "2026-07-24T10:00:26.747Z"
+  "generatedAt": "2026-07-30T05:11:23.711Z"
 }
