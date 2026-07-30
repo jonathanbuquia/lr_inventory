@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-29T23:32:40.226Z",
+  "generatedAt": "2026-07-30T03:27:11.019Z",
   "grades": [
     {
       "grade": "1",
@@ -123,7 +123,7 @@
           "language": 19014,
           "gmrc": 21515,
           "makabansa": 22929,
-          "mathematics": 6909
+          "mathematics": 7021
         },
         "4": {
           "english": 20555,
@@ -154,8 +154,8 @@
         "7": 19246
       },
       "enrollmentTotal": 58118,
-      "deliveredTotal": 434459,
-      "deliveryPercentage": 747.55,
+      "deliveredTotal": 434571,
+      "deliveryPercentage": 747.74,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -3520,7 +3520,7 @@
               "language": 132,
               "gmrc": 132,
               "makabansa": 132,
-              "mathematics": 0
+              "mathematics": 112
             },
             "4": {
               "english": 168,
@@ -3551,8 +3551,8 @@
             "7": 0
           },
           "enrollmentTotal": 230,
-          "deliveredTotal": 1704,
-          "deliveryPercentage": 740.87
+          "deliveredTotal": 1816,
+          "deliveryPercentage": 789.57
         },
         {
           "id": "silanganan-elementary-school",
