@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-30T03:27:11.019Z",
+  "generatedAt": "2026-07-31T10:07:22.405Z",
   "grades": [
     {
       "grade": "1",
@@ -31282,7 +31282,7 @@
           "reading-and-literacy": 13982,
           "language": 12030,
           "gmrc": 13095,
-          "makabansa": 15395,
+          "makabansa": 15817,
           "mathematics": 6095
         },
         "4": {
@@ -31314,8 +31314,8 @@
         "7": 11638
       },
       "enrollmentTotal": 35734,
-      "deliveredTotal": 236009,
-      "deliveryPercentage": 660.46,
+      "deliveredTotal": 236431,
+      "deliveryPercentage": 661.64,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31583,7 +31583,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "gmrc": 0,
-              "makabansa": 0,
+              "makabansa": 422,
               "mathematics": 0
             },
             "4": {
@@ -31615,7 +31615,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 0,
+          "deliveredTotal": 422,
           "deliveryPercentage": 0
         },
         {
