@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-07-31T10:07:22.405Z",
+  "generatedAt": "2026-08-01T09:13:56.531Z",
   "grades": [
     {
       "grade": "1",
@@ -31283,7 +31283,7 @@
           "language": 12030,
           "gmrc": 13095,
           "makabansa": 15817,
-          "mathematics": 6095
+          "mathematics": 6795
         },
         "4": {
           "english": 4298,
@@ -31314,8 +31314,8 @@
         "7": 11638
       },
       "enrollmentTotal": 35734,
-      "deliveredTotal": 236431,
-      "deliveryPercentage": 661.64,
+      "deliveredTotal": 237131,
+      "deliveryPercentage": 663.6,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -31713,7 +31713,7 @@
               "language": 736,
               "gmrc": 736,
               "makabansa": 736,
-              "mathematics": 0
+              "mathematics": 700
             },
             "4": {
               "english": 0,
@@ -31744,8 +31744,8 @@
             "7": 0
           },
           "enrollmentTotal": 1312,
-          "deliveredTotal": 7408,
-          "deliveryPercentage": 564.63
+          "deliveredTotal": 8108,
+          "deliveryPercentage": 617.99
         },
         {
           "id": "ciriaco-p-ti-ga-elementary-school",
