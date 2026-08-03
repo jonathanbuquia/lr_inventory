@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T01:12:19.381Z",
+  "generatedAt": "2026-08-03T01:27:21.903Z",
   "grades": [
     {
       "grade": "1",
@@ -34040,15 +34040,15 @@
           "mathematics": 2123
         },
         "4": {
-          "english": 10278,
-          "filipino": 10070,
-          "mathematics": 10239,
-          "gmrc": 10568,
-          "araling-panlipunan": 9819,
-          "science": 9959,
-          "pe-and-health": 9313,
+          "english": 10521,
+          "filipino": 10312,
+          "mathematics": 10484,
+          "gmrc": 10816,
+          "araling-panlipunan": 10064,
+          "science": 10204,
+          "pe-and-health": 9556,
           "epp": 245,
-          "music-and-arts": 2112
+          "music-and-arts": 2352
         },
         "7": {
           "english": 11668,
@@ -34068,8 +34068,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30308,
-      "deliveredTotal": 186013,
-      "deliveryPercentage": 613.74,
+      "deliveredTotal": 187964,
+      "deliveryPercentage": 620.18,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34126,15 +34126,15 @@
               "mathematics": 216
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 243,
+              "filipino": 242,
+              "mathematics": 245,
+              "gmrc": 248,
+              "araling-panlipunan": 245,
+              "science": 245,
+              "pe-and-health": 243,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 240
             },
             "7": {
               "english": 0,
@@ -34154,8 +34154,8 @@
             "7": 0
           },
           "enrollmentTotal": 520,
-          "deliveredTotal": 1423,
-          "deliveryPercentage": 273.65
+          "deliveredTotal": 3374,
+          "deliveryPercentage": 648.85
         },
         {
           "id": "antonio-m-serapio-elementary-school",
