@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T00:17:38.156Z",
+  "generatedAt": "2026-08-03T00:38:33.204Z",
   "grades": [
     {
       "grade": "1",
@@ -34033,14 +34033,14 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 9935,
-          "language": 6833,
-          "gmrc": 10130,
-          "makabansa": 9635,
-          "mathematics": 1511
+          "reading-and-literacy": 10242,
+          "language": 7311,
+          "gmrc": 10470,
+          "makabansa": 10119,
+          "mathematics": 1907
         },
         "4": {
-          "english": 9546,
+          "english": 9866,
           "filipino": 9653,
           "mathematics": 9819,
           "gmrc": 10153,
@@ -34068,8 +34068,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30308,
-      "deliveredTotal": 178952,
-      "deliveryPercentage": 590.44,
+      "deliveredTotal": 181277,
+      "deliveryPercentage": 598.12,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34083,7 +34083,7 @@
               "mathematics": 345
             },
             "4": {
-              "english": 0,
+              "english": 320,
               "filipino": 320,
               "mathematics": 320,
               "gmrc": 320,
@@ -34111,8 +34111,8 @@
             "7": 0
           },
           "enrollmentTotal": 619,
-          "deliveredTotal": 3395,
-          "deliveryPercentage": 548.47
+          "deliveredTotal": 3715,
+          "deliveryPercentage": 600.16
         },
         {
           "id": "andres-mariano-elementary-school",
@@ -34162,11 +34162,11 @@
           "name": "ANTONIO M. SERAPIO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "reading-and-literacy": 307,
+              "language": 478,
+              "gmrc": 340,
+              "makabansa": 484,
+              "mathematics": 396
             },
             "4": {
               "english": 0,
@@ -34197,8 +34197,8 @@
             "7": 0
           },
           "enrollmentTotal": 753,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 2005,
+          "deliveryPercentage": 266.27
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
