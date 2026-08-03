@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T01:57:27.298Z",
+  "generatedAt": "2026-08-03T03:37:22.625Z",
   "grades": [
     {
       "grade": "1",
@@ -18459,7 +18459,7 @@
           "language": 6862,
           "gmrc": 10002,
           "makabansa": 10017,
-          "mathematics": 902
+          "mathematics": 1052
         },
         "4": {
           "english": 0,
@@ -18490,8 +18490,8 @@
         "7": 9076
       },
       "enrollmentTotal": 23889,
-      "deliveredTotal": 186469,
-      "deliveryPercentage": 780.56,
+      "deliveredTotal": 186619,
+      "deliveryPercentage": 781.19,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -18674,7 +18674,7 @@
               "language": 126,
               "gmrc": 126,
               "makabansa": 126,
-              "mathematics": 0
+              "mathematics": 150
             },
             "4": {
               "english": 0,
@@ -18705,8 +18705,8 @@
             "7": 0
           },
           "enrollmentTotal": 106,
-          "deliveredTotal": 1729,
-          "deliveryPercentage": 1631.13
+          "deliveredTotal": 1879,
+          "deliveryPercentage": 1772.64
         },
         {
           "id": "col-e-de-leon-elementary-school",
