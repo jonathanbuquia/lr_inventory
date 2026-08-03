@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T01:27:21.903Z",
+  "generatedAt": "2026-08-03T01:57:27.298Z",
   "grades": [
     {
       "grade": "1",
@@ -34037,7 +34037,7 @@
           "language": 7615,
           "gmrc": 10766,
           "makabansa": 10421,
-          "mathematics": 2123
+          "mathematics": 2244
         },
         "4": {
           "english": 10521,
@@ -34068,8 +34068,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30308,
-      "deliveredTotal": 187964,
-      "deliveryPercentage": 620.18,
+      "deliveredTotal": 188085,
+      "deliveryPercentage": 620.58,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34252,7 +34252,7 @@
               "language": 63,
               "gmrc": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 121
             },
             "4": {
               "english": 0,
@@ -34283,8 +34283,8 @@
             "7": 0
           },
           "enrollmentTotal": 170,
-          "deliveredTotal": 63,
-          "deliveryPercentage": 37.06
+          "deliveredTotal": 184,
+          "deliveryPercentage": 108.24
         },
         {
           "id": "arcadio-f-deato-elementary-school",
