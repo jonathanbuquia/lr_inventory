@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T03:37:22.625Z",
+  "generatedAt": "2026-08-03T07:52:17.967Z",
   "grades": [
     {
       "grade": "1",
@@ -31297,15 +31297,15 @@
           "music-and-arts": 7373
         },
         "7": {
-          "english": 14567,
+          "english": 14564,
           "filipino": 162,
-          "mathematics": 12346,
+          "mathematics": 12343,
           "ve": 9127,
-          "araling-panlipunan": 13993,
-          "science": 11428,
-          "pe-and-health": 13140,
-          "tle": 11659,
-          "music-and-arts": 14822
+          "araling-panlipunan": 13990,
+          "science": 11425,
+          "pe-and-health": 13137,
+          "tle": 11656,
+          "music-and-arts": 14819
         }
       },
       "enrollmentByGrade": {
@@ -31314,8 +31314,8 @@
         "7": 11638
       },
       "enrollmentTotal": 35734,
-      "deliveredTotal": 237131,
-      "deliveryPercentage": 663.6,
+      "deliveredTotal": 237110,
+      "deliveryPercentage": 663.54,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -32501,15 +32501,15 @@
               "music-and-arts": 0
             },
             "7": {
-              "english": 179,
+              "english": 176,
               "filipino": 0,
-              "mathematics": 179,
+              "mathematics": 176,
               "ve": 0,
-              "araling-panlipunan": 179,
-              "science": 179,
-              "pe-and-health": 179,
-              "tle": 179,
-              "music-and-arts": 179
+              "araling-panlipunan": 176,
+              "science": 176,
+              "pe-and-health": 176,
+              "tle": 176,
+              "music-and-arts": 176
             }
           },
           "enrollmentByGrade": {
@@ -32518,7 +32518,7 @@
             "7": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 1253,
+          "deliveredTotal": 1232,
           "deliveryPercentage": 0
         },
         {
