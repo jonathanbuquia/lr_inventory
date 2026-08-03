@@ -19,7 +19,7 @@
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 179,
-      "Quantity of Training Manual Received": ""
+      "Quantity of Training Manual Received": 1
     },
     {
       "Grade Level": 7,
@@ -135,23 +135,23 @@
       "Grade Level": 8,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 173,
+      "Quantity of Textbooks Received": 172,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 173,
-      "Quantity of Training Manual Received": ""
+      "Surplus-TX": 172,
+      "Quantity of Training Manual Received": 1
     },
     {
       "Grade Level": 8,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": 173,
+      "Quantity of Textbooks Received": 172,
       "Year of Delivery-TX": 2025,
       "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 173,
-      "Quantity of Training Manual Received": ""
+      "Surplus-TX": 172,
+      "Quantity of Training Manual Received": 1
     },
     {
       "Grade Level": 8,
@@ -506,5 +506,5 @@
       "Quantity of Training Manual Received": ""
     }
   ],
-  "generatedAt": "2026-08-03T07:02:02.580Z"
+  "generatedAt": "2026-08-03T07:37:11.186Z"
 }
