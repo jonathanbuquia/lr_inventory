@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T00:38:33.204Z",
+  "generatedAt": "2026-08-03T01:12:19.381Z",
   "grades": [
     {
       "grade": "1",
@@ -34033,22 +34033,22 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 10242,
-          "language": 7311,
-          "gmrc": 10470,
-          "makabansa": 10119,
-          "mathematics": 1907
+          "reading-and-literacy": 10547,
+          "language": 7615,
+          "gmrc": 10766,
+          "makabansa": 10421,
+          "mathematics": 2123
         },
         "4": {
-          "english": 9866,
-          "filipino": 9653,
-          "mathematics": 9819,
-          "gmrc": 10153,
-          "araling-panlipunan": 9412,
-          "science": 9539,
-          "pe-and-health": 8911,
+          "english": 10278,
+          "filipino": 10070,
+          "mathematics": 10239,
+          "gmrc": 10568,
+          "araling-panlipunan": 9819,
+          "science": 9959,
+          "pe-and-health": 9313,
           "epp": 245,
-          "music-and-arts": 1692
+          "music-and-arts": 2112
         },
         "7": {
           "english": 11668,
@@ -34068,8 +34068,8 @@
         "7": 9347
       },
       "enrollmentTotal": 30308,
-      "deliveredTotal": 181277,
-      "deliveryPercentage": 598.12,
+      "deliveredTotal": 186013,
+      "deliveryPercentage": 613.74,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -34119,11 +34119,11 @@
           "name": "ANDRES MARIANO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 0,
-              "language": 0,
-              "gmrc": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "reading-and-literacy": 305,
+              "language": 304,
+              "gmrc": 296,
+              "makabansa": 302,
+              "mathematics": 216
             },
             "4": {
               "english": 0,
@@ -34154,8 +34154,8 @@
             "7": 0
           },
           "enrollmentTotal": 520,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "deliveredTotal": 1423,
+          "deliveryPercentage": 273.65
         },
         {
           "id": "antonio-m-serapio-elementary-school",
@@ -34169,15 +34169,15 @@
               "mathematics": 396
             },
             "4": {
-              "english": 0,
-              "filipino": 0,
-              "mathematics": 0,
-              "gmrc": 0,
-              "araling-panlipunan": 0,
-              "science": 0,
-              "pe-and-health": 0,
+              "english": 412,
+              "filipino": 417,
+              "mathematics": 420,
+              "gmrc": 415,
+              "araling-panlipunan": 407,
+              "science": 420,
+              "pe-and-health": 402,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 420
             },
             "7": {
               "english": 0,
@@ -34197,8 +34197,8 @@
             "7": 0
           },
           "enrollmentTotal": 753,
-          "deliveredTotal": 2005,
-          "deliveryPercentage": 266.27
+          "deliveredTotal": 5318,
+          "deliveryPercentage": 706.24
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
