@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-01T09:13:56.531Z",
+  "generatedAt": "2026-08-03T00:17:38.156Z",
   "grades": [
     {
       "grade": "1",
@@ -34033,11 +34033,11 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "reading-and-literacy": 9937,
+          "reading-and-literacy": 9935,
           "language": 6833,
           "gmrc": 10130,
           "makabansa": 9635,
-          "mathematics": 1166
+          "mathematics": 1511
         },
         "4": {
           "english": 9546,
@@ -34068,19 +34068,19 @@
         "7": 9347
       },
       "enrollmentTotal": 30308,
-      "deliveredTotal": 178609,
-      "deliveryPercentage": 589.31,
+      "deliveredTotal": 178952,
+      "deliveryPercentage": 590.44,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
           "name": "ANDRES FERNANDO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "reading-and-literacy": 352,
+              "reading-and-literacy": 350,
               "language": 0,
               "gmrc": 350,
               "makabansa": 350,
-              "mathematics": 0
+              "mathematics": 345
             },
             "4": {
               "english": 0,
@@ -34111,8 +34111,8 @@
             "7": 0
           },
           "enrollmentTotal": 619,
-          "deliveredTotal": 3052,
-          "deliveryPercentage": 493.05
+          "deliveredTotal": 3395,
+          "deliveryPercentage": 548.47
         },
         {
           "id": "andres-mariano-elementary-school",
