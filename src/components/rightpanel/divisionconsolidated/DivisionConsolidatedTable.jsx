@@ -10,6 +10,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const [openGrades, setOpenGrades] = useState({});
   const [divisionName, setDivisionName] = useState("");
   const [isExporting, setIsExporting] = useState(false);
+  const [showPerSchool, setShowPerSchool] = useState(false);
+  const [divisionSchoolCount, setDivisionSchoolCount] = useState(0);
 
   const normalizeNumber = (value) => {
     if (value === null || value === undefined || value === "") return 0;
@@ -208,6 +210,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         setOpenSchools({});
         setOpenGrades({});
         setDivisionName("");
+        setShowPerSchool(false);
+        setDivisionSchoolCount(0);
         return;
       }
 
@@ -217,6 +221,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       setOpenSchools({});
       setOpenGrades({});
       setDivisionName("");
+      setShowPerSchool(false);
+      setDivisionSchoolCount(0);
 
       try {
         const schoolsRes = await fetch(
@@ -231,6 +237,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
         const schoolsData = await schoolsRes.json();
         const schoolList = getSchoolsArray(schoolsData);
+        setDivisionSchoolCount(schoolList.length);
         setDivisionName(
           String(schoolsData?.division?.name || selectedDivision).trim()
         );
@@ -540,6 +547,25 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     }));
   }, [accordionSchools]);
 
+  const divisionSummary = useMemo(() => {
+    return accordionSchools.reduce(
+      (summary, school) => ({
+        schoolCount: summary.schoolCount,
+        enrolled: summary.enrolled + normalizeNumber(school.totals.enrolled),
+        received: summary.received + normalizeNumber(school.totals.received),
+        gaps: summary.gaps + normalizeNumber(school.totals.gaps),
+        surplus: summary.surplus + normalizeNumber(school.totals.surplus),
+      }),
+      {
+        schoolCount: divisionSchoolCount || accordionSchools.length,
+        enrolled: 0,
+        received: 0,
+        gaps: 0,
+        surplus: 0,
+      }
+    );
+  }, [accordionSchools, divisionSchoolCount]);
+
   const handleDownloadSummaryReport = () => {
     if (loading || accordionSchools.length === 0) return;
 
@@ -567,14 +593,35 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         </div>
 
         <div className="dctHeaderActions">
-          <button
-            type="button"
-            className="dctExportBtn"
-            onClick={handleDownloadSummaryReport}
-            disabled={loading || accordionSchools.length === 0 || isExporting}
-          >
-            {isExporting ? "Preparing..." : "Download Summary Report"}
-          </button>
+          {showPerSchool ? (
+            <>
+              <button
+                type="button"
+                className="dctSecondaryBtn"
+                onClick={() => setShowPerSchool(false)}
+                disabled={loading}
+              >
+                Division Summary
+              </button>
+              <button
+                type="button"
+                className="dctExportBtn"
+                onClick={handleDownloadSummaryReport}
+                disabled={loading || accordionSchools.length === 0 || isExporting}
+              >
+                {isExporting ? "Preparing..." : "Download Summary Report"}
+              </button>
+            </>
+          ) : (
+            <button
+              type="button"
+              className="dctExportBtn"
+              onClick={() => setShowPerSchool(true)}
+              disabled={loading || accordionSchools.length === 0}
+            >
+              Show Per School
+            </button>
+          )}
         </div>
       </div>
 
@@ -585,6 +632,52 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           <div className="dctEmpty">{errorText}</div>
         ) : accordionSchools.length === 0 ? (
           <div className="dctEmpty">No data found for this division.</div>
+        ) : !showPerSchool ? (
+          <div className="dctDivisionSummary">
+            <div className="dctDivisionSummaryTop">
+              <div>
+                <div className="dctDivisionSummaryTitle">
+                  Division Summary
+                </div>
+                <div className="dctDivisionSummarySub">
+                  Overall consolidated totals before viewing school details.
+                </div>
+              </div>
+            </div>
+
+            <div className="dctSummaryGrid">
+              <div className="dctSummaryCard">
+                <span className="dctSummaryLabel">Schools</span>
+                <span className="dctSummaryValue">
+                  {formatNumber(divisionSummary.schoolCount)}
+                </span>
+              </div>
+              <div className="dctSummaryCard">
+                <span className="dctSummaryLabel">Total Enrollees</span>
+                <span className="dctSummaryValue">
+                  {formatNumber(divisionSummary.enrolled)}
+                </span>
+              </div>
+              <div className="dctSummaryCard">
+                <span className="dctSummaryLabel">Total Received</span>
+                <span className="dctSummaryValue">
+                  {formatNumber(divisionSummary.received)}
+                </span>
+              </div>
+              <div className="dctSummaryCard dctSummaryCard--gap">
+                <span className="dctSummaryLabel">Total Gaps</span>
+                <span className="dctSummaryValue">
+                  {formatNumber(divisionSummary.gaps)}
+                </span>
+              </div>
+              <div className="dctSummaryCard dctSummaryCard--surplus">
+                <span className="dctSummaryLabel">Total Surplus</span>
+                <span className="dctSummaryValue">
+                  {formatNumber(divisionSummary.surplus)}
+                </span>
+              </div>
+            </div>
+          </div>
         ) : (
           accordionSchools.map((school) => {
             const isSchoolOpen = !!openSchools[school.schoolId];

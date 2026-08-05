@@ -28,25 +28,37 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
   flex: 0 0 auto;
 }
 
-.dctExportBtn {
+.dctExportBtn,
+.dctSecondaryBtn {
   min-height: 40px;
   border: 1px solid #c3d2e6;
   border-radius: 12px;
   padding: 0 16px;
-  background: linear-gradient(180deg, #1f4f90 0%, #173a67 100%);
-  color: #ffffff;
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.2px;
   cursor: pointer;
   white-space: nowrap;
+}
+
+.dctExportBtn {
+  background: linear-gradient(180deg, #1f4f90 0%, #173a67 100%);
+  color: #ffffff;
   box-shadow: 0 10px 18px rgba(23, 58, 103, 0.14);
 }
 
-.dctExportBtn:disabled {
+.dctSecondaryBtn {
+  background: #ffffff;
+  color: #1f4f90;
+}
+
+.dctExportBtn:disabled,
+.dctSecondaryBtn:disabled {
   cursor: not-allowed;
   opacity: 0.6;
   box-shadow: none;
@@ -69,6 +81,78 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+.dctDivisionSummary {
+  border: 1px solid #d5e0ef;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 18px;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+}
+
+.dctDivisionSummaryTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.dctDivisionSummaryTitle {
+  font-size: 16px;
+  font-weight: 800;
+  color: #172033;
+}
+
+.dctDivisionSummarySub {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #667085;
+}
+
+.dctSummaryGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.dctSummaryCard {
+  min-height: 96px;
+  border: 1px solid #dbe5f1;
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.dctSummaryCard--gap {
+  border-color: #fed7aa;
+  background: #fff7ed;
+}
+
+.dctSummaryCard--surplus {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+
+.dctSummaryLabel {
+  font-size: 12px;
+  font-weight: 800;
+  color: #667085;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.dctSummaryValue {
+  font-size: 24px;
+  font-weight: 900;
+  color: #172033;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
 }
 
 .dctAccordionItem {
@@ -445,9 +529,14 @@
     width: 100%;
   }
 
-  .dctExportBtn {
+  .dctExportBtn,
+  .dctSecondaryBtn {
     width: 100%;
     justify-content: center;
+  }
+
+  .dctSummaryGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .dctAccordionWrap {
@@ -500,4 +589,10 @@
     padding: 12px 10px;
   }
 
+}
+
+@media (max-width: 520px) {
+  .dctSummaryGrid {
+    grid-template-columns: 1fr;
+  }
 }
