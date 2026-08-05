@@ -526,6 +526,42 @@ const DivisionConsolidatedADMSLM = ({ selectedDivision }) => {
     );
   }, [accordionSchools, divisionSchoolCount]);
 
+  const divisionSummaryRows = useMemo(() => {
+    const grouped = {};
+
+    accordionSchools.forEach((school) => {
+      school.grades.forEach((gradeBlock) => {
+        gradeBlock.rows.forEach((item) => {
+          const subject = item.subject || "(No Subject)";
+          const key = `${item.grade}__${subject}`;
+
+          if (!grouped[key]) {
+            grouped[key] = {
+              grade: item.grade,
+              gradeLabel: formatExpandedGradeLabel(item.grade),
+              subject,
+              enrolled: 0,
+              received: 0,
+              gap: 0,
+              surplus: 0,
+            };
+          }
+
+          grouped[key].enrolled += toNumber(item.enrolled);
+          grouped[key].received += toNumber(item.received);
+          grouped[key].gap += toNumber(item.gap);
+          grouped[key].surplus += toNumber(item.surplus);
+        });
+      });
+    });
+
+    return Object.values(grouped).sort((a, b) => {
+      const gradeDiff = gradeSortValue(a.grade) - gradeSortValue(b.grade);
+      if (gradeDiff !== 0) return gradeDiff;
+      return a.subject.localeCompare(b.subject);
+    });
+  }, [accordionSchools]);
+
   const handleDownloadSummaryReport = () => {
     if (loading || schoolQuarterSheets.length === 0) return;
 
@@ -640,6 +676,41 @@ const DivisionConsolidatedADMSLM = ({ selectedDivision }) => {
                   {formatNumber(divisionSummary.surplus)}
                 </span>
               </div>
+            </div>
+
+            <div className="dctSummaryTableWrap">
+              <table className="dctSummaryTable">
+                <thead>
+                  <tr>
+                    <th>GRADE LEVEL</th>
+                    <th>SUBJECT</th>
+                    <th>TOTAL ENROLLEES</th>
+                    <th>TOTAL RECEIVED</th>
+                    <th>GAP</th>
+                    <th>SURPLUS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {divisionSummaryRows.map((item) => (
+                    <tr key={`${item.grade}-${item.subject}`}>
+                      <td>{item.gradeLabel}</td>
+                      <td>{item.subject === "(No Subject)" ? "-" : item.subject}</td>
+                      <td className="dctNumberCell">
+                        {formatNumber(item.enrolled)}
+                      </td>
+                      <td className="dctNumberCell">
+                        {formatNumber(item.received)}
+                      </td>
+                      <td className="dctNumberCell">
+                        {formatNumber(item.gap)}
+                      </td>
+                      <td className="dctNumberCell">
+                        {formatNumber(item.surplus)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         ) : (

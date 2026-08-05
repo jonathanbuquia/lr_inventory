@@ -155,6 +155,44 @@
   overflow-wrap: anywhere;
 }
 
+.dctSummaryTableWrap {
+  margin-top: 16px;
+  overflow-x: auto;
+  border: 1px solid #dde6f2;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.dctSummaryTable {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+}
+
+.dctSummaryTable thead th {
+  padding: 13px 14px;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  font-weight: 800;
+  color: #44516a;
+  background: #eef3f9;
+  border-bottom: 1px solid #dde6f2;
+  white-space: nowrap;
+}
+
+.dctSummaryTable tbody td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e8eef6;
+  font-size: 14px;
+  color: #172033;
+  vertical-align: middle;
+}
+
+.dctSummaryTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
 .dctAccordionItem {
   border: 1px solid #d5e0ef;
   border-radius: 14px;
