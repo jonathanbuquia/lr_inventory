@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-03T07:52:17.967Z",
+  "generatedAt": "2026-08-11T02:32:54.235Z",
   "grades": [
     {
       "grade": "1",
@@ -14583,7 +14583,7 @@
           "language": 6666,
           "gmrc": 6866,
           "makabansa": 6868,
-          "mathematics": 902
+          "mathematics": 1431
         },
         "4": {
           "english": 942,
@@ -14614,8 +14614,8 @@
         "7": 339
       },
       "enrollmentTotal": 11225,
-      "deliveredTotal": 150396,
-      "deliveryPercentage": 1339.83,
+      "deliveredTotal": 150925,
+      "deliveryPercentage": 1344.54,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -14798,7 +14798,7 @@
               "language": 525,
               "gmrc": 525,
               "makabansa": 525,
-              "mathematics": 0
+              "mathematics": 529
             },
             "4": {
               "english": 0,
@@ -14829,8 +14829,8 @@
             "7": 0
           },
           "enrollmentTotal": 996,
-          "deliveredTotal": 6512,
-          "deliveryPercentage": 653.82
+          "deliveredTotal": 7041,
+          "deliveryPercentage": 706.93
         },
         {
           "id": "fortune-high-school",
