@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-11T02:32:54.235Z",
+  "generatedAt": "2026-08-19T02:38:47.479Z",
   "grades": [
     {
       "grade": "1",
@@ -20396,7 +20396,7 @@
           "language": 5419,
           "gmrc": 5431,
           "makabansa": 5429,
-          "mathematics": 0
+          "mathematics": 151
         },
         "4": {
           "english": 5421,
@@ -20427,8 +20427,8 @@
         "7": 5153
       },
       "enrollmentTotal": 15257,
-      "deliveredTotal": 108281,
-      "deliveryPercentage": 709.71,
+      "deliveredTotal": 108432,
+      "deliveryPercentage": 710.7,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -20568,7 +20568,7 @@
               "language": 188,
               "gmrc": 188,
               "makabansa": 188,
-              "mathematics": 0
+              "mathematics": 151
             },
             "4": {
               "english": 0,
@@ -20599,8 +20599,8 @@
             "7": 0
           },
           "enrollmentTotal": 301,
-          "deliveredTotal": 930,
-          "deliveryPercentage": 308.97
+          "deliveredTotal": 1081,
+          "deliveryPercentage": 359.14
         },
         {
           "id": "don-carlos-village-elementary-school",
