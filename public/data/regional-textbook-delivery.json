@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-19T02:38:47.479Z",
+  "generatedAt": "2026-08-20T08:22:23.646Z",
   "grades": [
     {
       "grade": "1",
@@ -21688,7 +21688,7 @@
           "language": 7952,
           "gmrc": 8717,
           "makabansa": 7901,
-          "mathematics": 689
+          "mathematics": 1234
         },
         "4": {
           "english": 379,
@@ -21719,8 +21719,8 @@
         "7": 10515
       },
       "enrollmentTotal": 28059,
-      "deliveredTotal": 184914,
-      "deliveryPercentage": 659.02,
+      "deliveredTotal": 185459,
+      "deliveryPercentage": 660.96,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -23193,7 +23193,7 @@
               "language": 650,
               "gmrc": 650,
               "makabansa": 650,
-              "mathematics": 0
+              "mathematics": 545
             },
             "4": {
               "english": 0,
@@ -23224,8 +23224,8 @@
             "7": 0
           },
           "enrollmentTotal": 993,
-          "deliveredTotal": 6818,
-          "deliveryPercentage": 686.61
+          "deliveredTotal": 7363,
+          "deliveryPercentage": 741.49
         },
         {
           "id": "san-joaquin-kalawaan-high-school",
