@@ -566,7 +566,7 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 189,
       "Quantity based on Target LAS - Q1": 1512,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": " ",
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 106,
       "Year of Delivery-LAS - Q1": " ",
       "SOURCE - LAS (CO,RO, SDO) - Q1": " ",
       "GAP - LAS - Q1": 1512,
@@ -1146,8 +1146,8 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 196,
       "Quantity based on Target LAS - Q1": 1568,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": " ",
-      "Year of Delivery-LAS - Q1": " ",
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 72,
+      "Year of Delivery-LAS - Q1": 2025,
       "SOURCE - LAS (CO,RO, SDO) - Q1": " ",
       "GAP - LAS - Q1": 1568,
       "SURPLUS - LAS - Q1": 0,
@@ -1577,5 +1577,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-04-16T01:14:51.939Z"
+  "generatedAt": "2026-08-20T08:27:09.503Z"
 }
