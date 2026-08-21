@@ -131,7 +131,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 139,
       "Quantity based on Target ADM-SLM - Q1": 1112,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1112,
@@ -827,9 +827,9 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 201,
       "Quantity based on Target ADM-SLM - Q1": 1608,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
-      "Year of Delivery - ADM-SLM - Q1": " ",
-      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
+      "Year of Delivery - ADM-SLM - Q1": "",
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
       "GAP - ADM-SLM - Q1": 1608,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 1608,
@@ -856,9 +856,9 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 201,
       "Quantity based on Target ADM-SLM - Q1": 1608,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
-      "Year of Delivery - ADM-SLM - Q1": " ",
-      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": "",
+      "Year of Delivery - ADM-SLM - Q1": "",
+      "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": "",
       "GAP - ADM-SLM - Q1": 1608,
       "SURPLUS - ADM-SLM - Q1": 0,
       "Quantity based on Target ADM-SLM - Q2": 1608,
@@ -1146,7 +1146,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 196,
       "Quantity based on Target ADM-SLM - Q1": 1568,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1568,
@@ -1751,5 +1751,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-08-21T10:10:03.839Z"
+  "generatedAt": "2026-08-21T10:22:16.053Z"
 }
