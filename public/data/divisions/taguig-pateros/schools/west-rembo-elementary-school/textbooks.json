@@ -134,7 +134,7 @@
       "Grade Level": 3,
       "SUBJECTS": "Language",
       "Enrolment S.Y. 2025-2026": 189,
-      "Quantity of Textbooks Received": " ",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": " ",
       "SOURCE-TX (CO,RO, SDO)": " ",
       "GAP-TX": 189,
@@ -154,9 +154,9 @@
       "Grade Level": 3,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 189,
-      "Quantity of Textbooks Received": " ",
-      "Year of Delivery-TX": " ",
-      "SOURCE-TX (CO,RO, SDO)": " ",
+      "Quantity of Textbooks Received": 168,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 189,
       "Surplus-TX": 0
     },
@@ -164,7 +164,7 @@
       "Grade Level": 3,
       "SUBJECTS": "Makabansa",
       "Enrolment S.Y. 2025-2026": 189,
-      "Quantity of Textbooks Received": " ",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": " ",
       "SOURCE-TX (CO,RO, SDO)": " ",
       "GAP-TX": 189,
@@ -324,9 +324,9 @@
       "Grade Level": 5,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 196,
-      "Quantity of Textbooks Received": " ",
-      "Year of Delivery-TX": " ",
-      "SOURCE-TX (CO,RO, SDO)": " ",
+      "Quantity of Textbooks Received": 257,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 196,
       "Surplus-TX": 0
     },
@@ -414,7 +414,7 @@
       "Grade Level": 6,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 175,
-      "Quantity of Textbooks Received": " ",
+      "Quantity of Textbooks Received": 0,
       "Year of Delivery-TX": " ",
       "SOURCE-TX (CO,RO, SDO)": " ",
       "GAP-TX": 175,
@@ -451,5 +451,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-08-22T03:47:29.874Z"
+  "generatedAt": "2026-08-22T04:02:14.585Z"
 }
