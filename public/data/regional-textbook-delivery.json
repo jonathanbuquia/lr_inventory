@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-20T08:22:23.646Z",
+  "generatedAt": "2026-08-22T04:17:24.095Z",
   "grades": [
     {
       "grade": "1",
@@ -31294,7 +31294,7 @@
           "science": 10310,
           "pe-and-health": 8711,
           "epp": 872,
-          "music-and-arts": 7373
+          "music-and-arts": 7569
         },
         "7": {
           "english": 14564,
@@ -31314,8 +31314,8 @@
         "7": 11638
       },
       "enrollmentTotal": 35734,
-      "deliveredTotal": 237110,
-      "deliveryPercentage": 663.54,
+      "deliveredTotal": 237306,
+      "deliveryPercentage": 664.09,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -33960,7 +33960,7 @@
               "science": 206,
               "pe-and-health": 180,
               "epp": 0,
-              "music-and-arts": 0
+              "music-and-arts": 196
             },
             "7": {
               "english": 0,
@@ -33980,8 +33980,8 @@
             "7": 0
           },
           "enrollmentTotal": 340,
-          "deliveredTotal": 2412,
-          "deliveryPercentage": 709.41
+          "deliveredTotal": 2608,
+          "deliveryPercentage": 767.06
         },
         {
           "id": "western-bicutan-national-high-school",
