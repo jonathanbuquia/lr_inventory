@@ -160,7 +160,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 139,
       "Quantity based on Target ADM-SLM - Q1": 1112,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1112,
@@ -769,7 +769,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 201,
       "Quantity based on Target ADM-SLM - Q1": 1608,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1608,
@@ -1030,7 +1030,7 @@
       "SUBJECTS": "Music",
       "Enrolment S.Y. 2025-2026": 201,
       "Quantity based on Target ADM-SLM - Q1": 1608,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1608,
@@ -1088,7 +1088,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 196,
       "Quantity based on Target ADM-SLM - Q1": 1568,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1568,
@@ -1349,7 +1349,7 @@
       "SUBJECTS": "Music",
       "Enrolment S.Y. 2025-2026": 196,
       "Quantity based on Target ADM-SLM - Q1": 1568,
-      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": " ",
+      "Quantity of ADM-SLM Received (Quantity received x No. of ADM-SLM) - Q1": 0,
       "Year of Delivery - ADM-SLM - Q1": " ",
       "SOURCE - ADM-SLM (CO,RO, SDO) - Q1": " ",
       "GAP - ADM-SLM - Q1": 1568,
@@ -1751,5 +1751,5 @@
       "SURPLUS - ADM-SLM- Q4": 0
     }
   ],
-  "generatedAt": "2026-08-22T04:17:18.624Z"
+  "generatedAt": "2026-08-22T04:37:14.875Z"
 }
