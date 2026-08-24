@@ -6,7 +6,9 @@ import { LAST_UPDATED } from "../../lastUpdated";
 
 const LeftPanel = ({
   selectedDivision,
+  activeView,
   onSelectDivision,
+  onOpenRegionalView,
 }) => {
   const [divisions, setDivisions] = useState([]);
   const [isOpenMobile, setIsOpenMobile] = useState(false);
@@ -31,9 +33,15 @@ const LeftPanel = ({
   }, []);
 
   const safeDivisions = useMemo(() => (Array.isArray(divisions) ? divisions : []), [divisions]);
+  const isRegionalView = activeView === "regional";
 
   const handleSelect = (division) => {
     if (typeof onSelectDivision === "function") onSelectDivision(division);
+    setIsOpenMobile(false);
+  };
+
+  const handleOpenRegional = () => {
+    if (typeof onOpenRegionalView === "function") onOpenRegionalView();
     setIsOpenMobile(false);
   };
 
@@ -71,7 +79,12 @@ const LeftPanel = ({
         className={`lp__sidebar ${isOpenMobile ? "is-open" : ""}`}
       >
         <div className="lp__top">
-          <div className="lp__logo">
+          <button
+            type="button"
+            className={`lp__logo lp__logoBtn ${isRegionalView ? "is-active" : ""}`}
+            onClick={handleOpenRegional}
+            aria-label="Open regional textbook delivery view"
+          >
             <img src={logo} alt="LR Regional Inventory Logo" className="lp__logoImg" />
 
             <div className="lp__logoText">
@@ -82,7 +95,7 @@ const LeftPanel = ({
                 {updatedTime ? <div>{updatedTime}</div> : null}
               </div>
             </div>
-          </div>
+          </button>
 
           <button
             type="button"

@@ -4,15 +4,30 @@ import RightPanel from "./components/rightpanel/RightPanel";
 
 const App = () => {
   const [selectedDivision, setSelectedDivision] = useState(null);
+  const [activeView, setActiveView] = useState("dashboard");
+
+  const handleSelectDivision = (division) => {
+    setSelectedDivision(division);
+    setActiveView("dashboard");
+  };
+
+  const handleOpenRegionalView = () => {
+    setActiveView("regional");
+  };
 
   return (
     <div className="app-container">
       <LeftPanel
         selectedDivision={selectedDivision}
-        onSelectDivision={setSelectedDivision}
+        activeView={activeView}
+        onSelectDivision={handleSelectDivision}
+        onOpenRegionalView={handleOpenRegionalView}
       />
 
-      <RightPanel selectedDivision={selectedDivision} />
+      <RightPanel
+        selectedDivision={selectedDivision}
+        activeView={activeView}
+      />
     </div>
   );
 };

@@ -1,0 +1,524 @@
+.rtdvWrap {
+  width: 100%;
+  border: 1px solid #cfd8e8;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #f8fbff 0%, #f1f6fd 100%);
+  overflow: hidden;
+  --rtdv-grade-1-strong: #0f766e;
+  --rtdv-grade-1-soft: #dff7f3;
+  --rtdv-grade-1-tint: #f1fcfa;
+  --rtdv-grade-4-strong: #b45309;
+  --rtdv-grade-4-soft: #fff0d8;
+  --rtdv-grade-4-tint: #fff8ec;
+  --rtdv-grade-7-strong: #7c3aed;
+  --rtdv-grade-7-soft: #efe5ff;
+  --rtdv-grade-7-tint: #f7f2ff;
+}
+
+.rtdvHeader {
+  padding: 22px 24px 18px;
+  border-bottom: 1px solid #d9e4f2;
+  background:
+    radial-gradient(circle at top right, rgba(28, 100, 242, 0.08), transparent 38%),
+    linear-gradient(180deg, #fbfdff 0%, #f2f7fd 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.rtdvHeaderText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rtdvTitle {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #142033;
+}
+
+.rtdvSubTitle {
+  font-size: 14px;
+  color: #5b6880;
+  max-width: 920px;
+}
+
+.rtdvHeaderActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.rtdvViewBtn {
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid #c9d7e8;
+  background: #ffffff;
+  color: #19304d;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-shadow: 0 10px 18px rgba(15, 23, 42, 0.05);
+}
+
+.rtdvViewBtn.is-active {
+  border-color: #173a67;
+  background: linear-gradient(180deg, #1f4f90 0%, #173a67 100%);
+  color: #ffffff;
+}
+
+.rtdvMatrixWrap {
+  overflow-x: auto;
+  padding: 18px 20px 20px;
+}
+
+.rtdvSummaryWrap {
+  padding: 18px 20px 20px;
+}
+
+.rtdvSummaryTableWrap {
+  overflow-x: auto;
+  border: 1px solid #d4dfef;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.05);
+}
+
+.rtdvSummaryTable {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+}
+
+.rtdvSummaryTable th,
+.rtdvSummaryTable td {
+  padding: 16px 18px;
+  border-bottom: 1px solid #e3ebf6;
+  text-align: left;
+  font-size: 14px;
+}
+
+.rtdvSummaryTable th {
+  background: #eef4fb;
+  color: #30415d;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.rtdvSummaryTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.rtdvCoverageTableWrap {
+  overflow-x: auto;
+  border: 1px solid #d4dfef;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.05);
+}
+
+.rtdvCoverageTable {
+  width: 100%;
+  min-width: 1800px;
+  border-collapse: collapse;
+}
+
+.rtdvCoverageTable th,
+.rtdvCoverageTable td {
+  padding: 14px 12px;
+  border-right: 1px solid #e1e9f4;
+  border-bottom: 1px solid #e1e9f4;
+  text-align: center;
+}
+
+.rtdvCoverageTable th {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #30415d;
+  white-space: nowrap;
+}
+
+.rtdvCoverageTable th:first-child,
+.rtdvCoverageTable td:first-child {
+  min-width: 240px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.rtdvCoverageTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.rtdvCoverageDivisionCell {
+  font-size: 14px;
+  font-weight: 700;
+  color: #142033;
+  background: #fbfdff;
+}
+
+.rtdvCoverageNumberCell,
+.rtdvCoveragePercentCell {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-size: 14px;
+}
+
+.rtdvCoverageNumberCell {
+  font-weight: 700;
+}
+
+.rtdvCoveragePercentCell {
+  font-weight: 800;
+}
+
+.rtdvCoveragePercentCell--excess {
+  background: linear-gradient(180deg, #dc2626 0%, #b91c1c 100%) !important;
+  color: #ffffff !important;
+  box-shadow: inset 0 0 0 1px rgba(127, 29, 29, 0.28);
+}
+
+.rtdvCoverageTable thead th.rtdvGrade--1,
+.rtdvCoverageNumberCell.rtdvGrade--1,
+.rtdvCoveragePercentCell.rtdvGrade--1 {
+  background: var(--rtdv-grade-1-tint);
+  color: var(--rtdv-grade-1-strong);
+}
+
+.rtdvCoverageTable thead th.rtdvGrade--4,
+.rtdvCoverageNumberCell.rtdvGrade--4,
+.rtdvCoveragePercentCell.rtdvGrade--4 {
+  background: var(--rtdv-grade-4-tint);
+  color: var(--rtdv-grade-4-strong);
+}
+
+.rtdvCoverageTable thead th.rtdvGrade--7,
+.rtdvCoverageNumberCell.rtdvGrade--7,
+.rtdvCoveragePercentCell.rtdvGrade--7 {
+  background: var(--rtdv-grade-7-tint);
+  color: var(--rtdv-grade-7-strong);
+}
+
+.rtdvSummaryNumber,
+.rtdvSummaryPercent {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.rtdvSummaryNumber {
+  font-weight: 700;
+  color: #142033;
+}
+
+.rtdvSummaryPercent {
+  font-weight: 800;
+  color: #1d4f91;
+}
+
+.rtdvMatrixShell {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.rtdvMatrixHead {
+  display: grid;
+  border: 1px solid #d3dfef;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.06);
+}
+
+.rtdvCornerCell,
+.rtdvGradeGroup,
+.rtdvSubjectHead {
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px 10px;
+  border-right: 1px solid #dde7f3;
+  border-bottom: 1px solid #dde7f3;
+  color: #20304a;
+}
+
+.rtdvCornerCell {
+  grid-row: 1 / span 2;
+  justify-content: flex-start;
+  padding-left: 18px;
+  font-size: 14px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #eef4fb 0%, #e7eef8 100%);
+}
+
+.rtdvGradeGroup {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  background: linear-gradient(180deg, #eef4fb 0%, #e7eef8 100%);
+}
+
+.rtdvSubjectHead {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  background: #f8fbff;
+}
+
+.rtdvGrade--1 {
+  background: var(--rtdv-grade-1-soft);
+  color: var(--rtdv-grade-1-strong);
+}
+
+.rtdvGrade--4 {
+  background: var(--rtdv-grade-4-soft);
+  color: var(--rtdv-grade-4-strong);
+}
+
+.rtdvGrade--7 {
+  background: var(--rtdv-grade-7-soft);
+  color: var(--rtdv-grade-7-strong);
+}
+
+.rtdvMatrixHead > :nth-last-child(-n + 1),
+.rtdvAccordionHeader > :last-child,
+.rtdvSchoolTable tr > *:last-child {
+  border-right: none;
+}
+
+.rtdvAccordionList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rtdvAccordionItem {
+  border: 1px solid #d3dfef;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #eef4fb;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.05);
+}
+
+.rtdvAccordionHeader {
+  width: 100%;
+  display: grid;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  background: linear-gradient(180deg, #edf4fc 0%, #e3edf9 100%);
+}
+
+.rtdvDivisionCell,
+.rtdvValueCell {
+  min-height: 76px;
+  padding: 14px 12px;
+  border-right: 1px solid #d8e3f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rtdvDivisionCell {
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 16px 18px;
+}
+
+.rtdvAccordionIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: #d8e6f7;
+  color: #1d4f91;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.rtdvDivisionText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.rtdvDivisionName {
+  font-size: 15px;
+  font-weight: 800;
+  color: #152035;
+}
+
+.rtdvDivisionMeta {
+  font-size: 12px;
+  color: #607089;
+}
+
+.rtdvValueCell {
+  font-size: 14px;
+  font-weight: 800;
+  color: #152035;
+}
+
+.rtdvValueCell.rtdvGrade--1 {
+  background: linear-gradient(180deg, var(--rtdv-grade-1-tint) 0%, #e4faf5 100%);
+}
+
+.rtdvValueCell.rtdvGrade--4 {
+  background: linear-gradient(180deg, var(--rtdv-grade-4-tint) 0%, #fff2df 100%);
+}
+
+.rtdvValueCell.rtdvGrade--7 {
+  background: linear-gradient(180deg, var(--rtdv-grade-7-tint) 0%, #f0e8ff 100%);
+}
+
+.rtdvAccordionBody {
+  padding: 14px 16px 16px;
+  background: #f7faff;
+  border-top: 1px solid #d9e5f3;
+}
+
+.rtdvSchoolTableWrap {
+  overflow-x: auto;
+  border: 1px solid #d9e5f3;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.rtdvSchoolTable {
+  width: 100%;
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.rtdvSchoolTable thead th {
+  padding: 12px 10px;
+  text-align: center;
+  background: #eef4fb;
+  color: #33435c;
+  border-right: 1px solid #dde7f3;
+  border-bottom: 1px solid #dde7f3;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.rtdvSchoolTable thead th:first-child {
+  min-width: 260px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.rtdvSchoolTable tbody td {
+  padding: 12px 10px;
+  border-right: 1px solid #e4ecf6;
+  border-bottom: 1px solid #e4ecf6;
+  font-size: 14px;
+  color: #152035;
+  text-align: center;
+}
+
+.rtdvSchoolTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.rtdvSummaryRow td {
+  background: #f4f8fd;
+  font-weight: 800;
+}
+
+.rtdvSummaryRow td:first-child {
+  color: #1d4f91;
+}
+
+.rtdvSchoolNameCell {
+  text-align: left;
+  font-weight: 600;
+  min-width: 260px;
+}
+
+.rtdvNumberCell {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.rtdvSchoolTable thead th.rtdvGrade--1,
+.rtdvNumberCell.rtdvGrade--1 {
+  background: var(--rtdv-grade-1-tint);
+  color: var(--rtdv-grade-1-strong);
+}
+
+.rtdvSchoolTable thead th.rtdvGrade--4,
+.rtdvNumberCell.rtdvGrade--4 {
+  background: var(--rtdv-grade-4-tint);
+  color: var(--rtdv-grade-4-strong);
+}
+
+.rtdvSchoolTable thead th.rtdvGrade--7,
+.rtdvNumberCell.rtdvGrade--7 {
+  background: var(--rtdv-grade-7-tint);
+  color: var(--rtdv-grade-7-strong);
+}
+
+.rtdvEmpty {
+  padding: 20px 24px 24px;
+  font-size: 14px;
+  color: #607089;
+}
+
+@media (max-width: 900px) {
+  .rtdvHeader {
+    padding: 18px 16px 14px;
+  }
+
+  .rtdvTitle {
+    font-size: 22px;
+  }
+
+  .rtdvSubTitle {
+    font-size: 13px;
+  }
+
+  .rtdvMatrixWrap {
+    padding: 14px 12px 16px;
+  }
+
+  .rtdvSummaryWrap {
+    padding: 14px 12px 16px;
+  }
+
+  .rtdvDivisionCell,
+  .rtdvValueCell {
+    min-height: 68px;
+    padding: 12px 10px;
+  }
+
+  .rtdvAccordionBody {
+    padding: 12px;
+  }
+
+  .rtdvHeaderActions {
+    width: 100%;
+  }
+
+  .rtdvViewBtn {
+    flex: 1 1 180px;
+  }
+}

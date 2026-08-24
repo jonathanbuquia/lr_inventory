@@ -28,6 +28,32 @@
   min-width: 0;
 }
 
+.lp__logoBtn {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  background: transparent;
+  text-align: left;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.lp__logoBtn:hover {
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+}
+
+.lp__logoBtn.is-active {
+  background: #111827;
+  border-color: #111827;
+}
+
+.lp__logoBtn.is-active .lp__logoTitle,
+.lp__logoBtn.is-active .lp__logoSub,
+.lp__logoBtn.is-active .lp__updates {
+  color: #ffffff;
+}
+
 .lp__logoMark {
   width: 36px;
   height: 36px;

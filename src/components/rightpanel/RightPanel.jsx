@@ -7,13 +7,14 @@ import SourceYearPieCharts from "./textbook/piecharts/SourceYearPieCharts";
 import DivisionConsolidatedTable from "./divisionconsolidated/DivisionConsolidatedTable";
 import DivisionConsolidatedLAS from "./divisionconsolidated/DivisionConsolidatedLAS";
 import DivisionConsolidatedADMSLM from "./divisionconsolidated/DivisionConsolidatedADMSLM";
+import RegionalTextbookDeliveryView from "./regional/RegionalTextbookDeliveryView";
 
 import LASView from "./las/LASView";
 import ADMSLMView from "./adm-slm/ADMSLMView";
 
 import "./RightPanel.css";
 
-const RightPanel = ({ selectedDivision }) => {
+const RightPanel = ({ selectedDivision, activeView }) => {
   const [selectedSchoolId, setSelectedSchoolId] = useState("ALL");
   const [activeTab, setActiveTab] = useState("textbooks");
 
@@ -25,19 +26,24 @@ const RightPanel = ({ selectedDivision }) => {
   const hasDivision = Boolean(divisionSlug);
   const hasSelectedSchool =
     selectedSchoolId && selectedSchoolId !== "ALL";
+  const isRegionalView = activeView === "regional";
 
   return (
     <section className="rp__wrap">
-      <TopSection
-        selectedDivision={selectedDivision}
-        selectedSchoolId={selectedSchoolId}
-        setSelectedSchoolId={setSelectedSchoolId}
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-      />
+      {hasDivision && !isRegionalView ? (
+        <TopSection
+          selectedDivision={selectedDivision}
+          selectedSchoolId={selectedSchoolId}
+          setSelectedSchoolId={setSelectedSchoolId}
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
+      ) : null}
 
       <div className="rp__content">
-        {!hasDivision ? (
+        {isRegionalView ? (
+          <RegionalTextbookDeliveryView />
+        ) : !hasDivision ? (
           <div className="rp__empty">Select a division first.</div>
         ) : (
           <>

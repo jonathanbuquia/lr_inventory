@@ -2,6 +2,14 @@ import fs from "fs";
 import path from "path";
 import XLSX from "xlsx";
 import { fileURLToPath } from "url";
+import {
+  canonicalizeRegionalTextbookSubject,
+  createRegionalEnrollmentTotals,
+  createRegionalTextbookDeliveryTotals,
+  getRegionalTextbookDeliveredTotal,
+  normalizeRegionalTextbookGrade,
+  REGIONAL_TEXTBOOK_DELIVERY_GRADES,
+} from "../src/utils/regionalTextbookDelivery.js";
 
 // __dirname fix for ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -37,6 +45,12 @@ const normalizeWhitespace = (s) =>
   String(s ?? "")
     .replace(/\s+/g, " ")
     .trim();
+
+const toNumber = (value) => {
+  if (value === null || value === undefined || value === "") return 0;
+  const parsed = Number(String(value).replace(/,/g, "").trim());
+  return Number.isNaN(parsed) ? 0 : parsed;
+};
 
 const slugify = (s) =>
   String(s)
@@ -304,6 +318,86 @@ function comparePayload(oldData, newData) {
   };
 }
 
+function createRegionalDivisionSummary(divisionSlug, divisionName) {
+  return {
+    slug: divisionSlug,
+    name: divisionName,
+    totals: createRegionalTextbookDeliveryTotals(),
+    enrollmentByGrade: createRegionalEnrollmentTotals(),
+    enrollmentTotal: 0,
+    deliveredTotal: 0,
+    deliveryPercentage: 0,
+    schools: [],
+  };
+}
+
+function getRegionalEnrollmentValue(row) {
+  return toNumber(
+    row?.["Enrolment S.Y. 2025-2026"] ??
+    row?.["Enrollment S.Y. 2025-2026"] ??
+    row?.["Enrolment"] ??
+    row?.["Enrollment"] ??
+    0
+  );
+}
+
+function addRegionalTextbookRow(target, row) {
+  const gradeValue =
+    row?.["Grade Level"] ??
+    row?.["GradeLevel"] ??
+    row?.["GRADE LEVEL"] ??
+    "";
+  const normalizedGrade = normalizeRegionalTextbookGrade(gradeValue);
+  if (!normalizedGrade || !target?.totals?.[normalizedGrade]) return;
+
+  const subjectValue =
+    row?.["SUBJECTS"] ??
+    row?.["Subjects"] ??
+    row?.["Subject"] ??
+    "";
+  const subjectKey = canonicalizeRegionalTextbookSubject(normalizedGrade, subjectValue);
+  if (!subjectKey) return;
+
+  const quantity = toNumber(
+    row?.["Quantity of Textbooks Received"] ??
+    row?.["Quantity Received"] ??
+    row?.["Received"] ??
+    0
+  );
+
+  target.totals[normalizedGrade][subjectKey] += quantity;
+  target.enrollmentByGrade[normalizedGrade] = Math.max(
+    target.enrollmentByGrade[normalizedGrade] || 0,
+    getRegionalEnrollmentValue(row)
+  );
+}
+
+function mergeRegionalTextbookTotals(target, source) {
+  REGIONAL_TEXTBOOK_DELIVERY_GRADES.forEach((gradeBlock) => {
+    gradeBlock.subjects.forEach((subject) => {
+      target[gradeBlock.grade][subject.key] += source?.[gradeBlock.grade]?.[subject.key] || 0;
+    });
+  });
+}
+
+function mergeRegionalEnrollmentTotals(target, source) {
+  REGIONAL_TEXTBOOK_DELIVERY_GRADES.forEach((gradeBlock) => {
+    target[gradeBlock.grade] += source?.[gradeBlock.grade] || 0;
+  });
+}
+
+function finalizeRegionalEntry(entry) {
+  entry.deliveredTotal = getRegionalTextbookDeliveredTotal(entry.totals);
+  entry.enrollmentTotal = Object.values(entry.enrollmentByGrade || {}).reduce(
+    (sum, value) => sum + toNumber(value),
+    0
+  );
+  entry.deliveryPercentage =
+    entry.enrollmentTotal > 0
+      ? Number(((entry.deliveredTotal / entry.enrollmentTotal) * 100).toFixed(2))
+      : 0;
+}
+
 // ===== MAIN =====
 function build() {
   if (!fs.existsSync(INPUT_DIR)) {
@@ -318,6 +412,7 @@ function build() {
     .filter((d) => d.isDirectory());
 
   const index = { divisions: [] };
+  const regionalDivisions = [];
 
   const report = {
     newFiles: 0,
@@ -354,6 +449,9 @@ function build() {
       continue;
     }
 
+    const regionalDivision = createRegionalDivisionSummary(divisionSlug, divisionName);
+    regionalDivisions.push(regionalDivision);
+
     for (const file of files) {
       const rawSchoolName = file.replace(/\.(xlsx|xlsm|xls)$/i, "");
       const rawSchoolId = slugify(rawSchoolName);
@@ -381,11 +479,25 @@ function build() {
 
       const outSchoolDir = path.join(outSchoolsDir, schoolId);
       ensureDir(outSchoolDir);
+      const regionalSchool = {
+        id: schoolId,
+        name: schoolName,
+        totals: createRegionalTextbookDeliveryTotals(),
+        enrollmentByGrade: createRegionalEnrollmentTotals(),
+        enrollmentTotal: 0,
+        deliveredTotal: 0,
+        deliveryPercentage: 0,
+      };
+      regionalDivision.schools.push(regionalSchool);
 
       for (const rule of SHEETS) {
         let rows = parseSheet(workbook, rule.name, rule.headerRowIndex, ctx);
         if (isSeniorHighSchool) {
           rows = filterSeniorHighRows(rows);
+        }
+
+        if (rule.key === "textbooks") {
+          rows.forEach((row) => addRegionalTextbookRow(regionalSchool, row));
         }
 
         const outFilePath = path.join(outSchoolDir, `${rule.key}.json`);
@@ -429,6 +541,17 @@ function build() {
       writeJSON(schoolsListPath, schoolsList);
     }
 
+    regionalDivision.schools.sort((a, b) => a.name.localeCompare(b.name));
+    regionalDivision.schools.forEach((school) => {
+      finalizeRegionalEntry(school);
+      mergeRegionalTextbookTotals(regionalDivision.totals, school.totals);
+      mergeRegionalEnrollmentTotals(
+        regionalDivision.enrollmentByGrade,
+        school.enrollmentByGrade
+      );
+    });
+    finalizeRegionalEntry(regionalDivision);
+
     ok(`Built division: ${divisionName}`);
   }
 
@@ -438,6 +561,29 @@ function build() {
     if (JSON.stringify(existingIndex) !== JSON.stringify(index)) {
       writeJSON(indexPath, index);
     }
+  }
+
+  const regionalPayload = {
+    title: "Status of Textbook Delivery",
+    generatedAt: new Date().toISOString(),
+    grades: REGIONAL_TEXTBOOK_DELIVERY_GRADES.map((gradeBlock) => ({
+      grade: gradeBlock.grade,
+      label: gradeBlock.label,
+      subjects: gradeBlock.subjects.map((subject) => ({
+        key: subject.key,
+        label: subject.label,
+      })),
+    })),
+    divisions: regionalDivisions.sort((a, b) => a.name.localeCompare(b.name)),
+  };
+
+  const regionalPath = path.join(OUTPUT_DIR, "regional-textbook-delivery.json");
+  const existingRegional = readJSONIfExists(regionalPath);
+  if (
+    JSON.stringify(stripGeneratedAt(existingRegional)) !==
+    JSON.stringify(stripGeneratedAt(regionalPayload))
+  ) {
+    writeJSON(regionalPath, regionalPayload);
   }
 
   console.log("\n================ BUILD SUMMARY ================");
