@@ -1,20 +1,41 @@
 import { useEffect, useMemo, useState } from "react";
 import "./RegionalTextbookDeliveryView.css";
 import {
-  getRegionalTextbookDeliveredTotal,
   REGIONAL_TEXTBOOK_DELIVERY_GRADES,
+  REGIONAL_TEXTBOOK_DELIVERY_PHASES,
+  REGIONAL_TEXTBOOK_DELIVERY_YEARS,
 } from "../../../utils/regionalTextbookDelivery";
 
 const formatNumber = (value) => Number(value || 0).toLocaleString();
 const formatPercent = (value) => `${Number(value || 0).toFixed(2)}%`;
-const getGradeClassName = (grade) => `rtdvGrade--${grade}`;
+const formatSignedNumber = (value) => {
+  const numeric = Number(value || 0);
+  if (numeric > 0) return `+${formatNumber(numeric)}`;
+  if (numeric < 0) return `-${formatNumber(Math.abs(numeric))}`;
+  return "0";
+};
+
+const getSubjectYearValue = (division, grade, subjectKey, year) =>
+  Number(division?.deliveryByYear?.[grade]?.[subjectKey]?.[year] || 0);
+
+const getSubjectTotal = (division, grade, subjectKey, years) =>
+  years.reduce(
+    (sum, year) => sum + getSubjectYearValue(division, grade, subjectKey, year),
+    0
+  );
+
+const getEnrollment = (division, grade) =>
+  Number(division?.enrollmentByGrade?.[grade] || 0);
+
+const getProjectedEnrollment = (enrollment) =>
+  Math.round(Number(enrollment || 0) * 1.02);
 
 const RegionalTextbookDeliveryView = () => {
   const [dataset, setDataset] = useState(null);
   const [loading, setLoading] = useState(false);
   const [errorText, setErrorText] = useState("");
-  const [openDivisions, setOpenDivisions] = useState({});
-  const [activePage, setActivePage] = useState("delivery");
+  const [activePhase, setActivePhase] = useState("phase-1");
+  const [activeGrade, setActiveGrade] = useState("1");
 
   useEffect(() => {
     const loadRegionalData = async () => {
@@ -43,25 +64,15 @@ const RegionalTextbookDeliveryView = () => {
     loadRegionalData();
   }, []);
 
+  const phases = dataset?.phases?.length
+    ? dataset.phases
+    : REGIONAL_TEXTBOOK_DELIVERY_PHASES;
+  const years = dataset?.years?.length
+    ? dataset.years
+    : REGIONAL_TEXTBOOK_DELIVERY_YEARS;
   const grades = dataset?.grades?.length
     ? dataset.grades
     : REGIONAL_TEXTBOOK_DELIVERY_GRADES;
-
-  const columns = useMemo(
-    () =>
-      grades.flatMap((gradeBlock) =>
-        gradeBlock.subjects.map((subject) => ({
-          grade: gradeBlock.grade,
-          gradeLabel: gradeBlock.label,
-          subjectKey: subject.key,
-          subjectLabel: subject.label,
-        }))
-      ),
-    [grades]
-  );
-
-  const gridTemplateColumns = `260px repeat(${columns.length}, minmax(108px, 1fr))`;
-  const gridMinWidth = 260 + columns.length * 108;
 
   const divisions = useMemo(
     () =>
@@ -71,76 +82,46 @@ const RegionalTextbookDeliveryView = () => {
     [dataset]
   );
 
-  const toggleDivision = (divisionSlug) => {
-    setOpenDivisions((prev) => ({
-      ...prev,
-      [divisionSlug]: !prev[divisionSlug],
-    }));
-  };
+  const gradesByKey = useMemo(
+    () => new Map(grades.map((gradeBlock) => [gradeBlock.grade, gradeBlock])),
+    [grades]
+  );
 
-  const getValue = (totals, grade, subjectKey) =>
-    Number(totals?.[grade]?.[subjectKey] || 0);
-  const getDeliveredTotal = (entry) =>
-    Number(
-      entry?.deliveredTotal ??
-      getRegionalTextbookDeliveredTotal(entry?.totals)
-    );
-  const getEnrollmentTotal = (entry) => Number(entry?.enrollmentTotal || 0);
-  const getEnrollmentByGrade = (entry, grade) =>
-    Number(entry?.enrollmentByGrade?.[grade] || 0);
-  const getDeliveryPercentage = (entry) => {
-    const enrollmentTotal = getEnrollmentTotal(entry);
-    if (enrollmentTotal <= 0) return 0;
+  const activePhaseConfig =
+    phases.find((phase) => phase.key === activePhase) || phases[0];
 
-    return Number(
-      entry?.deliveryPercentage ??
-      ((getDeliveredTotal(entry) / enrollmentTotal) * 100)
-    );
-  };
-  const getSubjectCoveragePercentage = (entry, grade, subjectKey) => {
-    const enrollment = getEnrollmentByGrade(entry, grade);
-    const received = getValue(entry?.totals, grade, subjectKey);
-    if (enrollment <= 0 || received <= 0) return 0;
-    return (received / enrollment) * 100;
+  const phaseGrades = useMemo(
+    () =>
+      (activePhaseConfig?.grades || [])
+        .map((grade) => gradesByKey.get(grade))
+        .filter(Boolean),
+    [activePhaseConfig, gradesByKey]
+  );
+
+  useEffect(() => {
+    if (!phaseGrades.length) return;
+    if (!phaseGrades.some((gradeBlock) => gradeBlock.grade === activeGrade)) {
+      setActiveGrade(phaseGrades[0].grade);
+    }
+  }, [activeGrade, phaseGrades]);
+
+  const selectedGrade = gradesByKey.get(activeGrade) || phaseGrades[0];
+
+  const handlePhaseSelect = (phase) => {
+    setActivePhase(phase.key);
+    const firstGrade = phase.grades?.[0];
+    if (firstGrade) setActiveGrade(firstGrade);
   };
 
   return (
     <section className="rtdvWrap">
       <div className="rtdvHeader">
         <div className="rtdvHeaderText">
-          <div className="rtdvTitle">
-            {dataset?.title || "Status of Textbook Delivery"}
-          </div>
+          <div className="rtdvTitle">Regional Overview</div>
           <div className="rtdvSubTitle">
-            Regional textbook delivery summary grouped by SDO, Grade 1, Grade 4,
-            and Grade 7 subject titles.
+            Textbooks delivery tables by phase, grade level, subject, SDO, and
+            delivery year.
           </div>
-        </div>
-
-        <div className="rtdvHeaderActions">
-          <button
-            type="button"
-            className={`rtdvViewBtn ${activePage === "delivery" ? "is-active" : ""}`}
-            onClick={() => setActivePage("delivery")}
-          >
-            This Page
-          </button>
-
-          <button
-            type="button"
-            className={`rtdvViewBtn ${activePage === "summary" ? "is-active" : ""}`}
-            onClick={() => setActivePage("summary")}
-          >
-            Division Summary
-          </button>
-
-          <button
-            type="button"
-            className={`rtdvViewBtn ${activePage === "coverage" ? "is-active" : ""}`}
-            onClick={() => setActivePage("coverage")}
-          >
-            % With Textbooks
-          </button>
         </div>
       </div>
 
@@ -150,283 +131,135 @@ const RegionalTextbookDeliveryView = () => {
         <div className="rtdvEmpty">{errorText}</div>
       ) : divisions.length === 0 ? (
         <div className="rtdvEmpty">No regional textbook delivery data found.</div>
-      ) : activePage === "summary" ? (
-        <div className="rtdvSummaryWrap">
-          <div className="rtdvSummaryTableWrap">
-            <table className="rtdvSummaryTable">
-              <thead>
-                <tr>
-                  <th>SDO</th>
-                  <th>Enrollment Total</th>
-                  <th>Percentage of Delivery</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {divisions.map((division) => (
-                  <tr key={`summary-${division.slug}`}>
-                    <td>{division.name}</td>
-                    <td className="rtdvSummaryNumber">
-                      {formatNumber(getEnrollmentTotal(division))}
-                    </td>
-                    <td className="rtdvSummaryPercent">
-                      {formatPercent(getDeliveryPercentage(division))}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      ) : activePage === "coverage" ? (
-        <div className="rtdvMatrixWrap">
-          <div className="rtdvMatrixShell">
-            <div className="rtdvCoverageTableWrap">
-              <table className="rtdvCoverageTable">
-                <thead>
-                  <tr>
-                    <th rowSpan="3">SDO</th>
-
-                    {grades.map((gradeBlock) => (
-                      <th
-                        key={`coverage-${gradeBlock.grade}`}
-                        colSpan={gradeBlock.subjects.length * 2}
-                        className={getGradeClassName(gradeBlock.grade)}
-                      >
-                        {gradeBlock.label.toUpperCase()}
-                      </th>
-                    ))}
-                  </tr>
-
-                  <tr>
-                    {grades.flatMap((gradeBlock) =>
-                      gradeBlock.subjects.map((subject) => (
-                        <th
-                          key={`coverage-subject-${gradeBlock.grade}-${subject.key}`}
-                          colSpan="2"
-                          className={getGradeClassName(gradeBlock.grade)}
-                        >
-                          {subject.label}
-                        </th>
-                      ))
-                    )}
-                  </tr>
-
-                  <tr>
-                    {grades.flatMap((gradeBlock) =>
-                      gradeBlock.subjects.flatMap((subject) => [
-                        <th
-                          key={`coverage-enrollment-${gradeBlock.grade}-${subject.key}`}
-                          className={getGradeClassName(gradeBlock.grade)}
-                        >
-                          Enrollment
-                        </th>,
-                        <th
-                          key={`coverage-percent-${gradeBlock.grade}-${subject.key}`}
-                          className={getGradeClassName(gradeBlock.grade)}
-                        >
-                          % with Textbooks
-                        </th>,
-                      ])
-                    )}
-                  </tr>
-                </thead>
-
-                <tbody>
-                  {divisions.map((division) => (
-                    <tr key={`coverage-row-${division.slug}`}>
-                      <td className="rtdvCoverageDivisionCell">{division.name}</td>
-
-                      {grades.flatMap((gradeBlock) =>
-                        gradeBlock.subjects.flatMap((subject) => {
-                          const coveragePercentage = getSubjectCoveragePercentage(
-                            division,
-                            gradeBlock.grade,
-                            subject.key
-                          );
-
-                          return [
-                          <td
-                            key={`coverage-enrollment-value-${division.slug}-${gradeBlock.grade}-${subject.key}`}
-                            className={`rtdvCoverageNumberCell ${getGradeClassName(gradeBlock.grade)}`}
-                          >
-                            {formatNumber(
-                              getEnrollmentByGrade(division, gradeBlock.grade)
-                            )}
-                          </td>,
-                          <td
-                            key={`coverage-percent-value-${division.slug}-${gradeBlock.grade}-${subject.key}`}
-                            className={`rtdvCoveragePercentCell ${getGradeClassName(gradeBlock.grade)} ${
-                              coveragePercentage > 100
-                                ? "rtdvCoveragePercentCell--excess"
-                                : ""
-                            }`}
-                          >
-                            {formatPercent(coveragePercentage)}
-                          </td>,
-                        ];
-                        })
-                      )}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
       ) : (
-        <div className="rtdvMatrixWrap">
-          <div className="rtdvMatrixShell" style={{ minWidth: `${gridMinWidth}px` }}>
-            <div
-              className="rtdvMatrixHead"
-              style={{ gridTemplateColumns }}
-            >
-              <div className="rtdvCornerCell">SDO</div>
-
-              {grades.map((gradeBlock) => (
-                <div
-                  key={gradeBlock.grade}
-                  className={`rtdvGradeGroup ${getGradeClassName(gradeBlock.grade)}`}
-                  style={{ gridColumn: `span ${gradeBlock.subjects.length}` }}
+        <>
+          <div className="rtdvControls">
+            <div className="rtdvPhaseTabs" aria-label="Regional overview phases">
+              {phases.map((phase) => (
+                <button
+                  type="button"
+                  key={phase.key}
+                  className={`rtdvPhaseTab ${
+                    activePhase === phase.key ? "is-active" : ""
+                  }`}
+                  onClick={() => handlePhaseSelect(phase)}
                 >
-                  {gradeBlock.label.toUpperCase()}
-                </div>
-              ))}
-
-              {columns.map((column) => (
-                <div
-                  key={`${column.grade}-${column.subjectKey}`}
-                  className={`rtdvSubjectHead ${getGradeClassName(column.grade)}`}
-                >
-                  {column.subjectLabel}
-                </div>
+                  <span>{phase.label}</span>
+                  <strong>{phase.gradeLabels}</strong>
+                </button>
               ))}
             </div>
 
-            <div className="rtdvAccordionList">
-              {divisions.map((division) => {
-                const isOpen = !!openDivisions[division.slug];
-                const schoolCount = Array.isArray(division.schools)
-                  ? division.schools.length
-                  : 0;
-
-                return (
-                  <div key={division.slug} className="rtdvAccordionItem">
-                    <button
-                      type="button"
-                      className="rtdvAccordionHeader"
-                      style={{ gridTemplateColumns }}
-                      onClick={() => toggleDivision(division.slug)}
-                    >
-                      <div className="rtdvDivisionCell">
-                        <span className="rtdvAccordionIcon">{isOpen ? "-" : "+"}</span>
-
-                        <div className="rtdvDivisionText">
-                          <span className="rtdvDivisionName">{division.name}</span>
-                          <span className="rtdvDivisionMeta">
-                            {schoolCount} school{schoolCount === 1 ? "" : "s"}
-                          </span>
-                        </div>
-                      </div>
-
-                      {columns.map((column) => (
-                        <div
-                          key={`${division.slug}-${column.grade}-${column.subjectKey}`}
-                          className={`rtdvValueCell ${getGradeClassName(column.grade)}`}
-                        >
-                          {formatNumber(
-                            getValue(
-                              division.totals,
-                              column.grade,
-                              column.subjectKey
-                            )
-                          )}
-                        </div>
-                      ))}
-                    </button>
-
-                    {isOpen && (
-                      <div className="rtdvAccordionBody">
-                        <div className="rtdvSchoolTableWrap">
-                          <table className="rtdvSchoolTable">
-                            <thead>
-                              <tr>
-                                <th rowSpan="2">School</th>
-
-                                {grades.map((gradeBlock) => (
-                                  <th
-                                    key={`${division.slug}-${gradeBlock.grade}`}
-                                    colSpan={gradeBlock.subjects.length}
-                                    className={getGradeClassName(gradeBlock.grade)}
-                                  >
-                                    {gradeBlock.label.toUpperCase()}
-                                  </th>
-                                ))}
-                              </tr>
-
-                              <tr>
-                                {columns.map((column) => (
-                                  <th
-                                    key={`${division.slug}-head-${column.grade}-${column.subjectKey}`}
-                                    className={getGradeClassName(column.grade)}
-                                  >
-                                    {column.subjectLabel}
-                                  </th>
-                                ))}
-                              </tr>
-                            </thead>
-
-                            <tbody>
-                              <tr className="rtdvSummaryRow">
-                                <td>SDO Total</td>
-
-                                {columns.map((column) => (
-                                  <td
-                                    key={`${division.slug}-total-${column.grade}-${column.subjectKey}`}
-                                    className={`rtdvNumberCell ${getGradeClassName(column.grade)}`}
-                                  >
-                                    {formatNumber(
-                                      getValue(
-                                        division.totals,
-                                        column.grade,
-                                        column.subjectKey
-                                      )
-                                    )}
-                                  </td>
-                                ))}
-                              </tr>
-
-                              {(division.schools || []).map((school) => (
-                                <tr key={`${division.slug}-${school.id}`}>
-                                  <td className="rtdvSchoolNameCell">{school.name}</td>
-
-                                  {columns.map((column) => (
-                                    <td
-                                      key={`${division.slug}-${school.id}-${column.grade}-${column.subjectKey}`}
-                                      className={`rtdvNumberCell ${getGradeClassName(column.grade)}`}
-                                    >
-                                      {formatNumber(
-                                        getValue(
-                                          school.totals,
-                                          column.grade,
-                                          column.subjectKey
-                                        )
-                                      )}
-                                    </td>
-                                  ))}
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+            <div className="rtdvGradeFilter" aria-label="Grade level filter">
+              {phaseGrades.map((gradeBlock) => (
+                <button
+                  type="button"
+                  key={gradeBlock.grade}
+                  className={`rtdvGradeBtn ${
+                    activeGrade === gradeBlock.grade ? "is-active" : ""
+                  }`}
+                  onClick={() => setActiveGrade(gradeBlock.grade)}
+                >
+                  {gradeBlock.label}
+                </button>
+              ))}
             </div>
           </div>
-        </div>
+
+          <div className="rtdvTables">
+            {(selectedGrade?.subjects || []).map((subject) => (
+              <section
+                className="rtdvSubjectSection"
+                key={`${selectedGrade.grade}-${subject.key}`}
+              >
+                <div className="rtdvSubjectTitle">
+                  {selectedGrade.label.toUpperCase()} - {subject.label.toUpperCase()}
+                </div>
+
+                <div className="rtdvTableWrap">
+                  <table className="rtdvPptTable">
+                    <thead>
+                      <tr>
+                        <th rowSpan="2" className="rtdvStickyCol">SDO</th>
+                        <th rowSpan="2">SY 2025-2026 Enrolment</th>
+                        <th colSpan="8">{subject.label.toUpperCase()}</th>
+                      </tr>
+                      <tr>
+                        {years.map((year) => (
+                          <th key={`${subject.key}-${year}`}>{year} Delivery</th>
+                        ))}
+                        <th>Total Delivery</th>
+                        <th>Percentage of Learners Provided with Textbook</th>
+                        <th>Surplus/Shortage (SY 2025-2026)</th>
+                        <th>SY 2026-2027 (2% Enrollment Increase)</th>
+                        <th>Surplus / Shortage Total Delivery - Projected Enrolment</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      {divisions.map((division) => {
+                        const enrollment = getEnrollment(division, selectedGrade.grade);
+                        const totalDelivery = getSubjectTotal(
+                          division,
+                          selectedGrade.grade,
+                          subject.key,
+                          years
+                        );
+                        const projectedEnrollment = getProjectedEnrollment(enrollment);
+                        const percentage =
+                          enrollment > 0 ? (totalDelivery / enrollment) * 100 : 0;
+
+                        return (
+                          <tr key={`${subject.key}-${division.slug}`}>
+                            <td className="rtdvDivisionName rtdvStickyCol">
+                              {division.name}
+                            </td>
+                            <td>{formatNumber(enrollment)}</td>
+                            {years.map((year) => (
+                              <td key={`${division.slug}-${subject.key}-${year}`}>
+                                {formatNumber(
+                                  getSubjectYearValue(
+                                    division,
+                                    selectedGrade.grade,
+                                    subject.key,
+                                    year
+                                  )
+                                )}
+                              </td>
+                            ))}
+                            <td>{formatNumber(totalDelivery)}</td>
+                            <td>{formatPercent(percentage)}</td>
+                            <td
+                              className={
+                                totalDelivery - enrollment < 0
+                                  ? "rtdvNegative"
+                                  : "rtdvPositive"
+                              }
+                            >
+                              {formatSignedNumber(totalDelivery - enrollment)}
+                            </td>
+                            <td>{formatNumber(projectedEnrollment)}</td>
+                            <td
+                              className={
+                                totalDelivery - projectedEnrollment < 0
+                                  ? "rtdvNegative"
+                                  : "rtdvPositive"
+                              }
+                            >
+                              {formatSignedNumber(
+                                totalDelivery - projectedEnrollment
+                              )}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            ))}
+          </div>
+        </>
       )}
     </section>
   );

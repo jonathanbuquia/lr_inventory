@@ -5,10 +5,13 @@ import { fileURLToPath } from "url";
 import {
   canonicalizeRegionalTextbookSubject,
   createRegionalEnrollmentTotals,
+  createRegionalTextbookDeliveryByYearTotals,
   createRegionalTextbookDeliveryTotals,
   getRegionalTextbookDeliveredTotal,
   normalizeRegionalTextbookGrade,
   REGIONAL_TEXTBOOK_DELIVERY_GRADES,
+  REGIONAL_TEXTBOOK_DELIVERY_PHASES,
+  REGIONAL_TEXTBOOK_DELIVERY_YEARS,
 } from "../src/utils/regionalTextbookDelivery.js";
 
 // __dirname fix for ES modules
@@ -323,6 +326,7 @@ function createRegionalDivisionSummary(divisionSlug, divisionName) {
     slug: divisionSlug,
     name: divisionName,
     totals: createRegionalTextbookDeliveryTotals(),
+    deliveryByYear: createRegionalTextbookDeliveryByYearTotals(),
     enrollmentByGrade: createRegionalEnrollmentTotals(),
     enrollmentTotal: 0,
     deliveredTotal: 0,
@@ -339,6 +343,28 @@ function getRegionalEnrollmentValue(row) {
     row?.["Enrollment"] ??
     0
   );
+}
+
+function getRegionalDeliveryYearValue(row) {
+  const value =
+    row?.["Year of Delivery-TX"] ??
+    row?.["Year of Delivery - TX"] ??
+    row?.["Delivery Year"] ??
+    row?.["Year"] ??
+    "";
+
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    const year = String(value.getFullYear());
+    return REGIONAL_TEXTBOOK_DELIVERY_YEARS.includes(year) ? year : null;
+  }
+
+  if (typeof value === "number") {
+    const year = String(Math.trunc(value));
+    return REGIONAL_TEXTBOOK_DELIVERY_YEARS.includes(year) ? year : null;
+  }
+
+  const match = String(value).match(/\b20(24|25|26)\b/);
+  return match ? match[0] : null;
 }
 
 function addRegionalTextbookRow(target, row) {
@@ -366,6 +392,10 @@ function addRegionalTextbookRow(target, row) {
   );
 
   target.totals[normalizedGrade][subjectKey] += quantity;
+  const deliveryYear = getRegionalDeliveryYearValue(row);
+  if (deliveryYear && target.deliveryByYear?.[normalizedGrade]?.[subjectKey]) {
+    target.deliveryByYear[normalizedGrade][subjectKey][deliveryYear] += quantity;
+  }
   target.enrollmentByGrade[normalizedGrade] = Math.max(
     target.enrollmentByGrade[normalizedGrade] || 0,
     getRegionalEnrollmentValue(row)
@@ -376,6 +406,17 @@ function mergeRegionalTextbookTotals(target, source) {
   REGIONAL_TEXTBOOK_DELIVERY_GRADES.forEach((gradeBlock) => {
     gradeBlock.subjects.forEach((subject) => {
       target[gradeBlock.grade][subject.key] += source?.[gradeBlock.grade]?.[subject.key] || 0;
+    });
+  });
+}
+
+function mergeRegionalTextbookYearTotals(target, source) {
+  REGIONAL_TEXTBOOK_DELIVERY_GRADES.forEach((gradeBlock) => {
+    gradeBlock.subjects.forEach((subject) => {
+      REGIONAL_TEXTBOOK_DELIVERY_YEARS.forEach((year) => {
+        target[gradeBlock.grade][subject.key][year] +=
+          source?.[gradeBlock.grade]?.[subject.key]?.[year] || 0;
+      });
     });
   });
 }
@@ -545,6 +586,10 @@ function build() {
     regionalDivision.schools.forEach((school) => {
       finalizeRegionalEntry(school);
       mergeRegionalTextbookTotals(regionalDivision.totals, school.totals);
+      mergeRegionalTextbookYearTotals(
+        regionalDivision.deliveryByYear,
+        school.deliveryByYear
+      );
       mergeRegionalEnrollmentTotals(
         regionalDivision.enrollmentByGrade,
         school.enrollmentByGrade
@@ -566,9 +611,12 @@ function build() {
   const regionalPayload = {
     title: "Status of Textbook Delivery",
     generatedAt: new Date().toISOString(),
+    years: REGIONAL_TEXTBOOK_DELIVERY_YEARS,
+    phases: REGIONAL_TEXTBOOK_DELIVERY_PHASES,
     grades: REGIONAL_TEXTBOOK_DELIVERY_GRADES.map((gradeBlock) => ({
       grade: gradeBlock.grade,
       label: gradeBlock.label,
+      phase: gradeBlock.phase,
       subjects: gradeBlock.subjects.map((subject) => ({
         key: subject.key,
         label: subject.label,

@@ -112,6 +112,14 @@ const LeftPanel = ({
         <nav className="lp__nav" aria-label="Divisions">
           <div className="lp__navTitle">Divisions</div>
 
+          <button
+            type="button"
+            className={`lp__regionalBtn ${isRegionalView ? "is-active" : ""}`}
+            onClick={handleOpenRegional}
+          >
+            REGIONAL OVERVIEW
+          </button>
+
           <div className="lp__btnList">
             {safeDivisions.length === 0 ? (
               <div className="lp__empty">No divisions loaded yet.</div>
@@ -121,7 +129,7 @@ const LeftPanel = ({
                 const name = d?.name ?? slug;
 
                 const selectedSlug = selectedDivision?.slug ?? "";
-                const isActive = selectedSlug === slug;
+                const isActive = !isRegionalView && selectedSlug === slug;
 
                 return (
                   <button
