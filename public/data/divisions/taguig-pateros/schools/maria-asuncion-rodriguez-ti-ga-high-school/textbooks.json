@@ -25,11 +25,11 @@
       "Grade Level": 7,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 176,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0,
+      "Surplus-TX": 176,
       "Quantity of Training Manual Received": 3
     },
     {
@@ -47,11 +47,11 @@
       "Grade Level": 7,
       "SUBJECTS": "VE",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 176,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0,
+      "Surplus-TX": 176,
       "Quantity of Training Manual Received": 3
     },
     {
@@ -168,12 +168,12 @@
       "Grade Level": 8,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 172,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0,
-      "Quantity of Training Manual Received": ""
+      "Surplus-TX": 172,
+      "Quantity of Training Manual Received": 1
     },
     {
       "Grade Level": 8,
@@ -190,12 +190,12 @@
       "Grade Level": 8,
       "SUBJECTS": "TLE",
       "Enrolment S.Y. 2025-2026": "",
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 172,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
-      "Surplus-TX": 0,
-      "Quantity of Training Manual Received": ""
+      "Surplus-TX": 172,
+      "Quantity of Training Manual Received": 1
     },
     {
       "Grade Level": 8,
@@ -506,5 +506,5 @@
       "Quantity of Training Manual Received": ""
     }
   ],
-  "generatedAt": "2026-08-03T07:52:11.259Z"
+  "generatedAt": "2026-08-25T08:32:27.873Z"
 }

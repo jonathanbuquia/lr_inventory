@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-25T08:22:22.599Z",
+  "generatedAt": "2026-08-25T08:32:37.344Z",
   "years": [
     "2024",
     "2025",
@@ -84965,7 +84965,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 0,
+          "english": 388,
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 0,
@@ -85348,7 +85348,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 388
           },
           "filipino": {
             "2024": 0,
@@ -85400,8 +85400,8 @@
         "10": 4478
       },
       "enrollmentTotal": 56829,
-      "deliveredTotal": 194791,
-      "deliveryPercentage": 342.77,
+      "deliveredTotal": 195179,
+      "deliveryPercentage": 343.45,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -104081,7 +104081,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 388,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -104464,7 +104464,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 388
               },
               "filipino": {
                 "2024": 0,
@@ -104516,8 +104516,8 @@
             "10": 349
           },
           "enrollmentTotal": 2597,
-          "deliveredTotal": 12750,
-          "deliveryPercentage": 490.95
+          "deliveredTotal": 13138,
+          "deliveryPercentage": 505.89
         },
         {
           "id": "ta-ong-national-high-school",
@@ -119420,7 +119420,7 @@
               "filipino": 791,
               "science": 546,
               "araling-panlipunan": 299,
-              "epp": 245,
+              "epp": 0,
               "music-and-arts": 533,
               "pe-and-health": 138,
               "mathematics": 546
@@ -119601,7 +119601,7 @@
                 "2026": 0
               },
               "epp": {
-                "2024": 245,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -119917,8 +119917,8 @@
             "10": 0
           },
           "enrollmentTotal": 1479,
-          "deliveredTotal": 11075,
-          "deliveryPercentage": 748.82
+          "deliveredTotal": 10830,
+          "deliveryPercentage": 732.25
         },
         {
           "id": "renato-r-lopez-elementary-school",
@@ -385977,7 +385977,7 @@
       "totals": {
         "1": {
           "gmrc": 13696,
-          "reading-and-literacy": 13662,
+          "reading-and-literacy": 14263,
           "language": 12030,
           "makabansa": 15817,
           "mathematics": 5513
@@ -386030,9 +386030,9 @@
           "mathematics": 0
         },
         "7": {
-          "ve": 9958,
+          "ve": 10134,
           "english": 14260,
-          "filipino": 0,
+          "filipino": 176,
           "science": 7511,
           "araling-panlipunan": 13463,
           "tle": 11352,
@@ -386044,9 +386044,9 @@
           "ve": 11759,
           "english": 7909,
           "filipino": 7955,
-          "science": 9882,
+          "science": 10054,
           "araling-panlipunan": 8,
-          "tle": 8902,
+          "tle": 9074,
           "music-and-arts": 555,
           "pe-and-health": 1960,
           "mathematics": 10892
@@ -386084,7 +386084,7 @@
           "reading-and-literacy": {
             "2024": 8126,
             "2025": 4750,
-            "2026": 786
+            "2026": 1387
           },
           "language": {
             "2024": 1476,
@@ -386301,7 +386301,7 @@
           "ve": {
             "2024": 7,
             "2025": 1510,
-            "2026": 8441
+            "2026": 8617
           },
           "english": {
             "2024": 2839,
@@ -386311,7 +386311,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 176
           },
           "science": {
             "2024": 6224,
@@ -386363,7 +386363,7 @@
           "science": {
             "2024": 541,
             "2025": 2293,
-            "2026": 7048
+            "2026": 7220
           },
           "araling-panlipunan": {
             "2024": 8,
@@ -386373,7 +386373,7 @@
           "tle": {
             "2024": 0,
             "2025": 0,
-            "2026": 8902
+            "2026": 9074
           },
           "music-and-arts": {
             "2024": 555,
@@ -386499,8 +386499,8 @@
         "10": 9222
       },
       "enrollmentTotal": 107141,
-      "deliveredTotal": 371615,
-      "deliveryPercentage": 346.85,
+      "deliveredTotal": 372912,
+      "deliveryPercentage": 348.06,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -400898,9 +400898,9 @@
               "mathematics": 0
             },
             "7": {
-              "ve": 0,
+              "ve": 176,
               "english": 176,
-              "filipino": 0,
+              "filipino": 176,
               "science": 176,
               "araling-panlipunan": 176,
               "tle": 176,
@@ -400912,9 +400912,9 @@
               "ve": 172,
               "english": 172,
               "filipino": 172,
-              "science": 0,
+              "science": 172,
               "araling-panlipunan": 0,
-              "tle": 0,
+              "tle": 172,
               "music-and-arts": 0,
               "pe-and-health": 172,
               "mathematics": 172
@@ -401169,7 +401169,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 176
               },
               "english": {
                 "2024": 0,
@@ -401178,7 +401178,7 @@
               },
               "filipino": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 176,
                 "2026": 0
               },
               "science": {
@@ -401231,7 +401231,7 @@
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 172
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -401241,7 +401241,7 @@
               "tle": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 172
               },
               "music-and-arts": {
                 "2024": 0,
@@ -401367,7 +401367,7 @@
             "10": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 2092,
+          "deliveredTotal": 2788,
           "deliveryPercentage": 0
         },
         {
@@ -413057,17 +413057,17 @@
           "name": "TAGUIG INTEGRATED SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 0,
-              "reading-and-literacy": 0,
-              "language": 0,
-              "makabansa": 0,
+              "gmrc": 601,
+              "reading-and-literacy": 601,
+              "language": 601,
+              "makabansa": 601,
               "mathematics": 0
             },
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 936,
               "mathematics": 0
             },
             "3": {
@@ -413075,28 +413075,28 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 756
             },
             "4": {
-              "gmrc": 0,
+              "gmrc": 864,
               "english": 0,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
+              "filipino": 720,
+              "science": 811,
+              "araling-panlipunan": 843,
               "epp": 0,
-              "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "music-and-arts": 843,
+              "pe-and-health": 842,
+              "mathematics": 843
             },
             "5": {
               "gmrc": 0,
-              "english": 0,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
-              "epp": 0,
+              "english": 780,
+              "filipino": 780,
+              "science": 780,
+              "araling-panlipunan": 790,
+              "epp": 780,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 780,
               "mathematics": 0
             },
             "6": {
@@ -413164,7 +413164,7 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 601,
                 "2026": 0
               },
               "language": {
@@ -413580,8 +413580,8 @@
             "10": 897
           },
           "enrollmentTotal": 7624,
-          "deliveredTotal": 15778,
-          "deliveryPercentage": 206.95
+          "deliveredTotal": 30330,
+          "deliveryPercentage": 397.82
         },
         {
           "id": "taguig-national-high-school",
