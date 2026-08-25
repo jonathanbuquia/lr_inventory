@@ -524,6 +524,7 @@ function build() {
         id: schoolId,
         name: schoolName,
         totals: createRegionalTextbookDeliveryTotals(),
+        deliveryByYear: createRegionalTextbookDeliveryByYearTotals(),
         enrollmentByGrade: createRegionalEnrollmentTotals(),
         enrollmentTotal: 0,
         deliveredTotal: 0,
