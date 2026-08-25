@@ -59,22 +59,22 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 160,
       "Quantity of Textbooks Received": 202,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 42,
-      "USABLE": ""
+      "USABLE": 188
     },
     {
       "Grade Level": 2,
       "SUBJECTS": "Reading and Literacy",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity of Textbooks Received": 173,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 46,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 230
     },
     {
       "Grade Level": 2,
@@ -92,11 +92,11 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity of Textbooks Received": 173,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 46,
       "Surplus-TX": 0,
-      "USABLE": ""
+      "USABLE": 230
     },
     {
       "Grade Level": 2,
@@ -122,25 +122,25 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity of Textbooks Received": 228,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9,
-      "USABLE": ""
+      "USABLE": 278
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity of Textbooks Received": 228,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9,
-      "USABLE": ""
+      "USABLE": 277
     },
     {
       "Grade Level": 3,
@@ -158,11 +158,11 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity of Textbooks Received": 228,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9,
-      "USABLE": ""
+      "USABLE": 277
     },
     {
       "Grade Level": 3,
@@ -180,11 +180,11 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity of Textbooks Received": 228,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 9,
-      "USABLE": ""
+      "USABLE": 278
     },
     {
       "Grade Level": 4,
@@ -323,11 +323,11 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 215,
       "Quantity of Textbooks Received": 270,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
       "GAP-TX": 0,
       "Surplus-TX": 55,
-      "USABLE": ""
+      "USABLE": 277
     },
     {
       "Grade Level": 5,
@@ -484,5 +484,5 @@
       "USABLE": ""
     }
   ],
-  "generatedAt": "2026-06-30T03:56:45.952Z"
+  "generatedAt": "2026-08-25T23:07:34.294Z"
 }

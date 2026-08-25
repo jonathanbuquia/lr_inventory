@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-25T08:37:33.683Z",
+  "generatedAt": "2026-08-25T23:08:38.276Z",
   "years": [
     "2024",
     "2025",
@@ -178874,11 +178874,11 @@
           "reading-and-literacy": 6298,
           "language": 6926,
           "makabansa": 6868,
-          "mathematics": 529
+          "mathematics": 731
         },
         "2": {
-          "gmrc": 886,
-          "reading-and-literacy": 886,
+          "gmrc": 1059,
+          "reading-and-literacy": 1059,
           "language": 5545,
           "makabansa": 6776,
           "mathematics": 329
@@ -178888,7 +178888,7 @@
           "reading-and-literacy": 517,
           "language": 516,
           "makabansa": 730,
-          "mathematics": 516
+          "mathematics": 744
         },
         "4": {
           "gmrc": 8020,
@@ -178902,7 +178902,7 @@
           "mathematics": 8705
         },
         "5": {
-          "gmrc": 593,
+          "gmrc": 863,
           "english": 7091,
           "filipino": 7748,
           "science": 7092,
@@ -178993,19 +178993,19 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 529
+            "2026": 731
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 340,
-            "2026": 546
+            "2026": 719
           },
           "reading-and-literacy": {
             "2024": 0,
             "2025": 340,
-            "2026": 546
+            "2026": 719
           },
           "language": {
             "2024": 0,
@@ -179047,7 +179047,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 516
+            "2026": 744
           }
         },
         "4": {
@@ -179101,7 +179101,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 593
+            "2026": 863
           },
           "english": {
             "2024": 0,
@@ -179393,8 +179393,8 @@
         "10": 360
       },
       "enrollmentTotal": 52344,
-      "deliveredTotal": 278775,
-      "deliveryPercentage": 532.58,
+      "deliveredTotal": 279821,
+      "deliveryPercentage": 534.58,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -192691,8 +192691,8 @@
             },
             "3": {
               "gmrc": 228,
-              "reading-and-literacy": 228,
-              "language": 228,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 228,
               "mathematics": 228
             },
@@ -192799,19 +192799,19 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 202
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 173
               },
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 173
               },
               "language": {
                 "2024": 0,
@@ -192853,7 +192853,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 228
               }
             },
             "4": {
@@ -192907,7 +192907,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 270
               },
               "english": {
                 "2024": 0,
@@ -193199,8 +193199,8 @@
             "10": 0
           },
           "enrollmentTotal": 1298,
-          "deliveredTotal": 9030,
-          "deliveryPercentage": 695.69
+          "deliveredTotal": 8574,
+          "deliveryPercentage": 660.55
         },
         {
           "id": "san-roque-national-high-school",
