@@ -155,33 +155,6 @@
   padding-right: 4px;
 }
 
-.lp__regionalBtn {
-  width: 100%;
-  min-height: 42px;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #1f4e79;
-  background: #eff6ff;
-  color: #1f4e79;
-  text-align: left;
-  font-size: 13px;
-  font-weight: 900;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
-}
-
-.lp__regionalBtn:hover {
-  background: #dbeafe;
-}
-
-.lp__regionalBtn.is-active {
-  background: #1f4e79;
-  color: #ffffff;
-  border-color: #1f4e79;
-}
-
 .lp__btn {
   width: 100%;
   text-align: left;
