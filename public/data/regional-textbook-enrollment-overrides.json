@@ -1,0 +1,208 @@
+{
+  "source": "C:\\Users\\Jonathan Buquia\\Downloads\\STATUS-OF-TEXTBOOKS-DELIVERY-_-AS-OF-JULY-24.pptx",
+  "sourceDeck": "STATUS-OF-TEXTBOOKS-DELIVERY-_-AS-OF-JULY-24.pptx",
+  "note": "Regional Overview enrolment overrides extracted from the PPT tables. These values are applied only at the division-grade level for TextBooks regional overview.",
+  "sourceSlidesByGrade": {
+    "1": 4,
+    "4": 9,
+    "7": 18,
+    "2": 28,
+    "3": 33,
+    "5": 38,
+    "8": 47
+  },
+  "overrides": {
+    "caloocan": {
+      "name": "CALOOCAN",
+      "grades": {
+        "1": 14466,
+        "4": 18607,
+        "7": 14514,
+        "2": 15031,
+        "3": 15253,
+        "5": 15609,
+        "8": 13666
+      }
+    },
+    "las-pinas": {
+      "name": "LAS PINAS",
+      "grades": {
+        "1": 6377,
+        "4": 7968,
+        "7": 7029,
+        "2": 7607,
+        "3": 7856,
+        "5": 7218,
+        "8": 6599
+      }
+    },
+    "makati": {
+      "name": "MAKATI",
+      "grades": {
+        "1": 2254,
+        "4": 2780,
+        "7": 2583,
+        "2": 2524,
+        "3": 2720,
+        "5": 2631,
+        "8": 2321
+      }
+    },
+    "malabon": {
+      "name": "MALABON",
+      "grades": {
+        "1": 5660,
+        "4": 6642,
+        "7": 6021,
+        "2": 6324,
+        "3": 6195,
+        "5": 6166,
+        "8": 5380
+      }
+    },
+    "mandaluyong": {
+      "name": "MANDALUYONG",
+      "grades": {
+        "1": 2699,
+        "4": 2665,
+        "7": 2310,
+        "2": 2006,
+        "3": 2194,
+        "5": 2785,
+        "8": 2230
+      }
+    },
+    "manila": {
+      "name": "MANILA",
+      "grades": {
+        "1": 20241,
+        "4": 23371,
+        "7": 19098,
+        "2": 14842,
+        "3": 14523,
+        "5": 20631,
+        "8": 17148
+      }
+    },
+    "marikina": {
+      "name": "MARIKINA",
+      "grades": {
+        "1": 5394,
+        "4": 6708,
+        "7": 7746,
+        "2": 6020,
+        "3": 6206,
+        "5": 6298,
+        "8": 7642
+      }
+    },
+    "muntinlupa": {
+      "name": "MUNTINLUPA",
+      "grades": {
+        "1": 6154,
+        "4": 7247,
+        "7": 7409,
+        "2": 6830,
+        "3": 7174,
+        "5": 6874,
+        "8": 7097
+      }
+    },
+    "navotas": {
+      "name": "NAVOTAS",
+      "grades": {
+        "1": 3329,
+        "4": 4107,
+        "7": 3688,
+        "2": 3744,
+        "3": 4082,
+        "5": 3899,
+        "8": 3936
+      }
+    },
+    "paranaque": {
+      "name": "PARANAQUE",
+      "grades": {
+        "1": 6655,
+        "4": 8158,
+        "7": 9076,
+        "2": 7455,
+        "3": 7604,
+        "5": 7456,
+        "8": 8572
+      }
+    },
+    "pasay": {
+      "name": "PASAY",
+      "grades": {
+        "1": 4427,
+        "4": 5677,
+        "7": 5153,
+        "2": 4950,
+        "3": 5311,
+        "5": 5204,
+        "8": 4658
+      }
+    },
+    "pasig": {
+      "name": "PASIG",
+      "grades": {
+        "1": 8074,
+        "4": 9470,
+        "7": 10515,
+        "2": 8016,
+        "3": 8426,
+        "5": 8802,
+        "8": 10650
+      }
+    },
+    "quezon-city": {
+      "name": "QUEZON CITY",
+      "grades": {
+        "1": 30339,
+        "4": 38583,
+        "7": 36252,
+        "2": 33671,
+        "3": 35679,
+        "5": 33902,
+        "8": 34359
+      }
+    },
+    "san-juan": {
+      "name": "SAN JUAN",
+      "grades": {
+        "1": 943,
+        "4": 1086,
+        "7": 1048,
+        "2": 991,
+        "3": 1064,
+        "5": 981,
+        "8": 856
+      }
+    },
+    "taguig-pateros": {
+      "name": "TAGUIG_PATEROS",
+      "grades": {
+        "1": 10789,
+        "4": 13433,
+        "7": 9273,
+        "2": 12624,
+        "3": 11944,
+        "5": 11877,
+        "8": 8799
+      }
+    },
+    "valenzuela": {
+      "name": "VALENZUELA",
+      "grades": {
+        "1": 9826,
+        "4": 11135,
+        "7": 9347,
+        "2": 10762,
+        "3": 10221,
+        "5": 10451,
+        "8": 7968
+      }
+    }
+  }
+}

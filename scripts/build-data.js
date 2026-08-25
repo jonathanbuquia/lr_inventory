@@ -21,6 +21,10 @@ const __dirname = path.dirname(__filename);
 // ===== CONFIG =====
 const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_DIR = path.join(ROOT, "public", "data");
+const REGIONAL_ENROLLMENT_OVERRIDE_PATH = path.join(
+  OUTPUT_DIR,
+  "regional-textbook-enrollment-overrides.json"
+);
 const DEFAULT_LOCAL_INPUT_DIR = path.join(ROOT, "excel-files");
 const DEFAULT_ONEDRIVE_INPUT_DIR =
   "C:\\Users\\Jonathan Buquia\\OneDrive - Department of Education\\SAMPLE CONSOLIDATED FOLDER";
@@ -439,6 +443,16 @@ function finalizeRegionalEntry(entry) {
       : 0;
 }
 
+function applyRegionalEnrollmentOverrides(entry, overrides) {
+  const divisionOverrides = overrides?.overrides?.[entry.slug]?.grades;
+  if (!divisionOverrides) return;
+
+  Object.entries(divisionOverrides).forEach(([grade, value]) => {
+    if (entry.enrollmentByGrade?.[grade] === undefined) return;
+    entry.enrollmentByGrade[grade] = toNumber(value);
+  });
+}
+
 // ===== MAIN =====
 function build() {
   if (!fs.existsSync(INPUT_DIR)) {
@@ -447,6 +461,9 @@ function build() {
   }
 
   ensureDir(OUTPUT_DIR);
+  const regionalEnrollmentOverrides = readJSONIfExists(
+    REGIONAL_ENROLLMENT_OVERRIDE_PATH
+  );
 
   const divisionDirs = fs
     .readdirSync(INPUT_DIR, { withFileTypes: true })
@@ -596,6 +613,10 @@ function build() {
         school.enrollmentByGrade
       );
     });
+    applyRegionalEnrollmentOverrides(
+      regionalDivision,
+      regionalEnrollmentOverrides
+    );
     finalizeRegionalEntry(regionalDivision);
 
     ok(`Built division: ${divisionName}`);
@@ -614,6 +635,12 @@ function build() {
     generatedAt: new Date().toISOString(),
     years: REGIONAL_TEXTBOOK_DELIVERY_YEARS,
     phases: REGIONAL_TEXTBOOK_DELIVERY_PHASES,
+    enrollmentReference: regionalEnrollmentOverrides
+      ? {
+          sourceDeck: regionalEnrollmentOverrides.sourceDeck,
+          note: regionalEnrollmentOverrides.note,
+        }
+      : null,
     grades: REGIONAL_TEXTBOOK_DELIVERY_GRADES.map((gradeBlock) => ({
       grade: gradeBlock.grade,
       label: gradeBlock.label,

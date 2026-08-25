@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-24T23:52:43.537Z",
+  "generatedAt": "2026-08-25T02:12:54.765Z",
   "years": [
     "2024",
     "2025",
@@ -39,6 +39,10 @@
       ]
     }
   ],
+  "enrollmentReference": {
+    "sourceDeck": "STATUS-OF-TEXTBOOKS-DELIVERY-_-AS-OF-JULY-24.pptx",
+    "note": "Regional Overview enrolment overrides extracted from the PPT tables. These values are applied only at the division-grade level for TextBooks regional overview."
+  },
   "grades": [
     {
       "grade": "1",
@@ -940,20 +944,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 16939,
-        "2": 19198,
-        "3": 19659,
-        "4": 21933,
-        "5": 18284,
+        "1": 14466,
+        "2": 15031,
+        "3": 15253,
+        "4": 18607,
+        "5": 15609,
         "6": 16507,
-        "7": 19246,
-        "8": 18840,
+        "7": 14514,
+        "8": 13666,
         "9": 16240,
         "10": 15802
       },
-      "enrollmentTotal": 182648,
+      "enrollmentTotal": 155695,
       "deliveredTotal": 717458,
-      "deliveryPercentage": 392.81,
+      "deliveryPercentage": 460.81,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -107148,20 +107152,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 3373,
-        "2": 3458,
-        "3": 2963,
-        "4": 4262,
-        "5": 3627,
+        "1": 2699,
+        "2": 2006,
+        "3": 2194,
+        "4": 2665,
+        "5": 2785,
         "6": 2617,
-        "7": 4059,
-        "8": 3724,
+        "7": 2310,
+        "8": 2230,
         "9": 2763,
         "10": 3199
       },
-      "enrollmentTotal": 34045,
+      "enrollmentTotal": 25468,
       "deliveredTotal": 160883,
-      "deliveryPercentage": 472.56,
+      "deliveryPercentage": 631.71,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -120425,20 +120429,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 20155,
+        "1": 20241,
         "2": 14842,
         "3": 14523,
-        "4": 23267,
-        "5": 20526,
+        "4": 23371,
+        "5": 20631,
         "6": 13127,
         "7": 19098,
         "8": 17148,
         "9": 10586,
         "10": 11243
       },
-      "enrollmentTotal": 164515,
+      "enrollmentTotal": 164810,
       "deliveredTotal": 532594,
-      "deliveryPercentage": 323.74,
+      "deliveryPercentage": 323.16,
       "schools": [
         {
           "id": "2026-school-teachers-audit-template-copy",
@@ -179368,20 +179372,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5126,
-        "2": 4983,
-        "3": 5493,
-        "4": 5760,
-        "5": 5944,
+        "1": 5394,
+        "2": 6020,
+        "3": 6206,
+        "4": 6708,
+        "5": 6298,
         "6": 5718,
-        "7": 339,
-        "8": 332,
+        "7": 7746,
+        "8": 7642,
         "9": 252,
         "10": 360
       },
-      "enrollmentTotal": 34307,
+      "enrollmentTotal": 52344,
       "deliveredTotal": 283806,
-      "deliveryPercentage": 827.25,
+      "deliveryPercentage": 542.19,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -385412,20 +385416,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 10772,
-        "2": 12631,
-        "3": 12055,
-        "4": 13324,
-        "5": 12503,
+        "1": 10789,
+        "2": 12624,
+        "3": 11944,
+        "4": 13433,
+        "5": 11877,
         "6": 10847,
-        "7": 11638,
-        "8": 11290,
+        "7": 9273,
+        "8": 8799,
         "9": 8333,
         "10": 9222
       },
-      "enrollmentTotal": 112615,
+      "enrollmentTotal": 107141,
       "deliveredTotal": 444568,
-      "deliveryPercentage": 394.77,
+      "deliveryPercentage": 414.94,
       "schools": [
         {
           "id": "aguho-elementary-school",
