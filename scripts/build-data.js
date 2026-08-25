@@ -25,6 +25,11 @@ const REGIONAL_ENROLLMENT_OVERRIDE_PATH = path.join(
   OUTPUT_DIR,
   "regional-textbook-enrollment-overrides.json"
 );
+const BASELINE_DELIVERY_WORKBOOKS = [
+  path.join(ROOT, "..", "..", "GRADES 1 4 7 2024-2026 DELIVERY.xlsx"),
+  path.join(ROOT, "..", "..", "GRADES 2 3 5 8 2024-2026 DELIVERY.xlsx"),
+  path.join(ROOT, "..", "..", "GRADES 6 9 10 2024-2026 DELIVERY.xlsx"),
+];
 const DEFAULT_LOCAL_INPUT_DIR = path.join(ROOT, "excel-files");
 const DEFAULT_ONEDRIVE_INPUT_DIR =
   "C:\\Users\\Jonathan Buquia\\OneDrive - Department of Education\\SAMPLE CONSOLIDATED FOLDER";
@@ -453,6 +458,134 @@ function applyRegionalEnrollmentOverrides(entry, overrides) {
   });
 }
 
+function createEmptyRegionalDeliveryBaseline() {
+  return {
+    sourceWorkbooks: BASELINE_DELIVERY_WORKBOOKS.filter((workbookPath) =>
+      fs.existsSync(workbookPath)
+    ),
+    missingWorkbooks: BASELINE_DELIVERY_WORKBOOKS.filter(
+      (workbookPath) => !fs.existsSync(workbookPath)
+    ),
+    values: new Map(),
+  };
+}
+
+function getRegionalDeliveryBaselineValue(baseline, divisionSlug, grade, subjectKey, year) {
+  return (
+    baseline.values.get(`${divisionSlug}|${grade}|${subjectKey}|${year}`) || 0
+  );
+}
+
+function addRegionalDeliveryBaselineValue(
+  baseline,
+  divisionSlug,
+  grade,
+  subjectKey,
+  year,
+  quantity
+) {
+  const key = `${divisionSlug}|${grade}|${subjectKey}|${year}`;
+  baseline.values.set(key, (baseline.values.get(key) || 0) + quantity);
+}
+
+function loadRegionalDeliveryBaseline() {
+  const baseline = createEmptyRegionalDeliveryBaseline();
+
+  baseline.missingWorkbooks.forEach((workbookPath) => {
+    warn(`Regional delivery baseline workbook not found: ${workbookPath}`);
+  });
+
+  baseline.sourceWorkbooks.forEach((workbookPath) => {
+    let workbook;
+    try {
+      workbook = XLSX.readFile(workbookPath, { cellDates: true });
+    } catch (e) {
+      warn(`Failed to read regional delivery baseline: ${workbookPath} (${e.message})`);
+      return;
+    }
+
+    workbook.SheetNames.forEach((sheetName) => {
+      const grade = normalizeRegionalTextbookGrade(sheetName);
+      if (!grade) return;
+
+      const worksheet = workbook.Sheets[sheetName];
+      const matrix = XLSX.utils.sheet_to_json(worksheet, {
+        header: 1,
+        defval: "",
+      });
+      const subjectRow = matrix[1] || [];
+      const deliveryHeaderRow = matrix[2] || [];
+      let currentSubject = "";
+
+      for (let columnIndex = 2; columnIndex < deliveryHeaderRow.length; columnIndex++) {
+        const subjectCell = normalizeWhitespace(subjectRow[columnIndex]);
+        if (subjectCell) {
+          currentSubject = subjectCell;
+        }
+
+        const subjectKey = canonicalizeRegionalTextbookSubject(grade, currentSubject);
+        if (!subjectKey) continue;
+
+        const yearMatch = String(deliveryHeaderRow[columnIndex] ?? "").match(
+          /\b20(24|25|26)\b/
+        );
+        if (!yearMatch) continue;
+
+        for (let rowIndex = 3; rowIndex < matrix.length; rowIndex++) {
+          const divisionName = normalizeWhitespace(matrix[rowIndex]?.[0]);
+          if (!divisionName) continue;
+
+          addRegionalDeliveryBaselineValue(
+            baseline,
+            slugify(divisionName),
+            grade,
+            subjectKey,
+            yearMatch[0],
+            toNumber(matrix[rowIndex]?.[columnIndex])
+          );
+        }
+      }
+    });
+  });
+
+  return baseline;
+}
+
+function applyRegionalDeliveryBaselineRule(entry, baseline) {
+  if (!baseline?.sourceWorkbooks?.length) return;
+
+  REGIONAL_TEXTBOOK_DELIVERY_GRADES.forEach((gradeBlock) => {
+    gradeBlock.subjects.forEach((subject) => {
+      const latest2025 =
+        entry.deliveryByYear?.[gradeBlock.grade]?.[subject.key]?.["2025"] || 0;
+      const latest2026 =
+        entry.deliveryByYear?.[gradeBlock.grade]?.[subject.key]?.["2026"] || 0;
+      const baseline2024 = getRegionalDeliveryBaselineValue(
+        baseline,
+        entry.slug,
+        gradeBlock.grade,
+        subject.key,
+        "2024"
+      );
+      const baseline2025 = getRegionalDeliveryBaselineValue(
+        baseline,
+        entry.slug,
+        gradeBlock.grade,
+        subject.key,
+        "2025"
+      );
+      const addedFrom2025 = Math.max(latest2025 - baseline2025, 0);
+
+      entry.deliveryByYear[gradeBlock.grade][subject.key]["2024"] = baseline2024;
+      entry.deliveryByYear[gradeBlock.grade][subject.key]["2025"] = baseline2025;
+      entry.deliveryByYear[gradeBlock.grade][subject.key]["2026"] =
+        latest2026 + addedFrom2025;
+      entry.totals[gradeBlock.grade][subject.key] =
+        baseline2024 + baseline2025 + latest2026 + addedFrom2025;
+    });
+  });
+}
+
 // ===== MAIN =====
 function build() {
   if (!fs.existsSync(INPUT_DIR)) {
@@ -464,6 +597,7 @@ function build() {
   const regionalEnrollmentOverrides = readJSONIfExists(
     REGIONAL_ENROLLMENT_OVERRIDE_PATH
   );
+  const regionalDeliveryBaseline = loadRegionalDeliveryBaseline();
 
   const divisionDirs = fs
     .readdirSync(INPUT_DIR, { withFileTypes: true })
@@ -617,6 +751,10 @@ function build() {
       regionalDivision,
       regionalEnrollmentOverrides
     );
+    applyRegionalDeliveryBaselineRule(
+      regionalDivision,
+      regionalDeliveryBaseline
+    );
     finalizeRegionalEntry(regionalDivision);
 
     ok(`Built division: ${divisionName}`);
@@ -641,6 +779,12 @@ function build() {
           note: regionalEnrollmentOverrides.note,
         }
       : null,
+    deliveryReference: {
+      rule:
+        "2024 and 2025 delivery columns use the old standard workbooks. The 2026 column uses latest inventory rows marked 2026 plus only positive increases where latest 2025 is higher than old standard 2025; same-year decreases are skipped.",
+      sourceWorkbooks: regionalDeliveryBaseline.sourceWorkbooks,
+      missingWorkbooks: regionalDeliveryBaseline.missingWorkbooks,
+    },
     grades: REGIONAL_TEXTBOOK_DELIVERY_GRADES.map((gradeBlock) => ({
       grade: gradeBlock.grade,
       label: gradeBlock.label,
