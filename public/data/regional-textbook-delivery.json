@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-26T02:02:44.970Z",
+  "generatedAt": "2026-08-26T03:22:09.456Z",
   "years": [
     "2024",
     "2025",
@@ -178887,7 +178887,7 @@
           "gmrc": 395,
           "reading-and-literacy": 517,
           "language": 516,
-          "makabansa": 730,
+          "makabansa": 1246,
           "mathematics": 744
         },
         "4": {
@@ -179042,7 +179042,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 730,
-            "2026": 0
+            "2026": 516
           },
           "mathematics": {
             "2024": 0,
@@ -179393,8 +179393,8 @@
         "10": 360
       },
       "enrollmentTotal": 52344,
-      "deliveredTotal": 279821,
-      "deliveryPercentage": 534.58,
+      "deliveredTotal": 280337,
+      "deliveryPercentage": 535.57,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -181542,7 +181542,7 @@
               "gmrc": 0,
               "reading-and-literacy": 517,
               "language": 516,
-              "makabansa": 0,
+              "makabansa": 516,
               "mathematics": 516
             },
             "4": {
@@ -181697,7 +181697,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 516
               },
               "mathematics": {
                 "2024": 0,
@@ -182048,8 +182048,8 @@
             "10": 0
           },
           "enrollmentTotal": 3026,
-          "deliveredTotal": 14805,
-          "deliveryPercentage": 489.26
+          "deliveredTotal": 15321,
+          "deliveryPercentage": 506.31
         },
         {
           "id": "fortune-high-school",
