@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-27T01:17:46.752Z",
+  "generatedAt": "2026-08-27T01:32:02.078Z",
   "years": [
     "2024",
     "2025",
@@ -83853,7 +83853,7 @@
           "science": 7965,
           "araling-panlipunan": 7785,
           "epp": 7720,
-          "music-and-arts": 330,
+          "music-and-arts": 0,
           "pe-and-health": 7699,
           "mathematics": 0
         },
@@ -84076,7 +84076,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 330
+            "2026": 0
           },
           "pe-and-health": {
             "2024": 130,
@@ -84338,8 +84338,8 @@
         "10": 4478
       },
       "enrollmentTotal": 56829,
-      "deliveredTotal": 197139,
-      "deliveryPercentage": 346.9,
+      "deliveredTotal": 196809,
+      "deliveryPercentage": 346.32,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -102969,7 +102969,7 @@
               "science": 330,
               "araling-panlipunan": 330,
               "epp": 330,
-              "music-and-arts": 330,
+              "music-and-arts": 0,
               "pe-and-health": 330,
               "mathematics": 0
             },
@@ -103192,7 +103192,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 330
+                "2026": 0
               },
               "pe-and-health": {
                 "2024": 0,
@@ -103454,8 +103454,8 @@
             "10": 349
           },
           "enrollmentTotal": 2597,
-          "deliveredTotal": 15098,
-          "deliveryPercentage": 581.36
+          "deliveredTotal": 14768,
+          "deliveryPercentage": 568.66
         },
         {
           "id": "ta-ong-national-high-school",
