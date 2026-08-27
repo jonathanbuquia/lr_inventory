@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-26T03:22:09.456Z",
+  "generatedAt": "2026-08-27T01:02:34.476Z",
   "years": [
     "2024",
     "2025",
@@ -83824,7 +83824,7 @@
         "2": {
           "gmrc": 0,
           "reading-and-literacy": 0,
-          "language": 0,
+          "language": 210,
           "makabansa": 4772,
           "mathematics": 0
         },
@@ -83955,7 +83955,7 @@
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 210
           },
           "makabansa": {
             "2024": 0,
@@ -84338,8 +84338,8 @@
         "10": 4478
       },
       "enrollmentTotal": 56829,
-      "deliveredTotal": 195179,
-      "deliveryPercentage": 343.45,
+      "deliveredTotal": 195389,
+      "deliveryPercentage": 343.82,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -102940,7 +102940,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 0,
+              "language": 210,
               "makabansa": 180,
               "mathematics": 0
             },
@@ -103071,7 +103071,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 210
               },
               "makabansa": {
                 "2024": 0,
@@ -103454,8 +103454,8 @@
             "10": 349
           },
           "enrollmentTotal": 2597,
-          "deliveredTotal": 13138,
-          "deliveryPercentage": 505.89
+          "deliveredTotal": 13348,
+          "deliveryPercentage": 513.98
         },
         {
           "id": "ta-ong-national-high-school",
