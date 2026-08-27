@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-08-27T01:02:34.476Z",
+  "generatedAt": "2026-08-27T01:17:46.752Z",
   "years": [
     "2024",
     "2025",
@@ -83822,16 +83822,16 @@
           "mathematics": 320
         },
         "2": {
-          "gmrc": 0,
-          "reading-and-literacy": 0,
+          "gmrc": 300,
+          "reading-and-literacy": 300,
           "language": 210,
           "makabansa": 4772,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
-          "reading-and-literacy": 0,
-          "language": 0,
+          "reading-and-literacy": 300,
+          "language": 220,
           "makabansa": 224,
           "mathematics": 224
         },
@@ -83847,8 +83847,8 @@
           "mathematics": 8116
         },
         "5": {
-          "gmrc": 0,
-          "english": 1064,
+          "gmrc": 300,
+          "english": 1394,
           "filipino": 300,
           "science": 7965,
           "araling-panlipunan": 7785,
@@ -83945,12 +83945,12 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 300
           },
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 300
           },
           "language": {
             "2024": 0,
@@ -83977,12 +83977,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 300
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 220
           },
           "makabansa": {
             "2024": 0,
@@ -84046,12 +84046,12 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 300
           },
           "english": {
             "2024": 0,
             "2025": 595,
-            "2026": 469
+            "2026": 799
           },
           "filipino": {
             "2024": 0,
@@ -84338,8 +84338,8 @@
         "10": 4478
       },
       "enrollmentTotal": 56829,
-      "deliveredTotal": 195389,
-      "deliveryPercentage": 343.82,
+      "deliveredTotal": 197139,
+      "deliveryPercentage": 346.9,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -102938,16 +102938,16 @@
               "mathematics": 320
             },
             "2": {
-              "gmrc": 0,
-              "reading-and-literacy": 0,
+              "gmrc": 300,
+              "reading-and-literacy": 300,
               "language": 210,
               "makabansa": 180,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 0,
-              "language": 0,
+              "reading-and-literacy": 300,
+              "language": 220,
               "makabansa": 224,
               "mathematics": 224
             },
@@ -102963,8 +102963,8 @@
               "mathematics": 360
             },
             "5": {
-              "gmrc": 0,
-              "english": 0,
+              "gmrc": 300,
+              "english": 330,
               "filipino": 300,
               "science": 330,
               "araling-panlipunan": 330,
@@ -103061,12 +103061,12 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "language": {
                 "2024": 0,
@@ -103093,12 +103093,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 220
               },
               "makabansa": {
                 "2024": 0,
@@ -103162,12 +103162,12 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 330
               },
               "filipino": {
                 "2024": 0,
@@ -103454,8 +103454,8 @@
             "10": 349
           },
           "enrollmentTotal": 2597,
-          "deliveredTotal": 13348,
-          "deliveryPercentage": 513.98
+          "deliveredTotal": 15098,
+          "deliveryPercentage": 581.36
         },
         {
           "id": "ta-ong-national-high-school",
