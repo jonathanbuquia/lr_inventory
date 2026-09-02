@@ -182,8 +182,8 @@
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": "",
+      "GAP-TX": 169,
+      "Surplus-TX": 0,
       "Usable": 0
     },
     {
@@ -484,5 +484,5 @@
       "Usable": ""
     }
   ],
-  "generatedAt": "2026-06-30T03:36:49.302Z"
+  "generatedAt": "2026-09-02T02:16:41.286Z"
 }
