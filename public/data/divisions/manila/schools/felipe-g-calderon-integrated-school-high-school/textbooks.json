@@ -777,8 +777,8 @@
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": "",
-      "Surplus-TX": ""
+      "GAP-TX": 0,
+      "Surplus-TX": 0
     },
     {
       "Grade Level": 10,
@@ -881,5 +881,5 @@
       "Surplus-TX": 0
     }
   ],
-  "generatedAt": "2026-04-16T01:14:21.814Z"
+  "generatedAt": "2026-09-02T01:21:38.126Z"
 }
