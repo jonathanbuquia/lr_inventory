@@ -189,6 +189,51 @@ const filterSeniorHighRows = (rows = []) => {
   return rows.filter((row) => isSeniorHighGradeValue(row?.[gradeKey]));
 };
 
+const hasValue = (value) => String(value ?? "").trim() !== "";
+
+const setDerivedTextbookGapSurplus = (
+  row,
+  enrollmentKey,
+  receivedKey,
+  gapKey,
+  surplusKey
+) => {
+  const hasInputs = hasValue(row?.[enrollmentKey]) || hasValue(row?.[receivedKey]);
+  if (!hasInputs) return;
+
+  const enrollment = toNumber(row?.[enrollmentKey]);
+  const received = toNumber(row?.[receivedKey]);
+
+  if (!hasValue(row?.[gapKey])) {
+    row[gapKey] = Math.max(enrollment - received, 0);
+  }
+
+  if (!hasValue(row?.[surplusKey])) {
+    row[surplusKey] = Math.max(received - enrollment, 0);
+  }
+};
+
+const fillDerivedTextbookFormulaValues = (rows = []) => {
+  rows.forEach((row) => {
+    setDerivedTextbookGapSurplus(
+      row,
+      "Enrolment S.Y. 2025-2026",
+      "Quantity of Textbooks Received",
+      "GAP-TX",
+      "Surplus-TX"
+    );
+    setDerivedTextbookGapSurplus(
+      row,
+      "Enrolment S.Y. 2026-2027",
+      "Quantity of Textbooks Received S.Y. 2026-2027",
+      "GAP-TX S.Y. 2026-2027",
+      "Surplus-TX S.Y. 2026-2027"
+    );
+  });
+
+  return rows;
+};
+
 function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
   const ws = workbook.Sheets[sheetName];
   if (!ws) {
@@ -224,7 +269,7 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
   });
   const dataRows = matrix.slice(headerRowIndex + 1);
 
-  return dataRows
+  const rows = dataRows
     .map((r) => {
       const obj = {};
       headers.forEach((h, i) => {
@@ -260,6 +305,8 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
       const nonGradeEntries = entries.filter(([key]) => !isGradeHeader(key));
       return nonGradeEntries.some(([, value]) => String(value).trim() !== "");
     });
+
+  return sheetName === "TextBooks" ? fillDerivedTextbookFormulaValues(rows) : rows;
 }
 
 function writeJSON(filePath, data) {
