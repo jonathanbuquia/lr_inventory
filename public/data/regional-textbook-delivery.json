@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T04:22:49.466Z",
+  "generatedAt": "2026-09-04T04:36:58.750Z",
   "years": [
     "2024",
     "2025",
@@ -106684,7 +106684,7 @@
         "5": {
           "gmrc": 991,
           "english": 4262,
-          "filipino": 1149,
+          "filipino": 1505,
           "science": 4101,
           "araling-panlipunan": 3943,
           "epp": 4076,
@@ -106891,7 +106891,7 @@
           "filipino": {
             "2024": 0,
             "2025": 510,
-            "2026": 639
+            "2026": 995
           },
           "science": {
             "2024": 0,
@@ -107173,8 +107173,8 @@
         "10": 3409
       },
       "enrollmentTotal": 37032,
-      "deliveredTotal": 160795,
-      "deliveryPercentage": 434.21,
+      "deliveredTotal": 161151,
+      "deliveryPercentage": 435.17,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -107215,7 +107215,7 @@
             "5": {
               "gmrc": 375,
               "english": 356,
-              "filipino": 0,
+              "filipino": 356,
               "science": 356,
               "araling-panlipunan": 320,
               "epp": 356,
@@ -107422,7 +107422,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 356
               },
               "science": {
                 "2024": 0,
@@ -107704,8 +107704,8 @@
             "10": 392
           },
           "enrollmentTotal": 3340,
-          "deliveredTotal": 14579,
-          "deliveryPercentage": 436.5
+          "deliveredTotal": 14935,
+          "deliveryPercentage": 447.16
         },
         {
           "id": "amado-t-reyes-elementary-schools",
