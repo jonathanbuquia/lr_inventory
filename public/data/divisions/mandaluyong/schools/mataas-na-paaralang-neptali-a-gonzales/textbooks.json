@@ -316,7 +316,7 @@
     },
     {
       "Grade Level": 9,
-      "SUBJECTS": "Filipino\nNoli Me Tangere",
+      "SUBJECTS": "Filipino\r\nNoli Me Tangere",
       "Enrolment S.Y. 2025-2026": 656,
       "Quantity of Textbooks Received": 970,
       "Year of Delivery-TX": 2024,
@@ -460,7 +460,7 @@
     },
     {
       "Grade Level": 10,
-      "SUBJECTS": "Filipino\nEl Filibusterismo",
+      "SUBJECTS": "Filipino\r\nEl Filibusterismo",
       "Enrolment S.Y. 2025-2026": 743,
       "Quantity of Textbooks Received": 861,
       "Year of Delivery-TX": 2024,
@@ -668,7 +668,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "General Mathematics\n( Math Channel )",
+      "SUBJECTS": "General Mathematics\r\n( Math Channel )",
       "Enrolment S.Y. 2025-2026": 782,
       "Quantity of Textbooks Received": 1019,
       "Year of Delivery-TX": 2025,
@@ -716,7 +716,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Heritage (Understanding Culture,\nSociety & Politics)",
+      "SUBJECTS": "Heritage (Understanding Culture,\r\nSociety & Politics)",
       "Enrolment S.Y. 2025-2026": 782,
       "Quantity of Textbooks Received": 1019,
       "Year of Delivery-TX": 2025,
@@ -732,7 +732,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Science in the Modern World\nEarth and Life Science",
+      "SUBJECTS": "Science in the Modern World\r\nEarth and Life Science",
       "Enrolment S.Y. 2025-2026": 818,
       "Quantity of Textbooks Received": 1019,
       "Year of Delivery-TX": 2024,
@@ -748,7 +748,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Philippine Politics \nand Governance",
+      "SUBJECTS": "Philippine Politics \r\nand Governance",
       "Enrolment S.Y. 2025-2026": 782,
       "Quantity of Textbooks Received": 104,
       "Year of Delivery-TX": 2024,
@@ -764,7 +764,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Trends, Networks and Critical \nThinking in the\n21st Century",
+      "SUBJECTS": "Trends, Networks and Critical \r\nThinking in the\r\n21st Century",
       "Enrolment S.Y. 2025-2026": 782,
       "Quantity of Textbooks Received": 104,
       "Year of Delivery-TX": 2024,
@@ -812,7 +812,7 @@
     },
     {
       "Grade Level": "SHS",
-      "SUBJECTS": "Discipline and Ideas in the\nApplied Social Sciences",
+      "SUBJECTS": "Discipline and Ideas in the\r\nApplied Social Sciences",
       "Enrolment S.Y. 2025-2026": 818,
       "Quantity of Textbooks Received": 104,
       "Year of Delivery-TX": 2024,
@@ -827,5 +827,5 @@
       "Surplus-TX S.Y. 2026-2027": ""
     }
   ],
-  "generatedAt": "2026-09-04T02:38:51.790Z"
+  "generatedAt": "2026-09-04T05:36:42.025Z"
 }
