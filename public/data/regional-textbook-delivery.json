@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T05:30:33.936Z",
+  "generatedAt": "2026-09-04T05:33:00.925Z",
   "years": [
     "2024",
     "2025",
@@ -212890,7 +212890,7 @@
           "mathematics": 6078
         },
         "5": {
-          "gmrc": 3171,
+          "gmrc": 3426,
           "english": 4833,
           "filipino": 4833,
           "science": 4833,
@@ -213089,7 +213089,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 3171
+            "2026": 3426
           },
           "english": {
             "2024": 0,
@@ -213381,8 +213381,8 @@
         "10": 2727
       },
       "enrollmentTotal": 35028,
-      "deliveredTotal": 170216,
-      "deliveryPercentage": 485.94,
+      "deliveredTotal": 170471,
+      "deliveryPercentage": 486.67,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -224041,7 +224041,7 @@
               "mathematics": 352
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 255,
               "english": 229,
               "filipino": 255,
               "science": 229,
@@ -224240,7 +224240,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 255
               },
               "english": {
                 "2024": 0,
@@ -224532,8 +224532,8 @@
             "10": 0
           },
           "enrollmentTotal": 1092,
-          "deliveredTotal": 6269,
-          "deliveryPercentage": 574.08
+          "deliveredTotal": 6524,
+          "deliveryPercentage": 597.44
         },
         {
           "id": "tangos-national-high-school",
@@ -251098,7 +251098,7 @@
           "reading-and-literacy": 5333,
           "language": 5419,
           "makabansa": 5429,
-          "mathematics": 537
+          "mathematics": 778
         },
         "2": {
           "gmrc": 625,
@@ -251217,7 +251217,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 537
+            "2026": 778
           }
         },
         "2": {
@@ -251617,8 +251617,8 @@
         "10": 4430
       },
       "enrollmentTotal": 48900,
-      "deliveredTotal": 171219,
-      "deliveryPercentage": 350.14,
+      "deliveredTotal": 171460,
+      "deliveryPercentage": 350.63,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -259063,7 +259063,7 @@
               "reading-and-literacy": 213,
               "language": 213,
               "makabansa": 213,
-              "mathematics": 0
+              "mathematics": 241
             },
             "2": {
               "gmrc": 211,
@@ -259182,7 +259182,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 241
               }
             },
             "2": {
@@ -259582,8 +259582,8 @@
             "10": 0
           },
           "enrollmentTotal": 1509,
-          "deliveredTotal": 6263,
-          "deliveryPercentage": 415.04
+          "deliveredTotal": 6504,
+          "deliveryPercentage": 431.01
         },
         {
           "id": "padre-zamora-elementary-school",
