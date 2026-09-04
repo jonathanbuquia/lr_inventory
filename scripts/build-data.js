@@ -58,10 +58,40 @@ const normalizeWhitespace = (s) =>
     .replace(/\s+/g, " ")
     .trim();
 
+const TEXTBOOK_2026_SUFFIX = "S.Y. 2026-2027";
+const TEXTBOOK_2026_FOLLOWUP_HEADERS = new Set([
+  "Quantity of Textbooks Received",
+  "Year of Delivery-TX",
+  "Year of Delivery - TX",
+  "SOURCE-TX (CO,RO, SDO)",
+  "GAP-TX",
+  "Gap-TX",
+  "Surplus-TX",
+  "SURPLUS-TX",
+]);
+
+const normalizeHeaderText = (value) =>
+  normalizeWhitespace(value).replace(/[–—]/g, "-").toUpperCase();
+
+const isTextbook2026EnrollmentHeader = (value) =>
+  normalizeHeaderText(value) === "ENROLMENT S.Y. 2026-2027" ||
+  normalizeHeaderText(value) === "ENROLLMENT S.Y. 2026-2027";
+
+const withTextbook2026Suffix = (header) => `${header} ${TEXTBOOK_2026_SUFFIX}`;
+
 const toNumber = (value) => {
   if (value === null || value === undefined || value === "") return 0;
   const parsed = Number(String(value).replace(/,/g, "").trim());
   return Number.isNaN(parsed) ? 0 : parsed;
+};
+
+const pickFirstPositiveNumber = (...values) => {
+  for (const value of values) {
+    const numeric = toNumber(value);
+    if (numeric > 0) return numeric;
+  }
+
+  return 0;
 };
 
 const slugify = (s) =>
@@ -160,7 +190,22 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
     return [];
   }
 
-  const headers = headerRow.map((h) => normalizeWhitespace(h));
+  const rawHeaders = headerRow.map((h) => normalizeWhitespace(h));
+  const textbook2026StartIndex =
+    sheetName === "TextBooks"
+      ? rawHeaders.findIndex(isTextbook2026EnrollmentHeader)
+      : -1;
+  const headers = rawHeaders.map((header, index) => {
+    if (
+      textbook2026StartIndex >= 0 &&
+      index > textbook2026StartIndex &&
+      TEXTBOOK_2026_FOLLOWUP_HEADERS.has(header)
+    ) {
+      return withTextbook2026Suffix(header);
+    }
+
+    return header;
+  });
   const dataRows = matrix.slice(headerRowIndex + 1);
 
   return dataRows
@@ -345,22 +390,17 @@ function createRegionalDivisionSummary(divisionSlug, divisionName) {
 }
 
 function getRegionalEnrollmentValue(row) {
-  return toNumber(
-    row?.["Enrolment S.Y. 2025-2026"] ??
-    row?.["Enrollment S.Y. 2025-2026"] ??
-    row?.["Enrolment"] ??
-    row?.["Enrollment"] ??
-    0
+  return pickFirstPositiveNumber(
+    row?.["Enrolment S.Y. 2026-2027"],
+    row?.["Enrollment S.Y. 2026-2027"],
+    row?.["Enrolment S.Y. 2025-2026"],
+    row?.["Enrollment S.Y. 2025-2026"],
+    row?.["Enrolment"],
+    row?.["Enrollment"]
   );
 }
 
-function getRegionalDeliveryYearValue(row) {
-  const value =
-    row?.["Year of Delivery-TX"] ??
-    row?.["Year of Delivery - TX"] ??
-    row?.["Delivery Year"] ??
-    row?.["Year"] ??
-    "";
+function parseRegionalDeliveryYearValue(value) {
 
   if (value instanceof Date && !Number.isNaN(value.getTime())) {
     const year = String(value.getFullYear());
@@ -374,6 +414,39 @@ function getRegionalDeliveryYearValue(row) {
 
   const match = String(value).match(/\b20(24|25|26)\b/);
   return match ? match[0] : null;
+}
+
+function getRegionalTextbookDeliveryValues(row) {
+  const nextQuantity = toNumber(
+    row?.["Quantity of Textbooks Received S.Y. 2026-2027"]
+  );
+
+  if (nextQuantity > 0) {
+    return {
+      quantity: nextQuantity,
+      deliveryYear: parseRegionalDeliveryYearValue(
+        row?.["Year of Delivery-TX S.Y. 2026-2027"] ??
+        row?.["Year of Delivery - TX S.Y. 2026-2027"] ??
+        ""
+      ),
+    };
+  }
+
+  return {
+    quantity: toNumber(
+      row?.["Quantity of Textbooks Received"] ??
+      row?.["Quantity Received"] ??
+      row?.["Received"] ??
+      0
+    ),
+    deliveryYear: parseRegionalDeliveryYearValue(
+      row?.["Year of Delivery-TX"] ??
+      row?.["Year of Delivery - TX"] ??
+      row?.["Delivery Year"] ??
+      row?.["Year"] ??
+      ""
+    ),
+  };
 }
 
 function addRegionalTextbookRow(target, row) {
@@ -393,15 +466,9 @@ function addRegionalTextbookRow(target, row) {
   const subjectKey = canonicalizeRegionalTextbookSubject(normalizedGrade, subjectValue);
   if (!subjectKey) return;
 
-  const quantity = toNumber(
-    row?.["Quantity of Textbooks Received"] ??
-    row?.["Quantity Received"] ??
-    row?.["Received"] ??
-    0
-  );
+  const { quantity, deliveryYear } = getRegionalTextbookDeliveryValues(row);
 
   target.totals[normalizedGrade][subjectKey] += quantity;
-  const deliveryYear = getRegionalDeliveryYearValue(row);
   if (deliveryYear && target.deliveryByYear?.[normalizedGrade]?.[subjectKey]) {
     target.deliveryByYear[normalizedGrade][subjectKey][deliveryYear] += quantity;
   }
@@ -454,6 +521,7 @@ function applyRegionalEnrollmentOverrides(entry, overrides) {
 
   Object.entries(divisionOverrides).forEach(([grade, value]) => {
     if (entry.enrollmentByGrade?.[grade] === undefined) return;
+    if (toNumber(entry.enrollmentByGrade[grade]) > 0) return;
     entry.enrollmentByGrade[grade] = toNumber(value);
   });
 }

@@ -181,7 +181,7 @@ const RegionalTextbookDeliveryView = () => {
                     <thead>
                       <tr>
                         <th rowSpan="2" className="rtdvStickyCol">SDO</th>
-                        <th rowSpan="2">SY 2025-2026 Enrolment</th>
+                        <th rowSpan="2">SY 2026-2027 Enrolment</th>
                         <th colSpan="8">{subject.label.toUpperCase()}</th>
                       </tr>
                       <tr>
@@ -190,8 +190,8 @@ const RegionalTextbookDeliveryView = () => {
                         ))}
                         <th>Total Delivery</th>
                         <th>Percentage of Learners Provided with Textbook</th>
-                        <th>Surplus/Shortage (SY 2025-2026)</th>
-                        <th>SY 2026-2027 (2% Enrollment Increase)</th>
+                        <th>Surplus/Shortage (SY 2026-2027)</th>
+                        <th>SY 2027-2028 (2% Enrollment Increase)</th>
                         <th>Surplus / Shortage Total Delivery - Projected Enrolment</th>
                       </tr>
                     </thead>

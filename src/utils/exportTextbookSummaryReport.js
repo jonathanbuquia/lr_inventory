@@ -60,7 +60,7 @@ const buildWorksheetXml = (school) => {
   const headerRow = buildRow([
     buildCell("GRADE LEVEL", "String", "Header"),
     buildCell("SUBJECT", "String", "Header"),
-    buildCell("TOTAL ENROLLEES", "String", "Header"),
+    buildCell("TOTAL ENROLLEES 2026-2027", "String", "Header"),
     buildCell("TOTAL RECEIVED", "String", "Header"),
     buildCell("GAPS", "String", "Header"),
     buildCell("SURPLUS", "String", "Header"),

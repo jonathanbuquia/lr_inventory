@@ -653,7 +653,7 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
                 </span>
               </div>
               <div className="dctSummaryCard">
-                <span className="dctSummaryLabel">Total Enrollees</span>
+                <span className="dctSummaryLabel">Total Enrollees 2026-2027</span>
                 <span className="dctSummaryValue">
                   {formatNumber(divisionSummary.enrolled)}
                 </span>
@@ -684,7 +684,7 @@ const DivisionConsolidatedLAS = ({ selectedDivision }) => {
                   <tr>
                     <th>GRADE LEVEL</th>
                     <th>SUBJECT</th>
-                    <th>TOTAL ENROLLEES</th>
+                    <th>TOTAL ENROLLEES 2026-2027</th>
                     <th>TOTAL RECEIVED</th>
                     <th>GAP</th>
                     <th>SURPLUS</th>

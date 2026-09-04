@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import "./DivisionConsolidatedTable.css";
 import { downloadTextbookSummaryReport } from "../../../utils/exportTextbookSummaryReport";
 
@@ -13,12 +13,12 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   const [showPerSchool, setShowPerSchool] = useState(false);
   const [divisionSchoolCount, setDivisionSchoolCount] = useState(0);
 
-  const normalizeNumber = (value) => {
+  const normalizeNumber = useCallback((value) => {
     if (value === null || value === undefined || value === "") return 0;
     const cleaned = String(value).replace(/,/g, "").trim();
     const parsed = Number(cleaned);
     return Number.isNaN(parsed) ? 0 : parsed;
-  };
+  }, []);
 
   const normalizeGrade = (value) => {
     if (value === null || value === undefined || value === "") return "";
@@ -53,10 +53,18 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
   };
 
   const formatNumber = (value) => Number(value || 0).toLocaleString();
-  const pickGradeEnrollment = (currentValue, nextValue) =>
+  const pickGradeEnrollment = useCallback((currentValue, nextValue) =>
     normalizeNumber(currentValue) > 0
       ? normalizeNumber(currentValue)
-      : normalizeNumber(nextValue);
+      : normalizeNumber(nextValue), [normalizeNumber]);
+  const pickFirstPositiveNumber = useCallback((...values) => {
+    for (const value of values) {
+      const numeric = normalizeNumber(value);
+      if (numeric > 0) return numeric;
+    }
+
+    return 0;
+  }, [normalizeNumber]);
 
   const formatGradeLabel = (grade) => {
     return grade === "KINDER" ? "Kinder" : `Grade ${grade}`;
@@ -101,13 +109,13 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return normalized.includes("HIGH SCHOOL") && !normalized.includes("SENIOR HIGH SCHOOL");
   };
 
-  const isUnclassifiedSchool = (schoolName) => {
+  const isUnclassifiedSchool = useCallback((schoolName) => {
     return !(
       isElementarySchool(schoolName) ||
       isRegularHighSchool(schoolName) ||
       isSeniorHighSchool(schoolName)
     );
-  };
+  }, []);
 
   const getSchoolsArray = (data) => {
     if (Array.isArray(data)) return data;
@@ -140,52 +148,70 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     ).trim();
   };
 
-  const getEnrollmentValue = (row) => {
-    return normalizeNumber(
-      row?.["Enrolment S.Y. 2025-2026"] ??
-      row?.["Enrollment S.Y. 2025-2026"] ??
-      row?.["Enrolment"] ??
-      row?.["Enrollment"] ??
-      0
+  const getEnrollmentValue = useCallback((row) => {
+    return pickFirstPositiveNumber(
+      row?.["Enrolment S.Y. 2026-2027"],
+      row?.["Enrollment S.Y. 2026-2027"],
+      row?.["Enrolment S.Y. 2025-2026"],
+      row?.["Enrollment S.Y. 2025-2026"],
+      row?.["Enrolment"],
+      row?.["Enrollment"]
     );
-  };
+  }, [pickFirstPositiveNumber]);
 
-  const getReceivedValue = (row) => {
-    return normalizeNumber(
-      row?.["Quantity of Textbooks Received"] ??
-      row?.["Quantity Received"] ??
-      row?.["Received"] ??
-      0
+  const getReceivedValue = useCallback((row) => {
+    return pickFirstPositiveNumber(
+      row?.["Quantity of Textbooks Received S.Y. 2026-2027"],
+      row?.["Quantity of Textbooks Received"],
+      row?.["Quantity Received"],
+      row?.["Received"]
     );
-  };
+  }, [pickFirstPositiveNumber]);
 
-  const getGapValue = (row) => {
-    return normalizeNumber(
-      row?.["GAP-TX"] ??
-      row?.["Gap-TX"] ??
-      row?.["Gaps"] ??
-      row?.["Gap"] ??
-      0
-    );
-  };
+  const getGapValue = useCallback((row) => {
+    if (
+      pickFirstPositiveNumber(
+        row?.["Enrolment S.Y. 2026-2027"],
+        row?.["Enrollment S.Y. 2026-2027"],
+        row?.["Quantity of Textbooks Received S.Y. 2026-2027"]
+      ) > 0
+    ) {
+      return normalizeNumber(
+        row?.["GAP-TX S.Y. 2026-2027"] ??
+        row?.["Gap-TX S.Y. 2026-2027"] ??
+        0
+      );
+    }
 
-  const getSurplusValue = (row) => {
-    return normalizeNumber(
-      row?.["Surplus-TX"] ??
-      row?.["SURPLUS-TX"] ??
-      row?.["Surplus"] ??
-      0
-    );
-  };
+    return normalizeNumber(row?.["GAP-TX"] ?? row?.["Gap-TX"] ?? row?.["Gaps"] ?? row?.["Gap"] ?? 0);
+  }, [normalizeNumber, pickFirstPositiveNumber]);
 
-  const rowHasData = (rowLike) => {
+  const getSurplusValue = useCallback((row) => {
+    if (
+      pickFirstPositiveNumber(
+        row?.["Enrolment S.Y. 2026-2027"],
+        row?.["Enrollment S.Y. 2026-2027"],
+        row?.["Quantity of Textbooks Received S.Y. 2026-2027"]
+      ) > 0
+    ) {
+      return normalizeNumber(
+        row?.["Surplus-TX S.Y. 2026-2027"] ??
+        row?.["SURPLUS-TX S.Y. 2026-2027"] ??
+        0
+      );
+    }
+
+    return normalizeNumber(row?.["Surplus-TX"] ?? row?.["SURPLUS-TX"] ?? row?.["Surplus"] ?? 0);
+  }, [normalizeNumber, pickFirstPositiveNumber]);
+
+  const rowHasData = useCallback((rowLike) => {
     return (
       normalizeNumber(rowLike?.enrolled) > 0 ||
       normalizeNumber(rowLike?.received) > 0 ||
       normalizeNumber(rowLike?.gaps) > 0 ||
       normalizeNumber(rowLike?.surplus) > 0
     );
-  };
+  }, [normalizeNumber]);
 
   const toggleSchool = (schoolId) => {
     setOpenSchools((prev) => ({
@@ -378,7 +404,14 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
       return a.subject.localeCompare(b.subject);
     });
-  }, [rows]);
+  }, [
+    rows,
+    getEnrollmentValue,
+    getGapValue,
+    getReceivedValue,
+    getSurplusValue,
+    pickGradeEnrollment,
+  ]);
 
   const accordionSchools = useMemo(() => {
     const schoolMap = {};
@@ -510,7 +543,13 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       })
       .filter((school) => school.grades.length > 0)
       .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
-  }, [allAggregatedRows]);
+  }, [
+    allAggregatedRows,
+    isUnclassifiedSchool,
+    normalizeNumber,
+    pickGradeEnrollment,
+    rowHasData,
+  ]);
 
   const exportSchools = useMemo(() => {
     return accordionSchools.map((school) => ({
@@ -545,7 +584,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         }));
       }),
     }));
-  }, [accordionSchools]);
+  }, [accordionSchools, rowHasData]);
 
   const divisionSummary = useMemo(() => {
     return accordionSchools.reduce(
@@ -564,7 +603,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         surplus: 0,
       }
     );
-  }, [accordionSchools, divisionSchoolCount]);
+  }, [accordionSchools, divisionSchoolCount, normalizeNumber]);
 
   const divisionSummaryRows = useMemo(() => {
     const grouped = {};
@@ -596,7 +635,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       if (gradeDiff !== 0) return gradeDiff;
       return a.subject.localeCompare(b.subject);
     });
-  }, [allAggregatedRows]);
+  }, [allAggregatedRows, normalizeNumber]);
 
   const handleDownloadSummaryReport = () => {
     if (loading || accordionSchools.length === 0) return;
@@ -685,7 +724,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                 </span>
               </div>
               <div className="dctSummaryCard">
-                <span className="dctSummaryLabel">Total Enrollees</span>
+                <span className="dctSummaryLabel">Total Enrollees 2026-2027</span>
                 <span className="dctSummaryValue">
                   {formatNumber(divisionSummary.enrolled)}
                 </span>
@@ -716,7 +755,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                   <tr>
                     <th>GRADE LEVEL</th>
                     <th>SUBJECT</th>
-                    <th>TOTAL ENROLLEES</th>
+                    <th>TOTAL ENROLLEES 2026-2027</th>
                     <th>TOTAL RECEIVED</th>
                     <th>GAPS</th>
                     <th>SURPLUS</th>
@@ -903,7 +942,7 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                       <tr>
                                         <th>GRADE LEVEL</th>
                                         <th>SUBJECT</th>
-                                        <th>TOTAL ENROLLEES</th>
+                                        <th>TOTAL ENROLLEES 2026-2027</th>
                                         <th>TOTAL RECEIVED</th>
                                         <th>GAPS</th>
                                         <th>SURPLUS</th>

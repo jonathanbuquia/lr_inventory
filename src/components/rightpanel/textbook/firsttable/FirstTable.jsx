@@ -12,10 +12,56 @@ const buildTextbooksUrl = (divisionSlug, schoolIdOrName) => {
 // Exact keys from your JSON rows
 const getGradeLevel = (r) => r?.["Grade Level"];
 const getSubject = (r) => r?.["SUBJECTS"] ?? "";
-const getEnrolled = (r) => Number(r?.["Enrolment S.Y. 2025-2026"] ?? 0);
-const getReceived = (r) => Number(r?.["Quantity of Textbooks Received"] ?? 0);
-const getGaps = (r) => Number(r?.["GAP-TX"] ?? 0);
-const getSurplus = (r) => Number(r?.["Surplus-TX"] ?? 0);
+
+const toNumber = (value) => {
+  if (value === null || value === undefined || value === "") return 0;
+  const parsed = Number(String(value).replace(/,/g, "").trim());
+  return Number.isNaN(parsed) ? 0 : parsed;
+};
+
+const pickFirstPositiveNumber = (...values) => {
+  for (const value of values) {
+    const numeric = toNumber(value);
+    if (numeric > 0) return numeric;
+  }
+
+  return 0;
+};
+
+const hasTextbook2026Values = (r) =>
+  pickFirstPositiveNumber(
+    r?.["Enrolment S.Y. 2026-2027"],
+    r?.["Enrollment S.Y. 2026-2027"],
+    r?.["Quantity of Textbooks Received S.Y. 2026-2027"]
+  ) > 0;
+
+const getEnrolled = (r) =>
+  pickFirstPositiveNumber(
+    r?.["Enrolment S.Y. 2026-2027"],
+    r?.["Enrollment S.Y. 2026-2027"],
+    r?.["Enrolment S.Y. 2025-2026"],
+    r?.["Enrollment S.Y. 2025-2026"],
+    r?.["Enrolment"],
+    r?.["Enrollment"]
+  );
+
+const getReceived = (r) =>
+  pickFirstPositiveNumber(
+    r?.["Quantity of Textbooks Received S.Y. 2026-2027"],
+    r?.["Quantity of Textbooks Received"],
+    r?.["Quantity Received"],
+    r?.["Received"]
+  );
+
+const getGaps = (r) =>
+  hasTextbook2026Values(r)
+    ? toNumber(r?.["GAP-TX S.Y. 2026-2027"])
+    : toNumber(r?.["GAP-TX"]);
+
+const getSurplus = (r) =>
+  hasTextbook2026Values(r)
+    ? toNumber(r?.["Surplus-TX S.Y. 2026-2027"])
+    : toNumber(r?.["Surplus-TX"]);
 
 const FirstTable = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
   const [rawRows, setRawRows] = useState([]);

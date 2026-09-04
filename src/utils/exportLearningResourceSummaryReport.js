@@ -58,7 +58,7 @@ const buildWorksheetXml = ({ sheetName, rows }) => {
   const headerRow = buildRow([
     buildCell("GRADE LEVEL", "String", "Header"),
     buildCell("SUBJECT", "String", "Header"),
-    buildCell("TOTAL ENROLLEES", "String", "Header"),
+    buildCell("TOTAL ENROLLEES 2026-2027", "String", "Header"),
     buildCell("TOTAL RECEIVED", "String", "Header"),
     buildCell("GAP", "String", "Header"),
     buildCell("SURPLUS", "String", "Header"),
@@ -146,7 +146,7 @@ const buildQuarterSectionXml = ({ quarter, rows }) => {
 
   const headerRow = buildRow([
     buildCell("SUBJECT", "String", "Header"),
-    buildCell("TOTAL ENROLLEES", "String", "Header"),
+    buildCell("TOTAL ENROLLEES 2026-2027", "String", "Header"),
     buildCell("TOTAL RECEIVED", "String", "Header"),
     buildCell("GAP", "String", "Header"),
     buildCell("SURPLUS", "String", "Header"),
@@ -264,7 +264,7 @@ const buildSchoolQuarterSectionXml = ({ quarter, rows }) => {
   const headerRow = buildRow([
     buildCell("GRADE LEVEL", "String", "Header"),
     buildCell("SUBJECT", "String", "Header"),
-    buildCell("TOTAL ENROLLEES", "String", "Header"),
+    buildCell("TOTAL ENROLLEES 2026-2027", "String", "Header"),
     buildCell("TOTAL RECEIVED", "String", "Header"),
     buildCell("GAP", "String", "Header"),
     buildCell("SURPLUS", "String", "Header"),
