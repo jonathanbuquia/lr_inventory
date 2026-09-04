@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T00:57:08.942Z",
+  "generatedAt": "2026-09-04T01:17:07.400Z",
   "years": [
     "2024",
     "2025",
@@ -212913,17 +212913,17 @@
         },
         "7": {
           "ve": 3968,
-          "english": 4077,
+          "english": 4006,
           "filipino": 0,
-          "science": 3066,
-          "araling-panlipunan": 3801,
-          "tle": 3709,
-          "music-and-arts": 4092,
-          "pe-and-health": 4034,
+          "science": 3182,
+          "araling-panlipunan": 3741,
+          "tle": 3660,
+          "music-and-arts": 4026,
+          "pe-and-health": 3977,
           "mathematics": 3221
         },
         "8": {
-          "ve": 3169,
+          "ve": 3163,
           "english": 3283,
           "filipino": 3283,
           "science": 3169,
@@ -212931,7 +212931,7 @@
           "tle": 2737,
           "music-and-arts": 0,
           "pe-and-health": 0,
-          "mathematics": 3169
+          "mathematics": 3185
         },
         "9": {
           "ve": 0,
@@ -212946,7 +212946,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 1034,
+          "english": 1945,
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 0,
@@ -213188,7 +213188,7 @@
           "english": {
             "2024": 0,
             "2025": 3908,
-            "2026": 169
+            "2026": 98
           },
           "filipino": {
             "2024": 0,
@@ -213198,27 +213198,27 @@
           "science": {
             "2024": 2937,
             "2025": 0,
-            "2026": 129
+            "2026": 245
           },
           "araling-panlipunan": {
             "2024": 0,
             "2025": 3660,
-            "2026": 141
+            "2026": 81
           },
           "tle": {
             "2024": 0,
             "2025": 3660,
-            "2026": 49
+            "2026": 0
           },
           "music-and-arts": {
             "2024": 0,
             "2025": 3662,
-            "2026": 430
+            "2026": 364
           },
           "pe-and-health": {
             "2024": 696,
             "2025": 2964,
-            "2026": 374
+            "2026": 317
           },
           "mathematics": {
             "2024": 3221,
@@ -213230,7 +213230,7 @@
           "ve": {
             "2024": 0,
             "2025": 2785,
-            "2026": 384
+            "2026": 378
           },
           "english": {
             "2024": 0,
@@ -213270,7 +213270,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 3169,
-            "2026": 0
+            "2026": 16
           }
         },
         "9": {
@@ -213329,7 +213329,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 1034
+            "2026": 1945
           },
           "filipino": {
             "2024": 0,
@@ -213375,14 +213375,14 @@
         "4": 3921,
         "5": 3951,
         "6": 3847,
-        "7": 3410,
-        "8": 3768,
-        "9": 3288,
-        "10": 2829
+        "7": 3349,
+        "8": 3765,
+        "9": 3292,
+        "10": 2826
       },
-      "enrollmentTotal": 35922,
-      "deliveredTotal": 166127,
-      "deliveryPercentage": 462.47,
+      "enrollmentTotal": 35859,
+      "deliveredTotal": 166861,
+      "deliveryPercentage": 465.33,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -219285,17 +219285,17 @@
             },
             "7": {
               "ve": 1086,
-              "english": 1086,
+              "english": 1015,
               "filipino": 0,
               "science": 946,
-              "araling-panlipunan": 1086,
-              "tle": 1086,
-              "music-and-arts": 1086,
-              "pe-and-health": 1086,
-              "mathematics": 960
+              "araling-panlipunan": 1026,
+              "tle": 1024,
+              "music-and-arts": 1020,
+              "pe-and-health": 1029,
+              "mathematics": 943
             },
             "8": {
-              "ve": 799,
+              "ve": 793,
               "english": 799,
               "filipino": 913,
               "science": 799,
@@ -219303,7 +219303,7 @@
               "tle": 799,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 799
+              "mathematics": 763
             },
             "9": {
               "ve": 0,
@@ -219318,7 +219318,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 911,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -219559,7 +219559,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 1086,
+                "2025": 1015,
                 "2026": 0
               },
               "filipino": {
@@ -219574,26 +219574,26 @@
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 1086,
+                "2025": 1026,
                 "2026": 0
               },
               "tle": {
                 "2024": 0,
-                "2025": 1086,
+                "2025": 1024,
                 "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 1086,
+                "2025": 1020,
                 "2026": 0
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 1086,
+                "2025": 1029,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 960,
+                "2024": 943,
                 "2025": 0,
                 "2026": 0
               }
@@ -219601,7 +219601,7 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 799,
+                "2025": 793,
                 "2026": 0
               },
               "english": {
@@ -219641,7 +219641,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 799,
+                "2025": 763,
                 "2026": 0
               }
             },
@@ -219701,7 +219701,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 911
               },
               "filipino": {
                 "2024": 0,
@@ -219753,8 +219753,8 @@
             "10": 743
           },
           "enrollmentTotal": 3380,
-          "deliveredTotal": 13330,
-          "deliveryPercentage": 394.38
+          "deliveredTotal": 13866,
+          "deliveryPercentage": 410.24
         },
         {
           "id": "navotas-national-science-high-school",
@@ -219818,7 +219818,7 @@
               "ve": 0,
               "english": 116,
               "filipino": 0,
-              "science": 0,
+              "science": 116,
               "araling-panlipunan": 116,
               "tle": 116,
               "music-and-arts": 118,
@@ -219834,7 +219834,7 @@
               "tle": 0,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 114
             },
             "9": {
               "ve": 0,
@@ -220100,7 +220100,7 @@
               },
               "science": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 116,
                 "2026": 0
               },
               "araling-panlipunan": {
@@ -220172,7 +220172,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 114,
                 "2026": 0
               }
             },
@@ -220278,14 +220278,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 105,
-            "8": 108,
-            "9": 98,
-            "10": 100
+            "7": 44,
+            "8": 105,
+            "9": 102,
+            "10": 97
           },
-          "enrollmentTotal": 411,
-          "deliveredTotal": 802,
-          "deliveryPercentage": 195.13
+          "enrollmentTotal": 348,
+          "deliveredTotal": 1032,
+          "deliveryPercentage": 296.55
         },
         {
           "id": "north-bay-boulevard-elementary-school",
