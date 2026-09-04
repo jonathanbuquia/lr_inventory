@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T00:37:24.509Z",
+  "generatedAt": "2026-09-04T00:57:08.942Z",
   "years": [
     "2024",
     "2025",
@@ -212865,7 +212865,7 @@
           "mathematics": 4044
         },
         "2": {
-          "gmrc": 2313,
+          "gmrc": 2448,
           "reading-and-literacy": 0,
           "language": 952,
           "makabansa": 4588,
@@ -212898,7 +212898,7 @@
           "epp": 4833,
           "music-and-arts": 0,
           "pe-and-health": 4833,
-          "mathematics": 0
+          "mathematics": 139
         },
         "6": {
           "gmrc": 0,
@@ -212988,7 +212988,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2313
+            "2026": 2448
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -213129,7 +213129,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 139
           }
         },
         "6": {
@@ -213369,20 +213369,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 3507,
-        "2": 3476,
-        "3": 3911,
-        "4": 3931,
+        "1": 3502,
+        "2": 3470,
+        "3": 3936,
+        "4": 3921,
         "5": 3951,
-        "6": 3864,
-        "7": 3538,
-        "8": 3890,
-        "9": 3115,
-        "10": 2786
+        "6": 3847,
+        "7": 3410,
+        "8": 3768,
+        "9": 3288,
+        "10": 2829
       },
-      "enrollmentTotal": 35969,
-      "deliveredTotal": 165853,
-      "deliveryPercentage": 461.1,
+      "enrollmentTotal": 35922,
+      "deliveredTotal": 166127,
+      "deliveryPercentage": 462.47,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -218706,7 +218706,7 @@
               "mathematics": 124
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 135,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 135,
@@ -218739,7 +218739,7 @@
               "epp": 99,
               "music-and-arts": 0,
               "pe-and-health": 99,
-              "mathematics": 0
+              "mathematics": 139
             },
             "6": {
               "gmrc": 0,
@@ -218829,7 +218829,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 135
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -218970,7 +218970,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 139
               }
             },
             "6": {
@@ -219210,20 +219210,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 110,
-            "2": 110,
-            "3": 81,
-            "4": 90,
+            "1": 105,
+            "2": 104,
+            "3": 106,
+            "4": 80,
             "5": 79,
-            "6": 95,
+            "6": 78,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 565,
-          "deliveredTotal": 3124,
-          "deliveryPercentage": 552.92
+          "enrollmentTotal": 552,
+          "deliveredTotal": 3398,
+          "deliveryPercentage": 615.58
         },
         {
           "id": "navotas-national-high-school",
@@ -219747,14 +219747,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 925,
-            "8": 1017,
-            "9": 772,
-            "10": 700
+            "7": 797,
+            "8": 895,
+            "9": 945,
+            "10": 743
           },
-          "enrollmentTotal": 3414,
+          "enrollmentTotal": 3380,
           "deliveredTotal": 13330,
-          "deliveryPercentage": 390.45
+          "deliveryPercentage": 394.38
         },
         {
           "id": "navotas-national-science-high-school",
