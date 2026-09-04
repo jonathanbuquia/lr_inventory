@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T00:32:27.404Z",
+  "generatedAt": "2026-09-04T00:37:24.509Z",
   "years": [
     "2024",
     "2025",
@@ -179381,20 +179381,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5126,
-        "2": 4983,
-        "3": 5493,
-        "4": 5760,
-        "5": 5944,
-        "6": 5718,
-        "7": 4660,
-        "8": 4887,
-        "9": 4067,
-        "10": 4464
+        "1": 5845,
+        "2": 5775,
+        "3": 6309,
+        "4": 6591,
+        "5": 6822,
+        "6": 6567,
+        "7": 6807,
+        "8": 7104,
+        "9": 6091,
+        "10": 6642
       },
-      "enrollmentTotal": 51102,
+      "enrollmentTotal": 64553,
       "deliveredTotal": 280337,
-      "deliveryPercentage": 548.58,
+      "deliveryPercentage": 434.27,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -180974,20 +180974,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
+            "1": 243,
+            "2": 298,
+            "3": 314,
+            "4": 323,
+            "5": 377,
+            "6": 342,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 1897,
           "deliveredTotal": 7479,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 394.25
         },
         {
           "id": "concepcion-integrated-school",
@@ -181505,20 +181505,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "1": 476,
+            "2": 494,
+            "3": 502,
+            "4": 508,
+            "5": 501,
+            "6": 507,
+            "7": 692,
+            "8": 673,
+            "9": 587,
+            "10": 649
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 5589,
           "deliveredTotal": 21606,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 386.58
         },
         {
           "id": "fortune-elementary-school",
@@ -182573,14 +182573,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "7": 612,
+            "8": 647,
+            "9": 477,
+            "10": 589
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 2325,
           "deliveredTotal": 9664,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 415.66
         },
         {
           "id": "h-bautista-elementary-school",
@@ -184697,14 +184697,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "7": 125,
+            "8": 148,
+            "9": 149,
+            "10": 136
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 558,
           "deliveredTotal": 2794,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 500.72
         },
         {
           "id": "kalumpang-elementary-school",
@@ -195848,14 +195848,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0,
-            "8": 0,
-            "9": 0,
-            "10": 0
+            "7": 718,
+            "8": 749,
+            "9": 811,
+            "10": 804
           },
-          "enrollmentTotal": 0,
+          "enrollmentTotal": 3082,
           "deliveredTotal": 12490,
-          "deliveryPercentage": 0
+          "deliveryPercentage": 405.26
         },
         {
           "id": "sto-nino-elemrntary-school",
