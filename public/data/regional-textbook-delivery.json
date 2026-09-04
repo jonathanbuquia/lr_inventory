@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T02:40:09.755Z",
+  "generatedAt": "2026-09-04T02:52:37.639Z",
   "years": [
     "2024",
     "2025",
@@ -106650,10 +106650,10 @@
       "name": "MANDALUYONG",
       "totals": {
         "1": {
-          "gmrc": 3893,
-          "reading-and-literacy": 4339,
-          "language": 4184,
-          "makabansa": 4184,
+          "gmrc": 4203,
+          "reading-and-literacy": 4649,
+          "language": 4494,
+          "makabansa": 4124,
           "mathematics": 796
         },
         "2": {
@@ -106704,9 +106704,9 @@
           "mathematics": 0
         },
         "7": {
-          "ve": 5205,
+          "ve": 4723,
           "english": 5205,
-          "filipino": 5205,
+          "filipino": 4723,
           "science": 2933,
           "araling-panlipunan": 5205,
           "tle": 5205,
@@ -106753,22 +106753,22 @@
           "gmrc": {
             "2024": 1820,
             "2025": 2068,
-            "2026": 5
+            "2026": 315
           },
           "reading-and-literacy": {
             "2024": 2517,
             "2025": 1407,
-            "2026": 415
+            "2026": 725
           },
           "language": {
             "2024": 507,
             "2025": 2219,
-            "2026": 1458
+            "2026": 1768
           },
           "makabansa": {
             "2024": 0,
             "2025": 3924,
-            "2026": 260
+            "2026": 200
           },
           "mathematics": {
             "2024": 285,
@@ -106975,7 +106975,7 @@
           "ve": {
             "2024": 0,
             "2025": 0,
-            "2026": 5205
+            "2026": 4723
           },
           "english": {
             "2024": 0,
@@ -106985,7 +106985,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 5205
+            "2026": 4723
           },
           "science": {
             "2024": 2257,
@@ -107161,20 +107161,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 3556,
-        "2": 3584,
-        "3": 3500,
+        "1": 3546,
+        "2": 3600,
+        "3": 3504,
         "4": 4406,
-        "5": 4260,
+        "5": 4266,
         "6": 3131,
         "7": 4115,
         "8": 4041,
         "9": 3025,
         "10": 3409
       },
-      "enrollmentTotal": 37027,
-      "deliveredTotal": 152353,
-      "deliveryPercentage": 411.46,
+      "enrollmentTotal": 37043,
+      "deliveredTotal": 152259,
+      "deliveryPercentage": 411.03,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -107185,21 +107185,21 @@
               "reading-and-literacy": 370,
               "language": 370,
               "makabansa": 370,
-              "mathematics": 0
+              "mathematics": 375
             },
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 435,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 368,
+              "mathematics": 368
             },
             "4": {
               "gmrc": 439,
@@ -107209,11 +107209,11 @@
               "araling-panlipunan": 439,
               "epp": 0,
               "music-and-arts": 0,
-              "pe-and-health": 439,
+              "pe-and-health": 420,
               "mathematics": 439
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 375,
               "english": 356,
               "filipino": 0,
               "science": 356,
@@ -107298,7 +107298,7 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 370,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -107398,7 +107398,7 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 439,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -107506,7 +107506,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 482
+                "2026": 0
               },
               "english": {
                 "2024": 0,
@@ -107516,7 +107516,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 482
+                "2026": 0
               },
               "science": {
                 "2024": 482,
@@ -107704,8 +107704,8 @@
             "10": 392
           },
           "enrollmentTotal": 3340,
-          "deliveredTotal": 12357,
-          "deliveryPercentage": 369.97
+          "deliveredTotal": 14259,
+          "deliveryPercentage": 426.92
         },
         {
           "id": "amado-t-reyes-elementary-schools",
@@ -111940,20 +111940,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 77,
-            "2": 63,
-            "3": 58,
+            "1": 67,
+            "2": 79,
+            "3": 62,
             "4": 76,
-            "5": 64,
+            "5": 70,
             "6": 65,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 403,
+          "enrollmentTotal": 419,
           "deliveredTotal": 1466,
-          "deliveryPercentage": 363.77
+          "deliveryPercentage": 349.88
         },
         {
           "id": "highway-hills-integrated-school",
@@ -112593,22 +112593,22 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 310,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 310,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 310,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 310,
                 "2026": 0
               },
               "mathematics": {
