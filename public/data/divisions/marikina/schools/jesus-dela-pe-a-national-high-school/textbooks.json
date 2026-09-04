@@ -110,6 +110,17 @@
       "USABLE": 204
     },
     {
+      "Grade Level": "",
+      "SUBJECTS": "",
+      "Enrolment S.Y. 2026-20267": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 0,
+      "USABLE": ""
+    },
+    {
       "Grade Level": 8,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2026-20267": 148,
@@ -205,6 +216,17 @@
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 148,
+      "Surplus-TX": 0,
+      "USABLE": ""
+    },
+    {
+      "Grade Level": "",
+      "SUBJECTS": "",
+      "Enrolment S.Y. 2026-20267": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
       "Surplus-TX": 0,
       "USABLE": ""
     },
@@ -319,6 +341,17 @@
       "USABLE": 121
     },
     {
+      "Grade Level": "",
+      "SUBJECTS": "",
+      "Enrolment S.Y. 2026-20267": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 0,
+      "USABLE": ""
+    },
+    {
       "Grade Level": 10,
       "SUBJECTS": "English",
       "Enrolment S.Y. 2026-20267": 136,
@@ -427,6 +460,17 @@
       "GAP-TX": 0,
       "Surplus-TX": 110,
       "USABLE": 188
+    },
+    {
+      "Grade Level": "",
+      "SUBJECTS": "",
+      "Enrolment S.Y. 2026-20267": "",
+      "Quantity of Textbooks Received": "",
+      "Year of Delivery-TX": "",
+      "SOURCE-TX (CO,RO, SDO)": "",
+      "GAP-TX": 0,
+      "Surplus-TX": 0,
+      "USABLE": ""
     },
     {
       "Grade Level": "SHS",
@@ -539,5 +583,5 @@
       "USABLE": 92
     }
   ],
-  "generatedAt": "2026-06-30T02:46:39.677Z"
+  "generatedAt": "2026-09-04T00:11:09.573Z"
 }
