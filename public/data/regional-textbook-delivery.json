@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T05:42:31.117Z",
+  "generatedAt": "2026-09-04T05:47:30.433Z",
   "years": [
     "2024",
     "2025",
@@ -106716,13 +106716,13 @@
         },
         "8": {
           "ve": 5007,
-          "english": 963,
-          "filipino": 965,
+          "english": 1796,
+          "filipino": 1798,
           "science": 5007,
           "araling-panlipunan": 178,
           "tle": 4089,
           "music-and-arts": 393,
-          "pe-and-health": 963,
+          "pe-and-health": 1796,
           "mathematics": 5007
         },
         "9": {
@@ -106738,7 +106738,7 @@
         },
         "10": {
           "ve": 814,
-          "english": 660,
+          "english": 1459,
           "filipino": 2342,
           "science": 810,
           "araling-panlipunan": 610,
@@ -107027,12 +107027,12 @@
           "english": {
             "2024": 0,
             "2025": 796,
-            "2026": 167
+            "2026": 1000
           },
           "filipino": {
             "2024": 0,
             "2025": 798,
-            "2026": 167
+            "2026": 1000
           },
           "science": {
             "2024": 0,
@@ -107057,7 +107057,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 796,
-            "2026": 167
+            "2026": 1000
           },
           "mathematics": {
             "2024": 0,
@@ -107121,7 +107121,7 @@
           "english": {
             "2024": 0,
             "2025": 75,
-            "2026": 585
+            "2026": 1384
           },
           "filipino": {
             "2024": 1545,
@@ -107173,8 +107173,8 @@
         "10": 3409
       },
       "enrollmentTotal": 37032,
-      "deliveredTotal": 161151,
-      "deliveryPercentage": 435.17,
+      "deliveredTotal": 164449,
+      "deliveryPercentage": 444.07,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -116274,13 +116274,13 @@
             },
             "8": {
               "ve": 833,
-              "english": 0,
-              "filipino": 0,
+              "english": 833,
+              "filipino": 833,
               "science": 833,
               "araling-panlipunan": 0,
               "tle": 833,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 833,
               "mathematics": 833
             },
             "9": {
@@ -116296,7 +116296,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 799,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -116585,12 +116585,12 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 833
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 833
               },
               "science": {
                 "2024": 0,
@@ -116615,7 +116615,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 833
               },
               "mathematics": {
                 "2024": 0,
@@ -116679,7 +116679,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 799
               },
               "filipino": {
                 "2024": 0,
@@ -116731,8 +116731,8 @@
             "10": 743
           },
           "enrollmentTotal": 2942,
-          "deliveredTotal": 11189,
-          "deliveryPercentage": 380.32
+          "deliveredTotal": 14487,
+          "deliveryPercentage": 492.42
         },
         {
           "id": "nueve-de-febrero-elementary-school",
@@ -213375,14 +213375,14 @@
         "4": 3833,
         "5": 3893,
         "6": 3631,
-        "7": 3166,
-        "8": 3659,
-        "9": 3622,
-        "10": 2723
+        "7": 3152,
+        "8": 3621,
+        "9": 3700,
+        "10": 2680
       },
-      "enrollmentTotal": 34863,
+      "enrollmentTotal": 34846,
       "deliveredTotal": 170990,
-      "deliveryPercentage": 490.46,
+      "deliveryPercentage": 490.7,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -226119,14 +226119,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 379,
-            "8": 410,
-            "9": 310,
-            "10": 313
+            "7": 365,
+            "8": 372,
+            "9": 388,
+            "10": 270
           },
-          "enrollmentTotal": 1412,
+          "enrollmentTotal": 1395,
           "deliveredTotal": 4716,
-          "deliveryPercentage": 333.99
+          "deliveryPercentage": 338.06
         },
         {
           "id": "wawa-elementary-school",
