@@ -148,14 +148,19 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     ).trim();
   };
 
-  const getEnrollmentValue = useCallback((row) => {
+  const getEnrollment2025Value = useCallback((row) => {
     return pickFirstPositiveNumber(
-      row?.["Enrolment S.Y. 2026-2027"],
-      row?.["Enrollment S.Y. 2026-2027"],
       row?.["Enrolment S.Y. 2025-2026"],
       row?.["Enrollment S.Y. 2025-2026"],
       row?.["Enrolment"],
       row?.["Enrollment"]
+    );
+  }, [pickFirstPositiveNumber]);
+
+  const getEnrollment2026Value = useCallback((row) => {
+    return pickFirstPositiveNumber(
+      row?.["Enrolment S.Y. 2026-2027"],
+      row?.["Enrollment S.Y. 2026-2027"]
     );
   }, [pickFirstPositiveNumber]);
 
@@ -206,7 +211,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
   const rowHasData = useCallback((rowLike) => {
     return (
-      normalizeNumber(rowLike?.enrolled) > 0 ||
+      normalizeNumber(rowLike?.enrolled2025) > 0 ||
+      normalizeNumber(rowLike?.enrolled2026) > 0 ||
       normalizeNumber(rowLike?.received) > 0 ||
       normalizeNumber(rowLike?.gaps) > 0 ||
       normalizeNumber(rowLike?.surplus) > 0
@@ -354,7 +360,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       const schoolName = row.__schoolName || "Unknown School";
       const grade = normalizeGrade(row?.["Grade Level"]);
       const subject = getSubjectValue(row);
-      const enrolled = getEnrollmentValue(row);
+      const enrolled2025 = getEnrollment2025Value(row);
+      const enrolled2026 = getEnrollment2026Value(row);
       const received = getReceivedValue(row);
       const gaps = getGapValue(row);
       const surplus = getSurplusValue(row);
@@ -383,13 +390,23 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           grade,
           subject: safeSubject,
           enrolled: 0,
+          enrolled2025: 0,
+          enrolled2026: 0,
           received: 0,
           gaps: 0,
           surplus: 0,
         };
       }
 
-      grouped[key].enrolled = pickGradeEnrollment(grouped[key].enrolled, enrolled);
+      grouped[key].enrolled2025 = pickGradeEnrollment(
+        grouped[key].enrolled2025,
+        enrolled2025
+      );
+      grouped[key].enrolled2026 = pickGradeEnrollment(
+        grouped[key].enrolled2026,
+        enrolled2026
+      );
+      grouped[key].enrolled = grouped[key].enrolled2026;
       grouped[key].received += received;
       grouped[key].gaps += gaps;
       grouped[key].surplus += surplus;
@@ -406,7 +423,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     });
   }, [
     rows,
-    getEnrollmentValue,
+    getEnrollment2025Value,
+    getEnrollment2026Value,
     getGapValue,
     getReceivedValue,
     getSurplusValue,
@@ -423,6 +441,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           schoolName: item.schoolName,
           totals: {
             enrolled: 0,
+            enrolled2025: 0,
+            enrolled2026: 0,
             received: 0,
             gaps: 0,
             surplus: 0,
@@ -440,6 +460,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           grade: item.grade,
           totals: {
             enrolled: 0,
+            enrolled2025: 0,
+            enrolled2026: 0,
             received: 0,
             gaps: 0,
             surplus: 0,
@@ -449,11 +471,18 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         };
       }
 
-      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled =
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled2025 =
         pickGradeEnrollment(
-          schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled,
-          item.enrolled
+          schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled2025,
+          item.enrolled2025
         );
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled2026 =
+        pickGradeEnrollment(
+          schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled2026,
+          item.enrolled2026
+        );
+      schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled =
+        schoolMap[item.schoolId].gradeMap[item.grade].totals.enrolled2026;
       schoolMap[item.schoolId].gradeMap[item.grade].totals.received += item.received;
       schoolMap[item.schoolId].gradeMap[item.grade].totals.gaps += item.gaps;
       schoolMap[item.schoolId].gradeMap[item.grade].totals.surplus += item.surplus;
@@ -468,7 +497,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         const grades = Object.values(school.gradeMap)
           .map((gradeBlock) => {
             const hasGradeData =
-              gradeBlock.totals.enrolled > 0 ||
+              gradeBlock.totals.enrolled2025 > 0 ||
+              gradeBlock.totals.enrolled2026 > 0 ||
               gradeBlock.totals.received > 0 ||
               gradeBlock.totals.gaps > 0 ||
               gradeBlock.totals.surplus > 0;
@@ -490,10 +520,15 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           })
           .sort((a, b) => gradeSortValue(a.grade) - gradeSortValue(b.grade));
 
-        school.totals.enrolled = grades.reduce(
-          (sum, gradeBlock) => sum + normalizeNumber(gradeBlock.totals.enrolled),
+        school.totals.enrolled2025 = grades.reduce(
+          (sum, gradeBlock) => sum + normalizeNumber(gradeBlock.totals.enrolled2025),
           0
         );
+        school.totals.enrolled2026 = grades.reduce(
+          (sum, gradeBlock) => sum + normalizeNumber(gradeBlock.totals.enrolled2026),
+          0
+        );
+        school.totals.enrolled = school.totals.enrolled2026;
 
         const relevantGrades = grades.filter((gradeBlock) => {
           return !(
@@ -505,6 +540,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         const gradesWithData = relevantGrades.filter((gradeBlock) => {
           return (
             gradeBlock.totals.enrolled > 0 ||
+            gradeBlock.totals.enrolled2025 > 0 ||
+            gradeBlock.totals.enrolled2026 > 0 ||
             gradeBlock.totals.received > 0 ||
             gradeBlock.totals.gaps > 0 ||
             gradeBlock.totals.surplus > 0
@@ -516,7 +553,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         );
 
         const hasSchoolData =
-          school.totals.enrolled > 0 ||
+          school.totals.enrolled2025 > 0 ||
+          school.totals.enrolled2026 > 0 ||
           school.totals.received > 0 ||
           school.totals.gaps > 0 ||
           school.totals.surplus > 0;
@@ -562,6 +600,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
               gradeLabel: formatGradeLabel(gradeBlock.grade),
               subject: "NO DATA",
               enrolled: 0,
+              enrolled2025: 0,
+              enrolled2026: 0,
               received: 0,
               gaps: 0,
               surplus: 0,
@@ -573,7 +613,9 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
         return gradeBlock.rows.map((item) => ({
           gradeLabel: formatGradeLabel(item.grade),
           subject: item.subject === "(No Subject)" ? "-" : item.subject,
-          enrolled: item.enrolled,
+          enrolled: item.enrolled2026,
+          enrolled2025: item.enrolled2025,
+          enrolled2026: item.enrolled2026,
           received: item.received,
           gaps: item.gaps,
           surplus: item.surplus,
@@ -590,7 +632,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
     return accordionSchools.reduce(
       (summary, school) => ({
         schoolCount: summary.schoolCount,
-        enrolled: summary.enrolled + normalizeNumber(school.totals.enrolled),
+        enrolled: summary.enrolled + normalizeNumber(school.totals.enrolled2026),
+        enrolled2025:
+          summary.enrolled2025 + normalizeNumber(school.totals.enrolled2025),
+        enrolled2026:
+          summary.enrolled2026 + normalizeNumber(school.totals.enrolled2026),
         received: summary.received + normalizeNumber(school.totals.received),
         gaps: summary.gaps + normalizeNumber(school.totals.gaps),
         surplus: summary.surplus + normalizeNumber(school.totals.surplus),
@@ -598,6 +644,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
       {
         schoolCount: divisionSchoolCount || accordionSchools.length,
         enrolled: 0,
+        enrolled2025: 0,
+        enrolled2026: 0,
         received: 0,
         gaps: 0,
         surplus: 0,
@@ -618,13 +666,17 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
           gradeLabel: formatGradeLabel(item.grade),
           subject,
           enrolled: 0,
+          enrolled2025: 0,
+          enrolled2026: 0,
           received: 0,
           gaps: 0,
           surplus: 0,
         };
       }
 
-      grouped[key].enrolled += normalizeNumber(item.enrolled);
+      grouped[key].enrolled2025 += normalizeNumber(item.enrolled2025);
+      grouped[key].enrolled2026 += normalizeNumber(item.enrolled2026);
+      grouped[key].enrolled = grouped[key].enrolled2026;
       grouped[key].received += normalizeNumber(item.received);
       grouped[key].gaps += normalizeNumber(item.gaps);
       grouped[key].surplus += normalizeNumber(item.surplus);
@@ -727,10 +779,20 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                 <span className="dctSummaryLabel">
                   Total Enrollees
                   <br />
+                  2025-2026
+                </span>
+                <span className="dctSummaryValue">
+                  {formatNumber(divisionSummary.enrolled2025)}
+                </span>
+              </div>
+              <div className="dctSummaryCard dctSummaryCard--current">
+                <span className="dctSummaryLabel">
+                  Total Enrollees
+                  <br />
                   2026-2027
                 </span>
                 <span className="dctSummaryValue">
-                  {formatNumber(divisionSummary.enrolled)}
+                  {formatNumber(divisionSummary.enrolled2026)}
                 </span>
               </div>
               <div className="dctSummaryCard">
@@ -762,6 +824,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                     <th>
                       TOTAL ENROLLEES
                       <br />
+                      2025-2026
+                    </th>
+                    <th>
+                      TOTAL ENROLLEES
+                      <br />
                       2026-2027
                     </th>
                     <th>TOTAL RECEIVED</th>
@@ -775,7 +842,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                       <td>{item.gradeLabel}</td>
                       <td>{item.subject === "(No Subject)" ? "-" : item.subject}</td>
                       <td className="dctNumberCell">
-                        {formatNumber(item.enrolled)}
+                        {formatNumber(item.enrolled2025)}
+                      </td>
+                      <td className="dctNumberCell">
+                        {formatNumber(item.enrolled2026)}
                       </td>
                       <td className="dctNumberCell">
                         {formatNumber(item.received)}
@@ -830,9 +900,16 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
 
                   <div className="dctAccordionHeaderRight">
                     <span className="dctAccordionStat">
-                      <span className="dctAccordionStatLabel">Enrollees</span>
+                      <span className="dctAccordionStatLabel">Enrollees 2025-2026</span>
                       <span className="dctAccordionStatValue">
-                        {formatNumber(school.totals.enrolled)}
+                        {formatNumber(school.totals.enrolled2025)}
+                      </span>
+                    </span>
+
+                    <span className="dctAccordionStat">
+                      <span className="dctAccordionStatLabel">Enrollees 2026-2027</span>
+                      <span className="dctAccordionStatValue">
+                        {formatNumber(school.totals.enrolled2026)}
                       </span>
                     </span>
 
@@ -867,7 +944,8 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                         const isGradeOpen = !!openGrades[gradeKey];
 
                         const hasGradeData =
-                          gradeBlock.totals.enrolled > 0 ||
+                          gradeBlock.totals.enrolled2025 > 0 ||
+                          gradeBlock.totals.enrolled2026 > 0 ||
                           gradeBlock.totals.received > 0 ||
                           gradeBlock.totals.gaps > 0 ||
                           gradeBlock.totals.surplus > 0;
@@ -911,9 +989,16 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                 {hasGradeData ? (
                                   <>
                                     <span className="dctAccordionStat dctAccordionStat--small">
-                                      <span className="dctAccordionStatLabel">Enrollees</span>
+                                      <span className="dctAccordionStatLabel">Enrollees 2025-2026</span>
                                       <span className="dctAccordionStatValue">
-                                        {formatNumber(gradeBlock.totals.enrolled)}
+                                        {formatNumber(gradeBlock.totals.enrolled2025)}
+                                      </span>
+                                    </span>
+
+                                    <span className="dctAccordionStat dctAccordionStat--small">
+                                      <span className="dctAccordionStatLabel">Enrollees 2026-2027</span>
+                                      <span className="dctAccordionStatValue">
+                                        {formatNumber(gradeBlock.totals.enrolled2026)}
                                       </span>
                                     </span>
 
@@ -953,6 +1038,11 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                         <th>
                                           TOTAL ENROLLEES
                                           <br />
+                                          2025-2026
+                                        </th>
+                                        <th>
+                                          TOTAL ENROLLEES
+                                          <br />
                                           2026-2027
                                         </th>
                                         <th>TOTAL RECEIVED</th>
@@ -978,7 +1068,10 @@ const DivisionConsolidatedTable = ({ selectedDivision }) => {
                                               : item.subject}
                                           </td>
                                           <td className="dctNumberCell">
-                                            {formatNumber(item.enrolled)}
+                                            {formatNumber(item.enrolled2025)}
+                                          </td>
+                                          <td className="dctNumberCell">
+                                            {formatNumber(item.enrolled2026)}
                                           </td>
                                           <td className="dctNumberCell">
                                             {formatNumber(item.received)}

@@ -35,14 +35,18 @@ const hasTextbook2026Values = (r) =>
     r?.["Quantity of Textbooks Received S.Y. 2026-2027"]
   ) > 0;
 
-const getEnrolled = (r) =>
+const getEnrolled2025 = (r) =>
   pickFirstPositiveNumber(
-    r?.["Enrolment S.Y. 2026-2027"],
-    r?.["Enrollment S.Y. 2026-2027"],
     r?.["Enrolment S.Y. 2025-2026"],
     r?.["Enrollment S.Y. 2025-2026"],
     r?.["Enrolment"],
     r?.["Enrollment"]
+  );
+
+const getEnrolled2026 = (r) =>
+  pickFirstPositiveNumber(
+    r?.["Enrolment S.Y. 2026-2027"],
+    r?.["Enrollment S.Y. 2026-2027"]
   );
 
 const getReceived = (r) =>
@@ -114,22 +118,27 @@ const FirstTable = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
     return ["ALL", ...Array.from(set).sort((a, b) => Number(a) - Number(b))];
   }, [rawRows]);
 
-  // ✅ Enrolled summary per grade:
+  // Enrolled summary per grade:
   // "If you see a data you need on grade 1 then that's it move on to next grade level"
   const enrolledByGrade = useMemo(() => {
-    const map = new Map(); // grade -> enrolled
+    const map = new Map(); // grade -> enrolled pair
     rawRows.forEach((r) => {
       const g = getGradeLevel(r);
       if (g === undefined || g === null || g === "") return;
       const key = String(g);
 
       // only take the FIRST row we encounter for that grade
-      if (!map.has(key)) map.set(key, getEnrolled(r));
+      if (!map.has(key)) {
+        map.set(key, {
+          enrolled2025: getEnrolled2025(r),
+          enrolled2026: getEnrolled2026(r),
+        });
+      }
     });
 
     // return as sorted array
     return Array.from(map.entries())
-      .map(([grade, enrolled]) => ({ grade, enrolled }))
+      .map(([grade, values]) => ({ grade, ...values }))
       .sort((a, b) => Number(a.grade) - Number(b.grade));
   }, [rawRows]);
 
@@ -168,7 +177,9 @@ const FirstTable = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
           ) : (
             enrolledByGrade.map((x) => (
               <span key={x.grade} className="ftGradeChip">
-                <b>G{x.grade}:</b>&nbsp;{Number(x.enrolled || 0).toLocaleString()}
+                <b>G{x.grade}:</b>&nbsp;2025 {Number(x.enrolled2025 || 0).toLocaleString()}
+                <span className="ftGradeChipDivider">|</span>
+                2026 {Number(x.enrolled2026 || 0).toLocaleString()}
               </span>
             ))
           )}
@@ -184,7 +195,8 @@ const FirstTable = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
             <thead>
               <tr>
                 <th>SUBJECT</th>
-                <th className="num">ENROLLED</th>
+                <th className="num">ENROLLED 2025-2026</th>
+                <th className="num">ENROLLED 2026-2027</th>
                 <th className="num">RECEIVED</th>
                 <th className="num">GAPS</th>
                 <th className="num">SURPLUS</th>
@@ -194,7 +206,7 @@ const FirstTable = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
             <tbody>
               {filteredRows.length === 0 ? (
                 <tr>
-                  <td className="ftEmpty" colSpan={5}>
+                  <td className="ftEmpty" colSpan={6}>
                     No rows found.
                   </td>
                 </tr>
@@ -206,7 +218,8 @@ const FirstTable = ({ selectedDivisionSlug, selectedSchoolFolderName }) => {
                       <div className="subjSub">Grade {String(getGradeLevel(r))}</div>
                     </td>
 
-                    <td className="num">{getEnrolled(r).toLocaleString()}</td>
+                    <td className="num">{getEnrolled2025(r).toLocaleString()}</td>
+                    <td className="num">{getEnrolled2026(r).toLocaleString()}</td>
                     <td className="num">{getReceived(r).toLocaleString()}</td>
                     <td className="num">{getGaps(r).toLocaleString()}</td>
                     <td className="num">{getSurplus(r).toLocaleString()}</td>

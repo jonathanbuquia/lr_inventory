@@ -50,7 +50,7 @@
 .ftTable {
   width: 100%;
   border-collapse: collapse;
-  min-width: 760px;
+  min-width: 880px;
 }
 
 .ftTable thead th {
@@ -120,6 +120,12 @@
   padding: 6px 10px;
   font-size: 12px;
   white-space: nowrap;
+}
+
+.ftGradeChipDivider {
+  display: inline-block;
+  margin: 0 6px;
+  color: #94a3b8;
 }
 
 .ftGradeChip.muted {

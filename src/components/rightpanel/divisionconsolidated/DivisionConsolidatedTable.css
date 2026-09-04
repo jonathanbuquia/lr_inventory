@@ -113,7 +113,7 @@
 
 .dctSummaryGrid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(140px, 1fr));
+  grid-template-columns: repeat(6, minmax(130px, 1fr));
   gap: 12px;
 }
 
@@ -132,6 +132,11 @@
 .dctSummaryCard--gap {
   border-color: #fed7aa;
   background: #fff7ed;
+}
+
+.dctSummaryCard--current {
+  border-color: #bfdbfe;
+  background: #eff6ff;
 }
 
 .dctSummaryCard--surplus {
@@ -165,7 +170,7 @@
 
 .dctSummaryTable {
   width: 100%;
-  min-width: 820px;
+  min-width: 940px;
   border-collapse: collapse;
 }
 
@@ -278,7 +283,7 @@
 }
 
 .dctAccordionStat {
-  min-width: 95px;
+  min-width: 112px;
   padding: 8px 10px;
   border-radius: 10px;
   background: #fdfefe;
@@ -289,7 +294,7 @@
 }
 
 .dctAccordionStat--small {
-  min-width: 88px;
+  min-width: 106px;
 }
 
 .dctAccordionStatLabel {
@@ -448,7 +453,7 @@
 
 .dctSchoolTable {
   width: 100%;
-  min-width: 900px;
+  min-width: 1020px;
   border-collapse: collapse;
 }
 

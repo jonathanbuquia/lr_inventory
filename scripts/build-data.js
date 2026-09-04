@@ -77,6 +77,20 @@ const isTextbook2026EnrollmentHeader = (value) =>
   normalizeHeaderText(value) === "ENROLMENT S.Y. 2026-2027" ||
   normalizeHeaderText(value) === "ENROLLMENT S.Y. 2026-2027";
 
+const canonicalizeTextbook2026FollowupHeader = (header) => {
+  const normalized = normalizeHeaderText(header);
+
+  if (normalized.startsWith("QUANTITY OF TEXTBOOKS RECEIVED")) {
+    return "Quantity of Textbooks Received";
+  }
+
+  return (
+    Array.from(TEXTBOOK_2026_FOLLOWUP_HEADERS).find(
+      (candidate) => normalizeHeaderText(candidate) === normalized
+    ) || null
+  );
+};
+
 const withTextbook2026Suffix = (header) => `${header} ${TEXTBOOK_2026_SUFFIX}`;
 
 const toNumber = (value) => {
@@ -196,12 +210,14 @@ function parseSheet(workbook, sheetName, headerRowIndex, ctx) {
       ? rawHeaders.findIndex(isTextbook2026EnrollmentHeader)
       : -1;
   const headers = rawHeaders.map((header, index) => {
+    const canonical2026Header = canonicalizeTextbook2026FollowupHeader(header);
+
     if (
       textbook2026StartIndex >= 0 &&
       index > textbook2026StartIndex &&
-      TEXTBOOK_2026_FOLLOWUP_HEADERS.has(header)
+      canonical2026Header
     ) {
-      return withTextbook2026Suffix(header);
+      return withTextbook2026Suffix(canonical2026Header);
     }
 
     return header;

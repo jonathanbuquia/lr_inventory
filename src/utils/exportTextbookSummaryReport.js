@@ -60,6 +60,7 @@ const buildWorksheetXml = (school) => {
   const headerRow = buildRow([
     buildCell("GRADE LEVEL", "String", "Header"),
     buildCell("SUBJECT", "String", "Header"),
+    buildCell("TOTAL ENROLLEES\n2025-2026", "String", "Header"),
     buildCell("TOTAL ENROLLEES\n2026-2027", "String", "Header"),
     buildCell("TOTAL RECEIVED", "String", "Header"),
     buildCell("GAPS", "String", "Header"),
@@ -82,6 +83,7 @@ const buildWorksheetXml = (school) => {
             buildCell("", "String", "Empty"),
             buildCell("", "String", "Empty"),
             buildCell("", "String", "Empty"),
+            buildCell("", "String", "Empty"),
           ]),
         ]
       : school.rows.map((row) => {
@@ -95,7 +97,8 @@ const buildWorksheetXml = (school) => {
           return buildRow([
             buildCell(row.gradeLabel, "String", styleId),
             buildCell(row.subject || "-", "String", styleId),
-            buildCell(row.enrolled, "Number", styleId),
+            buildCell(row.enrolled2025, "Number", styleId),
+            buildCell(row.enrolled2026 ?? row.enrolled, "Number", styleId),
             buildCell(row.received, "Number", styleId),
             buildCell(row.gaps, "Number", styleId),
             buildCell(row.surplus, "Number", styleId),
@@ -107,6 +110,7 @@ const buildWorksheetXml = (school) => {
       <Table>
         <Column ss:Width="110"/>
         <Column ss:Width="260"/>
+        <Column ss:Width="110"/>
         <Column ss:Width="110"/>
         <Column ss:Width="110"/>
         <Column ss:Width="90"/>
