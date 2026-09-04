@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T06:12:49.131Z",
+  "generatedAt": "2026-09-04T06:17:25.179Z",
   "years": [
     "2024",
     "2025",
@@ -385425,7 +385425,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11297,
+        "1": 11301,
         "2": 13101,
         "3": 12590,
         "4": 13859,
@@ -385436,9 +385436,9 @@
         "9": 8873,
         "10": 9550
       },
-      "enrollmentTotal": 117717,
+      "enrollmentTotal": 117721,
       "deliveredTotal": 367582,
-      "deliveryPercentage": 312.26,
+      "deliveryPercentage": 312.25,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -385447,7 +385447,7 @@
             "1": {
               "gmrc": 222,
               "reading-and-literacy": 222,
-              "language": 0,
+              "language": 222,
               "makabansa": 222,
               "mathematics": 0
             },
@@ -385956,7 +385956,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 44,
+            "1": 48,
             "2": 49,
             "3": 48,
             "4": 49,
@@ -385967,9 +385967,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 297,
-          "deliveredTotal": 1299,
-          "deliveryPercentage": 437.37
+          "enrollmentTotal": 301,
+          "deliveredTotal": 1521,
+          "deliveryPercentage": 505.32
         },
         {
           "id": "bagong-tanyag-elementary-school-annex-a",
