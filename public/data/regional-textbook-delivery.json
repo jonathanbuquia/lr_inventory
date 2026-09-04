@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T00:25:41.082Z",
+  "generatedAt": "2026-09-04T00:32:27.404Z",
   "years": [
     "2024",
     "2025",
@@ -212865,7 +212865,7 @@
           "mathematics": 4044
         },
         "2": {
-          "gmrc": 2075,
+          "gmrc": 2313,
           "reading-and-literacy": 0,
           "language": 952,
           "makabansa": 4588,
@@ -212890,9 +212890,9 @@
           "mathematics": 6078
         },
         "5": {
-          "gmrc": 1418,
+          "gmrc": 1732,
           "english": 4833,
-          "filipino": 4835,
+          "filipino": 4833,
           "science": 4833,
           "araling-panlipunan": 4837,
           "epp": 4833,
@@ -212988,7 +212988,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2075
+            "2026": 2313
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -213089,7 +213089,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 1418
+            "2026": 1732
           },
           "english": {
             "2024": 0,
@@ -213099,7 +213099,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 4835
+            "2026": 4833
           },
           "science": {
             "2024": 0,
@@ -213381,8 +213381,8 @@
         "10": 2786
       },
       "enrollmentTotal": 35969,
-      "deliveredTotal": 165303,
-      "deliveryPercentage": 459.57,
+      "deliveredTotal": 165853,
+      "deliveryPercentage": 461.1,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -218175,7 +218175,7 @@
               "mathematics": 233
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 238,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 238,
@@ -218200,9 +218200,9 @@
               "mathematics": 361
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 314,
               "english": 325,
-              "filipino": 316,
+              "filipino": 314,
               "science": 325,
               "araling-panlipunan": 315,
               "epp": 325,
@@ -218298,7 +218298,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 238
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -218399,7 +218399,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 314
               },
               "english": {
                 "2024": 0,
@@ -218409,7 +218409,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 316
+                "2026": 314
               },
               "science": {
                 "2024": 0,
@@ -218691,8 +218691,8 @@
             "10": 0
           },
           "enrollmentTotal": 1316,
-          "deliveredTotal": 7243,
-          "deliveryPercentage": 550.38
+          "deliveredTotal": 7793,
+          "deliveryPercentage": 592.17
         },
         {
           "id": "navotas-i-elementary-school",
