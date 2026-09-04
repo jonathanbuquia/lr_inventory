@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T05:57:35.758Z",
+  "generatedAt": "2026-09-04T06:04:30.749Z",
   "years": [
     "2024",
     "2025",
@@ -450,15 +450,15 @@
         },
         "2": {
           "gmrc": 125,
-          "reading-and-literacy": 2594,
-          "language": 1759,
+          "reading-and-literacy": 50,
+          "language": 0,
           "makabansa": 16706,
           "mathematics": 372
         },
         "3": {
           "gmrc": 106,
-          "reading-and-literacy": 560,
-          "language": 1865,
+          "reading-and-literacy": 0,
+          "language": 400,
           "makabansa": 6894,
           "mathematics": 6021
         },
@@ -577,12 +577,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 50,
-            "2026": 2544
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 1759
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -604,12 +604,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 560
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 400,
-            "2026": 1465
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 15802
       },
       "enrollmentTotal": 182648,
-      "deliveredTotal": 638499,
-      "deliveryPercentage": 349.58,
+      "deliveredTotal": 632171,
+      "deliveryPercentage": 346.11,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -981,7 +981,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 687,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 662,
               "mathematics": 0
@@ -1108,7 +1108,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 687
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -1496,8 +1496,8 @@
             "10": 0
           },
           "enrollmentTotal": 3751,
-          "deliveredTotal": 14175,
-          "deliveryPercentage": 377.9
+          "deliveredTotal": 13488,
+          "deliveryPercentage": 359.58
         },
         {
           "id": "amparo-high-school",
@@ -2043,14 +2043,14 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 450,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 504,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 425,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 480,
               "mathematics": 504
@@ -2170,7 +2170,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 450
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -2197,7 +2197,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 425
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -2558,8 +2558,8 @@
             "10": 0
           },
           "enrollmentTotal": 2470,
-          "deliveredTotal": 11838,
-          "deliveryPercentage": 479.27
+          "deliveredTotal": 10963,
+          "deliveryPercentage": 443.85
         },
         {
           "id": "antonio-luna-elementary-school",
@@ -4168,14 +4168,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 780,
+              "language": 0,
               "makabansa": 780,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 750,
+              "language": 0,
               "makabansa": 750,
               "mathematics": 750
             },
@@ -4299,7 +4299,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 780
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -4326,7 +4326,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 750
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -4682,8 +4682,8 @@
             "10": 0
           },
           "enrollmentTotal": 4315,
-          "deliveredTotal": 18820,
-          "deliveryPercentage": 436.15
+          "deliveredTotal": 17290,
+          "deliveryPercentage": 400.7
         },
         {
           "id": "baesa-elementary-school",
@@ -15849,7 +15849,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 1252,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 1227,
               "mathematics": 0
@@ -15976,7 +15976,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 1252
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -16364,8 +16364,8 @@
             "10": 0
           },
           "enrollmentTotal": 6025,
-          "deliveredTotal": 24639,
-          "deliveryPercentage": 408.95
+          "deliveredTotal": 23387,
+          "deliveryPercentage": 388.17
         },
         {
           "id": "camarin-high-school",
@@ -20628,14 +20628,14 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 591,
-              "language": 591,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 517,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -21143,8 +21143,8 @@
             "10": 0
           },
           "enrollmentTotal": 2521,
-          "deliveredTotal": 1699,
-          "deliveryPercentage": 67.39
+          "deliveredTotal": 0,
+          "deliveryPercentage": 0
         },
         {
           "id": "deparo-elementary-school",
@@ -22221,15 +22221,15 @@
             },
             "2": {
               "gmrc": 125,
-              "reading-and-literacy": 155,
-              "language": 155,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 137,
               "mathematics": 144
             },
             "3": {
               "gmrc": 106,
-              "reading-and-literacy": 135,
-              "language": 190,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 204,
               "mathematics": 174
             },
@@ -22347,12 +22347,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 155,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 155,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -22374,12 +22374,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 135,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 190,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -22736,8 +22736,8 @@
             "10": 0
           },
           "enrollmentTotal": 811,
-          "deliveredTotal": 6518,
-          "deliveryPercentage": 803.7
+          "deliveredTotal": 5883,
+          "deliveryPercentage": 725.4
         },
         {
           "id": "eulogio-rodriguez-elementary-school",
@@ -22753,14 +22753,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 282,
+              "language": 0,
               "makabansa": 212,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 165,
+              "language": 0,
               "makabansa": 165,
               "mathematics": 165
             },
@@ -22884,7 +22884,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 282
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -22911,7 +22911,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 165
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -23267,8 +23267,8 @@
             "10": 0
           },
           "enrollmentTotal": 982,
-          "deliveredTotal": 5365,
-          "deliveryPercentage": 546.33
+          "deliveredTotal": 4918,
+          "deliveryPercentage": 500.81
         },
         {
           "id": "gabriela-silang-elementary-school",
@@ -24877,14 +24877,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 359,
+              "language": 0,
               "makabansa": 380,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 360,
+              "language": 0,
               "makabansa": 360,
               "mathematics": 360
             },
@@ -25008,7 +25008,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 359
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -25035,7 +25035,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 360
+                "2026": 0
               },
               "makabansa": {
                 "2024": 360,
@@ -25391,8 +25391,8 @@
             "10": 0
           },
           "enrollmentTotal": 1780,
-          "deliveredTotal": 8524,
-          "deliveryPercentage": 478.88
+          "deliveredTotal": 7805,
+          "deliveryPercentage": 438.48
         },
         {
           "id": "horacio-dela-costa-elementary-school",
@@ -36035,7 +36035,7 @@
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 400,
+              "language": 0,
               "makabansa": 354,
               "mathematics": 370
             },
@@ -36185,7 +36185,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 400,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -36542,8 +36542,8 @@
             "10": 0
           },
           "enrollmentTotal": 2265,
-          "deliveredTotal": 12861,
-          "deliveryPercentage": 567.81
+          "deliveredTotal": 12461,
+          "deliveryPercentage": 550.15
         },
         {
           "id": "mountain-heights-high-school",
@@ -40806,8 +40806,8 @@
             },
             "2": {
               "gmrc": 167,
-              "reading-and-literacy": 208,
-              "language": 188,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 540,
               "mathematics": 294
             },
@@ -41321,8 +41321,8 @@
             "10": 0
           },
           "enrollmentTotal": 2619,
-          "deliveredTotal": 14578,
-          "deliveryPercentage": 556.62
+          "deliveredTotal": 14182,
+          "deliveryPercentage": 541.5
         },
         {
           "id": "sampaguita-high-school",
@@ -42400,7 +42400,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 183,
+              "language": 0,
               "makabansa": 158,
               "mathematics": 0
             },
@@ -42531,7 +42531,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 183
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -42914,8 +42914,8 @@
             "10": 0
           },
           "enrollmentTotal": 617,
-          "deliveredTotal": 2931,
-          "deliveryPercentage": 475.04
+          "deliveredTotal": 2748,
+          "deliveryPercentage": 445.38
         },
         {
           "id": "silanganan-elementary-school",
@@ -46647,7 +46647,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 50,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -46773,7 +46773,7 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 50,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
@@ -47162,8 +47162,8 @@
             "10": 272
           },
           "enrollmentTotal": 1638,
-          "deliveredTotal": 5380,
-          "deliveryPercentage": 328.45
+          "deliveredTotal": 5330,
+          "deliveryPercentage": 325.4
         },
         {
           "id": "urduja-elementary-school",
@@ -66828,7 +66828,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 141,
+              "language": 0,
               "makabansa": 345,
               "mathematics": 0
             },
@@ -66958,7 +66958,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 141,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -67342,8 +67342,8 @@
             "10": 0
           },
           "enrollmentTotal": 1917,
-          "deliveredTotal": 6483,
-          "deliveryPercentage": 338.18
+          "deliveredTotal": 6342,
+          "deliveryPercentage": 330.83
         },
         {
           "id": "t-s-cruz-elementary-school",
@@ -70013,7 +70013,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 107,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -70528,8 +70528,8 @@
             "10": 0
           },
           "enrollmentTotal": 1483,
-          "deliveredTotal": 4417,
-          "deliveryPercentage": 297.84
+          "deliveredTotal": 4310,
+          "deliveryPercentage": 290.63
         }
       ]
     },
@@ -83823,15 +83823,15 @@
         },
         "2": {
           "gmrc": 300,
-          "reading-and-literacy": 300,
-          "language": 210,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 4772,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
-          "reading-and-literacy": 300,
-          "language": 220,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 224,
           "mathematics": 224
         },
@@ -83950,12 +83950,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 300
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 210
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -83977,12 +83977,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 300
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 220
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -84338,8 +84338,8 @@
         "10": 4478
       },
       "enrollmentTotal": 56829,
-      "deliveredTotal": 196809,
-      "deliveryPercentage": 346.32,
+      "deliveredTotal": 195779,
+      "deliveryPercentage": 344.51,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -102939,15 +102939,15 @@
             },
             "2": {
               "gmrc": 300,
-              "reading-and-literacy": 300,
-              "language": 210,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 180,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 300,
-              "language": 220,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 224,
               "mathematics": 224
             },
@@ -103066,12 +103066,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 300
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 210
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -103093,12 +103093,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 300
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 220
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -103454,8 +103454,8 @@
             "10": 349
           },
           "enrollmentTotal": 2597,
-          "deliveredTotal": 14768,
-          "deliveryPercentage": 568.66
+          "deliveredTotal": 13738,
+          "deliveryPercentage": 528.99
         },
         {
           "id": "ta-ong-national-high-school",
@@ -106658,15 +106658,15 @@
         },
         "2": {
           "gmrc": 856,
-          "reading-and-literacy": 416,
-          "language": 472,
+          "reading-and-literacy": 220,
+          "language": 278,
           "makabansa": 469,
           "mathematics": 0
         },
         "3": {
           "gmrc": 270,
-          "reading-and-literacy": 462,
-          "language": 462,
+          "reading-and-literacy": 270,
+          "language": 270,
           "makabansa": 645,
           "mathematics": 375
         },
@@ -106785,12 +106785,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 220,
-            "2026": 196
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 278,
-            "2026": 194
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -106812,12 +106812,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 270,
-            "2026": 192
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 270,
-            "2026": 192
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -107173,8 +107173,8 @@
         "10": 3409
       },
       "enrollmentTotal": 37032,
-      "deliveredTotal": 164449,
-      "deliveryPercentage": 444.07,
+      "deliveredTotal": 163675,
+      "deliveryPercentage": 441.98,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -113561,15 +113561,15 @@
             },
             "2": {
               "gmrc": 196,
-              "reading-and-literacy": 196,
-              "language": 194,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 186,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 192,
-              "language": 192,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -113688,12 +113688,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 196
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 194
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -113715,12 +113715,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 192
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 192
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -114076,8 +114076,8 @@
             "10": 295
           },
           "enrollmentTotal": 2303,
-          "deliveredTotal": 10159,
-          "deliveryPercentage": 441.12
+          "deliveredTotal": 9385,
+          "deliveryPercentage": 407.51
         },
         {
           "id": "jose-fabella-memorial-school",
@@ -118340,15 +118340,15 @@
             },
             "2": {
               "gmrc": 220,
-              "reading-and-literacy": 220,
-              "language": 220,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 220,
               "mathematics": 0
             },
             "3": {
               "gmrc": 270,
-              "reading-and-literacy": 270,
-              "language": 270,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 270,
               "mathematics": 0
             },
@@ -118466,12 +118466,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 220,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 220,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -118493,12 +118493,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 270,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 270,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -118855,8 +118855,8 @@
             "10": 0
           },
           "enrollmentTotal": 1479,
-          "deliveredTotal": 10830,
-          "deliveryPercentage": 732.25
+          "deliveredTotal": 9850,
+          "deliveryPercentage": 665.99
         },
         {
           "id": "renato-r-lopez-elementary-school",
@@ -119403,14 +119403,14 @@
             "2": {
               "gmrc": 110,
               "reading-and-literacy": 0,
-              "language": 110,
+              "language": 0,
               "makabansa": 136,
               "mathematics": 0
             },
             "3": {
               "gmrc": 138,
               "reading-and-literacy": 0,
-              "language": 110,
+              "language": 0,
               "makabansa": 138,
               "mathematics": 138
             },
@@ -119917,8 +119917,8 @@
             "10": 223
           },
           "enrollmentTotal": 1834,
-          "deliveredTotal": 6637,
-          "deliveryPercentage": 361.89
+          "deliveredTotal": 6417,
+          "deliveryPercentage": 349.89
         }
       ]
     },
@@ -120439,8 +120439,8 @@
       },
       "enrollmentByGrade": {
         "1": 20155,
-        "2": 14842,
-        "3": 14523,
+        "2": 13099,
+        "3": 14087,
         "4": 23267,
         "5": 20526,
         "6": 13127,
@@ -120449,9 +120449,9 @@
         "9": 10586,
         "10": 11243
       },
-      "enrollmentTotal": 164515,
+      "enrollmentTotal": 162336,
       "deliveredTotal": 490373,
-      "deliveryPercentage": 298.07,
+      "deliveryPercentage": 302.07,
       "schools": [
         {
           "id": "2026-school-teachers-audit-template-copy",
@@ -124183,8 +124183,8 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 179,
-              "language": 179,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -124309,12 +124309,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 179,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 179,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -124698,8 +124698,8 @@
             "10": 0
           },
           "enrollmentTotal": 1035,
-          "deliveredTotal": 4486,
-          "deliveryPercentage": 433.43
+          "deliveredTotal": 4128,
+          "deliveryPercentage": 398.84
         },
         {
           "id": "apolinario-mabini-elementary-school",
@@ -159733,8 +159733,8 @@
           },
           "enrollmentByGrade": {
             "1": 346,
-            "2": 466,
-            "3": 436,
+            "2": 0,
+            "3": 0,
             "4": 414,
             "5": 432,
             "6": 438,
@@ -159743,9 +159743,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2532,
+          "enrollmentTotal": 1630,
           "deliveredTotal": 534,
-          "deliveryPercentage": 21.09
+          "deliveryPercentage": 32.76
         },
         {
           "id": "manuel-l-quezon-high-school",
@@ -167725,8 +167725,8 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 855,
-              "language": 855,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -167851,12 +167851,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 855,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 855,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -168229,7 +168229,7 @@
           },
           "enrollmentByGrade": {
             "1": 900,
-            "2": 900,
+            "2": 0,
             "3": 0,
             "4": 1240,
             "5": 1300,
@@ -168239,9 +168239,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 4340,
-          "deliveredTotal": 23540,
-          "deliveryPercentage": 542.4
+          "enrollmentTotal": 3440,
+          "deliveredTotal": 21830,
+          "deliveryPercentage": 634.59
         },
         {
           "id": "r-almario-elementary-school-isla-puting-bato-elementary-school",
@@ -168257,7 +168257,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 163,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -168387,7 +168387,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 163,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -168760,7 +168760,7 @@
           },
           "enrollmentByGrade": {
             "1": 194,
-            "2": 169,
+            "2": 0,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -168770,9 +168770,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 363,
-          "deliveredTotal": 287,
-          "deliveryPercentage": 79.06
+          "enrollmentTotal": 194,
+          "deliveredTotal": 124,
+          "deliveryPercentage": 63.92
         },
         {
           "id": "r-almario-elementary-school-parola-annex",
@@ -168788,7 +168788,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 249,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -168918,7 +168918,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 249,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -169291,7 +169291,7 @@
           },
           "enrollmentByGrade": {
             "1": 263,
-            "2": 208,
+            "2": 0,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -169301,9 +169301,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 471,
-          "deliveredTotal": 717,
-          "deliveryPercentage": 152.23
+          "enrollmentTotal": 263,
+          "deliveredTotal": 468,
+          "deliveryPercentage": 177.95
         },
         {
           "id": "rafael-palma-elementary-school",
@@ -178878,15 +178878,15 @@
         },
         "2": {
           "gmrc": 1059,
-          "reading-and-literacy": 1059,
-          "language": 5545,
+          "reading-and-literacy": 340,
+          "language": 0,
           "makabansa": 6776,
           "mathematics": 329
         },
         "3": {
           "gmrc": 395,
-          "reading-and-literacy": 517,
-          "language": 516,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 1246,
           "mathematics": 744
         },
@@ -179005,12 +179005,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 340,
-            "2026": 719
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 5545
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -179032,12 +179032,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 517
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 516
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -179393,8 +179393,8 @@
         "10": 6642
       },
       "enrollmentTotal": 64553,
-      "deliveredTotal": 280337,
-      "deliveryPercentage": 434.27,
+      "deliveredTotal": 273040,
+      "deliveryPercentage": 422.97,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -180472,7 +180472,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 390,
+              "language": 0,
               "makabansa": 410,
               "mathematics": 0
             },
@@ -180603,7 +180603,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 390
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -180986,8 +180986,8 @@
             "10": 0
           },
           "enrollmentTotal": 1897,
-          "deliveredTotal": 7479,
-          "deliveryPercentage": 394.25
+          "deliveredTotal": 7089,
+          "deliveryPercentage": 373.7
         },
         {
           "id": "concepcion-integrated-school",
@@ -181003,7 +181003,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 535,
+              "language": 0,
               "makabansa": 535,
               "mathematics": 0
             },
@@ -181134,7 +181134,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 535
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -181517,8 +181517,8 @@
             "10": 649
           },
           "enrollmentTotal": 5589,
-          "deliveredTotal": 21606,
-          "deliveryPercentage": 386.58
+          "deliveredTotal": 21071,
+          "deliveryPercentage": 377.01
         },
         {
           "id": "fortune-elementary-school",
@@ -181533,15 +181533,15 @@
             },
             "2": {
               "gmrc": 546,
-              "reading-and-literacy": 546,
-              "language": 539,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 539,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 517,
-              "language": 516,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 516,
               "mathematics": 516
             },
@@ -181660,12 +181660,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 546
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 539
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -181687,12 +181687,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 517
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 516
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -182048,8 +182048,8 @@
             "10": 0
           },
           "enrollmentTotal": 3026,
-          "deliveredTotal": 15321,
-          "deliveryPercentage": 506.31
+          "deliveredTotal": 13203,
+          "deliveryPercentage": 436.32
         },
         {
           "id": "fortune-high-school",
@@ -182596,7 +182596,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 602,
+              "language": 0,
               "makabansa": 602,
               "mathematics": 0
             },
@@ -182727,7 +182727,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 602
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -183110,8 +183110,8 @@
             "10": 0
           },
           "enrollmentTotal": 2891,
-          "deliveredTotal": 10847,
-          "deliveryPercentage": 375.2
+          "deliveredTotal": 10245,
+          "deliveryPercentage": 354.38
         },
         {
           "id": "industrial-valley-complex-national-high-school",
@@ -183658,7 +183658,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 200,
+              "language": 0,
               "makabansa": 200,
               "mathematics": 0
             },
@@ -183789,7 +183789,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 200
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -184172,8 +184172,8 @@
             "10": 0
           },
           "enrollmentTotal": 994,
-          "deliveredTotal": 4100,
-          "deliveryPercentage": 412.47
+          "deliveredTotal": 3900,
+          "deliveryPercentage": 392.35
         },
         {
           "id": "jesus-dela-pe-a-national-high-school",
@@ -184720,7 +184720,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 181,
+              "language": 0,
               "makabansa": 181,
               "mathematics": 0
             },
@@ -184851,7 +184851,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 181
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -185234,8 +185234,8 @@
             "10": 0
           },
           "enrollmentTotal": 1763,
-          "deliveredTotal": 3452,
-          "deliveryPercentage": 195.8
+          "deliveredTotal": 3271,
+          "deliveryPercentage": 185.54
         },
         {
           "id": "kalumpang-national-high-school",
@@ -186313,7 +186313,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 203,
+              "language": 0,
               "makabansa": 203,
               "mathematics": 0
             },
@@ -186444,7 +186444,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 203
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -186827,8 +186827,8 @@
             "10": 0
           },
           "enrollmentTotal": 1073,
-          "deliveredTotal": 4183,
-          "deliveryPercentage": 389.84
+          "deliveredTotal": 3980,
+          "deliveryPercentage": 370.92
         },
         {
           "id": "malanday-elementary-school",
@@ -186843,15 +186843,15 @@
             },
             "2": {
               "gmrc": 640,
-              "reading-and-literacy": 640,
-              "language": 640,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 640,
               "mathematics": 640
             },
             "3": {
               "gmrc": 716,
-              "reading-and-literacy": 716,
-              "language": 716,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 716,
               "mathematics": 716
             },
@@ -186975,7 +186975,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 640
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -187358,8 +187358,8 @@
             "10": 0
           },
           "enrollmentTotal": 4243,
-          "deliveredTotal": 29522,
-          "deliveryPercentage": 695.78
+          "deliveredTotal": 26810,
+          "deliveryPercentage": 631.86
         },
         {
           "id": "malanday-national-high-school",
@@ -187906,7 +187906,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 332,
+              "language": 0,
               "makabansa": 332,
               "mathematics": 0
             },
@@ -188037,7 +188037,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 332
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -188420,8 +188420,8 @@
             "10": 0
           },
           "enrollmentTotal": 1835,
-          "deliveredTotal": 7905,
-          "deliveryPercentage": 430.79
+          "deliveredTotal": 7573,
+          "deliveryPercentage": 412.7
         },
         {
           "id": "marikina-heights-national-high-school",
@@ -190030,7 +190030,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 580,
+              "language": 0,
               "makabansa": 580,
               "mathematics": 0
             },
@@ -190161,7 +190161,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 580
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -190544,8 +190544,8 @@
             "10": 0
           },
           "enrollmentTotal": 3339,
-          "deliveredTotal": 11990,
-          "deliveryPercentage": 359.09
+          "deliveredTotal": 11410,
+          "deliveryPercentage": 341.72
         },
         {
           "id": "nangka-high-school",
@@ -191623,7 +191623,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 625,
+              "language": 0,
               "makabansa": 645,
               "mathematics": 0
             },
@@ -191754,7 +191754,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 625
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -192137,8 +192137,8 @@
             "10": 0
           },
           "enrollmentTotal": 3384,
-          "deliveredTotal": 16953,
-          "deliveryPercentage": 500.98
+          "deliveredTotal": 16328,
+          "deliveryPercentage": 482.51
         },
         {
           "id": "parang-high-school",
@@ -192684,7 +192684,7 @@
             },
             "2": {
               "gmrc": 173,
-              "reading-and-literacy": 173,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 173,
               "mathematics": 173
@@ -192811,7 +192811,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 173
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -193199,8 +193199,8 @@
             "10": 0
           },
           "enrollmentTotal": 1298,
-          "deliveredTotal": 8574,
-          "deliveryPercentage": 660.55
+          "deliveredTotal": 8401,
+          "deliveryPercentage": 647.23
         },
         {
           "id": "san-roque-national-high-school",
@@ -194278,7 +194278,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 574,
+              "language": 0,
               "makabansa": 574,
               "mathematics": 0
             },
@@ -194409,7 +194409,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 574
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -194792,8 +194792,8 @@
             "10": 0
           },
           "enrollmentTotal": 3149,
-          "deliveredTotal": 10938,
-          "deliveryPercentage": 347.35
+          "deliveredTotal": 10364,
+          "deliveryPercentage": 329.12
         },
         {
           "id": "st-mary-elementary-school",
@@ -194809,7 +194809,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 144,
+              "language": 0,
               "makabansa": 144,
               "mathematics": 0
             },
@@ -194940,7 +194940,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 144
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -195323,8 +195323,8 @@
             "10": 0
           },
           "enrollmentTotal": 831,
-          "deliveredTotal": 2653,
-          "deliveryPercentage": 319.25
+          "deliveredTotal": 2509,
+          "deliveryPercentage": 301.93
         },
         {
           "id": "sta-elena-high-school",
@@ -212865,7 +212865,7 @@
           "mathematics": 4044
         },
         "2": {
-          "gmrc": 4478,
+          "gmrc": 4588,
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 4588,
@@ -212890,7 +212890,7 @@
           "mathematics": 6078
         },
         "5": {
-          "gmrc": 3945,
+          "gmrc": 4051,
           "english": 4833,
           "filipino": 4833,
           "science": 4833,
@@ -212912,26 +212912,26 @@
           "mathematics": 0
         },
         "7": {
-          "ve": 3968,
-          "english": 4006,
+          "ve": 3974,
+          "english": 4019,
           "filipino": 0,
           "science": 3182,
-          "araling-panlipunan": 3741,
+          "araling-panlipunan": 3747,
           "tle": 3660,
           "music-and-arts": 4026,
-          "pe-and-health": 3977,
+          "pe-and-health": 3985,
           "mathematics": 3221
         },
         "8": {
-          "ve": 3163,
-          "english": 3283,
+          "ve": 3184,
+          "english": 3304,
           "filipino": 3283,
-          "science": 3169,
-          "araling-panlipunan": 0,
-          "tle": 2737,
-          "music-and-arts": 0,
-          "pe-and-health": 0,
-          "mathematics": 3185
+          "science": 3059,
+          "araling-panlipunan": 131,
+          "tle": 2868,
+          "music-and-arts": 131,
+          "pe-and-health": 131,
+          "mathematics": 3169
         },
         "9": {
           "ve": 0,
@@ -212988,7 +212988,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 4478
+            "2026": 4588
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -213089,7 +213089,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 3945
+            "2026": 4051
           },
           "english": {
             "2024": 0,
@@ -213183,12 +213183,12 @@
           "ve": {
             "2024": 0,
             "2025": 0,
-            "2026": 3968
+            "2026": 3974
           },
           "english": {
             "2024": 0,
             "2025": 3908,
-            "2026": 98
+            "2026": 111
           },
           "filipino": {
             "2024": 0,
@@ -213203,7 +213203,7 @@
           "araling-panlipunan": {
             "2024": 0,
             "2025": 3660,
-            "2026": 81
+            "2026": 87
           },
           "tle": {
             "2024": 0,
@@ -213218,7 +213218,7 @@
           "pe-and-health": {
             "2024": 696,
             "2025": 2964,
-            "2026": 317
+            "2026": 325
           },
           "mathematics": {
             "2024": 3221,
@@ -213230,12 +213230,12 @@
           "ve": {
             "2024": 0,
             "2025": 2785,
-            "2026": 378
+            "2026": 399
           },
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 3283
+            "2026": 3304
           },
           "filipino": {
             "2024": 0,
@@ -213245,32 +213245,32 @@
           "science": {
             "2024": 0,
             "2025": 0,
-            "2026": 3169
+            "2026": 3059
           },
           "araling-panlipunan": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 131
           },
           "tle": {
             "2024": 0,
             "2025": 0,
-            "2026": 2737
+            "2026": 2868
           },
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 131
           },
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 131
           },
           "mathematics": {
             "2024": 0,
             "2025": 3169,
-            "2026": 16
+            "2026": 0
           }
         },
         "9": {
@@ -213381,8 +213381,8 @@
         "10": 2680
       },
       "enrollmentTotal": 34856,
-      "deliveredTotal": 170990,
-      "deliveryPercentage": 490.56,
+      "deliveredTotal": 171679,
+      "deliveryPercentage": 492.54,
       "schools": [
         {
           "id": "angeles-national-high-school",
@@ -213443,26 +213443,26 @@
               "mathematics": 0
             },
             "7": {
-              "ve": 125,
-              "english": 118,
+              "ve": 131,
+              "english": 131,
               "filipino": 0,
-              "science": 125,
-              "araling-panlipunan": 125,
-              "tle": 122,
+              "science": 131,
+              "araling-panlipunan": 131,
+              "tle": 131,
               "music-and-arts": 131,
-              "pe-and-health": 123,
+              "pe-and-health": 131,
               "mathematics": 131
             },
             "8": {
-              "ve": 110,
-              "english": 110,
+              "ve": 131,
+              "english": 131,
               "filipino": 110,
-              "science": 110,
-              "araling-panlipunan": 0,
-              "tle": 0,
-              "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 95
+              "science": 131,
+              "araling-panlipunan": 131,
+              "tle": 131,
+              "music-and-arts": 131,
+              "pe-and-health": 131,
+              "mathematics": 131
             },
             "9": {
               "ve": 0,
@@ -213714,11 +213714,11 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 125
+                "2026": 131
               },
               "english": {
                 "2024": 0,
-                "2025": 118,
+                "2025": 131,
                 "2026": 0
               },
               "filipino": {
@@ -213727,18 +213727,18 @@
                 "2026": 0
               },
               "science": {
-                "2024": 125,
+                "2024": 131,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 125,
+                "2025": 131,
                 "2026": 0
               },
               "tle": {
                 "2024": 0,
-                "2025": 122,
+                "2025": 131,
                 "2026": 0
               },
               "music-and-arts": {
@@ -213748,7 +213748,7 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 123,
+                "2025": 131,
                 "2026": 0
               },
               "mathematics": {
@@ -213760,13 +213760,13 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 110,
-                "2026": 0
+                "2025": 0,
+                "2026": 131
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
-                "2026": 110
+                "2025": 131,
+                "2026": 0
               },
               "filipino": {
                 "2024": 0,
@@ -213774,33 +213774,33 @@
                 "2026": 110
               },
               "science": {
-                "2024": 0,
+                "2024": 131,
                 "2025": 0,
-                "2026": 110
+                "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 131,
                 "2026": 0
               },
               "tle": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 131,
                 "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 131,
                 "2026": 0
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 131,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 0,
-                "2025": 95,
+                "2024": 131,
+                "2025": 0,
                 "2026": 0
               }
             },
@@ -213912,8 +213912,8 @@
             "10": 97
           },
           "enrollmentTotal": 612,
-          "deliveredTotal": 1647,
-          "deliveryPercentage": 269.12
+          "deliveredTotal": 2318,
+          "deliveryPercentage": 378.76
         },
         {
           "id": "bagumbayan-elementary-school",
@@ -226140,7 +226140,7 @@
               "mathematics": 52
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 110,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 60,
@@ -226165,7 +226165,7 @@
               "mathematics": 97
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 106,
               "english": 86,
               "filipino": 106,
               "science": 86,
@@ -226263,7 +226263,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 110
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -226364,7 +226364,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 106
               },
               "english": {
                 "2024": 0,
@@ -226656,8 +226656,8 @@
             "10": 0
           },
           "enrollmentTotal": 329,
-          "deliveredTotal": 2326,
-          "deliveryPercentage": 706.99
+          "deliveredTotal": 2542,
+          "deliveryPercentage": 772.64
         }
       ]
     },
@@ -226674,7 +226674,7 @@
         },
         "2": {
           "gmrc": 0,
-          "reading-and-literacy": 388,
+          "reading-and-literacy": 100,
           "language": 100,
           "makabansa": 7326,
           "mathematics": 0
@@ -226682,7 +226682,7 @@
         "3": {
           "gmrc": 0,
           "reading-and-literacy": 0,
-          "language": 100,
+          "language": 0,
           "makabansa": 0,
           "mathematics": 120
         },
@@ -226801,7 +226801,7 @@
           "reading-and-literacy": {
             "2024": 100,
             "2025": 0,
-            "2026": 288
+            "2026": 0
           },
           "language": {
             "2024": 0,
@@ -226833,7 +226833,7 @@
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 100
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -227189,8 +227189,8 @@
         "10": 4962
       },
       "enrollmentTotal": 66677,
-      "deliveredTotal": 249150,
-      "deliveryPercentage": 373.67,
+      "deliveredTotal": 248762,
+      "deliveryPercentage": 373.09,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -228268,7 +228268,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 100,
+              "language": 0,
               "makabansa": 174,
               "mathematics": 0
             },
@@ -228398,7 +228398,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 100,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -228782,8 +228782,8 @@
             "10": 0
           },
           "enrollmentTotal": 315,
-          "deliveredTotal": 3245,
-          "deliveryPercentage": 1030.16
+          "deliveredTotal": 3145,
+          "deliveryPercentage": 998.41
         },
         {
           "id": "baclaran-national-high-school",
@@ -229337,7 +229337,7 @@
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 100,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 120
             },
@@ -229488,7 +229488,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 100
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -229844,8 +229844,8 @@
             "10": 0
           },
           "enrollmentTotal": 315,
-          "deliveredTotal": 3864,
-          "deliveryPercentage": 1226.67
+          "deliveredTotal": 3764,
+          "deliveryPercentage": 1194.92
         },
         {
           "id": "col-e-de-leon-elementary-school",
@@ -229860,7 +229860,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 125,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 190,
               "mathematics": 0
@@ -229986,7 +229986,7 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 125,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
@@ -230375,8 +230375,8 @@
             "10": 0
           },
           "enrollmentTotal": 1567,
-          "deliveredTotal": 3751,
-          "deliveryPercentage": 239.37
+          "deliveredTotal": 3626,
+          "deliveryPercentage": 231.4
         },
         {
           "id": "don-bosco-elementary-school",
@@ -239418,7 +239418,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 100,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -239543,7 +239543,7 @@
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 100,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -239933,8 +239933,8 @@
             "10": 0
           },
           "enrollmentTotal": 1404,
-          "deliveredTotal": 5662,
-          "deliveryPercentage": 403.28
+          "deliveredTotal": 5562,
+          "deliveryPercentage": 396.15
         },
         {
           "id": "paranaque-national-high-school-baclaran",
@@ -243666,7 +243666,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 163,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 530,
               "mathematics": 0
@@ -243793,7 +243793,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 163
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -244181,8 +244181,8 @@
             "10": 0
           },
           "enrollmentTotal": 4007,
-          "deliveredTotal": 7237,
-          "deliveryPercentage": 180.61
+          "deliveredTotal": 7074,
+          "deliveryPercentage": 176.54
         },
         {
           "id": "san-antonio-elementary-school",
@@ -246852,8 +246852,8 @@
             },
             "2": {
               "gmrc": 64,
-              "reading-and-literacy": 64,
-              "language": 64,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 364,
               "mathematics": 0
             },
@@ -247367,8 +247367,8 @@
             "10": 0
           },
           "enrollmentTotal": 1442,
-          "deliveredTotal": 7058,
-          "deliveryPercentage": 489.46
+          "deliveredTotal": 6930,
+          "deliveryPercentage": 480.58
         },
         {
           "id": "sto-ni-o-national-high-school",
@@ -251102,15 +251102,15 @@
         },
         "2": {
           "gmrc": 625,
-          "reading-and-literacy": 625,
-          "language": 414,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 2533,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
-          "reading-and-literacy": 355,
-          "language": 355,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 732,
           "mathematics": 732
         },
@@ -251229,12 +251229,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 625
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 414
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -251256,12 +251256,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 355
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 355
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -251617,8 +251617,8 @@
         "10": 4430
       },
       "enrollmentTotal": 48900,
-      "deliveredTotal": 171460,
-      "deliveryPercentage": 350.63,
+      "deliveredTotal": 169711,
+      "deliveryPercentage": 347.06,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -259067,7 +259067,7 @@
             },
             "2": {
               "gmrc": 211,
-              "reading-and-literacy": 211,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -259194,7 +259194,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 211
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -259582,8 +259582,8 @@
             "10": 0
           },
           "enrollmentTotal": 1509,
-          "deliveredTotal": 6504,
-          "deliveryPercentage": 431.01
+          "deliveredTotal": 6293,
+          "deliveryPercentage": 417.03
         },
         {
           "id": "padre-zamora-elementary-school",
@@ -266501,15 +266501,15 @@
             },
             "2": {
               "gmrc": 414,
-              "reading-and-literacy": 414,
-              "language": 414,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 361,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 355,
-              "language": 355,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 355,
               "mathematics": 355
             },
@@ -266628,12 +266628,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 414
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 414
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -266655,12 +266655,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 355
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 355
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -267016,8 +267016,8 @@
             "10": 0
           },
           "enrollmentTotal": 2194,
-          "deliveredTotal": 11443,
-          "deliveryPercentage": 521.56
+          "deliveredTotal": 9905,
+          "deliveryPercentage": 451.46
         }
       ]
     },
@@ -267034,15 +267034,15 @@
         },
         "2": {
           "gmrc": 2609,
-          "reading-and-literacy": 1996,
-          "language": 640,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 3180,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
-          "reading-and-literacy": 2180,
-          "language": 1120,
+          "reading-and-literacy": 0,
+          "language": 0,
           "makabansa": 4552,
           "mathematics": 4535
         },
@@ -267161,12 +267161,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 1996
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 640
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -267188,12 +267188,12 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 2180
+            "2026": 0
           },
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 1120
+            "2026": 0
           },
           "makabansa": {
             "2024": 20,
@@ -267549,8 +267549,8 @@
         "10": 8071
       },
       "enrollmentTotal": 93243,
-      "deliveredTotal": 292993,
-      "deliveryPercentage": 314.23,
+      "deliveredTotal": 287057,
+      "deliveryPercentage": 307.86,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -273406,15 +273406,15 @@
             },
             "2": {
               "gmrc": 460,
-              "reading-and-literacy": 460,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 460,
-              "language": 460,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 460,
               "mathematics": 460
             },
@@ -273533,7 +273533,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 460
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -273560,12 +273560,12 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 460
+                "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 460
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -273921,8 +273921,8 @@
             "10": 0
           },
           "enrollmentTotal": 2233,
-          "deliveredTotal": 10937,
-          "deliveryPercentage": 489.79
+          "deliveredTotal": 9557,
+          "deliveryPercentage": 427.99
         },
         {
           "id": "kapitolyo-high-school",
@@ -277123,14 +277123,14 @@
             },
             "2": {
               "gmrc": 1530,
-              "reading-and-literacy": 1536,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 1430,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 1720,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 1710,
               "mathematics": 1710
@@ -277250,7 +277250,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 1536
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -277277,7 +277277,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 1720
+                "2026": 0
               },
               "language": {
                 "2024": 0,
@@ -277638,8 +277638,8 @@
             "10": 0
           },
           "enrollmentTotal": 9841,
-          "deliveredTotal": 32668,
-          "deliveryPercentage": 331.96
+          "deliveredTotal": 29412,
+          "deliveryPercentage": 298.87
         },
         {
           "id": "nagpayong-high-school",
@@ -280841,14 +280841,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 640,
+              "language": 0,
               "makabansa": 700,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 660,
+              "language": 0,
               "makabansa": 658,
               "mathematics": 661
             },
@@ -280972,7 +280972,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 640
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -280999,7 +280999,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 660
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -281355,8 +281355,8 @@
             "10": 0
           },
           "enrollmentTotal": 3796,
-          "deliveredTotal": 16782,
-          "deliveryPercentage": 442.1
+          "deliveredTotal": 15482,
+          "deliveryPercentage": 407.85
         },
         {
           "id": "pinagbuhatan-high-school",
@@ -286150,8 +286150,8 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 194,
-              "language": 194,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 20,
               "mathematics": 0
             },
@@ -286665,8 +286665,8 @@
             "10": 0
           },
           "enrollmentTotal": 2243,
-          "deliveredTotal": 6779,
-          "deliveryPercentage": 302.23
+          "deliveredTotal": 6391,
+          "deliveryPercentage": 284.93
         },
         {
           "id": "san-lorenzo-ruiz-senior-high-school",
@@ -290932,7 +290932,7 @@
         "2": {
           "gmrc": 0,
           "reading-and-literacy": 0,
-          "language": 640,
+          "language": 0,
           "makabansa": 38204,
           "mathematics": 0
         },
@@ -291063,7 +291063,7 @@
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 640
+            "2026": 0
           },
           "makabansa": {
             "2024": 719,
@@ -291446,8 +291446,8 @@
         "10": 32877
       },
       "enrollmentTotal": 339049,
-      "deliveredTotal": 894886,
-      "deliveryPercentage": 263.94,
+      "deliveredTotal": 894246,
+      "deliveryPercentage": 263.75,
       "schools": [
         {
           "id": "15th-avenue-elementary-school",
@@ -332350,7 +332350,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 380,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -332481,7 +332481,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 380
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -332864,8 +332864,8 @@
             "10": 0
           },
           "enrollmentTotal": 1947,
-          "deliveredTotal": 7540,
-          "deliveryPercentage": 387.26
+          "deliveredTotal": 7160,
+          "deliveryPercentage": 367.75
         },
         {
           "id": "lagro-highschool",
@@ -355714,7 +355714,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 260,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -355845,7 +355845,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 260
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -356228,8 +356228,8 @@
             "10": 0
           },
           "enrollmentTotal": 1515,
-          "deliveredTotal": 3528,
-          "deliveryPercentage": 232.87
+          "deliveredTotal": 3268,
+          "deliveryPercentage": 215.71
         },
         {
           "id": "quezon-city-high-school",
@@ -380141,7 +380141,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 121,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -380656,8 +380656,8 @@
             "10": 0
           },
           "enrollmentTotal": 871,
-          "deliveredTotal": 1610,
-          "deliveryPercentage": 184.85
+          "deliveredTotal": 1489,
+          "deliveryPercentage": 170.95
         },
         {
           "id": "san-juan-city-academic-senior-high-school",
@@ -383327,7 +383327,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 163,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -383453,7 +383453,7 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 163,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
@@ -383842,8 +383842,8 @@
             "10": 0
           },
           "enrollmentTotal": 697,
-          "deliveredTotal": 2212,
-          "deliveryPercentage": 317.36
+          "deliveredTotal": 2049,
+          "deliveryPercentage": 293.97
         },
         {
           "id": "sta-lucia-elementary-school",
@@ -383858,7 +383858,7 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 41,
+              "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
               "mathematics": 0
@@ -384373,8 +384373,8 @@
             "10": 0
           },
           "enrollmentTotal": 274,
-          "deliveredTotal": 877,
-          "deliveryPercentage": 320.07
+          "deliveredTotal": 836,
+          "deliveryPercentage": 305.11
         },
         {
           "id": "west-crame-elementary-school",
@@ -384923,14 +384923,14 @@
         "2": {
           "gmrc": 0,
           "reading-and-literacy": 110,
-          "language": 2900,
+          "language": 0,
           "makabansa": 7896,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
           "reading-and-literacy": 0,
-          "language": 2430,
+          "language": 0,
           "makabansa": 3642,
           "mathematics": 3853
         },
@@ -385054,7 +385054,7 @@
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 2900
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -385081,7 +385081,7 @@
           "language": {
             "2024": 0,
             "2025": 0,
-            "2026": 2430
+            "2026": 0
           },
           "makabansa": {
             "2024": 0,
@@ -385437,8 +385437,8 @@
         "10": 9550
       },
       "enrollmentTotal": 117717,
-      "deliveredTotal": 372912,
-      "deliveryPercentage": 316.79,
+      "deliveredTotal": 367582,
+      "deliveryPercentage": 312.26,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -390233,14 +390233,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 950,
+              "language": 0,
               "makabansa": 799,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 750,
+              "language": 0,
               "makabansa": 750,
               "mathematics": 750
             },
@@ -390364,7 +390364,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 950
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -390391,7 +390391,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 750
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -390747,8 +390747,8 @@
             "10": 0
           },
           "enrollmentTotal": 3976,
-          "deliveredTotal": 16708,
-          "deliveryPercentage": 420.22
+          "deliveredTotal": 15008,
+          "deliveryPercentage": 377.46
         },
         {
           "id": "ciriaco-p-ti-ga-elementary-school",
@@ -390764,14 +390764,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 420,
+              "language": 0,
               "makabansa": 360,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 390,
+              "language": 0,
               "makabansa": 384,
               "mathematics": 392
             },
@@ -390895,7 +390895,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 420
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -390922,7 +390922,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 390
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -391278,8 +391278,8 @@
             "10": 0
           },
           "enrollmentTotal": 2019,
-          "deliveredTotal": 10828,
-          "deliveryPercentage": 536.31
+          "deliveredTotal": 10018,
+          "deliveryPercentage": 496.19
         },
         {
           "id": "comembo-elementary-school",
@@ -392364,7 +392364,7 @@
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 270,
+              "language": 0,
               "makabansa": 278,
               "mathematics": 282
             },
@@ -392871,8 +392871,8 @@
             "10": 0
           },
           "enrollmentTotal": 430,
-          "deliveredTotal": 3920,
-          "deliveryPercentage": 911.63
+          "deliveredTotal": 3650,
+          "deliveryPercentage": 848.84
         },
         {
           "id": "east-rembo-elementary-school",
@@ -395543,14 +395543,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 356,
+              "language": 0,
               "makabansa": 356,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 345,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 400
             },
@@ -396057,7 +396057,7 @@
             "10": 0
           },
           "enrollmentTotal": 0,
-          "deliveredTotal": 4805,
+          "deliveredTotal": 4104,
           "deliveryPercentage": 0
         },
         {
@@ -401391,7 +401391,7 @@
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 660,
+              "language": 0,
               "makabansa": 640,
               "mathematics": 672
             },
@@ -401542,7 +401542,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 660
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -401898,8 +401898,8 @@
             "10": 385
           },
           "enrollmentTotal": 4690,
-          "deliveredTotal": 18716,
-          "deliveryPercentage": 399.06
+          "deliveredTotal": 18056,
+          "deliveryPercentage": 384.99
         },
         {
           "id": "palar-integrated-school",
@@ -402446,7 +402446,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 50,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -402960,8 +402960,8 @@
             "10": 0
           },
           "enrollmentTotal": 1235,
-          "deliveredTotal": 7643,
-          "deliveryPercentage": 618.87
+          "deliveredTotal": 7593,
+          "deliveryPercentage": 614.82
         },
         {
           "id": "pateros-national-high-school",
@@ -406163,14 +406163,14 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 930,
+              "language": 0,
               "makabansa": 900,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 870,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -406294,7 +406294,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 930
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -406677,8 +406677,8 @@
             "10": 0
           },
           "enrollmentTotal": 809,
-          "deliveredTotal": 9037,
-          "deliveryPercentage": 1117.06
+          "deliveredTotal": 7237,
+          "deliveryPercentage": 894.56
         },
         {
           "id": "rizal-elementary-school",
@@ -408825,7 +408825,7 @@
             "3": {
               "gmrc": 888,
               "reading-and-literacy": 0,
-              "language": 700,
+              "language": 0,
               "makabansa": 835,
               "mathematics": 700
             },
@@ -409332,8 +409332,8 @@
             "10": 0
           },
           "enrollmentTotal": 4306,
-          "deliveredTotal": 28333,
-          "deliveryPercentage": 657.99
+          "deliveredTotal": 27633,
+          "deliveryPercentage": 641.73
         },
         {
           "id": "south-cembo-elementary-school",
@@ -415189,15 +415189,15 @@
             },
             "2": {
               "gmrc": 0,
-              "reading-and-literacy": 110,
-              "language": 600,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 612,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 630,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -415315,13 +415315,13 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 110,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 600
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -415348,7 +415348,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 630
+                "2026": 0
               },
               "makabansa": {
                 "2024": 0,
@@ -415704,8 +415704,8 @@
             "10": 0
           },
           "enrollmentTotal": 3702,
-          "deliveredTotal": 11755,
-          "deliveryPercentage": 317.53
+          "deliveredTotal": 10415,
+          "deliveryPercentage": 281.33
         },
         {
           "id": "tipas-national-high-school",
@@ -419412,8 +419412,8 @@
       },
       "enrollmentByGrade": {
         "1": 9826,
-        "2": 10762,
-        "3": 10221,
+        "2": 10337,
+        "3": 9787,
         "4": 11135,
         "5": 10451,
         "6": 10780,
@@ -419422,9 +419422,9 @@
         "9": 6014,
         "10": 5907
       },
-      "enrollmentTotal": 92411,
+      "enrollmentTotal": 91552,
       "deliveredTotal": 245416,
-      "deliveryPercentage": 265.57,
+      "deliveryPercentage": 268.06,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -421005,8 +421005,8 @@
           },
           "enrollmentByGrade": {
             "1": 364,
-            "2": 425,
-            "3": 434,
+            "2": 0,
+            "3": 0,
             "4": 389,
             "5": 387,
             "6": 386,
@@ -421015,9 +421015,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2385,
+          "enrollmentTotal": 1526,
           "deliveredTotal": 7676,
-          "deliveryPercentage": 321.84
+          "deliveryPercentage": 503.01
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
@@ -452368,8 +452368,8 @@
             },
             "3": {
               "gmrc": 137,
-              "reading-and-literacy": 363,
-              "language": 229,
+              "reading-and-literacy": 0,
+              "language": 0,
               "makabansa": 279,
               "mathematics": 168
             },
@@ -452514,12 +452514,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 363,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 229,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -452876,8 +452876,8 @@
             "10": 0
           },
           "enrollmentTotal": 705,
-          "deliveredTotal": 4018,
-          "deliveryPercentage": 569.93
+          "deliveredTotal": 3426,
+          "deliveryPercentage": 485.96
         },
         {
           "id": "silvestre-lazaro-elementary-school",
@@ -453955,7 +453955,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 75,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -454085,7 +454085,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 75,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -454469,8 +454469,8 @@
             "10": 0
           },
           "enrollmentTotal": 613,
-          "deliveredTotal": 1677,
-          "deliveryPercentage": 273.57
+          "deliveredTotal": 1602,
+          "deliveryPercentage": 261.34
         },
         {
           "id": "tagalag-elementary-school",
@@ -457672,7 +457672,7 @@
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
-              "language": 75,
+              "language": 0,
               "makabansa": 0,
               "mathematics": 0
             },
@@ -457802,7 +457802,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 75,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
@@ -458186,8 +458186,8 @@
             "10": 0
           },
           "enrollmentTotal": 949,
-          "deliveredTotal": 2580,
-          "deliveryPercentage": 271.87
+          "deliveredTotal": 2505,
+          "deliveryPercentage": 263.96
         },
         {
           "id": "wawang-pulo-national-high-school",

@@ -62,7 +62,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2026-2027": 470,
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -82,7 +82,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2026-2027": 470,
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -122,7 +122,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2026-2027": 535,
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -132,11 +132,11 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2026-2027": 535,
-      "Quantity of Textbooks Received S.Y. 2026-2027": "",
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
+      "Quantity of Textbooks Received S.Y. 2026-2027": 690,
+      "Year of Delivery-TX S.Y. 2026-2027": 2026,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
       "GAP-TX S.Y. 2026-2027": "",
       "Surplus-TX S.Y. 2026-2027": ""
     },
@@ -175,16 +175,6 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2026-2027": 535,
       "Quantity of Textbooks Received S.Y. 2026-2027": 700,
-      "Year of Delivery-TX S.Y. 2026-2027": 2026,
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
-      "GAP-TX S.Y. 2026-2027": "",
-      "Surplus-TX S.Y. 2026-2027": ""
-    },
-    {
-      "Grade Level": 3,
-      "SUBJECTS": "Filipino",
-      "Enrolment S.Y. 2026-2027": 535,
-      "Quantity of Textbooks Received S.Y. 2026-2027": 690,
       "Year of Delivery-TX S.Y. 2026-2027": 2026,
       "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
       "GAP-TX S.Y. 2026-2027": "",
@@ -901,5 +891,5 @@
       "Surplus-TX S.Y. 2026-2027": ""
     }
   ],
-  "generatedAt": "2026-09-04T02:39:49.904Z"
+  "generatedAt": "2026-09-04T06:03:55.302Z"
 }

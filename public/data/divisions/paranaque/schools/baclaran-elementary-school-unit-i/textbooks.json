@@ -92,7 +92,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 178,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -108,11 +108,11 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 178,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
+      "Quantity of Textbooks Received": 192,
+      "Year of Delivery-TX": 2025,
+      "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": "",
       "Surplus-TX": "",
       "Enrolment S.Y. 2026-2027": "",
@@ -156,22 +156,6 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Filipino",
-      "Enrolment S.Y. 2025-2026": 178,
-      "Quantity of Textbooks Received": 192,
-      "Year of Delivery-TX": 2025,
-      "SOURCE-TX (CO,RO, SDO)": "RO",
-      "GAP-TX": "",
-      "Surplus-TX": "",
-      "Enrolment S.Y. 2026-2027": "",
-      "Quantity of Textbooks Received S.Y. 2026-2027": "",
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": "",
-      "Surplus-TX S.Y. 2026-2027": ""
-    },
-    {
-      "Grade Level": 2,
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 178,
       "Quantity of Textbooks Received": "",
@@ -188,7 +172,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 181,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -204,7 +188,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 181,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -715,5 +699,5 @@
       "Surplus-TX S.Y. 2026-2027": ""
     }
   ],
-  "generatedAt": "2026-09-04T02:39:13.427Z"
+  "generatedAt": "2026-09-04T06:03:06.970Z"
 }

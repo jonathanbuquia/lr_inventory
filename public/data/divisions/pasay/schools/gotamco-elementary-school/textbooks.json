@@ -21,7 +21,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": 194,
       "Year of Delivery-Tx": 2024,
-      "Surplus -TX": 40,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -40,7 +40,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": "",
       "Year of Delivery-Tx": 2025,
-      "Surplus -TX": 76,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -78,7 +78,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": "",
       "Year of Delivery-Tx": 2025,
-      "Surplus -TX": 76,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -107,7 +107,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 209,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -126,7 +126,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 209,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -202,7 +202,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 238,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -221,7 +221,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 238,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": "",
@@ -363,7 +363,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": 259,
       "Year of Delivery-Tx": 2025,
-      "Surplus -TX": 19,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -382,7 +382,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": "",
       "Year of Delivery-Tx": 2025,
-      "Surplus -TX": 19,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -572,7 +572,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": 197,
       "Year of Delivery-Tx": 2025,
-      "Surplus -TX": 103,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -610,7 +610,7 @@
       "Surplus-TX": "",
       "Enrollment 2025-2026": "",
       "Year of Delivery-Tx": 2025,
-      "Surplus -TX": 103,
+      "Surplus -TX": "",
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -828,5 +828,5 @@
       "Surplus-TX S.Y. 2026-2027": ""
     }
   ],
-  "generatedAt": "2026-09-04T02:39:18.404Z"
+  "generatedAt": "2026-09-04T06:03:23.118Z"
 }

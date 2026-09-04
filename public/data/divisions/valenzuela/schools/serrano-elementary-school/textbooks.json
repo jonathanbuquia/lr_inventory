@@ -92,7 +92,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 121,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": " ",
@@ -108,7 +108,7 @@
     },
     {
       "Grade Level": 2,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 121,
       "Quantity of Textbooks Received": "",
       "Year of Delivery-TX": " ",
@@ -172,7 +172,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Reading and Literacy",
+      "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 128,
       "Quantity of Textbooks Received": 363,
       "Year of Delivery-TX": 2025,
@@ -188,7 +188,7 @@
     },
     {
       "Grade Level": 3,
-      "SUBJECTS": "Language",
+      "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 139,
       "Quantity of Textbooks Received": 229,
       "Year of Delivery-TX": 2025,
@@ -699,5 +699,5 @@
       "Surplus-TX S.Y. 2026-2027": ""
     }
   ],
-  "generatedAt": "2026-09-04T02:40:07.492Z"
+  "generatedAt": "2026-09-04T06:04:25.499Z"
 }
