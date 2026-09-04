@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-04T06:37:59.112Z",
+  "generatedAt": "2026-09-04T10:03:59.438Z",
   "years": [
     "2024",
     "2025",
@@ -384950,7 +384950,7 @@
           "english": 11293,
           "filipino": 6898,
           "science": 11018,
-          "araling-panlipunan": 9878,
+          "araling-panlipunan": 9542,
           "epp": 9000,
           "music-and-arts": 0,
           "pe-and-health": 10566,
@@ -385165,7 +385165,7 @@
           "araling-panlipunan": {
             "2024": 0,
             "2025": 6770,
-            "2026": 3108
+            "2026": 2772
           },
           "epp": {
             "2024": 0,
@@ -385430,15 +385430,15 @@
         "3": 12606,
         "4": 13825,
         "5": 13036,
-        "6": 11408,
+        "6": 11416,
         "7": 12116,
         "8": 11888,
         "9": 8873,
         "10": 9550
       },
-      "enrollmentTotal": 117729,
-      "deliveredTotal": 365023,
-      "deliveryPercentage": 310.05,
+      "enrollmentTotal": 117737,
+      "deliveredTotal": 364687,
+      "deliveryPercentage": 309.75,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -386011,9 +386011,9 @@
               "gmrc": 0,
               "english": 500,
               "filipino": 500,
-              "science": 0,
+              "science": 500,
               "araling-panlipunan": 336,
-              "epp": 0,
+              "epp": 500,
               "music-and-arts": 0,
               "pe-and-health": 500,
               "mathematics": 0
@@ -386226,7 +386226,7 @@
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 336,
+                "2025": 0,
                 "2026": 0
               },
               "epp": {
@@ -386241,7 +386241,7 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 500,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -386492,15 +386492,15 @@
             "3": 303,
             "4": 288,
             "5": 316,
-            "6": 304,
+            "6": 312,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1812,
-          "deliveredTotal": 8769,
-          "deliveryPercentage": 483.94
+          "enrollmentTotal": 1820,
+          "deliveredTotal": 9769,
+          "deliveryPercentage": 536.76
         },
         {
           "id": "bagong-tanyag-integrated-school",
