@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-06T02:08:14.189Z",
+  "generatedAt": "2026-09-06T02:37:15.123Z",
   "years": [
     "2024",
     "2025",
@@ -384914,11 +384914,11 @@
       "name": "TAGUIG_PATEROS",
       "totals": {
         "1": {
-          "gmrc": 13474,
-          "reading-and-literacy": 14041,
-          "language": 10974,
-          "makabansa": 14117,
-          "mathematics": 5513
+          "gmrc": 12910,
+          "reading-and-literacy": 13305,
+          "language": 10238,
+          "makabansa": 13559,
+          "mathematics": 4813
         },
         "2": {
           "gmrc": 0,
@@ -385017,27 +385017,27 @@
           "gmrc": {
             "2024": 8698,
             "2025": 4212,
-            "2026": 564
+            "2026": 0
           },
           "reading-and-literacy": {
             "2024": 8126,
             "2025": 4750,
-            "2026": 1165
+            "2026": 429
           },
           "language": {
             "2024": 1476,
             "2025": 8499,
-            "2026": 999
+            "2026": 263
           },
           "makabansa": {
             "2024": 1477,
             "2025": 12082,
-            "2026": 558
+            "2026": 0
           },
           "mathematics": {
             "2024": 0,
             "2025": 314,
-            "2026": 5199
+            "2026": 4499
           }
         },
         "2": {
@@ -385425,8 +385425,8 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11704,
-        "2": 13355,
+        "1": 11861,
+        "2": 13222,
         "3": 13004,
         "4": 14228,
         "5": 13437,
@@ -385436,9 +385436,9 @@
         "9": 8187,
         "10": 8662
       },
-      "enrollmentTotal": 116680,
-      "deliveredTotal": 352062,
-      "deliveryPercentage": 301.73,
+      "enrollmentTotal": 116704,
+      "deliveredTotal": 348768,
+      "deliveryPercentage": 298.85,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -389795,28 +389795,28 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 736,
+                "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 736,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 736,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 736,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 700
+                "2026": 0
               }
             },
             "2": {
@@ -390204,8 +390204,8 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 540,
-            "2": 671,
+            "1": 697,
+            "2": 538,
             "3": 685,
             "4": 772,
             "5": 657,
@@ -390215,9 +390215,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 3976,
+          "enrollmentTotal": 4000,
           "deliveredTotal": 15008,
-          "deliveryPercentage": 377.46
+          "deliveryPercentage": 375.2
         },
         {
           "id": "ciriaco-p-ti-ga-elementary-school",
