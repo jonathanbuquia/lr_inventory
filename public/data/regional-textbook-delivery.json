@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-06T02:37:15.123Z",
+  "generatedAt": "2026-09-06T03:02:16.683Z",
   "years": [
     "2024",
     "2025",
@@ -384924,7 +384924,7 @@
           "gmrc": 0,
           "reading-and-literacy": 110,
           "language": 0,
-          "makabansa": 7651,
+          "makabansa": 6852,
           "mathematics": 0
         },
         "3": {
@@ -385059,7 +385059,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 346,
-            "2026": 7305
+            "2026": 6506
           },
           "mathematics": {
             "2024": 0,
@@ -385427,7 +385427,7 @@
       "enrollmentByGrade": {
         "1": 11861,
         "2": 13222,
-        "3": 13004,
+        "3": 12976,
         "4": 14228,
         "5": 13437,
         "6": 11803,
@@ -385436,9 +385436,9 @@
         "9": 8187,
         "10": 8662
       },
-      "enrollmentTotal": 116704,
-      "deliveredTotal": 348768,
-      "deliveryPercentage": 298.85,
+      "enrollmentTotal": 116676,
+      "deliveredTotal": 347969,
+      "deliveryPercentage": 298.24,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -389838,7 +389838,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 799
+                "2026": 0
               },
               "mathematics": {
                 "2024": 0,
@@ -390206,7 +390206,7 @@
           "enrollmentByGrade": {
             "1": 697,
             "2": 538,
-            "3": 685,
+            "3": 657,
             "4": 772,
             "5": 657,
             "6": 651,
@@ -390215,9 +390215,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 4000,
+          "enrollmentTotal": 3972,
           "deliveredTotal": 15008,
-          "deliveryPercentage": 375.2
+          "deliveryPercentage": 377.84
         },
         {
           "id": "ciriaco-p-ti-ga-elementary-school",
