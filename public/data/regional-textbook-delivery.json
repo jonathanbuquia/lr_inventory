@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-06T09:22:32.495Z",
+  "generatedAt": "2026-09-06T11:17:25.747Z",
   "years": [
     "2024",
     "2025",
@@ -384924,7 +384924,7 @@
           "gmrc": 0,
           "reading-and-literacy": 110,
           "language": 0,
-          "makabansa": 6492,
+          "makabansa": 6146,
           "mathematics": 0
         },
         "3": {
@@ -385059,7 +385059,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 346,
-            "2026": 6146
+            "2026": 5800
           },
           "mathematics": {
             "2024": 0,
@@ -385425,9 +385425,9 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11991,
-        "2": 13052,
-        "3": 12914,
+        "1": 12014,
+        "2": 13041,
+        "3": 12875,
         "4": 14081,
         "5": 13542,
         "6": 11828,
@@ -385436,9 +385436,9 @@
         "9": 8187,
         "10": 8662
       },
-      "enrollmentTotal": 116557,
-      "deliveredTotal": 336419,
-      "deliveryPercentage": 288.63,
+      "enrollmentTotal": 116530,
+      "deliveredTotal": 336073,
+      "deliveryPercentage": 288.4,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -392348,11 +392348,11 @@
           "name": "EAST REMBO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 331,
-              "reading-and-literacy": 361,
-              "language": 0,
-              "makabansa": 376,
-              "mathematics": 0
+              "gmrc": 384,
+              "reading-and-literacy": 384,
+              "language": 384,
+              "makabansa": 384,
+              "mathematics": 289
             },
             "2": {
               "gmrc": 0,
@@ -392366,7 +392366,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 248
             },
             "4": {
               "gmrc": 300,
@@ -392449,12 +392449,12 @@
           "deliveryByYear": {
             "1": {
               "gmrc": {
-                "2024": 331,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 361,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -392465,7 +392465,7 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 376,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -392492,7 +392492,7 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 346,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -392859,9 +392859,9 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 266,
-            "2": 254,
-            "3": 287,
+            "1": 289,
+            "2": 243,
+            "3": 248,
             "4": 302,
             "5": 298,
             "6": 310,
@@ -392870,9 +392870,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1717,
-          "deliveredTotal": 5461,
-          "deliveryPercentage": 318.05
+          "enrollmentTotal": 1690,
+          "deliveredTotal": 6466,
+          "deliveryPercentage": 382.6
         },
         {
           "id": "em-s-signal-village-elementary-school",
