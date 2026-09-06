@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-06T03:12:49.614Z",
+  "generatedAt": "2026-09-06T08:27:31.567Z",
   "years": [
     "2024",
     "2025",
@@ -384916,23 +384916,23 @@
         "1": {
           "gmrc": 12910,
           "reading-and-literacy": 13305,
-          "language": 10238,
+          "language": 9975,
           "makabansa": 13559,
-          "mathematics": 4813
+          "mathematics": 4205
         },
         "2": {
           "gmrc": 0,
           "reading-and-literacy": 110,
           "language": 0,
-          "makabansa": 6852,
+          "makabansa": 6492,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 2892,
-          "mathematics": 2876
+          "makabansa": 2508,
+          "mathematics": 2484
         },
         "4": {
           "gmrc": 9342,
@@ -385027,7 +385027,7 @@
           "language": {
             "2024": 1476,
             "2025": 8499,
-            "2026": 263
+            "2026": 0
           },
           "makabansa": {
             "2024": 1477,
@@ -385037,7 +385037,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 314,
-            "2026": 4499
+            "2026": 3891
           }
         },
         "2": {
@@ -385059,7 +385059,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 346,
-            "2026": 6506
+            "2026": 6146
           },
           "mathematics": {
             "2024": 0,
@@ -385086,12 +385086,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 0,
-            "2026": 2892
+            "2026": 2508
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 2876
+            "2026": 2484
           }
         },
         "4": {
@@ -385425,9 +385425,9 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11861,
-        "2": 13222,
-        "3": 12976,
+        "1": 11889,
+        "2": 13178,
+        "3": 12936,
         "4": 14104,
         "5": 13543,
         "6": 11805,
@@ -385436,9 +385436,9 @@
         "9": 8187,
         "10": 8662
       },
-      "enrollmentTotal": 116660,
-      "deliveredTotal": 343727,
-      "deliveryPercentage": 294.64,
+      "enrollmentTotal": 116604,
+      "deliveredTotal": 341720,
+      "deliveryPercentage": 293.06,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -390224,14 +390224,14 @@
           "name": "CIRIACO P. TIÑGA ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 601,
-              "reading-and-literacy": 601,
-              "language": 601,
-              "makabansa": 601,
-              "mathematics": 608
+              "gmrc": 481,
+              "reading-and-literacy": 481,
+              "language": 481,
+              "makabansa": 484,
+              "mathematics": 425
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 440,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 360,
@@ -390325,29 +390325,29 @@
           "deliveryByYear": {
             "1": {
               "gmrc": {
-                "2024": 601,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 601,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 601,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 601,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 608
+                "2026": 0
               }
             },
             "2": {
@@ -390369,7 +390369,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 360
+                "2026": 0
               },
               "mathematics": {
                 "2024": 0,
@@ -390396,12 +390396,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 384
+                "2026": 0
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 392
+                "2026": 0
               }
             },
             "4": {
@@ -390735,9 +390735,9 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 300,
-            "2": 351,
-            "3": 374,
+            "1": 328,
+            "2": 307,
+            "3": 334,
             "4": 341,
             "5": 357,
             "6": 296,
@@ -390746,9 +390746,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2019,
-          "deliveredTotal": 10018,
-          "deliveryPercentage": 496.19
+          "enrollmentTotal": 1963,
+          "deliveredTotal": 9798,
+          "deliveryPercentage": 499.13
         },
         {
           "id": "comembo-elementary-school",
