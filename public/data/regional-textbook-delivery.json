@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-10T13:27:15.078Z",
+  "generatedAt": "2026-09-11T10:24:41.187Z",
   "years": [
     "2024",
     "2025",
@@ -267033,18 +267033,18 @@
           "mathematics": 3943
         },
         "2": {
-          "gmrc": 2609,
+          "gmrc": 3019,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 3180,
+          "makabansa": 3617,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 4552,
-          "mathematics": 4535
+          "makabansa": 4925,
+          "mathematics": 4925
         },
         "4": {
           "gmrc": 10492,
@@ -267053,17 +267053,17 @@
           "science": 9033,
           "araling-panlipunan": 9888,
           "epp": 46,
-          "music-and-arts": 4622,
+          "music-and-arts": 5039,
           "pe-and-health": 9548,
           "mathematics": 10564
         },
         "5": {
-          "gmrc": 2490,
-          "english": 6228,
-          "filipino": 3694,
-          "science": 6887,
+          "gmrc": 2900,
+          "english": 6540,
+          "filipino": 4006,
+          "science": 7199,
           "araling-panlipunan": 8190,
-          "epp": 4964,
+          "epp": 5276,
           "music-and-arts": 0,
           "pe-and-health": 5795,
           "mathematics": 0
@@ -267156,7 +267156,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2609
+            "2026": 3019
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -267171,7 +267171,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 20,
-            "2026": 3160
+            "2026": 3597
           },
           "mathematics": {
             "2024": 0,
@@ -267198,12 +267198,12 @@
           "makabansa": {
             "2024": 20,
             "2025": 235,
-            "2026": 4297
+            "2026": 4670
           },
           "mathematics": {
             "2024": 0,
             "2025": 235,
-            "2026": 4300
+            "2026": 4690
           }
         },
         "4": {
@@ -267240,7 +267240,7 @@
           "music-and-arts": {
             "2024": 97,
             "2025": 220,
-            "2026": 4305
+            "2026": 4722
           },
           "pe-and-health": {
             "2024": 6411,
@@ -267257,22 +267257,22 @@
           "gmrc": {
             "2024": 0,
             "2025": 600,
-            "2026": 1890
+            "2026": 2300
           },
           "english": {
             "2024": 541,
             "2025": 4723,
-            "2026": 964
+            "2026": 1276
           },
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 3694
+            "2026": 4006
           },
           "science": {
             "2024": 541,
             "2025": 3979,
-            "2026": 2367
+            "2026": 2679
           },
           "araling-panlipunan": {
             "2024": 541,
@@ -267282,7 +267282,7 @@
           "epp": {
             "2024": 0,
             "2025": 742,
-            "2026": 4222
+            "2026": 4534
           },
           "music-and-arts": {
             "2024": 0,
@@ -267537,20 +267537,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9539,
-        "2": 9373,
-        "3": 10179,
-        "4": 10883,
-        "5": 10405,
+        "1": 9541,
+        "2": 9315,
+        "3": 10207,
+        "4": 10845,
+        "5": 10431,
         "6": 9986,
         "7": 7822,
         "8": 9335,
         "9": 7652,
         "10": 8071
       },
-      "enrollmentTotal": 93245,
-      "deliveredTotal": 287057,
-      "deliveryPercentage": 307.85,
+      "enrollmentTotal": 93205,
+      "deliveredTotal": 290742,
+      "deliveryPercentage": 311.94,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -269154,21 +269154,21 @@
               "reading-and-literacy": 275,
               "language": 275,
               "makabansa": 275,
-              "mathematics": 0
+              "mathematics": 320
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 410,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 437,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 373,
+              "mathematics": 390
             },
             "4": {
               "gmrc": 400,
@@ -269177,17 +269177,17 @@
               "science": 384,
               "araling-panlipunan": 400,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 417,
               "pe-and-health": 400,
               "mathematics": 400
             },
             "5": {
-              "gmrc": 0,
-              "english": 0,
-              "filipino": 0,
-              "science": 0,
+              "gmrc": 410,
+              "english": 312,
+              "filipino": 312,
+              "science": 312,
               "araling-panlipunan": 312,
-              "epp": 0,
+              "epp": 312,
               "music-and-arts": 0,
               "pe-and-health": 312,
               "mathematics": 0
@@ -269272,7 +269272,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 320,
                 "2026": 0
               }
             },
@@ -269280,7 +269280,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 410
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -269295,7 +269295,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 437
               },
               "mathematics": {
                 "2024": 0,
@@ -269322,12 +269322,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 373
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 390
               }
             },
             "4": {
@@ -269364,7 +269364,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 417
               },
               "pe-and-health": {
                 "2024": 400,
@@ -269381,22 +269381,22 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 410
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 312,
                 "2026": 0
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 312
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 312
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -269406,7 +269406,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 312
               },
               "music-and-arts": {
                 "2024": 0,
@@ -269661,20 +269661,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 223,
-            "2": 275,
-            "3": 245,
-            "4": 280,
-            "5": 269,
+            "1": 225,
+            "2": 217,
+            "3": 273,
+            "4": 242,
+            "5": 295,
             "6": 264,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1556,
-          "deliveredTotal": 4108,
-          "deliveryPercentage": 264.01
+          "enrollmentTotal": 1516,
+          "deliveredTotal": 8113,
+          "deliveryPercentage": 535.16
         },
         {
           "id": "de-castro-elementary-school",
@@ -384948,10 +384948,10 @@
         "5": {
           "gmrc": 0,
           "english": 7586,
-          "filipino": 1832,
-          "science": 4437,
+          "filipino": 2212,
+          "science": 4817,
           "araling-panlipunan": 7004,
-          "epp": 3895,
+          "epp": 4275,
           "music-and-arts": 0,
           "pe-and-health": 8401,
           "mathematics": 1205
@@ -384968,7 +384968,7 @@
           "mathematics": 0
         },
         "7": {
-          "ve": 4650,
+          "ve": 3971,
           "english": 8554,
           "filipino": 0,
           "science": 7436,
@@ -384980,13 +384980,13 @@
         },
         "8": {
           "ve": 6457,
-          "english": 2681,
-          "filipino": 3742,
-          "science": 6048,
+          "english": 3083,
+          "filipino": 3165,
+          "science": 5471,
           "araling-panlipunan": 8,
-          "tle": 3755,
+          "tle": 4157,
           "music-and-arts": 555,
-          "pe-and-health": 1126,
+          "pe-and-health": 1528,
           "mathematics": 7124
         },
         "9": {
@@ -385002,7 +385002,7 @@
         },
         "10": {
           "ve": 408,
-          "english": 346,
+          "english": 783,
           "filipino": 1079,
           "science": 600,
           "araling-panlipunan": 1546,
@@ -385155,12 +385155,12 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 1832
+            "2026": 2212
           },
           "science": {
             "2024": 0,
             "2025": 2940,
-            "2026": 1497
+            "2026": 1877
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -385170,7 +385170,7 @@
           "epp": {
             "2024": 0,
             "2025": 1556,
-            "2026": 2339
+            "2026": 2719
           },
           "music-and-arts": {
             "2024": 0,
@@ -385239,7 +385239,7 @@
           "ve": {
             "2024": 7,
             "2025": 1510,
-            "2026": 3133
+            "2026": 2454
           },
           "english": {
             "2024": 2839,
@@ -385291,17 +385291,17 @@
           "english": {
             "2024": 0,
             "2025": 702,
-            "2026": 1979
+            "2026": 2381
           },
           "filipino": {
             "2024": 784,
             "2025": 0,
-            "2026": 2958
+            "2026": 2381
           },
           "science": {
             "2024": 541,
             "2025": 2293,
-            "2026": 3214
+            "2026": 2637
           },
           "araling-panlipunan": {
             "2024": 8,
@@ -385311,7 +385311,7 @@
           "tle": {
             "2024": 0,
             "2025": 0,
-            "2026": 3755
+            "2026": 4157
           },
           "music-and-arts": {
             "2024": 555,
@@ -385321,7 +385321,7 @@
           "pe-and-health": {
             "2024": 670,
             "2025": 0,
-            "2026": 456
+            "2026": 858
           },
           "mathematics": {
             "2024": 740,
@@ -385385,7 +385385,7 @@
           "english": {
             "2024": 283,
             "2025": 63,
-            "2026": 0
+            "2026": 437
           },
           "filipino": {
             "2024": 1016,
@@ -385425,20 +385425,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 14158,
-        "2": 12426,
-        "3": 14190,
-        "4": 15252,
-        "5": 15110,
-        "6": 12796,
-        "7": 11088,
-        "8": 12011,
+        "1": 14181,
+        "2": 12444,
+        "3": 14013,
+        "4": 15247,
+        "5": 15151,
+        "6": 12716,
+        "7": 10985,
+        "8": 11957,
         "9": 8918,
         "10": 8868
       },
-      "enrollmentTotal": 124817,
-      "deliveredTotal": 254820,
-      "deliveryPercentage": 204.15,
+      "enrollmentTotal": 124480,
+      "deliveredTotal": 255770,
+      "deliveryPercentage": 205.47,
       "schools": [
         {
           "id": "aguho-elementary-school",
@@ -401446,16 +401446,16 @@
               "science": 402,
               "araling-panlipunan": 0,
               "tle": 402,
-              "music-and-arts": 402,
+              "music-and-arts": 0,
               "pe-and-health": 402,
               "mathematics": 402
             },
             "9": {
               "ve": 0,
               "english": 0,
-              "filipino": 466,
+              "filipino": 0,
               "science": 0,
-              "araling-panlipunan": 378,
+              "araling-panlipunan": 0,
               "tle": 0,
               "music-and-arts": 0,
               "pe-and-health": 0,
@@ -401463,7 +401463,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 437,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -401610,28 +401610,28 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 380,
                 "2026": 0
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 380
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 380
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 400,
                 "2026": 0
               },
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 380
               },
               "music-and-arts": {
                 "2024": 0,
@@ -401700,11 +401700,11 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 463
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 463,
                 "2026": 0
               },
               "filipino": {
@@ -401713,32 +401713,32 @@
                 "2026": 0
               },
               "science": {
-                "2024": 0,
+                "2024": 463,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 463,
                 "2026": 0
               },
               "tle": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 463,
                 "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 463,
                 "2026": 0
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 463,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 0,
+                "2024": 463,
                 "2025": 0,
                 "2026": 0
               }
@@ -401752,17 +401752,17 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -401772,7 +401772,7 @@
               "tle": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "music-and-arts": {
                 "2024": 0,
@@ -401782,11 +401782,11 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 402,
                 "2026": 0
               }
             },
@@ -401846,7 +401846,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 437
               },
               "filipino": {
                 "2024": 0,
@@ -401898,8 +401898,8 @@
             "10": 301
           },
           "enrollmentTotal": 3423,
-          "deliveredTotal": 14522,
-          "deliveryPercentage": 424.25
+          "deliveredTotal": 13713,
+          "deliveryPercentage": 400.61
         },
         {
           "id": "pateros-elementary-school",
@@ -408811,15 +408811,15 @@
             "1": {
               "gmrc": 216,
               "reading-and-literacy": 216,
-              "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "language": 216,
+              "makabansa": 216,
+              "mathematics": 130
             },
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 128,
               "mathematics": 0
             },
             "3": {
@@ -408827,28 +408827,28 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 91
             },
             "4": {
-              "gmrc": 347,
+              "gmrc": 294,
               "english": 350,
-              "filipino": 326,
-              "science": 329,
+              "filipino": 327,
+              "science": 217,
               "araling-panlipunan": 329,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 110,
               "pe-and-health": 111,
-              "mathematics": 236
+              "mathematics": 357
             },
             "5": {
               "gmrc": 0,
               "english": 171,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
-              "epp": 0,
+              "filipino": 171,
+              "science": 171,
+              "araling-panlipunan": 134,
+              "epp": 134,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 134,
               "mathematics": 0
             },
             "6": {
@@ -408911,12 +408911,12 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 216,
+                "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 216,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
@@ -408991,27 +408991,27 @@
             },
             "4": {
               "gmrc": {
-                "2024": 347,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "english": {
-                "2024": 350,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "filipino": {
-                "2024": 326,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "science": {
-                "2024": 329,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 329,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -409026,12 +409026,12 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 111,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 236,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               }
@@ -409044,7 +409044,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 171,
+                "2025": 0,
                 "2026": 0
               },
               "filipino": {
@@ -409320,31 +409320,31 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 80,
-            "2": 96,
-            "3": 117,
+            "1": 127,
+            "2": 80,
+            "3": 92,
             "4": 115,
-            "5": 110,
-            "6": 140,
+            "5": 118,
+            "6": 109,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 658,
-          "deliveredTotal": 2631,
-          "deliveryPercentage": 399.85
+          "enrollmentTotal": 641,
+          "deliveredTotal": 4223,
+          "deliveryPercentage": 658.81
         },
         {
           "id": "south-daanghari-elementary-school-main",
           "name": "SOUTH DAANGHARI ELEMENTARY SCHOOL MAIN",
           "totals": {
             "1": {
-              "gmrc": 736,
-              "reading-and-literacy": 736,
-              "language": 736,
+              "gmrc": 490,
+              "reading-and-literacy": 457,
+              "language": 391,
               "makabansa": 736,
-              "mathematics": 0
+              "mathematics": 450
             },
             "2": {
               "gmrc": 0,
@@ -409357,8 +409357,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 450,
+              "mathematics": 450
             },
             "4": {
               "gmrc": 500,
@@ -409373,11 +409373,11 @@
             },
             "5": {
               "gmrc": 0,
-              "english": 0,
+              "english": 418,
               "filipino": 0,
-              "science": 0,
+              "science": 418,
               "araling-panlipunan": 247,
-              "epp": 0,
+              "epp": 418,
               "music-and-arts": 0,
               "pe-and-health": 418,
               "mathematics": 0
@@ -409441,23 +409441,23 @@
           "deliveryByYear": {
             "1": {
               "gmrc": {
-                "2024": 736,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 736,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 736,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 736,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -409523,7 +409523,7 @@
             "4": {
               "gmrc": {
                 "2024": 0,
-                "2025": 500,
+                "2025": 0,
                 "2026": 0
               },
               "english": {
@@ -409533,16 +409533,16 @@
               },
               "filipino": {
                 "2024": 0,
-                "2025": 360,
+                "2025": 0,
                 "2026": 0
               },
               "science": {
-                "2024": 550,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 550,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -409557,13 +409557,13 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 330,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 500,
+                "2025": 0,
                 "2026": 0
               }
             },
@@ -409590,7 +409590,7 @@
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 247,
+                "2025": 0,
                 "2026": 0
               },
               "epp": {
@@ -409605,7 +409605,7 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 418,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -409851,20 +409851,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 195,
-            "2": 209,
-            "3": 232,
-            "4": 220,
-            "5": 230,
-            "6": 191,
+            "1": 217,
+            "2": 176,
+            "3": 197,
+            "4": 229,
+            "5": 213,
+            "6": 220,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1277,
-          "deliveredTotal": 6399,
-          "deliveryPercentage": 501.1
+          "enrollmentTotal": 1252,
+          "deliveredTotal": 8133,
+          "deliveryPercentage": 649.6
         },
         {
           "id": "sta-ana-elementary-school",
@@ -409873,23 +409873,23 @@
             "1": {
               "gmrc": 301,
               "reading-and-literacy": 301,
-              "language": 0,
+              "language": 301,
               "makabansa": 301,
-              "mathematics": 0
+              "mathematics": 100
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 95,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 70,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 78,
+              "mathematics": 78
             },
             "4": {
               "gmrc": 96,
@@ -409898,19 +409898,19 @@
               "science": 128,
               "araling-panlipunan": 128,
               "epp": 0,
-              "music-and-arts": 0,
-              "pe-and-health": 0,
+              "music-and-arts": 70,
+              "pe-and-health": 117,
               "mathematics": 96
             },
             "5": {
-              "gmrc": 0,
-              "english": 0,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
-              "epp": 0,
+              "gmrc": 95,
+              "english": 70,
+              "filipino": 80,
+              "science": 70,
+              "araling-panlipunan": 70,
+              "epp": 70,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 70,
               "mathematics": 0
             },
             "6": {
@@ -409973,12 +409973,12 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 301,
+                "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 301,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
@@ -409988,7 +409988,7 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 301,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -410054,7 +410054,7 @@
             "4": {
               "gmrc": {
                 "2024": 0,
-                "2025": 96,
+                "2025": 0,
                 "2026": 0
               },
               "english": {
@@ -410064,17 +410064,17 @@
               },
               "filipino": {
                 "2024": 0,
-                "2025": 73,
+                "2025": 0,
                 "2026": 0
               },
               "science": {
                 "2024": 0,
-                "2025": 128,
+                "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 128,
+                "2025": 0,
                 "2026": 0
               },
               "epp": {
@@ -410094,7 +410094,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 96,
+                "2025": 0,
                 "2026": 0
               }
             },
@@ -410382,20 +410382,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 86,
-            "2": 82,
-            "3": 95,
-            "4": 81,
-            "5": 67,
-            "6": 93,
+            "1": 115,
+            "2": 81,
+            "3": 81,
+            "4": 87,
+            "5": 71,
+            "6": 67,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 504,
-          "deliveredTotal": 1424,
-          "deliveryPercentage": 282.54
+          "enrollmentTotal": 502,
+          "deliveredTotal": 2858,
+          "deliveryPercentage": 569.32
         },
         {
           "id": "stand-alone-senior-high-school-within-taguig-integrated-school",
@@ -410933,46 +410933,46 @@
           "name": "STO. ROSARIO ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 0,
-              "reading-and-literacy": 0,
-              "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "gmrc": 199,
+              "reading-and-literacy": 199,
+              "language": 190,
+              "makabansa": 199,
+              "mathematics": 47
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 45,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 70,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 87,
+              "mathematics": 87
             },
             "4": {
-              "gmrc": 0,
+              "gmrc": 95,
               "english": 0,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
+              "filipino": 60,
+              "science": 108,
+              "araling-panlipunan": 110,
               "epp": 0,
-              "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "music-and-arts": 55,
+              "pe-and-health": 55,
+              "mathematics": 96
             },
             "5": {
               "gmrc": 0,
-              "english": 0,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
-              "epp": 0,
+              "english": 55,
+              "filipino": 71,
+              "science": 55,
+              "araling-panlipunan": 44,
+              "epp": 60,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 55,
               "mathematics": 0
             },
             "6": {
@@ -411444,20 +411444,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 0,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
+            "1": 41,
+            "2": 40,
+            "3": 50,
+            "4": 61,
+            "5": 70,
+            "6": 58,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 0,
-          "deliveredTotal": 0,
-          "deliveryPercentage": 0
+          "enrollmentTotal": 320,
+          "deliveredTotal": 2042,
+          "deliveryPercentage": 638.13
         },
         {
           "id": "taguig-integrated-school",
@@ -411468,10 +411468,10 @@
               "reading-and-literacy": 601,
               "language": 601,
               "makabansa": 601,
-              "mathematics": 0
+              "mathematics": 634
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 760,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 936,
@@ -411496,7 +411496,7 @@
               "mathematics": 843
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 768,
               "english": 780,
               "filipino": 780,
               "science": 780,
@@ -411520,7 +411520,7 @@
             "7": {
               "ve": 1142,
               "english": 1142,
-              "filipino": 0,
+              "filipino": 1142,
               "science": 1142,
               "araling-panlipunan": 1142,
               "tle": 1142,
@@ -411530,7 +411530,7 @@
             },
             "8": {
               "ve": 979,
-              "english": 0,
+              "english": 979,
               "filipino": 979,
               "science": 979,
               "araling-panlipunan": 0,
@@ -411571,7 +411571,7 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 601,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
@@ -411789,11 +411789,11 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 1142
+                "2026": 0
               },
               "english": {
                 "2024": 0,
-                "2025": 1142,
+                "2025": 0,
                 "2026": 0
               },
               "filipino": {
@@ -411802,32 +411802,32 @@
                 "2026": 0
               },
               "science": {
-                "2024": 1142,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 1142,
+                "2025": 0,
                 "2026": 0
               },
               "tle": {
                 "2024": 0,
-                "2025": 1142,
+                "2025": 0,
                 "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 1142,
+                "2025": 0,
                 "2026": 0
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 1142,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 1142,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               }
@@ -411835,7 +411835,7 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 979,
+                "2025": 0,
                 "2026": 0
               },
               "english": {
@@ -411846,12 +411846,12 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 979
+                "2026": 0
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 979
+                "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -411875,7 +411875,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 979,
+                "2025": 0,
                 "2026": 0
               }
             },
@@ -411975,20 +411975,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 665,
-            "2": 619,
-            "3": 706,
-            "4": 762,
-            "5": 733,
-            "6": 728,
-            "7": 936,
-            "8": 875,
+            "1": 549,
+            "2": 647,
+            "3": 553,
+            "4": 681,
+            "5": 709,
+            "6": 618,
+            "7": 833,
+            "8": 821,
             "9": 703,
             "10": 897
           },
-          "enrollmentTotal": 7624,
-          "deliveredTotal": 30330,
-          "deliveryPercentage": 397.82
+          "enrollmentTotal": 7011,
+          "deliveredTotal": 34613,
+          "deliveryPercentage": 493.7
         },
         {
           "id": "taguig-national-high-school",
