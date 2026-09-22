@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-18T06:53:10.242Z",
+  "generatedAt": "2026-09-22T04:43:26.902Z",
   "years": [
     "2024",
     "2025",
@@ -959,14 +959,14 @@
         "4": 22609,
         "5": 18976,
         "6": 17136,
-        "7": 19859,
-        "8": 19476,
-        "9": 16823,
-        "10": 16352
+        "7": 19593,
+        "8": 19245,
+        "9": 16620,
+        "10": 16090
       },
-      "enrollmentTotal": 188835,
+      "enrollmentTotal": 187873,
       "deliveredTotal": 653428,
-      "deliveryPercentage": 346.03,
+      "deliveryPercentage": 347.8,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -26447,14 +26447,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 273,
-            "8": 239,
-            "9": 212,
-            "10": 272
+            "7": 7,
+            "8": 8,
+            "9": 9,
+            "10": 10
           },
-          "enrollmentTotal": 996,
+          "enrollmentTotal": 34,
           "deliveredTotal": 8625,
-          "deliveryPercentage": 865.96
+          "deliveryPercentage": 25367.65
         },
         {
           "id": "kalayaan-elementary-school",
@@ -106654,21 +106654,21 @@
           "reading-and-literacy": 4649,
           "language": 4494,
           "makabansa": 4494,
-          "mathematics": 1318
+          "mathematics": 1364
         },
         "2": {
-          "gmrc": 929,
+          "gmrc": 969,
           "reading-and-literacy": 220,
           "language": 278,
-          "makabansa": 469,
+          "makabansa": 522,
           "mathematics": 0
         },
         "3": {
           "gmrc": 270,
           "reading-and-literacy": 270,
           "language": 270,
-          "makabansa": 708,
-          "mathematics": 438
+          "makabansa": 761,
+          "mathematics": 491
         },
         "4": {
           "gmrc": 3756,
@@ -106682,9 +106682,9 @@
           "mathematics": 4653
         },
         "5": {
-          "gmrc": 1054,
+          "gmrc": 1113,
           "english": 4262,
-          "filipino": 1561,
+          "filipino": 1613,
           "science": 4101,
           "araling-panlipunan": 3943,
           "epp": 4076,
@@ -106773,14 +106773,14 @@
           "mathematics": {
             "2024": 285,
             "2025": 0,
-            "2026": 1033
+            "2026": 1079
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 220,
-            "2026": 709
+            "2026": 749
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -106795,7 +106795,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 220,
-            "2026": 249
+            "2026": 302
           },
           "mathematics": {
             "2024": 0,
@@ -106822,12 +106822,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 270,
-            "2026": 438
+            "2026": 491
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 438
+            "2026": 491
           }
         },
         "4": {
@@ -106881,7 +106881,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 255,
-            "2026": 799
+            "2026": 858
           },
           "english": {
             "2024": 0,
@@ -106891,7 +106891,7 @@
           "filipino": {
             "2024": 0,
             "2025": 510,
-            "2026": 1051
+            "2026": 1103
           },
           "science": {
             "2024": 0,
@@ -107173,8 +107173,8 @@
         "10": 3409
       },
       "enrollmentTotal": 37003,
-      "deliveredTotal": 164050,
-      "deliveryPercentage": 443.34,
+      "deliveredTotal": 164406,
+      "deliveryPercentage": 444.3,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -118867,21 +118867,21 @@
               "reading-and-literacy": 83,
               "language": 83,
               "makabansa": 83,
-              "mathematics": 0
+              "mathematics": 46
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 40,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 53,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 53,
+              "mathematics": 53
             },
             "4": {
               "gmrc": 43,
@@ -118895,9 +118895,9 @@
               "mathematics": 43
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 59,
               "english": 52,
-              "filipino": 0,
+              "filipino": 52,
               "science": 52,
               "araling-panlipunan": 47,
               "epp": 52,
@@ -118986,14 +118986,14 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 46
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 40
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -119008,7 +119008,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 53
               },
               "mathematics": {
                 "2024": 0,
@@ -119035,12 +119035,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 53
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 53
               }
             },
             "4": {
@@ -119094,7 +119094,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 59
               },
               "english": {
                 "2024": 0,
@@ -119104,7 +119104,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 52
               },
               "science": {
                 "2024": 0,
@@ -119386,8 +119386,8 @@
             "10": 0
           },
           "enrollmentTotal": 143,
-          "deliveredTotal": 915,
-          "deliveryPercentage": 639.86
+          "deliveredTotal": 1271,
+          "deliveryPercentage": 888.81
         },
         {
           "id": "senate-president-neptali-a-gonzales-integrated-school",
