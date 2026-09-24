@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:16:58.607Z",
+  "generatedAt": "2026-09-24T06:22:24.855Z",
   "years": [
     "2024",
     "2025",
@@ -418417,10 +418417,10 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 0,
+          "epp": 356,
           "music-and-arts": 216,
           "pe-and-health": 876,
-          "mathematics": 112
+          "mathematics": 468
         },
         "7": {
           "ve": 5948,
@@ -418672,7 +418672,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 356
           },
           "music-and-arts": {
             "2024": 0,
@@ -418687,7 +418687,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 0
+            "2026": 356
           }
         },
         "7": {
@@ -418892,8 +418892,8 @@
         "10": 5560
       },
       "enrollmentTotal": 92052,
-      "deliveredTotal": 286257,
-      "deliveryPercentage": 310.97,
+      "deliveredTotal": 286969,
+      "deliveryPercentage": 311.75,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -447091,10 +447091,10 @@
               "filipino": 380,
               "science": 380,
               "araling-panlipunan": 0,
-              "epp": 196,
+              "epp": 356,
               "music-and-arts": 0,
               "pe-and-health": 356,
-              "mathematics": 196
+              "mathematics": 356
             },
             "7": {
               "ve": 0,
@@ -447346,7 +447346,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 356
               },
               "music-and-arts": {
                 "2024": 0,
@@ -447361,7 +447361,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 356
               }
             },
             "7": {
@@ -447566,8 +447566,8 @@
             "10": 0
           },
           "enrollmentTotal": 2029,
-          "deliveredTotal": 10581,
-          "deliveryPercentage": 521.49
+          "deliveredTotal": 10901,
+          "deliveryPercentage": 537.26
         },
         {
           "id": "polo-national-high-school",
