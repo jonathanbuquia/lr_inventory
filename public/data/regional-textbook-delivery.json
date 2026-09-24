@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T08:42:04.497Z",
+  "generatedAt": "2026-09-24T08:47:01.894Z",
   "years": [
     "2024",
     "2025",
@@ -74278,7 +74278,7 @@
             "4": {
               "gmrc": 105,
               "english": 200,
-              "filipino": 77,
+              "filipino": 105,
               "science": 488,
               "araling-panlipunan": 488,
               "epp": 0,
@@ -74447,7 +74447,7 @@
                 "2026": 0
               },
               "filipino": {
-                "2024": 77,
+                "2024": 105,
                 "2025": 0,
                 "2026": 0
               },
@@ -74778,8 +74778,8 @@
             "10": 0
           },
           "enrollmentTotal": 700,
-          "deliveredTotal": 2700,
-          "deliveryPercentage": 385.71
+          "deliveredTotal": 2728,
+          "deliveryPercentage": 389.71
         },
         {
           "id": "hen-pio-del-pilar-elementary-school-main",
@@ -418406,7 +418406,7 @@
           "filipino": 2826,
           "science": 8707,
           "araling-panlipunan": 8333,
-          "epp": 4117,
+          "epp": 4437,
           "music-and-arts": 298,
           "pe-and-health": 8456,
           "mathematics": 147
@@ -418625,7 +418625,7 @@
           "epp": {
             "2024": 0,
             "2025": 1459,
-            "2026": 2658
+            "2026": 2978
           },
           "music-and-arts": {
             "2024": 0,
@@ -418892,8 +418892,8 @@
         "10": 5560
       },
       "enrollmentTotal": 92008,
-      "deliveredTotal": 288873,
-      "deliveryPercentage": 313.97,
+      "deliveredTotal": 289193,
+      "deliveryPercentage": 314.31,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -450797,7 +450797,7 @@
               "filipino": 0,
               "science": 320,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 320,
               "music-and-arts": 0,
               "pe-and-health": 320,
               "mathematics": 0
@@ -451015,7 +451015,7 @@
               },
               "epp": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 320,
                 "2026": 0
               },
               "music-and-arts": {
@@ -451283,8 +451283,8 @@
             "10": 0
           },
           "enrollmentTotal": 1511,
-          "deliveredTotal": 6504,
-          "deliveryPercentage": 430.44
+          "deliveredTotal": 6824,
+          "deliveryPercentage": 451.62
         },
         {
           "id": "santos-encarnacion-elementary-school",
