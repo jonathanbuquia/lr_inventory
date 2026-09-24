@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T04:32:00.123Z",
+  "generatedAt": "2026-09-24T04:57:09.917Z",
   "years": [
     "2024",
     "2025",
@@ -443,7 +443,7 @@
       "totals": {
         "1": {
           "gmrc": 20680,
-          "reading-and-literacy": 19346,
+          "reading-and-literacy": 19566,
           "language": 19014,
           "makabansa": 22226,
           "mathematics": 7531
@@ -550,7 +550,7 @@
           "reading-and-literacy": {
             "2024": 12023,
             "2025": 6147,
-            "2026": 1176
+            "2026": 1396
           },
           "language": {
             "2024": 2703,
@@ -965,8 +965,8 @@
         "10": 15881
       },
       "enrollmentTotal": 187355,
-      "deliveredTotal": 656518,
-      "deliveryPercentage": 350.41,
+      "deliveredTotal": 656738,
+      "deliveryPercentage": 350.53,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -37082,7 +37082,7 @@
           "totals": {
             "1": {
               "gmrc": 172,
-              "reading-and-literacy": 172,
+              "reading-and-literacy": 220,
               "language": 172,
               "makabansa": 172,
               "mathematics": 220
@@ -37187,9 +37187,9 @@
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 172,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 220
               },
               "language": {
                 "2024": 0,
@@ -37604,8 +37604,8 @@
             "10": 0
           },
           "enrollmentTotal": 1400,
-          "deliveredTotal": 5085,
-          "deliveryPercentage": 363.21
+          "deliveredTotal": 5133,
+          "deliveryPercentage": 366.64
         },
         {
           "id": "nhc-high-school",
