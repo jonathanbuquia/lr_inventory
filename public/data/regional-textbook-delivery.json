@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T03:42:06.493Z",
+  "generatedAt": "2026-09-24T03:46:57.009Z",
   "years": [
     "2024",
     "2025",
@@ -226670,10 +226670,10 @@
           "reading-and-literacy": 10057,
           "language": 6682,
           "makabansa": 9259,
-          "mathematics": 564
+          "mathematics": 694
         },
         "2": {
-          "gmrc": 0,
+          "gmrc": 102,
           "reading-and-literacy": 100,
           "language": 100,
           "makabansa": 7326,
@@ -226789,14 +226789,14 @@
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 150
+            "2026": 280
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 102
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -227189,8 +227189,8 @@
         "10": 4962
       },
       "enrollmentTotal": 66684,
-      "deliveredTotal": 249025,
-      "deliveryPercentage": 373.44,
+      "deliveredTotal": 249257,
+      "deliveryPercentage": 373.79,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -242600,10 +242600,10 @@
               "reading-and-literacy": 286,
               "language": 286,
               "makabansa": 286,
-              "mathematics": 0
+              "mathematics": 130
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 102,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 102,
@@ -242719,14 +242719,14 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 130
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 102
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -243119,8 +243119,8 @@
             "10": 0
           },
           "enrollmentTotal": 482,
-          "deliveredTotal": 3302,
-          "deliveryPercentage": 685.06
+          "deliveredTotal": 3534,
+          "deliveryPercentage": 733.2
         },
         {
           "id": "sampaloc-site-ii-elementary-school",
