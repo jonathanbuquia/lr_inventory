@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T07:52:15.139Z",
+  "generatedAt": "2026-09-24T08:22:18.482Z",
   "years": [
     "2024",
     "2025",
@@ -70542,7 +70542,7 @@
           "reading-and-literacy": 3329,
           "language": 3341,
           "makabansa": 3341,
-          "mathematics": 1752
+          "mathematics": 2022
         },
         "2": {
           "gmrc": 188,
@@ -70661,7 +70661,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 1752
+            "2026": 2022
           }
         },
         "2": {
@@ -71061,8 +71061,8 @@
         "10": 2038
       },
       "enrollmentTotal": 24521,
-      "deliveredTotal": 102329,
-      "deliveryPercentage": 417.31,
+      "deliveredTotal": 102599,
+      "deliveryPercentage": 418.41,
       "schools": [
         {
           "id": "bangkal-elementary-school-main",
@@ -72666,7 +72666,7 @@
               "reading-and-literacy": 280,
               "language": 280,
               "makabansa": 280,
-              "mathematics": 0
+              "mathematics": 270
             },
             "2": {
               "gmrc": 0,
@@ -72785,7 +72785,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 270
               }
             },
             "2": {
@@ -73185,8 +73185,8 @@
             "10": 0
           },
           "enrollmentTotal": 1392,
-          "deliveredTotal": 4276,
-          "deliveryPercentage": 307.18
+          "deliveredTotal": 4546,
+          "deliveryPercentage": 326.58
         },
         {
           "id": "f-benitez-elementary-school-main",
