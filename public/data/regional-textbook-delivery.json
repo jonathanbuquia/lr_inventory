@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T08:32:01.715Z",
+  "generatedAt": "2026-09-24T08:42:04.497Z",
   "years": [
     "2024",
     "2025",
@@ -70545,7 +70545,7 @@
           "mathematics": 2022
         },
         "2": {
-          "gmrc": 188,
+          "gmrc": 361,
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 2871,
@@ -70668,7 +70668,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 188
+            "2026": 361
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -71061,8 +71061,8 @@
         "10": 2038
       },
       "enrollmentTotal": 24521,
-      "deliveredTotal": 102599,
-      "deliveryPercentage": 418.41,
+      "deliveredTotal": 102772,
+      "deliveryPercentage": 419.12,
       "schools": [
         {
           "id": "bangkal-elementary-school-main",
@@ -73200,7 +73200,7 @@
               "mathematics": 163
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 173,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 173,
@@ -73323,7 +73323,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 173
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -73716,8 +73716,8 @@
             "10": 0
           },
           "enrollmentTotal": 953,
-          "deliveredTotal": 4786,
-          "deliveryPercentage": 502.2
+          "deliveredTotal": 4959,
+          "deliveryPercentage": 520.36
         },
         {
           "id": "gen-pio-del-pilar-national-high-school",
@@ -418386,8 +418386,8 @@
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 2860,
-          "mathematics": 2749
+          "makabansa": 3146,
+          "mathematics": 3035
         },
         "4": {
           "gmrc": 10301,
@@ -418396,7 +418396,7 @@
           "science": 9429,
           "araling-panlipunan": 9302,
           "epp": 245,
-          "music-and-arts": 4257,
+          "music-and-arts": 4617,
           "pe-and-health": 8811,
           "mathematics": 9964
         },
@@ -418541,12 +418541,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 2581
+            "2026": 2867
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 2581
+            "2026": 2867
           }
         },
         "4": {
@@ -418583,7 +418583,7 @@
           "music-and-arts": {
             "2024": 181,
             "2025": 509,
-            "2026": 3567
+            "2026": 3927
           },
           "pe-and-health": {
             "2024": 8141,
@@ -418882,18 +418882,18 @@
       "enrollmentByGrade": {
         "1": 9935,
         "2": 10251,
-        "3": 9746,
-        "4": 11138,
-        "5": 10529,
+        "3": 9719,
+        "4": 11157,
+        "5": 10515,
         "6": 10711,
         "7": 9310,
         "8": 8680,
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92030,
-      "deliveredTotal": 287941,
-      "deliveryPercentage": 312.88,
+      "enrollmentTotal": 92008,
+      "deliveredTotal": 288873,
+      "deliveryPercentage": 313.97,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -450777,8 +450777,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 286,
+              "mathematics": 286
             },
             "4": {
               "gmrc": 343,
@@ -450787,7 +450787,7 @@
               "science": 343,
               "araling-panlipunan": 343,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 360,
               "pe-and-health": 293,
               "mathematics": 364
             },
@@ -450932,12 +450932,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 286
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 286
               }
             },
             "4": {
@@ -450974,7 +450974,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 360
               },
               "pe-and-health": {
                 "2024": 293,
@@ -451273,18 +451273,18 @@
           "enrollmentByGrade": {
             "1": 238,
             "2": 234,
-            "3": 274,
-            "4": 255,
-            "5": 278,
+            "3": 247,
+            "4": 274,
+            "5": 264,
             "6": 254,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1533,
-          "deliveredTotal": 5572,
-          "deliveryPercentage": 363.47
+          "enrollmentTotal": 1511,
+          "deliveredTotal": 6504,
+          "deliveryPercentage": 430.44
         },
         {
           "id": "santos-encarnacion-elementary-school",
