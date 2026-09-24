@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T05:12:02.864Z",
+  "generatedAt": "2026-09-24T06:02:12.331Z",
   "years": [
     "2024",
     "2025",
@@ -959,14 +959,14 @@
         "4": 22610,
         "5": 19012,
         "6": 17136,
-        "7": 19320,
-        "8": 19189,
+        "7": 19586,
+        "8": 19420,
         "9": 16602,
         "10": 15881
       },
-      "enrollmentTotal": 187358,
+      "enrollmentTotal": 187855,
       "deliveredTotal": 656909,
-      "deliveryPercentage": 350.62,
+      "deliveryPercentage": 349.69,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -26447,14 +26447,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 7,
-            "8": 8,
+            "7": 273,
+            "8": 239,
             "9": 9,
             "10": 10
           },
-          "enrollmentTotal": 34,
+          "enrollmentTotal": 531,
           "deliveredTotal": 8625,
-          "deliveryPercentage": 25367.65
+          "deliveryPercentage": 1624.29
         },
         {
           "id": "kalayaan-elementary-school",
@@ -178918,7 +178918,7 @@
           "filipino": 633,
           "science": 633,
           "araling-panlipunan": 0,
-          "epp": 0,
+          "epp": 571,
           "music-and-arts": 0,
           "pe-and-health": 633,
           "mathematics": 0
@@ -179173,7 +179173,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 571
           },
           "music-and-arts": {
             "2024": 0,
@@ -179393,8 +179393,8 @@
         "10": 6642
       },
       "enrollmentTotal": 64553,
-      "deliveredTotal": 273040,
-      "deliveryPercentage": 422.97,
+      "deliveredTotal": 273611,
+      "deliveryPercentage": 423.85,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -181573,7 +181573,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 571,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -181828,7 +181828,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 571
               },
               "music-and-arts": {
                 "2024": 0,
@@ -182048,8 +182048,8 @@
             "10": 0
           },
           "enrollmentTotal": 3026,
-          "deliveredTotal": 13203,
-          "deliveryPercentage": 436.32
+          "deliveredTotal": 13774,
+          "deliveryPercentage": 455.19
         },
         {
           "id": "fortune-high-school",
