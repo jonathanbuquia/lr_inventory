@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:37:11.097Z",
+  "generatedAt": "2026-09-24T06:47:02.507Z",
   "years": [
     "2024",
     "2025",
@@ -490,14 +490,14 @@
           "filipino": 786,
           "science": 651,
           "araling-panlipunan": 0,
-          "epp": 1614,
+          "epp": 1934,
           "music-and-arts": 412,
-          "pe-and-health": 1977,
+          "pe-and-health": 2297,
           "mathematics": 373
         },
         "7": {
           "ve": 12232,
-          "english": 19521,
+          "english": 19734,
           "filipino": 92,
           "science": 18039,
           "araling-panlipunan": 20553,
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 1319
+            "2026": 1639
           },
           "music-and-arts": {
             "2024": 0,
@@ -755,7 +755,7 @@
           "pe-and-health": {
             "2024": 620,
             "2025": 0,
-            "2026": 1357
+            "2026": 1677
           },
           "mathematics": {
             "2024": 0,
@@ -772,7 +772,7 @@
           "english": {
             "2024": 798,
             "2025": 13186,
-            "2026": 5537
+            "2026": 5750
           },
           "filipino": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 656909,
-      "deliveryPercentage": 348.84,
+      "deliveredTotal": 657762,
+      "deliveryPercentage": 349.29,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25985,7 +25985,7 @@
             },
             "7": {
               "ve": 273,
-              "english": 214,
+              "english": 213,
               "filipino": 273,
               "science": 214,
               "araling-panlipunan": 214,
@@ -26258,9 +26258,9 @@
                 "2026": 0
               },
               "english": {
-                "2024": 214,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 213
               },
               "filipino": {
                 "2024": 0,
@@ -26453,8 +26453,8 @@
             "10": 215
           },
           "enrollmentTotal": 973,
-          "deliveredTotal": 8625,
-          "deliveryPercentage": 886.43
+          "deliveredTotal": 8624,
+          "deliveryPercentage": 886.33
         },
         {
           "id": "kalayaan-elementary-school",
@@ -37129,9 +37129,9 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 320,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 320,
               "mathematics": 0
             },
             "7": {
@@ -37384,7 +37384,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 320
               },
               "music-and-arts": {
                 "2024": 0,
@@ -37394,7 +37394,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 320
               },
               "mathematics": {
                 "2024": 0,
@@ -37604,8 +37604,8 @@
             "10": 0
           },
           "enrollmentTotal": 1420,
-          "deliveredTotal": 5476,
-          "deliveryPercentage": 385.63
+          "deliveredTotal": 6116,
+          "deliveryPercentage": 430.7
         },
         {
           "id": "nhc-high-school",
