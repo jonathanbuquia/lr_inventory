@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-22T04:43:26.902Z",
+  "generatedAt": "2026-09-24T03:37:04.001Z",
   "years": [
     "2024",
     "2025",
@@ -226698,7 +226698,7 @@
           "mathematics": 8746
         },
         "5": {
-          "gmrc": 0,
+          "gmrc": 136,
           "english": 8826,
           "filipino": 240,
           "science": 7954,
@@ -226714,7 +226714,7 @@
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
-          "epp": 0,
+          "epp": 127,
           "music-and-arts": 0,
           "pe-and-health": 632,
           "mathematics": 0
@@ -226897,7 +226897,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 136
           },
           "english": {
             "2024": 0,
@@ -226969,7 +226969,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 127
           },
           "music-and-arts": {
             "2024": 0,
@@ -227177,20 +227177,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 6655,
-        "2": 7455,
-        "3": 7604,
+        "1": 6660,
+        "2": 7464,
+        "3": 7594,
         "4": 8158,
-        "5": 7456,
-        "6": 7265,
+        "5": 7448,
+        "6": 7276,
         "7": 6154,
         "8": 5948,
         "9": 5020,
         "10": 4962
       },
-      "enrollmentTotal": 66677,
-      "deliveredTotal": 248762,
-      "deliveryPercentage": 373.09,
+      "enrollmentTotal": 66684,
+      "deliveredTotal": 249025,
+      "deliveryPercentage": 373.44,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -242628,7 +242628,7 @@
               "mathematics": 159
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 136,
               "english": 136,
               "filipino": 0,
               "science": 136,
@@ -242644,7 +242644,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 127,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -242827,7 +242827,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 136
               },
               "english": {
                 "2024": 0,
@@ -242899,7 +242899,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 127
               },
               "music-and-arts": {
                 "2024": 0,
@@ -243107,20 +243107,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 85,
-            "2": 66,
-            "3": 81,
+            "1": 90,
+            "2": 75,
+            "3": 71,
             "4": 83,
-            "5": 89,
-            "6": 71,
+            "5": 81,
+            "6": 82,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 475,
-          "deliveredTotal": 3039,
-          "deliveryPercentage": 639.79
+          "enrollmentTotal": 482,
+          "deliveredTotal": 3302,
+          "deliveryPercentage": 685.06
         },
         {
           "id": "sampaloc-site-ii-elementary-school",
