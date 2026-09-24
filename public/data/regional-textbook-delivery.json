@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T08:27:04.859Z",
+  "generatedAt": "2026-09-24T08:32:01.715Z",
   "years": [
     "2024",
     "2025",
@@ -479,8 +479,8 @@
           "filipino": 8383,
           "science": 21490,
           "araling-panlipunan": 23229,
-          "epp": 15870,
-          "music-and-arts": 1147,
+          "epp": 16170,
+          "music-and-arts": 1447,
           "pe-and-health": 22438,
           "mathematics": 589
         },
@@ -698,12 +698,12 @@
           "epp": {
             "2024": 0,
             "2025": 1608,
-            "2026": 14262
+            "2026": 14562
           },
           "music-and-arts": {
             "2024": 0,
             "2025": 730,
-            "2026": 417
+            "2026": 717
           },
           "pe-and-health": {
             "2024": 371,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 659420,
-      "deliveryPercentage": 350.17,
+      "deliveredTotal": 660020,
+      "deliveryPercentage": 350.49,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -37118,8 +37118,8 @@
               "filipino": 300,
               "science": 300,
               "araling-panlipunan": 300,
-              "epp": 0,
-              "music-and-arts": 0,
+              "epp": 300,
+              "music-and-arts": 300,
               "pe-and-health": 300,
               "mathematics": 0
             },
@@ -37336,13 +37336,13 @@
               },
               "epp": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 300,
                 "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "pe-and-health": {
                 "2024": 0,
@@ -37604,8 +37604,8 @@
             "10": 0
           },
           "enrollmentTotal": 1420,
-          "deliveredTotal": 6716,
-          "deliveryPercentage": 472.96
+          "deliveredTotal": 7316,
+          "deliveryPercentage": 515.21
         },
         {
           "id": "nhc-high-school",
