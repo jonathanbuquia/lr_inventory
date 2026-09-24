@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T08:22:18.482Z",
+  "generatedAt": "2026-09-24T08:27:04.859Z",
   "years": [
     "2024",
     "2025",
@@ -418373,13 +418373,13 @@
           "reading-and-literacy": 9388,
           "language": 8623,
           "makabansa": 10256,
-          "mathematics": 3957
+          "mathematics": 4281
         },
         "2": {
-          "gmrc": 1988,
+          "gmrc": 2312,
           "reading-and-literacy": 0,
           "language": 150,
-          "makabansa": 3842,
+          "makabansa": 4166,
           "mathematics": 0
         },
         "3": {
@@ -418492,14 +418492,14 @@
           "mathematics": {
             "2024": 0,
             "2025": 1166,
-            "2026": 2791
+            "2026": 3115
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 1988
+            "2026": 2312
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -418514,7 +418514,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 671,
-            "2026": 3171
+            "2026": 3495
           },
           "mathematics": {
             "2024": 0,
@@ -418880,8 +418880,8 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9941,
-        "2": 10267,
+        "1": 9935,
+        "2": 10251,
         "3": 9746,
         "4": 11138,
         "5": 10529,
@@ -418891,9 +418891,9 @@
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92052,
-      "deliveredTotal": 286969,
-      "deliveryPercentage": 311.75,
+      "enrollmentTotal": 92030,
+      "deliveredTotal": 287941,
+      "deliveryPercentage": 312.88,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -450764,13 +450764,13 @@
               "reading-and-literacy": 317,
               "language": 317,
               "makabansa": 317,
-              "mathematics": 0
+              "mathematics": 324
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 324,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 324,
               "mathematics": 0
             },
             "3": {
@@ -450883,14 +450883,14 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 324
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 324
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -450905,7 +450905,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 324
               },
               "mathematics": {
                 "2024": 0,
@@ -451271,8 +451271,8 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 244,
-            "2": 250,
+            "1": 238,
+            "2": 234,
             "3": 274,
             "4": 255,
             "5": 278,
@@ -451282,9 +451282,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1555,
-          "deliveredTotal": 4600,
-          "deliveryPercentage": 295.82
+          "enrollmentTotal": 1533,
+          "deliveredTotal": 5572,
+          "deliveryPercentage": 363.47
         },
         {
           "id": "santos-encarnacion-elementary-school",
