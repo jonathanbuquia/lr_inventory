@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:07:10.181Z",
+  "generatedAt": "2026-09-24T06:12:03.714Z",
   "years": [
     "2024",
     "2025",
@@ -418401,14 +418401,14 @@
           "mathematics": 9964
         },
         "5": {
-          "gmrc": 1665,
-          "english": 8304,
-          "filipino": 2424,
-          "science": 8305,
+          "gmrc": 2067,
+          "english": 8706,
+          "filipino": 2826,
+          "science": 8707,
           "araling-panlipunan": 8333,
-          "epp": 3715,
+          "epp": 4117,
           "music-and-arts": 298,
-          "pe-and-health": 8054,
+          "pe-and-health": 8456,
           "mathematics": 147
         },
         "6": {
@@ -418600,22 +418600,22 @@
           "gmrc": {
             "2024": 0,
             "2025": 91,
-            "2026": 1574
+            "2026": 1976
           },
           "english": {
             "2024": 0,
             "2025": 7400,
-            "2026": 904
+            "2026": 1306
           },
           "filipino": {
             "2024": 0,
             "2025": 79,
-            "2026": 2345
+            "2026": 2747
           },
           "science": {
             "2024": 0,
             "2025": 7396,
-            "2026": 909
+            "2026": 1311
           },
           "araling-panlipunan": {
             "2024": 120,
@@ -418625,7 +418625,7 @@
           "epp": {
             "2024": 0,
             "2025": 1459,
-            "2026": 2256
+            "2026": 2658
           },
           "music-and-arts": {
             "2024": 0,
@@ -418635,7 +418635,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 7534,
-            "2026": 520
+            "2026": 922
           },
           "mathematics": {
             "2024": 0,
@@ -418892,8 +418892,8 @@
         "10": 5560
       },
       "enrollmentTotal": 92052,
-      "deliveredTotal": 283845,
-      "deliveryPercentage": 308.35,
+      "deliveredTotal": 286257,
+      "deliveryPercentage": 310.97,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -425304,10 +425304,10 @@
               "mathematics": 380
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 402,
               "english": 402,
-              "filipino": 0,
-              "science": 0,
+              "filipino": 402,
+              "science": 402,
               "araling-panlipunan": 402,
               "epp": 402,
               "music-and-arts": 0,
@@ -425503,22 +425503,22 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -425528,7 +425528,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "music-and-arts": {
                 "2024": 0,
@@ -425538,7 +425538,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "mathematics": {
                 "2024": 0,
@@ -425795,8 +425795,8 @@
             "10": 0
           },
           "enrollmentTotal": 2181,
-          "deliveredTotal": 7999,
-          "deliveryPercentage": 366.76
+          "deliveredTotal": 9205,
+          "deliveryPercentage": 422.05
         },
         {
           "id": "canumay-west-national-high-school",
