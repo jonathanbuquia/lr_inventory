@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T03:37:04.001Z",
+  "generatedAt": "2026-09-24T03:42:06.493Z",
   "years": [
     "2024",
     "2025",
@@ -959,14 +959,14 @@
         "4": 22609,
         "5": 18976,
         "6": 17136,
-        "7": 19593,
-        "8": 19245,
-        "9": 16620,
-        "10": 16090
+        "7": 19320,
+        "8": 19189,
+        "9": 16602,
+        "10": 15881
       },
-      "enrollmentTotal": 187873,
+      "enrollmentTotal": 187317,
       "deliveredTotal": 653428,
-      "deliveryPercentage": 347.8,
+      "deliveryPercentage": 348.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -7331,14 +7331,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 938,
-            "8": 789,
-            "9": 667,
-            "10": 784
+            "7": 665,
+            "8": 733,
+            "9": 649,
+            "10": 575
           },
-          "enrollmentTotal": 3178,
+          "enrollmentTotal": 2622,
           "deliveredTotal": 15480,
-          "deliveryPercentage": 487.1
+          "deliveryPercentage": 590.39
         },
         {
           "id": "bagong-barrio-senior-high-school",
