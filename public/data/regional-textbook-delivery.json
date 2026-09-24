@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:47:02.507Z",
+  "generatedAt": "2026-09-24T06:57:06.645Z",
   "years": [
     "2024",
     "2025",
@@ -474,9 +474,9 @@
           "mathematics": 19102
         },
         "5": {
-          "gmrc": 2008,
+          "gmrc": 2308,
           "english": 23728,
-          "filipino": 8083,
+          "filipino": 8383,
           "science": 21490,
           "araling-panlipunan": 23229,
           "epp": 15870,
@@ -673,7 +673,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 415,
-            "2026": 1593
+            "2026": 1893
           },
           "english": {
             "2024": 371,
@@ -683,7 +683,7 @@
           "filipino": {
             "2024": 0,
             "2025": 630,
-            "2026": 7453
+            "2026": 7753
           },
           "science": {
             "2024": 371,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 657762,
-      "deliveryPercentage": 349.29,
+      "deliveredTotal": 658362,
+      "deliveryPercentage": 349.61,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -37113,9 +37113,9 @@
               "mathematics": 270
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 300,
               "english": 300,
-              "filipino": 0,
+              "filipino": 300,
               "science": 300,
               "araling-panlipunan": 300,
               "epp": 0,
@@ -37312,7 +37312,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "english": {
                 "2024": 0,
@@ -37322,7 +37322,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               },
               "science": {
                 "2024": 0,
@@ -37604,8 +37604,8 @@
             "10": 0
           },
           "enrollmentTotal": 1420,
-          "deliveredTotal": 6116,
-          "deliveryPercentage": 430.7
+          "deliveredTotal": 6716,
+          "deliveryPercentage": 472.96
         },
         {
           "id": "nhc-high-school",
