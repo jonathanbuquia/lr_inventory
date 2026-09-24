@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:22:24.855Z",
+  "generatedAt": "2026-09-24T06:37:11.097Z",
   "years": [
     "2024",
     "2025",
@@ -497,7 +497,7 @@
         },
         "7": {
           "ve": 12232,
-          "english": 19736,
+          "english": 19521,
           "filipino": 92,
           "science": 18039,
           "araling-panlipunan": 20553,
@@ -772,7 +772,7 @@
           "english": {
             "2024": 798,
             "2025": 13186,
-            "2026": 5752
+            "2026": 5537
           },
           "filipino": {
             "2024": 0,
@@ -958,15 +958,15 @@
         "3": 20223,
         "4": 22610,
         "5": 19012,
-        "6": 17136,
-        "7": 19586,
-        "8": 19420,
-        "9": 16805,
-        "10": 16143
+        "6": 17153,
+        "7": 19529,
+        "8": 19468,
+        "9": 16848,
+        "10": 16086
       },
-      "enrollmentTotal": 188320,
-      "deliveredTotal": 657124,
-      "deliveryPercentage": 348.94,
+      "enrollmentTotal": 188314,
+      "deliveredTotal": 656909,
+      "deliveryPercentage": 348.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25985,7 +25985,7 @@
             },
             "7": {
               "ve": 273,
-              "english": 215,
+              "english": 214,
               "filipino": 273,
               "science": 214,
               "araling-panlipunan": 214,
@@ -26258,9 +26258,9 @@
                 "2026": 0
               },
               "english": {
-                "2024": 0,
+                "2024": 214,
                 "2025": 0,
-                "2026": 215
+                "2026": 0
               },
               "filipino": {
                 "2024": 0,
@@ -26447,14 +26447,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 273,
-            "8": 239,
-            "9": 212,
-            "10": 272
+            "7": 216,
+            "8": 287,
+            "9": 255,
+            "10": 215
           },
-          "enrollmentTotal": 996,
-          "deliveredTotal": 8626,
-          "deliveryPercentage": 866.06
+          "enrollmentTotal": 973,
+          "deliveredTotal": 8625,
+          "deliveryPercentage": 886.43
         },
         {
           "id": "kalayaan-elementary-school",
@@ -37597,15 +37597,15 @@
             "3": 230,
             "4": 261,
             "5": 252,
-            "6": 200,
+            "6": 217,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1403,
+          "enrollmentTotal": 1420,
           "deliveredTotal": 5476,
-          "deliveryPercentage": 390.31
+          "deliveryPercentage": 385.63
         },
         {
           "id": "nhc-high-school",
