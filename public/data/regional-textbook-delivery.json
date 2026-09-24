@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:57:06.645Z",
+  "generatedAt": "2026-09-24T07:47:09.590Z",
   "years": [
     "2024",
     "2025",
@@ -503,7 +503,7 @@
           "araling-panlipunan": 20553,
           "tle": 23938,
           "music-and-arts": 17892,
-          "pe-and-health": 23815,
+          "pe-and-health": 24091,
           "mathematics": 17346
         },
         "8": {
@@ -530,7 +530,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 1643,
+          "english": 1996,
           "filipino": 3708,
           "science": 1344,
           "araling-panlipunan": 0,
@@ -802,7 +802,7 @@
           "pe-and-health": {
             "2024": 6255,
             "2025": 11373,
-            "2026": 6187
+            "2026": 6463
           },
           "mathematics": {
             "2024": 13385,
@@ -913,7 +913,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 1643
+            "2026": 1996
           },
           "filipino": {
             "2024": 3708,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 658362,
-      "deliveryPercentage": 349.61,
+      "deliveredTotal": 658991,
+      "deliveryPercentage": 349.94,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25991,7 +25991,7 @@
               "araling-panlipunan": 214,
               "tle": 214,
               "music-and-arts": 214,
-              "pe-and-health": 214,
+              "pe-and-health": 276,
               "mathematics": 214
             },
             "8": {
@@ -26018,7 +26018,7 @@
             },
             "10": {
               "ve": 272,
-              "english": 272,
+              "english": 353,
               "filipino": 272,
               "science": 272,
               "araling-panlipunan": 272,
@@ -26288,9 +26288,9 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 214,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 276
               },
               "mathematics": {
                 "2024": 214,
@@ -26401,7 +26401,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 353
               },
               "filipino": {
                 "2024": 0,
@@ -26453,8 +26453,8 @@
             "10": 215
           },
           "enrollmentTotal": 973,
-          "deliveredTotal": 8624,
-          "deliveryPercentage": 886.33
+          "deliveredTotal": 8767,
+          "deliveryPercentage": 901.03
         },
         {
           "id": "kalayaan-elementary-school",
