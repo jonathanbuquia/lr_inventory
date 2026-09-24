@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T05:07:01.570Z",
+  "generatedAt": "2026-09-24T05:12:02.864Z",
   "years": [
     "2024",
     "2025",
@@ -955,16 +955,16 @@
       "enrollmentByGrade": {
         "1": 17633,
         "2": 19752,
-        "3": 20257,
-        "4": 22609,
-        "5": 18976,
+        "3": 20223,
+        "4": 22610,
+        "5": 19012,
         "6": 17136,
         "7": 19320,
         "8": 19189,
         "9": 16602,
         "10": 15881
       },
-      "enrollmentTotal": 187355,
+      "enrollmentTotal": 187358,
       "deliveredTotal": 656909,
       "deliveryPercentage": 350.62,
       "schools": [
@@ -37594,18 +37594,18 @@
           "enrollmentByGrade": {
             "1": 226,
             "2": 234,
-            "3": 264,
-            "4": 260,
-            "5": 216,
+            "3": 230,
+            "4": 261,
+            "5": 252,
             "6": 200,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1400,
+          "enrollmentTotal": 1403,
           "deliveredTotal": 5476,
-          "deliveryPercentage": 391.14
+          "deliveryPercentage": 390.31
         },
         {
           "id": "nhc-high-school",
