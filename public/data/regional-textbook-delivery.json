@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T06:12:03.714Z",
+  "generatedAt": "2026-09-24T06:16:58.607Z",
   "years": [
     "2024",
     "2025",
@@ -497,7 +497,7 @@
         },
         "7": {
           "ve": 12232,
-          "english": 19521,
+          "english": 19736,
           "filipino": 92,
           "science": 18039,
           "araling-panlipunan": 20553,
@@ -772,7 +772,7 @@
           "english": {
             "2024": 798,
             "2025": 13186,
-            "2026": 5537
+            "2026": 5752
           },
           "filipino": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 16143
       },
       "enrollmentTotal": 188320,
-      "deliveredTotal": 656909,
-      "deliveryPercentage": 348.83,
+      "deliveredTotal": 657124,
+      "deliveryPercentage": 348.94,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25985,7 +25985,7 @@
             },
             "7": {
               "ve": 273,
-              "english": 214,
+              "english": 215,
               "filipino": 273,
               "science": 214,
               "araling-panlipunan": 214,
@@ -26258,9 +26258,9 @@
                 "2026": 0
               },
               "english": {
-                "2024": 214,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 215
               },
               "filipino": {
                 "2024": 0,
@@ -26453,8 +26453,8 @@
             "10": 272
           },
           "enrollmentTotal": 996,
-          "deliveredTotal": 8625,
-          "deliveryPercentage": 865.96
+          "deliveredTotal": 8626,
+          "deliveryPercentage": 866.06
         },
         {
           "id": "kalayaan-elementary-school",
