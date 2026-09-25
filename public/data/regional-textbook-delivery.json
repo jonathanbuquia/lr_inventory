@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:32:14.776Z",
+  "generatedAt": "2026-09-25T03:37:18.658Z",
   "years": [
     "2024",
     "2025",
@@ -226162,19 +226162,19 @@
           "science": 7623,
           "araling-panlipunan": 8438,
           "epp": 933,
-          "music-and-arts": 7591,
+          "music-and-arts": 8013,
           "pe-and-health": 7799,
           "mathematics": 8486
         },
         "5": {
           "gmrc": 1655,
-          "english": 8572,
+          "english": 8565,
           "filipino": 1962,
-          "science": 7702,
-          "araling-panlipunan": 8600,
+          "science": 7697,
+          "araling-panlipunan": 8578,
           "epp": 7867,
           "music-and-arts": 196,
-          "pe-and-health": 8193,
+          "pe-and-health": 8177,
           "mathematics": 260
         },
         "6": {
@@ -226349,7 +226349,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 7591
+            "2026": 8013
           },
           "pe-and-health": {
             "2024": 5227,
@@ -226371,7 +226371,7 @@
           "english": {
             "2024": 0,
             "2025": 6921,
-            "2026": 1651
+            "2026": 1644
           },
           "filipino": {
             "2024": 0,
@@ -226381,12 +226381,12 @@
           "science": {
             "2024": 0,
             "2025": 4097,
-            "2026": 3605
+            "2026": 3600
           },
           "araling-panlipunan": {
             "2024": 0,
             "2025": 7818,
-            "2026": 782
+            "2026": 760
           },
           "epp": {
             "2024": 0,
@@ -226401,7 +226401,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 7098,
-            "2026": 1095
+            "2026": 1079
           },
           "mathematics": {
             "2024": 0,
@@ -226647,19 +226647,19 @@
       },
       "enrollmentByGrade": {
         "1": 11209,
-        "2": 7767,
-        "3": 7955,
-        "4": 8561,
-        "5": 8005,
-        "6": 7707,
+        "2": 7729,
+        "3": 7930,
+        "4": 8578,
+        "5": 8072,
+        "6": 7684,
         "7": 5948,
         "8": 5835,
         "9": 4908,
         "10": 4846
       },
-      "enrollmentTotal": 72741,
-      "deliveredTotal": 262613,
-      "deliveryPercentage": 361.02,
+      "enrollmentTotal": 72739,
+      "deliveredTotal": 262985,
+      "deliveryPercentage": 361.55,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -234100,10 +234100,10 @@
           "name": "LA HUERTA ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 1017,
-              "reading-and-literacy": 1017,
-              "language": 1017,
-              "makabansa": 1017,
+              "gmrc": 612,
+              "reading-and-literacy": 613,
+              "language": 455,
+              "makabansa": 455,
               "mathematics": 446
             },
             "2": {
@@ -234123,23 +234123,23 @@
             "4": {
               "gmrc": 422,
               "english": 0,
-              "filipino": 422,
-              "science": 422,
-              "araling-panlipunan": 422,
+              "filipino": 385,
+              "science": 373,
+              "araling-panlipunan": 388,
               "epp": 0,
-              "music-and-arts": 0,
-              "pe-and-health": 422,
+              "music-and-arts": 422,
+              "pe-and-health": 394,
               "mathematics": 422
             },
             "5": {
               "gmrc": 504,
-              "english": 504,
+              "english": 497,
               "filipino": 504,
-              "science": 504,
-              "araling-panlipunan": 504,
+              "science": 499,
+              "araling-panlipunan": 482,
               "epp": 504,
               "music-and-arts": 0,
-              "pe-and-health": 504,
+              "pe-and-health": 488,
               "mathematics": 0
             },
             "6": {
@@ -234201,22 +234201,22 @@
           "deliveryByYear": {
             "1": {
               "gmrc": {
-                "2024": 1017,
+                "2024": 612,
                 "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 1017,
+                "2024": 613,
                 "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 1017,
+                "2025": 455,
                 "2026": 0
               },
               "makabansa": {
-                "2024": 1017,
+                "2024": 455,
                 "2025": 0,
                 "2026": 0
               },
@@ -234292,17 +234292,17 @@
                 "2026": 0
               },
               "filipino": {
-                "2024": 422,
+                "2024": 385,
                 "2025": 0,
                 "2026": 0
               },
               "science": {
-                "2024": 422,
+                "2024": 373,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 422,
+                "2024": 388,
                 "2025": 0,
                 "2026": 0
               },
@@ -234314,10 +234314,10 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 422
               },
               "pe-and-health": {
-                "2024": 422,
+                "2024": 394,
                 "2025": 0,
                 "2026": 0
               },
@@ -234335,7 +234335,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 504,
+                "2025": 497,
                 "2026": 0
               },
               "filipino": {
@@ -234345,12 +234345,12 @@
               },
               "science": {
                 "2024": 0,
-                "2025": 504,
+                "2025": 499,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 504,
+                "2025": 482,
                 "2026": 0
               },
               "epp": {
@@ -234365,7 +234365,7 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 504,
+                "2025": 488,
                 "2026": 0
               },
               "mathematics": {
@@ -234612,19 +234612,19 @@
           },
           "enrollmentByGrade": {
             "1": 314,
-            "2": 363,
-            "3": 392,
-            "4": 383,
-            "5": 328,
-            "6": 359,
+            "2": 325,
+            "3": 367,
+            "4": 400,
+            "5": 395,
+            "6": 336,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2139,
-          "deliveredTotal": 13412,
-          "deliveryPercentage": 627.02
+          "enrollmentTotal": 2137,
+          "deliveredTotal": 11703,
+          "deliveryPercentage": 547.64
         },
         {
           "id": "la-huerta-national-high-school",
