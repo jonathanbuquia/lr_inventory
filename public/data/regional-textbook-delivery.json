@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:11:53.053Z",
+  "generatedAt": "2026-09-25T05:17:02.696Z",
   "years": [
     "2024",
     "2025",
@@ -226646,20 +226646,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11209,
-        "2": 7729,
-        "3": 7930,
-        "4": 8578,
-        "5": 8072,
-        "6": 7684,
+        "1": 11278,
+        "2": 7616,
+        "3": 7936,
+        "4": 8550,
+        "5": 8083,
+        "6": 7703,
         "7": 5919,
         "8": 5861,
         "9": 4967,
         "10": 4839
       },
-      "enrollmentTotal": 72788,
+      "enrollmentTotal": 72752,
       "deliveredTotal": 265932,
-      "deliveryPercentage": 365.35,
+      "deliveryPercentage": 365.53,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -248417,20 +248417,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 316,
-            "2": 426,
-            "3": 415,
-            "4": 433,
-            "5": 410,
-            "6": 389,
+            "1": 385,
+            "2": 313,
+            "3": 421,
+            "4": 405,
+            "5": 421,
+            "6": 408,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2389,
+          "enrollmentTotal": 2353,
           "deliveredTotal": 5028,
-          "deliveryPercentage": 210.46
+          "deliveryPercentage": 213.68
         },
         {
           "id": "sun-valley-national-high-school",
