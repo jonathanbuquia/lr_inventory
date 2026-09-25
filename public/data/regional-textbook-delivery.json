@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:02:00.767Z",
+  "generatedAt": "2026-09-25T05:11:53.053Z",
   "years": [
     "2024",
     "2025",
@@ -226205,9 +226205,9 @@
           "filipino": 727,
           "science": 4482,
           "araling-panlipunan": 0,
-          "tle": 3752,
+          "tle": 4078,
           "music-and-arts": 0,
-          "pe-and-health": 401,
+          "pe-and-health": 727,
           "mathematics": 7575
         },
         "9": {
@@ -226223,7 +226223,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 496,
+          "english": 833,
           "filipino": 970,
           "science": 0,
           "araling-panlipunan": 0,
@@ -226532,7 +226532,7 @@
           "tle": {
             "2024": 0,
             "2025": 444,
-            "2026": 3308
+            "2026": 3634
           },
           "music-and-arts": {
             "2024": 0,
@@ -226542,7 +226542,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 401
+            "2026": 727
           },
           "mathematics": {
             "2024": 0,
@@ -226606,7 +226606,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 496
+            "2026": 833
           },
           "filipino": {
             "2024": 970,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72788,
-      "deliveredTotal": 264943,
-      "deliveryPercentage": 363.99,
+      "deliveredTotal": 265932,
+      "deliveryPercentage": 365.35,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -235763,9 +235763,9 @@
               "filipino": 326,
               "science": 326,
               "araling-panlipunan": 0,
-              "tle": 0,
+              "tle": 326,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 326,
               "mathematics": 299
             },
             "9": {
@@ -235781,7 +235781,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 337,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -236090,7 +236090,7 @@
               "tle": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 326
               },
               "music-and-arts": {
                 "2024": 0,
@@ -236100,7 +236100,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 326
               },
               "mathematics": {
                 "2024": 0,
@@ -236164,7 +236164,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 337
               },
               "filipino": {
                 "2024": 0,
@@ -236216,8 +236216,8 @@
             "10": 262
           },
           "enrollmentTotal": 1348,
-          "deliveredTotal": 1814,
-          "deliveryPercentage": 134.57
+          "deliveredTotal": 2803,
+          "deliveryPercentage": 207.94
         },
         {
           "id": "masville-elementary-school",
