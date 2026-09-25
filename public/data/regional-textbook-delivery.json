@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T07:37:24.749Z",
+  "generatedAt": "2026-09-25T07:47:16.445Z",
   "years": [
     "2024",
     "2025",
@@ -469,7 +469,7 @@
           "science": 19940,
           "araling-panlipunan": 19991,
           "epp": 3205,
-          "music-and-arts": 15327,
+          "music-and-arts": 15011,
           "pe-and-health": 20405,
           "mathematics": 19102
         },
@@ -656,7 +656,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 2106,
-            "2026": 13221
+            "2026": 12905
           },
           "pe-and-health": {
             "2024": 15764,
@@ -953,20 +953,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 17633,
-        "2": 19752,
-        "3": 20223,
-        "4": 22610,
-        "5": 19012,
-        "6": 17153,
+        "1": 17630,
+        "2": 19725,
+        "3": 20216,
+        "4": 22596,
+        "5": 19097,
+        "6": 17120,
         "7": 19529,
         "8": 19468,
         "9": 16848,
         "10": 16086
       },
-      "enrollmentTotal": 188314,
-      "deliveredTotal": 663799,
-      "deliveryPercentage": 352.5,
+      "enrollmentTotal": 188315,
+      "deliveredTotal": 663483,
+      "deliveryPercentage": 352.33,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25065,7 +25065,7 @@
                 "2026": 0
               },
               "science": {
-                "2024": 316,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -25082,10 +25082,10 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 316
+                "2026": 0
               },
               "pe-and-health": {
-                "2024": 247,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -25379,20 +25379,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 280,
-            "2": 322,
-            "3": 314,
-            "4": 339,
-            "5": 247,
-            "6": 278,
+            "1": 277,
+            "2": 295,
+            "3": 307,
+            "4": 325,
+            "5": 332,
+            "6": 245,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1780,
+          "enrollmentTotal": 1781,
           "deliveredTotal": 9648,
-          "deliveryPercentage": 542.02
+          "deliveryPercentage": 541.72
         },
         {
           "id": "horacio-dela-costa-elementary-school",
