@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T07:27:10.956Z",
+  "generatedAt": "2026-09-25T07:37:24.749Z",
   "years": [
     "2024",
     "2025",
@@ -474,7 +474,7 @@
           "mathematics": 19102
         },
         "5": {
-          "gmrc": 2783,
+          "gmrc": 3154,
           "english": 23728,
           "filipino": 8383,
           "science": 21490,
@@ -673,7 +673,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 415,
-            "2026": 2368
+            "2026": 2739
           },
           "english": {
             "2024": 371,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 663428,
-      "deliveryPercentage": 352.3,
+      "deliveredTotal": 663799,
+      "deliveryPercentage": 352.5,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25099,7 +25099,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 371
               },
               "english": {
                 "2024": 371,
