@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:27:14.879Z",
+  "generatedAt": "2026-09-25T03:32:14.776Z",
   "years": [
     "2024",
     "2025",
@@ -226646,7 +226646,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11210,
+        "1": 11209,
         "2": 7767,
         "3": 7955,
         "4": 8561,
@@ -226657,7 +226657,7 @@
         "9": 4908,
         "10": 4846
       },
-      "enrollmentTotal": 72742,
+      "enrollmentTotal": 72741,
       "deliveredTotal": 262613,
       "deliveryPercentage": 361.02,
       "schools": [
@@ -234611,7 +234611,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 315,
+            "1": 314,
             "2": 363,
             "3": 392,
             "4": 383,
@@ -234622,9 +234622,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2140,
+          "enrollmentTotal": 2139,
           "deliveredTotal": 13412,
-          "deliveryPercentage": 626.73
+          "deliveryPercentage": 627.02
         },
         {
           "id": "la-huerta-national-high-school",
