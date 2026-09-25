@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T08:37:14.385Z",
+  "generatedAt": "2026-09-25T08:52:17.002Z",
   "years": [
     "2024",
     "2025",
@@ -469,13 +469,13 @@
           "science": 19940,
           "araling-panlipunan": 19991,
           "epp": 3205,
-          "music-and-arts": 15327,
+          "music-and-arts": 15773,
           "pe-and-health": 20405,
           "mathematics": 19102
         },
         "5": {
           "gmrc": 3154,
-          "english": 23728,
+          "english": 24198,
           "filipino": 8853,
           "science": 21490,
           "araling-panlipunan": 23229,
@@ -656,7 +656,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 2106,
-            "2026": 13221
+            "2026": 13667
           },
           "pe-and-health": {
             "2024": 15764,
@@ -678,7 +678,7 @@
           "english": {
             "2024": 371,
             "2025": 15284,
-            "2026": 8073
+            "2026": 8543
           },
           "filipino": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188291,
-      "deliveredTotal": 666618,
-      "deliveryPercentage": 354.04,
+      "deliveredTotal": 667534,
+      "deliveryPercentage": 354.52,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -34984,7 +34984,7 @@
               "science": 446,
               "araling-panlipunan": 446,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 446,
               "pe-and-health": 446,
               "mathematics": 446
             },
@@ -35171,7 +35171,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 446
               },
               "pe-and-health": {
                 "2024": 446,
@@ -35192,8 +35192,8 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 470,
-                "2026": 0
+                "2025": 0,
+                "2026": 470
               },
               "filipino": {
                 "2024": 0,
@@ -35480,8 +35480,8 @@
             "10": 0
           },
           "enrollmentTotal": 2481,
-          "deliveredTotal": 12460,
-          "deliveryPercentage": 502.22
+          "deliveredTotal": 12906,
+          "deliveryPercentage": 520.19
         },
         {
           "id": "maypajo-high-school",
