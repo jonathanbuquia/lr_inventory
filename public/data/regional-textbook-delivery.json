@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T04:07:02.759Z",
+  "generatedAt": "2026-09-25T04:46:52.473Z",
   "years": [
     "2024",
     "2025",
@@ -235759,7 +235759,7 @@
             },
             "8": {
               "ve": 0,
-              "english": 0,
+              "english": 360,
               "filipino": 0,
               "science": 326,
               "araling-panlipunan": 0,
@@ -236216,8 +236216,8 @@
             "10": 262
           },
           "enrollmentTotal": 1348,
-          "deliveredTotal": 660,
-          "deliveryPercentage": 48.96
+          "deliveredTotal": 1020,
+          "deliveryPercentage": 75.67
         },
         {
           "id": "masville-elementary-school",
