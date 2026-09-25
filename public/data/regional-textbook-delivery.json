@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-24T09:37:01.080Z",
+  "generatedAt": "2026-09-25T00:45:49.685Z",
   "years": [
     "2024",
     "2025",
@@ -226136,10 +226136,10 @@
       "totals": {
         "1": {
           "gmrc": 9179,
-          "reading-and-literacy": 10057,
-          "language": 6682,
-          "makabansa": 9259,
-          "mathematics": 694
+          "reading-and-literacy": 10417,
+          "language": 7082,
+          "makabansa": 9486,
+          "mathematics": 1094
         },
         "2": {
           "gmrc": 102,
@@ -226183,7 +226183,7 @@
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
-          "epp": 127,
+          "epp": 487,
           "music-and-arts": 0,
           "pe-and-health": 632,
           "mathematics": 0
@@ -226243,22 +226243,22 @@
           "reading-and-literacy": {
             "2024": 6982,
             "2025": 2565,
-            "2026": 510
+            "2026": 870
           },
           "language": {
             "2024": 813,
             "2025": 5869,
-            "2026": 0
+            "2026": 400
           },
           "makabansa": {
             "2024": 3295,
             "2025": 5791,
-            "2026": 173
+            "2026": 400
           },
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 280
+            "2026": 680
           }
         },
         "2": {
@@ -226438,7 +226438,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 127
+            "2026": 487
           },
           "music-and-arts": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4962
       },
       "enrollmentTotal": 66684,
-      "deliveredTotal": 251092,
-      "deliveryPercentage": 376.54,
+      "deliveredTotal": 252839,
+      "deliveryPercentage": 379.16,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -235166,10 +235166,10 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 300
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 300,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 302,
@@ -235179,8 +235179,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 300,
+              "mathematics": 300
             },
             "4": {
               "gmrc": 192,
@@ -235194,9 +235194,9 @@
               "mathematics": 0
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 300,
               "english": 252,
-              "filipino": 0,
+              "filipino": 250,
               "science": 250,
               "araling-panlipunan": 120,
               "epp": 370,
@@ -235210,7 +235210,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 240,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -235685,8 +235685,8 @@
             "10": 0
           },
           "enrollmentTotal": 2332,
-          "deliveredTotal": 3330,
-          "deliveryPercentage": 142.8
+          "deliveredTotal": 5320,
+          "deliveryPercentage": 228.13
         },
         {
           "id": "marcelo-green-high-school-para-aque",
@@ -245783,10 +245783,10 @@
           "totals": {
             "1": {
               "gmrc": 360,
-              "reading-and-literacy": 0,
-              "language": 0,
-              "makabansa": 360,
-              "mathematics": 0
+              "reading-and-literacy": 360,
+              "language": 400,
+              "makabansa": 400,
+              "mathematics": 400
             },
             "2": {
               "gmrc": 0,
@@ -245889,23 +245889,23 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 360,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 400
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 360,
-                "2026": 0
+                "2025": 0,
+                "2026": 400
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 400
               }
             },
             "2": {
@@ -246305,8 +246305,8 @@
             "10": 0
           },
           "enrollmentTotal": 2223,
-          "deliveredTotal": 6577,
-          "deliveryPercentage": 295.86
+          "deliveredTotal": 7777,
+          "deliveryPercentage": 349.84
         },
         {
           "id": "sto-ni-o-elementary-school",
@@ -246361,7 +246361,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 360,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -246616,7 +246616,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 360
               },
               "music-and-arts": {
                 "2024": 0,
@@ -246836,8 +246836,8 @@
             "10": 0
           },
           "enrollmentTotal": 1442,
-          "deliveredTotal": 6930,
-          "deliveryPercentage": 480.58
+          "deliveredTotal": 7290,
+          "deliveryPercentage": 505.55
         },
         {
           "id": "sto-ni-o-national-high-school",
