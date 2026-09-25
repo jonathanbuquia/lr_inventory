@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:07:17.912Z",
+  "generatedAt": "2026-09-25T03:27:14.879Z",
   "years": [
     "2024",
     "2025",
@@ -226138,7 +226138,7 @@
           "gmrc": 9379,
           "reading-and-literacy": 10617,
           "language": 7082,
-          "makabansa": 9902,
+          "makabansa": 9686,
           "mathematics": 3152
         },
         "2": {
@@ -226253,7 +226253,7 @@
           "makabansa": {
             "2024": 3295,
             "2025": 5791,
-            "2026": 816
+            "2026": 600
           },
           "mathematics": {
             "2024": 414,
@@ -226658,8 +226658,8 @@
         "10": 4846
       },
       "enrollmentTotal": 72742,
-      "deliveredTotal": 262829,
-      "deliveryPercentage": 361.32,
+      "deliveredTotal": 262613,
+      "deliveryPercentage": 361.02,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -231031,8 +231031,8 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 0,
-                "2026": 216
+                "2025": 216,
+                "2026": 0
               },
               "mathematics": {
                 "2024": 0,
