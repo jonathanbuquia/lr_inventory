@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T00:52:09.474Z",
+  "generatedAt": "2026-09-25T01:02:28.821Z",
   "years": [
     "2024",
     "2025",
@@ -226142,7 +226142,7 @@
           "mathematics": 1986
         },
         "2": {
-          "gmrc": 677,
+          "gmrc": 1041,
           "reading-and-literacy": 100,
           "language": 100,
           "makabansa": 7326,
@@ -226152,8 +226152,8 @@
           "gmrc": 0,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 587,
-          "mathematics": 707
+          "makabansa": 963,
+          "mathematics": 1083
         },
         "4": {
           "gmrc": 9104,
@@ -226167,7 +226167,7 @@
           "mathematics": 8746
         },
         "5": {
-          "gmrc": 640,
+          "gmrc": 989,
           "english": 8826,
           "filipino": 880,
           "science": 7954,
@@ -226265,7 +226265,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 677
+            "2026": 1041
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -226307,12 +226307,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 0,
-            "2026": 587
+            "2026": 963
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 707
+            "2026": 1083
           }
         },
         "4": {
@@ -226366,7 +226366,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 640
+            "2026": 989
           },
           "english": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4962
       },
       "enrollmentTotal": 66684,
-      "deliveredTotal": 256488,
-      "deliveryPercentage": 384.63,
+      "deliveredTotal": 257953,
+      "deliveryPercentage": 386.83,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -246320,7 +246320,7 @@
               "mathematics": 446
             },
             "2": {
-              "gmrc": 64,
+              "gmrc": 364,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 364,
@@ -246330,8 +246330,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 376,
+              "mathematics": 376
             },
             "4": {
               "gmrc": 331,
@@ -246345,7 +246345,7 @@
               "mathematics": 331
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 349,
               "english": 349,
               "filipino": 0,
               "science": 349,
@@ -246443,7 +246443,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 364
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -246485,12 +246485,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 376
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 376
               }
             },
             "4": {
@@ -246544,7 +246544,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 349
               },
               "english": {
                 "2024": 0,
@@ -246836,8 +246836,8 @@
             "10": 0
           },
           "enrollmentTotal": 1442,
-          "deliveredTotal": 7248,
-          "deliveryPercentage": 502.64
+          "deliveredTotal": 8649,
+          "deliveryPercentage": 599.79
         },
         {
           "id": "sto-ni-o-national-high-school",
