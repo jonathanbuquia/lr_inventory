@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T08:22:14.339Z",
+  "generatedAt": "2026-09-25T08:37:14.385Z",
   "years": [
     "2024",
     "2025",
@@ -446,21 +446,21 @@
           "reading-and-literacy": 19566,
           "language": 18842,
           "makabansa": 22226,
-          "mathematics": 7531
+          "mathematics": 7981
         },
         "2": {
           "gmrc": 2587,
           "reading-and-literacy": 50,
           "language": 0,
           "makabansa": 16706,
-          "mathematics": 372
+          "mathematics": 872
         },
         "3": {
           "gmrc": 626,
           "reading-and-literacy": 0,
           "language": 400,
-          "makabansa": 7414,
-          "mathematics": 6541
+          "makabansa": 7934,
+          "mathematics": 7061
         },
         "4": {
           "gmrc": 21595,
@@ -476,7 +476,7 @@
         "5": {
           "gmrc": 3154,
           "english": 23728,
-          "filipino": 8383,
+          "filipino": 8853,
           "science": 21490,
           "araling-panlipunan": 23229,
           "epp": 16170,
@@ -565,7 +565,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 7531
+            "2026": 7981
           }
         },
         "2": {
@@ -592,7 +592,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 372
+            "2026": 872
           }
         },
         "3": {
@@ -614,12 +614,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 354,
-            "2026": 7060
+            "2026": 7580
           },
           "mathematics": {
             "2024": 0,
             "2025": 370,
-            "2026": 6171
+            "2026": 6691
           }
         },
         "4": {
@@ -683,7 +683,7 @@
           "filipino": {
             "2024": 0,
             "2025": 630,
-            "2026": 7753
+            "2026": 8223
           },
           "science": {
             "2024": 371,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188291,
-      "deliveredTotal": 664158,
-      "deliveryPercentage": 352.73,
+      "deliveredTotal": 666618,
+      "deliveryPercentage": 354.04,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -34961,21 +34961,21 @@
               "reading-and-literacy": 512,
               "language": 512,
               "makabansa": 512,
-              "mathematics": 0
+              "mathematics": 450
             },
             "2": {
               "gmrc": 500,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 500,
-              "mathematics": 0
+              "mathematics": 500
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 520,
+              "mathematics": 520
             },
             "4": {
               "gmrc": 446,
@@ -34991,7 +34991,7 @@
             "5": {
               "gmrc": 475,
               "english": 470,
-              "filipino": 0,
+              "filipino": 470,
               "science": 470,
               "araling-panlipunan": 475,
               "epp": 470,
@@ -35080,7 +35080,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 450
               }
             },
             "2": {
@@ -35107,7 +35107,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 500
               }
             },
             "3": {
@@ -35129,12 +35129,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 520
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 520
               }
             },
             "4": {
@@ -35198,7 +35198,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 470
               },
               "science": {
                 "2024": 0,
@@ -35480,8 +35480,8 @@
             "10": 0
           },
           "enrollmentTotal": 2481,
-          "deliveredTotal": 10000,
-          "deliveryPercentage": 403.06
+          "deliveredTotal": 12460,
+          "deliveryPercentage": 502.22
         },
         {
           "id": "maypajo-high-school",
