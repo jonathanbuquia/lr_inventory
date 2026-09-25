@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:26:51.106Z",
+  "generatedAt": "2026-09-25T05:31:55.517Z",
   "years": [
     "2024",
     "2025",
@@ -226153,7 +226153,7 @@
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 1513,
-          "mathematics": 1789
+          "mathematics": 2189
         },
         "4": {
           "gmrc": 8844,
@@ -226162,15 +226162,15 @@
           "science": 7623,
           "araling-panlipunan": 8438,
           "epp": 933,
-          "music-and-arts": 8013,
+          "music-and-arts": 8440,
           "pe-and-health": 7799,
           "mathematics": 8486
         },
         "5": {
-          "gmrc": 2055,
+          "gmrc": 2405,
           "english": 8565,
-          "filipino": 1962,
-          "science": 7697,
+          "filipino": 2342,
+          "science": 8077,
           "araling-panlipunan": 8578,
           "epp": 7615,
           "music-and-arts": 196,
@@ -226312,7 +226312,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 1789
+            "2026": 2189
           }
         },
         "4": {
@@ -226349,7 +226349,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 8013
+            "2026": 8440
           },
           "pe-and-health": {
             "2024": 5227,
@@ -226366,7 +226366,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2055
+            "2026": 2405
           },
           "english": {
             "2024": 0,
@@ -226376,12 +226376,12 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 1962
+            "2026": 2342
           },
           "science": {
             "2024": 0,
             "2025": 4097,
-            "2026": 3600
+            "2026": 3980
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72752,
-      "deliveredTotal": 266982,
-      "deliveryPercentage": 366.98,
+      "deliveredTotal": 268919,
+      "deliveryPercentage": 369.64,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -247924,7 +247924,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 400
             },
             "4": {
               "gmrc": 432,
@@ -247933,15 +247933,15 @@
               "science": 427,
               "araling-panlipunan": 427,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 427,
               "pe-and-health": 427,
               "mathematics": 427
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 350,
               "english": 380,
-              "filipino": 0,
-              "science": 0,
+              "filipino": 380,
+              "science": 380,
               "araling-panlipunan": 300,
               "epp": 0,
               "music-and-arts": 0,
@@ -248083,7 +248083,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 400
               }
             },
             "4": {
@@ -248120,7 +248120,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 427
               },
               "pe-and-health": {
                 "2024": 427,
@@ -248137,7 +248137,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 350
               },
               "english": {
                 "2024": 0,
@@ -248147,12 +248147,12 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 380
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 380
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -248429,8 +248429,8 @@
             "10": 0
           },
           "enrollmentTotal": 2353,
-          "deliveredTotal": 6078,
-          "deliveryPercentage": 258.31
+          "deliveredTotal": 8015,
+          "deliveryPercentage": 340.63
         },
         {
           "id": "sun-valley-national-high-school",
