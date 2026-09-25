@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:42:20.315Z",
+  "generatedAt": "2026-09-25T03:52:12.293Z",
   "years": [
     "2024",
     "2025",
@@ -243175,7 +243175,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 408,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -243650,8 +243650,8 @@
             "10": 0
           },
           "enrollmentTotal": 8239,
-          "deliveredTotal": 9556,
-          "deliveryPercentage": 115.98
+          "deliveredTotal": 9964,
+          "deliveryPercentage": 120.94
         },
         {
           "id": "san-antonio-elementary-school",

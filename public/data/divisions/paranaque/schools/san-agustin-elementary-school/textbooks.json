@@ -126,10 +126,10 @@
       "Grade Level": 2,
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 686,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 530,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 686,
+      "GAP-TX": 156,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
@@ -750,10 +750,10 @@
       "Grade Level": 6,
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 643,
-      "Quantity of Textbooks Received": "",
+      "Quantity of Textbooks Received": 408,
       "Year of Delivery-TX": "",
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 643,
+      "GAP-TX": 235,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
@@ -779,5 +779,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-09-25T03:41:51.279Z"
+  "generatedAt": "2026-09-25T03:51:49.802Z"
 }
