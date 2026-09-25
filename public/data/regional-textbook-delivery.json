@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:37:18.658Z",
+  "generatedAt": "2026-09-25T03:42:20.315Z",
   "years": [
     "2024",
     "2025",
@@ -226172,7 +226172,7 @@
           "filipino": 1962,
           "science": 7697,
           "araling-panlipunan": 8578,
-          "epp": 7867,
+          "epp": 7615,
           "music-and-arts": 196,
           "pe-and-health": 8177,
           "mathematics": 260
@@ -226391,7 +226391,7 @@
           "epp": {
             "2024": 0,
             "2025": 2665,
-            "2026": 5202
+            "2026": 4950
           },
           "music-and-arts": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4846
       },
       "enrollmentTotal": 72739,
-      "deliveredTotal": 262985,
-      "deliveryPercentage": 361.55,
+      "deliveredTotal": 262733,
+      "deliveryPercentage": 361.2,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -234355,8 +234355,8 @@
               },
               "epp": {
                 "2024": 0,
-                "2025": 0,
-                "2026": 504
+                "2025": 504,
+                "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
@@ -243134,7 +243134,7 @@
               "mathematics": 400
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 530,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 530,
@@ -243145,7 +243145,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 450
             },
             "4": {
               "gmrc": 624,
@@ -243159,7 +243159,7 @@
               "mathematics": 624
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 400,
               "english": 424,
               "filipino": 0,
               "science": 424,
@@ -243650,8 +243650,8 @@
             "10": 0
           },
           "enrollmentTotal": 8239,
-          "deliveredTotal": 8176,
-          "deliveryPercentage": 99.24
+          "deliveredTotal": 9556,
+          "deliveryPercentage": 115.98
         },
         {
           "id": "san-antonio-elementary-school",
