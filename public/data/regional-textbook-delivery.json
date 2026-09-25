@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:17:02.696Z",
+  "generatedAt": "2026-09-25T05:26:51.106Z",
   "years": [
     "2024",
     "2025",
@@ -226139,13 +226139,13 @@
           "reading-and-literacy": 10617,
           "language": 7082,
           "makabansa": 9686,
-          "mathematics": 3452
+          "mathematics": 3802
         },
         "2": {
-          "gmrc": 1712,
+          "gmrc": 2062,
           "reading-and-literacy": 100,
           "language": 100,
-          "makabansa": 7082,
+          "makabansa": 7432,
           "mathematics": 0
         },
         "3": {
@@ -226258,14 +226258,14 @@
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 3038
+            "2026": 3388
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 1712
+            "2026": 2062
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -226280,7 +226280,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 180,
-            "2026": 6902
+            "2026": 7252
           },
           "mathematics": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72752,
-      "deliveredTotal": 265932,
-      "deliveryPercentage": 365.53,
+      "deliveredTotal": 266982,
+      "deliveryPercentage": 366.98,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -247910,13 +247910,13 @@
               "reading-and-literacy": 467,
               "language": 0,
               "makabansa": 467,
-              "mathematics": 0
+              "mathematics": 350
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 350,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 350,
               "mathematics": 0
             },
             "3": {
@@ -248029,14 +248029,14 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 350
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 350
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -248051,7 +248051,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 350
               },
               "mathematics": {
                 "2024": 0,
@@ -248429,8 +248429,8 @@
             "10": 0
           },
           "enrollmentTotal": 2353,
-          "deliveredTotal": 5028,
-          "deliveryPercentage": 213.68
+          "deliveredTotal": 6078,
+          "deliveryPercentage": 258.31
         },
         {
           "id": "sun-valley-national-high-school",
