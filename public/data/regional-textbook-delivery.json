@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T04:46:52.473Z",
+  "generatedAt": "2026-09-25T04:51:51.719Z",
   "years": [
     "2024",
     "2025",
@@ -226201,7 +226201,7 @@
         },
         "8": {
           "ve": 7590,
-          "english": 871,
+          "english": 1197,
           "filipino": 401,
           "science": 4482,
           "araling-panlipunan": 0,
@@ -226512,7 +226512,7 @@
           "english": {
             "2024": 0,
             "2025": 470,
-            "2026": 401
+            "2026": 727
           },
           "filipino": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72788,
-      "deliveredTotal": 263033,
-      "deliveryPercentage": 361.37,
+      "deliveredTotal": 263359,
+      "deliveryPercentage": 361.82,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -235759,7 +235759,7 @@
             },
             "8": {
               "ve": 0,
-              "english": 360,
+              "english": 326,
               "filipino": 0,
               "science": 326,
               "araling-panlipunan": 0,
@@ -236070,7 +236070,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 326
               },
               "filipino": {
                 "2024": 0,
@@ -236216,8 +236216,8 @@
             "10": 262
           },
           "enrollmentTotal": 1348,
-          "deliveredTotal": 1020,
-          "deliveryPercentage": 75.67
+          "deliveredTotal": 986,
+          "deliveryPercentage": 73.15
         },
         {
           "id": "masville-elementary-school",
