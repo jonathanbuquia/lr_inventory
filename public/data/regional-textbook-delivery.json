@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:57:23.700Z",
+  "generatedAt": "2026-09-25T04:07:02.759Z",
   "years": [
     "2024",
     "2025",
@@ -226652,14 +226652,14 @@
         "4": 8578,
         "5": 8072,
         "6": 7684,
-        "7": 5948,
-        "8": 5835,
-        "9": 4908,
-        "10": 4846
+        "7": 5919,
+        "8": 5861,
+        "9": 4967,
+        "10": 4839
       },
-      "enrollmentTotal": 72739,
+      "enrollmentTotal": 72788,
       "deliveredTotal": 263033,
-      "deliveryPercentage": 361.61,
+      "deliveryPercentage": 361.37,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -236210,14 +236210,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 395,
-            "8": 360,
-            "9": 275,
-            "10": 269
+            "7": 366,
+            "8": 386,
+            "9": 334,
+            "10": 262
           },
-          "enrollmentTotal": 1299,
+          "enrollmentTotal": 1348,
           "deliveredTotal": 660,
-          "deliveryPercentage": 50.81
+          "deliveryPercentage": 48.96
         },
         {
           "id": "masville-elementary-school",
