@@ -525,11 +525,11 @@
       "SUBJECTS": "Filipino",
       "Enrolment S.Y. 2025-2026": 241,
       "Enrolment S.Y. 2025-2027": 260,
-      "Quantity of Textbooks Received": 0,
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 260,
-      "Surplus-TX": 0,
+      "Quantity of Textbooks Received": 349,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 89,
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -827,5 +827,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-09-25T01:01:59.454Z"
+  "generatedAt": "2026-09-25T01:06:52.087Z"
 }

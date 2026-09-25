@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T01:02:28.821Z",
+  "generatedAt": "2026-09-25T01:07:17.121Z",
   "years": [
     "2024",
     "2025",
@@ -226169,7 +226169,7 @@
         "5": {
           "gmrc": 989,
           "english": 8826,
-          "filipino": 880,
+          "filipino": 1229,
           "science": 7954,
           "araling-panlipunan": 8854,
           "epp": 7867,
@@ -226376,7 +226376,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 880
+            "2026": 1229
           },
           "science": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4962
       },
       "enrollmentTotal": 66684,
-      "deliveredTotal": 257953,
-      "deliveryPercentage": 386.83,
+      "deliveredTotal": 258302,
+      "deliveryPercentage": 387.35,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -246347,7 +246347,7 @@
             "5": {
               "gmrc": 349,
               "english": 349,
-              "filipino": 0,
+              "filipino": 349,
               "science": 349,
               "araling-panlipunan": 349,
               "epp": 349,
@@ -246554,7 +246554,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 349
               },
               "science": {
                 "2024": 0,
@@ -246836,8 +246836,8 @@
             "10": 0
           },
           "enrollmentTotal": 1442,
-          "deliveredTotal": 8649,
-          "deliveryPercentage": 599.79
+          "deliveredTotal": 8998,
+          "deliveryPercentage": 623.99
         },
         {
           "id": "sto-ni-o-national-high-school",
