@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T04:56:51.945Z",
+  "generatedAt": "2026-09-25T05:02:00.767Z",
   "years": [
     "2024",
     "2025",
@@ -226153,7 +226153,7 @@
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 1513,
-          "mathematics": 1339
+          "mathematics": 1789
         },
         "4": {
           "gmrc": 8844,
@@ -226167,7 +226167,7 @@
           "mathematics": 8486
         },
         "5": {
-          "gmrc": 1655,
+          "gmrc": 2055,
           "english": 8565,
           "filipino": 1962,
           "science": 7697,
@@ -226183,7 +226183,7 @@
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
-          "epp": 1674,
+          "epp": 2082,
           "music-and-arts": 0,
           "pe-and-health": 632,
           "mathematics": 0
@@ -226202,7 +226202,7 @@
         "8": {
           "ve": 7590,
           "english": 1197,
-          "filipino": 401,
+          "filipino": 727,
           "science": 4482,
           "araling-panlipunan": 0,
           "tle": 3752,
@@ -226312,7 +226312,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 1339
+            "2026": 1789
           }
         },
         "4": {
@@ -226366,7 +226366,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 1655
+            "2026": 2055
           },
           "english": {
             "2024": 0,
@@ -226438,7 +226438,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 1674
+            "2026": 2082
           },
           "music-and-arts": {
             "2024": 0,
@@ -226517,7 +226517,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 401
+            "2026": 727
           },
           "science": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72788,
-      "deliveredTotal": 263359,
-      "deliveryPercentage": 361.82,
+      "deliveredTotal": 264943,
+      "deliveryPercentage": 363.99,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -235758,7 +235758,7 @@
               "mathematics": 100
             },
             "8": {
-              "ve": 0,
+              "ve": 303,
               "english": 326,
               "filipino": 326,
               "science": 326,
@@ -235766,7 +235766,7 @@
               "tle": 0,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 100
+              "mathematics": 299
             },
             "9": {
               "ve": 0,
@@ -236064,7 +236064,7 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 303,
                 "2026": 0
               },
               "english": {
@@ -236075,7 +236075,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 326
               },
               "science": {
                 "2024": 0,
@@ -236104,7 +236104,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 100,
+                "2025": 299,
                 "2026": 0
               }
             },
@@ -236216,8 +236216,8 @@
             "10": 262
           },
           "enrollmentTotal": 1348,
-          "deliveredTotal": 1312,
-          "deliveryPercentage": 97.33
+          "deliveredTotal": 1814,
+          "deliveryPercentage": 134.57
         },
         {
           "id": "masville-elementary-school",
@@ -243304,7 +243304,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 450
               }
             },
             "4": {
@@ -243358,7 +243358,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 400
               },
               "english": {
                 "2024": 0,
@@ -243430,7 +243430,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 408
               },
               "music-and-arts": {
                 "2024": 0,

@@ -287,7 +287,7 @@
       "SUBJECTS": "Math",
       "Enrolment S.Y. 2025-2026": 656,
       "Quantity of Textbooks Received": 450,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 206,
       "Surplus-TX": 0,
@@ -387,12 +387,12 @@
       "SOURCE-TX (CO,RO, SDO)": "RO",
       "GAP-TX": 124,
       "Surplus-TX": 0,
-      "Enrolment S.Y. 2026-2027": "",
+      "Enrolment S.Y. 2026-2027": "    ",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
       "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 0,
-      "Surplus-TX S.Y. 2026-2027": 0
+      "GAP-TX S.Y. 2026-2027": "",
+      "Surplus-TX S.Y. 2026-2027": ""
     },
     {
       "Grade Level": 4,
@@ -527,7 +527,7 @@
       "SUBJECTS": "GMRC",
       "Enrolment S.Y. 2025-2026": 671,
       "Quantity of Textbooks Received": 400,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 271,
       "Surplus-TX": 0,
@@ -751,7 +751,7 @@
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 643,
       "Quantity of Textbooks Received": 408,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 235,
       "Surplus-TX": 0,
@@ -779,5 +779,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-09-25T03:51:49.802Z"
+  "generatedAt": "2026-09-25T05:01:41.361Z"
 }
