@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:38:03.325Z",
+  "generatedAt": "2026-09-25T05:41:52.058Z",
   "years": [
     "2024",
     "2025",
@@ -226149,7 +226149,7 @@
           "mathematics": 0
         },
         "3": {
-          "gmrc": 0,
+          "gmrc": 100,
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 1513,
@@ -226167,7 +226167,7 @@
           "mathematics": 8486
         },
         "5": {
-          "gmrc": 2405,
+          "gmrc": 2685,
           "english": 8565,
           "filipino": 2342,
           "science": 8077,
@@ -226292,7 +226292,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 100
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -226366,7 +226366,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2405
+            "2026": 2685
           },
           "english": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72752,
-      "deliveredTotal": 269429,
-      "deliveryPercentage": 370.34,
+      "deliveredTotal": 269809,
+      "deliveryPercentage": 370.86,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -228804,7 +228804,7 @@
               "mathematics": 0
             },
             "3": {
-              "gmrc": 0,
+              "gmrc": 100,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
@@ -228822,7 +228822,7 @@
               "mathematics": 175
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 280,
               "english": 280,
               "filipino": 240,
               "science": 280,
@@ -228947,7 +228947,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 100
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -229021,7 +229021,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 280
               },
               "english": {
                 "2024": 0,
@@ -229313,8 +229313,8 @@
             "10": 0
           },
           "enrollmentTotal": 315,
-          "deliveredTotal": 3914,
-          "deliveryPercentage": 1242.54
+          "deliveredTotal": 4294,
+          "deliveryPercentage": 1363.17
         },
         {
           "id": "col-e-de-leon-elementary-school",
