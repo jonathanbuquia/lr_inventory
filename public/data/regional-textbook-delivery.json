@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T07:17:10.336Z",
+  "generatedAt": "2026-09-25T07:22:15.137Z",
   "years": [
     "2024",
     "2025",
@@ -490,7 +490,7 @@
           "filipino": 786,
           "science": 651,
           "araling-panlipunan": 0,
-          "epp": 2305,
+          "epp": 2805,
           "music-and-arts": 412,
           "pe-and-health": 2668,
           "mathematics": 1064
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 2010
+            "2026": 2510
           },
           "music-and-arts": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 661453,
-      "deliveryPercentage": 351.25,
+      "deliveredTotal": 661953,
+      "deliveryPercentage": 351.52,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -35005,7 +35005,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 500,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -35260,7 +35260,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 500
               },
               "music-and-arts": {
                 "2024": 0,
@@ -35480,8 +35480,8 @@
             "10": 0
           },
           "enrollmentTotal": 2505,
-          "deliveredTotal": 8025,
-          "deliveryPercentage": 320.36
+          "deliveredTotal": 8525,
+          "deliveryPercentage": 340.32
         },
         {
           "id": "maypajo-high-school",
