@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T03:01:17.431Z",
+  "generatedAt": "2026-09-25T03:07:17.912Z",
   "years": [
     "2024",
     "2025",
@@ -493,7 +493,7 @@
           "epp": 1934,
           "music-and-arts": 412,
           "pe-and-health": 2297,
-          "mathematics": 373
+          "mathematics": 693
         },
         "7": {
           "ve": 12232,
@@ -760,7 +760,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 270,
-            "2026": 103
+            "2026": 423
           }
         },
         "7": {
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 660020,
-      "deliveryPercentage": 350.49,
+      "deliveredTotal": 660340,
+      "deliveryPercentage": 350.66,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -37132,7 +37132,7 @@
               "epp": 320,
               "music-and-arts": 0,
               "pe-and-health": 320,
-              "mathematics": 0
+              "mathematics": 320
             },
             "7": {
               "ve": 0,
@@ -37399,7 +37399,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 320
               }
             },
             "7": {
@@ -37604,8 +37604,8 @@
             "10": 0
           },
           "enrollmentTotal": 1420,
-          "deliveredTotal": 7316,
-          "deliveryPercentage": 515.21
+          "deliveredTotal": 7636,
+          "deliveryPercentage": 537.75
         },
         {
           "id": "nhc-high-school",
