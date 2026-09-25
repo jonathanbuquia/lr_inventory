@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:31:55.517Z",
+  "generatedAt": "2026-09-25T05:38:03.325Z",
   "years": [
     "2024",
     "2025",
@@ -226142,7 +226142,7 @@
           "mathematics": 3802
         },
         "2": {
-          "gmrc": 2062,
+          "gmrc": 2212,
           "reading-and-literacy": 100,
           "language": 100,
           "makabansa": 7432,
@@ -226183,7 +226183,7 @@
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
-          "epp": 2082,
+          "epp": 2442,
           "music-and-arts": 0,
           "pe-and-health": 632,
           "mathematics": 0
@@ -226265,7 +226265,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2062
+            "2026": 2212
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -226438,7 +226438,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 2082
+            "2026": 2442
           },
           "music-and-arts": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 4839
       },
       "enrollmentTotal": 72752,
-      "deliveredTotal": 268919,
-      "deliveryPercentage": 369.64,
+      "deliveredTotal": 269429,
+      "deliveryPercentage": 370.34,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -228797,7 +228797,7 @@
               "mathematics": 150
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 150,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 125,
@@ -228920,7 +228920,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 150
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -229313,8 +229313,8 @@
             "10": 0
           },
           "enrollmentTotal": 315,
-          "deliveredTotal": 3764,
-          "deliveryPercentage": 1194.92
+          "deliveredTotal": 3914,
+          "deliveryPercentage": 1242.54
         },
         {
           "id": "col-e-de-leon-elementary-school",
@@ -247954,7 +247954,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 360,
               "music-and-arts": 0,
               "pe-and-health": 380,
               "mathematics": 0
@@ -248209,7 +248209,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 360
               },
               "music-and-arts": {
                 "2024": 0,
@@ -248429,8 +248429,8 @@
             "10": 0
           },
           "enrollmentTotal": 2353,
-          "deliveredTotal": 8015,
-          "deliveryPercentage": 340.63
+          "deliveredTotal": 8375,
+          "deliveryPercentage": 355.93
         },
         {
           "id": "sun-valley-national-high-school",
