@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T07:47:16.445Z",
+  "generatedAt": "2026-09-25T07:52:19.693Z",
   "years": [
     "2024",
     "2025",
@@ -449,7 +449,7 @@
           "mathematics": 7531
         },
         "2": {
-          "gmrc": 2228,
+          "gmrc": 2587,
           "reading-and-literacy": 50,
           "language": 0,
           "makabansa": 16706,
@@ -469,7 +469,7 @@
           "science": 19940,
           "araling-panlipunan": 19991,
           "epp": 3205,
-          "music-and-arts": 15011,
+          "music-and-arts": 15327,
           "pe-and-health": 20405,
           "mathematics": 19102
         },
@@ -572,7 +572,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2228
+            "2026": 2587
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -656,7 +656,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 2106,
-            "2026": 12905
+            "2026": 13221
           },
           "pe-and-health": {
             "2024": 15764,
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188315,
-      "deliveredTotal": 663483,
-      "deliveryPercentage": 352.33,
+      "deliveredTotal": 664158,
+      "deliveryPercentage": 352.68,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -24998,7 +24998,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 359
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -25065,7 +25065,7 @@
                 "2026": 0
               },
               "science": {
-                "2024": 0,
+                "2024": 316,
                 "2025": 0,
                 "2026": 0
               },
@@ -25082,10 +25082,10 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 316
               },
               "pe-and-health": {
-                "2024": 0,
+                "2024": 247,
                 "2025": 0,
                 "2026": 0
               },
