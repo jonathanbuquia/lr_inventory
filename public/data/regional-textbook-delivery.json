@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T08:57:23.464Z",
+  "generatedAt": "2026-09-25T09:07:18.230Z",
   "years": [
     "2024",
     "2025",
@@ -418350,19 +418350,19 @@
       },
       "enrollmentByGrade": {
         "1": 9954,
-        "2": 10251,
-        "3": 9719,
-        "4": 11157,
+        "2": 10240,
+        "3": 9722,
+        "4": 11155,
         "5": 10515,
-        "6": 10722,
+        "6": 10710,
         "7": 9310,
         "8": 8680,
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92038,
+      "enrollmentTotal": 92016,
       "deliveredTotal": 290455,
-      "deliveryPercentage": 315.58,
+      "deliveryPercentage": 315.66,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -449148,19 +449148,19 @@
           },
           "enrollmentByGrade": {
             "1": 127,
-            "2": 117,
-            "3": 106,
-            "4": 105,
+            "2": 106,
+            "3": 109,
+            "4": 103,
             "5": 100,
-            "6": 107,
+            "6": 95,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 662,
+          "enrollmentTotal": 640,
           "deliveredTotal": 1910,
-          "deliveryPercentage": 288.52
+          "deliveryPercentage": 298.44
         },
         {
           "id": "roberta-de-jesus-elementary-school",
