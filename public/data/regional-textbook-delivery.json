@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T05:41:52.058Z",
+  "generatedAt": "2026-09-25T07:17:10.336Z",
   "years": [
     "2024",
     "2025",
@@ -490,10 +490,10 @@
           "filipino": 786,
           "science": 651,
           "araling-panlipunan": 0,
-          "epp": 1934,
+          "epp": 2305,
           "music-and-arts": 412,
-          "pe-and-health": 2297,
-          "mathematics": 693
+          "pe-and-health": 2668,
+          "mathematics": 1064
         },
         "7": {
           "ve": 12232,
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 1639
+            "2026": 2010
           },
           "music-and-arts": {
             "2024": 0,
@@ -755,12 +755,12 @@
           "pe-and-health": {
             "2024": 620,
             "2025": 0,
-            "2026": 1677
+            "2026": 2048
           },
           "mathematics": {
             "2024": 0,
             "2025": 270,
-            "2026": 423
+            "2026": 794
           }
         },
         "7": {
@@ -965,8 +965,8 @@
         "10": 16086
       },
       "enrollmentTotal": 188314,
-      "deliveredTotal": 660340,
-      "deliveryPercentage": 350.66,
+      "deliveredTotal": 661453,
+      "deliveryPercentage": 351.25,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -24875,7 +24875,7 @@
               "mathematics": 404
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 359,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 380,
@@ -24900,7 +24900,7 @@
               "mathematics": 316
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 371,
               "english": 371,
               "filipino": 371,
               "science": 371,
@@ -24916,10 +24916,10 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 371,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 371,
+              "mathematics": 371
             },
             "7": {
               "ve": 0,
@@ -25171,7 +25171,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 371
               },
               "music-and-arts": {
                 "2024": 0,
@@ -25181,12 +25181,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 371
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 371
               }
             },
             "7": {
@@ -25391,8 +25391,8 @@
             "10": 0
           },
           "enrollmentTotal": 1780,
-          "deliveredTotal": 7805,
-          "deliveryPercentage": 438.48
+          "deliveredTotal": 9648,
+          "deliveryPercentage": 542.02
         },
         {
           "id": "horacio-dela-costa-elementary-school",
