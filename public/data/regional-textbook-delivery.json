@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-25T09:07:18.230Z",
+  "generatedAt": "2026-09-27T23:17:31.589Z",
   "years": [
     "2024",
     "2025",
@@ -417838,10 +417838,10 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "gmrc": 9877,
+          "gmrc": 9581,
           "reading-and-literacy": 9388,
-          "language": 8623,
-          "makabansa": 10256,
+          "language": 8078,
+          "makabansa": 9711,
           "mathematics": 4281
         },
         "2": {
@@ -417941,7 +417941,7 @@
           "gmrc": {
             "2024": 5836,
             "2025": 3745,
-            "2026": 296
+            "2026": 0
           },
           "reading-and-literacy": {
             "2024": 4723,
@@ -417951,12 +417951,12 @@
           "language": {
             "2024": 208,
             "2025": 6475,
-            "2026": 1940
+            "2026": 1395
           },
           "makabansa": {
             "2024": 1213,
             "2025": 8257,
-            "2026": 786
+            "2026": 241
           },
           "mathematics": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 92016,
-      "deliveredTotal": 290455,
-      "deliveryPercentage": 315.66,
+      "deliveredTotal": 289069,
+      "deliveryPercentage": 314.15,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419962,11 +419962,11 @@
           "name": "APOLONIA F. RAFAEL ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 545,
-              "reading-and-literacy": 545,
-              "language": 545,
-              "makabansa": 545,
-              "mathematics": 0
+              "gmrc": 385,
+              "reading-and-literacy": 385,
+              "language": 385,
+              "makabansa": 385,
+              "mathematics": 385
             },
             "2": {
               "gmrc": 0,
@@ -420064,22 +420064,22 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 545,
+                "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 545,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 545,
+                "2025": 0,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 545,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -420485,8 +420485,8 @@
             "10": 0
           },
           "enrollmentTotal": 2848,
-          "deliveredTotal": 8602,
-          "deliveryPercentage": 302.04
+          "deliveredTotal": 8347,
+          "deliveryPercentage": 293.08
         },
         {
           "id": "apolonio-casimiro-elementary-school",
