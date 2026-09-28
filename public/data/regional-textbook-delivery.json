@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T00:02:22.459Z",
+  "generatedAt": "2026-09-28T00:37:04.147Z",
   "years": [
     "2024",
     "2025",
@@ -226139,7 +226139,7 @@
           "reading-and-literacy": 10617,
           "language": 7082,
           "makabansa": 9686,
-          "mathematics": 3802
+          "mathematics": 4102
         },
         "2": {
           "gmrc": 2212,
@@ -226258,7 +226258,7 @@
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 3388
+            "2026": 3688
           }
         },
         "2": {
@@ -226646,7 +226646,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 11278,
+        "1": 11315,
         "2": 7616,
         "3": 7936,
         "4": 8550,
@@ -226657,9 +226657,9 @@
         "9": 4967,
         "10": 4839
       },
-      "enrollmentTotal": 72752,
-      "deliveredTotal": 269809,
-      "deliveryPercentage": 370.86,
+      "enrollmentTotal": 72789,
+      "deliveredTotal": 270109,
+      "deliveryPercentage": 371.08,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -248972,7 +248972,7 @@
               "reading-and-literacy": 413,
               "language": 413,
               "makabansa": 413,
-              "mathematics": 0
+              "mathematics": 300
             },
             "2": {
               "gmrc": 0,
@@ -249091,7 +249091,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 300
               }
             },
             "2": {
@@ -249479,7 +249479,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 127,
+            "1": 164,
             "2": 160,
             "3": 163,
             "4": 182,
@@ -249490,9 +249490,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 949,
-          "deliveredTotal": 5076,
-          "deliveryPercentage": 534.88
+          "enrollmentTotal": 986,
+          "deliveredTotal": 5376,
+          "deliveryPercentage": 545.23
         },
         {
           "id": "tambo-elementary-school-unit-i",
