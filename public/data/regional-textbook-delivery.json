@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T01:32:11.491Z",
+  "generatedAt": "2026-09-28T01:37:00.874Z",
   "years": [
     "2024",
     "2025",
@@ -954,7 +954,7 @@
       },
       "enrollmentByGrade": {
         "1": 17726,
-        "2": 19681,
+        "2": 19666,
         "3": 20168,
         "4": 22585,
         "5": 19132,
@@ -964,9 +964,9 @@
         "9": 16848,
         "10": 16086
       },
-      "enrollmentTotal": 188320,
+      "enrollmentTotal": 188305,
       "deliveredTotal": 667534,
-      "deliveryPercentage": 354.47,
+      "deliveryPercentage": 354.5,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -29097,7 +29097,7 @@
           },
           "enrollmentByGrade": {
             "1": 460,
-            "2": 462,
+            "2": 447,
             "3": 522,
             "4": 556,
             "5": 476,
@@ -29107,9 +29107,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 3011,
+          "enrollmentTotal": 2996,
           "deliveredTotal": 8697,
-          "deliveryPercentage": 288.84
+          "deliveryPercentage": 290.29
         },
         {
           "id": "lerma-elementary-school",
