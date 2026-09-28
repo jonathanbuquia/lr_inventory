@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T03:27:14.685Z",
+  "generatedAt": "2026-09-28T03:42:10.221Z",
   "years": [
     "2024",
     "2025",
@@ -417870,12 +417870,12 @@
           "mathematics": 9841
         },
         "5": {
-          "gmrc": 2387,
+          "gmrc": 2827,
           "english": 8548,
-          "filipino": 3146,
+          "filipino": 3586,
           "science": 8549,
           "araling-panlipunan": 8493,
-          "epp": 4437,
+          "epp": 4877,
           "music-and-arts": 298,
           "pe-and-health": 8456,
           "mathematics": 147
@@ -417886,10 +417886,10 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 356,
+          "epp": 776,
           "music-and-arts": 216,
-          "pe-and-health": 1178,
-          "mathematics": 468
+          "pe-and-health": 1598,
+          "mathematics": 888
         },
         "7": {
           "ve": 5948,
@@ -418069,7 +418069,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 91,
-            "2026": 2296
+            "2026": 2736
           },
           "english": {
             "2024": 0,
@@ -418079,7 +418079,7 @@
           "filipino": {
             "2024": 0,
             "2025": 79,
-            "2026": 3067
+            "2026": 3507
           },
           "science": {
             "2024": 0,
@@ -418094,7 +418094,7 @@
           "epp": {
             "2024": 0,
             "2025": 1459,
-            "2026": 2978
+            "2026": 3418
           },
           "music-and-arts": {
             "2024": 0,
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 356
+            "2026": 776
           },
           "music-and-arts": {
             "2024": 0,
@@ -418151,12 +418151,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 156,
-            "2026": 1022
+            "2026": 1442
           },
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 356
+            "2026": 776
           }
         },
         "7": {
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 91234,
-      "deliveredTotal": 292525,
-      "deliveryPercentage": 320.63,
+      "deliveredTotal": 295105,
+      "deliveryPercentage": 323.46,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419994,12 +419994,12 @@
               "mathematics": 444
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 440,
               "english": 440,
-              "filipino": 0,
+              "filipino": 440,
               "science": 440,
               "araling-panlipunan": 440,
-              "epp": 0,
+              "epp": 440,
               "music-and-arts": 0,
               "pe-and-health": 440,
               "mathematics": 0
@@ -420010,10 +420010,10 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 420,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 420,
+              "mathematics": 420
             },
             "7": {
               "ve": 0,
@@ -420193,7 +420193,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 440
               },
               "english": {
                 "2024": 0,
@@ -420203,7 +420203,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 440
               },
               "science": {
                 "2024": 0,
@@ -420218,7 +420218,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 440
               },
               "music-and-arts": {
                 "2024": 0,
@@ -420265,7 +420265,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 420
               },
               "music-and-arts": {
                 "2024": 0,
@@ -420275,12 +420275,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 420
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 420
               }
             },
             "7": {
@@ -420485,8 +420485,8 @@
             "10": 0
           },
           "enrollmentTotal": 2066,
-          "deliveredTotal": 9738,
-          "deliveryPercentage": 471.35
+          "deliveredTotal": 12318,
+          "deliveryPercentage": 596.22
         },
         {
           "id": "apolonio-casimiro-elementary-school",
