@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T01:16:58.192Z",
+  "generatedAt": "2026-09-28T01:22:05.719Z",
   "years": [
     "2024",
     "2025",
@@ -226169,12 +226169,12 @@
         "5": {
           "gmrc": 2685,
           "english": 8245,
-          "filipino": 2342,
-          "science": 8077,
-          "araling-panlipunan": 8578,
-          "epp": 7615,
+          "filipino": 2662,
+          "science": 7757,
+          "araling-panlipunan": 8258,
+          "epp": 7295,
           "music-and-arts": 196,
-          "pe-and-health": 8177,
+          "pe-and-health": 8053,
           "mathematics": 260
         },
         "6": {
@@ -226183,7 +226183,7 @@
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
-          "epp": 2442,
+          "epp": 2662,
           "music-and-arts": 0,
           "pe-and-health": 632,
           "mathematics": 0
@@ -226376,22 +226376,22 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 2342
+            "2026": 2662
           },
           "science": {
             "2024": 0,
             "2025": 4097,
-            "2026": 3980
+            "2026": 3660
           },
           "araling-panlipunan": {
             "2024": 0,
             "2025": 7818,
-            "2026": 760
+            "2026": 440
           },
           "epp": {
             "2024": 0,
             "2025": 2665,
-            "2026": 4950
+            "2026": 4630
           },
           "music-and-arts": {
             "2024": 0,
@@ -226401,7 +226401,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 7098,
-            "2026": 1079
+            "2026": 955
           },
           "mathematics": {
             "2024": 0,
@@ -226438,7 +226438,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 2442
+            "2026": 2662
           },
           "music-and-arts": {
             "2024": 0,
@@ -226651,15 +226651,15 @@
         "3": 7943,
         "4": 8534,
         "5": 8140,
-        "6": 7703,
+        "6": 7677,
         "7": 5919,
         "8": 5861,
         "9": 4967,
         "10": 4839
       },
-      "enrollmentTotal": 72807,
-      "deliveredTotal": 269593,
-      "deliveryPercentage": 370.28,
+      "enrollmentTotal": 72781,
+      "deliveredTotal": 269049,
+      "deliveryPercentage": 369.67,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -249000,7 +249000,7 @@
               "mathematics": 160
             },
             "5": {
-              "gmrc": 320,
+              "gmrc": 0,
               "english": 320,
               "filipino": 320,
               "science": 320,
@@ -249016,7 +249016,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 220,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -249209,22 +249209,22 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 320
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 320
+                "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 320,
+                "2025": 0,
                 "2026": 0
               },
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 320
+                "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
@@ -249233,7 +249233,7 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 320,
+                "2025": 0,
                 "2026": 0
               },
               "mathematics": {
@@ -249271,7 +249271,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 220
               },
               "music-and-arts": {
                 "2024": 0,
@@ -249484,15 +249484,15 @@
             "3": 170,
             "4": 166,
             "5": 200,
-            "6": 174,
+            "6": 148,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1004,
-          "deliveredTotal": 6616,
-          "deliveryPercentage": 658.96
+          "enrollmentTotal": 978,
+          "deliveredTotal": 6516,
+          "deliveryPercentage": 666.26
         },
         {
           "id": "tambo-elementary-school-unit-i",
