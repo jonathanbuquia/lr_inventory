@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T02:27:06.331Z",
+  "generatedAt": "2026-09-28T02:32:07.631Z",
   "years": [
     "2024",
     "2025",
@@ -417855,8 +417855,8 @@
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 3146,
-          "mathematics": 3035
+          "makabansa": 3522,
+          "mathematics": 3411
         },
         "4": {
           "gmrc": 10301,
@@ -418010,12 +418010,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 2867
+            "2026": 3243
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 2867
+            "2026": 3243
           }
         },
         "4": {
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 91234,
-      "deliveredTotal": 291991,
-      "deliveryPercentage": 320.05,
+      "deliveredTotal": 292743,
+      "deliveryPercentage": 320.87,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419979,8 +419979,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 376,
+              "mathematics": 376
             },
             "4": {
               "gmrc": 567,
@@ -420134,12 +420134,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 376
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 376
               }
             },
             "4": {
@@ -420485,8 +420485,8 @@
             "10": 0
           },
           "enrollmentTotal": 2066,
-          "deliveredTotal": 9978,
-          "deliveryPercentage": 482.96
+          "deliveredTotal": 10730,
+          "deliveryPercentage": 519.36
         },
         {
           "id": "apolonio-casimiro-elementary-school",
