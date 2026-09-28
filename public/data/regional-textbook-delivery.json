@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T00:37:04.147Z",
+  "generatedAt": "2026-09-28T01:02:00.124Z",
   "years": [
     "2024",
     "2025",
@@ -226162,7 +226162,7 @@
           "science": 7623,
           "araling-panlipunan": 8438,
           "epp": 933,
-          "music-and-arts": 8440,
+          "music-and-arts": 8244,
           "pe-and-health": 7799,
           "mathematics": 8486
         },
@@ -226349,7 +226349,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 8440
+            "2026": 8244
           },
           "pe-and-health": {
             "2024": 5227,
@@ -226647,9 +226647,9 @@
       },
       "enrollmentByGrade": {
         "1": 11315,
-        "2": 7616,
-        "3": 7936,
-        "4": 8550,
+        "2": 7586,
+        "3": 7943,
+        "4": 8534,
         "5": 8083,
         "6": 7703,
         "7": 5919,
@@ -226657,9 +226657,9 @@
         "9": 4967,
         "10": 4839
       },
-      "enrollmentTotal": 72789,
-      "deliveredTotal": 270109,
-      "deliveryPercentage": 371.08,
+      "enrollmentTotal": 72750,
+      "deliveredTotal": 269913,
+      "deliveryPercentage": 371.01,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -248985,8 +248985,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 300,
+              "mathematics": 300
             },
             "4": {
               "gmrc": 320,
@@ -249150,7 +249150,7 @@
             },
             "4": {
               "gmrc": {
-                "2024": 320,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -249160,17 +249160,17 @@
                 "2026": 0
               },
               "filipino": {
-                "2024": 150,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "science": {
-                "2024": 240,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 230,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -249182,15 +249182,15 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 196
+                "2026": 0
               },
               "pe-and-health": {
-                "2024": 240,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 160,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               }
@@ -249480,9 +249480,9 @@
           },
           "enrollmentByGrade": {
             "1": 164,
-            "2": 160,
-            "3": 163,
-            "4": 182,
+            "2": 130,
+            "3": 170,
+            "4": 166,
             "5": 143,
             "6": 174,
             "7": 0,
@@ -249490,9 +249490,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 986,
-          "deliveredTotal": 5376,
-          "deliveryPercentage": 545.23
+          "enrollmentTotal": 947,
+          "deliveredTotal": 5976,
+          "deliveryPercentage": 631.05
         },
         {
           "id": "tambo-elementary-school-unit-i",
