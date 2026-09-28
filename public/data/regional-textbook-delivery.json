@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T03:42:10.221Z",
+  "generatedAt": "2026-09-28T04:27:02.242Z",
   "years": [
     "2024",
     "2025",
@@ -417845,7 +417845,7 @@
           "mathematics": 4785
         },
         "2": {
-          "gmrc": 2816,
+          "gmrc": 2968,
           "reading-and-literacy": 0,
           "language": 150,
           "makabansa": 4670,
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2816
+            "2026": 2968
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 91234,
-      "deliveredTotal": 295105,
-      "deliveryPercentage": 323.46,
+      "deliveredTotal": 295257,
+      "deliveryPercentage": 323.63,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -448643,7 +448643,7 @@
               "mathematics": 0
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 152,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
@@ -448766,7 +448766,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 152
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -449159,8 +449159,8 @@
             "10": 0
           },
           "enrollmentTotal": 640,
-          "deliveredTotal": 1910,
-          "deliveryPercentage": 298.44
+          "deliveredTotal": 2062,
+          "deliveryPercentage": 322.19
         },
         {
           "id": "roberta-de-jesus-elementary-school",
