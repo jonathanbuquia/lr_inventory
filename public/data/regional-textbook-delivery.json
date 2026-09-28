@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T01:02:00.124Z",
+  "generatedAt": "2026-09-28T01:12:14.565Z",
   "years": [
     "2024",
     "2025",
@@ -418349,7 +418349,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9954,
+        "1": 9843,
         "2": 10240,
         "3": 9722,
         "4": 11155,
@@ -418360,9 +418360,9 @@
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92016,
+      "enrollmentTotal": 91905,
       "deliveredTotal": 290479,
-      "deliveryPercentage": 315.68,
+      "deliveryPercentage": 316.06,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -420473,7 +420473,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 440,
+            "1": 329,
             "2": 476,
             "3": 492,
             "4": 519,
@@ -420484,9 +420484,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2848,
+          "enrollmentTotal": 2737,
           "deliveredTotal": 8466,
-          "deliveryPercentage": 297.26
+          "deliveryPercentage": 309.32
         },
         {
           "id": "apolonio-casimiro-elementary-school",
