@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-27T23:17:31.589Z",
+  "generatedAt": "2026-09-28T00:02:22.459Z",
   "years": [
     "2024",
     "2025",
@@ -417838,11 +417838,11 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "gmrc": 9581,
+          "gmrc": 9717,
           "reading-and-literacy": 9388,
-          "language": 8078,
-          "makabansa": 9711,
-          "mathematics": 4281
+          "language": 8463,
+          "makabansa": 10096,
+          "mathematics": 4785
         },
         "2": {
           "gmrc": 2312,
@@ -417941,7 +417941,7 @@
           "gmrc": {
             "2024": 5836,
             "2025": 3745,
-            "2026": 0
+            "2026": 136
           },
           "reading-and-literacy": {
             "2024": 4723,
@@ -417951,17 +417951,17 @@
           "language": {
             "2024": 208,
             "2025": 6475,
-            "2026": 1395
+            "2026": 1780
           },
           "makabansa": {
             "2024": 1213,
             "2025": 8257,
-            "2026": 241
+            "2026": 626
           },
           "mathematics": {
             "2024": 0,
             "2025": 1166,
-            "2026": 3115
+            "2026": 3619
           }
         },
         "2": {
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 92016,
-      "deliveredTotal": 289069,
-      "deliveryPercentage": 314.15,
+      "deliveredTotal": 290479,
+      "deliveryPercentage": 315.68,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419966,7 +419966,7 @@
               "reading-and-literacy": 385,
               "language": 385,
               "makabansa": 385,
-              "mathematics": 385
+              "mathematics": 504
             },
             "2": {
               "gmrc": 0,
@@ -420064,28 +420064,28 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 385,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 385,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 385,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 385,
                 "2026": 0
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 504
               }
             },
             "2": {
@@ -420485,8 +420485,8 @@
             "10": 0
           },
           "enrollmentTotal": 2848,
-          "deliveredTotal": 8347,
-          "deliveryPercentage": 293.08
+          "deliveredTotal": 8466,
+          "deliveryPercentage": 297.26
         },
         {
           "id": "apolonio-casimiro-elementary-school",
