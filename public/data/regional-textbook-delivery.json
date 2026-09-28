@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T02:22:14.691Z",
+  "generatedAt": "2026-09-28T02:27:06.331Z",
   "years": [
     "2024",
     "2025",
@@ -417845,11 +417845,11 @@
           "mathematics": 4785
         },
         "2": {
-          "gmrc": 2312,
+          "gmrc": 2816,
           "reading-and-literacy": 0,
           "language": 150,
-          "makabansa": 4166,
-          "mathematics": 0
+          "makabansa": 4670,
+          "mathematics": 504
         },
         "3": {
           "gmrc": 137,
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2312
+            "2026": 2816
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -417983,12 +417983,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 671,
-            "2026": 3495
+            "2026": 3999
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 504
           }
         },
         "3": {
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 91234,
-      "deliveredTotal": 290479,
-      "deliveryPercentage": 318.39,
+      "deliveredTotal": 291991,
+      "deliveryPercentage": 320.05,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419969,11 +419969,11 @@
               "mathematics": 504
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 504,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 504,
+              "mathematics": 504
             },
             "3": {
               "gmrc": 0,
@@ -420092,7 +420092,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 504
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -420107,12 +420107,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 504
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 504
               }
             },
             "3": {
@@ -420485,8 +420485,8 @@
             "10": 0
           },
           "enrollmentTotal": 2066,
-          "deliveredTotal": 8466,
-          "deliveryPercentage": 409.78
+          "deliveredTotal": 9978,
+          "deliveryPercentage": 482.96
         },
         {
           "id": "apolonio-casimiro-elementary-school",
