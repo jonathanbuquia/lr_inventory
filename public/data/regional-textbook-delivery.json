@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T02:32:07.631Z",
+  "generatedAt": "2026-09-28T02:37:05.807Z",
   "years": [
     "2024",
     "2025",
@@ -417859,7 +417859,7 @@
           "mathematics": 3411
         },
         "4": {
-          "gmrc": 10301,
+          "gmrc": 10053,
           "english": 9426,
           "filipino": 9533,
           "science": 9429,
@@ -417867,7 +417867,7 @@
           "epp": 245,
           "music-and-arts": 4617,
           "pe-and-health": 8811,
-          "mathematics": 9964
+          "mathematics": 9719
         },
         "5": {
           "gmrc": 2387,
@@ -418022,7 +418022,7 @@
           "gmrc": {
             "2024": 4238,
             "2025": 5815,
-            "2026": 248
+            "2026": 0
           },
           "english": {
             "2024": 7720,
@@ -418062,7 +418062,7 @@
           "mathematics": {
             "2024": 3660,
             "2025": 6059,
-            "2026": 245
+            "2026": 0
           }
         },
         "5": {
@@ -418361,8 +418361,8 @@
         "10": 5560
       },
       "enrollmentTotal": 91234,
-      "deliveredTotal": 292743,
-      "deliveryPercentage": 320.87,
+      "deliveredTotal": 292250,
+      "deliveryPercentage": 320.33,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419983,15 +419983,15 @@
               "mathematics": 376
             },
             "4": {
-              "gmrc": 567,
-              "english": 567,
-              "filipino": 567,
-              "science": 567,
-              "araling-panlipunan": 567,
+              "gmrc": 444,
+              "english": 443,
+              "filipino": 444,
+              "science": 444,
+              "araling-panlipunan": 443,
               "epp": 0,
               "music-and-arts": 0,
-              "pe-and-health": 626,
-              "mathematics": 567
+              "pe-and-health": 504,
+              "mathematics": 444
             },
             "5": {
               "gmrc": 0,
@@ -420145,26 +420145,26 @@
             "4": {
               "gmrc": {
                 "2024": 0,
-                "2025": 567,
+                "2025": 0,
                 "2026": 0
               },
               "english": {
-                "2024": 567,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "filipino": {
-                "2024": 567,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "science": {
-                "2024": 567,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 567,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
@@ -420179,13 +420179,13 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 626,
+                "2024": 0,
                 "2025": 0,
                 "2026": 0
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 567,
+                "2025": 0,
                 "2026": 0
               }
             },
@@ -420485,8 +420485,8 @@
             "10": 0
           },
           "enrollmentTotal": 2066,
-          "deliveredTotal": 10730,
-          "deliveryPercentage": 519.36
+          "deliveredTotal": 9868,
+          "deliveryPercentage": 477.64
         },
         {
           "id": "apolonio-casimiro-elementary-school",
