@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-28T01:12:14.565Z",
+  "generatedAt": "2026-09-28T01:16:58.192Z",
   "years": [
     "2024",
     "2025",
@@ -226168,7 +226168,7 @@
         },
         "5": {
           "gmrc": 2685,
-          "english": 8565,
+          "english": 8245,
           "filipino": 2342,
           "science": 8077,
           "araling-panlipunan": 8578,
@@ -226371,7 +226371,7 @@
           "english": {
             "2024": 0,
             "2025": 6921,
-            "2026": 1644
+            "2026": 1324
           },
           "filipino": {
             "2024": 0,
@@ -226650,16 +226650,16 @@
         "2": 7586,
         "3": 7943,
         "4": 8534,
-        "5": 8083,
+        "5": 8140,
         "6": 7703,
         "7": 5919,
         "8": 5861,
         "9": 4967,
         "10": 4839
       },
-      "enrollmentTotal": 72750,
-      "deliveredTotal": 269913,
-      "deliveryPercentage": 371.01,
+      "enrollmentTotal": 72807,
+      "deliveredTotal": 269593,
+      "deliveryPercentage": 370.28,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -249000,9 +249000,9 @@
               "mathematics": 160
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 320,
               "english": 320,
-              "filipino": 0,
+              "filipino": 320,
               "science": 320,
               "araling-panlipunan": 320,
               "epp": 320,
@@ -249203,7 +249203,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 320,
+                "2025": 0,
                 "2026": 0
               },
               "filipino": {
@@ -249483,16 +249483,16 @@
             "2": 130,
             "3": 170,
             "4": 166,
-            "5": 143,
+            "5": 200,
             "6": 174,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 947,
-          "deliveredTotal": 5976,
-          "deliveryPercentage": 631.05
+          "enrollmentTotal": 1004,
+          "deliveredTotal": 6616,
+          "deliveryPercentage": 658.96
         },
         {
           "id": "tambo-elementary-school-unit-i",
@@ -418350,7 +418350,7 @@
       },
       "enrollmentByGrade": {
         "1": 9843,
-        "2": 10240,
+        "2": 10060,
         "3": 9722,
         "4": 11155,
         "5": 10515,
@@ -418360,9 +418360,9 @@
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 91905,
+      "enrollmentTotal": 91725,
       "deliveredTotal": 290479,
-      "deliveryPercentage": 316.06,
+      "deliveryPercentage": 316.68,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -420474,7 +420474,7 @@
           },
           "enrollmentByGrade": {
             "1": 329,
-            "2": 476,
+            "2": 296,
             "3": 492,
             "4": 519,
             "5": 490,
@@ -420484,9 +420484,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2737,
+          "enrollmentTotal": 2557,
           "deliveredTotal": 8466,
-          "deliveryPercentage": 309.32
+          "deliveryPercentage": 331.09
         },
         {
           "id": "apolonio-casimiro-elementary-school",
