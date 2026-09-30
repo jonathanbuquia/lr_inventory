@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T05:32:06.817Z",
+  "generatedAt": "2026-09-30T05:56:59.292Z",
   "years": [
     "2024",
     "2025",
@@ -238882,7 +238882,7 @@
               "gmrc": 726,
               "reading-and-literacy": 734,
               "language": 0,
-              "makabansa": 866,
+              "makabansa": 809,
               "mathematics": 0
             },
             "2": {
@@ -238995,7 +238995,7 @@
                 "2026": 0
               },
               "makabansa": {
-                "2024": 866,
+                "2024": 809,
                 "2025": 0,
                 "2026": 0
               },
@@ -239402,8 +239402,8 @@
             "10": 0
           },
           "enrollmentTotal": 1437,
-          "deliveredTotal": 6902,
-          "deliveryPercentage": 480.31
+          "deliveredTotal": 6845,
+          "deliveryPercentage": 476.34
         },
         {
           "id": "paranaque-national-high-school-baclaran",
