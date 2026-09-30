@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T08:37:06.510Z",
+  "generatedAt": "2026-09-30T08:47:10.582Z",
   "years": [
     "2024",
     "2025",
@@ -503,7 +503,7 @@
           "araling-panlipunan": 20767,
           "tle": 23968,
           "music-and-arts": 17892,
-          "pe-and-health": 24091,
+          "pe-and-health": 23631,
           "mathematics": 17346
         },
         "8": {
@@ -802,7 +802,7 @@
           "pe-and-health": {
             "2024": 6255,
             "2025": 11373,
-            "2026": 6463
+            "2026": 6003
           },
           "mathematics": {
             "2024": 13385,
@@ -965,8 +965,8 @@
         "10": 16120
       },
       "enrollmentTotal": 188571,
-      "deliveredTotal": 706904,
-      "deliveryPercentage": 374.87,
+      "deliveredTotal": 706444,
+      "deliveryPercentage": 374.63,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -5275,15 +5275,15 @@
               "mathematics": 0
             },
             "7": {
-              "ve": 825,
-              "english": 903,
-              "filipino": 0,
-              "science": 910,
-              "araling-panlipunan": 905,
+              "ve": 890,
+              "english": 890,
+              "filipino": 890,
+              "science": 890,
+              "araling-panlipunan": 890,
               "tle": 890,
-              "music-and-arts": 1343,
-              "pe-and-health": 1350,
-              "mathematics": 915
+              "music-and-arts": 890,
+              "pe-and-health": 890,
+              "mathematics": 890
             },
             "8": {
               "ve": 1732,
@@ -5559,7 +5559,7 @@
                 "2026": 0
               },
               "science": {
-                "2024": 910,
+                "2024": 890,
                 "2025": 0,
                 "2026": 0
               },
@@ -5580,11 +5580,11 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 1350,
+                "2025": 890,
                 "2026": 0
               },
               "mathematics": {
-                "2024": 915,
+                "2024": 890,
                 "2025": 0,
                 "2026": 0
               }
@@ -5744,8 +5744,8 @@
             "10": 516
           },
           "enrollmentTotal": 2099,
-          "deliveredTotal": 16494,
-          "deliveryPercentage": 785.8
+          "deliveredTotal": 16463,
+          "deliveryPercentage": 784.33
         },
         {
           "id": "bagbaguin-elementary-school",
@@ -25406,11 +25406,11 @@
               "mathematics": 0
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 1648,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 1648,
+              "mathematics": 1648
             },
             "3": {
               "gmrc": 0,
@@ -25922,8 +25922,8 @@
             "10": 0
           },
           "enrollmentTotal": 1374,
-          "deliveredTotal": 5044,
-          "deliveryPercentage": 367.1
+          "deliveredTotal": 9988,
+          "deliveryPercentage": 726.93
         },
         {
           "id": "horacio-dela-costa-high-school",
@@ -417839,8 +417839,8 @@
       "totals": {
         "1": {
           "gmrc": 9672,
-          "reading-and-literacy": 9388,
-          "language": 8479,
+          "reading-and-literacy": 9557,
+          "language": 8878,
           "makabansa": 10161,
           "mathematics": 6157
         },
@@ -417946,12 +417946,12 @@
           "reading-and-literacy": {
             "2024": 4723,
             "2025": 4665,
-            "2026": 0
+            "2026": 169
           },
           "language": {
             "2024": 208,
             "2025": 6475,
-            "2026": 1796
+            "2026": 2195
           },
           "makabansa": {
             "2024": 1213,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93126,
-      "deliveredTotal": 320559,
-      "deliveryPercentage": 344.22,
+      "deliveredTotal": 321127,
+      "deliveryPercentage": 344.83,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -425805,8 +425805,8 @@
             "1": {
               "gmrc": 399,
               "reading-and-literacy": 399,
-              "language": 0,
-              "makabansa": 0,
+              "language": 399,
+              "makabansa": 399,
               "mathematics": 0
             },
             "2": {
@@ -425910,12 +425910,12 @@
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 399,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 399,
                 "2026": 0
               },
               "makabansa": {
@@ -426326,8 +426326,8 @@
             "10": 0
           },
           "enrollmentTotal": 1640,
-          "deliveredTotal": 1086,
-          "deliveryPercentage": 66.22
+          "deliveredTotal": 1884,
+          "deliveryPercentage": 114.88
         },
         {
           "id": "caruhatan-national-high-school",
