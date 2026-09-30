@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:02:15.247Z",
+  "generatedAt": "2026-09-30T07:12:25.339Z",
   "years": [
     "2024",
     "2025",
@@ -417866,7 +417866,7 @@
           "araling-panlipunan": 9517,
           "epp": 245,
           "music-and-arts": 5631,
-          "pe-and-health": 8811,
+          "pe-and-health": 9026,
           "mathematics": 10056
         },
         "5": {
@@ -418057,7 +418057,7 @@
           "pe-and-health": {
             "2024": 8141,
             "2025": 670,
-            "2026": 0
+            "2026": 215
           },
           "mathematics": {
             "2024": 3660,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 317672,
-      "deliveryPercentage": 340.97,
+      "deliveredTotal": 317887,
+      "deliveryPercentage": 341.2,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -421052,7 +421052,7 @@
               "araling-panlipunan": 215,
               "epp": 0,
               "music-and-arts": 210,
-              "pe-and-health": 0,
+              "pe-and-health": 215,
               "mathematics": 215
             },
             "5": {
@@ -421242,7 +421242,7 @@
               },
               "pe-and-health": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               },
               "mathematics": {
@@ -421547,8 +421547,8 @@
             "10": 0
           },
           "enrollmentTotal": 986,
-          "deliveredTotal": 4548,
-          "deliveryPercentage": 461.26
+          "deliveredTotal": 4763,
+          "deliveryPercentage": 483.06
         },
         {
           "id": "arkong-bato-national-high-school",
