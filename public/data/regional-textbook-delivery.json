@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:12:25.339Z",
+  "generatedAt": "2026-09-30T07:22:22.270Z",
   "years": [
     "2024",
     "2025",
@@ -417886,9 +417886,9 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 3405,
+          "epp": 3533,
           "music-and-arts": 216,
-          "pe-and-health": 4020,
+          "pe-and-health": 4140,
           "mathematics": 3503
         },
         "7": {
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 3405
+            "2026": 3533
           },
           "music-and-arts": {
             "2024": 0,
@@ -418151,7 +418151,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 156,
-            "2026": 3864
+            "2026": 3984
           },
           "mathematics": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 317887,
-      "deliveryPercentage": 341.2,
+      "deliveredTotal": 318135,
+      "deliveryPercentage": 341.46,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -432223,9 +432223,9 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 128,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 120,
               "mathematics": 0
             },
             "7": {
@@ -432478,7 +432478,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 128
               },
               "music-and-arts": {
                 "2024": 0,
@@ -432488,7 +432488,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 120
               },
               "mathematics": {
                 "2024": 0,
@@ -432698,8 +432698,8 @@
             "10": 0
           },
           "enrollmentTotal": 496,
-          "deliveredTotal": 1269,
-          "deliveryPercentage": 255.85
+          "deliveredTotal": 1517,
+          "deliveryPercentage": 305.85
         },
         {
           "id": "justice-eliezer-r-de-los-santos-high-school",
