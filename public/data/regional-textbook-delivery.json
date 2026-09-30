@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T08:52:09.523Z",
+  "generatedAt": "2026-09-30T09:02:10.905Z",
   "years": [
     "2024",
     "2025",
@@ -953,7 +953,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 18056,
+        "1": 18071,
         "2": 19375,
         "3": 20010,
         "4": 22270,
@@ -964,9 +964,9 @@
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188571,
+      "enrollmentTotal": 188586,
       "deliveredTotal": 711388,
-      "deliveryPercentage": 377.25,
+      "deliveryPercentage": 377.22,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25910,7 +25910,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 201,
+            "1": 216,
             "2": 206,
             "3": 230,
             "4": 249,
@@ -25921,9 +25921,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1374,
+          "enrollmentTotal": 1389,
           "deliveredTotal": 9988,
-          "deliveryPercentage": 726.93
+          "deliveryPercentage": 719.08
         },
         {
           "id": "horacio-dela-costa-high-school",
@@ -417845,7 +417845,7 @@
           "mathematics": 6157
         },
         "2": {
-          "gmrc": 5488,
+          "gmrc": 5627,
           "reading-and-literacy": 0,
           "language": 150,
           "makabansa": 5080,
@@ -417886,7 +417886,7 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 3715,
+          "epp": 4079,
           "music-and-arts": 216,
           "pe-and-health": 4322,
           "mathematics": 3805
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 5488
+            "2026": 5627
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 3715
+            "2026": 4079
           },
           "music-and-arts": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93126,
-      "deliveredTotal": 321925,
-      "deliveryPercentage": 345.69,
+      "deliveredTotal": 322428,
+      "deliveryPercentage": 346.23,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -427934,7 +427934,7 @@
               "mathematics": 82
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 139,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 132,
@@ -428057,7 +428057,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 139
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -428450,8 +428450,8 @@
             "10": 0
           },
           "enrollmentTotal": 600,
-          "deliveredTotal": 2962,
-          "deliveryPercentage": 493.67
+          "deliveredTotal": 3101,
+          "deliveryPercentage": 516.83
         },
         {
           "id": "dalandanan-elementary-school",
@@ -441781,7 +441781,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 364,
               "music-and-arts": 0,
               "pe-and-health": 364,
               "mathematics": 0
@@ -442036,7 +442036,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 364
               },
               "music-and-arts": {
                 "2024": 0,
@@ -442256,8 +442256,8 @@
             "10": 0
           },
           "enrollmentTotal": 1728,
-          "deliveredTotal": 8610,
-          "deliveryPercentage": 498.26
+          "deliveredTotal": 8974,
+          "deliveryPercentage": 519.33
         },
         {
           "id": "parada-national-high-school",
