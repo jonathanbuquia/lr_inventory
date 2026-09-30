@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T09:12:04.534Z",
+  "generatedAt": "2026-09-30T09:22:13.255Z",
   "years": [
     "2024",
     "2025",
@@ -959,14 +959,14 @@
         "4": 22270,
         "5": 19568,
         "6": 17096,
-        "7": 19418,
-        "8": 19533,
-        "9": 17125,
+        "7": 19445,
+        "8": 19509,
+        "9": 17112,
         "10": 16120
       },
-      "enrollmentTotal": 188571,
+      "enrollmentTotal": 188561,
       "deliveredTotal": 706444,
-      "deliveryPercentage": 374.63,
+      "deliveryPercentage": 374.65,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -5738,14 +5738,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 524,
-            "8": 593,
-            "9": 466,
+            "7": 551,
+            "8": 569,
+            "9": 453,
             "10": 516
           },
-          "enrollmentTotal": 2099,
+          "enrollmentTotal": 2089,
           "deliveredTotal": 16463,
-          "deliveryPercentage": 784.33
+          "deliveryPercentage": 788.08
         },
         {
           "id": "bagbaguin-elementary-school",
