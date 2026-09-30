@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:27:18.017Z",
+  "generatedAt": "2026-09-30T01:32:12.447Z",
   "years": [
     "2024",
     "2025",
@@ -417873,9 +417873,9 @@
           "gmrc": 3730,
           "english": 8548,
           "filipino": 3711,
-          "science": 8318,
-          "araling-panlipunan": 8117,
-          "epp": 4475,
+          "science": 8549,
+          "araling-panlipunan": 8493,
+          "epp": 4877,
           "music-and-arts": 298,
           "pe-and-health": 8456,
           "mathematics": 147
@@ -418084,17 +418084,17 @@
           "science": {
             "2024": 0,
             "2025": 7396,
-            "2026": 922
+            "2026": 1153
           },
           "araling-panlipunan": {
             "2024": 120,
             "2025": 7481,
-            "2026": 516
+            "2026": 892
           },
           "epp": {
             "2024": 0,
             "2025": 1459,
-            "2026": 3016
+            "2026": 3418
           },
           "music-and-arts": {
             "2024": 0,
@@ -418349,20 +418349,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9955,
-        "2": 10320,
-        "3": 10656,
-        "4": 10862,
-        "5": 10408,
-        "6": 11400,
+        "1": 9935,
+        "2": 10292,
+        "3": 10595,
+        "4": 10843,
+        "5": 10383,
+        "6": 11404,
         "7": 9286,
         "8": 8681,
         "9": 6196,
         "10": 5534
       },
-      "enrollmentTotal": 93298,
-      "deliveredTotal": 302267,
-      "deliveryPercentage": 323.98,
+      "enrollmentTotal": 93149,
+      "deliveredTotal": 303276,
+      "deliveryPercentage": 325.58,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419676,18 +419676,18 @@
               },
               "science": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 394,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 376,
                 "2026": 0
               },
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 402
               },
               "music-and-arts": {
                 "2024": 0,
@@ -431093,20 +431093,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 561,
-            "2": 545,
-            "3": 576,
-            "4": 589,
-            "5": 604,
-            "6": 587,
+            "1": 541,
+            "2": 517,
+            "3": 515,
+            "4": 570,
+            "5": 579,
+            "6": 591,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 3462,
+          "enrollmentTotal": 3313,
           "deliveredTotal": 9367,
-          "deliveryPercentage": 270.57
+          "deliveryPercentage": 282.73
         },
         {
           "id": "gen-tiburcio-de-leon-national-high-school",
