@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T00:57:17.770Z",
+  "generatedAt": "2026-09-30T01:02:23.537Z",
   "years": [
     "2024",
     "2025",
@@ -417845,7 +417845,7 @@
           "mathematics": 4890
         },
         "2": {
-          "gmrc": 2968,
+          "gmrc": 3671,
           "reading-and-literacy": 0,
           "language": 150,
           "makabansa": 4670,
@@ -417855,8 +417855,8 @@
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 3615,
-          "mathematics": 3504
+          "makabansa": 4255,
+          "mathematics": 4144
         },
         "4": {
           "gmrc": 10178,
@@ -417870,7 +417870,7 @@
           "mathematics": 9841
         },
         "5": {
-          "gmrc": 2952,
+          "gmrc": 3730,
           "english": 8548,
           "filipino": 3711,
           "science": 8549,
@@ -417886,7 +417886,7 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 891,
+          "epp": 1311,
           "music-and-arts": 216,
           "pe-and-health": 1713,
           "mathematics": 1003
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 2968
+            "2026": 3671
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -418010,12 +418010,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 3336
+            "2026": 3976
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 3336
+            "2026": 3976
           }
         },
         "4": {
@@ -418069,7 +418069,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 91,
-            "2026": 2861
+            "2026": 3639
           },
           "english": {
             "2024": 0,
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 891
+            "2026": 1311
           },
           "music-and-arts": {
             "2024": 0,
@@ -418349,20 +418349,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9868,
-        "2": 10022,
-        "3": 10246,
-        "4": 10953,
-        "5": 10419,
-        "6": 10658,
+        "1": 9967,
+        "2": 9937,
+        "3": 10244,
+        "4": 10861,
+        "5": 10408,
+        "6": 11400,
         "7": 9310,
         "8": 8680,
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 91886,
-      "deliveredTotal": 296143,
-      "deliveryPercentage": 322.29,
+      "enrollmentTotal": 92537,
+      "deliveredTotal": 299324,
+      "deliveryPercentage": 323.46,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419432,7 +419432,7 @@
           "totals": {
             "1": {
               "gmrc": 340,
-              "reading-and-literacy": 307,
+              "reading-and-literacy": 478,
               "language": 478,
               "makabansa": 484,
               "mathematics": 396
@@ -419479,7 +419479,7 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 420,
               "music-and-arts": 0,
               "pe-and-health": 0,
               "mathematics": 0
@@ -419537,7 +419537,7 @@
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 307,
+                "2024": 478,
                 "2025": 0,
                 "2026": 0
               },
@@ -419734,7 +419734,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 420
               },
               "music-and-arts": {
                 "2024": 0,
@@ -419954,8 +419954,8 @@
             "10": 0
           },
           "enrollmentTotal": 1557,
-          "deliveredTotal": 9388,
-          "deliveryPercentage": 602.95
+          "deliveredTotal": 9979,
+          "deliveryPercentage": 640.91
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
@@ -449174,7 +449174,7 @@
               "mathematics": 0
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 703,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 671,
@@ -449184,8 +449184,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 640,
+              "mathematics": 640
             },
             "4": {
               "gmrc": 761,
@@ -449199,7 +449199,7 @@
               "mathematics": 761
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 778,
               "english": 739,
               "filipino": 0,
               "science": 739,
@@ -449297,7 +449297,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 703
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -449339,12 +449339,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 640
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 640
               }
             },
             "4": {
@@ -449398,7 +449398,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 778
               },
               "english": {
                 "2024": 0,
@@ -449678,20 +449678,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 577,
-            "2": 671,
-            "3": 679,
-            "4": 755,
-            "5": 742,
-            "6": 0,
+            "1": 676,
+            "2": 586,
+            "3": 677,
+            "4": 663,
+            "5": 731,
+            "6": 742,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 3424,
-          "deliveredTotal": 12489,
-          "deliveryPercentage": 364.75
+          "enrollmentTotal": 4075,
+          "deliveredTotal": 15250,
+          "deliveryPercentage": 374.23
         },
         {
           "id": "san-miguel-heights-elementary-school",
