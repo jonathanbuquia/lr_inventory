@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T09:32:12.093Z",
+  "generatedAt": "2026-09-30T09:42:24.653Z",
   "years": [
     "2024",
     "2025",
@@ -502,7 +502,7 @@
           "science": 18253,
           "araling-panlipunan": 20767,
           "tle": 23968,
-          "music-and-arts": 17892,
+          "music-and-arts": 18782,
           "pe-and-health": 23631,
           "mathematics": 17346
         },
@@ -797,7 +797,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 15074,
-            "2026": 2818
+            "2026": 3708
           },
           "pe-and-health": {
             "2024": 6255,
@@ -965,8 +965,8 @@
         "10": 16079
       },
       "enrollmentTotal": 188520,
-      "deliveredTotal": 708224,
-      "deliveryPercentage": 375.68,
+      "deliveredTotal": 709114,
+      "deliveryPercentage": 376.15,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -5575,7 +5575,7 @@
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 890,
                 "2026": 0
               },
               "pe-and-health": {
