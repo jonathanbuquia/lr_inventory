@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T10:22:13.071Z",
+  "generatedAt": "2026-09-30T10:27:05.930Z",
   "years": [
     "2024",
     "2025",
@@ -530,7 +530,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 3168,
+          "english": 3850,
           "filipino": 3708,
           "science": 1344,
           "araling-panlipunan": 0,
@@ -913,7 +913,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 3168
+            "2026": 3850
           },
           "filipino": {
             "2024": 3708,
@@ -959,14 +959,14 @@
         "4": 22270,
         "5": 19568,
         "6": 17096,
-        "7": 19445,
-        "8": 19509,
-        "9": 17112,
-        "10": 16079
+        "7": 19382,
+        "8": 19514,
+        "9": 17230,
+        "10": 16028
       },
-      "enrollmentTotal": 188520,
-      "deliveredTotal": 711988,
-      "deliveryPercentage": 377.67,
+      "enrollmentTotal": 188529,
+      "deliveredTotal": 712670,
+      "deliveryPercentage": 378.02,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -5692,7 +5692,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 682
               },
               "filipino": {
                 "2024": 0,
@@ -5738,14 +5738,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 551,
-            "8": 569,
-            "9": 453,
-            "10": 475
+            "7": 488,
+            "8": 574,
+            "9": 571,
+            "10": 424
           },
-          "enrollmentTotal": 2048,
+          "enrollmentTotal": 2057,
           "deliveredTotal": 11834,
-          "deliveryPercentage": 577.83
+          "deliveryPercentage": 575.3
         },
         {
           "id": "bagbaguin-elementary-school",
