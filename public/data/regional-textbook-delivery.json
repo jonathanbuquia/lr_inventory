@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T03:32:08.187Z",
+  "generatedAt": "2026-09-30T03:42:10.821Z",
   "years": [
     "2024",
     "2025",
@@ -953,7 +953,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 17916,
+        "1": 17945,
         "2": 19515,
         "3": 20091,
         "4": 22369,
@@ -964,9 +964,9 @@
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188506,
+      "enrollmentTotal": 188535,
       "deliveredTotal": 701918,
-      "deliveryPercentage": 372.36,
+      "deliveryPercentage": 372.3,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -23786,7 +23786,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 274,
+            "1": 303,
             "2": 307,
             "3": 341,
             "4": 385,
@@ -23797,9 +23797,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1932,
+          "enrollmentTotal": 1961,
           "deliveredTotal": 10619,
-          "deliveryPercentage": 549.64
+          "deliveryPercentage": 541.51
         },
         {
           "id": "gomburza-elementary-school",
