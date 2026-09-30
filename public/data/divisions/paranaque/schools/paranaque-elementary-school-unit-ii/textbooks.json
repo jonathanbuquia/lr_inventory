@@ -356,10 +356,10 @@
       "GAP-TX": 40,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 257,
-      "Quantity of Textbooks Received S.Y. 2026-2027": "",
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 257,
+      "Quantity of Textbooks Received S.Y. 2026-2027": 240,
+      "Year of Delivery-TX S.Y. 2026-2027": 2025,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "RO",
+      "GAP-TX S.Y. 2026-2027": 17,
       "Surplus-TX S.Y. 2026-2027": 0
     },
     {
@@ -398,16 +398,16 @@
       "Grade Level": 4,
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 280,
-      "Quantity of Textbooks Received": 236,
-      "Year of Delivery-TX": 2025,
+      "Quantity of Textbooks Received": 216,
+      "Year of Delivery-TX": 2024,
       "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 44,
+      "GAP-TX": 64,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 257,
-      "Quantity of Textbooks Received S.Y. 2026-2027": "",
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 257,
+      "Quantity of Textbooks Received S.Y. 2026-2027": 216,
+      "Year of Delivery-TX S.Y. 2026-2027": 2024,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "RO",
+      "GAP-TX S.Y. 2026-2027": 41,
       "Surplus-TX S.Y. 2026-2027": 0
     },
     {
@@ -436,10 +436,10 @@
       "GAP-TX": 280,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 257,
-      "Quantity of Textbooks Received S.Y. 2026-2027": "",
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 257,
+      "Quantity of Textbooks Received S.Y. 2026-2027": 230,
+      "Year of Delivery-TX S.Y. 2026-2027": 2024,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "RO",
+      "GAP-TX S.Y. 2026-2027": 27,
       "Surplus-TX S.Y. 2026-2027": 0
     },
     {
@@ -795,5 +795,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-09-30T00:13:34.784Z"
+  "generatedAt": "2026-09-30T00:26:57.484Z"
 }
