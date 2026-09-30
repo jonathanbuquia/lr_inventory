@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T06:52:14.853Z",
+  "generatedAt": "2026-09-30T06:57:13.718Z",
   "years": [
     "2024",
     "2025",
@@ -417845,7 +417845,7 @@
           "mathematics": 6082
         },
         "2": {
-          "gmrc": 5166,
+          "gmrc": 5352,
           "reading-and-literacy": 0,
           "language": 150,
           "makabansa": 4982,
@@ -417865,14 +417865,14 @@
           "science": 9429,
           "araling-panlipunan": 9302,
           "epp": 245,
-          "music-and-arts": 5421,
+          "music-and-arts": 5631,
           "pe-and-health": 8811,
           "mathematics": 9841
         },
         "5": {
-          "gmrc": 5265,
+          "gmrc": 5471,
           "english": 8810,
-          "filipino": 3831,
+          "filipino": 4037,
           "science": 8813,
           "araling-panlipunan": 8684,
           "epp": 5177,
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 5166
+            "2026": 5352
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -418052,7 +418052,7 @@
           "music-and-arts": {
             "2024": 181,
             "2025": 509,
-            "2026": 4731
+            "2026": 4941
           },
           "pe-and-health": {
             "2024": 8141,
@@ -418069,7 +418069,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 91,
-            "2026": 5174
+            "2026": 5380
           },
           "english": {
             "2024": 0,
@@ -418079,7 +418079,7 @@
           "filipino": {
             "2024": 0,
             "2025": 79,
-            "2026": 3752
+            "2026": 3958
           },
           "science": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 315418,
-      "deliveryPercentage": 338.55,
+      "deliveredTotal": 316226,
+      "deliveryPercentage": 339.41,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -421031,7 +421031,7 @@
               "mathematics": 0
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 186,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 210,
@@ -421051,14 +421051,14 @@
               "science": 0,
               "araling-panlipunan": 0,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 210,
               "pe-and-health": 0,
               "mathematics": 0
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 206,
               "english": 210,
-              "filipino": 0,
+              "filipino": 206,
               "science": 210,
               "araling-panlipunan": 0,
               "epp": 210,
@@ -421154,7 +421154,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 186
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -421238,7 +421238,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 210
               },
               "pe-and-health": {
                 "2024": 0,
@@ -421255,7 +421255,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 206
               },
               "english": {
                 "2024": 0,
@@ -421265,7 +421265,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 206
               },
               "science": {
                 "2024": 0,
@@ -421547,8 +421547,8 @@
             "10": 0
           },
           "enrollmentTotal": 986,
-          "deliveredTotal": 2294,
-          "deliveryPercentage": 232.66
+          "deliveredTotal": 3102,
+          "deliveryPercentage": 314.6
         },
         {
           "id": "arkong-bato-national-high-school",
