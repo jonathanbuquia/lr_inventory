@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T05:56:59.292Z",
+  "generatedAt": "2026-09-30T06:01:56.153Z",
   "years": [
     "2024",
     "2025",
@@ -226152,8 +226152,8 @@
           "gmrc": 100,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 2957,
-          "mathematics": 3707
+          "makabansa": 3407,
+          "mathematics": 4157
         },
         "4": {
           "gmrc": 8835,
@@ -226307,12 +226307,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 0,
-            "2026": 2957
+            "2026": 3407
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 3707
+            "2026": 4157
           }
         },
         "4": {
@@ -226658,8 +226658,8 @@
         "10": 6948
       },
       "enrollmentTotal": 78734,
-      "deliveredTotal": 315467,
-      "deliveryPercentage": 400.67,
+      "deliveredTotal": 316367,
+      "deliveryPercentage": 401.82,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -238896,8 +238896,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 450,
+              "mathematics": 450
             },
             "4": {
               "gmrc": 252,
@@ -239051,12 +239051,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 450
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 450
               }
             },
             "4": {
@@ -239402,8 +239402,8 @@
             "10": 0
           },
           "enrollmentTotal": 1437,
-          "deliveredTotal": 6845,
-          "deliveryPercentage": 476.34
+          "deliveredTotal": 7745,
+          "deliveryPercentage": 538.97
         },
         {
           "id": "paranaque-national-high-school-baclaran",
