@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:17:27.214Z",
+  "generatedAt": "2026-09-30T01:22:20.069Z",
   "years": [
     "2024",
     "2025",
@@ -417842,7 +417842,7 @@
           "reading-and-literacy": 9388,
           "language": 8440,
           "makabansa": 10071,
-          "mathematics": 5286
+          "mathematics": 5421
         },
         "2": {
           "gmrc": 4067,
@@ -417855,8 +417855,8 @@
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 4255,
-          "mathematics": 4144
+          "makabansa": 4713,
+          "mathematics": 4602
         },
         "4": {
           "gmrc": 10178,
@@ -417886,10 +417886,10 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 1311,
+          "epp": 2075,
           "music-and-arts": 216,
-          "pe-and-health": 1713,
-          "mathematics": 1003
+          "pe-and-health": 2477,
+          "mathematics": 1767
         },
         "7": {
           "ve": 5948,
@@ -417961,7 +417961,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 1166,
-            "2026": 4120
+            "2026": 4255
           }
         },
         "2": {
@@ -418010,12 +418010,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 3976
+            "2026": 4434
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 3976
+            "2026": 4434
           }
         },
         "4": {
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 1311
+            "2026": 2075
           },
           "music-and-arts": {
             "2024": 0,
@@ -418151,12 +418151,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 156,
-            "2026": 1557
+            "2026": 2321
           },
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 891
+            "2026": 1655
           }
         },
         "7": {
@@ -418350,19 +418350,19 @@
       },
       "enrollmentByGrade": {
         "1": 9955,
-        "2": 10323,
+        "2": 10320,
         "3": 10656,
         "4": 10862,
         "5": 10408,
         "6": 11400,
         "7": 9286,
         "8": 8681,
-        "9": 6170,
-        "10": 5560
+        "9": 6196,
+        "10": 5534
       },
-      "enrollmentTotal": 93301,
-      "deliveredTotal": 299933,
-      "deliveryPercentage": 321.47,
+      "enrollmentTotal": 93298,
+      "deliveredTotal": 303276,
+      "deliveryPercentage": 325.06,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419603,12 +419603,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 458
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 458
               }
             },
             "4": {
@@ -427400,7 +427400,7 @@
               "reading-and-literacy": 109,
               "language": 112,
               "makabansa": 110,
-              "mathematics": 0
+              "mathematics": 135
             },
             "2": {
               "gmrc": 0,
@@ -427519,7 +427519,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 135
               }
             },
             "2": {
@@ -427908,7 +427908,7 @@
           },
           "enrollmentByGrade": {
             "1": 132,
-            "2": 152,
+            "2": 149,
             "3": 134,
             "4": 160,
             "5": 133,
@@ -427918,9 +427918,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 871,
-          "deliveredTotal": 1943,
-          "deliveryPercentage": 223.08
+          "enrollmentTotal": 868,
+          "deliveredTotal": 2078,
+          "deliveryPercentage": 239.4
         },
         {
           "id": "constantino-elementary-school",
@@ -439066,8 +439066,8 @@
             "6": 0,
             "7": 226,
             "8": 246,
-            "9": 220,
-            "10": 248
+            "9": 246,
+            "10": 222
           },
           "enrollmentTotal": 940,
           "deliveredTotal": 3266,
@@ -449215,10 +449215,10 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 764,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 764,
+              "mathematics": 764
             },
             "7": {
               "ve": 0,
@@ -449470,7 +449470,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 764
               },
               "music-and-arts": {
                 "2024": 0,
@@ -449480,12 +449480,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 764
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 764
               }
             },
             "7": {
@@ -449690,8 +449690,8 @@
             "10": 0
           },
           "enrollmentTotal": 4075,
-          "deliveredTotal": 15250,
-          "deliveryPercentage": 374.23
+          "deliveredTotal": 17542,
+          "deliveryPercentage": 430.48
         },
         {
           "id": "san-miguel-heights-elementary-school",
