@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T09:47:16.271Z",
+  "generatedAt": "2026-09-30T09:52:16.436Z",
   "years": [
     "2024",
     "2025",
@@ -5292,7 +5292,7 @@
               "science": 576,
               "araling-panlipunan": 0,
               "tle": 576,
-              "music-and-arts": 576,
+              "music-and-arts": 0,
               "pe-and-health": 576,
               "mathematics": 576
             },
@@ -5744,8 +5744,8 @@
             "10": 475
           },
           "enrollmentTotal": 2048,
-          "deliveredTotal": 11728,
-          "deliveryPercentage": 572.66
+          "deliveredTotal": 11152,
+          "deliveryPercentage": 544.53
         },
         {
           "id": "bagbaguin-elementary-school",
