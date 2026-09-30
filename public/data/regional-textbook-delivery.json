@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T04:12:02.772Z",
+  "generatedAt": "2026-09-30T04:17:02.043Z",
   "years": [
     "2024",
     "2025",
@@ -417845,18 +417845,18 @@
           "mathematics": 6082
         },
         "2": {
-          "gmrc": 4448,
+          "gmrc": 4592,
           "reading-and-literacy": 0,
           "language": 150,
-          "makabansa": 4838,
+          "makabansa": 4982,
           "mathematics": 504
         },
         "3": {
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 5443,
-          "mathematics": 5338
+          "makabansa": 5572,
+          "mathematics": 5467
         },
         "4": {
           "gmrc": 10178,
@@ -417865,7 +417865,7 @@
           "science": 9429,
           "araling-panlipunan": 9302,
           "epp": 245,
-          "music-and-arts": 5271,
+          "music-and-arts": 5421,
           "pe-and-health": 8811,
           "mathematics": 9841
         },
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 4448
+            "2026": 4592
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -417983,7 +417983,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 671,
-            "2026": 4167
+            "2026": 4311
           },
           "mathematics": {
             "2024": 0,
@@ -418010,12 +418010,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 5164
+            "2026": 5293
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 5170
+            "2026": 5299
           }
         },
         "4": {
@@ -418052,7 +418052,7 @@
           "music-and-arts": {
             "2024": 181,
             "2025": 509,
-            "2026": 4581
+            "2026": 4731
           },
           "pe-and-health": {
             "2024": 8141,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93212,
-      "deliveredTotal": 311983,
-      "deliveryPercentage": 334.7,
+      "deliveredTotal": 312679,
+      "deliveryPercentage": 335.45,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -452901,8 +452901,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 129,
+              "mathematics": 129
             },
             "4": {
               "gmrc": 144,
@@ -452911,7 +452911,7 @@
               "science": 144,
               "araling-panlipunan": 144,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 150,
               "pe-and-health": 146,
               "mathematics": 144
             },
@@ -453014,7 +453014,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 144
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -453029,7 +453029,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 144
               },
               "mathematics": {
                 "2024": 0,
@@ -453056,12 +453056,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 129
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 129
               }
             },
             "4": {
@@ -453098,7 +453098,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 150
               },
               "pe-and-health": {
                 "2024": 0,
@@ -453407,8 +453407,8 @@
             "10": 0
           },
           "enrollmentTotal": 646,
-          "deliveredTotal": 2034,
-          "deliveryPercentage": 314.86
+          "deliveredTotal": 2442,
+          "deliveryPercentage": 378.02
         },
         {
           "id": "tagalag-elementary-school",
