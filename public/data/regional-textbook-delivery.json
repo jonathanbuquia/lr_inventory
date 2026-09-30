@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:22:20.069Z",
+  "generatedAt": "2026-09-30T01:27:18.017Z",
   "years": [
     "2024",
     "2025",
@@ -417873,9 +417873,9 @@
           "gmrc": 3730,
           "english": 8548,
           "filipino": 3711,
-          "science": 8549,
-          "araling-panlipunan": 8493,
-          "epp": 4877,
+          "science": 8318,
+          "araling-panlipunan": 8117,
+          "epp": 4475,
           "music-and-arts": 298,
           "pe-and-health": 8456,
           "mathematics": 147
@@ -418084,17 +418084,17 @@
           "science": {
             "2024": 0,
             "2025": 7396,
-            "2026": 1153
+            "2026": 922
           },
           "araling-panlipunan": {
             "2024": 120,
             "2025": 7481,
-            "2026": 892
+            "2026": 516
           },
           "epp": {
             "2024": 0,
             "2025": 1459,
-            "2026": 3418
+            "2026": 3016
           },
           "music-and-arts": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5534
       },
       "enrollmentTotal": 93298,
-      "deliveredTotal": 303276,
-      "deliveryPercentage": 325.06,
+      "deliveredTotal": 302267,
+      "deliveryPercentage": 323.98,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419463,7 +419463,7 @@
               "mathematics": 420
             },
             "5": {
-              "gmrc": 400,
+              "gmrc": 0,
               "english": 390,
               "filipino": 400,
               "science": 394,
@@ -419676,18 +419676,18 @@
               },
               "science": {
                 "2024": 0,
-                "2025": 394,
+                "2025": 0,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 376,
+                "2025": 0,
                 "2026": 0
               },
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 402
+                "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
@@ -419954,8 +419954,8 @@
             "10": 0
           },
           "enrollmentTotal": 2362,
-          "deliveredTotal": 9979,
-          "deliveryPercentage": 422.48
+          "deliveredTotal": 9579,
+          "deliveryPercentage": 405.55
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
