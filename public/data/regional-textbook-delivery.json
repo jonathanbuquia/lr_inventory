@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T06:57:13.718Z",
+  "generatedAt": "2026-09-30T07:02:15.247Z",
   "years": [
     "2024",
     "2025",
@@ -417859,22 +417859,22 @@
           "mathematics": 5467
         },
         "4": {
-          "gmrc": 10178,
-          "english": 9426,
-          "filipino": 9533,
-          "science": 9429,
-          "araling-panlipunan": 9302,
+          "gmrc": 10393,
+          "english": 9641,
+          "filipino": 9748,
+          "science": 9644,
+          "araling-panlipunan": 9517,
           "epp": 245,
           "music-and-arts": 5631,
           "pe-and-health": 8811,
-          "mathematics": 9841
+          "mathematics": 10056
         },
         "5": {
           "gmrc": 5471,
           "english": 8810,
           "filipino": 4037,
           "science": 8813,
-          "araling-panlipunan": 8684,
+          "araling-panlipunan": 8840,
           "epp": 5177,
           "music-and-arts": 298,
           "pe-and-health": 8957,
@@ -418022,27 +418022,27 @@
           "gmrc": {
             "2024": 4238,
             "2025": 5815,
-            "2026": 125
+            "2026": 340
           },
           "english": {
             "2024": 7720,
             "2025": 1706,
-            "2026": 0
+            "2026": 215
           },
           "filipino": {
             "2024": 7979,
             "2025": 1554,
-            "2026": 0
+            "2026": 215
           },
           "science": {
             "2024": 7555,
             "2025": 1874,
-            "2026": 0
+            "2026": 215
           },
           "araling-panlipunan": {
             "2024": 7555,
             "2025": 1747,
-            "2026": 0
+            "2026": 215
           },
           "epp": {
             "2024": 0,
@@ -418062,7 +418062,7 @@
           "mathematics": {
             "2024": 3660,
             "2025": 6059,
-            "2026": 122
+            "2026": 337
           }
         },
         "5": {
@@ -418089,7 +418089,7 @@
           "araling-panlipunan": {
             "2024": 120,
             "2025": 7481,
-            "2026": 1083
+            "2026": 1239
           },
           "epp": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 316226,
-      "deliveryPercentage": 339.41,
+      "deliveredTotal": 317672,
+      "deliveryPercentage": 340.97,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -421045,22 +421045,22 @@
               "mathematics": 0
             },
             "4": {
-              "gmrc": 0,
-              "english": 0,
-              "filipino": 0,
-              "science": 0,
-              "araling-panlipunan": 0,
+              "gmrc": 215,
+              "english": 215,
+              "filipino": 215,
+              "science": 215,
+              "araling-panlipunan": 215,
               "epp": 0,
               "music-and-arts": 210,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 215
             },
             "5": {
               "gmrc": 206,
               "english": 210,
               "filipino": 206,
               "science": 210,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 156,
               "epp": 210,
               "music-and-arts": 210,
               "pe-and-health": 210,
@@ -421207,27 +421207,27 @@
             "4": {
               "gmrc": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               },
               "filipino": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               },
               "science": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               },
               "epp": {
@@ -421247,7 +421247,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 215,
                 "2026": 0
               }
             },
@@ -421274,7 +421274,7 @@
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 156,
                 "2026": 0
               },
               "epp": {
@@ -421547,8 +421547,8 @@
             "10": 0
           },
           "enrollmentTotal": 986,
-          "deliveredTotal": 3102,
-          "deliveryPercentage": 314.6
+          "deliveredTotal": 4548,
+          "deliveryPercentage": 461.26
         },
         {
           "id": "arkong-bato-national-high-school",
