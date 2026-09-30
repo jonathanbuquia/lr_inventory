@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:37:25.692Z",
+  "generatedAt": "2026-09-30T01:42:12.957Z",
   "years": [
     "2024",
     "2025",
@@ -953,8 +953,8 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 17921,
-        "2": 19516,
+        "1": 17916,
+        "2": 19515,
         "3": 20096,
         "4": 22374,
         "5": 19330,
@@ -964,9 +964,9 @@
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188517,
+      "enrollmentTotal": 188511,
       "deliveredTotal": 694840,
-      "deliveryPercentage": 368.58,
+      "deliveryPercentage": 368.59,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -45026,8 +45026,8 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 477,
-            "2": 389,
+            "1": 472,
+            "2": 388,
             "3": 445,
             "4": 461,
             "5": 471,
@@ -45037,9 +45037,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2661,
+          "enrollmentTotal": 2655,
           "deliveredTotal": 13355,
-          "deliveryPercentage": 501.88
+          "deliveryPercentage": 503.01
         },
         {
           "id": "tala-high-school",
@@ -417888,8 +417888,8 @@
           "araling-panlipunan": 0,
           "epp": 2075,
           "music-and-arts": 216,
-          "pe-and-health": 2477,
-          "mathematics": 1767
+          "pe-and-health": 2897,
+          "mathematics": 2187
         },
         "7": {
           "ve": 5948,
@@ -417903,14 +417903,14 @@
           "mathematics": 8292
         },
         "8": {
-          "ve": 7999,
+          "ve": 7634,
           "english": 2413,
           "filipino": 2413,
-          "science": 3935,
+          "science": 3564,
           "araling-panlipunan": 0,
-          "tle": 4093,
+          "tle": 3722,
           "music-and-arts": 0,
-          "pe-and-health": 2664,
+          "pe-and-health": 2293,
           "mathematics": 8538
         },
         "9": {
@@ -418151,12 +418151,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 156,
-            "2026": 2321
+            "2026": 2741
           },
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 1655
+            "2026": 2075
           }
         },
         "7": {
@@ -418210,7 +418210,7 @@
           "ve": {
             "2024": 288,
             "2025": 7346,
-            "2026": 365
+            "2026": 0
           },
           "english": {
             "2024": 0,
@@ -418225,7 +418225,7 @@
           "science": {
             "2024": 0,
             "2025": 383,
-            "2026": 3552
+            "2026": 3181
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -418235,7 +418235,7 @@
           "tle": {
             "2024": 0,
             "2025": 0,
-            "2026": 4093
+            "2026": 3722
           },
           "music-and-arts": {
             "2024": 0,
@@ -418245,7 +418245,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 2664
+            "2026": 2293
           },
           "mathematics": {
             "2024": 288,
@@ -418354,15 +418354,15 @@
         "3": 10595,
         "4": 10843,
         "5": 10383,
-        "6": 11404,
+        "6": 11419,
         "7": 9286,
         "8": 8681,
         "9": 6196,
         "10": 5534
       },
-      "enrollmentTotal": 93149,
-      "deliveredTotal": 303914,
-      "deliveryPercentage": 326.27,
+      "enrollmentTotal": 93164,
+      "deliveredTotal": 303276,
+      "deliveryPercentage": 325.53,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419481,8 +419481,8 @@
               "araling-panlipunan": 0,
               "epp": 420,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 420,
+              "mathematics": 420
             },
             "7": {
               "ve": 0,
@@ -419744,12 +419744,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 420
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 420
               }
             },
             "7": {
@@ -419947,15 +419947,15 @@
             "3": 412,
             "4": 424,
             "5": 377,
-            "6": 371,
+            "6": 386,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2362,
-          "deliveredTotal": 10379,
-          "deliveryPercentage": 439.42
+          "enrollmentTotal": 2377,
+          "deliveredTotal": 11219,
+          "deliveryPercentage": 471.98
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
@@ -422457,7 +422457,7 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 371,
+                "2025": 0,
                 "2026": 0
               },
               "english": {
@@ -422473,7 +422473,7 @@
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 371
+                "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -422483,7 +422483,7 @@
               "tle": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 371
+                "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
@@ -422493,7 +422493,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 371
+                "2026": 0
               },
               "mathematics": {
                 "2024": 0,
