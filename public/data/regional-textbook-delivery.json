@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:47:12.421Z",
+  "generatedAt": "2026-09-30T01:51:57.365Z",
   "years": [
     "2024",
     "2025",
@@ -958,13 +958,13 @@
         "3": 20091,
         "4": 22369,
         "5": 19337,
-        "6": 17084,
+        "6": 17082,
         "7": 19418,
         "8": 19533,
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188508,
+      "enrollmentTotal": 188506,
       "deliveredTotal": 694840,
       "deliveryPercentage": 368.6,
       "schools": [
@@ -45031,15 +45031,15 @@
             "3": 440,
             "4": 456,
             "5": 478,
-            "6": 418,
+            "6": 416,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2652,
+          "enrollmentTotal": 2650,
           "deliveredTotal": 13355,
-          "deliveryPercentage": 503.58
+          "deliveryPercentage": 503.96
         },
         {
           "id": "tala-high-school",
@@ -417845,10 +417845,10 @@
           "mathematics": 5421
         },
         "2": {
-          "gmrc": 4067,
+          "gmrc": 4231,
           "reading-and-literacy": 0,
           "language": 150,
-          "makabansa": 4670,
+          "makabansa": 4838,
           "mathematics": 504
         },
         "3": {
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 4067
+            "2026": 4231
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -417983,7 +417983,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 671,
-            "2026": 3999
+            "2026": 4167
           },
           "mathematics": {
             "2024": 0,
@@ -418351,7 +418351,7 @@
       "enrollmentByGrade": {
         "1": 9935,
         "2": 10292,
-        "3": 10595,
+        "3": 10608,
         "4": 10843,
         "5": 10383,
         "6": 11419,
@@ -418360,9 +418360,9 @@
         "9": 6196,
         "10": 5534
       },
-      "enrollmentTotal": 93164,
-      "deliveredTotal": 303276,
-      "deliveryPercentage": 325.53,
+      "enrollmentTotal": 93177,
+      "deliveredTotal": 303608,
+      "deliveryPercentage": 325.84,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -427403,10 +427403,10 @@
               "mathematics": 135
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 164,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 168,
               "mathematics": 0
             },
             "3": {
@@ -427526,7 +427526,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 164
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -427541,7 +427541,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 168
               },
               "mathematics": {
                 "2024": 0,
@@ -427909,7 +427909,7 @@
           "enrollmentByGrade": {
             "1": 132,
             "2": 149,
-            "3": 134,
+            "3": 147,
             "4": 160,
             "5": 133,
             "6": 160,
@@ -427918,9 +427918,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 868,
-          "deliveredTotal": 2078,
-          "deliveryPercentage": 239.4
+          "enrollmentTotal": 881,
+          "deliveredTotal": 2410,
+          "deliveryPercentage": 273.55
         },
         {
           "id": "constantino-elementary-school",
