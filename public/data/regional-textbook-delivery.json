@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T09:02:10.905Z",
+  "generatedAt": "2026-09-30T09:07:04.241Z",
   "years": [
     "2024",
     "2025",
@@ -953,7 +953,7 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 18071,
+        "1": 18056,
         "2": 19375,
         "3": 20010,
         "4": 22270,
@@ -964,9 +964,9 @@
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188586,
+      "enrollmentTotal": 188571,
       "deliveredTotal": 711388,
-      "deliveryPercentage": 377.22,
+      "deliveryPercentage": 377.25,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25910,7 +25910,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 216,
+            "1": 201,
             "2": 206,
             "3": 230,
             "4": 249,
@@ -25921,9 +25921,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1389,
+          "enrollmentTotal": 1374,
           "deliveredTotal": 9988,
-          "deliveryPercentage": 719.08
+          "deliveryPercentage": 726.93
         },
         {
           "id": "horacio-dela-costa-high-school",
@@ -417870,7 +417870,7 @@
           "mathematics": 10056
         },
         "5": {
-          "gmrc": 5697,
+          "gmrc": 5835,
           "english": 8912,
           "filipino": 4122,
           "science": 8915,
@@ -418069,7 +418069,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 91,
-            "2026": 5606
+            "2026": 5744
           },
           "english": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93126,
-      "deliveredTotal": 322428,
-      "deliveryPercentage": 346.23,
+      "deliveredTotal": 322566,
+      "deliveryPercentage": 346.38,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -427959,7 +427959,7 @@
               "mathematics": 110
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 138,
               "english": 203,
               "filipino": 133,
               "science": 203,
@@ -428158,7 +428158,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 138
               },
               "english": {
                 "2024": 0,
@@ -428450,8 +428450,8 @@
             "10": 0
           },
           "enrollmentTotal": 600,
-          "deliveredTotal": 3101,
-          "deliveryPercentage": 516.83
+          "deliveredTotal": 3239,
+          "deliveryPercentage": 539.83
         },
         {
           "id": "dalandanan-elementary-school",
