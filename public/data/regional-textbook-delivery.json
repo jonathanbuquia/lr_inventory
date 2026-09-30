@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:27:01.245Z",
+  "generatedAt": "2026-09-30T07:32:17.527Z",
   "years": [
     "2024",
     "2025",
@@ -417838,17 +417838,17 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "gmrc": 9582,
+          "gmrc": 9672,
           "reading-and-literacy": 9388,
-          "language": 8440,
-          "makabansa": 10071,
+          "language": 8530,
+          "makabansa": 10161,
           "mathematics": 6082
         },
         "2": {
           "gmrc": 5352,
           "reading-and-literacy": 0,
           "language": 150,
-          "makabansa": 4982,
+          "makabansa": 5080,
           "mathematics": 504
         },
         "3": {
@@ -417856,7 +417856,7 @@
           "reading-and-literacy": 363,
           "language": 229,
           "makabansa": 5572,
-          "mathematics": 5467
+          "mathematics": 5554
         },
         "4": {
           "gmrc": 10393,
@@ -417941,7 +417941,7 @@
           "gmrc": {
             "2024": 5836,
             "2025": 3745,
-            "2026": 1
+            "2026": 91
           },
           "reading-and-literacy": {
             "2024": 4723,
@@ -417951,12 +417951,12 @@
           "language": {
             "2024": 208,
             "2025": 6475,
-            "2026": 1757
+            "2026": 1847
           },
           "makabansa": {
             "2024": 1213,
             "2025": 8257,
-            "2026": 601
+            "2026": 691
           },
           "mathematics": {
             "2024": 0,
@@ -417983,7 +417983,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 671,
-            "2026": 4311
+            "2026": 4409
           },
           "mathematics": {
             "2024": 0,
@@ -418015,7 +418015,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 5299
+            "2026": 5386
           }
         },
         "4": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 318255,
-      "deliveryPercentage": 341.59,
+      "deliveredTotal": 318710,
+      "deliveryPercentage": 342.08,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -428458,10 +428458,10 @@
           "name": "DALANDANAN ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 0,
-              "reading-and-literacy": 0,
-              "language": 0,
-              "makabansa": 0,
+              "gmrc": 90,
+              "reading-and-literacy": 90,
+              "language": 90,
+              "makabansa": 90,
               "mathematics": 0
             },
             "2": {
@@ -428476,7 +428476,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 0
+              "mathematics": 87
             },
             "4": {
               "gmrc": 0,
@@ -428560,22 +428560,22 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 90,
                 "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 90,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 90,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 90,
                 "2026": 0
               },
               "mathematics": {
@@ -428603,7 +428603,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 98
               },
               "mathematics": {
                 "2024": 0,
@@ -428635,7 +428635,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 87
               }
             },
             "4": {
@@ -428981,8 +428981,8 @@
             "10": 0
           },
           "enrollmentTotal": 596,
-          "deliveredTotal": 717,
-          "deliveryPercentage": 120.3
+          "deliveredTotal": 1164,
+          "deliveryPercentage": 195.3
         },
         {
           "id": "dalandanan-national-high-school",
