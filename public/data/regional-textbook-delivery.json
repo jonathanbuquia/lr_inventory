@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:32:17.527Z",
+  "generatedAt": "2026-09-30T07:37:15.415Z",
   "years": [
     "2024",
     "2025",
@@ -417856,7 +417856,7 @@
           "reading-and-literacy": 363,
           "language": 229,
           "makabansa": 5572,
-          "mathematics": 5554
+          "mathematics": 5467
         },
         "4": {
           "gmrc": 10393,
@@ -418015,7 +418015,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 5386
+            "2026": 5299
           }
         },
         "4": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 318710,
-      "deliveryPercentage": 342.08,
+      "deliveredTotal": 318623,
+      "deliveryPercentage": 341.99,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -428476,7 +428476,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 87
+              "mathematics": 0
             },
             "4": {
               "gmrc": 0,
@@ -428635,7 +428635,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 87
+                "2026": 0
               }
             },
             "4": {
@@ -428981,8 +428981,8 @@
             "10": 0
           },
           "enrollmentTotal": 596,
-          "deliveredTotal": 1164,
-          "deliveryPercentage": 195.3
+          "deliveredTotal": 1077,
+          "deliveryPercentage": 180.7
         },
         {
           "id": "dalandanan-national-high-school",
