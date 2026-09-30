@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T08:47:10.582Z",
+  "generatedAt": "2026-09-30T08:52:09.523Z",
   "years": [
     "2024",
     "2025",
@@ -449,11 +449,11 @@
           "mathematics": 9151
         },
         "2": {
-          "gmrc": 6558,
+          "gmrc": 8206,
           "reading-and-literacy": 50,
           "language": 0,
-          "makabansa": 18620,
-          "mathematics": 1384
+          "makabansa": 20268,
+          "mathematics": 3032
         },
         "3": {
           "gmrc": 626,
@@ -572,7 +572,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 6558
+            "2026": 8206
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -587,12 +587,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 1373,
-            "2026": 17247
+            "2026": 18895
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 1384
+            "2026": 3032
           }
         },
         "3": {
@@ -965,8 +965,8 @@
         "10": 16120
       },
       "enrollmentTotal": 188571,
-      "deliveredTotal": 706444,
-      "deliveryPercentage": 374.63,
+      "deliveredTotal": 711388,
+      "deliveryPercentage": 377.25,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -25528,7 +25528,7 @@
             "2": {
               "gmrc": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 1648,
                 "2026": 0
               },
               "reading-and-literacy": {
@@ -25543,12 +25543,12 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 1648,
                 "2026": 0
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 1648,
                 "2026": 0
               }
             },
@@ -417838,10 +417838,10 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "gmrc": 9672,
+          "gmrc": 10071,
           "reading-and-literacy": 9557,
           "language": 8878,
-          "makabansa": 10161,
+          "makabansa": 10560,
           "mathematics": 6157
         },
         "2": {
@@ -417941,7 +417941,7 @@
           "gmrc": {
             "2024": 5836,
             "2025": 3745,
-            "2026": 91
+            "2026": 490
           },
           "reading-and-literacy": {
             "2024": 4723,
@@ -417956,7 +417956,7 @@
           "makabansa": {
             "2024": 1213,
             "2025": 8257,
-            "2026": 691
+            "2026": 1090
           },
           "mathematics": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93126,
-      "deliveredTotal": 321127,
-      "deliveryPercentage": 344.83,
+      "deliveredTotal": 321925,
+      "deliveryPercentage": 345.69,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -425905,7 +425905,7 @@
             "1": {
               "gmrc": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 399,
                 "2026": 0
               },
               "reading-and-literacy": {
@@ -425920,7 +425920,7 @@
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 399,
                 "2026": 0
               },
               "mathematics": {
