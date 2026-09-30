@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T03:07:19.678Z",
+  "generatedAt": "2026-09-30T03:32:08.187Z",
   "years": [
     "2024",
     "2025",
@@ -417842,7 +417842,7 @@
           "reading-and-literacy": 9388,
           "language": 8440,
           "makabansa": 10071,
-          "mathematics": 5421
+          "mathematics": 5938
         },
         "2": {
           "gmrc": 4448,
@@ -417961,7 +417961,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 1166,
-            "2026": 4255
+            "2026": 4772
           }
         },
         "2": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93212,
-      "deliveredTotal": 308308,
-      "deliveryPercentage": 330.76,
+      "deliveredTotal": 308825,
+      "deliveryPercentage": 331.31,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -430586,7 +430586,7 @@
               "reading-and-literacy": 562,
               "language": 562,
               "makabansa": 562,
-              "mathematics": 562
+              "mathematics": 517
             },
             "2": {
               "gmrc": 0,
@@ -430704,8 +430704,8 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 562,
-                "2026": 0
+                "2025": 0,
+                "2026": 517
               }
             },
             "2": {
@@ -431105,8 +431105,8 @@
             "10": 0
           },
           "enrollmentTotal": 3313,
-          "deliveredTotal": 9367,
-          "deliveryPercentage": 282.73
+          "deliveredTotal": 9322,
+          "deliveryPercentage": 281.38
         },
         {
           "id": "gen-tiburcio-de-leon-national-high-school",
