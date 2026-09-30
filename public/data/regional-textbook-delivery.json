@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:42:12.957Z",
+  "generatedAt": "2026-09-30T01:47:12.421Z",
   "years": [
     "2024",
     "2025",
@@ -955,18 +955,18 @@
       "enrollmentByGrade": {
         "1": 17916,
         "2": 19515,
-        "3": 20096,
-        "4": 22374,
-        "5": 19330,
+        "3": 20091,
+        "4": 22369,
+        "5": 19337,
         "6": 17084,
         "7": 19418,
         "8": 19533,
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188511,
+      "enrollmentTotal": 188508,
       "deliveredTotal": 694840,
-      "deliveryPercentage": 368.59,
+      "deliveryPercentage": 368.6,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -45028,18 +45028,18 @@
           "enrollmentByGrade": {
             "1": 472,
             "2": 388,
-            "3": 445,
-            "4": 461,
-            "5": 471,
+            "3": 440,
+            "4": 456,
+            "5": 478,
             "6": 418,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2655,
+          "enrollmentTotal": 2652,
           "deliveredTotal": 13355,
-          "deliveryPercentage": 503.01
+          "deliveryPercentage": 503.58
         },
         {
           "id": "tala-high-school",
