@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T08:12:05.885Z",
+  "generatedAt": "2026-09-30T08:22:04.946Z",
   "years": [
     "2024",
     "2025",
@@ -953,20 +953,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 17969,
-        "2": 19451,
-        "3": 20086,
-        "4": 22356,
-        "5": 19450,
+        "1": 18056,
+        "2": 19375,
+        "3": 20010,
+        "4": 22270,
+        "5": 19568,
         "6": 17105,
         "7": 19418,
         "8": 19533,
         "9": 17125,
         "10": 16120
       },
-      "enrollmentTotal": 188613,
+      "enrollmentTotal": 188580,
       "deliveredTotal": 703618,
-      "deliveryPercentage": 373.05,
+      "deliveryPercentage": 373.11,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -21662,20 +21662,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 401,
-            "2": 476,
-            "3": 549,
-            "4": 624,
-            "5": 490,
+            "1": 488,
+            "2": 400,
+            "3": 473,
+            "4": 538,
+            "5": 608,
             "6": 500,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 3040,
+          "enrollmentTotal": 3007,
           "deliveredTotal": 14087,
-          "deliveryPercentage": 463.39
+          "deliveryPercentage": 468.47
         },
         {
           "id": "deparo-high-school",
@@ -38706,7 +38706,7 @@
               "mathematics": 540
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 410,
               "english": 410,
               "filipino": 0,
               "science": 410,
@@ -38724,8 +38724,8 @@
               "araling-panlipunan": 0,
               "epp": 0,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 420,
+              "mathematics": 420
             },
             "7": {
               "ve": 0,
@@ -39197,8 +39197,8 @@
             "10": 0
           },
           "enrollmentTotal": 1977,
-          "deliveredTotal": 8281,
-          "deliveryPercentage": 418.87
+          "deliveredTotal": 9531,
+          "deliveryPercentage": 482.09
         },
         {
           "id": "pangarap-high-school",
@@ -226652,14 +226652,14 @@
         "4": 8519,
         "5": 8271,
         "6": 7751,
-        "7": 8459,
-        "8": 8660,
-        "9": 7722,
-        "10": 6948
+        "7": 8355,
+        "8": 8727,
+        "9": 7798,
+        "10": 6888
       },
-      "enrollmentTotal": 78734,
+      "enrollmentTotal": 78713,
       "deliveredTotal": 317621,
-      "deliveryPercentage": 403.41,
+      "deliveryPercentage": 403.52,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -240458,14 +240458,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 335,
-            "8": 242,
-            "9": 151,
-            "10": 204
+            "7": 231,
+            "8": 309,
+            "9": 227,
+            "10": 144
           },
-          "enrollmentTotal": 932,
+          "enrollmentTotal": 911,
           "deliveredTotal": 25070,
-          "deliveryPercentage": 2689.91
+          "deliveryPercentage": 2751.92
         },
         {
           "id": "paranaque-national-high-school-main",
