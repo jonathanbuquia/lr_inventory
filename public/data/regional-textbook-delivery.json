@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T03:47:12.392Z",
+  "generatedAt": "2026-09-30T03:52:46.232Z",
   "years": [
     "2024",
     "2025",
@@ -48251,7 +48251,7 @@
           "gmrc": 0,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 0,
+          "makabansa": 640,
           "mathematics": 0
         },
         "4": {
@@ -48406,7 +48406,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 640
           },
           "mathematics": {
             "2024": 0,
@@ -48757,8 +48757,8 @@
         "10": 5823
       },
       "enrollmentTotal": 69028,
-      "deliveredTotal": 251763,
-      "deliveryPercentage": 364.73,
+      "deliveredTotal": 252403,
+      "deliveryPercentage": 365.65,
       "schools": [
         {
           "id": "almanza-elementary-school",
@@ -64181,7 +64181,7 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 640,
               "mathematics": 0
             },
             "4": {
@@ -64336,7 +64336,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 640
               },
               "mathematics": {
                 "2024": 0,
@@ -64687,8 +64687,8 @@
             "10": 0
           },
           "enrollmentTotal": 2607,
-          "deliveredTotal": 7376,
-          "deliveryPercentage": 282.93
+          "deliveredTotal": 8016,
+          "deliveryPercentage": 307.48
         },
         {
           "id": "moonwalk-elementary-school-mikesell-annex",
@@ -417855,8 +417855,8 @@
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 4860,
-          "mathematics": 4755
+          "makabansa": 5443,
+          "mathematics": 5338
         },
         "4": {
           "gmrc": 10178,
@@ -417886,10 +417886,10 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 2484,
+          "epp": 3100,
           "music-and-arts": 216,
           "pe-and-health": 3292,
-          "mathematics": 2582
+          "mathematics": 3198
         },
         "7": {
           "ve": 5948,
@@ -418010,12 +418010,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 4581
+            "2026": 5164
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 4587
+            "2026": 5170
           }
         },
         "4": {
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 2484
+            "2026": 3100
           },
           "music-and-arts": {
             "2024": 0,
@@ -418156,7 +418156,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 2470
+            "2026": 3086
           }
         },
         "7": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93212,
-      "deliveredTotal": 308825,
-      "deliveryPercentage": 331.31,
+      "deliveredTotal": 311223,
+      "deliveryPercentage": 333.89,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -430599,8 +430599,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 583,
+              "mathematics": 583
             },
             "4": {
               "gmrc": 591,
@@ -430630,10 +430630,10 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 616,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 616
             },
             "7": {
               "ve": 0,
@@ -430754,12 +430754,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 583
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 583
               }
             },
             "4": {
@@ -430885,7 +430885,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 616
               },
               "music-and-arts": {
                 "2024": 0,
@@ -430900,7 +430900,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 616
               }
             },
             "7": {
@@ -431105,8 +431105,8 @@
             "10": 0
           },
           "enrollmentTotal": 3313,
-          "deliveredTotal": 9322,
-          "deliveryPercentage": 281.38
+          "deliveredTotal": 11720,
+          "deliveryPercentage": 353.76
         },
         {
           "id": "gen-tiburcio-de-leon-national-high-school",
