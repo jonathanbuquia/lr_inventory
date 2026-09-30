@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T00:32:18.382Z",
+  "generatedAt": "2026-09-30T00:47:17.650Z",
   "years": [
     "2024",
     "2025",
@@ -226162,7 +226162,7 @@
           "science": 8072,
           "araling-panlipunan": 8907,
           "epp": 933,
-          "music-and-arts": 8474,
+          "music-and-arts": 8278,
           "pe-and-health": 7799,
           "mathematics": 9202
         },
@@ -226349,7 +226349,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 8474
+            "2026": 8278
           },
           "pe-and-health": {
             "2024": 5227,
@@ -226658,8 +226658,8 @@
         "10": 6948
       },
       "enrollmentTotal": 78734,
-      "deliveredTotal": 315663,
-      "deliveryPercentage": 400.92,
+      "deliveredTotal": 315467,
+      "deliveryPercentage": 400.67,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -238905,7 +238905,7 @@
               "filipino": 240,
               "science": 202,
               "araling-panlipunan": 216,
-              "epp": 270,
+              "epp": 0,
               "music-and-arts": 196,
               "pe-and-health": 230,
               "mathematics": 247
@@ -239087,13 +239087,13 @@
               },
               "epp": {
                 "2024": 0,
-                "2025": 270,
+                "2025": 0,
                 "2026": 0
               },
               "music-and-arts": {
-                "2024": 0,
+                "2024": 196,
                 "2025": 0,
-                "2026": 196
+                "2026": 0
               },
               "pe-and-health": {
                 "2024": 230,
@@ -239402,8 +239402,8 @@
             "10": 0
           },
           "enrollmentTotal": 1437,
-          "deliveredTotal": 7172,
-          "deliveryPercentage": 499.1
+          "deliveredTotal": 6902,
+          "deliveryPercentage": 480.31
         },
         {
           "id": "paranaque-national-high-school-baclaran",
@@ -418349,20 +418349,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9843,
-        "2": 10060,
-        "3": 9561,
-        "4": 11006,
-        "5": 10388,
-        "6": 10656,
+        "1": 9868,
+        "2": 10022,
+        "3": 9567,
+        "4": 10953,
+        "5": 10419,
+        "6": 10658,
         "7": 9310,
         "8": 8680,
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 91234,
+      "enrollmentTotal": 91207,
       "deliveredTotal": 296143,
-      "deliveryPercentage": 324.6,
+      "deliveryPercentage": 324.69,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -425252,20 +425252,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 343,
-            "2": 366,
-            "3": 357,
-            "4": 390,
-            "5": 363,
-            "6": 362,
+            "1": 368,
+            "2": 328,
+            "3": 363,
+            "4": 337,
+            "5": 394,
+            "6": 364,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2181,
+          "enrollmentTotal": 2154,
           "deliveredTotal": 9205,
-          "deliveryPercentage": 422.05
+          "deliveryPercentage": 427.34
         },
         {
           "id": "canumay-west-national-high-school",
