@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T10:42:21.518Z",
+  "generatedAt": "2026-09-30T10:52:09.852Z",
   "years": [
     "2024",
     "2025",
@@ -38718,7 +38718,7 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 420,
+              "english": 0,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -39197,8 +39197,8 @@
             "10": 0
           },
           "enrollmentTotal": 1977,
-          "deliveredTotal": 10931,
-          "deliveryPercentage": 552.91
+          "deliveredTotal": 10511,
+          "deliveryPercentage": 531.66
         },
         {
           "id": "pangarap-high-school",
