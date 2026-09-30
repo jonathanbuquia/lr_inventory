@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:07:33.094Z",
+  "generatedAt": "2026-09-30T01:12:30.835Z",
   "years": [
     "2024",
     "2025",
@@ -417838,14 +417838,14 @@
       "name": "VALENZUELA",
       "totals": {
         "1": {
-          "gmrc": 9717,
+          "gmrc": 9582,
           "reading-and-literacy": 9388,
-          "language": 8463,
-          "makabansa": 10096,
+          "language": 8440,
+          "makabansa": 10071,
           "mathematics": 5286
         },
         "2": {
-          "gmrc": 3671,
+          "gmrc": 4067,
           "reading-and-literacy": 0,
           "language": 150,
           "makabansa": 4670,
@@ -417941,7 +417941,7 @@
           "gmrc": {
             "2024": 5836,
             "2025": 3745,
-            "2026": 136
+            "2026": 1
           },
           "reading-and-literacy": {
             "2024": 4723,
@@ -417951,12 +417951,12 @@
           "language": {
             "2024": 208,
             "2025": 6475,
-            "2026": 1780
+            "2026": 1757
           },
           "makabansa": {
             "2024": 1213,
             "2025": 8257,
-            "2026": 626
+            "2026": 601
           },
           "mathematics": {
             "2024": 0,
@@ -417968,7 +417968,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 3671
+            "2026": 4067
           },
           "reading-and-literacy": {
             "2024": 0,
@@ -418349,8 +418349,8 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9973,
-        "2": 9937,
+        "1": 9955,
+        "2": 10323,
         "3": 10244,
         "4": 10862,
         "5": 10408,
@@ -418360,9 +418360,9 @@
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92544,
-      "deliveredTotal": 299720,
-      "deliveryPercentage": 323.87,
+      "enrollmentTotal": 92912,
+      "deliveredTotal": 299933,
+      "deliveryPercentage": 322.81,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419561,7 +419561,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 396
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -419943,7 +419943,7 @@
           },
           "enrollmentByGrade": {
             "1": 392,
-            "2": 0,
+            "2": 386,
             "3": 0,
             "4": 424,
             "5": 377,
@@ -419953,9 +419953,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1564,
+          "enrollmentTotal": 1950,
           "deliveredTotal": 9979,
-          "deliveryPercentage": 638.04
+          "deliveryPercentage": 511.74
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
@@ -427396,10 +427396,10 @@
           "name": "COLOONG ELEMENTARY SCHOOL",
           "totals": {
             "1": {
-              "gmrc": 135,
-              "reading-and-literacy": 135,
-              "language": 135,
-              "makabansa": 135,
+              "gmrc": 107,
+              "reading-and-literacy": 109,
+              "language": 112,
+              "makabansa": 110,
               "mathematics": 0
             },
             "2": {
@@ -427497,23 +427497,23 @@
           "deliveryByYear": {
             "1": {
               "gmrc": {
-                "2024": 0,
-                "2025": 135,
+                "2024": 107,
+                "2025": 0,
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 0,
-                "2025": 135,
+                "2024": 109,
+                "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 135,
+                "2025": 112,
                 "2026": 0
               },
               "makabansa": {
                 "2024": 0,
-                "2025": 135,
+                "2025": 110,
                 "2026": 0
               },
               "mathematics": {
@@ -427907,7 +427907,7 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 150,
+            "1": 132,
             "2": 152,
             "3": 134,
             "4": 160,
@@ -427918,9 +427918,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 889,
-          "deliveredTotal": 2045,
-          "deliveryPercentage": 230.03
+          "enrollmentTotal": 871,
+          "deliveredTotal": 1943,
+          "deliveryPercentage": 223.08
         },
         {
           "id": "constantino-elementary-school",
