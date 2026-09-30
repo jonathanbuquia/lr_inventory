@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T04:22:04.082Z",
+  "generatedAt": "2026-09-30T04:27:02.804Z",
   "years": [
     "2024",
     "2025",
@@ -417889,7 +417889,7 @@
           "epp": 3212,
           "music-and-arts": 216,
           "pe-and-health": 4020,
-          "mathematics": 3198
+          "mathematics": 3310
         },
         "7": {
           "ve": 5948,
@@ -418156,7 +418156,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 3086
+            "2026": 3198
           }
         },
         "7": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93212,
-      "deliveredTotal": 313743,
-      "deliveryPercentage": 336.59,
+      "deliveredTotal": 313855,
+      "deliveryPercentage": 336.71,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -452935,7 +452935,7 @@
               "epp": 112,
               "music-and-arts": 0,
               "pe-and-health": 112,
-              "mathematics": 0
+              "mathematics": 112
             },
             "7": {
               "ve": 0,
@@ -453202,7 +453202,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 112
               }
             },
             "7": {
@@ -453407,8 +453407,8 @@
             "10": 0
           },
           "enrollmentTotal": 646,
-          "deliveredTotal": 3506,
-          "deliveryPercentage": 542.72
+          "deliveredTotal": 3618,
+          "deliveryPercentage": 560.06
         },
         {
           "id": "tagalag-elementary-school",
