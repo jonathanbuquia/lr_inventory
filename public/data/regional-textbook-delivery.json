@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T00:47:17.650Z",
+  "generatedAt": "2026-09-30T00:57:17.770Z",
   "years": [
     "2024",
     "2025",
@@ -418351,7 +418351,7 @@
       "enrollmentByGrade": {
         "1": 9868,
         "2": 10022,
-        "3": 9567,
+        "3": 10246,
         "4": 10953,
         "5": 10419,
         "6": 10658,
@@ -418360,9 +418360,9 @@
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 91207,
+      "enrollmentTotal": 91886,
       "deliveredTotal": 296143,
-      "deliveryPercentage": 324.69,
+      "deliveryPercentage": 322.29,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -449680,7 +449680,7 @@
           "enrollmentByGrade": {
             "1": 577,
             "2": 671,
-            "3": 0,
+            "3": 679,
             "4": 755,
             "5": 742,
             "6": 0,
@@ -449689,9 +449689,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 2745,
+          "enrollmentTotal": 3424,
           "deliveredTotal": 12489,
-          "deliveryPercentage": 454.97
+          "deliveryPercentage": 364.75
         },
         {
           "id": "san-miguel-heights-elementary-school",
