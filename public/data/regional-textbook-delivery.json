@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:52:11.704Z",
+  "generatedAt": "2026-09-30T08:07:13.228Z",
   "years": [
     "2024",
     "2025",
@@ -417855,8 +417855,8 @@
           "gmrc": 137,
           "reading-and-literacy": 363,
           "language": 229,
-          "makabansa": 5659,
-          "mathematics": 5554
+          "makabansa": 5722,
+          "mathematics": 5617
         },
         "4": {
           "gmrc": 10393,
@@ -418010,12 +418010,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 279,
-            "2026": 5380
+            "2026": 5443
           },
           "mathematics": {
             "2024": 0,
             "2025": 168,
-            "2026": 5386
+            "2026": 5449
           }
         },
         "4": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93126,
-      "deliveredTotal": 320273,
-      "deliveryPercentage": 343.91,
+      "deliveredTotal": 320399,
+      "deliveryPercentage": 344.05,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -432192,8 +432192,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 63,
+              "mathematics": 63
             },
             "4": {
               "gmrc": 109,
@@ -432347,12 +432347,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 63
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 63
               }
             },
             "4": {
@@ -432698,8 +432698,8 @@
             "10": 0
           },
           "enrollmentTotal": 496,
-          "deliveredTotal": 1858,
-          "deliveryPercentage": 374.6
+          "deliveredTotal": 1984,
+          "deliveryPercentage": 400
         },
         {
           "id": "justice-eliezer-r-de-los-santos-high-school",
