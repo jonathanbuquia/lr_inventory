@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:22:22.270Z",
+  "generatedAt": "2026-09-30T07:27:01.245Z",
   "years": [
     "2024",
     "2025",
@@ -490,9 +490,9 @@
           "filipino": 786,
           "science": 651,
           "araling-panlipunan": 0,
-          "epp": 5345,
+          "epp": 5945,
           "music-and-arts": 412,
-          "pe-and-health": 5708,
+          "pe-and-health": 6308,
           "mathematics": 2634
         },
         "7": {
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 5050
+            "2026": 5650
           },
           "music-and-arts": {
             "2024": 0,
@@ -755,7 +755,7 @@
           "pe-and-health": {
             "2024": 620,
             "2025": 0,
-            "2026": 5088
+            "2026": 5688
           },
           "mathematics": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 16120
       },
       "enrollmentTotal": 188609,
-      "deliveredTotal": 702418,
-      "deliveryPercentage": 372.42,
+      "deliveredTotal": 703618,
+      "deliveryPercentage": 373.06,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -21199,9 +21199,9 @@
               "filipino": 490,
               "science": 487,
               "araling-panlipunan": 0,
-              "epp": 445,
+              "epp": 600,
               "music-and-arts": 391,
-              "pe-and-health": 490,
+              "pe-and-health": 600,
               "mathematics": 497
             },
             "7": {
@@ -21452,9 +21452,9 @@
                 "2026": 0
               },
               "epp": {
-                "2024": 445,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 600
               },
               "music-and-arts": {
                 "2024": 391,
@@ -21462,9 +21462,9 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 490,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 600
               },
               "mathematics": {
                 "2024": 497,
@@ -21674,8 +21674,8 @@
             "10": 0
           },
           "enrollmentTotal": 3040,
-          "deliveredTotal": 13822,
-          "deliveryPercentage": 454.67
+          "deliveredTotal": 14087,
+          "deliveryPercentage": 463.39
         },
         {
           "id": "deparo-high-school",
@@ -417889,7 +417889,7 @@
           "epp": 3533,
           "music-and-arts": 216,
           "pe-and-health": 4140,
-          "mathematics": 3503
+          "mathematics": 3623
         },
         "7": {
           "ve": 5948,
@@ -418156,7 +418156,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 3391
+            "2026": 3511
           }
         },
         "7": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 318135,
-      "deliveryPercentage": 341.46,
+      "deliveredTotal": 318255,
+      "deliveryPercentage": 341.59,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -432226,7 +432226,7 @@
               "epp": 128,
               "music-and-arts": 0,
               "pe-and-health": 120,
-              "mathematics": 0
+              "mathematics": 120
             },
             "7": {
               "ve": 0,
@@ -432493,7 +432493,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 120
               }
             },
             "7": {
@@ -432698,8 +432698,8 @@
             "10": 0
           },
           "enrollmentTotal": 496,
-          "deliveredTotal": 1517,
-          "deliveryPercentage": 305.85
+          "deliveredTotal": 1637,
+          "deliveryPercentage": 330.04
         },
         {
           "id": "justice-eliezer-r-de-los-santos-high-school",
