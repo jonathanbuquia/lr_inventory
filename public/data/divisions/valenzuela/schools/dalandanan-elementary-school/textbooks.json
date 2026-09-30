@@ -447,7 +447,7 @@
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 89,
       "Quantity of Textbooks Received": 109,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 0,
       "Surplus-TX": 20,
@@ -479,7 +479,7 @@
       "SUBJECTS": "English",
       "Enrolment S.Y. 2025-2026": 107,
       "Quantity of Textbooks Received": 102,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 5,
       "Surplus-TX": 0,
@@ -543,7 +543,7 @@
       "SUBJECTS": "Araling Panlipunan",
       "Enrolment S.Y. 2025-2026": 107,
       "Quantity of Textbooks Received": 102,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 5,
       "Surplus-TX": 0,
@@ -559,7 +559,7 @@
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 107,
       "Quantity of Textbooks Received": 102,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 5,
       "Surplus-TX": 0,
@@ -575,7 +575,7 @@
       "SUBJECTS": "PE and Health",
       "Enrolment S.Y. 2025-2026": 107,
       "Quantity of Textbooks Received": 102,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 5,
       "Surplus-TX": 0,
@@ -591,7 +591,7 @@
       "SUBJECTS": "E.P.P.",
       "Enrolment S.Y. 2025-2026": 107,
       "Quantity of Textbooks Received": 102,
-      "Year of Delivery-TX": "",
+      "Year of Delivery-TX": 2026,
       "SOURCE-TX (CO,RO, SDO)": "",
       "GAP-TX": 5,
       "Surplus-TX": 0,
@@ -795,5 +795,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-09-30T07:37:12.199Z"
+  "generatedAt": "2026-09-30T07:42:11.878Z"
 }

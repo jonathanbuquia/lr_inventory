@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T07:37:15.415Z",
+  "generatedAt": "2026-09-30T07:42:15.333Z",
   "years": [
     "2024",
     "2025",
@@ -38678,7 +38678,7 @@
               "reading-and-literacy": 374,
               "language": 374,
               "makabansa": 374,
-              "mathematics": 0
+              "mathematics": 374
             },
             "2": {
               "gmrc": 0,
@@ -39197,8 +39197,8 @@
             "10": 0
           },
           "enrollmentTotal": 1973,
-          "deliveredTotal": 7907,
-          "deliveryPercentage": 400.76
+          "deliveredTotal": 8281,
+          "deliveryPercentage": 419.72
         },
         {
           "id": "pangarap-high-school",
@@ -417865,19 +417865,19 @@
           "science": 9644,
           "araling-panlipunan": 9517,
           "epp": 245,
-          "music-and-arts": 5631,
+          "music-and-arts": 5740,
           "pe-and-health": 9026,
           "mathematics": 10056
         },
         "5": {
           "gmrc": 5471,
-          "english": 8810,
+          "english": 8912,
           "filipino": 4037,
-          "science": 8813,
-          "araling-panlipunan": 8840,
-          "epp": 5177,
+          "science": 8915,
+          "araling-panlipunan": 8942,
+          "epp": 5279,
           "music-and-arts": 298,
-          "pe-and-health": 8957,
+          "pe-and-health": 9059,
           "mathematics": 411
         },
         "6": {
@@ -418052,7 +418052,7 @@
           "music-and-arts": {
             "2024": 181,
             "2025": 509,
-            "2026": 4941
+            "2026": 5050
           },
           "pe-and-health": {
             "2024": 8141,
@@ -418074,7 +418074,7 @@
           "english": {
             "2024": 0,
             "2025": 7400,
-            "2026": 1410
+            "2026": 1512
           },
           "filipino": {
             "2024": 0,
@@ -418084,17 +418084,17 @@
           "science": {
             "2024": 0,
             "2025": 7396,
-            "2026": 1417
+            "2026": 1519
           },
           "araling-panlipunan": {
             "2024": 120,
             "2025": 7481,
-            "2026": 1239
+            "2026": 1341
           },
           "epp": {
             "2024": 0,
             "2025": 1459,
-            "2026": 3718
+            "2026": 3820
           },
           "music-and-arts": {
             "2024": 0,
@@ -418104,7 +418104,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 7534,
-            "2026": 1423
+            "2026": 1525
           },
           "mathematics": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 93168,
-      "deliveredTotal": 318623,
-      "deliveryPercentage": 341.99,
+      "deliveredTotal": 319242,
+      "deliveryPercentage": 342.65,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -428672,7 +428672,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 109
               },
               "pe-and-health": {
                 "2024": 0,
@@ -428694,7 +428694,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 102
               },
               "filipino": {
                 "2024": 0,
@@ -428704,17 +428704,17 @@
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 102
               },
               "araling-panlipunan": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 102
               },
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 102
               },
               "music-and-arts": {
                 "2024": 0,
@@ -428724,7 +428724,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 102
               },
               "mathematics": {
                 "2024": 0,
