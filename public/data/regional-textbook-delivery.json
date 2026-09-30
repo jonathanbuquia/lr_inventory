@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T09:42:24.653Z",
+  "generatedAt": "2026-09-30T09:47:16.271Z",
   "years": [
     "2024",
     "2025",
@@ -507,15 +507,15 @@
           "mathematics": 17346
         },
         "8": {
-          "ve": 17777,
-          "english": 6647,
-          "filipino": 7595,
-          "science": 16082,
+          "ve": 18353,
+          "english": 7223,
+          "filipino": 8171,
+          "science": 16658,
           "araling-panlipunan": 1084,
-          "tle": 14937,
+          "tle": 14931,
           "music-and-arts": 1257,
           "pe-and-health": 5730,
-          "mathematics": 17850
+          "mathematics": 18426
         },
         "9": {
           "ve": 2171,
@@ -814,22 +814,22 @@
           "ve": {
             "2024": 0,
             "2025": 10762,
-            "2026": 7015
+            "2026": 7591
           },
           "english": {
             "2024": 0,
             "2025": 1029,
-            "2026": 5618
+            "2026": 6194
           },
           "filipino": {
             "2024": 0,
             "2025": 1029,
-            "2026": 6566
+            "2026": 7142
           },
           "science": {
             "2024": 0,
             "2025": 2724,
-            "2026": 13358
+            "2026": 13934
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -839,7 +839,7 @@
           "tle": {
             "2024": 0,
             "2025": 582,
-            "2026": 14355
+            "2026": 14349
           },
           "music-and-arts": {
             "2024": 0,
@@ -854,7 +854,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 12457,
-            "2026": 5393
+            "2026": 5969
           }
         },
         "9": {
@@ -965,8 +965,8 @@
         "10": 16079
       },
       "enrollmentTotal": 188520,
-      "deliveredTotal": 709114,
-      "deliveryPercentage": 376.15,
+      "deliveredTotal": 711988,
+      "deliveryPercentage": 377.67,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -5286,15 +5286,15 @@
               "mathematics": 890
             },
             "8": {
-              "ve": 1732,
-              "english": 692,
-              "filipino": 1280,
-              "science": 528,
-              "araling-panlipunan": 353,
-              "tle": 582,
-              "music-and-arts": 669,
-              "pe-and-health": 654,
-              "mathematics": 1963
+              "ve": 576,
+              "english": 576,
+              "filipino": 576,
+              "science": 576,
+              "araling-panlipunan": 0,
+              "tle": 576,
+              "music-and-arts": 576,
+              "pe-and-health": 576,
+              "mathematics": 576
             },
             "9": {
               "ve": 0,
@@ -5592,22 +5592,22 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 576,
                 "2026": 0
               },
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 576
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 576
               },
               "science": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 576,
                 "2026": 0
               },
               "araling-panlipunan": {
@@ -5617,8 +5617,8 @@
               },
               "tle": {
                 "2024": 0,
-                "2025": 582,
-                "2026": 0
+                "2025": 0,
+                "2026": 576
               },
               "music-and-arts": {
                 "2024": 0,
@@ -5632,7 +5632,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 576,
                 "2026": 0
               }
             },
@@ -5744,8 +5744,8 @@
             "10": 475
           },
           "enrollmentTotal": 2048,
-          "deliveredTotal": 15573,
-          "deliveryPercentage": 760.4
+          "deliveredTotal": 11728,
+          "deliveryPercentage": 572.66
         },
         {
           "id": "bagbaguin-elementary-school",
