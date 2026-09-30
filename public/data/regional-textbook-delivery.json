@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:12:30.835Z",
+  "generatedAt": "2026-09-30T01:17:27.214Z",
   "years": [
     "2024",
     "2025",
@@ -418351,18 +418351,18 @@
       "enrollmentByGrade": {
         "1": 9955,
         "2": 10323,
-        "3": 10244,
+        "3": 10656,
         "4": 10862,
         "5": 10408,
         "6": 11400,
-        "7": 9310,
-        "8": 8680,
+        "7": 9286,
+        "8": 8681,
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92912,
+      "enrollmentTotal": 93301,
       "deliveredTotal": 299933,
-      "deliveryPercentage": 322.81,
+      "deliveryPercentage": 321.47,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419944,7 +419944,7 @@
           "enrollmentByGrade": {
             "1": 392,
             "2": 386,
-            "3": 0,
+            "3": 412,
             "4": 424,
             "5": 377,
             "6": 371,
@@ -419953,9 +419953,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1950,
+          "enrollmentTotal": 2362,
           "deliveredTotal": 9979,
-          "deliveryPercentage": 511.74
+          "deliveryPercentage": 422.48
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
@@ -439064,14 +439064,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 250,
-            "8": 245,
+            "7": 226,
+            "8": 246,
             "9": 220,
             "10": 248
           },
-          "enrollmentTotal": 963,
+          "enrollmentTotal": 940,
           "deliveredTotal": 3266,
-          "deliveryPercentage": 339.15
+          "deliveryPercentage": 347.45
         },
         {
           "id": "marulas-central-school",
