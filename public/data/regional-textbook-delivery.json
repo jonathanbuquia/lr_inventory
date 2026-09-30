@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T06:01:56.153Z",
+  "generatedAt": "2026-09-30T06:12:09.373Z",
   "years": [
     "2024",
     "2025",
@@ -226139,13 +226139,13 @@
           "reading-and-literacy": 10540,
           "language": 7162,
           "makabansa": 9851,
-          "mathematics": 5050
+          "mathematics": 5440
         },
         "2": {
-          "gmrc": 4433,
+          "gmrc": 4865,
           "reading-and-literacy": 100,
           "language": 100,
-          "makabansa": 8012,
+          "makabansa": 8444,
           "mathematics": 0
         },
         "3": {
@@ -226258,14 +226258,14 @@
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 4636
+            "2026": 5026
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 4433
+            "2026": 4865
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -226280,7 +226280,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 180,
-            "2026": 7832
+            "2026": 8264
           },
           "mathematics": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 6948
       },
       "enrollmentTotal": 78734,
-      "deliveredTotal": 316367,
-      "deliveryPercentage": 401.82,
+      "deliveredTotal": 317621,
+      "deliveryPercentage": 403.41,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -238879,17 +238879,17 @@
           "name": "PARANAQUE ELEMENTARY SCHOOL UNIT II",
           "totals": {
             "1": {
-              "gmrc": 726,
+              "gmrc": 438,
               "reading-and-literacy": 734,
               "language": 0,
               "makabansa": 809,
-              "mathematics": 0
+              "mathematics": 390
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 432,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 432,
               "mathematics": 0
             },
             "3": {
@@ -238980,7 +238980,7 @@
           "deliveryByYear": {
             "1": {
               "gmrc": {
-                "2024": 726,
+                "2024": 438,
                 "2025": 0,
                 "2026": 0
               },
@@ -239002,14 +239002,14 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 390
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 432
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -239024,7 +239024,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 432
               },
               "mathematics": {
                 "2024": 0,
@@ -239402,8 +239402,8 @@
             "10": 0
           },
           "enrollmentTotal": 1437,
-          "deliveredTotal": 7745,
-          "deliveryPercentage": 538.97
+          "deliveredTotal": 8711,
+          "deliveryPercentage": 606.19
         },
         {
           "id": "paranaque-national-high-school-baclaran",
