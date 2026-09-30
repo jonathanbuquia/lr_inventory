@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-09-30T01:02:23.537Z",
+  "generatedAt": "2026-09-30T01:07:33.094Z",
   "years": [
     "2024",
     "2025",
@@ -417842,7 +417842,7 @@
           "reading-and-literacy": 9388,
           "language": 8463,
           "makabansa": 10096,
-          "mathematics": 4890
+          "mathematics": 5286
         },
         "2": {
           "gmrc": 3671,
@@ -417961,7 +417961,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 1166,
-            "2026": 3724
+            "2026": 4120
           }
         },
         "2": {
@@ -418349,10 +418349,10 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9967,
+        "1": 9973,
         "2": 9937,
         "3": 10244,
-        "4": 10861,
+        "4": 10862,
         "5": 10408,
         "6": 11400,
         "7": 9310,
@@ -418360,9 +418360,9 @@
         "9": 6170,
         "10": 5560
       },
-      "enrollmentTotal": 92537,
-      "deliveredTotal": 299324,
-      "deliveryPercentage": 323.46,
+      "enrollmentTotal": 92544,
+      "deliveredTotal": 299720,
+      "deliveryPercentage": 323.87,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -419554,7 +419554,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 396
               }
             },
             "2": {
@@ -419942,10 +419942,10 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 386,
+            "1": 392,
             "2": 0,
             "3": 0,
-            "4": 423,
+            "4": 424,
             "5": 377,
             "6": 371,
             "7": 0,
@@ -419953,9 +419953,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1557,
+          "enrollmentTotal": 1564,
           "deliveredTotal": 9979,
-          "deliveryPercentage": 640.91
+          "deliveryPercentage": 638.04
         },
         {
           "id": "apolonia-f-rafael-elementary-school",
