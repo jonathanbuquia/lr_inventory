@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-01T02:03:02.140Z",
+  "generatedAt": "2026-10-01T02:47:11.280Z",
   "years": [
     "2024",
     "2025",
@@ -417886,10 +417886,10 @@
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 4750,
+          "epp": 5310,
           "music-and-arts": 216,
-          "pe-and-health": 4993,
-          "mathematics": 4476
+          "pe-and-health": 5553,
+          "mathematics": 5036
         },
         "7": {
           "ve": 5948,
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 4750
+            "2026": 5310
           },
           "music-and-arts": {
             "2024": 0,
@@ -418151,12 +418151,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 156,
-            "2026": 4837
+            "2026": 5397
           },
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 4364
+            "2026": 4924
           }
         },
         "7": {
@@ -418361,8 +418361,8 @@
         "10": 5481
       },
       "enrollmentTotal": 91918,
-      "deliveredTotal": 328812,
-      "deliveryPercentage": 357.72,
+      "deliveredTotal": 330492,
+      "deliveryPercentage": 359.55,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -451870,10 +451870,10 @@
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 560,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 560,
+              "mathematics": 560
             },
             "7": {
               "ve": 0,
@@ -452125,7 +452125,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 560
               },
               "music-and-arts": {
                 "2024": 0,
@@ -452135,12 +452135,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 560
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 560
               }
             },
             "7": {
@@ -452345,8 +452345,8 @@
             "10": 0
           },
           "enrollmentTotal": 3497,
-          "deliveredTotal": 13491,
-          "deliveryPercentage": 385.79
+          "deliveredTotal": 15171,
+          "deliveryPercentage": 433.83
         },
         {
           "id": "sitero-francisco-memorial-national-high-school",
