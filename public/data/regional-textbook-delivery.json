@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-01T05:01:59.555Z",
+  "generatedAt": "2026-10-01T05:17:00.183Z",
   "years": [
     "2024",
     "2025",
@@ -226201,13 +226201,13 @@
         },
         "8": {
           "ve": 8366,
-          "english": 1973,
+          "english": 2240,
           "filipino": 1503,
           "science": 7617,
           "araling-panlipunan": 0,
           "tle": 6913,
           "music-and-arts": 0,
-          "pe-and-health": 3838,
+          "pe-and-health": 4105,
           "mathematics": 8141
         },
         "9": {
@@ -226512,7 +226512,7 @@
           "english": {
             "2024": 0,
             "2025": 470,
-            "2026": 1503
+            "2026": 1770
           },
           "filipino": {
             "2024": 0,
@@ -226542,7 +226542,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 3838
+            "2026": 4105
           },
           "mathematics": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78713,
-      "deliveredTotal": 317621,
-      "deliveryPercentage": 403.52,
+      "deliveredTotal": 318155,
+      "deliveryPercentage": 404.2,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -231511,13 +231511,13 @@
             },
             "8": {
               "ve": 0,
-              "english": 0,
+              "english": 267,
               "filipino": 0,
               "science": 267,
               "araling-panlipunan": 0,
               "tle": 0,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 267,
               "mathematics": 267
             },
             "9": {
@@ -231822,7 +231822,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 267
               },
               "filipino": {
                 "2024": 0,
@@ -231852,7 +231852,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 267
               },
               "mathematics": {
                 "2024": 0,
@@ -231968,8 +231968,8 @@
             "10": 246
           },
           "enrollmentTotal": 1130,
-          "deliveredTotal": 3720,
-          "deliveryPercentage": 329.2
+          "deliveredTotal": 4254,
+          "deliveryPercentage": 376.46
         },
         {
           "id": "dr-arcadio-santos-national-high-school-main",
