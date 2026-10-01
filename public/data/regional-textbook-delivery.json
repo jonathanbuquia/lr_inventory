@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-01T03:47:13.749Z",
+  "generatedAt": "2026-10-01T04:41:56.862Z",
   "years": [
     "2024",
     "2025",
@@ -508,13 +508,13 @@
         },
         "8": {
           "ve": 18729,
-          "english": 7223,
-          "filipino": 8171,
+          "english": 7729,
+          "filipino": 8677,
           "science": 16658,
           "araling-panlipunan": 1084,
           "tle": 14931,
           "music-and-arts": 1257,
-          "pe-and-health": 7425,
+          "pe-and-health": 7931,
           "mathematics": 18426
         },
         "9": {
@@ -530,7 +530,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 5673,
+          "english": 6209,
           "filipino": 3708,
           "science": 1344,
           "araling-panlipunan": 0,
@@ -819,12 +819,12 @@
           "english": {
             "2024": 0,
             "2025": 1029,
-            "2026": 6194
+            "2026": 6700
           },
           "filipino": {
             "2024": 0,
             "2025": 1029,
-            "2026": 7142
+            "2026": 7648
           },
           "science": {
             "2024": 0,
@@ -849,7 +849,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 1029,
-            "2026": 6396
+            "2026": 6902
           },
           "mathematics": {
             "2024": 0,
@@ -913,7 +913,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 5673
+            "2026": 6209
           },
           "filipino": {
             "2024": 3708,
@@ -965,8 +965,8 @@
         "10": 16270
       },
       "enrollmentTotal": 189477,
-      "deliveredTotal": 723181,
-      "deliveryPercentage": 381.67,
+      "deliveredTotal": 725235,
+      "deliveryPercentage": 382.76,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -31837,13 +31837,13 @@
             },
             "8": {
               "ve": 506,
-              "english": 0,
-              "filipino": 0,
+              "english": 506,
+              "filipino": 506,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 506,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 506,
               "mathematics": 506
             },
             "9": {
@@ -31859,7 +31859,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 536,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -32148,12 +32148,12 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 506
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 506
               },
               "science": {
                 "2024": 0,
@@ -32178,7 +32178,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 506
               },
               "mathematics": {
                 "2024": 0,
@@ -32242,7 +32242,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 536
               },
               "filipino": {
                 "2024": 0,
@@ -32294,8 +32294,8 @@
             "10": 502
           },
           "enrollmentTotal": 2246,
-          "deliveredTotal": 6094,
-          "deliveryPercentage": 271.33
+          "deliveredTotal": 8148,
+          "deliveryPercentage": 362.78
         },
         {
           "id": "m-b-asistio-sr-high-school",
