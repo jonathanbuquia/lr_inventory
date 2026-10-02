@@ -15,11 +15,11 @@
       "SUBJECTS": "Gawaing Pampagkatuto sa Kindergarten",
       "Enrolment S.Y. 2025-2026": 219,
       "Quantity based on Target LAS - Q1": 220,
-      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 350,
+      "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) - Q1": 0,
       "Year of Delivery-LAS - Q1": "",
       "SOURCE - LAS (CO,RO, SDO) - Q1": "RO",
-      "GAP - LAS - Q1": 0,
-      "SURPLUS - LAS - Q1": 130,
+      "GAP - LAS - Q1": 220,
+      "SURPLUS - LAS - Q1": 0,
       "Quantity based on Target LAS - Q2": 1752,
       "Quantity of Learning Activity Sheets Received (Quantity received x No. of LAS) Q2": "",
       "Year of Delivery-LAS Q2": "",
@@ -1548,5 +1548,5 @@
       "SURPLUS - LAS - Q4": 0
     }
   ],
-  "generatedAt": "2026-09-23T09:11:24.269Z"
+  "generatedAt": "2026-10-02T03:13:39.755Z"
 }
