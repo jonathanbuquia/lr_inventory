@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-08T14:34:02.248Z",
+  "generatedAt": "2026-10-09T10:08:54.965Z",
   "years": [
     "2024",
     "2025",
@@ -417916,7 +417916,7 @@
         "9": {
           "ve": 1354,
           "english": 0,
-          "filipino": 1320,
+          "filipino": 2562,
           "science": 0,
           "araling-panlipunan": 772,
           "tle": 0,
@@ -418267,7 +418267,7 @@
           "filipino": {
             "2024": 1320,
             "2025": 0,
-            "2026": 0
+            "2026": 1242
           },
           "science": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 91866,
-      "deliveredTotal": 342728,
-      "deliveryPercentage": 373.07,
+      "deliveredTotal": 343970,
+      "deliveryPercentage": 374.43,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -431191,7 +431191,7 @@
             "9": {
               "ve": 1242,
               "english": 0,
-              "filipino": 0,
+              "filipino": 1242,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 0,
@@ -431542,7 +431542,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 1242
               },
               "science": {
                 "2024": 0,
@@ -431636,8 +431636,8 @@
             "10": 1038
           },
           "enrollmentTotal": 4757,
-          "deliveredTotal": 23088,
-          "deliveryPercentage": 485.35
+          "deliveredTotal": 24330,
+          "deliveryPercentage": 511.46
         },
         {
           "id": "ignacio-doon-sr-elementary-school",
