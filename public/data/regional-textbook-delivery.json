@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-13T07:34:16.993Z",
+  "generatedAt": "2026-10-13T23:10:25.006Z",
   "years": [
     "2024",
     "2025",
@@ -226139,10 +226139,10 @@
           "reading-and-literacy": 10540,
           "language": 7162,
           "makabansa": 9851,
-          "mathematics": 5840
+          "mathematics": 6220
         },
         "2": {
-          "gmrc": 5731,
+          "gmrc": 6121,
           "reading-and-literacy": 100,
           "language": 100,
           "makabansa": 8444,
@@ -226152,8 +226152,8 @@
           "gmrc": 520,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 4757,
-          "mathematics": 4707
+          "makabansa": 5157,
+          "mathematics": 5107
         },
         "4": {
           "gmrc": 8771,
@@ -226167,7 +226167,7 @@
           "mathematics": 8725
         },
         "5": {
-          "gmrc": 5240,
+          "gmrc": 5500,
           "english": 8435,
           "filipino": 5262,
           "science": 8130,
@@ -226179,14 +226179,14 @@
         },
         "6": {
           "gmrc": 0,
-          "english": 912,
+          "english": 1262,
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
-          "epp": 4635,
+          "epp": 5025,
           "music-and-arts": 0,
           "pe-and-health": 632,
-          "mathematics": 1643
+          "mathematics": 1965
         },
         "7": {
           "ve": 9546,
@@ -226258,14 +226258,14 @@
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 5426
+            "2026": 5806
           }
         },
         "2": {
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 5731
+            "2026": 6121
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -226307,12 +226307,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 0,
-            "2026": 4757
+            "2026": 5157
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 4707
+            "2026": 5107
           }
         },
         "4": {
@@ -226366,7 +226366,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 5240
+            "2026": 5500
           },
           "english": {
             "2024": 0,
@@ -226418,7 +226418,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 912
+            "2026": 1262
           },
           "filipino": {
             "2024": 0,
@@ -226438,7 +226438,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 4635
+            "2026": 5025
           },
           "music-and-arts": {
             "2024": 0,
@@ -226453,7 +226453,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 1643
+            "2026": 1965
           }
         },
         "7": {
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78713,
-      "deliveredTotal": 328196,
-      "deliveryPercentage": 416.95,
+      "deliveredTotal": 331088,
+      "deliveryPercentage": 420.63,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -232511,10 +232511,10 @@
               "reading-and-literacy": 758,
               "language": 758,
               "makabansa": 758,
-              "mathematics": 0
+              "mathematics": 380
             },
             "2": {
-              "gmrc": 0,
+              "gmrc": 390,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 390,
@@ -232524,8 +232524,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 400,
+              "mathematics": 400
             },
             "4": {
               "gmrc": 432,
@@ -232539,7 +232539,7 @@
               "mathematics": 432
             },
             "5": {
-              "gmrc": 0,
+              "gmrc": 260,
               "english": 390,
               "filipino": 0,
               "science": 390,
@@ -232551,14 +232551,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 350,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 390,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 322
             },
             "7": {
               "ve": 0,
@@ -232630,14 +232630,14 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 380
               }
             },
             "2": {
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 390
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -232679,12 +232679,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 400
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 400
               }
             },
             "4": {
@@ -232738,7 +232738,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 260
               },
               "english": {
                 "2024": 0,
@@ -232790,7 +232790,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 350
               },
               "filipino": {
                 "2024": 0,
@@ -232810,7 +232810,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 390
               },
               "music-and-arts": {
                 "2024": 0,
@@ -232825,7 +232825,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 322
               }
             },
             "7": {
@@ -233030,8 +233030,8 @@
             "10": 0
           },
           "enrollmentTotal": 2197,
-          "deliveredTotal": 8364,
-          "deliveryPercentage": 380.7
+          "deliveredTotal": 11256,
+          "deliveryPercentage": 512.34
         },
         {
           "id": "fourth-estate-elem-school-bf-homes",
@@ -267006,20 +267006,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9556,
-        "2": 9283,
-        "3": 10222,
-        "4": 10852,
-        "5": 10432,
-        "6": 9981,
+        "1": 9482,
+        "2": 9713,
+        "3": 10658,
+        "4": 11304,
+        "5": 10935,
+        "6": 10424,
         "7": 7822,
         "8": 9335,
         "9": 7652,
         "10": 8071
       },
-      "enrollmentTotal": 93206,
+      "enrollmentTotal": 95396,
       "deliveredTotal": 293849,
-      "deliveryPercentage": 315.27,
+      "deliveryPercentage": 308.03,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -272847,20 +272847,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 539,
-            "2": 0,
-            "3": 0,
-            "4": 0,
-            "5": 0,
-            "6": 0,
+            "1": 465,
+            "2": 430,
+            "3": 436,
+            "4": 452,
+            "5": 503,
+            "6": 443,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 539,
+          "enrollmentTotal": 2729,
           "deliveredTotal": 3817,
-          "deliveryPercentage": 708.16
+          "deliveryPercentage": 139.87
         },
         {
           "id": "kalawaan-elementary-school",
