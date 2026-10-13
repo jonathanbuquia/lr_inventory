@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-13T07:27:57.400Z",
+  "generatedAt": "2026-10-13T07:34:16.993Z",
   "years": [
     "2024",
     "2025",
@@ -486,14 +486,14 @@
         },
         "6": {
           "gmrc": 440,
-          "english": 3370,
+          "english": 4430,
           "filipino": 662,
           "science": 622,
           "araling-panlipunan": 0,
-          "epp": 6621,
+          "epp": 7221,
           "music-and-arts": 484,
           "pe-and-health": 7558,
-          "mathematics": 3845
+          "mathematics": 4905
         },
         "7": {
           "ve": 16424,
@@ -725,7 +725,7 @@
           "english": {
             "2024": 0,
             "2025": 620,
-            "2026": 2750
+            "2026": 3810
           },
           "filipino": {
             "2024": 0,
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 6326
+            "2026": 6926
           },
           "music-and-arts": {
             "2024": 0,
@@ -760,7 +760,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 270,
-            "2026": 3575
+            "2026": 4635
           }
         },
         "7": {
@@ -965,8 +965,8 @@
         "10": 15952
       },
       "enrollmentTotal": 189308,
-      "deliveredTotal": 739073,
-      "deliveryPercentage": 390.41,
+      "deliveredTotal": 741793,
+      "deliveryPercentage": 391.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -19602,14 +19602,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 600,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 600,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 600
             },
             "7": {
               "ve": 0,
@@ -19841,7 +19841,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 600
               },
               "filipino": {
                 "2024": 0,
@@ -19861,7 +19861,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 600
               },
               "music-and-arts": {
                 "2024": 0,
@@ -19876,7 +19876,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 600
               }
             },
             "7": {
@@ -20081,8 +20081,8 @@
             "10": 0
           },
           "enrollmentTotal": 3124,
-          "deliveredTotal": 15354,
-          "deliveryPercentage": 491.49
+          "deliveredTotal": 17154,
+          "deliveryPercentage": 549.1
         },
         {
           "id": "cielito-zamora-senior-high-school",
@@ -23319,14 +23319,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 460,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
               "epp": 460,
               "music-and-arts": 0,
               "pe-and-health": 460,
-              "mathematics": 0
+              "mathematics": 460
             },
             "7": {
               "ve": 0,
@@ -23558,7 +23558,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 460
               },
               "filipino": {
                 "2024": 0,
@@ -23593,7 +23593,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 460
               }
             },
             "7": {
@@ -23798,8 +23798,8 @@
             "10": 0
           },
           "enrollmentTotal": 1868,
-          "deliveredTotal": 12269,
-          "deliveryPercentage": 656.8
+          "deliveredTotal": 13189,
+          "deliveryPercentage": 706.05
         },
         {
           "id": "gomburza-elementary-school",
@@ -226156,15 +226156,15 @@
           "mathematics": 4707
         },
         "4": {
-          "gmrc": 8835,
-          "english": 469,
-          "filipino": 8328,
-          "science": 8072,
-          "araling-panlipunan": 8907,
+          "gmrc": 8771,
+          "english": 0,
+          "filipino": 8379,
+          "science": 7623,
+          "araling-panlipunan": 8438,
           "epp": 933,
           "music-and-arts": 8278,
           "pe-and-health": 7799,
-          "mathematics": 9194
+          "mathematics": 8725
         },
         "5": {
           "gmrc": 5240,
@@ -226319,27 +226319,27 @@
           "gmrc": {
             "2024": 1263,
             "2025": 7110,
-            "2026": 462
+            "2026": 398
           },
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 469
+            "2026": 0
           },
           "filipino": {
             "2024": 5142,
             "2025": 2336,
-            "2026": 850
+            "2026": 901
           },
           "science": {
             "2024": 7191,
             "2025": 432,
-            "2026": 449
+            "2026": 0
           },
           "araling-panlipunan": {
             "2024": 7189,
             "2025": 868,
-            "2026": 850
+            "2026": 381
           },
           "epp": {
             "2024": 239,
@@ -226359,7 +226359,7 @@
           "mathematics": {
             "2024": 1446,
             "2025": 6569,
-            "2026": 1179
+            "2026": 710
           }
         },
         "5": {
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78713,
-      "deliveredTotal": 330065,
-      "deliveryPercentage": 419.33,
+      "deliveredTotal": 328196,
+      "deliveryPercentage": 416.95,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -233039,8 +233039,8 @@
           "totals": {
             "1": {
               "gmrc": 298,
-              "reading-and-literacy": 299,
-              "language": 285,
+              "reading-and-literacy": 304,
+              "language": 300,
               "makabansa": 331,
               "mathematics": 305
             },
@@ -233060,14 +233060,14 @@
             },
             "4": {
               "gmrc": 64,
-              "english": 469,
-              "filipino": 469,
-              "science": 449,
-              "araling-panlipunan": 469,
+              "english": 0,
+              "filipino": 520,
+              "science": 460,
+              "araling-panlipunan": 490,
               "epp": 0,
               "music-and-arts": 500,
               "pe-and-health": 508,
-              "mathematics": 469
+              "mathematics": 64
             },
             "5": {
               "gmrc": 404,
@@ -233144,13 +233144,13 @@
                 "2026": 0
               },
               "reading-and-literacy": {
-                "2024": 299,
+                "2024": 304,
                 "2025": 0,
                 "2026": 0
               },
               "language": {
                 "2024": 0,
-                "2025": 285,
+                "2025": 300,
                 "2026": 0
               },
               "makabansa": {
@@ -233220,29 +233220,29 @@
             },
             "4": {
               "gmrc": {
-                "2024": 0,
-                "2025": 64,
+                "2024": 64,
+                "2025": 0,
                 "2026": 0
               },
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 469
+                "2026": 0
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 469
+                "2026": 520
               },
               "science": {
-                "2024": 0,
+                "2024": 460,
                 "2025": 0,
-                "2026": 449
+                "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 0,
+                "2024": 490,
                 "2025": 0,
-                "2026": 469
+                "2026": 0
               },
               "epp": {
                 "2024": 0,
@@ -233260,9 +233260,9 @@
                 "2026": 0
               },
               "mathematics": {
-                "2024": 0,
+                "2024": 64,
                 "2025": 0,
-                "2026": 469
+                "2026": 0
               }
             },
             "5": {
@@ -233561,8 +233561,8 @@
             "10": 0
           },
           "enrollmentTotal": 2016,
-          "deliveredTotal": 9815,
-          "deliveryPercentage": 486.86
+          "deliveredTotal": 9044,
+          "deliveryPercentage": 448.61
         },
         {
           "id": "fourth-estate-elementary-school",
@@ -250607,14 +250607,14 @@
         },
         "6": {
           "gmrc": 0,
-          "english": 466,
+          "english": 740,
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 0,
           "epp": 1112,
           "music-and-arts": 0,
           "pe-and-health": 402,
-          "mathematics": 402
+          "mathematics": 676
         },
         "7": {
           "ve": 4229,
@@ -250846,7 +250846,7 @@
           "english": {
             "2024": 0,
             "2025": 64,
-            "2026": 402
+            "2026": 676
           },
           "filipino": {
             "2024": 0,
@@ -250881,7 +250881,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 402
+            "2026": 676
           }
         },
         "7": {
@@ -251086,8 +251086,8 @@
         "10": 4430
       },
       "enrollmentTotal": 48786,
-      "deliveredTotal": 175146,
-      "deliveryPercentage": 359.01,
+      "deliveredTotal": 175694,
+      "deliveryPercentage": 360.13,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -258572,14 +258572,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 274,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
               "epp": 274,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 274
             },
             "7": {
               "ve": 0,
@@ -258811,7 +258811,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 274
               },
               "filipino": {
                 "2024": 0,
@@ -258846,7 +258846,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 274
               }
             },
             "7": {
@@ -259051,8 +259051,8 @@
             "10": 0
           },
           "enrollmentTotal": 1509,
-          "deliveredTotal": 6293,
-          "deliveryPercentage": 417.03
+          "deliveredTotal": 6841,
+          "deliveryPercentage": 453.35
         },
         {
           "id": "padre-zamora-elementary-school",
