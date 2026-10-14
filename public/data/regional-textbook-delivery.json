@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-14T01:44:55.194Z",
+  "generatedAt": "2026-10-14T13:06:39.977Z",
   "years": [
     "2024",
     "2025",
@@ -518,7 +518,7 @@
           "mathematics": 18426
         },
         "9": {
-          "ve": 2171,
+          "ve": 2680,
           "english": 2483,
           "filipino": 7247,
           "science": 69,
@@ -861,7 +861,7 @@
           "ve": {
             "2024": 0,
             "2025": 0,
-            "2026": 2171
+            "2026": 2680
           },
           "english": {
             "2024": 0,
@@ -960,13 +960,13 @@
         "5": 19963,
         "6": 17388,
         "7": 19274,
-        "8": 19948,
-        "9": 17669,
+        "8": 19900,
+        "9": 18250,
         "10": 15952
       },
-      "enrollmentTotal": 189308,
-      "deliveredTotal": 741793,
-      "deliveryPercentage": 391.84,
+      "enrollmentTotal": 189841,
+      "deliveredTotal": 742302,
+      "deliveryPercentage": 391.01,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -34502,7 +34502,7 @@
               "mathematics": 532
             },
             "9": {
-              "ve": 0,
+              "ve": 509,
               "english": 0,
               "filipino": 0,
               "science": 0,
@@ -34845,7 +34845,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 509
               },
               "english": {
                 "2024": 0,
@@ -34944,13 +34944,13 @@
             "5": 0,
             "6": 0,
             "7": 536,
-            "8": 573,
-            "9": 0,
+            "8": 525,
+            "9": 581,
             "10": 0
           },
-          "enrollmentTotal": 1109,
-          "deliveredTotal": 8216,
-          "deliveryPercentage": 740.85
+          "enrollmentTotal": 1642,
+          "deliveredTotal": 8725,
+          "deliveryPercentage": 531.36
         },
         {
           "id": "maypajo-elementary-school",
@@ -226646,20 +226646,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 7108,
-        "2": 7405,
-        "3": 7891,
-        "4": 8519,
-        "5": 8271,
-        "6": 7751,
+        "1": 7125,
+        "2": 7388,
+        "3": 7896,
+        "4": 8491,
+        "5": 8309,
+        "6": 7712,
         "7": 8355,
         "8": 8727,
         "9": 7798,
         "10": 6888
       },
-      "enrollmentTotal": 78713,
+      "enrollmentTotal": 78689,
       "deliveredTotal": 331838,
-      "deliveryPercentage": 421.58,
+      "deliveryPercentage": 421.71,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -230363,20 +230363,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 174,
-            "2": 195,
-            "3": 196,
-            "4": 230,
-            "5": 193,
-            "6": 235,
+            "1": 191,
+            "2": 178,
+            "3": 201,
+            "4": 202,
+            "5": 231,
+            "6": 196,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 1223,
+          "enrollmentTotal": 1199,
           "deliveredTotal": 4579,
-          "deliveryPercentage": 374.41
+          "deliveryPercentage": 381.9
         },
         {
           "id": "don-bosco-high-school-para-aque",
@@ -417914,7 +417914,7 @@
           "mathematics": 8538
         },
         "9": {
-          "ve": 1354,
+          "ve": 1805,
           "english": 0,
           "filipino": 2845,
           "science": 0,
@@ -418257,7 +418257,7 @@
           "ve": {
             "2024": 112,
             "2025": 0,
-            "2026": 1242
+            "2026": 1693
           },
           "english": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 91866,
-      "deliveredTotal": 344253,
-      "deliveryPercentage": 374.73,
+      "deliveredTotal": 344704,
+      "deliveryPercentage": 375.22,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -434906,7 +434906,7 @@
               "mathematics": 454
             },
             "9": {
-              "ve": 0,
+              "ve": 451,
               "english": 0,
               "filipino": 0,
               "science": 0,
@@ -435249,7 +435249,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 451
               },
               "english": {
                 "2024": 0,
@@ -435353,8 +435353,8 @@
             "10": 330
           },
           "enrollmentTotal": 1580,
-          "deliveredTotal": 7806,
-          "deliveryPercentage": 494.05
+          "deliveredTotal": 8257,
+          "deliveryPercentage": 522.59
         },
         {
           "id": "lingunan-senior-high-school",
