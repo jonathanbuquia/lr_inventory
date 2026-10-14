@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-14T01:17:27.928Z",
+  "generatedAt": "2026-10-14T01:44:55.194Z",
   "years": [
     "2024",
     "2025",
@@ -226137,7 +226137,7 @@
         "1": {
           "gmrc": 9589,
           "reading-and-literacy": 10540,
-          "language": 7162,
+          "language": 7362,
           "makabansa": 9851,
           "mathematics": 6220
         },
@@ -226248,7 +226248,7 @@
           "language": {
             "2024": 813,
             "2025": 5869,
-            "2026": 480
+            "2026": 680
           },
           "makabansa": {
             "2024": 3295,
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78713,
-      "deliveredTotal": 331638,
-      "deliveryPercentage": 421.33,
+      "deliveredTotal": 331838,
+      "deliveryPercentage": 421.58,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -245253,7 +245253,7 @@
             "1": {
               "gmrc": 200,
               "reading-and-literacy": 200,
-              "language": 0,
+              "language": 200,
               "makabansa": 200,
               "mathematics": 550
             },
@@ -245364,7 +245364,7 @@
               "language": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 200
               },
               "makabansa": {
                 "2024": 0,
@@ -245774,8 +245774,8 @@
             "10": 0
           },
           "enrollmentTotal": 1150,
-          "deliveredTotal": 7994,
-          "deliveryPercentage": 695.13
+          "deliveredTotal": 8194,
+          "deliveryPercentage": 712.52
         },
         {
           "id": "silverio-elementary-school",
