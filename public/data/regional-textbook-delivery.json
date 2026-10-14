@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-13T23:10:25.006Z",
+  "generatedAt": "2026-10-14T01:17:27.928Z",
   "years": [
     "2024",
     "2025",
@@ -226153,7 +226153,7 @@
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 5157,
-          "mathematics": 5107
+          "mathematics": 5657
         },
         "4": {
           "gmrc": 8771,
@@ -226312,7 +226312,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 5107
+            "2026": 5657
           }
         },
         "4": {
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78713,
-      "deliveredTotal": 331088,
-      "deliveryPercentage": 420.63,
+      "deliveredTotal": 331638,
+      "deliveryPercentage": 421.33,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -245800,7 +245800,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 550,
-              "mathematics": 0
+              "mathematics": 550
             },
             "4": {
               "gmrc": 496,
@@ -245959,7 +245959,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 550
               }
             },
             "4": {
@@ -246305,8 +246305,8 @@
             "10": 0
           },
           "enrollmentTotal": 2227,
-          "deliveredTotal": 10954,
-          "deliveryPercentage": 491.87
+          "deliveredTotal": 11504,
+          "deliveryPercentage": 516.57
         },
         {
           "id": "sto-ni-o-elementary-school",
