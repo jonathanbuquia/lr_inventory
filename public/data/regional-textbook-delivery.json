@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T02:22:12.169Z",
+  "generatedAt": "2026-10-15T02:31:58.496Z",
   "years": [
     "2024",
     "2025",
@@ -959,14 +959,14 @@
         "4": 22021,
         "5": 19963,
         "6": 17388,
-        "7": 19274,
-        "8": 19962,
+        "7": 19124,
+        "8": 19900,
         "9": 18250,
         "10": 17898
       },
-      "enrollmentTotal": 191849,
+      "enrollmentTotal": 191637,
       "deliveredTotal": 747384,
-      "deliveryPercentage": 389.57,
+      "deliveryPercentage": 390,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -13703,14 +13703,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 1791,
-            "8": 1749,
+            "7": 1641,
+            "8": 1687,
             "9": 1673,
             "10": 1946
           },
-          "enrollmentTotal": 7159,
+          "enrollmentTotal": 6947,
           "deliveredTotal": 47997,
-          "deliveryPercentage": 670.44
+          "deliveryPercentage": 690.9
         },
         {
           "id": "caloocan-national-science-and-technology-high-school",
