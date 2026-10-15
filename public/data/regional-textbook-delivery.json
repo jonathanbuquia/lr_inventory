@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T07:17:12.264Z",
+  "generatedAt": "2026-10-15T07:27:12.878Z",
   "years": [
     "2024",
     "2025",
@@ -266499,13 +266499,13 @@
           "reading-and-literacy": 10622,
           "language": 8413,
           "makabansa": 10116,
-          "mathematics": 4173
+          "mathematics": 4608
         },
         "2": {
           "gmrc": 3219,
           "reading-and-literacy": 0,
           "language": 0,
-          "makabansa": 3867,
+          "makabansa": 4293,
           "mathematics": 0
         },
         "3": {
@@ -266522,17 +266522,17 @@
           "science": 9033,
           "araling-panlipunan": 9888,
           "epp": 46,
-          "music-and-arts": 5039,
+          "music-and-arts": 5554,
           "pe-and-health": 9548,
           "mathematics": 10794
         },
         "5": {
           "gmrc": 2900,
           "english": 6540,
-          "filipino": 4006,
+          "filipino": 4447,
           "science": 7199,
           "araling-panlipunan": 8190,
-          "epp": 5511,
+          "epp": 5952,
           "music-and-arts": 0,
           "pe-and-health": 5795,
           "mathematics": 0
@@ -266618,7 +266618,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 689,
-            "2026": 3484
+            "2026": 3919
           }
         },
         "2": {
@@ -266640,7 +266640,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 20,
-            "2026": 3847
+            "2026": 4273
           },
           "mathematics": {
             "2024": 0,
@@ -266709,7 +266709,7 @@
           "music-and-arts": {
             "2024": 97,
             "2025": 220,
-            "2026": 4722
+            "2026": 5237
           },
           "pe-and-health": {
             "2024": 6411,
@@ -266736,7 +266736,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 4006
+            "2026": 4447
           },
           "science": {
             "2024": 541,
@@ -266751,7 +266751,7 @@
           "epp": {
             "2024": 0,
             "2025": 742,
-            "2026": 4769
+            "2026": 5210
           },
           "music-and-arts": {
             "2024": 0,
@@ -267018,8 +267018,8 @@
         "10": 8071
       },
       "enrollmentTotal": 95396,
-      "deliveredTotal": 293849,
-      "deliveryPercentage": 308.03,
+      "deliveredTotal": 296107,
+      "deliveryPercentage": 310.4,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -277650,13 +277650,13 @@
               "reading-and-literacy": 398,
               "language": 398,
               "makabansa": 398,
-              "mathematics": 0
+              "mathematics": 435
             },
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 426,
               "mathematics": 0
             },
             "3": {
@@ -277673,17 +277673,17 @@
               "science": 0,
               "araling-panlipunan": 515,
               "epp": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 515,
               "pe-and-health": 515,
               "mathematics": 515
             },
             "5": {
               "gmrc": 0,
               "english": 441,
-              "filipino": 0,
+              "filipino": 441,
               "science": 441,
               "araling-panlipunan": 441,
-              "epp": 0,
+              "epp": 441,
               "music-and-arts": 0,
               "pe-and-health": 441,
               "mathematics": 0
@@ -277769,7 +277769,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 435
               }
             },
             "2": {
@@ -277791,7 +277791,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 426
               },
               "mathematics": {
                 "2024": 0,
@@ -277860,7 +277860,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 515
               },
               "pe-and-health": {
                 "2024": 0,
@@ -277887,7 +277887,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 441
               },
               "science": {
                 "2024": 0,
@@ -277902,7 +277902,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 441
               },
               "music-and-arts": {
                 "2024": 0,
@@ -278169,8 +278169,8 @@
             "10": 0
           },
           "enrollmentTotal": 2259,
-          "deliveredTotal": 5931,
-          "deliveryPercentage": 262.55
+          "deliveredTotal": 8189,
+          "deliveryPercentage": 362.51
         },
         {
           "id": "oranbo-elementary-school",
