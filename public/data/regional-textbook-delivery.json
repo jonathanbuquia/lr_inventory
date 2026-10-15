@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T07:27:12.878Z",
+  "generatedAt": "2026-10-15T07:32:13.577Z",
   "years": [
     "2024",
     "2025",
@@ -226179,14 +226179,14 @@
         },
         "6": {
           "gmrc": 0,
-          "english": 1262,
+          "english": 1612,
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
           "epp": 5025,
           "music-and-arts": 0,
           "pe-and-health": 632,
-          "mathematics": 1965
+          "mathematics": 2285
         },
         "7": {
           "ve": 9546,
@@ -226418,7 +226418,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 1262
+            "2026": 1612
           },
           "filipino": {
             "2024": 0,
@@ -226453,7 +226453,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 1965
+            "2026": 2285
           }
         },
         "7": {
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78689,
-      "deliveredTotal": 331678,
-      "deliveryPercentage": 421.5,
+      "deliveredTotal": 332348,
+      "deliveryPercentage": 422.36,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -247950,14 +247950,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 350,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
               "epp": 360,
               "music-and-arts": 0,
               "pe-and-health": 380,
-              "mathematics": 0
+              "mathematics": 320
             },
             "7": {
               "ve": 0,
@@ -248189,7 +248189,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 350
               },
               "filipino": {
                 "2024": 0,
@@ -248224,7 +248224,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 320
               }
             },
             "7": {
@@ -248429,8 +248429,8 @@
             "10": 0
           },
           "enrollmentTotal": 2353,
-          "deliveredTotal": 8375,
-          "deliveryPercentage": 355.93
+          "deliveredTotal": 9045,
+          "deliveryPercentage": 384.4
         },
         {
           "id": "sun-valley-national-high-school",
