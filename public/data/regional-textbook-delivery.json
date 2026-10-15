@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T02:42:03.066Z",
+  "generatedAt": "2026-10-15T06:52:11.721Z",
   "years": [
     "2024",
     "2025",
@@ -226142,7 +226142,7 @@
           "mathematics": 6220
         },
         "2": {
-          "gmrc": 6121,
+          "gmrc": 5919,
           "reading-and-literacy": 100,
           "language": 100,
           "makabansa": 8444,
@@ -226153,7 +226153,7 @@
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 5157,
-          "mathematics": 5657
+          "mathematics": 5907
         },
         "4": {
           "gmrc": 8771,
@@ -226265,7 +226265,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 6121
+            "2026": 5919
           },
           "reading-and-literacy": {
             "2024": 100,
@@ -226312,7 +226312,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 5657
+            "2026": 5907
           }
         },
         "4": {
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78689,
-      "deliveredTotal": 331838,
-      "deliveryPercentage": 421.71,
+      "deliveredTotal": 331886,
+      "deliveryPercentage": 421.77,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -229859,7 +229859,7 @@
               "mathematics": 212
             },
             "2": {
-              "gmrc": 202,
+              "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 202,
@@ -229870,7 +229870,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 250,
-              "mathematics": 0
+              "mathematics": 250
             },
             "4": {
               "gmrc": 208,
@@ -229982,7 +229982,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 202
+                "2026": 0
               },
               "reading-and-literacy": {
                 "2024": 0,
@@ -230029,7 +230029,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 250
               }
             },
             "4": {
@@ -230375,8 +230375,8 @@
             "10": 0
           },
           "enrollmentTotal": 1199,
-          "deliveredTotal": 4579,
-          "deliveryPercentage": 381.9
+          "deliveredTotal": 4627,
+          "deliveryPercentage": 385.9
         },
         {
           "id": "don-bosco-high-school-para-aque",
