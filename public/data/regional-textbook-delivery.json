@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T01:32:11.043Z",
+  "generatedAt": "2026-10-15T02:11:59.890Z",
   "years": [
     "2024",
     "2025",
@@ -417861,7 +417861,7 @@
         "4": {
           "gmrc": 10148,
           "english": 9426,
-          "filipino": 9823,
+          "filipino": 10143,
           "science": 9719,
           "araling-panlipunan": 9592,
           "epp": 245,
@@ -418032,7 +418032,7 @@
           "filipino": {
             "2024": 7979,
             "2025": 1554,
-            "2026": 290
+            "2026": 610
           },
           "science": {
             "2024": 7555,
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 91866,
-      "deliveredTotal": 344704,
-      "deliveryPercentage": 375.22,
+      "deliveredTotal": 345024,
+      "deliveryPercentage": 375.57,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -436084,9 +436084,9 @@
                 "2026": 0
               },
               "filipino": {
-                "2024": 320,
+                "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 320
               },
               "science": {
                 "2024": 0,
