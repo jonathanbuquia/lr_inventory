@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T02:11:59.890Z",
+  "generatedAt": "2026-10-15T02:22:12.169Z",
   "years": [
     "2024",
     "2025",
@@ -960,13 +960,13 @@
         "5": 19963,
         "6": 17388,
         "7": 19274,
-        "8": 19900,
+        "8": 19962,
         "9": 18250,
         "10": 17898
       },
-      "enrollmentTotal": 191787,
+      "enrollmentTotal": 191849,
       "deliveredTotal": 747384,
-      "deliveryPercentage": 389.69,
+      "deliveryPercentage": 389.57,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -13704,13 +13704,13 @@
             "5": 0,
             "6": 0,
             "7": 1791,
-            "8": 1687,
+            "8": 1749,
             "9": 1673,
             "10": 1946
           },
-          "enrollmentTotal": 7097,
+          "enrollmentTotal": 7159,
           "deliveredTotal": 47997,
-          "deliveryPercentage": 676.3
+          "deliveryPercentage": 670.44
         },
         {
           "id": "caloocan-national-science-and-technology-high-school",
@@ -417859,15 +417859,15 @@
           "mathematics": 6694
         },
         "4": {
-          "gmrc": 10148,
-          "english": 9426,
-          "filipino": 10143,
+          "gmrc": 10053,
+          "english": 9746,
+          "filipino": 9823,
           "science": 9719,
           "araling-panlipunan": 9592,
           "epp": 245,
           "music-and-arts": 5523,
           "pe-and-health": 9026,
-          "mathematics": 10131
+          "mathematics": 9811
         },
         "5": {
           "gmrc": 7309,
@@ -417882,14 +417882,14 @@
         },
         "6": {
           "gmrc": 125,
-          "english": 2745,
+          "english": 3066,
           "filipino": 123,
           "science": 180,
           "araling-panlipunan": 0,
-          "epp": 6735,
+          "epp": 7056,
           "music-and-arts": 216,
-          "pe-and-health": 6978,
-          "mathematics": 6449
+          "pe-and-health": 7299,
+          "mathematics": 6770
         },
         "7": {
           "ve": 5948,
@@ -418022,17 +418022,17 @@
           "gmrc": {
             "2024": 4238,
             "2025": 5815,
-            "2026": 95
+            "2026": 0
           },
           "english": {
             "2024": 7720,
             "2025": 1706,
-            "2026": 0
+            "2026": 320
           },
           "filipino": {
             "2024": 7979,
             "2025": 1554,
-            "2026": 610
+            "2026": 290
           },
           "science": {
             "2024": 7555,
@@ -418062,7 +418062,7 @@
           "mathematics": {
             "2024": 3660,
             "2025": 6059,
-            "2026": 412
+            "2026": 92
           }
         },
         "5": {
@@ -418121,7 +418121,7 @@
           "english": {
             "2024": 0,
             "2025": 115,
-            "2026": 2630
+            "2026": 2951
           },
           "filipino": {
             "2024": 0,
@@ -418141,7 +418141,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 6735
+            "2026": 7056
           },
           "music-and-arts": {
             "2024": 0,
@@ -418151,12 +418151,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 156,
-            "2026": 6822
+            "2026": 7143
           },
           "mathematics": {
             "2024": 0,
             "2025": 112,
-            "2026": 6337
+            "2026": 6658
           }
         },
         "7": {
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 91866,
-      "deliveredTotal": 345024,
-      "deliveryPercentage": 375.57,
+      "deliveredTotal": 345893,
+      "deliveryPercentage": 376.52,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -435936,14 +435936,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 321,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 321,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 321,
+              "mathematics": 321
             },
             "7": {
               "ve": 0,
@@ -436074,19 +436074,19 @@
             },
             "4": {
               "gmrc": {
-                "2024": 0,
-                "2025": 320,
-                "2026": 0
-              },
-              "english": {
                 "2024": 320,
                 "2025": 0,
                 "2026": 0
               },
-              "filipino": {
+              "english": {
                 "2024": 0,
                 "2025": 0,
                 "2026": 320
+              },
+              "filipino": {
+                "2024": 320,
+                "2025": 0,
+                "2026": 0
               },
               "science": {
                 "2024": 0,
@@ -436114,8 +436114,8 @@
                 "2026": 0
               },
               "mathematics": {
-                "2024": 0,
-                "2025": 320,
+                "2024": 320,
+                "2025": 0,
                 "2026": 0
               }
             },
@@ -436175,7 +436175,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 321
               },
               "filipino": {
                 "2024": 0,
@@ -436195,7 +436195,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 321
               },
               "music-and-arts": {
                 "2024": 0,
@@ -436205,12 +436205,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 321
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 321
               }
             },
             "7": {
@@ -436415,8 +436415,8 @@
             "10": 0
           },
           "enrollmentTotal": 1706,
-          "deliveredTotal": 6750,
-          "deliveryPercentage": 395.66
+          "deliveredTotal": 8034,
+          "deliveryPercentage": 470.93
         },
         {
           "id": "malanday-national-high-school",
