@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T07:32:13.577Z",
+  "generatedAt": "2026-10-15T09:02:15.219Z",
   "years": [
     "2024",
     "2025",
@@ -418350,9 +418350,9 @@
       },
       "enrollmentByGrade": {
         "1": 9753,
-        "2": 10058,
+        "2": 10059,
         "3": 10413,
-        "4": 10515,
+        "4": 10516,
         "5": 10303,
         "6": 11142,
         "7": 9296,
@@ -418360,9 +418360,9 @@
         "9": 6265,
         "10": 5390
       },
-      "enrollmentTotal": 91866,
+      "enrollmentTotal": 91868,
       "deliveredTotal": 345893,
-      "deliveryPercentage": 376.52,
+      "deliveryPercentage": 376.51,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -453396,9 +453396,9 @@
           },
           "enrollmentByGrade": {
             "1": 116,
-            "2": 114,
+            "2": 115,
             "3": 107,
-            "4": 111,
+            "4": 112,
             "5": 104,
             "6": 94,
             "7": 0,
@@ -453406,9 +453406,9 @@
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 646,
+          "enrollmentTotal": 648,
           "deliveredTotal": 3730,
-          "deliveryPercentage": 577.4
+          "deliveryPercentage": 575.62
         },
         {
           "id": "tagalag-elementary-school",
