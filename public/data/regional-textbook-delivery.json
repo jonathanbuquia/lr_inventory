@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T00:44:33.705Z",
+  "generatedAt": "2026-10-15T00:47:15.845Z",
   "years": [
     "2024",
     "2025",
@@ -518,15 +518,15 @@
           "mathematics": 18426
         },
         "9": {
-          "ve": 5077,
+          "ve": 4964,
           "english": 86,
           "filipino": 7247,
-          "science": 2466,
+          "science": 69,
           "araling-panlipunan": 2169,
-          "tle": 2397,
+          "tle": 0,
           "music-and-arts": 72,
-          "pe-and-health": 2482,
-          "mathematics": 2477
+          "pe-and-health": 85,
+          "mathematics": 80
         },
         "10": {
           "ve": 0,
@@ -861,7 +861,7 @@
           "ve": {
             "2024": 0,
             "2025": 0,
-            "2026": 5077
+            "2026": 4964
           },
           "english": {
             "2024": 0,
@@ -876,7 +876,7 @@
           "science": {
             "2024": 0,
             "2025": 0,
-            "2026": 2466
+            "2026": 69
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -886,7 +886,7 @@
           "tle": {
             "2024": 0,
             "2025": 0,
-            "2026": 2397
+            "2026": 0
           },
           "music-and-arts": {
             "2024": 0,
@@ -896,12 +896,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 2482
+            "2026": 85
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 2477
+            "2026": 80
           }
         },
         "10": {
@@ -965,8 +965,8 @@
         "10": 15952
       },
       "enrollmentTotal": 189841,
-      "deliveredTotal": 751890,
-      "deliveryPercentage": 396.06,
+      "deliveredTotal": 742189,
+      "deliveryPercentage": 390.95,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -13262,7 +13262,7 @@
               "mathematics": 2397
             },
             "9": {
-              "ve": 2397,
+              "ve": 2284,
               "english": 2397,
               "filipino": 2284,
               "science": 2397,
@@ -13605,7 +13605,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 2397
+                "2026": 2284
               },
               "english": {
                 "2024": 2397,
@@ -13618,9 +13618,9 @@
                 "2026": 2284
               },
               "science": {
-                "2024": 0,
+                "2024": 2397,
                 "2025": 0,
-                "2026": 2397
+                "2026": 0
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -13628,9 +13628,9 @@
                 "2026": 0
               },
               "tle": {
-                "2024": 0,
+                "2024": 2397,
                 "2025": 0,
-                "2026": 2397
+                "2026": 0
               },
               "music-and-arts": {
                 "2024": 0,
@@ -13638,14 +13638,14 @@
                 "2026": 0
               },
               "pe-and-health": {
-                "2024": 0,
+                "2024": 2397,
                 "2025": 0,
-                "2026": 2397
+                "2026": 0
               },
               "mathematics": {
-                "2024": 0,
+                "2024": 2397,
                 "2025": 0,
-                "2026": 2397
+                "2026": 0
               }
             },
             "10": {
@@ -13709,8 +13709,8 @@
             "10": 0
           },
           "enrollmentTotal": 5151,
-          "deliveredTotal": 57965,
-          "deliveryPercentage": 1125.32
+          "deliveredTotal": 57852,
+          "deliveryPercentage": 1123.12
         },
         {
           "id": "caloocan-national-science-and-technology-high-school",
