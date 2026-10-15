@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-15T06:52:11.721Z",
+  "generatedAt": "2026-10-15T07:17:12.264Z",
   "years": [
     "2024",
     "2025",
@@ -226162,7 +226162,7 @@
           "science": 7623,
           "araling-panlipunan": 8438,
           "epp": 933,
-          "music-and-arts": 8278,
+          "music-and-arts": 8070,
           "pe-and-health": 7799,
           "mathematics": 8725
         },
@@ -226349,7 +226349,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 8278
+            "2026": 8070
           },
           "pe-and-health": {
             "2024": 5227,
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78689,
-      "deliveredTotal": 331886,
-      "deliveryPercentage": 421.77,
+      "deliveredTotal": 331678,
+      "deliveryPercentage": 421.5,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -230064,9 +230064,9 @@
                 "2026": 0
               },
               "music-and-arts": {
-                "2024": 0,
+                "2024": 208,
                 "2025": 0,
-                "2026": 208
+                "2026": 0
               },
               "pe-and-health": {
                 "2024": 208,
