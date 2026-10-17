@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-17T00:42:03.557Z",
+  "generatedAt": "2026-10-17T00:57:05.246Z",
   "years": [
     "2024",
     "2025",
@@ -227214,7 +227214,7 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 288,
               "mathematics": 288
             },
             "4": {
@@ -227720,8 +227720,8 @@
             "10": 0
           },
           "enrollmentTotal": 1011,
-          "deliveredTotal": 6909,
-          "deliveryPercentage": 683.38
+          "deliveredTotal": 7197,
+          "deliveryPercentage": 711.87
         },
         {
           "id": "baclaran-elementary-school-unit-ii",
