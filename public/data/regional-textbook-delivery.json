@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-17T00:57:05.246Z",
+  "generatedAt": "2026-10-17T01:55:29.819Z",
   "years": [
     "2024",
     "2025",
@@ -486,14 +486,14 @@
         },
         "6": {
           "gmrc": 440,
-          "english": 5489,
+          "english": 6609,
           "filipino": 1083,
           "science": 1020,
           "araling-panlipunan": 0,
-          "epp": 7911,
+          "epp": 9021,
           "music-and-arts": 896,
           "pe-and-health": 7984,
-          "mathematics": 5961
+          "mathematics": 7071
         },
         "7": {
           "ve": 16424,
@@ -725,7 +725,7 @@
           "english": {
             "2024": 0,
             "2025": 620,
-            "2026": 4869
+            "2026": 5989
           },
           "filipino": {
             "2024": 0,
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 7616
+            "2026": 8726
           },
           "music-and-arts": {
             "2024": 0,
@@ -760,7 +760,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 270,
-            "2026": 5691
+            "2026": 6801
           }
         },
         "7": {
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 191339,
-      "deliveredTotal": 758091,
-      "deliveryPercentage": 396.2,
+      "deliveredTotal": 761431,
+      "deliveryPercentage": 397.95,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -15885,14 +15885,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 1120,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 1110,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 1110
             },
             "7": {
               "ve": 0,
@@ -16124,7 +16124,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 1120
               },
               "filipino": {
                 "2024": 0,
@@ -16144,7 +16144,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 1110
               },
               "music-and-arts": {
                 "2024": 0,
@@ -16159,7 +16159,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 1110
               }
             },
             "7": {
@@ -16364,8 +16364,8 @@
             "10": 0
           },
           "enrollmentTotal": 6025,
-          "deliveredTotal": 23387,
-          "deliveryPercentage": 388.17
+          "deliveredTotal": 26727,
+          "deliveryPercentage": 443.6
         },
         {
           "id": "camarin-high-school",
