@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-17T02:00:22.029Z",
+  "generatedAt": "2026-10-17T04:52:27.064Z",
   "years": [
     "2024",
     "2025",
@@ -226179,7 +226179,7 @@
         },
         "6": {
           "gmrc": 0,
-          "english": 1612,
+          "english": 1835,
           "filipino": 0,
           "science": 0,
           "araling-panlipunan": 252,
@@ -226418,7 +226418,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 1612
+            "2026": 1835
           },
           "filipino": {
             "2024": 0,
@@ -226658,8 +226658,8 @@
         "10": 6888
       },
       "enrollmentTotal": 78689,
-      "deliveredTotal": 332349,
-      "deliveryPercentage": 422.36,
+      "deliveredTotal": 332572,
+      "deliveryPercentage": 422.64,
       "schools": [
         {
           "id": "baclaran-elementary-school-central",
@@ -227480,7 +227480,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 223
               },
               "filipino": {
                 "2024": 0,
