@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-16T04:58:43.444Z",
+  "generatedAt": "2026-10-17T00:42:03.557Z",
   "years": [
     "2024",
     "2025",
@@ -226139,7 +226139,7 @@
           "reading-and-literacy": 10540,
           "language": 7362,
           "makabansa": 9851,
-          "mathematics": 6220
+          "mathematics": 6219
         },
         "2": {
           "gmrc": 5919,
@@ -226153,7 +226153,7 @@
           "reading-and-literacy": 0,
           "language": 0,
           "makabansa": 5157,
-          "mathematics": 5907
+          "mathematics": 5909
         },
         "4": {
           "gmrc": 8771,
@@ -226258,7 +226258,7 @@
           "mathematics": {
             "2024": 414,
             "2025": 0,
-            "2026": 5806
+            "2026": 5805
           }
         },
         "2": {
@@ -226312,7 +226312,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 5907
+            "2026": 5909
           }
         },
         "4": {
@@ -226658,7 +226658,7 @@
         "10": 6888
       },
       "enrollmentTotal": 78689,
-      "deliveredTotal": 332348,
+      "deliveredTotal": 332349,
       "deliveryPercentage": 422.36,
       "schools": [
         {
@@ -227201,7 +227201,7 @@
               "reading-and-literacy": 580,
               "language": 0,
               "makabansa": 580,
-              "mathematics": 283
+              "mathematics": 282
             },
             "2": {
               "gmrc": 278,
@@ -227215,7 +227215,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 0,
-              "mathematics": 286
+              "mathematics": 288
             },
             "4": {
               "gmrc": 230,
@@ -227241,7 +227241,7 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 223,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -227320,7 +227320,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 283
+                "2026": 282
               }
             },
             "2": {
@@ -227374,7 +227374,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 286
+                "2026": 288
               }
             },
             "4": {
@@ -227720,8 +227720,8 @@
             "10": 0
           },
           "enrollmentTotal": 1011,
-          "deliveredTotal": 6685,
-          "deliveryPercentage": 661.23
+          "deliveredTotal": 6909,
+          "deliveryPercentage": 683.38
         },
         {
           "id": "baclaran-elementary-school-unit-ii",
