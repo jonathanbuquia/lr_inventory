@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-17T11:18:46.764Z",
+  "generatedAt": "2026-10-18T05:32:20.528Z",
   "years": [
     "2024",
     "2025",
@@ -83305,7 +83305,7 @@
           "mathematics": 224
         },
         "4": {
-          "gmrc": 8217,
+          "gmrc": 8577,
           "english": 504,
           "filipino": 7875,
           "science": 8084,
@@ -83468,7 +83468,7 @@
           "gmrc": {
             "2024": 5464,
             "2025": 2246,
-            "2026": 507
+            "2026": 867
           },
           "english": {
             "2024": 0,
@@ -83807,8 +83807,8 @@
         "10": 4478
       },
       "enrollmentTotal": 56829,
-      "deliveredTotal": 197755,
-      "deliveryPercentage": 347.98,
+      "deliveredTotal": 198115,
+      "deliveryPercentage": 348.62,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -102582,8 +102582,8 @@
             },
             "4": {
               "gmrc": {
-                "2024": 360,
-                "2025": 0,
+                "2024": 0,
+                "2025": 360,
                 "2026": 0
               },
               "english": {
