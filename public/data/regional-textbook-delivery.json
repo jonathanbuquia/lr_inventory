@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-19T06:57:03.989Z",
+  "generatedAt": "2026-10-19T08:27:15.626Z",
   "years": [
     "2024",
     "2025",
@@ -417914,7 +417914,7 @@
           "mathematics": 8538
         },
         "9": {
-          "ve": 2480,
+          "ve": 2763,
           "english": 0,
           "filipino": 3583,
           "science": 0,
@@ -418257,7 +418257,7 @@
           "ve": {
             "2024": 112,
             "2025": 0,
-            "2026": 2368
+            "2026": 2651
           },
           "english": {
             "2024": 0,
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 91868,
-      "deliveredTotal": 350275,
-      "deliveryPercentage": 381.28,
+      "deliveredTotal": 350558,
+      "deliveryPercentage": 381.59,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -432782,7 +432782,7 @@
               "mathematics": 303
             },
             "9": {
-              "ve": 0,
+              "ve": 283,
               "english": 0,
               "filipino": 283,
               "science": 0,
@@ -433125,7 +433125,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 283
               },
               "english": {
                 "2024": 0,
@@ -433229,8 +433229,8 @@
             "10": 151
           },
           "enrollmentTotal": 766,
-          "deliveredTotal": 6088,
-          "deliveryPercentage": 794.78
+          "deliveredTotal": 6371,
+          "deliveryPercentage": 831.72
         },
         {
           "id": "lawang-bato-elementary-school",
