@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-19T04:32:24.137Z",
+  "generatedAt": "2026-10-19T04:57:12.405Z",
   "years": [
     "2024",
     "2025",
@@ -250641,7 +250641,7 @@
         "9": {
           "ve": 675,
           "english": 0,
-          "filipino": 1421,
+          "filipino": 1974,
           "science": 1199,
           "araling-panlipunan": 675,
           "tle": 0,
@@ -250992,7 +250992,7 @@
           "filipino": {
             "2024": 676,
             "2025": 745,
-            "2026": 0
+            "2026": 553
           },
           "science": {
             "2024": 0,
@@ -251086,8 +251086,8 @@
         "10": 4430
       },
       "enrollmentTotal": 48786,
-      "deliveredTotal": 175694,
-      "deliveryPercentage": 360.13,
+      "deliveredTotal": 176247,
+      "deliveryPercentage": 361.27,
       "schools": [
         {
           "id": "andres-bonifacio-elementary-school",
@@ -261792,7 +261792,7 @@
             "9": {
               "ve": 675,
               "english": 0,
-              "filipino": 0,
+              "filipino": 553,
               "science": 0,
               "araling-panlipunan": 675,
               "tle": 0,
@@ -262143,7 +262143,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 553
               },
               "science": {
                 "2024": 0,
@@ -262237,8 +262237,8 @@
             "10": 541
           },
           "enrollmentTotal": 2047,
-          "deliveredTotal": 10992,
-          "deliveryPercentage": 536.98
+          "deliveredTotal": 11545,
+          "deliveryPercentage": 564
         },
         {
           "id": "pasay-city-west-high-school",
