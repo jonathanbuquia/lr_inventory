@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-24T06:32:13.947Z",
+  "generatedAt": "2026-10-24T06:37:10.760Z",
   "years": [
     "2024",
     "2025",
@@ -510,7 +510,7 @@
           "ve": 18729,
           "english": 10349,
           "filipino": 11297,
-          "science": 16658,
+          "science": 17401,
           "araling-panlipunan": 1084,
           "tle": 15674,
           "music-and-arts": 1257,
@@ -829,7 +829,7 @@
           "science": {
             "2024": 0,
             "2025": 2724,
-            "2026": 13934
+            "2026": 14677
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192738,
-      "deliveredTotal": 797425,
-      "deliveryPercentage": 413.74,
+      "deliveredTotal": 798168,
+      "deliveryPercentage": 414.12,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -32370,7 +32370,7 @@
               "ve": 738,
               "english": 743,
               "filipino": 743,
-              "science": 0,
+              "science": 743,
               "araling-panlipunan": 0,
               "tle": 743,
               "music-and-arts": 0,
@@ -32688,7 +32688,7 @@
               },
               "science": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 743,
                 "2026": 0
               },
               "araling-panlipunan": {
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 13148,
-          "deliveryPercentage": 551.97
+          "deliveredTotal": 13891,
+          "deliveryPercentage": 583.17
         },
         {
           "id": "manuel-l-quezon-elementary-school",
