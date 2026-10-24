@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-24T06:27:18.698Z",
+  "generatedAt": "2026-10-24T06:32:13.947Z",
   "years": [
     "2024",
     "2025",
@@ -464,7 +464,7 @@
         },
         "4": {
           "gmrc": 21274,
-          "english": 17726,
+          "english": 18881,
           "filipino": 19000,
           "science": 19074,
           "araling-panlipunan": 19738,
@@ -512,7 +512,7 @@
           "filipino": 11297,
           "science": 16658,
           "araling-panlipunan": 1084,
-          "tle": 14931,
+          "tle": 15674,
           "music-and-arts": 1257,
           "pe-and-health": 10551,
           "mathematics": 18426
@@ -520,7 +520,7 @@
         "9": {
           "ve": 6326,
           "english": 86,
-          "filipino": 9745,
+          "filipino": 10494,
           "science": 69,
           "araling-panlipunan": 82,
           "tle": 0,
@@ -631,7 +631,7 @@
           "english": {
             "2024": 14583,
             "2025": 2488,
-            "2026": 655
+            "2026": 1810
           },
           "filipino": {
             "2024": 12695,
@@ -839,7 +839,7 @@
           "tle": {
             "2024": 0,
             "2025": 582,
-            "2026": 14349
+            "2026": 15092
           },
           "music-and-arts": {
             "2024": 0,
@@ -871,7 +871,7 @@
           "filipino": {
             "2024": 4734,
             "2025": 0,
-            "2026": 5011
+            "2026": 5760
           },
           "science": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192738,
-      "deliveredTotal": 794778,
-      "deliveryPercentage": 412.36,
+      "deliveredTotal": 797425,
+      "deliveryPercentage": 413.74,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -15863,7 +15863,7 @@
             },
             "4": {
               "gmrc": 1155,
-              "english": 0,
+              "english": 1155,
               "filipino": 1155,
               "science": 1155,
               "araling-panlipunan": 1155,
@@ -16029,7 +16029,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 1155,
                 "2026": 0
               },
               "filipino": {
@@ -16364,8 +16364,8 @@
             "10": 0
           },
           "enrollmentTotal": 6025,
-          "deliveredTotal": 29140,
-          "deliveryPercentage": 483.65
+          "deliveredTotal": 30295,
+          "deliveryPercentage": 502.82
         },
         {
           "id": "camarin-high-school",
@@ -32372,7 +32372,7 @@
               "filipino": 743,
               "science": 0,
               "araling-panlipunan": 0,
-              "tle": 0,
+              "tle": 743,
               "music-and-arts": 0,
               "pe-and-health": 743,
               "mathematics": 738
@@ -32380,7 +32380,7 @@
             "9": {
               "ve": 729,
               "english": 0,
-              "filipino": 0,
+              "filipino": 749,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 0,
@@ -32699,7 +32699,7 @@
               "tle": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 743
               },
               "music-and-arts": {
                 "2024": 0,
@@ -32731,7 +32731,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 749
               },
               "science": {
                 "2024": 0,
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 11656,
-          "deliveryPercentage": 489.34
+          "deliveredTotal": 13148,
+          "deliveryPercentage": 551.97
         },
         {
           "id": "manuel-l-quezon-elementary-school",
@@ -36045,7 +36045,7 @@
               "filipino": 550,
               "science": 550,
               "araling-panlipunan": 550,
-              "epp": 2323,
+              "epp": 0,
               "music-and-arts": 500,
               "pe-and-health": 550,
               "mathematics": 550
@@ -36542,8 +36542,8 @@
             "10": 0
           },
           "enrollmentTotal": 2256,
-          "deliveredTotal": 15402,
-          "deliveryPercentage": 682.71
+          "deliveredTotal": 13079,
+          "deliveryPercentage": 579.74
         },
         {
           "id": "mountain-heights-high-school",
