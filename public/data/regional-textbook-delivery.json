@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-24T06:37:10.760Z",
+  "generatedAt": "2026-10-24T06:42:11.570Z",
   "years": [
     "2024",
     "2025",
@@ -453,7 +453,7 @@
           "reading-and-literacy": 50,
           "language": 0,
           "makabansa": 20571,
-          "mathematics": 872
+          "mathematics": 1652
         },
         "3": {
           "gmrc": 626,
@@ -496,18 +496,18 @@
           "mathematics": 9585
         },
         "7": {
-          "ve": 19289,
+          "ve": 20228,
           "english": 20274,
           "filipino": 92,
           "science": 18253,
           "araling-panlipunan": 20767,
           "tle": 23968,
-          "music-and-arts": 22242,
+          "music-and-arts": 22255,
           "pe-and-health": 26696,
           "mathematics": 17483
         },
         "8": {
-          "ve": 18729,
+          "ve": 18734,
           "english": 10349,
           "filipino": 11297,
           "science": 17401,
@@ -515,7 +515,7 @@
           "tle": 15674,
           "music-and-arts": 1257,
           "pe-and-health": 10551,
-          "mathematics": 18426
+          "mathematics": 18431
         },
         "9": {
           "ve": 6326,
@@ -592,7 +592,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 872
+            "2026": 1652
           }
         },
         "3": {
@@ -767,7 +767,7 @@
           "ve": {
             "2024": 0,
             "2025": 2049,
-            "2026": 17240
+            "2026": 18179
           },
           "english": {
             "2024": 798,
@@ -797,7 +797,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 15074,
-            "2026": 7168
+            "2026": 7181
           },
           "pe-and-health": {
             "2024": 6255,
@@ -814,7 +814,7 @@
           "ve": {
             "2024": 0,
             "2025": 10762,
-            "2026": 7967
+            "2026": 7972
           },
           "english": {
             "2024": 0,
@@ -854,7 +854,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 12457,
-            "2026": 5969
+            "2026": 5974
           }
         },
         "9": {
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192738,
-      "deliveredTotal": 798168,
-      "deliveryPercentage": 414.12,
+      "deliveredTotal": 799910,
+      "deliveryPercentage": 415.02,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -4170,7 +4170,7 @@
               "reading-and-literacy": 0,
               "language": 0,
               "makabansa": 780,
-              "mathematics": 0
+              "mathematics": 780
             },
             "3": {
               "gmrc": 0,
@@ -4309,7 +4309,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 780
               }
             },
             "3": {
@@ -4682,8 +4682,8 @@
             "10": 0
           },
           "enrollmentTotal": 4315,
-          "deliveredTotal": 21140,
-          "deliveryPercentage": 489.92
+          "deliveredTotal": 21920,
+          "deliveryPercentage": 508
         },
         {
           "id": "baesa-elementary-school",
@@ -32356,18 +32356,18 @@
               "mathematics": 0
             },
             "7": {
-              "ve": 0,
+              "ve": 939,
               "english": 924,
               "filipino": 0,
               "science": 924,
               "araling-panlipunan": 924,
               "tle": 924,
-              "music-and-arts": 924,
+              "music-and-arts": 937,
               "pe-and-health": 924,
               "mathematics": 924
             },
             "8": {
-              "ve": 738,
+              "ve": 743,
               "english": 743,
               "filipino": 743,
               "science": 743,
@@ -32375,7 +32375,7 @@
               "tle": 743,
               "music-and-arts": 0,
               "pe-and-health": 743,
-              "mathematics": 738
+              "mathematics": 743
             },
             "9": {
               "ve": 729,
@@ -32627,7 +32627,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 939
               },
               "english": {
                 "2024": 0,
@@ -32656,7 +32656,7 @@
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 924,
+                "2025": 937,
                 "2026": 0
               },
               "pe-and-health": {
@@ -32673,7 +32673,7 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 738,
+                "2025": 743,
                 "2026": 0
               },
               "english": {
@@ -32713,7 +32713,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 738,
+                "2025": 743,
                 "2026": 0
               }
             },
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 13891,
-          "deliveryPercentage": 583.17
+          "deliveredTotal": 14853,
+          "deliveryPercentage": 623.55
         },
         {
           "id": "manuel-l-quezon-elementary-school",
