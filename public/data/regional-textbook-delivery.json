@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-24T07:31:56.690Z",
+  "generatedAt": "2026-10-24T07:36:58.139Z",
   "years": [
     "2024",
     "2025",
@@ -497,7 +497,7 @@
         },
         "7": {
           "ve": 20213,
-          "english": 20287,
+          "english": 20274,
           "filipino": 92,
           "science": 18253,
           "araling-panlipunan": 20767,
@@ -772,7 +772,7 @@
           "english": {
             "2024": 798,
             "2025": 13186,
-            "2026": 6303
+            "2026": 6290
           },
           "filipino": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192733,
-      "deliveredTotal": 799496,
-      "deliveryPercentage": 414.82,
+      "deliveredTotal": 799483,
+      "deliveryPercentage": 414.81,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -32357,7 +32357,7 @@
             },
             "7": {
               "ve": 924,
-              "english": 937,
+              "english": 924,
               "filipino": 0,
               "science": 924,
               "araling-panlipunan": 924,
@@ -32631,7 +32631,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 937,
+                "2025": 924,
                 "2026": 0
               },
               "filipino": {
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 16926,
-          "deliveryPercentage": 710.58
+          "deliveredTotal": 16913,
+          "deliveryPercentage": 710.03
         },
         {
           "id": "manuel-l-quezon-elementary-school",
