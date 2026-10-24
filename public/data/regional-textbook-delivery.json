@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-24T07:21:56.890Z",
+  "generatedAt": "2026-10-24T07:27:09.048Z",
   "years": [
     "2024",
     "2025",
@@ -444,9 +444,9 @@
         "1": {
           "gmrc": 20028,
           "reading-and-literacy": 19009,
-          "language": 18950,
+          "language": 19624,
           "makabansa": 21503,
-          "mathematics": 12783
+          "mathematics": 13293
         },
         "2": {
           "gmrc": 10207,
@@ -459,7 +459,7 @@
           "gmrc": 626,
           "reading-and-literacy": 0,
           "language": 400,
-          "makabansa": 12672,
+          "makabansa": 13272,
           "mathematics": 12039
         },
         "4": {
@@ -530,7 +530,7 @@
         },
         "10": {
           "ve": 0,
-          "english": 11187,
+          "english": 11171,
           "filipino": 3708,
           "science": 0,
           "araling-panlipunan": 0,
@@ -555,7 +555,7 @@
           "language": {
             "2024": 2703,
             "2025": 13218,
-            "2026": 3029
+            "2026": 3703
           },
           "makabansa": {
             "2024": 4690,
@@ -565,7 +565,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 12783
+            "2026": 13293
           }
         },
         "2": {
@@ -614,7 +614,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 354,
-            "2026": 12318
+            "2026": 12918
           },
           "mathematics": {
             "2024": 0,
@@ -913,7 +913,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 11187
+            "2026": 11171
           },
           "filipino": {
             "2024": 3708,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192733,
-      "deliveredTotal": 797756,
-      "deliveryPercentage": 413.92,
+      "deliveredTotal": 799524,
+      "deliveryPercentage": 414.84,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -28587,9 +28587,9 @@
             "1": {
               "gmrc": 674,
               "reading-and-literacy": 674,
-              "language": 0,
+              "language": 674,
               "makabansa": 674,
-              "mathematics": 0
+              "mathematics": 510
             },
             "2": {
               "gmrc": 600,
@@ -28602,7 +28602,7 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 500,
+              "makabansa": 600,
               "mathematics": 550
             },
             "4": {
@@ -28697,7 +28697,7 @@
               },
               "language": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 674,
                 "2026": 0
               },
               "makabansa": {
@@ -28708,7 +28708,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 510
               }
             },
             "2": {
@@ -28757,7 +28757,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 600
               },
               "mathematics": {
                 "2024": 0,
@@ -28798,8 +28798,8 @@
               },
               "music-and-arts": {
                 "2024": 0,
-                "2025": 554,
-                "2026": 0
+                "2025": 0,
+                "2026": 554
               },
               "pe-and-health": {
                 "2024": 0,
@@ -28825,8 +28825,8 @@
               },
               "filipino": {
                 "2024": 0,
-                "2025": 560,
-                "2026": 0
+                "2025": 0,
+                "2026": 560
               },
               "science": {
                 "2024": 0,
@@ -29108,8 +29108,8 @@
             "10": 0
           },
           "enrollmentTotal": 2921,
-          "deliveredTotal": 14831,
-          "deliveryPercentage": 507.74
+          "deliveredTotal": 16115,
+          "deliveryPercentage": 551.69
         },
         {
           "id": "lerma-elementary-school",
@@ -32390,7 +32390,7 @@
             },
             "10": {
               "ve": 0,
-              "english": 754,
+              "english": 738,
               "filipino": 896,
               "science": 0,
               "araling-panlipunan": 0,
@@ -32773,7 +32773,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 754
+                "2026": 738
               },
               "filipino": {
                 "2024": 896,
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 16970,
-          "deliveryPercentage": 712.43
+          "deliveredTotal": 16954,
+          "deliveryPercentage": 711.75
         },
         {
           "id": "manuel-l-quezon-elementary-school",
