@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-24T06:42:11.570Z",
+  "generatedAt": "2026-10-24T06:52:10.144Z",
   "years": [
     "2024",
     "2025",
@@ -497,7 +497,7 @@
         },
         "7": {
           "ve": 20228,
-          "english": 20274,
+          "english": 20287,
           "filipino": 92,
           "science": 18253,
           "araling-panlipunan": 20767,
@@ -772,7 +772,7 @@
           "english": {
             "2024": 798,
             "2025": 13186,
-            "2026": 6290
+            "2026": 6303
           },
           "filipino": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192738,
-      "deliveredTotal": 799910,
-      "deliveryPercentage": 415.02,
+      "deliveredTotal": 799923,
+      "deliveryPercentage": 415.03,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -32357,7 +32357,7 @@
             },
             "7": {
               "ve": 939,
-              "english": 924,
+              "english": 937,
               "filipino": 0,
               "science": 924,
               "araling-panlipunan": 924,
@@ -32382,7 +32382,7 @@
               "english": 0,
               "filipino": 749,
               "science": 0,
-              "araling-panlipunan": 0,
+              "araling-panlipunan": 1293,
               "tle": 0,
               "music-and-arts": 0,
               "pe-and-health": 0,
@@ -32391,7 +32391,7 @@
             "10": {
               "ve": 0,
               "english": 754,
-              "filipino": 0,
+              "filipino": 896,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 0,
@@ -32631,7 +32631,7 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 924,
+                "2025": 937,
                 "2026": 0
               },
               "filipino": {
@@ -32739,7 +32739,7 @@
                 "2026": 0
               },
               "araling-panlipunan": {
-                "2024": 0,
+                "2024": 1293,
                 "2025": 0,
                 "2026": 0
               },
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 14853,
-          "deliveryPercentage": 623.55
+          "deliveredTotal": 17055,
+          "deliveryPercentage": 715.99
         },
         {
           "id": "manuel-l-quezon-elementary-school",
