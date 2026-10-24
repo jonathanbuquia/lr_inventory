@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-23T12:37:44.098Z",
+  "generatedAt": "2026-10-24T06:25:02.131Z",
   "years": [
     "2024",
     "2025",
@@ -486,14 +486,14 @@
         },
         "6": {
           "gmrc": 440,
-          "english": 8201,
+          "english": 8441,
           "filipino": 1083,
           "science": 1020,
           "araling-panlipunan": 0,
           "epp": 10695,
           "music-and-arts": 896,
           "pe-and-health": 8976,
-          "mathematics": 9345
+          "mathematics": 9585
         },
         "7": {
           "ve": 19289,
@@ -531,7 +531,7 @@
         "10": {
           "ve": 0,
           "english": 11187,
-          "filipino": 3708,
+          "filipino": 4604,
           "science": 0,
           "araling-panlipunan": 0,
           "tle": 0,
@@ -725,7 +725,7 @@
           "english": {
             "2024": 0,
             "2025": 620,
-            "2026": 7581
+            "2026": 7821
           },
           "filipino": {
             "2024": 0,
@@ -760,7 +760,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 270,
-            "2026": 9075
+            "2026": 9315
           }
         },
         "7": {
@@ -918,7 +918,7 @@
           "filipino": {
             "2024": 3708,
             "2025": 0,
-            "2026": 0
+            "2026": 896
           },
           "science": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 192738,
-      "deliveredTotal": 793063,
-      "deliveryPercentage": 411.47,
+      "deliveredTotal": 794439,
+      "deliveryPercentage": 412.19,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -18540,14 +18540,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 240,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
               "epp": 240,
               "music-and-arts": 0,
               "pe-and-health": 240,
-              "mathematics": 0
+              "mathematics": 240
             },
             "7": {
               "ve": 0,
@@ -18779,7 +18779,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 240
               },
               "filipino": {
                 "2024": 0,
@@ -18814,7 +18814,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 240
               }
             },
             "7": {
@@ -19019,8 +19019,8 @@
             "10": 0
           },
           "enrollmentTotal": 1192,
-          "deliveredTotal": 6721,
-          "deliveryPercentage": 563.84
+          "deliveredTotal": 7201,
+          "deliveryPercentage": 604.11
         },
         {
           "id": "cielito-zamora-junior-high-school",
@@ -32391,7 +32391,7 @@
             "10": {
               "ve": 0,
               "english": 754,
-              "filipino": 0,
+              "filipino": 896,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 0,
@@ -32778,7 +32778,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 896
               },
               "science": {
                 "2024": 0,
@@ -32825,8 +32825,8 @@
             "10": 550
           },
           "enrollmentTotal": 2382,
-          "deliveredTotal": 10927,
-          "deliveryPercentage": 458.73
+          "deliveredTotal": 11823,
+          "deliveryPercentage": 496.35
         },
         {
           "id": "manuel-l-quezon-elementary-school",
