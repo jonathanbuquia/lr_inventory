@@ -69,7 +69,7 @@
       "Surplus-TX": 73,
       "Enrolment S.Y. 2026-2027": 238,
       "Quantity of Textbooks Received S.Y. 2026-2027": 317,
-      "Year of Delivery-TX S.Y. 2026-2027": 2024,
+      "Year of Delivery-TX S.Y. 2026-2027": 2025,
       "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 79
@@ -212,11 +212,11 @@
       "GAP-TX": 274,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 247,
-      "Quantity of Textbooks Received S.Y. 2026-2027": "",
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 247,
-      "Surplus-TX S.Y. 2026-2027": 0
+      "Quantity of Textbooks Received S.Y. 2026-2027": 286,
+      "Year of Delivery-TX S.Y. 2026-2027": 2026,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
+      "GAP-TX S.Y. 2026-2027": 0,
+      "Surplus-TX S.Y. 2026-2027": 39
     },
     {
       "Grade Level": 3,
@@ -644,11 +644,11 @@
       "GAP-TX": 254,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 265,
-      "Quantity of Textbooks Received S.Y. 2026-2027": 0,
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 265,
-      "Surplus-TX S.Y. 2026-2027": 0
+      "Quantity of Textbooks Received S.Y. 2026-2027": 302,
+      "Year of Delivery-TX S.Y. 2026-2027": 2026,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
+      "GAP-TX S.Y. 2026-2027": 0,
+      "Surplus-TX S.Y. 2026-2027": 37
     },
     {
       "Grade Level": 6,
@@ -676,11 +676,11 @@
       "GAP-TX": 254,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 265,
-      "Quantity of Textbooks Received S.Y. 2026-2027": 0,
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 265,
-      "Surplus-TX S.Y. 2026-2027": 0
+      "Quantity of Textbooks Received S.Y. 2026-2027": 302,
+      "Year of Delivery-TX S.Y. 2026-2027": 2026,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
+      "GAP-TX S.Y. 2026-2027": 0,
+      "Surplus-TX S.Y. 2026-2027": 37
     },
     {
       "Grade Level": 6,
@@ -724,11 +724,11 @@
       "GAP-TX": 254,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 265,
-      "Quantity of Textbooks Received S.Y. 2026-2027": 0,
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 265,
-      "Surplus-TX S.Y. 2026-2027": 0
+      "Quantity of Textbooks Received S.Y. 2026-2027": 302,
+      "Year of Delivery-TX S.Y. 2026-2027": 2026,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
+      "GAP-TX S.Y. 2026-2027": 0,
+      "Surplus-TX S.Y. 2026-2027": 37
     },
     {
       "Grade Level": 6,
@@ -756,11 +756,11 @@
       "GAP-TX": 254,
       "Surplus-TX": 0,
       "Enrolment S.Y. 2026-2027": 265,
-      "Quantity of Textbooks Received S.Y. 2026-2027": 0,
-      "Year of Delivery-TX S.Y. 2026-2027": "",
-      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "",
-      "GAP-TX S.Y. 2026-2027": 265,
-      "Surplus-TX S.Y. 2026-2027": 0
+      "Quantity of Textbooks Received S.Y. 2026-2027": 302,
+      "Year of Delivery-TX S.Y. 2026-2027": 2026,
+      "SOURCE-TX (CO,RO, SDO) S.Y. 2026-2027": "CO",
+      "GAP-TX S.Y. 2026-2027": 0,
+      "Surplus-TX S.Y. 2026-2027": 37
     },
     {
       "Grade Level": 6,
@@ -779,5 +779,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-09-30T05:27:05.047Z"
+  "generatedAt": "2026-10-30T00:47:34.451Z"
 }

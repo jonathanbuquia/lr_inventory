@@ -718,11 +718,11 @@
       "Grade Level": 6,
       "SUBJECTS": "Science",
       "Enrolment S.Y. 2025-2026": 199,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 199,
-      "Surplus-TX": 0,
+      "Quantity of Textbooks Received": 300,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 101,
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -1246,11 +1246,11 @@
       "Grade Level": 9,
       "SUBJECTS": "Music and Arts",
       "Enrolment S.Y. 2025-2026": 309,
-      "Quantity of Textbooks Received": "",
-      "Year of Delivery-TX": "",
-      "SOURCE-TX (CO,RO, SDO)": "",
-      "GAP-TX": 309,
-      "Surplus-TX": 0,
+      "Quantity of Textbooks Received": 388,
+      "Year of Delivery-TX": 2026,
+      "SOURCE-TX (CO,RO, SDO)": "CO",
+      "GAP-TX": 0,
+      "Surplus-TX": 79,
       "Enrolment S.Y. 2026-2027": "",
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX S.Y. 2026-2027": "",
@@ -1563,5 +1563,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-10-18T05:31:38.630Z"
+  "generatedAt": "2026-10-30T00:46:45.263Z"
 }
