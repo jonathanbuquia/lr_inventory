@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-30T00:47:36.489Z",
+  "generatedAt": "2026-10-30T01:12:20.724Z",
   "years": [
     "2024",
     "2025",
@@ -509,12 +509,12 @@
         "8": {
           "ve": 18729,
           "english": 10344,
-          "filipino": 11292,
+          "filipino": 11493,
           "science": 17396,
           "araling-panlipunan": 1084,
           "tle": 15669,
           "music-and-arts": 1257,
-          "pe-and-health": 10546,
+          "pe-and-health": 10747,
           "mathematics": 18426
         },
         "9": {
@@ -824,7 +824,7 @@
           "filipino": {
             "2024": 0,
             "2025": 1029,
-            "2026": 10263
+            "2026": 10464
           },
           "science": {
             "2024": 0,
@@ -849,7 +849,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 1029,
-            "2026": 9517
+            "2026": 9718
           },
           "mathematics": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 194084,
-      "deliveredTotal": 804954,
-      "deliveryPercentage": 414.75,
+      "deliveredTotal": 805356,
+      "deliveryPercentage": 414.95,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -13784,12 +13784,12 @@
             "8": {
               "ve": 201,
               "english": 0,
-              "filipino": 0,
+              "filipino": 201,
               "science": 201,
               "araling-panlipunan": 0,
               "tle": 201,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 201,
               "mathematics": 201
             },
             "9": {
@@ -14099,7 +14099,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 201
               },
               "science": {
                 "2024": 0,
@@ -14124,7 +14124,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 201
               },
               "mathematics": {
                 "2024": 0,
@@ -14240,8 +14240,8 @@
             "10": 157
           },
           "enrollmentTotal": 614,
-          "deliveredTotal": 2196,
-          "deliveryPercentage": 357.65
+          "deliveredTotal": 2598,
+          "deliveryPercentage": 423.13
         },
         {
           "id": "caloocan-north-elementary-school",
