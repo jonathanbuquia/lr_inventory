@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-10-30T01:12:20.724Z",
+  "generatedAt": "2026-10-30T01:27:13.726Z",
   "years": [
     "2024",
     "2025",
@@ -508,7 +508,7 @@
         },
         "8": {
           "ve": 18729,
-          "english": 10344,
+          "english": 10545,
           "filipino": 11493,
           "science": 17396,
           "araling-panlipunan": 1084,
@@ -518,19 +518,19 @@
           "mathematics": 18426
         },
         "9": {
-          "ve": 6311,
+          "ve": 6489,
           "english": 86,
-          "filipino": 10459,
+          "filipino": 10637,
           "science": 69,
           "araling-panlipunan": 82,
           "tle": 0,
-          "music-and-arts": 72,
+          "music-and-arts": 250,
           "pe-and-health": 85,
           "mathematics": 80
         },
         "10": {
           "ve": 0,
-          "english": 11171,
+          "english": 11307,
           "filipino": 3708,
           "science": 0,
           "araling-panlipunan": 0,
@@ -819,7 +819,7 @@
           "english": {
             "2024": 0,
             "2025": 1029,
-            "2026": 9315
+            "2026": 9516
           },
           "filipino": {
             "2024": 0,
@@ -861,7 +861,7 @@
           "ve": {
             "2024": 0,
             "2025": 0,
-            "2026": 6311
+            "2026": 6489
           },
           "english": {
             "2024": 0,
@@ -871,7 +871,7 @@
           "filipino": {
             "2024": 4734,
             "2025": 0,
-            "2026": 5725
+            "2026": 5903
           },
           "science": {
             "2024": 0,
@@ -891,7 +891,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 72
+            "2026": 250
           },
           "pe-and-health": {
             "2024": 0,
@@ -913,7 +913,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 11171
+            "2026": 11307
           },
           "filipino": {
             "2024": 3708,
@@ -965,8 +965,8 @@
         "10": 17620
       },
       "enrollmentTotal": 194084,
-      "deliveredTotal": 805356,
-      "deliveryPercentage": 414.95,
+      "deliveredTotal": 806227,
+      "deliveryPercentage": 415.4,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -13783,7 +13783,7 @@
             },
             "8": {
               "ve": 201,
-              "english": 0,
+              "english": 201,
               "filipino": 201,
               "science": 201,
               "araling-panlipunan": 0,
@@ -13793,19 +13793,19 @@
               "mathematics": 201
             },
             "9": {
-              "ve": 0,
+              "ve": 178,
               "english": 0,
-              "filipino": 0,
+              "filipino": 178,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 178,
               "pe-and-health": 0,
               "mathematics": 0
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 136,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -14094,7 +14094,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 201
               },
               "filipino": {
                 "2024": 0,
@@ -14136,7 +14136,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 178
               },
               "english": {
                 "2024": 0,
@@ -14146,7 +14146,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 178
               },
               "science": {
                 "2024": 0,
@@ -14166,7 +14166,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 178
               },
               "pe-and-health": {
                 "2024": 0,
@@ -14188,7 +14188,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 136
               },
               "filipino": {
                 "2024": 0,
@@ -14240,8 +14240,8 @@
             "10": 157
           },
           "enrollmentTotal": 614,
-          "deliveredTotal": 2598,
-          "deliveryPercentage": 423.13
+          "deliveredTotal": 3469,
+          "deliveryPercentage": 564.98
         },
         {
           "id": "caloocan-north-elementary-school",
