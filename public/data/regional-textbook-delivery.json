@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-06T07:11:59.638Z",
+  "generatedAt": "2026-11-06T08:27:11.835Z",
   "years": [
     "2024",
     "2025",
@@ -488,7 +488,7 @@
           "gmrc": 440,
           "english": 12077,
           "filipino": 1083,
-          "science": 3920,
+          "science": 4291,
           "araling-panlipunan": 0,
           "epp": 13440,
           "music-and-arts": 896,
@@ -735,7 +735,7 @@
           "science": {
             "2024": 0,
             "2025": 522,
-            "2026": 3398
+            "2026": 3769
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -965,8 +965,8 @@
         "10": 17531
       },
       "enrollmentTotal": 195918,
-      "deliveredTotal": 831748,
-      "deliveryPercentage": 424.54,
+      "deliveredTotal": 832119,
+      "deliveryPercentage": 424.73,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -24914,7 +24914,7 @@
               "gmrc": 0,
               "english": 371,
               "filipino": 0,
-              "science": 0,
+              "science": 371,
               "araling-panlipunan": 0,
               "epp": 371,
               "music-and-arts": 0,
@@ -25161,7 +25161,7 @@
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 371
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -25391,8 +25391,8 @@
             "10": 0
           },
           "enrollmentTotal": 1781,
-          "deliveredTotal": 10019,
-          "deliveryPercentage": 562.55
+          "deliveredTotal": 10390,
+          "deliveryPercentage": 583.38
         },
         {
           "id": "horacio-dela-costa-elementary-school",
