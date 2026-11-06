@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-06T06:09:20.527Z",
+  "generatedAt": "2026-11-06T06:12:23.856Z",
   "years": [
     "2024",
     "2025",
@@ -83350,23 +83350,23 @@
         },
         "8": {
           "ve": 5084,
-          "english": 1835,
-          "filipino": 1818,
-          "science": 5027,
+          "english": 1892,
+          "filipino": 1875,
+          "science": 5084,
           "araling-panlipunan": 70,
           "tle": 5085,
           "music-and-arts": 270,
-          "pe-and-health": 940,
+          "pe-and-health": 997,
           "mathematics": 5084
         },
         "9": {
-          "ve": 817,
+          "ve": 874,
           "english": 0,
-          "filipino": 553,
+          "filipino": 610,
           "science": 0,
           "araling-panlipunan": 224,
           "tle": 0,
-          "music-and-arts": 553,
+          "music-and-arts": 610,
           "pe-and-health": 140,
           "mathematics": 150
         },
@@ -83661,17 +83661,17 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 1835
+            "2026": 1892
           },
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 1818
+            "2026": 1875
           },
           "science": {
             "2024": 0,
             "2025": 261,
-            "2026": 4766
+            "2026": 4823
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -83691,7 +83691,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 940
+            "2026": 997
           },
           "mathematics": {
             "2024": 0,
@@ -83703,7 +83703,7 @@
           "ve": {
             "2024": 0,
             "2025": 0,
-            "2026": 817
+            "2026": 874
           },
           "english": {
             "2024": 0,
@@ -83713,7 +83713,7 @@
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 553
+            "2026": 610
           },
           "science": {
             "2024": 0,
@@ -83733,7 +83733,7 @@
           "music-and-arts": {
             "2024": 0,
             "2025": 0,
-            "2026": 553
+            "2026": 610
           },
           "pe-and-health": {
             "2024": 0,
@@ -83801,14 +83801,14 @@
         "4": 6643,
         "5": 6197,
         "6": 5938,
-        "7": 5936,
-        "8": 5314,
-        "9": 4615,
-        "10": 4439
+        "7": 5836,
+        "8": 5347,
+        "9": 4629,
+        "10": 4446
       },
-      "enrollmentTotal": 57895,
-      "deliveredTotal": 230764,
-      "deliveryPercentage": 398.59,
+      "enrollmentTotal": 57849,
+      "deliveredTotal": 231163,
+      "deliveryPercentage": 399.6,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -92908,29 +92908,29 @@
             },
             "8": {
               "ve": 57,
-              "english": 0,
-              "filipino": 0,
-              "science": 0,
+              "english": 57,
+              "filipino": 57,
+              "science": 57,
               "araling-panlipunan": 0,
               "tle": 57,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 57,
               "mathematics": 57
             },
             "9": {
-              "ve": 0,
+              "ve": 57,
               "english": 0,
-              "filipino": 0,
+              "filipino": 57,
               "science": 0,
               "araling-panlipunan": 0,
               "tle": 0,
-              "music-and-arts": 0,
+              "music-and-arts": 57,
               "pe-and-health": 0,
               "mathematics": 0
             },
             "10": {
               "ve": 0,
-              "english": 0,
+              "english": 45,
               "filipino": 0,
               "science": 0,
               "araling-panlipunan": 0,
@@ -93219,17 +93219,17 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 57
               },
               "filipino": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 57,
                 "2026": 0
               },
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 57
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -93249,7 +93249,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 57
               },
               "mathematics": {
                 "2024": 0,
@@ -93261,7 +93261,7 @@
               "ve": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 57
               },
               "english": {
                 "2024": 0,
@@ -93271,7 +93271,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 57
               },
               "science": {
                 "2024": 0,
@@ -93291,7 +93291,7 @@
               "music-and-arts": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 57
               },
               "pe-and-health": {
                 "2024": 0,
@@ -93359,14 +93359,14 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 120,
-            "8": 80,
-            "9": 63,
-            "10": 54
+            "7": 20,
+            "8": 113,
+            "9": 77,
+            "10": 61
           },
-          "enrollmentTotal": 317,
-          "deliveredTotal": 675,
-          "deliveryPercentage": 212.93
+          "enrollmentTotal": 271,
+          "deliveredTotal": 1119,
+          "deliveryPercentage": 412.92
         },
         {
           "id": "malabon-city-techvoc-and-entrepreneurship-senior-high-school",
