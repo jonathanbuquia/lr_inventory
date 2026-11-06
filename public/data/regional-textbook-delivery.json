@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-06T06:32:13.886Z",
+  "generatedAt": "2026-11-06T06:37:30.611Z",
   "years": [
     "2024",
     "2025",
@@ -83338,10 +83338,10 @@
           "mathematics": 1172
         },
         "7": {
-          "ve": 5424,
+          "ve": 5297,
           "english": 5614,
           "filipino": 0,
-          "science": 5891,
+          "science": 5941,
           "araling-panlipunan": 5424,
           "tle": 5928,
           "music-and-arts": 5446,
@@ -83353,7 +83353,7 @@
           "english": 1892,
           "filipino": 1875,
           "science": 4664,
-          "araling-panlipunan": 70,
+          "araling-panlipunan": 0,
           "tle": 4665,
           "music-and-arts": 270,
           "pe-and-health": 997,
@@ -83609,7 +83609,7 @@
           "ve": {
             "2024": 63,
             "2025": 1225,
-            "2026": 4136
+            "2026": 4009
           },
           "english": {
             "2024": 0,
@@ -83624,7 +83624,7 @@
           "science": {
             "2024": 4817,
             "2025": 1074,
-            "2026": 0
+            "2026": 50
           },
           "araling-panlipunan": {
             "2024": 120,
@@ -83676,7 +83676,7 @@
           "araling-panlipunan": {
             "2024": 0,
             "2025": 0,
-            "2026": 70
+            "2026": 0
           },
           "tle": {
             "2024": 0,
@@ -83807,8 +83807,8 @@
         "10": 4072
       },
       "enrollmentTotal": 56219,
-      "deliveredTotal": 229265,
-      "deliveryPercentage": 407.81,
+      "deliveredTotal": 229118,
+      "deliveryPercentage": 407.55,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -102985,10 +102985,10 @@
               "mathematics": 0
             },
             "7": {
-              "ve": 177,
-              "english": 177,
+              "ve": 50,
+              "english": 50,
               "filipino": 0,
-              "science": 177,
+              "science": 50,
               "araling-panlipunan": 177,
               "tle": 177,
               "music-and-arts": 177,
@@ -102996,15 +102996,15 @@
               "mathematics": 177
             },
             "8": {
-              "ve": 176,
+              "ve": 70,
               "english": 0,
               "filipino": 0,
               "science": 176,
-              "araling-panlipunan": 70,
+              "araling-panlipunan": 0,
               "tle": 177,
               "music-and-arts": 0,
               "pe-and-health": 0,
-              "mathematics": 176
+              "mathematics": 50
             },
             "9": {
               "ve": 0,
@@ -103255,12 +103255,12 @@
             "7": {
               "ve": {
                 "2024": 0,
-                "2025": 0,
-                "2026": 177
+                "2025": 50,
+                "2026": 0
               },
               "english": {
                 "2024": 0,
-                "2025": 177,
+                "2025": 50,
                 "2026": 0
               },
               "filipino": {
@@ -103269,8 +103269,8 @@
                 "2026": 0
               },
               "science": {
-                "2024": 177,
-                "2025": 0,
+                "2024": 0,
+                "2025": 50,
                 "2026": 0
               },
               "araling-panlipunan": {
@@ -103302,7 +103302,7 @@
             "8": {
               "ve": {
                 "2024": 0,
-                "2025": 176,
+                "2025": 70,
                 "2026": 0
               },
               "english": {
@@ -103322,7 +103322,7 @@
               },
               "araling-panlipunan": {
                 "2024": 0,
-                "2025": 70,
+                "2025": 0,
                 "2026": 0
               },
               "tle": {
@@ -103342,7 +103342,7 @@
               },
               "mathematics": {
                 "2024": 0,
-                "2025": 176,
+                "2025": 50,
                 "2026": 0
               }
             },
@@ -103454,8 +103454,8 @@
             "10": 153
           },
           "enrollmentTotal": 562,
-          "deliveredTotal": 2191,
-          "deliveryPercentage": 389.86
+          "deliveredTotal": 1508,
+          "deliveryPercentage": 268.33
         },
         {
           "id": "tinajeros-elementary-school",
