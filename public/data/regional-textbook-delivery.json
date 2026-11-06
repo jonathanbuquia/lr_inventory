@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-06T06:37:30.611Z",
+  "generatedAt": "2026-11-06T06:42:18.124Z",
   "years": [
     "2024",
     "2025",
@@ -83288,21 +83288,21 @@
           "reading-and-literacy": 8194,
           "language": 7339,
           "makabansa": 8251,
-          "mathematics": 2991
+          "mathematics": 3174
         },
         "2": {
           "gmrc": 1651,
           "reading-and-literacy": 197,
           "language": 841,
-          "makabansa": 5420,
+          "makabansa": 5539,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
           "reading-and-literacy": 1265,
           "language": 1607,
-          "makabansa": 3257,
-          "mathematics": 3257
+          "makabansa": 3440,
+          "mathematics": 3440
         },
         "4": {
           "gmrc": 8341,
@@ -83317,8 +83317,8 @@
         },
         "5": {
           "gmrc": 1657,
-          "english": 3349,
-          "filipino": 2994,
+          "english": 3476,
+          "filipino": 3121,
           "science": 8163,
           "araling-panlipunan": 7785,
           "epp": 7135,
@@ -83407,7 +83407,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 2991
+            "2026": 3174
           }
         },
         "2": {
@@ -83429,7 +83429,7 @@
           "makabansa": {
             "2024": 0,
             "2025": 1166,
-            "2026": 4254
+            "2026": 4373
           },
           "mathematics": {
             "2024": 0,
@@ -83456,12 +83456,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 0,
-            "2026": 3257
+            "2026": 3440
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 3257
+            "2026": 3440
           }
         },
         "4": {
@@ -83520,12 +83520,12 @@
           "english": {
             "2024": 0,
             "2025": 595,
-            "2026": 2754
+            "2026": 2881
           },
           "filipino": {
             "2024": 0,
             "2025": 0,
-            "2026": 2994
+            "2026": 3121
           },
           "science": {
             "2024": 0,
@@ -83807,8 +83807,8 @@
         "10": 4072
       },
       "enrollmentTotal": 56219,
-      "deliveredTotal": 229118,
-      "deliveryPercentage": 407.55,
+      "deliveredTotal": 230040,
+      "deliveryPercentage": 409.19,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -94970,21 +94970,21 @@
               "reading-and-literacy": 170,
               "language": 170,
               "makabansa": 179,
-              "mathematics": 0
+              "mathematics": 183
             },
             "2": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
+              "makabansa": 119,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 183,
+              "mathematics": 183
             },
             "4": {
               "gmrc": 148,
@@ -94999,8 +94999,8 @@
             },
             "5": {
               "gmrc": 0,
-              "english": 0,
-              "filipino": 0,
+              "english": 127,
+              "filipino": 127,
               "science": 127,
               "araling-panlipunan": 127,
               "epp": 127,
@@ -95089,7 +95089,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 183
               }
             },
             "2": {
@@ -95111,7 +95111,7 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 119
               },
               "mathematics": {
                 "2024": 0,
@@ -95138,12 +95138,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 183
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 183
               }
             },
             "4": {
@@ -95201,13 +95201,13 @@
               },
               "english": {
                 "2024": 0,
-                "2025": 0,
+                "2025": 127,
                 "2026": 0
               },
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 127
               },
               "science": {
                 "2024": 0,
@@ -95489,8 +95489,8 @@
             "10": 0
           },
           "enrollmentTotal": 636,
-          "deliveredTotal": 2233,
-          "deliveryPercentage": 351.1
+          "deliveredTotal": 3155,
+          "deliveryPercentage": 496.07
         },
         {
           "id": "ninoy-aquino-elementary-school",
