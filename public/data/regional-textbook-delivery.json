@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-07T02:27:09.316Z",
+  "generatedAt": "2026-11-07T06:08:24.044Z",
   "years": [
     "2024",
     "2025",
@@ -459,8 +459,8 @@
           "gmrc": 106,
           "reading-and-literacy": 0,
           "language": 400,
-          "makabansa": 15162,
-          "mathematics": 13929
+          "makabansa": 16047,
+          "mathematics": 14814
         },
         "4": {
           "gmrc": 21169,
@@ -614,12 +614,12 @@
           "makabansa": {
             "2024": 0,
             "2025": 354,
-            "2026": 14808
+            "2026": 15693
           },
           "mathematics": {
             "2024": 0,
             "2025": 370,
-            "2026": 13559
+            "2026": 14444
           }
         },
         "4": {
@@ -965,8 +965,8 @@
         "10": 17531
       },
       "enrollmentTotal": 195918,
-      "deliveredTotal": 832994,
-      "deliveryPercentage": 425.17,
+      "deliveredTotal": 834764,
+      "deliveryPercentage": 426.08,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -42939,8 +42939,8 @@
               "gmrc": 0,
               "reading-and-literacy": 0,
               "language": 0,
-              "makabansa": 0,
-              "mathematics": 0
+              "makabansa": 885,
+              "mathematics": 885
             },
             "4": {
               "gmrc": 800,
@@ -43094,12 +43094,12 @@
               "makabansa": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 885
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 885
               }
             },
             "4": {
@@ -43445,8 +43445,8 @@
             "10": 0
           },
           "enrollmentTotal": 4736,
-          "deliveredTotal": 21940,
-          "deliveryPercentage": 463.26
+          "deliveredTotal": 23710,
+          "deliveryPercentage": 500.63
         },
         {
           "id": "sta-quiteria-elementary-school",
