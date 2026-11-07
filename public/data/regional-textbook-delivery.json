@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-06T08:41:59.136Z",
+  "generatedAt": "2026-11-07T02:27:09.316Z",
   "years": [
     "2024",
     "2025",
@@ -486,14 +486,14 @@
         },
         "6": {
           "gmrc": 440,
-          "english": 12077,
+          "english": 12252,
           "filipino": 1083,
-          "science": 4291,
+          "science": 4466,
           "araling-panlipunan": 0,
-          "epp": 13440,
+          "epp": 13615,
           "music-and-arts": 896,
-          "pe-and-health": 11721,
-          "mathematics": 12890
+          "pe-and-health": 11896,
+          "mathematics": 13065
         },
         "7": {
           "ve": 20213,
@@ -725,7 +725,7 @@
           "english": {
             "2024": 0,
             "2025": 620,
-            "2026": 11457
+            "2026": 11632
           },
           "filipino": {
             "2024": 0,
@@ -735,7 +735,7 @@
           "science": {
             "2024": 0,
             "2025": 522,
-            "2026": 3769
+            "2026": 3944
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -745,7 +745,7 @@
           "epp": {
             "2024": 0,
             "2025": 295,
-            "2026": 13145
+            "2026": 13320
           },
           "music-and-arts": {
             "2024": 0,
@@ -755,12 +755,12 @@
           "pe-and-health": {
             "2024": 620,
             "2025": 0,
-            "2026": 11101
+            "2026": 11276
           },
           "mathematics": {
             "2024": 0,
             "2025": 270,
-            "2026": 12620
+            "2026": 12795
           }
         },
         "7": {
@@ -965,8 +965,8 @@
         "10": 17531
       },
       "enrollmentTotal": 195918,
-      "deliveredTotal": 832119,
-      "deliveryPercentage": 424.73,
+      "deliveredTotal": 832994,
+      "deliveryPercentage": 425.17,
       "schools": [
         {
           "id": "amparo-elementary-school",
@@ -42966,14 +42966,14 @@
             },
             "6": {
               "gmrc": 0,
-              "english": 715,
+              "english": 890,
               "filipino": 0,
-              "science": 715,
+              "science": 890,
               "araling-panlipunan": 0,
-              "epp": 715,
+              "epp": 890,
               "music-and-arts": 0,
-              "pe-and-health": 715,
-              "mathematics": 715
+              "pe-and-health": 890,
+              "mathematics": 890
             },
             "7": {
               "ve": 0,
@@ -43205,7 +43205,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 715
+                "2026": 890
               },
               "filipino": {
                 "2024": 0,
@@ -43215,7 +43215,7 @@
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 715
+                "2026": 890
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -43225,7 +43225,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 715
+                "2026": 890
               },
               "music-and-arts": {
                 "2024": 0,
@@ -43235,12 +43235,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 715
+                "2026": 890
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 715
+                "2026": 890
               }
             },
             "7": {
@@ -43445,8 +43445,8 @@
             "10": 0
           },
           "enrollmentTotal": 4736,
-          "deliveredTotal": 21065,
-          "deliveryPercentage": 444.78
+          "deliveredTotal": 21940,
+          "deliveryPercentage": 463.26
         },
         {
           "id": "sta-quiteria-elementary-school",
