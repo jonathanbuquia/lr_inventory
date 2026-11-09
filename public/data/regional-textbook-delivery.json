@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-09T11:42:31.825Z",
+  "generatedAt": "2026-11-09T11:52:28.361Z",
   "years": [
     "2024",
     "2025",
@@ -83292,14 +83292,14 @@
         },
         "2": {
           "gmrc": 2682,
-          "reading-and-literacy": 647,
+          "reading-and-literacy": 697,
           "language": 1263,
           "makabansa": 5516,
           "mathematics": 0
         },
         "3": {
           "gmrc": 0,
-          "reading-and-literacy": 1775,
+          "reading-and-literacy": 1825,
           "language": 2117,
           "makabansa": 3674,
           "mathematics": 3674
@@ -83324,15 +83324,15 @@
           "epp": 7145,
           "music-and-arts": 180,
           "pe-and-health": 7699,
-          "mathematics": 436
+          "mathematics": 486
         },
         "6": {
           "gmrc": 0,
-          "english": 1946,
+          "english": 1996,
           "filipino": 0,
-          "science": 954,
+          "science": 1004,
           "araling-panlipunan": 0,
-          "epp": 2205,
+          "epp": 2255,
           "music-and-arts": 0,
           "pe-and-health": 2206,
           "mathematics": 2145
@@ -83419,7 +83419,7 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 647
+            "2026": 697
           },
           "language": {
             "2024": 0,
@@ -83446,7 +83446,7 @@
           "reading-and-literacy": {
             "2024": 0,
             "2025": 0,
-            "2026": 1775
+            "2026": 1825
           },
           "language": {
             "2024": 0,
@@ -83555,7 +83555,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 436
+            "2026": 486
           }
         },
         "6": {
@@ -83567,7 +83567,7 @@
           "english": {
             "2024": 0,
             "2025": 0,
-            "2026": 1946
+            "2026": 1996
           },
           "filipino": {
             "2024": 0,
@@ -83577,7 +83577,7 @@
           "science": {
             "2024": 0,
             "2025": 0,
-            "2026": 954
+            "2026": 1004
           },
           "araling-panlipunan": {
             "2024": 0,
@@ -83587,7 +83587,7 @@
           "epp": {
             "2024": 0,
             "2025": 0,
-            "2026": 2205
+            "2026": 2255
           },
           "music-and-arts": {
             "2024": 0,
@@ -83795,20 +83795,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 5889,
-        "2": 6204,
-        "3": 6771,
-        "4": 6664,
-        "5": 6163,
-        "6": 5933,
+        "1": 5890,
+        "2": 6203,
+        "3": 6773,
+        "4": 6667,
+        "5": 6164,
+        "6": 5926,
         "7": 5713,
         "8": 5446,
         "9": 4626,
         "10": 4404
       },
-      "enrollmentTotal": 57813,
-      "deliveredTotal": 238996,
-      "deliveryPercentage": 413.39,
+      "enrollmentTotal": 57812,
+      "deliveredTotal": 239296,
+      "deliveryPercentage": 413.92,
       "schools": [
         {
           "id": "acacia-elementary-school",
@@ -90195,14 +90195,14 @@
             },
             "2": {
               "gmrc": 50,
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 50,
               "language": 0,
               "makabansa": 50,
               "mathematics": 0
             },
             "3": {
               "gmrc": 0,
-              "reading-and-literacy": 0,
+              "reading-and-literacy": 50,
               "language": 0,
               "makabansa": 50,
               "mathematics": 50
@@ -90227,15 +90227,15 @@
               "epp": 50,
               "music-and-arts": 0,
               "pe-and-health": 50,
-              "mathematics": 0
+              "mathematics": 50
             },
             "6": {
               "gmrc": 0,
-              "english": 0,
+              "english": 50,
               "filipino": 0,
-              "science": 0,
+              "science": 50,
               "araling-panlipunan": 0,
-              "epp": 0,
+              "epp": 50,
               "music-and-arts": 0,
               "pe-and-health": 50,
               "mathematics": 50
@@ -90322,7 +90322,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 50
               },
               "language": {
                 "2024": 0,
@@ -90349,7 +90349,7 @@
               "reading-and-literacy": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 50
               },
               "language": {
                 "2024": 0,
@@ -90458,7 +90458,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 50
               }
             },
             "6": {
@@ -90470,7 +90470,7 @@
               "english": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 50
               },
               "filipino": {
                 "2024": 0,
@@ -90480,7 +90480,7 @@
               "science": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 50
               },
               "araling-panlipunan": {
                 "2024": 0,
@@ -90490,7 +90490,7 @@
               "epp": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 50
               },
               "music-and-arts": {
                 "2024": 0,
@@ -90698,20 +90698,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 21,
-            "2": 16,
-            "3": 24,
-            "4": 26,
-            "5": 25,
-            "6": 26,
+            "1": 22,
+            "2": 15,
+            "3": 26,
+            "4": 29,
+            "5": 26,
+            "6": 19,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 138,
-          "deliveredTotal": 1672,
-          "deliveryPercentage": 1211.59
+          "enrollmentTotal": 137,
+          "deliveredTotal": 1972,
+          "deliveryPercentage": 1439.42
         },
         {
           "id": "imelda-elementary-school",
