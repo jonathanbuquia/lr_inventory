@@ -755,7 +755,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX2": "",
       "SOURCE-TX (CO,RO, SDO)3": "",
-      "GAP-TX4": "",
+      "GAP-TX4": 412,
       "Surplus-TX5": 0,
       "GAP-TX S.Y. 2026-2027": 412,
       "Surplus-TX S.Y. 2026-2027": 0
@@ -774,7 +774,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2024,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -793,7 +793,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2026,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -812,7 +812,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2025,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -831,7 +831,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2024,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -850,7 +850,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2025,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -869,7 +869,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2025,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -888,7 +888,7 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": 504,
       "Year of Delivery-TX2": 2025,
       "SOURCE-TX (CO,RO, SDO)3": "CO",
-      "GAP-TX4": "",
+      "GAP-TX4": 0,
       "Surplus-TX5": 92,
       "GAP-TX S.Y. 2026-2027": 0,
       "Surplus-TX S.Y. 2026-2027": 92
@@ -1211,8 +1211,8 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX2": "",
       "SOURCE-TX (CO,RO, SDO)3": "",
-      "GAP-TX4": "",
-      "Surplus-TX5": "",
+      "GAP-TX4": 370,
+      "Surplus-TX5": 0,
       "GAP-TX S.Y. 2026-2027": 380,
       "Surplus-TX S.Y. 2026-2027": 0
     },
@@ -1420,8 +1420,8 @@
       "Quantity of Textbooks Received S.Y. 2026-2027": "",
       "Year of Delivery-TX2": "",
       "SOURCE-TX (CO,RO, SDO)3": "",
-      "GAP-TX4": "",
-      "Surplus-TX5": "",
+      "GAP-TX4": 336,
+      "Surplus-TX5": 0,
       "GAP-TX S.Y. 2026-2027": 336,
       "Surplus-TX S.Y. 2026-2027": 0
     },
@@ -1445,5 +1445,5 @@
       "Surplus-TX S.Y. 2026-2027": 0
     }
   ],
-  "generatedAt": "2026-11-09T11:41:37.786Z"
+  "generatedAt": "2026-11-13T05:40:37.064Z"
 }
