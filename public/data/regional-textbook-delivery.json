@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-13T05:41:54.972Z",
+  "generatedAt": "2026-11-21T02:23:06.657Z",
   "years": [
     "2024",
     "2025",
@@ -417922,7 +417922,7 @@
           "tle": 0,
           "music-and-arts": 1761,
           "pe-and-health": 0,
-          "mathematics": 0
+          "mathematics": 567
         },
         "10": {
           "ve": 0,
@@ -417932,8 +417932,8 @@
           "araling-panlipunan": 0,
           "tle": 0,
           "music-and-arts": 517,
-          "pe-and-health": 0,
-          "mathematics": 0
+          "pe-and-health": 559,
+          "mathematics": 559
         }
       },
       "deliveryByYear": {
@@ -418297,7 +418297,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 567
           }
         },
         "10": {
@@ -418339,12 +418339,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 559
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 559
           }
         }
       },
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 93854,
-      "deliveredTotal": 363259,
-      "deliveryPercentage": 387.05,
+      "deliveredTotal": 364944,
+      "deliveryPercentage": 388.84,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -432790,7 +432790,7 @@
               "tle": 0,
               "music-and-arts": 283,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 283
             },
             "10": {
               "ve": 0,
@@ -432800,8 +432800,8 @@
               "araling-panlipunan": 0,
               "tle": 0,
               "music-and-arts": 259,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 297,
+              "mathematics": 297
             }
           },
           "deliveryByYear": {
@@ -433165,7 +433165,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 283
               }
             },
             "10": {
@@ -433207,12 +433207,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 297
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 297
               }
             }
           },
@@ -433229,8 +433229,8 @@
             "10": 151
           },
           "enrollmentTotal": 766,
-          "deliveredTotal": 6654,
-          "deliveryPercentage": 868.67
+          "deliveredTotal": 7531,
+          "deliveryPercentage": 983.16
         },
         {
           "id": "lawang-bato-elementary-school",
@@ -438631,7 +438631,7 @@
               "tle": 0,
               "music-and-arts": 284,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 284
             },
             "10": {
               "ve": 0,
@@ -438641,8 +438641,8 @@
               "araling-panlipunan": 0,
               "tle": 0,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 262,
+              "mathematics": 262
             }
           },
           "deliveryByYear": {
@@ -439006,7 +439006,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 284
               }
             },
             "10": {
@@ -439048,12 +439048,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 262
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 262
               }
             }
           },
@@ -439070,8 +439070,8 @@
             "10": 222
           },
           "enrollmentTotal": 940,
-          "deliveredTotal": 5556,
-          "deliveryPercentage": 591.06
+          "deliveredTotal": 6364,
+          "deliveryPercentage": 677.02
         },
         {
           "id": "marulas-central-school",
