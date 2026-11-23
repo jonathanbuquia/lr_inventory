@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-23T02:17:13.300Z",
+  "generatedAt": "2026-11-23T02:32:03.501Z",
   "years": [
     "2024",
     "2025",
@@ -417932,8 +417932,8 @@
           "araling-panlipunan": 0,
           "tle": 0,
           "music-and-arts": 517,
-          "pe-and-health": 559,
-          "mathematics": 559
+          "pe-and-health": 1051,
+          "mathematics": 1051
         }
       },
       "deliveryByYear": {
@@ -418339,12 +418339,12 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 0,
-            "2026": 559
+            "2026": 1051
           },
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 559
+            "2026": 1051
           }
         }
       },
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 93854,
-      "deliveredTotal": 365395,
-      "deliveryPercentage": 389.32,
+      "deliveredTotal": 366379,
+      "deliveryPercentage": 390.37,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -434924,8 +434924,8 @@
               "araling-panlipunan": 0,
               "tle": 0,
               "music-and-arts": 0,
-              "pe-and-health": 0,
-              "mathematics": 0
+              "pe-and-health": 492,
+              "mathematics": 492
             }
           },
           "deliveryByYear": {
@@ -435331,12 +435331,12 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 492
               },
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 492
               }
             }
           },
@@ -435353,8 +435353,8 @@
             "10": 330
           },
           "enrollmentTotal": 1580,
-          "deliveredTotal": 9159,
-          "deliveryPercentage": 579.68
+          "deliveredTotal": 10143,
+          "deliveryPercentage": 641.96
         },
         {
           "id": "lingunan-senior-high-school",
