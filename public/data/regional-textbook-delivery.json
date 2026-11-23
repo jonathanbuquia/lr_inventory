@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-22T05:22:17.232Z",
+  "generatedAt": "2026-11-23T02:17:13.300Z",
   "years": [
     "2024",
     "2025",
@@ -417922,7 +417922,7 @@
           "tle": 0,
           "music-and-arts": 1761,
           "pe-and-health": 0,
-          "mathematics": 567
+          "mathematics": 1018
         },
         "10": {
           "ve": 0,
@@ -418297,7 +418297,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 0,
-            "2026": 567
+            "2026": 1018
           }
         },
         "10": {
@@ -418361,8 +418361,8 @@
         "10": 5390
       },
       "enrollmentTotal": 93854,
-      "deliveredTotal": 364944,
-      "deliveryPercentage": 388.84,
+      "deliveredTotal": 365395,
+      "deliveryPercentage": 389.32,
       "schools": [
         {
           "id": "andres-fernando-elementary-school",
@@ -434914,7 +434914,7 @@
               "tle": 0,
               "music-and-arts": 451,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 451
             },
             "10": {
               "ve": 0,
@@ -435289,7 +435289,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 451
               }
             },
             "10": {
@@ -435353,8 +435353,8 @@
             "10": 330
           },
           "enrollmentTotal": 1580,
-          "deliveredTotal": 8708,
-          "deliveryPercentage": 551.14
+          "deliveredTotal": 9159,
+          "deliveryPercentage": 579.68
         },
         {
           "id": "lingunan-senior-high-school",
