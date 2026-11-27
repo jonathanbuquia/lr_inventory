@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-23T02:32:03.501Z",
+  "generatedAt": "2026-11-27T03:31:53.111Z",
   "years": [
     "2024",
     "2025",
@@ -178382,14 +178382,14 @@
           "mathematics": 0
         },
         "6": {
-          "gmrc": 0,
+          "gmrc": 571,
           "english": 1204,
-          "filipino": 633,
+          "filipino": 1204,
           "science": 1204,
           "araling-panlipunan": 0,
           "epp": 571,
           "music-and-arts": 0,
-          "pe-and-health": 633,
+          "pe-and-health": 1204,
           "mathematics": 571
         },
         "7": {
@@ -178617,7 +178617,7 @@
           "gmrc": {
             "2024": 0,
             "2025": 0,
-            "2026": 0
+            "2026": 571
           },
           "english": {
             "2024": 0,
@@ -178627,7 +178627,7 @@
           "filipino": {
             "2024": 0,
             "2025": 633,
-            "2026": 0
+            "2026": 571
           },
           "science": {
             "2024": 0,
@@ -178652,7 +178652,7 @@
           "pe-and-health": {
             "2024": 0,
             "2025": 633,
-            "2026": 0
+            "2026": 571
           },
           "mathematics": {
             "2024": 0,
@@ -178862,8 +178862,8 @@
         "10": 6642
       },
       "enrollmentTotal": 64553,
-      "deliveredTotal": 275324,
-      "deliveryPercentage": 426.51,
+      "deliveredTotal": 277037,
+      "deliveryPercentage": 429.16,
       "schools": [
         {
           "id": "barangka-elementary-school",
@@ -181037,14 +181037,14 @@
               "mathematics": 0
             },
             "6": {
-              "gmrc": 0,
+              "gmrc": 571,
               "english": 571,
-              "filipino": 0,
+              "filipino": 571,
               "science": 571,
               "araling-panlipunan": 0,
               "epp": 571,
               "music-and-arts": 0,
-              "pe-and-health": 0,
+              "pe-and-health": 571,
               "mathematics": 571
             },
             "7": {
@@ -181272,7 +181272,7 @@
               "gmrc": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 571
               },
               "english": {
                 "2024": 0,
@@ -181282,7 +181282,7 @@
               "filipino": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 571
               },
               "science": {
                 "2024": 0,
@@ -181307,7 +181307,7 @@
               "pe-and-health": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 571
               },
               "mathematics": {
                 "2024": 0,
@@ -181517,8 +181517,8 @@
             "10": 0
           },
           "enrollmentTotal": 3026,
-          "deliveredTotal": 15487,
-          "deliveryPercentage": 511.8
+          "deliveredTotal": 17200,
+          "deliveryPercentage": 568.41
         },
         {
           "id": "fortune-high-school",
@@ -267006,20 +267006,20 @@
         }
       },
       "enrollmentByGrade": {
-        "1": 9498,
-        "2": 9703,
-        "3": 10655,
-        "4": 11257,
-        "5": 10901,
-        "6": 10488,
+        "1": 9536,
+        "2": 9690,
+        "3": 10623,
+        "4": 11145,
+        "5": 10964,
+        "6": 10554,
         "7": 9218,
         "8": 9412,
         "9": 7652,
         "10": 8071
       },
-      "enrollmentTotal": 96855,
+      "enrollmentTotal": 96865,
       "deliveredTotal": 324052,
-      "deliveryPercentage": 334.57,
+      "deliveryPercentage": 334.54,
       "schools": [
         {
           "id": "bagong-ilog-elementary-school",
@@ -269661,20 +269661,20 @@
             }
           },
           "enrollmentByGrade": {
-            "1": 489,
-            "2": 506,
-            "3": 549,
-            "4": 656,
-            "5": 608,
-            "6": 549,
+            "1": 527,
+            "2": 493,
+            "3": 517,
+            "4": 544,
+            "5": 671,
+            "6": 615,
             "7": 0,
             "8": 0,
             "9": 0,
             "10": 0
           },
-          "enrollmentTotal": 3357,
+          "enrollmentTotal": 3367,
           "deliveredTotal": 16988,
-          "deliveryPercentage": 506.05
+          "deliveryPercentage": 504.54
         },
         {
           "id": "dela-paz-elementary-school",
