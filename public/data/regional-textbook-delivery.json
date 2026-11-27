@@ -1,6 +1,6 @@
 {
   "title": "Status of Textbook Delivery",
-  "generatedAt": "2026-11-27T03:31:53.111Z",
+  "generatedAt": "2026-11-27T23:04:38.461Z",
   "years": [
     "2024",
     "2025",
@@ -106214,7 +106214,7 @@
           "tle": 0,
           "music-and-arts": 492,
           "pe-and-health": 769,
-          "mathematics": 541
+          "mathematics": 1340
         }
       },
       "deliveryByYear": {
@@ -106625,7 +106625,7 @@
           "mathematics": {
             "2024": 0,
             "2025": 116,
-            "2026": 425
+            "2026": 1224
           }
         }
       },
@@ -106642,8 +106642,8 @@
         "10": 3212
       },
       "enrollmentTotal": 36609,
-      "deliveredTotal": 184498,
-      "deliveryPercentage": 503.97,
+      "deliveredTotal": 185297,
+      "deliveryPercentage": 506.15,
       "schools": [
         {
           "id": "addition-hills-integrated-school",
@@ -115772,7 +115772,7 @@
               "tle": 0,
               "music-and-arts": 832,
               "pe-and-health": 0,
-              "mathematics": 0
+              "mathematics": 799
             }
           },
           "deliveryByYear": {
@@ -116183,7 +116183,7 @@
               "mathematics": {
                 "2024": 0,
                 "2025": 0,
-                "2026": 0
+                "2026": 799
               }
             }
           },
@@ -116200,8 +116200,8 @@
             "10": 600
           },
           "enrollmentTotal": 2720,
-          "deliveredTotal": 16923,
-          "deliveryPercentage": 622.17
+          "deliveredTotal": 17722,
+          "deliveryPercentage": 651.54
         },
         {
           "id": "nueve-de-febrero-elementary-school",
